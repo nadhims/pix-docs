@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+/* ============================================
+   Design Tokens
+   ============================================ */
+
 :root {
   --ifm-color-primary: #D97756;
   --ifm-color-primary-dark: #D4623D;
@@ -8,40 +12,50 @@
   --ifm-color-primary-light: #E08D6F;
   --ifm-color-primary-lighter: #E59A7F;
   --ifm-color-primary-lightest: #EDB8A3;
-  --ifm-background-color: #F2F0EF;
+  --ifm-background-color: #fff;
+  --ifm-background-surface-color: #fff;
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-font-color-base: #181514;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-semibold: 600;
+  --ifm-line-height-base: 1.65;
+  --ifm-spacing-horizontal: 1.5rem;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
 
-[data-theme='dark'] {
-  --ifm-color-primary: #E08D6F;
-  --ifm-color-primary-dark: #D97756;
-  --ifm-color-primary-darker: #D4623D;
-  --ifm-color-primary-darkest: #C95A36;
-  --ifm-color-primary-light: #E59A7F;
-  --ifm-color-primary-lighter: #EDB8A3;
-  --ifm-color-primary-lightest: #F2CFC0;
-  --ifm-background-color: #1a1817;
-  --ifm-font-color-base: #e8e6e5;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Sidebar */
+  --doc-sidebar-width: 280px;
+  --ifm-menu-color: #444;
+  --ifm-menu-color-active: #D97756;
+  --ifm-menu-color-background-active: rgba(217, 119, 86, 0.08);
+
+  /* Table of contents */
+  --ifm-toc-border-color: #eee;
+
+  /* Admonitions */
+  --ifm-alert-border-left-width: 4px;
 }
 
 /* ============================================
-   Navbar — match pixapp.id dark header
+   Navbar — clean dark header
    ============================================ */
 
 .navbar {
   background-color: #181514;
-  padding: 16px 56px;
+  padding: 0 40px;
+  height: 64px;
   box-shadow: none;
   border-bottom: none;
 }
 
 .navbar--dark {
   --ifm-navbar-background-color: #181514;
+}
+
+.navbar__inner {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .navbar__title {
@@ -54,9 +68,9 @@
 }
 
 .navbar__link {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   transition: color 0.15s;
 }
 
@@ -66,59 +80,78 @@
 }
 
 .navbar__items--right .navbar__link {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .navbar__items--right .navbar__link:hover {
   color: #fff;
 }
 
-/* CTA button in navbar */
-.navbar-cta-btn {
-  padding: 10px 20px !important;
-  font-size: 15px !important;
+/* Hide external link icon on all navbar links */
+.navbar__link[href*="://"]::after,
+.navbar__item[href*="://"]::after,
+.navbar-site-link::after {
+  display: none !important;
+}
+
+/* "Go to Pix" link — subtle outline style */
+.navbar-site-link {
+  font-size: 13px !important;
   font-weight: 500 !important;
-  color: #fff !important;
-  background-color: #D97756;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.15s;
+  color: rgba(255, 255, 255, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 6px 14px !important;
+  transition: all 0.15s;
 }
 
-.navbar-cta-btn:hover {
-  background-color: #c4684a;
+.navbar-site-link:hover {
   color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* Locale dropdown styling */
+/* Locale dropdown */
 .navbar__items--right .dropdown__toggle {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
 }
 
 .navbar__items--right .dropdown__toggle:hover {
   color: #fff;
 }
 
-/* Sidebar toggle button color */
+/* Sidebar toggle */
 .navbar__toggle {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
 }
 
-/* Search bar styling in dark nav */
+/* Search bar in dark navbar */
+.navbar .aa-DetachedSearchButton,
 .navbar .DocSearch-Button {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  height: 36px;
 }
 
+.navbar .aa-DetachedSearchButton:hover,
 .navbar .DocSearch-Button:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Mobile navbar */
+@media (max-width: 996px) {
+  .navbar {
+    padding: 0 20px;
+  }
+}
+
+/* Mobile sidebar nav */
 .navbar-sidebar {
   background-color: #181514;
 }
@@ -135,7 +168,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-.menu {
+.navbar-sidebar .menu {
   background-color: #181514;
 }
 
@@ -148,29 +181,225 @@
   color: #fff;
 }
 
-@media (max-width: 996px) {
-  .navbar {
-    padding: 16px 24px;
-  }
+/* ============================================
+   Sidebar — clean, minimal
+   ============================================ */
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid #f0efee;
+}
+
+.menu {
+  padding: 16px 12px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.menu__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  border-radius: 6px;
+  padding: 6px 12px;
+  transition: all 0.1s;
+}
+
+.menu__link:hover {
+  color: #181514;
+  background-color: #f8f7f6;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 500;
+  color: #D97756;
+  background-color: rgba(217, 119, 86, 0.06);
+}
+
+.menu__link--sublist-caret::after {
+  background-size: 1.2em 1.2em;
+  opacity: 0.4;
+}
+
+.menu__list-item-collapsible:hover {
+  background-color: #f8f7f6;
+  border-radius: 6px;
+}
+
+.theme-doc-sidebar-item-category > .menu__list {
+  border-left: 1px solid #f0efee;
+  margin-left: 12px;
+  padding-left: 8px;
 }
 
 /* ============================================
-   Footer — match pixapp.id flat layout
+   Main content — white, clean
    ============================================ */
 
-/* Hide default Docusaurus footer */
+.main-wrapper {
+  background-color: #fff;
+}
+
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module,
+[class*="docMainContainer"] {
+  background-color: #fff;
+}
+
+article {
+  max-width: 780px;
+}
+
+.theme-doc-markdown h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  color: #181514;
+}
+
+.theme-doc-markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #f0efee;
+  color: #181514;
+}
+
+.theme-doc-markdown h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: #181514;
+}
+
+.theme-doc-markdown p {
+  color: #444;
+  line-height: 1.7;
+}
+
+.theme-doc-markdown li {
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Breadcrumbs */
+.breadcrumbs__link {
+  font-size: 13px;
+  color: #999;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #D97756;
+}
+
+/* Table of contents (right sidebar) */
+.table-of-contents {
+  font-size: 13px;
+  border-left: 1px solid #f0efee;
+}
+
+.table-of-contents__link {
+  color: #999;
+}
+
+.table-of-contents__link--active {
+  color: #D97756;
+  font-weight: 500;
+}
+
+/* Pagination (prev/next) */
+.pagination-nav__link {
+  border-color: #f0efee;
+  border-radius: 8px;
+  transition: border-color 0.15s;
+}
+
+.pagination-nav__link:hover {
+  border-color: #D97756;
+}
+
+.pagination-nav__sublabel {
+  font-size: 12px;
+  color: #999;
+}
+
+.pagination-nav__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #181514;
+}
+
+/* ============================================
+   Admonitions — refined
+   ============================================ */
+
+.alert {
+  border-radius: 8px;
+  border-left-width: 4px;
+  font-size: 14px;
+}
+
+/* ============================================
+   Tables
+   ============================================ */
+
+table {
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #fafaf9;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #666;
+}
+
+table td {
+  color: #444;
+}
+
+table tr {
+  border-bottom-color: #f0efee;
+}
+
+/* ============================================
+   Code blocks
+   ============================================ */
+
+code {
+  border: 1px solid #f0efee;
+  background-color: #fafaf9;
+  border-radius: 4px;
+  font-size: 0.875em;
+  padding: 2px 6px;
+}
+
+pre code {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+/* ============================================
+   Footer — match pixapp.id
+   ============================================ */
+
 .footer {
   display: none;
 }
 
 .pix-footer {
-  padding: 48px 56px;
+  padding: 48px 40px;
   background-color: #181514;
   color: #fff;
 }
 
 .pix-footer-inner {
-  max-width: 1280px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -191,12 +420,13 @@
 
 .pix-footer-links {
   display: flex;
-  gap: 32px;
+  gap: 28px;
+  flex-wrap: wrap;
 }
 
 .pix-footer-links a {
-  font-size: 14px;
-  color: #999;
+  font-size: 13px;
+  color: #888;
   text-decoration: none;
   transition: color 0.15s;
 }
@@ -210,9 +440,9 @@
   text-align: center;
   margin-top: 32px;
   padding-top: 32px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #2a2827;
   font-size: 13px;
-  color: #999;
+  color: #666;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -221,7 +451,7 @@
 }
 
 .pix-footer-contact a {
-  color: #999;
+  color: #666;
   text-decoration: none;
   transition: color 0.15s;
 }
@@ -234,13 +464,13 @@
   width: 100%;
   text-align: center;
   margin-top: 12px;
-  font-size: 13px;
-  color: #666;
+  font-size: 12px;
+  color: #555;
 }
 
 @media (max-width: 768px) {
   .pix-footer {
-    padding: 32px 24px;
+    padding: 32px 20px;
   }
 
   .pix-footer-inner {
@@ -249,15 +479,6 @@
   }
 
   .pix-footer-links {
-    flex-wrap: wrap;
     justify-content: center;
   }
-}
-
-/* ============================================
-   Content area
-   ============================================ */
-
-article {
-  max-width: 800px;
 }

@@ -70,7 +70,8 @@ const config: Config = {
     image: 'img/pix-social-card.png',
     colorMode: {
       defaultMode: 'light',
-      respectPrefersColorScheme: true,
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       style: 'dark',
@@ -89,29 +90,14 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://pixapp.id/Public/Pricing',
-          label: 'Pricing',
-          position: 'left',
-        },
-        {
-          href: 'https://pixapp.id/Public/Download',
-          label: 'Download',
-          position: 'left',
-        },
-        {
           type: 'localeDropdown',
           position: 'right',
         },
         {
-          href: 'https://pixapp.id/Account/Login',
-          label: 'Login',
+          href: 'https://pixapp.id',
+          label: 'Go to Pix',
           position: 'right',
-        },
-        {
-          href: 'https://pixapp.id/#signup',
-          label: 'Start Free',
-          position: 'right',
-          className: 'navbar-cta-btn',
+          className: 'navbar-site-link',
         },
       ],
     },
