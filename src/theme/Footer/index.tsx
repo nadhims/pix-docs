@@ -19,9 +19,7 @@ export default function Footer(): JSX.Element {
           <a href="https://discord.gg/mvGb7YHmNh" target="_blank" rel="noopener noreferrer">Community</a>
         </div>
         <div className="pix-footer-contact">
-          <span>MBR, Katulampa, Bogor, Indonesia 16144</span>
-          <span>&middot;</span>
-          <a href="https://wa.me/6285121355870">+62 851-2135-5870</a>
+          <span>Bogor, Indonesia</span>
           <span>&middot;</span>
           <a href="mailto:contact@pixapp.id">contact@pixapp.id</a>
         </div>
