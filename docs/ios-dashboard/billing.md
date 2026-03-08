@@ -1,0 +1,57 @@
+---
+sidebar_position: 7
+title: Billing
+description: Manage your Pix plan, configure payment gateways, and view invoices from the Billing tab.
+tags: [ios, billing, payments, gateways, plans]
+---
+
+# Billing
+
+The Billing tab handles two things: your Pix subscription plan and the payment gateways your booths use to accept guest payments.
+
+## Your Plan
+
+The top section shows your current Pix subscription:
+
+- **Plan Name** — Starter, Day Pass, or Business (Monthly/Yearly)
+- **Status** — Active, Expiring, or Expired
+- **Renewal Date** — when your next billing cycle starts
+- **Booth Limit** — how many booths your plan supports
+
+<!-- Screenshot: Billing plan overview -->
+
+To change plans, tap **Manage Plan**. You'll see the available options with pricing. Upgrades take effect immediately; downgrades apply at the end of your current billing period.
+
+:::info
+The Starter plan is free and supports one booth with limited features. Upgrade to Business for full access to Pix Studio, sharing, analytics, and unlimited templates.
+:::
+
+## Payment Gateway Configuration
+
+Your booths can accept payments from guests (e.g., pay-per-session or event packages). Pix supports three Indonesian payment gateways:
+
+| Gateway | Supported Methods |
+|---------|------------------|
+| **Xendit** | Bank transfer, e-wallets (OVO, DANA, GoPay), credit cards |
+| **DOKU** | Bank transfer, e-wallets, convenience store |
+| **Midtrans** | Bank transfer, e-wallets, credit cards, QRIS |
+
+### Setting Up a Gateway
+
+1. Tap **Payment Gateways** in the Billing tab.
+2. Tap **Add Gateway**.
+3. Select your provider (Xendit, DOKU, or Midtrans).
+4. Enter your API keys (found in your gateway's merchant dashboard).
+5. Tap **Verify & Save** — Pix will test the connection.
+
+:::caution
+Keep your API keys confidential. Use production keys for live booths and sandbox/test keys only during setup. Never share keys in screenshots or support tickets.
+:::
+
+## Invoices
+
+Scroll down in the Billing tab to see your invoice history. Each invoice shows the amount, date, and payment status. Tap an invoice to view or share the PDF.
+
+:::tip
+Set up a dedicated email for invoice notifications so billing records are easy to find during tax season.
+:::
