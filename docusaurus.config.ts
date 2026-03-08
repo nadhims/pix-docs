@@ -73,81 +73,52 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Pix Docs',
+      style: 'dark',
       logo: {
-        alt: 'Pix Logo',
-        src: 'img/logo.svg',
+        alt: 'Pix',
+        src: 'img/pix-logo-light.png',
+        srcDark: 'img/pix-logo-light.png',
+        href: '/',
+        style: {height: '28px'},
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Docs',
+        },
+        {
+          href: 'https://pixapp.id/Public/Pricing',
+          label: 'Pricing',
+          position: 'left',
+        },
+        {
+          href: 'https://pixapp.id/Public/Download',
+          label: 'Download',
+          position: 'left',
         },
         {
           type: 'localeDropdown',
           position: 'right',
         },
         {
-          href: 'https://pixapp.id',
-          label: 'pixapp.id',
+          href: 'https://pixapp.id/Account/Login',
+          label: 'Login',
           position: 'right',
+        },
+        {
+          href: 'https://pixapp.id/#signup',
+          label: 'Start Free',
+          position: 'right',
+          className: 'navbar-cta-btn',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/getting-started/overview',
-            },
-            {
-              label: 'Desktop App',
-              to: '/docs/desktop-app/overview',
-            },
-            {
-              label: 'iOS Dashboard',
-              to: '/docs/ios-dashboard/overview',
-            },
-          ],
-        },
-        {
-          title: 'Product',
-          items: [
-            {
-              label: 'Pix Website',
-              href: 'https://pixapp.id',
-            },
-            {
-              label: 'Download',
-              href: 'https://pixapp.id/download',
-            },
-            {
-              label: 'Pricing',
-              to: '/docs/pricing/plans',
-            },
-          ],
-        },
-        {
-          title: 'Support',
-          items: [
-            {
-              label: 'Troubleshooting',
-              to: '/docs/desktop-app/troubleshooting',
-            },
-            {
-              label: 'System Requirements',
-              to: '/docs/reference/system-requirements',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Pix. All rights reserved.`,
+      links: [],
+      copyright: ' ',
     },
     prism: {
       theme: prismThemes.github,
