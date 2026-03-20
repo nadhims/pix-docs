@@ -1,11 +1,11 @@
 ---
 sidebar_position: 7
-title: Offline Mode
+title: Offline Resilience
 description: How the Pix Desktop App handles sessions and uploads when internet connectivity is lost.
 tags: [desktop-app, offline, queue, resilience]
 ---
 
-# Offline Mode
+# Offline Resilience
 
 The Pix Desktop App is designed to keep running even when your internet connection drops. Events should never stop because of a WiFi hiccup.
 
@@ -23,7 +23,7 @@ The app caches your booth configuration, templates, and branding locally. Even i
 
 ## Upload Queue
 
-Every session produces files that need to reach the Pix cloud (composite images, GIFs, live photo videos). When online, these upload immediately. When offline, they enter a persistent queue.
+Every session produces soft files that need to reach the Pix cloud (composites, GIFs, live photo videos, singles). When online, these upload immediately. When offline, they enter a persistent queue.
 
 The queue:
 
@@ -47,7 +47,7 @@ Check the dead-letter queue periodically, especially after events with poor conn
 
 ## Working Without Internet
 
-For fully offline events (remote locations, no WiFi), the booth works perfectly for capture and print. Digital sharing (QR codes, guest pages) will become available once you reconnect the device to the internet and the queue drains.
+For fully offline events (remote locations, no WiFi), the booth works perfectly for capture and print. Microsites (QR code sharing and guest pages) will become available once you reconnect the device to the internet and the queue drains.
 
 :::tip
 If you know your event will be offline, pre-sync your booth by launching the app and completing one test session while online. This ensures all templates and branding are cached locally.

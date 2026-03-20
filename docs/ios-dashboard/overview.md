@@ -15,7 +15,7 @@ The Pix iOS Dashboard is a native SwiftUI app that puts your entire photobooth o
 
 - **iOS 26 or later** (iPhone or iPad)
 - A Pix account with at least one active booth
-- Internet connection (no offline mode)
+- Internet connection (no offline support)
 
 ## Main Tabs
 

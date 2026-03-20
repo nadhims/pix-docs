@@ -1,37 +1,68 @@
 ---
 sidebar_position: 6
 title: Filters
-description: Optional photo filters guests can apply during a session in the Pix Desktop App.
-tags: [desktop-app, session, filters, effects]
+description: Photo filters guests can apply after capture in the Pix Desktop App — 14 built-in filters plus custom .CUBE LUT support.
+tags: [desktop-app, session, filters, effects, lut]
 ---
 
 # Filters
 
-The filter step is an optional part of the session flow that lets guests apply a visual effect to their captured photo before sharing.
+The filter step is an optional part of the session flow that lets guests apply a color grading effect to their captured photos before sharing.
 
 ## How It Works
 
-After capture, if filters are enabled, guests see a preview of their photo with a selection of filter options below. They tap a filter to preview it, then confirm their choice.
+After capture, if filters are enabled for the booth, guests see a scrollable strip of filter previews below their photo. Each preview shows the actual photo with the filter applied, so guests know exactly what they're choosing. Tap a filter to select it, then continue to sharing.
 
 <!-- Screenshot: Filter selection screen with preview and filter thumbnails -->
 
-The app processes the filter in real time, so guests see the result immediately before committing.
+Filter previews are generated in the background using a Web Worker, so the interface stays responsive even with many filters available.
 
-## Available Filters
+## Built-In Filters
 
-The Pix Desktop App includes a curated set of filters designed to look great on photobooth captures:
+The Pix Desktop App ships with 14 curated filters designed to look great on photobooth captures:
 
-- **Original** -- no filter applied (always available as an option)
-- **Black & White** -- classic monochrome conversion
-- **Vintage** -- warm tones with subtle fading for a retro feel
-- **Warm** -- enhanced warm tones, flattering for skin
-- **Cool** -- blue-shifted tones for a modern look
-- **High Contrast** -- boosted contrast for dramatic results
-- **Soft** -- gentle softening for a dreamy effect
+- **Original** — no filter applied (always available)
+- **Warm Vintage** — warm tones with subtle fading for a retro feel
+- **Cool Blue** — blue-shifted tones for a modern look
+- **Black & White Classic** — timeless monochrome conversion
+- **Sunset Glow** — golden warmth inspired by golden hour
+- **Film Noir** — dramatic contrast with deep shadows
+- **Soft Pastel** — gentle softening for a dreamy effect
+- **Golden Hour** — warm highlights with soft contrast
+- **Moody Teal** — teal-and-orange cinematic grading
+- **Sepia Tone** — classic brown-tinted vintage
+- **High Contrast** — boosted contrast for dramatic results
+- **Faded Film** — desaturated analog film emulation
+- **Rose Tint** — soft pink warmth
+- **Arctic** — cool, desaturated blue tones
+- **Cinematic** — Hollywood-style color grading
+
+## Custom .CUBE LUT Filters
+
+For operators who want precise color grading control, Pix supports uploading custom .CUBE LUT files — the same format used by professional video editors and colorists.
+
+**To upload custom filters:**
+
+1. Open the Pix dashboard.
+2. Navigate to the **Filters** section.
+3. Upload your `.cube` file (standard 3D LUT format).
+4. The filter appears alongside the built-in options for any booth it's assigned to.
+
+Each organization can upload up to 50 custom filters. Custom filters are managed per-booth from the dashboard, so you can curate different looks for different events.
 
 :::tip
-For events with a specific aesthetic (e.g., a vintage-themed party), you can limit the available filters in your booth settings to match the vibe.
+Create signature filters that match your brand. Clients remember the unique look of your photos, and custom LUTs let you build a distinctive visual style.
 :::
+
+## Per-Booth Filter Assignment
+
+By default, all filters (built-in + custom) are available on every booth. You can customize which filters appear for specific booths:
+
+1. Open booth settings in the dashboard.
+2. Go to **Filter Assignments**.
+3. Select which filters to include and set their display order.
+
+This lets you curate event-specific filter sets — for example, only warm tones for a rustic wedding or only high-contrast options for a corporate brand activation.
 
 ## Enabling Filters
 
@@ -39,18 +70,13 @@ Filters are enabled per booth from the Pix dashboard:
 
 1. Open your booth settings.
 2. Toggle **Enable Filters** on.
-3. Optionally select which filters to include in the picker.
 
 When disabled, the session skips the filter step and goes straight from capture to sharing.
 
 ## Performance
 
-Filter processing happens locally on the device and takes less than a second. No internet connection is required for this step.
-
-:::info
-Filters are applied to the final composite image, not to individual shots. This means the filter affects the entire layout including any overlay graphics that have transparent regions.
-:::
+Filter processing happens entirely on-device using 3D LUT trilinear interpolation. No internet connection is required. Preview generation takes milliseconds, and final filter application to all captured photos completes in under a second.
 
 ## Skipping Filters
 
-If speed is a priority (high-volume events), disable the filter step to shave a few seconds off each session. Guests go directly from capture to sharing.
+For high-volume events where speed is a priority, disable the filter step to shave a few seconds off each session. Guests go directly from capture to sharing.

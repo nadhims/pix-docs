@@ -38,7 +38,7 @@ For event use, a touchscreen display is strongly recommended. Pix is designed as
 - Minimum recommended speed: 5 Mbps upload for smooth photo syncing between sessions.
 
 :::caution
-QR code sharing and guest pages require an active internet connection. If you're running an event at a venue with unreliable Wi-Fi, consider a mobile hotspot as backup.
+Microsites (QR code sharing and branded guest pages) require an active internet connection. If you're running an event at a venue with unreliable Wi-Fi, consider a mobile hotspot as backup.
 :::
 
 ### Camera
@@ -59,7 +59,7 @@ The iOS Dashboard is a management app for monitoring your booths, viewing analyt
 |---|---|
 | iOS version | 26.0 or later |
 | Devices | iPhone and iPad |
-| Network | Internet connection required (no offline mode) |
+| Network | Internet connection required (no offline support) |
 
 :::info
 The iOS Dashboard is a management tool, not a capture app. You still need the Desktop App to run a booth.

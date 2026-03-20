@@ -39,7 +39,7 @@ A session is the complete journey a guest takes through the photobooth -- from t
        │
        ▼
 ┌─────────────┐
-│  Sharing     │  QR code, print, guest page
+│  Sharing     │  QR code, print, microsite
 └──────┬───────┘
        │
        ▼
@@ -58,9 +58,9 @@ A session is the complete journey a guest takes through the photobooth -- from t
 
 4. **Capture** -- The camera captures photos based on the mode configured for the selected template: composite (multiple shots arranged in a layout), GIF (animated sequence), or live photo (short video clip plus a still frame).
 
-5. **Filters** -- Optional. If enabled, guests can apply a filter (black & white, vintage, etc.) to their captured image before sharing.
+5. **Filters** -- Optional. If enabled, guests browse a scrollable strip of photo filter previews (14 built-in + custom .CUBE LUTs) and choose one before sharing.
 
-6. **Sharing** -- Guests receive their photo via QR code scan, instant print, or a link to their hosted guest page.
+6. **Sharing** -- Guests receive their photos via QR code scan (linking to their branded microsite), instant print, or both.
 
 After sharing, the session ends and the booth returns to the home screen, ready for the next guest.
 

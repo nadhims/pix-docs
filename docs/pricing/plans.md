@@ -16,10 +16,12 @@ The Starter plan is completely free and lets you get up and running with one boo
 **Includes:**
 - 1 booth
 - 2 templates
-- All capture modes (photo, GIF, live photo)
-- Offline capture support
+- All soft file types (composite, GIF, live photo, singles)
+- Photo filters
+- Camera support (Canon DSLR + webcam)
+- Offline resilience
 
-**Not included:** Template editor, QR sharing, print support, analytics, custom branding, or payment gateway integration.
+**Not included:** Template editor, UI editor, microsites, printer support, real-time analytics, booth health, license management, custom branding, or payment gateway integration.
 
 ## Day Pass — $7 per day
 
@@ -42,10 +44,16 @@ Business Monthly is available at **$20/month** during the launch period — 50% 
 **Includes:**
 - Unlimited booths
 - Unlimited templates + template editor
-- All capture modes (photo, GIF, live photo)
-- QR sharing and print support
-- Offline mode with automatic sync
-- Analytics dashboard
+- UI editor (drag-and-drop kiosk interface design)
+- All soft file types (composite, GIF, live photo, singles)
+- Photo filters (14 built-in + custom .CUBE LUT upload)
+- Microsites (QR sharing + branded guest pages)
+- Printer support with alignment controls
+- Offline resilience with automatic cloud sync
+- Real-time analytics with booth leaderboard
+- Booth health monitoring
+- License management and transfer
+- Camera support (Canon DSLR + webcam)
 - Payment gateway integration
 - Custom branding
 

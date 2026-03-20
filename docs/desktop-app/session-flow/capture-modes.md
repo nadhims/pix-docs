@@ -7,7 +7,7 @@ tags: [desktop-app, session, capture, gif, live-photo, composite]
 
 # Capture Modes
 
-The Pix Desktop App supports three capture modes, each producing a different type of output. The capture mode is determined by the template the guest selects.
+The Pix Desktop App supports three capture modes, each producing a different type of [soft file](/docs/reference/glossary#soft-files). The capture mode is determined by the template the guest selects. In addition to the mode-specific output, each session can also generate **singles** — the individual captured photos saved as separate JPEGs.
 
 ## Composite (Multi-Shot)
 

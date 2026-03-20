@@ -13,8 +13,8 @@ Pix is a modern photobooth platform that helps booth operators run professional 
 
 Pix consists of two main applications:
 
-- **Pix Desktop App** — An Electron-based kiosk application that runs on macOS and Windows. It handles the photobooth experience: camera capture, photo compositing, printing, and guest sharing.
-- **Pix iOS Dashboard** — A native iOS management app for booth operators. Monitor your booths, create templates, view analytics, manage billing, and more — all from your iPad or iPhone.
+- **Pix Desktop App** — An Electron-based kiosk application that runs on macOS and Windows. It handles the photobooth experience: camera capture, photo filters, soft file generation (composites, GIFs, live photos, singles), printing, and microsite sharing.
+- **Pix iOS Dashboard** — A native iOS management app for booth operators. Monitor booth health, create templates, view real-time analytics, manage licenses and billing, and more — all from your iPad or iPhone.
 
 ## What You'll Find Here
 
