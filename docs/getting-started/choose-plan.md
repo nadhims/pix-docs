@@ -12,13 +12,9 @@ Pix offers flexible pricing so you only pay for what you need. Here's a quick co
 | Plan | Price | Best For |
 |------|-------|----------|
 | **Starter** | Free | Trying out Pix -- 1 booth, 2 templates |
-| **Day Pass** | $7/day | One-off events, weddings, parties |
+| **Day Pass** | $5/day | One-off events, weddings, parties |
 | **Business Monthly** | $40/mo | Regular operators running weekly events |
 | **Business Yearly** | $25/mo ($300/yr) | Full-time operators who want the best value |
-
-:::tip Launch Pricing
-For a limited time, new Business subscribers get **50% off**: $20/mo (monthly) or $150/yr (yearly).
-:::
 
 ## Which Plan Should You Pick?
 

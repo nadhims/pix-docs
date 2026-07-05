@@ -46,5 +46,5 @@ All plans support capturing photos without an internet connection. The differenc
 Business and Day Pass plans let you connect a payment provider (Xendit, DOKU, or Midtrans) so guests can pay per session directly at the booth. This is optional — you can run a booth without guest-facing payments if your business model doesn't require it.
 
 :::info
-Need help deciding? If you run events regularly, Business Yearly offers the best value — especially at the current launch price of $150/year.
+Need help deciding? If you run events regularly, Business Yearly offers the best value at $300/year.
 :::

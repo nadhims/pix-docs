@@ -23,7 +23,7 @@ The Starter plan is completely free and lets you get up and running with one boo
 
 **Not included:** Template editor, UI editor, microsites, printer support, real-time analytics, booth health, license management, custom branding, or payment gateway integration.
 
-## Day Pass — $7 per day
+## Day Pass — $5 per day
 
 The Day Pass unlocks every feature for a single 24-hour activation window. Perfect for operators who run occasional events and don't need a monthly subscription.
 
@@ -36,10 +36,6 @@ If you run fewer than three events per month, Day Passes are more cost-effective
 ## Business Monthly — $40/month
 
 The full Pix experience on a monthly billing cycle. Manage multiple booths, use unlimited templates, and access every feature.
-
-:::info Launch Pricing
-Business Monthly is available at **$20/month** during the launch period — 50% off the standard price.
-:::
 
 **Includes:**
 - Unlimited booths
@@ -60,10 +56,6 @@ Business Monthly is available at **$20/month** during the launch period — 50% 
 ## Business Yearly — $25/month ($300/year)
 
 Everything in Business Monthly at a reduced annual rate. Pay once per year and save compared to monthly billing.
-
-:::info Launch Pricing
-Business Yearly is available at **$150 for the first year** ($12.50/month effective) — 50% off the standard annual price.
-:::
 
 ## Choosing a Plan
 
