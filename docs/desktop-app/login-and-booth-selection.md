@@ -12,7 +12,7 @@ Before you can start running sessions, you need to sign in and pick which booth 
 ## Signing In
 
 1. Launch the Pix Desktop App.
-2. Enter your **pixapp.id** email and password.
+2. Enter your **pixture.io** email and password.
 3. Tap **Sign In**.
 
 The app authenticates against the Pix API and stores a secure session token. You will stay logged in across restarts unless you explicitly sign out.
@@ -20,7 +20,7 @@ The app authenticates against the Pix API and stores a secure session token. You
 <!-- Screenshot: Login screen with email and password fields -->
 
 :::tip
-Use the same credentials you use to log into the Pix dashboard at [pixapp.id](https://pixapp.id). If you have not created an account yet, sign up on the website first.
+Use the same credentials you use to log into the Pix dashboard at [pixture.io](https://pixture.io). If you have not created an account yet, sign up on the website first.
 :::
 
 ## Choosing a Booth

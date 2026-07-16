@@ -9,13 +9,13 @@ export default function Footer(): JSX.Element {
         </a>
         <div className="pix-footer-links">
           <a href="/docs">Docs</a>
-          <a href="https://pixapp.id/Public/Pricing">Pricing</a>
-          <a href="https://pixapp.id/Public/Download">Download</a>
-          <a href="https://pixapp.id/Account/Login">Login</a>
-          <a href="https://pixapp.id/Public/Terms">Terms</a>
-          <a href="https://pixapp.id/Public/Privacy">Privacy</a>
-          <a href="https://pixapp.id/Public/Refund">Refund Policy</a>
-          <a href="https://pixapp.id/Public/Contact">Contact</a>
+          <a href="https://pixture.io/Public/Pricing">Pricing</a>
+          <a href="https://pixture.io/Public/Download">Download</a>
+          <a href="https://pixture.io/Account/Login">Login</a>
+          <a href="https://pixture.io/Public/Terms">Terms</a>
+          <a href="https://pixture.io/Public/Privacy">Privacy</a>
+          <a href="https://pixture.io/Public/Refund">Refund Policy</a>
+          <a href="https://pixture.io/Public/Contact">Contact</a>
           <a href="https://discord.gg/mvGb7YHmNh" target="_blank" rel="noopener noreferrer">Community</a>
         </div>
         <div className="pix-footer-contact">

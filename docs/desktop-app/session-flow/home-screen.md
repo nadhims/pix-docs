@@ -28,7 +28,7 @@ Design your home screen to be visually inviting and obvious. A large, centered "
 
 To update the home screen:
 
-1. Log into your Pix dashboard at [pixapp.id](https://pixapp.id).
+1. Log into your Pix dashboard at [pixture.io](https://pixture.io).
 2. Navigate to your booth's settings.
 3. Edit the **Home Page** layout -- upload backgrounds, add text, position your logo.
 4. Save. The desktop app pulls the new layout on its next sync (usually within seconds).

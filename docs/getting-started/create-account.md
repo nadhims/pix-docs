@@ -11,12 +11,12 @@ Before you can use the Pix Desktop App or iOS Dashboard, you need a Pix account.
 
 ## Step-by-Step
 
-1. **Go to [pixapp.id](https://pixapp.id)** and click **Sign Up**.
+1. **Go to [pixture.io](https://pixture.io)** and click **Sign Up**.
 2. **Enter your details** -- provide your name, email address, and a password.
 3. **Verify your email** -- check your inbox for a verification link and click it to activate your account.
-4. **Log in to the dashboard** -- return to pixapp.id and sign in with your new credentials.
+4. **Log in to the dashboard** -- return to pixture.io and sign in with your new credentials.
 
-<!-- Screenshot: Sign up page on pixapp.id -->
+<!-- Screenshot: Sign up page on pixture.io -->
 
 :::tip
 Use the same email address across the Desktop App and iOS Dashboard so all your booths, templates, and billing stay connected under one account.

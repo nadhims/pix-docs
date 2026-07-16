@@ -11,7 +11,7 @@ The Pix Desktop App is the kiosk software that runs your photobooth. It's availa
 
 ## macOS
 
-1. Go to [pixapp.id/download](https://pixapp.id/download).
+1. Go to [pixture.io/download](https://pixture.io/download).
 2. Click **Download for macOS** to get the `.dmg` file.
 3. Open the `.dmg` and drag **Pix** into your **Applications** folder.
 4. Launch Pix from Applications. On first launch, macOS may ask you to confirm since the app was downloaded from the internet -- click **Open**.
@@ -20,7 +20,7 @@ The Pix Desktop App is the kiosk software that runs your photobooth. It's availa
 
 ## Windows
 
-1. Go to [pixapp.id/download](https://pixapp.id/download).
+1. Go to [pixture.io/download](https://pixture.io/download).
 2. Click **Download for Windows** to get the `.exe` installer.
 3. Run the installer and follow the prompts.
 

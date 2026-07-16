@@ -13,7 +13,7 @@ Welcome to Pix! This guide walks you through everything you need to go from zero
 
 Follow these five steps to get up and running:
 
-1. **[Create your account](./create-account.md)** -- Sign up at pixapp.id and verify your email.
+1. **[Create your account](./create-account.md)** -- Sign up at pixture.io and verify your email.
 2. **[Choose a plan](./choose-plan.md)** -- Pick Starter (free), Day Pass, or Business depending on your needs.
 3. **[Download the Desktop App](./download-desktop-app.md)** -- Install the Pix kiosk app on your macOS or Windows machine.
 4. **[Set up your first booth](./first-booth-setup.md)** -- Create a booth, connect your camera, and configure your settings.

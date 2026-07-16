@@ -11,7 +11,7 @@ Getting the Pix Desktop App installed takes just a few minutes on either macOS o
 
 ## Download
 
-Visit [pixapp.id/download](https://pixapp.id/download) to grab the latest installer. The page automatically detects your operating system and highlights the right download.
+Visit [pixture.io/download](https://pixture.io/download) to grab the latest installer. The page automatically detects your operating system and highlights the right download.
 
 ## macOS
 

@@ -24,7 +24,7 @@ Pix offers flexible pricing so you only pay for what you need. Here's a quick co
 
 ## How to Upgrade
 
-1. Log in to the Pix dashboard at **pixapp.id**.
+1. Log in to the Pix dashboard at **pixture.io**.
 2. Navigate to **Billing** in the sidebar.
 3. Select your plan and complete payment.
 

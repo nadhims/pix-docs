@@ -23,7 +23,7 @@ The Pix Dashboard iOS app lets you manage your photobooth business from your iPh
 - Works on both **iPhone** and **iPad**
 
 :::caution
-The iOS Dashboard requires iOS 26+. If your device is on an older version, you can manage everything through the web dashboard at pixapp.id instead.
+The iOS Dashboard requires iOS 26+. If your device is on an older version, you can manage everything through the web dashboard at pixture.io instead.
 :::
 
 ## Sign In

@@ -11,7 +11,7 @@ A "booth" in Pix represents a single photobooth station. You'll create it in the
 
 ## 1. Create a Booth
 
-Open the **Pix Dashboard** (iOS app or web at pixapp.id) and:
+Open the **Pix Dashboard** (iOS app or web at pixture.io) and:
 
 1. Go to the **Booths** tab.
 2. Tap **Create Booth**.

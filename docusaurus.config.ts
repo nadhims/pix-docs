@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://docs.pixapp.id',
+  url: 'https://docs.pixture.io',
   baseUrl: '/',
 
   organizationName: 'nadhims',
@@ -94,7 +94,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://pixapp.id',
+          href: 'https://pixture.io',
           label: 'Go to Pix',
           position: 'right',
           className: 'navbar-site-link',
