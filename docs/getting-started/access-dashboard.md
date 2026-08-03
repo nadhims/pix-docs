@@ -24,7 +24,7 @@ The Pix Dashboard and Desktop App share the same account. Any changes you make o
 
 From the Pix Dashboard you can:
 
-- **Dashboard tab** -- View session counts and revenue at a glance
+- **Dashboard tab** -- View photo session counts and revenue at a glance
 - **Booths tab** -- Create and configure booths, assign templates
 - **Gallery tab** -- Browse captured photos across all booths
 - **Billing tab** -- Manage your subscription and payment methods

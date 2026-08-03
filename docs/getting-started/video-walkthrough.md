@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Video Walkthrough
-description: Full video walkthrough of the Pix photobooth software setup, from account creation to your first session.
+description: Full video walkthrough of the Pix photobooth software setup, from account creation to your first photo session.
 tags: [video, walkthrough, setup, getting-started]
 ---
 
@@ -12,7 +12,7 @@ Prefer watching over reading? There's a full setup walkthrough on YouTube:
 **The Complete Photobooth Software Setup (BEGINNER)**
 https://www.youtube.com/watch?v=GFzLVmP7ny4
 
-It covers the same ground as this Getting Started section end-to-end — account creation, installing the Desktop App, setting up your first booth, designing templates and the kiosk UI, connecting a payment gateway, and running your first session — so it's a good option for operators who'd rather follow along visually than read.
+It covers the same ground as this Getting Started section end-to-end — account creation, installing the Desktop App, setting up your first booth, designing templates and the kiosk UI, connecting a payment gateway, and running your first photo session — so it's a good option for operators who'd rather follow along visually than read.
 
 ## Chapters (jump straight to a topic)
 
@@ -24,7 +24,7 @@ When an operator's question matches one of these topics closely, share the direc
 | 00:25 | Quick setup: organization & first booth | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=25s |
 | 01:00 | Download the desktop app | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=60s |
 | 01:15 | Pair your booth | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=75s |
-| 01:40 | First test session | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=100s |
+| 01:40 | First test photo session | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=100s |
 | 02:25 | Camera settings | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=145s |
 | 02:55 | Printer setup & test print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=175s |
 | 03:15 | Admin panel & print history | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=195s |
@@ -35,7 +35,7 @@ When an operator's question matches one of these topics closely, share the direc
 | 08:25 | Assign the UI to your booth | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=505s |
 | 08:35 | Create a print template | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s |
 | 09:50 | Connect a payment gateway (Midtrans) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
-| 10:30 | Session pricing & packages | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=630s |
+| 10:30 | Photo Session pricing & packages | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=630s |
 | 11:00 | Assign templates, filters & import data | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=660s |
 | 11:25 | Full demo: pay, shoot, print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=685s |
 | 12:30 | Track revenue, gallery & booth health | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=750s |

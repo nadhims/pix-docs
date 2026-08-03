@@ -54,7 +54,7 @@ Disable Canon's EOS Utility or any other tethering software before launching Pix
 
 If you don't have a Canon EOS camera, Pix can use any built-in or external webcam as a capture device. This is useful for:
 
-- Testing your booth layout and flow before opening to guests
+- Testing your booth layout and flow before opening to customers
 - Running a lower-cost setup where DSLR quality isn't required
 
 To switch to webcam mode, go to **Settings > Camera** in the Desktop App and select your webcam from the device list.

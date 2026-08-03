@@ -7,7 +7,7 @@ tags: [desktop-app, login, booth, setup]
 
 # Login & Booth Selection
 
-Before you can start running sessions, you need to sign in and pick which booth this device will operate as.
+Before you can start running photo sessions, you need to sign in and pick which booth this device will operate as.
 
 ## Signing In
 
@@ -30,7 +30,7 @@ After signing in, the app displays a list of booths associated with your organiz
 Each booth has its own:
 
 - **Templates** assigned from Pix Design
-- **Session history** and analytics
+- **Photo Session history** and analytics
 - **Settings** such as capture mode and sharing options
 
 <!-- Screenshot: Booth selection list -->

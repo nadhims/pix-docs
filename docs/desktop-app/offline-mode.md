@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Offline Resilience
-description: How the Pix Desktop App handles sessions and uploads when internet connectivity is lost.
+description: How the Pix Desktop App handles photo sessions and uploads when internet connectivity is lost.
 tags: [desktop-app, offline, queue, resilience]
 ---
 
@@ -13,7 +13,7 @@ The Pix Desktop App is designed to keep running even when your internet connecti
 
 When the app detects it is offline, it continues operating normally with a few adjustments:
 
-- **Sessions run uninterrupted** -- capture, compositing, filters, and printing all work without internet.
+- **Photo Sessions run uninterrupted** -- capture, compositing, filters, and printing all work without internet.
 - **Uploads are queued** -- photos that would normally upload to the Pix cloud are stored locally and placed in an upload queue.
 - **QR codes are deferred** -- the sharing screen shows a message that the photo will be available online once connectivity is restored.
 
@@ -23,7 +23,7 @@ The app caches your booth configuration, templates, and branding locally. Even i
 
 ## Upload Queue
 
-Every session produces soft files that need to reach the Pix cloud (composites, GIFs, live photo videos, singles). When online, these upload immediately. When offline, they enter a persistent queue.
+Every photo session produces soft files that need to reach the Pix cloud (composites, GIFs, live photo videos, singles). When online, these upload immediately. When offline, they enter a persistent queue.
 
 The queue:
 
@@ -47,10 +47,10 @@ Check the dead-letter queue periodically, especially after stretches of poor con
 
 ## Working Without Internet
 
-For kiosk locations with no internet access at all (remote sites, no WiFi), the booth works perfectly for capture and print. Microsites (QR code sharing and guest pages) will become available once you reconnect the device to the internet and the queue drains.
+For kiosk locations with no internet access at all (remote sites, no WiFi), the booth works perfectly for capture and print. Microsites (QR code sharing and customer pages) will become available once you reconnect the device to the internet and the queue drains.
 
 :::tip
-If you know a kiosk location has no reliable internet, pre-sync your booth by launching the app and completing one test session while online. This ensures all templates and branding are cached locally.
+If you know a kiosk location has no reliable internet, pre-sync your booth by launching the app and completing one test photo session while online. This ensures all templates and branding are cached locally.
 :::
 
 ## Monitoring Queue Status

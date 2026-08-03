@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
-title: Session Flow Overview
-description: The complete guest session flow in the Pix Desktop App, from start to sharing.
-tags: [desktop-app, session, flow]
+title: Photo Session Flow Overview
+description: The complete customer photo session flow in the Pix Desktop App, from start to sharing.
+tags: [desktop-app, photo session, flow]
 ---
 
-# Session Flow Overview
+# Photo Session Flow Overview
 
-A session is the complete journey a guest takes through the photobooth -- from tapping "Start" to walking away with their photo. Understanding the flow helps you configure each step for your kiosk location.
+A photo session is the complete journey a customer takes through the photobooth -- from tapping "Start" to walking away with their photo. Understanding the flow helps you configure each step for your kiosk location.
 
 ## Flow Diagram
 
@@ -23,7 +23,7 @@ A session is the complete journey a guest takes through the photobooth -- from t
        │
        ▼
 ┌─────────────┐
-│  Template    │  Guest picks a layout/template
+│  Template    │  Customer picks a layout/template
 │  Selection   │
 └──────┬───────┘
        │
@@ -44,7 +44,7 @@ A session is the complete journey a guest takes through the photobooth -- from t
        │
        ▼
 ┌─────────────┐
-│ Home Screen  │  Ready for next guest
+│ Home Screen  │  Ready for next customer
 └──────────────┘
 ```
 
@@ -52,22 +52,22 @@ A session is the complete journey a guest takes through the photobooth -- from t
 
 1. **Home Screen** -- Displays your booth's branding and a start button. Fully customizable via the CMS in your Pix dashboard.
 
-2. **Payment** -- Optional. If enabled, guests pay before proceeding. Skipped entirely when payment is disabled (free sessions) or on Starter plan booths.
+2. **Payment** -- Optional. If enabled, customers pay before proceeding. Skipped entirely when payment is disabled (free photo sessions) or on Starter plan booths.
 
-3. **Template Selection** -- Guests choose from the templates you have assigned to this booth in Pix Design.
+3. **Template Selection** -- Customers choose from the templates you have assigned to this booth in Pix Design.
 
 4. **Capture** -- The camera captures photos based on the mode configured for the selected template: composite (multiple shots arranged in a layout), GIF (animated sequence), or live photo (short video clip plus a still frame).
 
-5. **Filters** -- Optional. If enabled, guests browse a scrollable strip of photo filter previews (14 built-in + custom .CUBE LUTs) and choose one before sharing.
+5. **Filters** -- Optional. If enabled, customers browse a scrollable strip of photo filter previews (14 built-in + custom .CUBE LUTs) and choose one before sharing.
 
-6. **Sharing** -- Guests receive their photos via QR code scan (linking to their branded microsite), instant print, or both.
+6. **Sharing** -- Customers receive their photos via QR code scan (linking to their branded microsite), instant print, or both.
 
-After sharing, the session ends and the booth returns to the home screen, ready for the next guest.
+After sharing, the photo session ends and the booth returns to the home screen, ready for the next customer.
 
 :::info
 Each step is covered in detail on its own page. Use the sidebar to navigate to the specific step you want to configure.
 :::
 
-## Session Timeout
+## Photo Session Timeout
 
-If a guest walks away mid-session, the app automatically returns to the home screen after a configurable idle timeout (default: 60 seconds).
+If a customer walks away mid-photo session, the app automatically returns to the home screen after a configurable idle timeout (default: 60 seconds).

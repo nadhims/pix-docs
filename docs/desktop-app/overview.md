@@ -7,7 +7,7 @@ tags: [desktop-app, overview, getting-started]
 
 # Pix Desktop App Overview
 
-The Pix Desktop App is a full-screen kiosk application that turns any Mac or Windows PC into a professional photobooth. Built with Electron, React, and TypeScript, it handles everything from camera capture to guest sharing -- all from a single screen.
+The Pix Desktop App is a full-screen kiosk application that turns any Mac or Windows PC into a professional photobooth. Built with Electron, React, and TypeScript, it handles everything from camera capture to customer sharing -- all from a single screen.
 
 ## What It Does
 
@@ -15,7 +15,7 @@ The Pix Desktop App is a full-screen kiosk application that turns any Mac or Win
 - **Soft files** — composites, animated GIFs, live photos, and singles
 - **Photo filters** — 14 built-in filters plus custom .CUBE LUT support
 - **Template-driven layouts** managed from your Pix Design dashboard
-- **Microsites** — branded guest sharing pages via QR code
+- **Microsites** — branded customer sharing pages via QR code
 - **Printer support** — works with any printer, with alignment controls and auto-print
 - **Offline resilience** — queues uploads and retries automatically when connectivity drops
 - **Auto-updates** so your booth always runs the latest version
@@ -32,7 +32,7 @@ The Pix Desktop App is a full-screen kiosk application that turns any Mac or Win
 | **USB** | USB 2.0 (for camera) | USB 3.0 |
 
 :::tip
-A touchscreen display is not required but strongly recommended for unattended kiosk operation. Guests interact directly with the screen during a session.
+A touchscreen display is not required but strongly recommended for unattended kiosk operation. Customers interact directly with the screen during a photo session.
 :::
 
 ## Architecture at a Glance

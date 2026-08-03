@@ -23,9 +23,9 @@ The app is organized into four primary tabs:
 
 | Tab | What It Does |
 |-----|-------------|
-| **Dashboard** | Revenue and session analytics, booth health at a glance |
+| **Dashboard** | Revenue and photo session analytics, booth health at a glance |
 | **Booths** | Create and configure booths, assign devices and templates |
-| **Gallery** | Browse session photos, filter by booth or date, batch operations |
+| **Gallery** | Browse photo session photos, filter by booth or date, batch operations |
 | **Billing** | Manage your plan, payment gateways, invoices |
 
 Beyond the main tabs, the sidebar gives you access to **Pix Design** (the visual template editor), **Transactions**, **Vouchers**, **Devices**, and **Settings**.
@@ -40,5 +40,5 @@ If you manage multiple booths across venues, the Dashboard tab's leaderboard hel
 :::
 
 :::info
-The Pix Dashboard is a management tool — it does not run photobooth sessions. For that, use the Pix Desktop App (macOS/Windows) or Pix Mobile (iOS/Android tablets).
+The Pix Dashboard is a management tool — it does not run photobooth photo sessions. For that, use the Pix Desktop App (macOS/Windows) or Pix Mobile (iOS/Android tablets).
 :::

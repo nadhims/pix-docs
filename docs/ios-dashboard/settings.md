@@ -13,14 +13,14 @@ The Settings screen holds your account-level preferences — timezone, notificat
 
 ## Timezone
 
-Your timezone setting determines how timestamps are displayed throughout the app — in analytics, transaction logs, session history, and the gallery.
+Your timezone setting determines how timestamps are displayed throughout the app — in analytics, transaction logs, photo session history, and the gallery.
 
 1. Click **Timezone**.
 2. Select your timezone from the list (e.g., "Asia/Jakarta", "America/New_York").
 3. Click **Save**.
 
 :::caution
-Changing your timezone does not alter existing data — it only changes how timestamps are displayed going forward. Historical sessions retain their original timestamps.
+Changing your timezone does not alter existing data — it only changes how timestamps are displayed going forward. Historical photo sessions retain their original timestamps.
 :::
 
 :::tip
@@ -34,8 +34,8 @@ Control which notifications Pix sends you:
 | Notification | Description |
 |-------------|-------------|
 | **Booth Offline** | Alerts when a booth loses connection |
-| **Daily Summary** | End-of-day recap with session count and revenue |
-| **Payment Failed** | Alerts when a guest payment fails |
+| **Daily Summary** | End-of-day recap with photo session count and revenue |
+| **Payment Failed** | Alerts when a customer payment fails |
 | **Plan Expiring** | Reminder before your subscription renews or expires |
 
 Toggle each notification type on or off based on your preference. Booth Offline notifications are enabled by default and recommended for kiosk operators.
@@ -52,4 +52,4 @@ Click **Change Password** to update your password. You'll need to enter your cur
 
 ## Sign Out
 
-Click **Sign Out** at the bottom of the settings screen. This clears your session and returns you to the login screen. You'll need to enter your credentials to sign back in.
+Click **Sign Out** at the bottom of the settings screen. This clears your photo session and returns you to the login screen. You'll need to enter your credentials to sign back in.

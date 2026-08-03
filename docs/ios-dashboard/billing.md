@@ -7,7 +7,7 @@ tags: [billing, payments, gateways, plans]
 
 # Billing
 
-The Billing tab handles two things: your Pix subscription plan and the payment gateways your booths use to accept guest payments.
+The Billing tab handles two things: your Pix subscription plan and the payment gateways your booths use to accept customer payments.
 
 ## Your Plan
 
@@ -28,7 +28,7 @@ The Starter plan is free and supports one booth, print-only, with the default te
 
 ## Payment Gateway Configuration
 
-Your booths can accept payments from guests (e.g., pay-per-session). Pix supports three Indonesian payment gateways:
+Your booths can accept payments from customers (e.g., pay-per-photo session). Pix supports three Indonesian payment gateways:
 
 | Gateway | Supported Methods |
 |---------|------------------|

@@ -16,7 +16,7 @@ The Pix Desktop App includes a built-in auto-updater that keeps your booth runni
 3. Once downloaded, a prompt appears offering to restart and apply the update.
 4. After restart, the new version is active.
 
-The entire process is designed to be non-disruptive. Downloads happen silently, and the restart prompt only appears when the booth is idle on the home screen -- never mid-session.
+The entire process is designed to be non-disruptive. Downloads happen silently, and the restart prompt only appears when the booth is idle on the home screen -- never mid-photo session.
 
 <!-- Screenshot: Update available prompt on home screen -->
 

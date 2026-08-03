@@ -7,7 +7,7 @@ tags: [pix-studio, templates, editor]
 
 # Pix Design Overview
 
-Pix Design is the visual template editor built right into the Pix Dashboard. It lets you design photobooth templates — the layouts your guests see when their photos are printed or shared — without needing a desktop design tool.
+Pix Design is the visual template editor built right into the Pix Dashboard. It lets you design photobooth templates — the layouts your customers see when their photos are printed or shared — without needing a desktop design tool.
 
 <!-- Screenshot: Pix Design editor -->
 
@@ -15,12 +15,12 @@ Pix Design is the visual template editor built right into the Pix Dashboard. It 
 
 A template defines how photos are arranged in the final output. It includes:
 
-- **Photo Slots** — rectangular areas where guest photos are placed
+- **Photo Slots** — rectangular areas where customer photos are placed
 - **Background** — the canvas behind the photo slots (solid color, gradient, or uploaded image)
 - **Print Size** — the physical dimensions of the output (4x6", 2x6" strip, etc.)
 - **Overlays** — optional logos, text, or decorative elements layered on top
 
-When a guest finishes a session, the capture app composites their photos into the template to produce the final image.
+When a customer finishes a photo session, the capture app composites their photos into the template to produce the final image.
 
 ## Why Use Pix Design?
 
@@ -40,7 +40,7 @@ If you already have template designs as PNG files, you can import them directly.
 | **Template** | A complete layout design with slots, background, and print size |
 | **Photo Slot** | A region in the template where a captured photo is placed |
 | **Folder** | A way to group related templates together |
-| **Assignment** | Linking a template to one or more booths so guests can use it |
+| **Assignment** | Linking a template to one or more booths so customers can use it |
 
 ## Getting Started
 

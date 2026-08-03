@@ -22,7 +22,7 @@ The Starter plan is free forever with one booth. It's a bare-bones way to keep r
 **Includes:**
 - 1 booth
 - Offline operation
-- Printer support (prints are the only output — this is how guests get their photos)
+- Printer support (prints are the only output — this is how customers get their photos)
 - Camera support (Canon DSLR + webcam)
 
 **Not included:** Soft files (no GIFs, Live Photos, singles, or digital/QR sharing — prints only), Template Editor, UI Editor, microsites, real-time analytics, booth health monitoring, license management, custom branding, or payment gateway integration. You're limited to the default template and kiosk look.
@@ -47,15 +47,15 @@ The full Pix experience, on a monthly or yearly billing cycle. Manage multiple b
 - UI Editor (drag-and-drop kiosk interface design)
 - Soft files (composite, GIF, Live Photo, singles) and digital/QR sharing
 - Photo filters (built-in + custom .CUBE LUT upload)
-- Frame Lab (guests design and pay for their own custom frame)
-- Microsites (QR sharing + branded guest pages)
+- Frame Lab (customers design and pay for their own custom frame)
+- Microsites (QR sharing + branded customer pages)
 - Printer support
 - Automatic cloud sync
 - Real-time analytics with booth leaderboard
 - Booth health monitoring
 - License management and transfer
 - Camera support (Canon DSLR + webcam)
-- Payment gateway integration (DOKU, Xendit, or Midtrans — guests pay via QRIS, Pix takes a 0% cut)
+- Payment gateway integration (DOKU, Xendit, or Midtrans — customers pay via QRIS, Pix takes a 0% cut)
 - Mobile dashboard
 
 Yearly billing saves about 37% compared to paying monthly.

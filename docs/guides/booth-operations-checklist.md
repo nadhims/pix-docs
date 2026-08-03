@@ -22,7 +22,7 @@ Running a smooth kiosk location comes down to a solid launch and steady upkeep. 
 
 - [ ] Open the Pix Desktop App and log in with the correct booth
 - [ ] Verify your templates are loaded — tap through the home screen to confirm
-- [ ] Run one full test session: capture, composite, print, and share via QR
+- [ ] Run one full test photo session: capture, composite, print, and share via QR
 - [ ] Check that the upload queue shows "0 pending"
 
 ### Network
@@ -44,7 +44,7 @@ Give yourself extra time on launch day to troubleshoot. Location Wi-Fi can be un
 
 ### Monitoring
 
-- [ ] Check the **Pix Dashboard** periodically for session counts and upload status
+- [ ] Check the **Pix Dashboard** periodically for photo session counts and upload status
 - [ ] Confirm the upload queue is clear (0 pending) — investigate anything stuck
 - [ ] Confirm the camera connection is still stable
 - [ ] Check printer paper and ribbon levels — replace before they run out
@@ -65,8 +65,8 @@ Never power off the laptop while there are pending uploads. Let the offline queu
 ### Ongoing Review
 
 - [ ] Review the gallery in the Pix Dashboard periodically for image quality
-- [ ] Check **Analytics** for session count, popular templates, and sharing stats
-- [ ] Export transaction data from **Billing > Transactions** periodically if you charge guests
+- [ ] Check **Analytics** for photo session count, popular templates, and sharing stats
+- [ ] Export transaction data from **Billing > Transactions** periodically if you charge customers
 - [ ] Pack and store printer ribbon and paper properly between restocks to avoid damage
 
 :::info

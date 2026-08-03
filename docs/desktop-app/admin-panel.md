@@ -11,12 +11,12 @@ The admin panel is a hidden management interface accessible to booth operators. 
 
 ## Accessing the Admin Panel
 
-The admin panel is not visible to guests. To open it:
+The admin panel is not visible to customers. To open it:
 
 - Use the designated keyboard shortcut, or
 - Navigate through the settings menu
 
-This keeps the kiosk experience clean for guests while giving operators full control.
+This keeps the kiosk experience clean for customers while giving operators full control.
 
 <!-- Screenshot: Admin panel dashboard -->
 
@@ -51,10 +51,10 @@ The diagnostics section provides a quick health check of the booth:
 - **Camera status** -- connected model, firmware version, current settings
 - **Printer status** -- selected printer, ready state, media level (if reported by printer)
 - **Network status** -- online/offline, API connectivity, upload speed estimate
-- **Storage** -- available disk space, number of cached sessions
+- **Storage** -- available disk space, number of cached photo sessions
 
 :::caution
-If disk space drops below 500 MB, the app will warn you. Clear old cached sessions or free up disk space to prevent capture failures.
+If disk space drops below 500 MB, the app will warn you. Clear old cached photo sessions or free up disk space to prevent capture failures.
 :::
 
 ## Logs
@@ -74,4 +74,4 @@ From the admin panel you can also:
 - **Switch booth** -- change which booth this device operates as
 - **Sign out** -- return to the login screen
 - **Check for updates** -- manually trigger an update check
-- **Clear cache** -- remove locally cached sessions and temporary files
+- **Clear cache** -- remove locally cached photo sessions and temporary files

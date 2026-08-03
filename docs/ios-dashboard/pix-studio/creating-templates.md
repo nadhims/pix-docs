@@ -23,7 +23,7 @@ Pix Design's visual editor makes it straightforward to build photobooth template
 
 ## Adding Photo Slots
 
-Photo slots define where guest photos appear in the final composite.
+Photo slots define where customer photos appear in the final composite.
 
 1. Click **Add Slot** in the toolbar.
 2. Drag the slot to position it on the canvas.
@@ -31,7 +31,7 @@ Photo slots define where guest photos appear in the final composite.
 4. Repeat for additional slots (e.g., 3-4 slots for a photo strip).
 
 :::tip
-The number of photo slots determines how many photos the booth captures per session. Three slots means three captures.
+The number of photo slots determines how many photos the booth captures per photo session. Three slots means three captures.
 :::
 
 ## Setting the Background

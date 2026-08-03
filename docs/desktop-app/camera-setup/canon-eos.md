@@ -36,7 +36,7 @@ Do not open Canon's EOS Utility or any other tethering software at the same time
 
 - **Use a powered USB hub** if your cable run is longer than 2 meters. Long cables can cause intermittent disconnects.
 - **Disable auto power-off** on the camera so it stays awake during operating hours.
-- **Use AC power** (Canon AC adapter or dummy battery) instead of a battery for extended sessions.
+- **Use AC power** (Canon AC adapter or dummy battery) instead of a battery for extended photo sessions.
 - **Set image quality to JPEG Large** on the camera body. The app captures at the camera's configured quality setting.
 - **Lock the lens focus** to manual (MF) if your shooting distance is fixed -- this avoids autofocus hunting between shots.
 

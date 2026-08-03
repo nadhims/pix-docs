@@ -7,7 +7,7 @@ tags: [guides, multi-booth, management]
 
 # Multi-Booth Setup
 
-Pix supports running multiple booths under one account. Each booth has its own templates, settings, and session history — but you manage them all from a single Pix Dashboard.
+Pix supports running multiple booths under one account. Each booth has its own templates, settings, and photo session history — but you manage them all from a single Pix Dashboard.
 
 ## Step 1: Create Your Booths
 
@@ -57,11 +57,11 @@ Double-check the booth name after login. If two machines accidentally log in as 
 
 The Pix Dashboard home screen gives you a live overview of all active booths:
 
-- **Session counts** per booth in real time
+- **Photo Session counts** per booth in real time
 - **Upload status** — see if any booth has pending uploads
-- **Revenue** — track per-booth earnings if you charge guests
+- **Revenue** — track per-booth earnings if you charge customers
 
-Click any booth card to drill into its sessions, gallery, and analytics.
+Click any booth card to drill into its photo sessions, gallery, and analytics.
 
 <!-- Screenshot: Dashboard home showing multiple active booths -->
 

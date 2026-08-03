@@ -7,7 +7,7 @@ tags: [desktop-app, printer, printing, setup]
 
 # Printer Setup
 
-The Pix Desktop App supports instant photo printing so guests can walk away with a physical copy of their photos. Printers are configured in the app's settings panel.
+The Pix Desktop App supports instant photo printing so customers can walk away with a physical copy of their photos. Printers are configured in the app's settings panel.
 
 ## Auto-Discovery
 
@@ -50,14 +50,14 @@ The app sends a sample image to verify colors, alignment, and paper feed. Adjust
 Keep spare media and ribbon on hand. Dye-sub printers can run out of media at any point during operating hours, and you cannot resume a partially used ribbon roll.
 :::
 
-## Enabling Print in the Session Flow
+## Enabling Print in the Photo Session Flow
 
-Printing is part of the sharing step. To make it available to guests:
+Printing is part of the sharing step. To make it available to customers:
 
 1. Ensure a printer is configured and selected in Settings.
 2. In the Pix dashboard, enable the **Print** sharing option for your booth.
 
-Guests will see a print button on the sharing screen alongside QR code and other options.
+Customers will see a print button on the sharing screen alongside QR code and other options.
 
 ## Troubleshooting
 

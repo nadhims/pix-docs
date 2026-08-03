@@ -11,7 +11,7 @@ Key terms used in Pix, explained for photobooth operators.
 
 ### Booth
 
-A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and session history. The Starter plan includes one booth; paid plans support unlimited booths.
+A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and photo session history. The Starter plan includes one booth; paid plans support unlimited booths.
 
 ### Booth Health
 
@@ -19,7 +19,7 @@ A monitoring system that tracks seven health signals for each booth: connectivit
 
 ### Composite
 
-The final image generated after a session. A composite combines the guest's captured photos with the template layout, backgrounds, and branding into a single shareable image.
+The final image generated after a photo session. A composite combines the customer's captured photos with the template layout, backgrounds, and branding into a single shareable image.
 
 ### Day Pass
 
@@ -31,7 +31,7 @@ A queued upload or task that has failed repeatedly and been moved aside so it do
 
 ### GIF Mode
 
-A capture mode that takes a rapid burst of frames and assembles them into an animated GIF. Guests get a short looping animation instead of a static photo. One of the four soft file types.
+A capture mode that takes a rapid burst of frames and assembles them into an animated GIF. Customers get a short looping animation instead of a static photo. One of the four soft file types.
 
 ### License
 
@@ -39,31 +39,31 @@ A per-booth plan assignment that determines which features the booth can access.
 
 ### Live Photo
 
-A capture mode that records a short video clip alongside the photo capture. The output is a brief MP4 video file that guests can share, adding motion to the booth experience. One of the four soft file types.
+A capture mode that records a short video clip alongside the photo capture. The output is a brief MP4 video file that customers can share, adding motion to the booth experience. One of the four soft file types.
 
 ### Microsite
 
-A branded, mobile-friendly web page where guests view and download their photos after a session. Each session generates a unique microsite URL shared via QR code. Microsites display composites, GIFs, live photos, and singles, and carry your organization's branding and logo.
+A branded, mobile-friendly web page where customers view and download their photos after a photo session. Each photo session generates a unique microsite URL shared via QR code. Microsites display composites, GIFs, live photos, and singles, and carry your organization's branding and logo.
 
 ### Offline Resilience
 
-The ability of the Pix Desktop App to continue operating without internet. Sessions, composites, and prints work uninterrupted. An auto-sync upload queue stores files locally and uploads them when connectivity returns. Cryptographic offline grants (RS256-signed tokens) allow the app to verify its license locally during extended outages.
+The ability of the Pix Desktop App to continue operating without internet. Photo Sessions, composites, and prints work uninterrupted. An auto-sync upload queue stores files locally and uploads them when connectivity returns. Cryptographic offline grants (RS256-signed tokens) allow the app to verify its license locally during extended outages.
 
 ### Photo Filter
 
-A color grading effect applied to photos after capture. Pix includes 14 built-in filters (warm vintage, cool blue, black & white, and more). Operators can also upload custom .CUBE LUT files for precise color grading. Guests browse a scrollable preview strip and choose a filter before sharing.
+A color grading effect applied to photos after capture. Pix includes 14 built-in filters (warm vintage, cool blue, black & white, and more). Operators can also upload custom .CUBE LUT files for precise color grading. Customers browse a scrollable preview strip and choose a filter before sharing.
 
 ### Pix Design
 
 The template editor inside the Pix dashboard where you design and customize templates. Available on Day Pass and Pix Pro plans.
 
-### Session
+### Photo Session
 
-One guest interaction from start to finish — selecting a template, capturing photos, applying a filter (optional), and sharing or printing the result. Sessions are tracked for analytics and billing.
+One customer interaction from start to finish — selecting a template, capturing photos, applying a filter (optional), and sharing or printing the result. Photo Sessions are tracked for analytics and billing.
 
 ### Soft Files
 
-The digital output files from a session. Pix supports four soft file types: composites (PNG), animated GIFs, live photos (MP4), and singles (individual JPEGs). All are delivered through the same microsite sharing flow.
+The digital output files from a photo session. Pix supports four soft file types: composites (PNG), animated GIFs, live photos (MP4), and singles (individual JPEGs). All are delivered through the same microsite sharing flow.
 
 ### Template
 
@@ -75,8 +75,8 @@ A drag-and-drop canvas editor for designing the kiosk interface. Operators can c
 
 ### Voucher
 
-A code that guests can enter at the booth to start a session without paying. Operators create vouchers in the dashboard to offer complimentary sessions — useful for VIP guests, sponsors, or promotions.
+A code that customers can enter at the booth to start a photo session without paying. Operators create vouchers in the dashboard to offer complimentary photo sessions — useful for VIP customers, sponsors, or promotions.
 
 ### Payment Gateway
 
-An integration that lets you accept payments from guests directly at the booth. Pix supports Xendit, DOKU, and Midtrans as payment providers. Configure your gateway in the dashboard under booth settings.
+An integration that lets you accept payments from customers directly at the booth. Pix supports Xendit, DOKU, and Midtrans as payment providers. Configure your gateway in the dashboard under booth settings.

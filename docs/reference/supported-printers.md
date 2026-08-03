@@ -34,7 +34,7 @@ Pix supports the following print sizes. The available sizes depend on your print
 | **2x6" strip** | Photo strip layout (2-4 photos in a vertical strip) |
 
 :::info
-Print size is configured per template in the template editor. Make sure your printer has the matching media loaded before starting a session.
+Print size is configured per template in the template editor. Make sure your printer has the matching media loaded before starting a photo session.
 :::
 
 ## Setup Tips
@@ -46,7 +46,7 @@ Print size is configured per template in the template editor. Make sure your pri
 - Mitsubishi: [mitsubishielectric.com](https://www.mitsubishielectric.com)
 - Canon: [canon.com](https://www.canon.com)
 
-**Test before opening to guests.** Print a sample composite from Pix to confirm colors, alignment, and paper feed are correct. Dye-sub printers need a short warm-up, so the first print may take longer.
+**Test before opening to customers.** Print a sample composite from Pix to confirm colors, alignment, and paper feed are correct. Dye-sub printers need a short warm-up, so the first print may take longer.
 
 :::caution
 Avoid using inkjet or laser printers. They are not designed for photo booth workflows and produce noticeably lower quality output compared to dye-sublimation printers.

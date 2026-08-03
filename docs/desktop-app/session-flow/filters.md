@@ -1,17 +1,17 @@
 ---
 sidebar_position: 6
 title: Filters
-description: Photo filters guests can apply after capture in the Pix Desktop App — 14 built-in filters plus custom .CUBE LUT support.
-tags: [desktop-app, session, filters, effects, lut]
+description: Photo filters customers can apply after capture in the Pix Desktop App — 14 built-in filters plus custom .CUBE LUT support.
+tags: [desktop-app, photo session, filters, effects, lut]
 ---
 
 # Filters
 
-The filter step is an optional part of the session flow that lets guests apply a color grading effect to their captured photos before sharing.
+The filter step is an optional part of the photo session flow that lets customers apply a color grading effect to their captured photos before sharing.
 
 ## How It Works
 
-After capture, if filters are enabled for the booth, guests see a scrollable strip of filter previews below their photo. Each preview shows the actual photo with the filter applied, so guests know exactly what they're choosing. Tap a filter to select it, then continue to sharing.
+After capture, if filters are enabled for the booth, customers see a scrollable strip of filter previews below their photo. Each preview shows the actual photo with the filter applied, so customers know exactly what they're choosing. Tap a filter to select it, then continue to sharing.
 
 <!-- Screenshot: Filter selection screen with preview and filter thumbnails -->
 
@@ -71,7 +71,7 @@ Filters are enabled per booth from the Pix dashboard:
 1. Open your booth settings.
 2. Toggle **Enable Filters** on.
 
-When disabled, the session skips the filter step and goes straight from capture to sharing.
+When disabled, the photo session skips the filter step and goes straight from capture to sharing.
 
 ## Performance
 
@@ -79,4 +79,4 @@ Filter processing happens entirely on-device using 3D LUT trilinear interpolatio
 
 ## Skipping Filters
 
-For high-traffic kiosk locations where speed is a priority, disable the filter step to shave a few seconds off each session. Guests go directly from capture to sharing.
+For high-traffic kiosk locations where speed is a priority, disable the filter step to shave a few seconds off each photo session. Customers go directly from capture to sharing.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Set Up Your First Booth
-description: Pair your booth, connect a camera and printer, and run a test session.
+description: Pair your booth, connect a camera and printer, and run a test photo session.
 tags: [getting-started, booth, camera, printer, setup]
 ---
 
@@ -36,7 +36,7 @@ Pix works best with a **Canon EOS camera** connected via USB:
 2. The Desktop App detects the camera automatically -- you'll see a green status indicator.
 
 :::tip Webcam Fallback
-No Canon camera handy? Pix can use your computer's built-in webcam for testing. This is great for trying out the session flow before you open to guests.
+No Canon camera handy? Pix can use your computer's built-in webcam for testing. This is great for trying out the photo session flow before you open to customers.
 :::
 
 :::caution
@@ -45,19 +45,19 @@ Make sure no other application (like Canon EOS Utility) is running, as it may lo
 
 ## 4. Connect Your Printer
 
-Optional, but recommended so guests can walk away with a physical print:
+Optional, but recommended so customers can walk away with a physical print:
 
 1. In the Desktop App, go to **Settings > Printer**.
 2. Select your printer from the auto-discovered list and choose your paper size.
 3. Run a **Test Print** to check colors and alignment.
 
-Not printing at this location? Skip this step -- guests can still share via QR code. See [Printer Setup](/docs/desktop-app/printer-setup) for supported printers and full details.
+Not printing at this location? Skip this step -- customers can still share via QR code. See [Printer Setup](/docs/desktop-app/printer-setup) for supported printers and full details.
 
-## 5. Start a Test Session
+## 5. Start a Test Photo Session
 
 Run a quick test to make sure everything works end to end:
 
-1. Click the screen to start a session.
+1. Click the screen to start a photo session.
 2. Select a template.
 3. Take a photo and confirm it appears in the sharing screen (and prints, if you configured a printer).
 
@@ -65,6 +65,6 @@ If it looks good, you're all set!
 
 ## Next Step
 
-Everything's connected. Let's [run your first full session](./your-first-session.md).
+Everything's connected. Let's [run your first full photo session](./your-first-photo session.md).
 
-Once that's working, start customizing: use the **Home Layout & Splash Screen** editor to style what guests see ([Branding Your Booth](/docs/guides/branding-your-booth)), and **Pix Design** to design your own photo templates ([Pix Design Overview](/docs/ios-dashboard/pix-studio/overview)).
+Once that's working, start customizing: use the **Home Layout & Splash Screen** editor to style what customers see ([Branding Your Booth](/docs/guides/branding-your-booth)), and **Pix Design** to design your own photo templates ([Pix Design Overview](/docs/ios-dashboard/pix-studio/overview)).

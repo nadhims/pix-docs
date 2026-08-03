@@ -11,7 +11,7 @@ A polished, branded booth makes a strong impression. Pix gives you control over 
 
 ## Custom Templates in Pix Design
 
-Templates define how the final photo composite looks: where guest photos are placed, where your logo goes, and what colors and graphics surround the images.
+Templates define how the final photo composite looks: where customer photos are placed, where your logo goes, and what colors and graphics surround the images.
 
 ### Creating a Template
 
@@ -31,13 +31,13 @@ Design your template background in Canva, Photoshop, or Figma first, then import
 
 ### Template Best Practices
 
-- **Keep photo slots large.** Guests want to see themselves clearly — don't crowd the frame with too much decoration.
+- **Keep photo slots large.** Customers want to see themselves clearly — don't crowd the frame with too much decoration.
 - **Use high-contrast text.** If you add location names or promotional text, make sure they're readable against your background.
 - **Test on the actual printer.** Colors and fine details may look different on a dye-sub print versus a screen.
 
 ## Splash Screen Customization
 
-The splash screen is what guests see on the kiosk before they start a session. It sets the mood and invites interaction.
+The splash screen is what customers see on the kiosk before they start a photo session. It sets the mood and invites interaction.
 
 1. In the Pix Dashboard, go to **Booths > [Your Booth] > Settings**
 2. Under **Splash Screen**, upload a custom image or video
@@ -54,8 +54,8 @@ Splash screen assets sync to the desktop app via CMS. After saving, the booth pi
 The desktop app's home screen is CMS-driven, meaning you can rearrange and customize it from the Pix Dashboard without updating the desktop app itself.
 
 - **Hero banner** — A large image or animation at the top. Use this for location branding or sponsor logos.
-- **Action buttons** — "Start Session", "View Gallery", or custom actions.
-- **Template preview carousel** — Let guests browse available layouts before they begin.
+- **Action buttons** — "Start Photo Session", "View Gallery", or custom actions.
+- **Template preview carousel** — Let customers browse available layouts before they begin.
 
 Go to **Booths > [Your Booth] > Home Layout** in the Pix Dashboard to configure these blocks.
 

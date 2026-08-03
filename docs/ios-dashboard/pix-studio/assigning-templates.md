@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Assigning Templates to Booths
-description: Assign templates to one or more booths so guests can use them during sessions.
+description: Assign templates to one or more booths so customers can use them during photo sessions.
 tags: [pix-studio, templates, booths, assignment]
 ---
 
@@ -11,7 +11,7 @@ A template only appears on a booth once it's been assigned. This gives you preci
 
 ## How Assignment Works
 
-When you assign a template to a booth, it becomes available in that booth's template selection screen. Guests choose from the assigned templates at the start of their session.
+When you assign a template to a booth, it becomes available in that booth's template selection screen. Customers choose from the assigned templates at the start of their photo session.
 
 - A template can be assigned to **multiple booths**.
 - A booth can have **multiple templates** assigned.
@@ -51,7 +51,7 @@ To remove a template from a booth:
 3. Click **Save**.
 
 :::caution
-Removing a template from a booth takes effect immediately. If a session is in progress using that template, it will complete normally, but new sessions won't see the template.
+Removing a template from a booth takes effect immediately. If a photo session is in progress using that template, it will complete normally, but new photo sessions won't see the template.
 :::
 
 ## Checking Assignments
@@ -59,5 +59,5 @@ Removing a template from a booth takes effect immediately. If a session is in pr
 Each template card in the library shows a small badge indicating how many booths it's assigned to. Click it to see the full list of assigned booths.
 
 :::info
-If a booth has no templates assigned, guests will see an empty template selection screen. Always ensure at least one template is assigned to each active booth.
+If a booth has no templates assigned, customers will see an empty template selection screen. Always ensure at least one template is assigned to each active booth.
 :::

@@ -7,7 +7,7 @@ tags: [vouchers, discounts, promotions]
 
 # Vouchers
 
-Vouchers let you offer discount codes to guests. Use them for promotions, limited-time pricing, or loyalty rewards. You can control how many times a code can be used and when it expires.
+Vouchers let you offer discount codes to customers. Use them for promotions, limited-time pricing, or loyalty rewards. You can control how many times a code can be used and when it expires.
 
 <!-- Screenshot: Voucher list -->
 
@@ -16,7 +16,7 @@ Vouchers let you offer discount codes to guests. Use them for promotions, limite
 1. Open **Vouchers** from the sidebar.
 2. Click **+ New Voucher**.
 3. Fill in the details:
-   - **Code** — the text guests enter (e.g., "WEEKEND20", "FREEPHOTO"). Codes are case-insensitive.
+   - **Code** — the text customers enter (e.g., "WEEKEND20", "FREEPHOTO"). Codes are case-insensitive.
    - **Discount Type** — percentage off or fixed amount off.
    - **Discount Value** — the percentage (e.g., 25%) or fixed amount (e.g., Rp 10,000).
    - **Max Redemptions** — total number of times this code can be used (leave blank for unlimited).
@@ -46,7 +46,7 @@ Each voucher's detail page shows:
 
 - **Total Redemptions** — how many times the code has been used
 - **Remaining** — how many uses are left (if a max was set)
-- **Redemption History** — a list of every use, including the booth, session, timestamp, and discount applied
+- **Redemption History** — a list of every use, including the booth, photo session, timestamp, and discount applied
 
 :::caution
 Voucher codes must be unique across your organization. If you try to create a code that already exists, you'll see an error.
@@ -54,10 +54,10 @@ Voucher codes must be unique across your organization. If you try to create a co
 
 ## Best Practices
 
-- Use short, memorable codes that guests can type easily on a touchscreen.
+- Use short, memorable codes that customers can type easily on a touchscreen.
 - Set reasonable redemption limits to prevent abuse.
 - Review the redemption history after each promotion period to measure its effectiveness.
 
 :::info
-Vouchers apply at the session level. When a guest enters a valid code, the discount is applied to their session payment before processing through the payment gateway.
+Vouchers apply at the photo session level. When a customer enters a valid code, the discount is applied to their photo session payment before processing through the payment gateway.
 :::

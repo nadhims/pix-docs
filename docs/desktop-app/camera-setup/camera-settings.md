@@ -27,7 +27,7 @@ Controls depth of field and light intake. Set via the app when your camera is in
 
 ### Shutter Speed
 
-Available in Manual mode. Keep it at 1/125 or faster to avoid motion blur, especially if guests are moving.
+Available in Manual mode. Keep it at 1/125 or faster to avoid motion blur, especially if customers are moving.
 
 ### White Balance
 

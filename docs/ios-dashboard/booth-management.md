@@ -28,8 +28,8 @@ Use descriptive names that include the venue or location. This makes it much eas
 
 Click any booth to open its detail page. From here you can configure:
 
-- **Display Name** — shown to guests on the booth screen
-- **Timezone** — ensures session timestamps match the local time at the venue
+- **Display Name** — shown to customers on the booth screen
+- **Timezone** — ensures photo session timestamps match the local time at the venue
 - **Idle Timeout** — how long before the booth resets to the welcome screen
 - **Sharing Options** — enable or disable QR code, email, AirDrop, or print
 
@@ -53,8 +53,8 @@ The booth list shows a live status indicator for each booth:
 - **Gray** — Offline or not connected
 - **Yellow** — Online but idle for an extended period
 
-Click into any booth to see its last activity timestamp, current device, assigned templates, and recent session history.
+Click into any booth to see its last activity timestamp, current device, assigned templates, and recent photo session history.
 
 ## Deleting a Booth
 
-Click the **•••** menu next to a booth in the list and choose **Delete**. This removes the booth configuration but does not delete historical session data or photos.
+Click the **•••** menu next to a booth in the list and choose **Delete**. This removes the booth configuration but does not delete historical photo session data or photos.

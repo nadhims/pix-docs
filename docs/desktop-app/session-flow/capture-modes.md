@@ -2,12 +2,12 @@
 sidebar_position: 5
 title: Capture Modes
 description: Understanding composite, GIF, and live photo capture modes in the Pix Desktop App.
-tags: [desktop-app, session, capture, gif, live-photo, composite]
+tags: [desktop-app, photo session, capture, gif, live-photo, composite]
 ---
 
 # Capture Modes
 
-The Pix Desktop App supports three capture modes, each producing a different type of [soft file](/docs/reference/glossary#soft-files). The capture mode is determined by the template the guest selects. In addition to the mode-specific output, each session can also generate **singles** — the individual captured photos saved as separate JPEGs.
+The Pix Desktop App supports three capture modes, each producing a different type of [soft file](/docs/reference/glossary#soft-files). The capture mode is determined by the template the customer selects. In addition to the mode-specific output, each photo session can also generate **singles** — the individual captured photos saved as separate JPEGs.
 
 ## Composite (Multi-Shot)
 
@@ -23,7 +23,7 @@ The most common photobooth mode. The camera takes multiple individual photos, th
 <!-- Screenshot: Composite capture countdown screen -->
 
 :::tip
-Coach your guests with on-screen prompts like "Strike a pose!" between shots. The countdown gives them time to change positions for each frame.
+Coach your customers with on-screen prompts like "Strike a pose!" between shots. The countdown gives them time to change positions for each frame.
 :::
 
 ## GIF (Animated)
@@ -39,7 +39,7 @@ Captures a rapid sequence of frames and assembles them into an animated GIF. Gre
 GIF captures work best with:
 
 - Well-lit environments (consistent exposure across frames)
-- Guests who move or change expressions between frames
+- Customers who move or change expressions between frames
 - Simple backgrounds that keep the focus on the subject
 
 :::info
@@ -59,7 +59,7 @@ Captures a short video clip alongside a high-resolution still frame. The still f
 This mode is ideal for:
 
 - Kiosk locations that want both printable photos and social video content
-- Adding motion to the guest gallery page
+- Adding motion to the customer gallery page
 
 :::caution
 Live photo mode requires a Canon EOS camera. It is not available with the webcam fallback due to the need for simultaneous video and still capture.
@@ -67,4 +67,4 @@ Live photo mode requires a Canon EOS camera. It is not available with the webcam
 
 ## Choosing a Mode
 
-The capture mode is set per template in Pix Design. You can offer guests a mix by assigning templates with different modes to the same booth -- for example, two composite templates and one GIF template.
+The capture mode is set per template in Pix Design. You can offer customers a mix by assigning templates with different modes to the same booth -- for example, two composite templates and one GIF template.

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: Payment Gateway Setup
-description: Configure Xendit, DOKU, or Midtrans to accept payments from your photobooth guests.
+description: Configure Xendit, DOKU, or Midtrans to accept payments from your photobooth customers.
 tags: [guides, payments, billing, xendit, doku, midtrans]
 ---
 
 # Payment Gateway Setup
 
-If you charge guests per session, Pix integrates with three payment gateways popular in Southeast Asia. You configure your gateway once in the Pix Dashboard, and payments flow automatically during booth sessions.
+If you charge customers per photo session, Pix integrates with three payment gateways popular in Southeast Asia. You configure your gateway once in the Pix Dashboard, and payments flow automatically during booth photo sessions.
 
 ## Supported Gateways
 
@@ -52,8 +52,8 @@ Never share your Server Key publicly. It grants full access to your payment acco
 
 ### 4. Set Your Pricing
 
-1. Go to **Billing > Session Pricing**
-2. Set the price per session (or per print, depending on your model)
+1. Go to **Billing > Photo Session Pricing**
+2. Set the price per photo session (or per print, depending on your model)
 3. Choose which booths this pricing applies to
 
 ## Testing Payments
@@ -61,7 +61,7 @@ Never share your Server Key publicly. It grants full access to your payment acco
 Before going live at your location, always test the full payment flow:
 
 1. **Use sandbox/test mode.** All three gateways offer test credentials — switch to these in the Pix Dashboard before testing.
-2. **Run a full session.** On the desktop app, go through capture and trigger the payment screen.
+2. **Run a full photo session.** On the desktop app, go through capture and trigger the payment screen.
 3. **Complete a test payment.** Use the gateway's test card numbers or test QRIS codes.
 4. **Verify the transaction.** Check that it appears in both the gateway dashboard and the Pix Dashboard under Billing > Transactions.
 
@@ -74,6 +74,6 @@ Keep sandbox mode on during rehearsals and setup. Switch to production keys only
 | Issue | Solution |
 |-------|----------|
 | "Gateway not configured" error | Verify API keys are entered correctly in Pix Dashboard |
-| Payment screen not appearing | Check that session pricing is set and assigned to the booth |
+| Payment screen not appearing | Check that photo session pricing is set and assigned to the booth |
 | Transaction stuck as "pending" | Check your internet connection; pending transactions retry automatically |
 | Callback/webhook failures | Ensure your gateway's callback URL points to `api.pixapp.id` |

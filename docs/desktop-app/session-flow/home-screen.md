@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 title: Home Screen
-description: Configuring the home screen that guests see when approaching the photobooth.
-tags: [desktop-app, session, home-screen, branding]
+description: Configuring the home screen that customers see when approaching the photobooth.
+tags: [desktop-app, photo session, home-screen, branding]
 ---
 
 # Home Screen
 
-The home screen is the first thing guests see when they approach your photobooth. It displays your branding and a clear call-to-action to start a session.
+The home screen is the first thing customers see when they approach your photobooth. It displays your branding and a clear call-to-action to start a photo session.
 
 ## CMS-Driven Layout
 
@@ -16,12 +16,12 @@ The home screen layout is managed entirely from your Pix dashboard -- no code or
 - **Background image or color** -- full-screen backdrop for your booth
 - **Logo** -- your organization's logo
 - **Text blocks** -- welcome messages, location name, instructions
-- **Start button** -- the primary call-to-action that kicks off the session flow
+- **Start button** -- the primary call-to-action that kicks off the photo session flow
 
 <!-- Screenshot: Home screen with custom branding and start button -->
 
 :::tip
-Design your home screen to be visually inviting and obvious. A large, centered "Tap to Start" button works best in kiosk settings where guests need zero instruction.
+Design your home screen to be visually inviting and obvious. A large, centered "Tap to Start" button works best in kiosk settings where customers need zero instruction.
 :::
 
 ## Customizing the Home Screen
@@ -43,12 +43,12 @@ Your home screen should match your business or location branding. You can custom
 - Font and text color for any on-screen copy
 
 :::info
-Changes made in the dashboard are reflected in the app without needing to restart. The app syncs layout data from the API periodically and on each session reset.
+Changes made in the dashboard are reflected in the app without needing to restart. The app syncs layout data from the API periodically and on each photo session reset.
 :::
 
 ## Attract Mode
 
-When the booth is idle, the home screen serves as an attract screen. Guests walking by should immediately understand they can interact with it. Consider:
+When the booth is idle, the home screen serves as an attract screen. Customers walking by should immediately understand they can interact with it. Consider:
 
 - Using motion or animation in your background (supported via video backgrounds)
 - Keeping text minimal and large
@@ -56,4 +56,4 @@ When the booth is idle, the home screen serves as an attract screen. Guests walk
 
 ## Idle Timeout
 
-If a session is in progress but the guest stops interacting, the app returns to the home screen after the configured idle timeout. This keeps the booth available for the next guest.
+If a photo session is in progress but the customer stops interacting, the app returns to the home screen after the configured idle timeout. This keeps the booth available for the next customer.

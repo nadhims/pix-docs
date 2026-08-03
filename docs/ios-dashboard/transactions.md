@@ -21,17 +21,17 @@ Each transaction entry shows:
 - **Payment Method** — the gateway used (Xendit, DOKU, Midtrans, or cash)
 - **Timestamp** — when the transaction occurred
 
-Click any transaction to see the full detail view, including the payment gateway reference ID, guest contact info (if provided), and the session it's linked to.
+Click any transaction to see the full detail view, including the payment gateway reference ID, customer contact info (if provided), and the photo session it's linked to.
 
 ## Searching Transactions
 
 The search bar lets you find transactions by:
 
 - Transaction ID or reference number
-- Guest email or phone number
+- Customer email or phone number
 - Amount (exact match)
 
-This is useful when a guest disputes a charge or your payment gateway dashboard shows a transaction you need to cross-reference.
+This is useful when a customer disputes a charge or your payment gateway dashboard shows a transaction you need to cross-reference.
 
 ## Filtering
 
@@ -56,7 +56,7 @@ To export transaction data:
 4. The file downloads to your device — save it, email it, or import it into your accounting software.
 
 :::info
-Exported CSV files include all transaction fields: ID, amount, status, booth, gateway, reference, timestamp, and guest contact info. Column headers are included in the first row.
+Exported CSV files include all transaction fields: ID, amount, status, booth, gateway, reference, timestamp, and customer contact info. Column headers are included in the first row.
 :::
 
 ## Reconciliation Tips
