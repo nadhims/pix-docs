@@ -30,7 +30,7 @@ Once logged in, you land on the Pix web dashboard. From here you can:
 - Manage booths and templates
 - Access billing and plan settings
 
-Your account automatically starts on a **free 3-day trial of Pix Pro** with full access, so you can explore the platform before deciding on a plan. After 3 days, if you haven't upgraded, your account moves automatically to the free **Starter** plan (1 booth, print-only, default template & UI) -- you don't lose access.
+Your account automatically starts on a **free 3-day trial of Pix Pro** with full access, so you can explore the system before deciding on a plan. After 3 days, if you haven't upgraded, your account moves automatically to the free **Starter** plan (1 booth, print-only, default template & UI) -- you don't lose access.
 
 :::caution
 If you don't receive the verification email within a few minutes, check your spam folder. The email comes from **noreply@pixapp.id**.

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 title: Welcome to Pix
-description: Pix is a modern self-service photobooth kiosk platform. Learn how to set up and run your photobooth locations.
+description: Pix is a modern self-service photobooth system. Learn how to set up and run your photobooth locations.
 slug: /
 ---
 
 # Welcome to Pix
 
-Pix is a modern self-service photobooth kiosk platform. Operators install a booth at a fixed location -- a mall, cafe, or public venue -- and walk-in customers use it on their own, any time. Whether you're setting up your first booth or managing locations across multiple venues, Pix gives you the tools to capture, share, and manage photos seamlessly.
+Pix is a modern self-service photobooth system. Operators install a booth at a fixed location -- a mall, cafe, or public venue -- and walk-in customers use it on their own, any time. Whether you're setting up your first booth or managing locations across multiple venues, Pix gives you the tools to capture, share, and manage photos seamlessly.
 
 ## What is Pix?
 
