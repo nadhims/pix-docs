@@ -9,6 +9,20 @@ tags: [reference, printers, hardware, printing]
 
 Pix supports dye-sublimation photo printers for instant prints at your booth. Prints are sent through the operating system's standard print driver, so any printer with a compatible driver should work. The models listed below have been specifically tested.
 
+## Which Printer Should You Buy? (Budget Tiers)
+
+Prices are approximate Indonesian market prices and will drift over time -- always check current pricing before buying.
+
+| Tier | Model | Approx. Price (IDR) | Why |
+|---|---|---|---|
+| **Budget** | Canon Selphy CP1500 | ~2.7-3.0 juta | Portable and affordable, best for low-traffic or pop-up locations. 4x6" only. |
+| **Mid** | HiTi P525L | ~19-21.5 juta | Dual-deck option at a real step up from the Selphy, without reaching DNP's premium pricing. |
+| **Premium** | DNP DS-RX1 | ~20-29 juta | The "industry standard" -- fast, reliable, handles high-traffic kiosk locations consistently. Widest price spread of the three since it's sold both direct and through resellers, so shop around. |
+
+:::caution
+These are approximate, point-in-time market prices -- treat them as a starting reference, not a quote. Always check current prices with a retailer before buying.
+:::
+
 ## Tested Printers
 
 | Manufacturer | Model | Max Print Size | Notes |

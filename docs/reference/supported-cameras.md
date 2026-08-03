@@ -9,6 +9,21 @@ tags: [reference, cameras, hardware]
 
 Pix captures photos using Canon EOS cameras connected via USB tethering. The Desktop App communicates with the camera through Canon's EDSDK, giving you full control over settings like aperture, shutter speed, and ISO directly from the app.
 
+## Which Camera Should You Buy? (Budget Tiers)
+
+If you're not sure where to start, here's a rough guide by budget. Prices are approximate Indonesian market prices and will drift over time (secondhand prices especially) -- always check current pricing before buying.
+
+| Tier | Model | Approx. Price (IDR) | Why |
+|---|---|---|---|
+| **Low budget** | EOS 1200D (secondhand) | ~1.2-2.2 juta | Cheapest realistic USB-tetherable Canon EOS on the used market. Not on Canon's current lineup and not on Pix's officially tested list below, but EDSDK/USB tethering support means it should work -- a reasonable way to test the waters before investing more. |
+| **Mid budget** | EOS R100 (new) | ~8.5-10 juta | Canon's current cheapest mirrorless. New with warranty, RF mount, genuinely current product -- not a used-market gamble. Not on the officially tested list, but the same EDSDK/USB tethering logic applies. |
+| **Upper-mid** | EOS R10 or EOS R8 (tested) | R10 ~18 juta, R8 ~21 juta | Both officially tested. R10 is APS-C; R8 steps up to full-frame for a relatively small jump in price -- a good bridge if R6 Mark II feels like too big a leap. |
+| **High budget** | EOS R6 Mark II (tested) | ~28-30 juta | Full-frame image quality and fast autofocus at roughly half the price of the EOS R5, which is priced closer to flagship territory for resolution a photobooth doesn't need. The sensible top of the recommended range. |
+
+:::caution
+These are approximate, point-in-time market prices (especially the secondhand 1200D) -- treat them as a starting reference, not a quote. Always check current prices with a retailer or marketplace before buying.
+:::
+
 ## Tested Canon EOS Models
 
 The following cameras have been tested and confirmed to work with Pix:
