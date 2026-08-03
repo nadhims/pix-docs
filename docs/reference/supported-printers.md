@@ -56,6 +56,28 @@ Epson SureLab (SL-D530, D700, D1070, and similar) is a professional "dry minilab
 
 Consumer EcoTank printers (L805, L810, L8050, and similar) with 4R (4x6") paper are a common budget setup in Indonesia. They use standard piezoelectric inkjet with refillable ink tanks, making per-print cost very low (roughly Rp75-390 per 4x6 print). Trade-offs versus dye-sub or SureLab: slower per print (roughly 12-25 seconds), and prints need a short drying time before handling since wet inkjet output can smudge. For low-to-moderate traffic where upfront cost matters most, this is a real, working option -- just set expectations with guests about handling fresh prints carefully.
 
+## Newspaper Photobooth Printing
+
+Some operators run a "newspaper photobooth" -- the guest's photo gets composited into a mock vintage newspaper front page (headline, byline, event masthead) instead of a standard photo layout. This is a different hardware category from everything above.
+
+**Paper size:** A4 is standard; A3 is a common step-up for a bigger, more dramatic result. This is well beyond the 6x8" ceiling of the dye-sub printers above.
+
+**Printer type:** Dye-sublimation doesn't scale to A4/A3 at accessible pricing -- true A3 dye-sub isn't a practical consumer product category. Use an A3+ inkjet printer instead. A commonly used option in Indonesia:
+
+| Model | Max Size | Approx. Price (IDR) | Notes |
+|---|---|---|---|
+| Epson EcoTank L18050 | A3+ | ~8.6-9.2 juta | 6-color dye-based ink tank, borderless A3 photo printing |
+
+:::caution
+Print speed is much slower at this size -- Epson's own spec lists ~65 seconds for a full A4 print (vs. ~27 sec for a standard 4R). This format isn't built for high-traffic speed; set guest expectations accordingly.
+:::
+
+**Paper type:** Skip glossy photo paper -- it looks wrong for the format. In order of preference:
+
+1. **HVS 70-100gsm** -- plain paper, cheapest, closest to a real newspaper's texture.
+2. **Book paper** -- smoother finish, a slightly more polished look.
+3. **Matte photo paper** -- premium option for weddings/corporate events wanting a more finished feel.
+
 ## Supported Print Sizes
 
 Pix supports the following print sizes. The available sizes depend on your printer and loaded media:
@@ -65,6 +87,7 @@ Pix supports the following print sizes. The available sizes depend on your print
 | **4x6"** | Standard photo print, works with all listed printers |
 | **5x7"** | Slightly larger format, good for framed keepsakes |
 | **2x6" strip** | Photo strip layout (2-4 photos in a vertical strip) |
+| **A4 / A3** | Newspaper photobooth format -- needs an A3+ inkjet printer, not the dye-sub printers above |
 
 :::info
 Print size is configured per template in the template editor. Make sure your printer has the matching media loaded before starting a photo session.
@@ -84,7 +107,7 @@ Print size is configured per template in the template editor. Make sure your pri
 **Test before opening to customers.** Print a sample composite from Pix to confirm colors, alignment, and paper feed are correct. Dye-sub printers need a short warm-up, so the first print may take longer. If using an inkjet option, print a couple of test photos and let them fully dry to check for smudging before relying on it for real customers.
 
 :::caution
-Avoid laser printers -- they're not designed for photo output and produce noticeably lower quality results. Inkjet is a different story: dye-sub is faster and more durable, but a well-chosen inkjet printer (Epson SureLab or EcoTank) is a genuine working option, especially for budget setups -- just plan for slower prints and a short drying time.
+Avoid laser printers for standard photo prints -- they're not designed for photo output and produce noticeably lower quality results. Inkjet is a different story: dye-sub is faster and more durable, but a well-chosen inkjet printer (Epson SureLab or EcoTank) is a genuine working option, especially for budget setups -- just plan for slower prints and a short drying time. (Newspaper photobooth printing is its own case -- see the section above.)
 :::
 
 **Media capacity planning:** A standard 4x6 media kit for the DNP DS-RX1 prints around 700 photos. For high-traffic kiosk locations with a dye-sub printer, keep a spare media kit on hand. For EcoTank printers, ink bottles are sold separately from paper -- budget for both when estimating cost per print.
