@@ -23,7 +23,7 @@ The final image generated after a session. A composite combines the guest's capt
 
 ### Day Pass
 
-A 24-hour access pass that unlocks all Business features for a single day. Activates immediately upon purchase.
+A 24-hour access pass that unlocks all Pix Pro features for a single day. Activates immediately upon purchase.
 
 ### Dead Letter
 
@@ -55,7 +55,7 @@ A color grading effect applied to photos after capture. Pix includes 14 built-in
 
 ### Pix Studio
 
-The template editor inside the Pix dashboard where you design and customize templates. Available on Day Pass and Business plans.
+The template editor inside the Pix dashboard where you design and customize templates. Available on Day Pass and Pix Pro plans.
 
 ### Session
 

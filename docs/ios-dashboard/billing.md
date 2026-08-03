@@ -13,7 +13,7 @@ The Billing tab handles two things: your Pix subscription plan and the payment g
 
 The top section shows your current Pix subscription:
 
-- **Plan Name** — Starter, Day Pass, or Business (Monthly/Yearly)
+- **Plan Name** — Starter, Day Pass, or Pix Pro (Monthly/Yearly)
 - **Status** — Active, Expiring, or Expired
 - **Renewal Date** — when your next billing cycle starts
 - **Booth Limit** — how many booths your plan supports
@@ -23,7 +23,7 @@ The top section shows your current Pix subscription:
 To change plans, tap **Manage Plan**. You'll see the available options with pricing. Upgrades take effect immediately; downgrades apply at the end of your current billing period.
 
 :::info
-The Starter plan is free and supports one booth with limited features. Upgrade to Business for full access to Pix Studio, sharing, analytics, and unlimited templates.
+The Starter plan is free and supports one booth, print-only, with the default template and no editors. Upgrade to Pix Pro for full access to Pix Studio, sharing, analytics, and unlimited templates.
 :::
 
 ## Payment Gateway Configuration

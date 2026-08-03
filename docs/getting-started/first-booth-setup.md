@@ -1,13 +1,13 @@
 ---
 sidebar_position: 6
 title: Set Up Your First Booth
-description: Create a booth, connect your camera, and get ready for your first session.
-tags: [getting-started, booth, camera, setup]
+description: Pair your booth, connect a camera and printer, and run a test session.
+tags: [getting-started, booth, camera, printer, setup]
 ---
 
 # Set Up Your First Booth
 
-A "booth" in Pix represents a single photobooth station. You'll create it in the dashboard, then link it to the Desktop App.
+A "booth" in Pix represents a single photobooth station. You'll create it in the dashboard, pair it with the Desktop App, then connect your camera and printer.
 
 ## 1. Create a Booth
 
@@ -43,16 +43,28 @@ No Canon camera handy? Pix can use your computer's built-in webcam for testing. 
 Make sure no other application (like Canon EOS Utility) is running, as it may lock the camera connection.
 :::
 
-## 4. Quick Test
+## 4. Connect Your Printer
 
-Run a quick test capture to make sure everything works:
+Optional, but recommended so guests can walk away with a physical print:
+
+1. In the Desktop App, go to **Settings > Printer**.
+2. Select your printer from the auto-discovered list and choose your paper size.
+3. Run a **Test Print** to check colors and alignment.
+
+Not printing at this event? Skip this step -- guests can still share via QR code. See [Printer Setup](/docs/desktop-app/printer-setup) for supported printers and full details.
+
+## 5. Start a Test Session
+
+Run a quick test to make sure everything works end to end:
 
 1. Click the screen to start a session.
 2. Select a template.
-3. Take a photo and confirm it appears in the sharing screen.
+3. Take a photo and confirm it appears in the sharing screen (and prints, if you configured a printer).
 
-If the photo looks good, you're all set!
+If it looks good, you're all set!
 
 ## Next Step
 
 Everything's connected. Let's [run your first full session](./your-first-session.md).
+
+Once that's working, start customizing: use the **Home Layout & Splash Screen** editor to style what guests see ([Branding Your Booth](/docs/guides/branding-your-booth)), and **Pix Studio** to design your own photo templates ([Pix Studio Overview](/docs/ios-dashboard/pix-studio/overview)).

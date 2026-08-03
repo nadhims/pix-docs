@@ -38,7 +38,7 @@ Windows may show a SmartScreen warning because the app is not yet code-signed fo
 | **Camera** | Canon EOS via USB or webcam | Canon EOS via USB or webcam |
 
 :::tip
-The download page auto-detects your operating system and highlights the right version for you.
+The download page lists separate macOS and Windows downloads side by side -- just pick the one that matches your computer.
 :::
 
 ## Next Step

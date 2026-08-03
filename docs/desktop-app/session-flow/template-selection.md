@@ -52,7 +52,7 @@ Templates are synced from the Pix API. Any changes you make in Pix Studio -- add
 
 ## Plan Limitations
 
-- **Starter** (free): Up to 2 templates per booth
-- **Day Pass** and **Business**: Unlimited templates
+- **Starter** (free): Default template only, no Template Editor access
+- **Day Pass** and **Pix Pro**: Unlimited templates, full Template Editor access
 
-Upgrade your plan in the Pix dashboard if you need more templates.
+Upgrade your plan in the Pix dashboard if you need custom or additional templates.

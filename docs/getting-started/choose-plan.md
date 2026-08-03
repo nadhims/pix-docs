@@ -7,20 +7,24 @@ tags: [getting-started, pricing, plans]
 
 # Choose a Plan
 
-Pix offers flexible pricing so you only pay for what you need. Here's a quick comparison:
+:::tip Free 3-Day Trial
+Every new account starts with a free 3-day trial of **Pix Pro** -- full features, no restrictions, no need to pick a plan to get started. If you don't upgrade before it ends, your account moves automatically to the free **Starter** plan -- you don't lose access. Use this page when you're ready to choose a paid plan, whether that's during your trial or once it ends.
+:::
+
+Pix offers flexible pricing so you only pay for what you need. Prices are shown in USD internationally and IDR in Indonesia. Here's a quick comparison:
 
 | Plan | Price | Best For |
 |------|-------|----------|
-| **Starter** | Free | Trying out Pix -- 1 booth, 2 templates |
-| **Day Pass** | $5/day | One-off events, weddings, parties |
-| **Business Monthly** | $40/mo | Regular operators running weekly events |
-| **Business Yearly** | $25/mo ($300/yr) | Full-time operators who want the best value |
+| **Starter** | Free | After your trial, or trying Pix at no cost -- 1 booth, print-only, default template & UI |
+| **Day Pass** | $5/day (Rp 85.000/hari) | One-off events, weddings, parties -- full Pix Pro features for 24 hours |
+| **Pix Pro Monthly** | $40/mo (Rp 650.000/bln) | Regular operators running weekly events |
+| **Pix Pro Yearly** | $25/mo, billed $300/yr (Rp 5.000.000/thn) | Full-time operators who want the best value |
 
 ## Which Plan Should You Pick?
 
-- **Just exploring?** Start with the free **Starter** plan. You get 1 booth and 2 templates -- enough to test the full session flow.
-- **Running a single event?** The **Day Pass** gives you full access for 24 hours at $7. Activate it the morning of your event.
-- **Operating regularly?** The **Business** plan unlocks unlimited templates, the template editor, sharing features, and multi-booth support. Go yearly for the best per-month rate.
+- **Just exploring?** Your first 3 days are already a full **Pix Pro** trial. After that, the free **Starter** plan keeps 1 booth running -- print-only, default template & UI, no soft files or payment gateway.
+- **Running a single event?** The **Day Pass** gives you full Pix Pro access for 24 hours at $5. Activate it the morning of your event.
+- **Operating regularly?** **Pix Pro** unlocks unlimited booths and templates, the Template Editor, UI Editor, soft files, payment gateway integration, and analytics. Go yearly for the best per-month rate.
 
 ## How to Upgrade
 
@@ -34,4 +38,4 @@ For full plan details and feature breakdowns, see [Plans & Pricing](/docs/pricin
 
 ## Next Step
 
-With your plan selected, let's [download the Desktop App](./download-desktop-app.md).
+Not ready to pick yet? That's fine -- your trial covers you. Continue with [downloading the Desktop App](./download-desktop-app.md).

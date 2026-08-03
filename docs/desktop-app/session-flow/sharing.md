@@ -50,8 +50,8 @@ The sharing screen displays for a configurable duration (default: 30 seconds) be
 
 ## Plan Limitations
 
-- **Starter** (free): QR code and microsite sharing are not available. Photos are captured but not shared digitally.
-- **Day Pass** and **Business**: All sharing options are available.
+- **Starter** (free): QR code and microsite sharing are not available. Photos are captured and printed only, not shared digitally.
+- **Day Pass** and **Pix Pro**: All sharing options are available.
 
 ## Skipping Sharing
 

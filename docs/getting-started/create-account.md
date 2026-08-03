@@ -12,7 +12,7 @@ Before you can use the Pix Desktop App or iOS Dashboard, you need a Pix account.
 ## Step-by-Step
 
 1. **Go to [pixture.io](https://pixture.io)** and click **Sign Up**.
-2. **Enter your details** -- provide your name, email address, and a password.
+2. **Enter your details** -- provide your name, email address, phone number, and a password.
 3. **Verify your email** -- check your inbox for a verification link and click it to activate your account.
 4. **Log in to the dashboard** -- return to pixture.io and sign in with your new credentials.
 
@@ -30,7 +30,7 @@ Once logged in, you land on the Pix web dashboard. From here you can:
 - Manage booths and templates
 - Access billing and plan settings
 
-Your account automatically starts on the **Starter plan** (free), which gives you 1 booth and 2 templates to explore the platform.
+Your account automatically starts on a **free 3-day trial of Pix Pro** with full access, so you can explore the platform before deciding on a plan. After 3 days, if you haven't upgraded, your account moves automatically to the free **Starter** plan (1 booth, print-only, default template & UI) -- you don't lose access.
 
 :::caution
 If you don't receive the verification email within a few minutes, check your spam folder. The email comes from **noreply@pixapp.id**.
@@ -38,4 +38,4 @@ If you don't receive the verification email within a few minutes, check your spa
 
 ## Next Step
 
-Now that your account is ready, it's time to [choose a plan](./choose-plan.md) that fits your needs.
+Now that your account is ready, you're automatically on your [free 3-day trial](./choose-plan.md) -- next, [download the Desktop App](./download-desktop-app.md).
