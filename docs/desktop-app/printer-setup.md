@@ -34,7 +34,7 @@ After selecting a printer, choose the paper size that matches your loaded media:
 - **6x8"** (15x20 cm)
 - **Custom** -- set dimensions manually for specialty media
 
-The app automatically scales the composite image to fit the selected paper size. Make sure your template dimensions in Pix Studio match your paper size for pixel-perfect prints.
+The app automatically scales the composite image to fit the selected paper size. Make sure your template dimensions in Pix Design match your paper size for pixel-perfect prints.
 
 ## Test Print
 

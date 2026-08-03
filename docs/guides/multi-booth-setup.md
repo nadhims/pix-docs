@@ -25,7 +25,7 @@ Name booths by their location — it makes monitoring much easier when you're ma
 
 Each booth can have its own set of templates, letting you offer different photo layouts at different locations.
 
-1. Go to **Pix Studio** in the Pix Dashboard
+1. Go to **Pix Design** in the Pix Dashboard
 2. Select a template and open its details
 3. Under **Booth Assignments**, choose which booths should use this template
 4. Repeat for each template you want to assign
@@ -33,7 +33,7 @@ Each booth can have its own set of templates, letting you offer different photo 
 A single template can be assigned to multiple booths, or you can give each booth a unique set.
 
 :::info
-Templates are managed centrally in Pix Studio and pushed to booths via the CMS. Changes sync automatically the next time the desktop app refreshes.
+Templates are managed centrally in Pix Design and pushed to booths via the CMS. Changes sync automatically the next time the desktop app refreshes.
 :::
 
 ## Step 3: Log In to Each Desktop App

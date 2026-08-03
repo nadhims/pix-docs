@@ -26,7 +26,7 @@ Follow these steps to get up and running:
 Time to make it yours:
 
 - **Home Layout & Splash Screen editor** -- style what guests see before and around a session. See [Branding Your Booth](/docs/guides/branding-your-booth).
-- **Pix Studio (template editor)** -- design your own photo templates. See [Pix Studio Overview](/docs/ios-dashboard/pix-studio/overview).
+- **Pix Design (template editor)** -- design your own photo templates. See [Pix Design Overview](/docs/ios-dashboard/pix-studio/overview).
 
 The [Pix Dashboard](./access-dashboard.md) also works great from your phone's browser if you want to monitor revenue, manage templates, and handle billing on the go -- no install needed.
 

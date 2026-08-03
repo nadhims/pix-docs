@@ -54,7 +54,7 @@ A session is the complete journey a guest takes through the photobooth -- from t
 
 2. **Payment** -- Optional. If enabled, guests pay before proceeding. Skipped entirely when payment is disabled (free sessions) or on Starter plan booths.
 
-3. **Template Selection** -- Guests choose from the templates you have assigned to this booth in Pix Studio.
+3. **Template Selection** -- Guests choose from the templates you have assigned to this booth in Pix Design.
 
 4. **Capture** -- The camera captures photos based on the mode configured for the selected template: composite (multiple shots arranged in a layout), GIF (animated sequence), or live photo (short video clip plus a still frame).
 

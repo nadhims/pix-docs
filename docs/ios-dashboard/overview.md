@@ -28,7 +28,7 @@ The app is organized into four primary tabs:
 | **Gallery** | Browse session photos, filter by booth or date, batch operations |
 | **Billing** | Manage your plan, payment gateways, invoices |
 
-Beyond the main tabs, the sidebar gives you access to **Pix Studio** (the visual template editor), **Transactions**, **Vouchers**, **Devices**, and **Settings**.
+Beyond the main tabs, the sidebar gives you access to **Pix Design** (the visual template editor), **Transactions**, **Vouchers**, **Devices**, and **Settings**.
 
 ## Getting Started
 

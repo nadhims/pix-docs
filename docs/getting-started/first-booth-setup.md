@@ -67,4 +67,4 @@ If it looks good, you're all set!
 
 Everything's connected. Let's [run your first full session](./your-first-session.md).
 
-Once that's working, start customizing: use the **Home Layout & Splash Screen** editor to style what guests see ([Branding Your Booth](/docs/guides/branding-your-booth)), and **Pix Studio** to design your own photo templates ([Pix Studio Overview](/docs/ios-dashboard/pix-studio/overview)).
+Once that's working, start customizing: use the **Home Layout & Splash Screen** editor to style what guests see ([Branding Your Booth](/docs/guides/branding-your-booth)), and **Pix Design** to design your own photo templates ([Pix Design Overview](/docs/ios-dashboard/pix-studio/overview)).

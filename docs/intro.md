@@ -31,5 +31,5 @@ Pix consists of two main applications:
 
 - **New to Pix?** Start with the [Getting Started guide](/docs/getting-started/overview)
 - **Setting up a camera?** See [Canon EOS Setup](/docs/desktop-app/camera-setup/canon-eos) or [Webcam Fallback](/docs/desktop-app/camera-setup/webcam-fallback)
-- **Creating templates?** Check [Pix Studio](/docs/ios-dashboard/pix-studio/overview)
+- **Creating templates?** Check [Pix Design](/docs/ios-dashboard/pix-studio/overview)
 - **Launching a new location?** Use the [Booth Operations Checklist](/docs/guides/booth-operations-checklist)

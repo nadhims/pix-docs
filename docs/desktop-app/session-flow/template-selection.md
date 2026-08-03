@@ -18,13 +18,13 @@ Templates define how the final composite image looks:
 - **Overlay graphics** -- borders, logos, decorations, and text baked into the design
 - **Output dimensions** -- matched to your print paper size or digital sharing format
 
-Templates are created and managed in **Pix Studio** from the dashboard.
+Templates are created and managed in **Pix Design** from the dashboard.
 
 ## Assigning Templates to a Booth
 
 Only templates assigned to a booth appear in the guest-facing picker:
 
-1. Open **Pix Studio** in the dashboard.
+1. Open **Pix Design** in the dashboard.
 2. Select the template you want to use.
 3. Assign it to one or more booths.
 
@@ -47,7 +47,7 @@ Each template has a specific **capture mode** associated with it:
 - **Live Photo** templates capture a short video clip plus a key frame
 
 :::info
-Templates are synced from the Pix API. Any changes you make in Pix Studio -- adding templates, reordering, or removing them -- are reflected in the app on the next session reset.
+Templates are synced from the Pix API. Any changes you make in Pix Design -- adding templates, reordering, or removing them -- are reflected in the app on the next session reset.
 :::
 
 ## Plan Limitations

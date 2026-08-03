@@ -23,7 +23,7 @@ The top section shows your current Pix subscription:
 To change plans, click **Manage Plan**. You'll see the available options with pricing. Upgrades take effect immediately; downgrades apply at the end of your current billing period.
 
 :::info
-The Starter plan is free and supports one booth, print-only, with the default template and no editors. Upgrade to Pix Pro for full access to Pix Studio, sharing, analytics, and unlimited templates.
+The Starter plan is free and supports one booth, print-only, with the default template and no editors. Upgrade to Pix Pro for full access to Pix Design, sharing, analytics, and unlimited templates.
 :::
 
 ## Payment Gateway Configuration

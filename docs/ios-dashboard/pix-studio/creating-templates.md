@@ -1,17 +1,17 @@
 ---
 sidebar_position: 2
 title: Creating Templates
-description: Design photobooth templates with the Pix Studio visual editor — add photo slots, choose print sizes, and set backgrounds.
+description: Design photobooth templates with the Pix Design visual editor — add photo slots, choose print sizes, and set backgrounds.
 tags: [pix-studio, templates, editor, design]
 ---
 
 # Creating Templates
 
-Pix Studio's visual editor makes it straightforward to build photobooth templates. You place photo slots on a canvas, set a background, choose your print size, and save.
+Pix Design's visual editor makes it straightforward to build photobooth templates. You place photo slots on a canvas, set a background, choose your print size, and save.
 
 ## Starting a New Template
 
-1. Open **Pix Studio** from the sidebar.
+1. Open **Pix Design** from the sidebar.
 2. Click **+ New Template**.
 3. Choose a **Print Size** (this sets the canvas dimensions):
    - **4x6"** — standard photo print

@@ -21,7 +21,7 @@ When you assign a template to a booth, it becomes available in that booth's temp
 
 ## Assigning a Template
 
-1. Open a template in **Pix Studio**.
+1. Open a template in **Pix Design**.
 2. Click the **Assign** button (booth icon in the toolbar).
 3. You'll see a list of all your booths with checkboxes.
 4. Check the booths where this template should be available.
@@ -35,7 +35,7 @@ You can also assign templates from the booth detail page. Go to **Booths**, clic
 
 When multiple locations should offer the same templates:
 
-1. In Pix Studio, click **Select** to enter multi-select mode.
+1. In Pix Design, click **Select** to enter multi-select mode.
 2. Check all the templates you want to assign.
 3. Click **Assign to Booths** from the action bar.
 4. Select the target booths and confirm.

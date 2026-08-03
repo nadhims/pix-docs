@@ -29,7 +29,7 @@ After signing in, the app displays a list of booths associated with your organiz
 
 Each booth has its own:
 
-- **Templates** assigned from Pix Studio
+- **Templates** assigned from Pix Design
 - **Session history** and analytics
 - **Settings** such as capture mode and sharing options
 

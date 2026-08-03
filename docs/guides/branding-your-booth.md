@@ -9,13 +9,13 @@ tags: [guides, branding, templates, pix-studio, customization]
 
 A polished, branded booth makes a strong impression. Pix gives you control over the photo templates, splash screen, and home layout — all manageable from the Pix Dashboard without touching any code.
 
-## Custom Templates in Pix Studio
+## Custom Templates in Pix Design
 
 Templates define how the final photo composite looks: where guest photos are placed, where your logo goes, and what colors and graphics surround the images.
 
 ### Creating a Template
 
-1. Open **Pix Studio** in the Pix Dashboard
+1. Open **Pix Design** in the Pix Dashboard
 2. Click **Create Template**
 3. Choose a layout type (single photo, strip, grid, or custom)
 4. Upload your background design — a PNG at 1800x1200px (landscape) or 1200x1800px (portrait) works best
@@ -24,10 +24,10 @@ Templates define how the final photo composite looks: where guest photos are pla
 7. Save and assign the template to your booth(s)
 
 :::tip
-Design your template background in Canva, Photoshop, or Figma first, then import the PNG into Pix Studio. This gives you full creative control over gradients, textures, and typography.
+Design your template background in Canva, Photoshop, or Figma first, then import the PNG into Pix Design. This gives you full creative control over gradients, textures, and typography.
 :::
 
-<!-- Screenshot: Pix Studio template editor -->
+<!-- Screenshot: Pix Design template editor -->
 
 ### Template Best Practices
 

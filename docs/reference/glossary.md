@@ -53,7 +53,7 @@ The ability of the Pix Desktop App to continue operating without internet. Sessi
 
 A color grading effect applied to photos after capture. Pix includes 14 built-in filters (warm vintage, cool blue, black & white, and more). Operators can also upload custom .CUBE LUT files for precise color grading. Guests browse a scrollable preview strip and choose a filter before sharing.
 
-### Pix Studio
+### Pix Design
 
 The template editor inside the Pix dashboard where you design and customize templates. Available on Day Pass and Pix Pro plans.
 
@@ -67,7 +67,7 @@ The digital output files from a session. Pix supports four soft file types: comp
 
 ### Template
 
-A visual layout that defines how photos are arranged in the final output. Templates include background images, photo slot positions, and overlay graphics. You can upload .PNG templates with transparent regions (photo slots are auto-detected) or create templates from scratch in Pix Studio.
+A visual layout that defines how photos are arranged in the final output. Templates include background images, photo slot positions, and overlay graphics. You can upload .PNG templates with transparent regions (photo slots are auto-detected) or create templates from scratch in Pix Design.
 
 ### UI Editor
 

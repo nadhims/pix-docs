@@ -13,12 +13,12 @@ As your template library grows, folders help you stay organized. Group templates
 
 ## Creating a Folder
 
-1. In **Pix Studio**, click the **folder icon** in the top toolbar.
+1. In **Pix Design**, click the **folder icon** in the top toolbar.
 2. Click **New Folder**.
 3. Enter a name (e.g., "Mall Kiosk 1 Templates", "Cafe Location", "Holiday 2026").
 4. Click **Create**.
 
-The folder appears in your sidebar navigation under Pix Studio.
+The folder appears in your sidebar navigation under Pix Design.
 
 ## Moving Templates to Folders
 
@@ -60,4 +60,4 @@ Folders are purely organizational — they don't affect how templates are assign
 
 ## Searching Templates
 
-Use the search bar at the top of Pix Studio to find templates by name, regardless of which folder they're in. This is the fastest way to locate a specific design when you have a large library.
+Use the search bar at the top of Pix Design to find templates by name, regardless of which folder they're in. This is the fastest way to locate a specific design when you have a large library.

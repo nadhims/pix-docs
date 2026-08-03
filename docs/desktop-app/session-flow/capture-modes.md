@@ -67,4 +67,4 @@ Live photo mode requires a Canon EOS camera. It is not available with the webcam
 
 ## Choosing a Mode
 
-The capture mode is set per template in Pix Studio. You can offer guests a mix by assigning templates with different modes to the same booth -- for example, two composite templates and one GIF template.
+The capture mode is set per template in Pix Design. You can offer guests a mix by assigning templates with different modes to the same booth -- for example, two composite templates and one GIF template.

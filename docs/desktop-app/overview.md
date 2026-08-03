@@ -14,7 +14,7 @@ The Pix Desktop App is a full-screen kiosk application that turns any Mac or Win
 - **Camera support** — Canon EOS DSLRs (via USB) and standard webcams, with auto-recovery
 - **Soft files** — composites, animated GIFs, live photos, and singles
 - **Photo filters** — 14 built-in filters plus custom .CUBE LUT support
-- **Template-driven layouts** managed from your Pix Studio dashboard
+- **Template-driven layouts** managed from your Pix Design dashboard
 - **Microsites** — branded guest sharing pages via QR code
 - **Printer support** — works with any printer, with alignment controls and auto-print
 - **Offline resilience** — queues uploads and retries automatically when connectivity drops
