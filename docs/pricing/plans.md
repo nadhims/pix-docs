@@ -7,7 +7,7 @@ tags: [pricing, plans, billing]
 
 # Plans & Pricing
 
-Pix offers flexible plans designed around how photobooth operators actually work — whether you run events once in a while or manage booths full-time.
+Pix offers flexible plans designed around how photobooth operators actually work — whether you're running a single kiosk location or managing several full-time.
 
 Pricing is shown in USD internationally and IDR in Indonesia.
 
@@ -29,12 +29,12 @@ The Starter plan is free forever with one booth. It's a bare-bones way to keep r
 
 ## Day Pass — $5 per day (Rp 85.000 per hari)
 
-The Day Pass unlocks every Pix Pro feature for a single 24-hour activation window. Perfect for operators who run occasional events and don't need a subscription.
+The Day Pass unlocks every Pix Pro feature for a single 24-hour activation window. Perfect for a promotion, a busy weekend, or trying Pix Pro before committing to a subscription.
 
 **Includes everything in Pix Pro**, activated from the moment you purchase. The pass expires exactly 24 hours later.
 
 :::tip When to use a Day Pass
-If you run fewer than three events per month, Day Passes are more cost-effective than a Pix Pro subscription.
+If you need Pro features fewer than three days a month, Day Passes are more cost-effective than a Pix Pro subscription.
 :::
 
 ## Pix Pro — $40/month (Rp 650.000/bulan), or $25/month billed yearly ($300/year, Rp 5.000.000/tahun)
@@ -65,8 +65,8 @@ Yearly billing saves about 37% compared to paying monthly.
 | Scenario | Recommended Plan |
 |---|---|
 | Trying Pix for the first time | Free 3-day Pix Pro trial, then Starter if you're not ready to pay |
-| One-off event this weekend | Day Pass |
-| Running events every week | Pix Pro (Monthly) |
-| Full-time booth operator | Pix Pro (Yearly) |
+| A single promotion or busy day | Day Pass |
+| Running your kiosk location day-to-day | Pix Pro (Monthly) |
+| Full-time, ongoing operation | Pix Pro (Yearly) |
 
 Day Pass and Pix Pro include the same feature set — the only difference is billing period and cost. You can upgrade, downgrade, or switch billing at any time from the dashboard.

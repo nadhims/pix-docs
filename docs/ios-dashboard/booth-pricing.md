@@ -7,7 +7,7 @@ tags: [ios, pricing, booths, templates, revenue]
 
 # Booth Pricing
 
-Booth pricing controls what guests pay for each photobooth session. You can set pricing at the booth level, the template level, or both — giving you flexibility for different events and venues.
+Booth pricing controls what guests pay for each photobooth session. You can set pricing at the booth level, the template level, or both — giving you flexibility across different kiosk locations.
 
 ## How Pricing Works
 
@@ -31,7 +31,7 @@ This means you can set a base price on the booth and override it for premium tem
 All sessions at this booth will use this price unless a template-specific price overrides it.
 
 :::tip
-For free events (like corporate activations where the client pays a flat fee), leave the booth price at zero. Guests won't see a payment screen at all.
+For free-session promotions (like a launch period where a sponsor covers the cost), leave the booth price at zero. Guests won't see a payment screen at all.
 :::
 
 ## Per-Template Pricing

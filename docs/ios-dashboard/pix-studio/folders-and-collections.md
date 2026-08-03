@@ -7,7 +7,7 @@ tags: [ios, pix-studio, templates, folders, organization]
 
 # Folders & Collections
 
-As your template library grows, folders help you stay organized. Group templates by client, event type, season, or any system that works for your business.
+As your template library grows, folders help you stay organized. Group templates by location, season, campaign, or any system that works for your business.
 
 <!-- Screenshot: Template folders view -->
 
@@ -15,7 +15,7 @@ As your template library grows, folders help you stay organized. Group templates
 
 1. In **Pix Studio**, tap the **folder icon** in the top toolbar.
 2. Tap **New Folder**.
-3. Enter a name (e.g., "Wedding Templates", "Corporate Events", "Holiday 2026").
+3. Enter a name (e.g., "Mall Kiosk 1 Templates", "Cafe Location", "Holiday 2026").
 4. Tap **Create**.
 
 The folder appears in your sidebar navigation under Pix Studio.
@@ -49,8 +49,8 @@ Here are some organizational patterns that work well for photobooth operators:
 
 | Pattern | Example Folders |
 |---------|----------------|
-| **By client** | "Acme Corp", "Smith Wedding", "City Mall" |
-| **By event type** | "Weddings", "Corporate", "Birthdays" |
+| **By location** | "Mall Kiosk 1", "Cafe Location", "City Mall" |
+| **By campaign** | "Holiday 2026", "Grand Opening", "Summer Promo" |
 | **By print size** | "4x6 Prints", "2x6 Strips", "5x7 Large" |
 | **By status** | "Active", "Archived", "Drafts" |
 

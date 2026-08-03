@@ -31,7 +31,7 @@ Use the filter bar at the top to narrow down what you see:
 - **Template** — filter by the template used in the session
 
 :::tip
-Combine filters to quickly find sessions. For example, select a specific booth and date range to review all photos from a particular event.
+Combine filters to quickly find sessions. For example, select a specific booth and date range to review all photos from a particular day or time period.
 :::
 
 ## Session Detail
@@ -60,7 +60,7 @@ Deleting sessions is permanent and removes both the composite and individual cap
 
 ## Search
 
-Use the search bar to find sessions by guest name or email (if sharing data was captured). This is helpful when a guest contacts you after an event asking for their photos.
+Use the search bar to find sessions by guest name or email (if sharing data was captured). This is helpful when a guest contacts you later asking for their photos.
 
 :::info
 Gallery loads the most recent sessions first. Scroll down to load older sessions, or use the date filter to jump to a specific time period.

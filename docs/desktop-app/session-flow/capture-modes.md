@@ -58,7 +58,7 @@ Captures a short video clip alongside a high-resolution still frame. The still f
 
 This mode is ideal for:
 
-- Events that want both printable photos and social video content
+- Kiosk locations that want both printable photos and social video content
 - Adding motion to the guest gallery page
 
 :::caution

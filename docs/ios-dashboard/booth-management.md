@@ -14,14 +14,14 @@ The Booths tab is where you set up and manage every photobooth in your organizat
 ## Creating a Booth
 
 1. Tap the **+** button in the top-right corner.
-2. Enter a **Booth Name** (e.g., "Wedding Booth A" or "Mall Kiosk 3").
+2. Enter a **Booth Name** (e.g., "Mall Kiosk 1" or "Cafe Location").
 3. Choose the **Platform** — Desktop (macOS/Windows) or Mobile (iOS/Android tablet).
 4. Tap **Create**.
 
 The new booth appears in your list with an "Offline" status until a device is assigned and connected.
 
 :::tip
-Use descriptive names that include the venue or event. This makes it much easier to identify booths in analytics and the leaderboard.
+Use descriptive names that include the venue or location. This makes it much easier to identify booths in analytics and the leaderboard.
 :::
 
 ## Booth Settings

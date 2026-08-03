@@ -28,7 +28,7 @@ The Pix Desktop App is an Electron-based kiosk application that runs on macOS an
 | USB | 1 available USB port (for camera) | USB 3.0 for faster tethering |
 
 :::tip
-For event use, a touchscreen display is strongly recommended. Pix is designed as a kiosk app where guests interact directly with the screen.
+For kiosk use, a touchscreen display is strongly recommended. Pix is designed as a kiosk app where guests interact directly with the screen.
 :::
 
 ### Network
@@ -38,7 +38,7 @@ For event use, a touchscreen display is strongly recommended. Pix is designed as
 - Minimum recommended speed: 5 Mbps upload for smooth photo syncing between sessions.
 
 :::caution
-Microsites (QR code sharing and branded guest pages) require an active internet connection. If you're running an event at a venue with unreliable Wi-Fi, consider a mobile hotspot as backup.
+Microsites (QR code sharing and branded guest pages) require an active internet connection. If you're running a kiosk at a location with unreliable Wi-Fi, consider a mobile hotspot as backup.
 :::
 
 ### Camera

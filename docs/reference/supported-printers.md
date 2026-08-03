@@ -14,13 +14,13 @@ Pix supports dye-sublimation photo printers for instant prints at your booth. Pr
 | Manufacturer | Model | Max Print Size | Notes |
 |---|---|---|---|
 | DNP | DS-RX1 | 6x8" | Industry standard, fast and reliable |
-| DNP | DS620 | 6x8" | Compact, popular for events |
+| DNP | DS620 | 6x8" | Compact, popular for high-traffic kiosk locations |
 | HiTi | P525L | 6x8" | Good value, dual-deck option |
 | Mitsubishi | CP-D90DW | 6x8" | High speed, double-sided capable |
-| Canon | Selphy CP1500 | 4x6" | Portable, great for small events |
+| Canon | Selphy CP1500 | 4x6" | Portable, great for low-traffic or pop-up locations |
 
 :::tip
-The DNP DS-RX1 and DS620 are the most popular choices among photobooth operators. They handle high-volume events reliably and produce consistent results.
+The DNP DS-RX1 and DS620 are the most popular choices among photobooth operators. They handle high-traffic kiosk locations reliably and produce consistent results.
 :::
 
 ## Supported Print Sizes
@@ -46,10 +46,10 @@ Print size is configured per template in the template editor. Make sure your pri
 - Mitsubishi: [mitsubishielectric.com](https://www.mitsubishielectric.com)
 - Canon: [canon.com](https://www.canon.com)
 
-**Test before the event.** Print a sample composite from Pix to confirm colors, alignment, and paper feed are correct. Dye-sub printers need a short warm-up, so the first print may take longer.
+**Test before opening to guests.** Print a sample composite from Pix to confirm colors, alignment, and paper feed are correct. Dye-sub printers need a short warm-up, so the first print may take longer.
 
 :::caution
 Avoid using inkjet or laser printers. They are not designed for photo booth workflows and produce noticeably lower quality output compared to dye-sublimation printers.
 :::
 
-**Media capacity planning:** A standard 4x6 media kit for the DNP DS-RX1 prints around 700 photos. For large events (200+ guests), bring a spare media kit.
+**Media capacity planning:** A standard 4x6 media kit for the DNP DS-RX1 prints around 700 photos. For high-traffic kiosk locations, keep a spare media kit on hand.

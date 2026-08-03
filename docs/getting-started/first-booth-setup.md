@@ -15,7 +15,7 @@ Open the **Pix Dashboard** (iOS app or web at pixture.io) and:
 
 1. Go to the **Booths** tab.
 2. Tap **Create Booth**.
-3. Give it a name (e.g., "Main Booth" or "Wedding Station 1").
+3. Give it a name (e.g., "Main Booth" or "Mall Kiosk 1").
 4. Assign at least one template to the booth.
 
 <!-- Screenshot: Create booth screen -->
@@ -36,7 +36,7 @@ Pix works best with a **Canon EOS camera** connected via USB:
 2. The Desktop App detects the camera automatically -- you'll see a green status indicator.
 
 :::tip Webcam Fallback
-No Canon camera handy? Pix can use your computer's built-in webcam for testing. This is great for trying out the session flow before your event.
+No Canon camera handy? Pix can use your computer's built-in webcam for testing. This is great for trying out the session flow before you open to guests.
 :::
 
 :::caution
@@ -51,7 +51,7 @@ Optional, but recommended so guests can walk away with a physical print:
 2. Select your printer from the auto-discovered list and choose your paper size.
 3. Run a **Test Print** to check colors and alignment.
 
-Not printing at this event? Skip this step -- guests can still share via QR code. See [Printer Setup](/docs/desktop-app/printer-setup) for supported printers and full details.
+Not printing at this location? Skip this step -- guests can still share via QR code. See [Printer Setup](/docs/desktop-app/printer-setup) for supported printers and full details.
 
 ## 5. Start a Test Session
 

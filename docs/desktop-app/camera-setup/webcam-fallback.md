@@ -12,8 +12,8 @@ If you do not have a Canon EOS camera available, the Pix Desktop App can use any
 ## When to Use a Webcam
 
 - **Testing and demos** -- quickly verify your booth setup without connecting a DSLR.
-- **Casual events** -- where maximum image quality is not critical.
-- **Backup** -- if your primary Canon camera fails mid-event, a webcam keeps the booth running.
+- **Casual setups** -- where maximum image quality is not critical.
+- **Backup** -- if your primary Canon camera fails during operating hours, a webcam keeps the booth running.
 
 ## Supported Webcams
 
@@ -48,7 +48,7 @@ Compared to a Canon EOS setup, webcams have some restrictions:
 | Focus control | AF + MF via app | Camera-managed only |
 
 :::caution
-Webcam captures are extracted from the video stream, so print quality at large sizes may be noticeably lower than DSLR captures. For professional events with printing, a Canon EOS camera is strongly recommended.
+Webcam captures are extracted from the video stream, so print quality at large sizes may be noticeably lower than DSLR captures. For locations where prints are a primary offering, a Canon EOS camera is strongly recommended.
 :::
 
 ## Switching Back to Canon

@@ -56,5 +56,5 @@ Congratulations -- you've completed your first Pix session. From here, you can e
 - **[Plans & Pricing](/docs/pricing/plans)** -- Upgrade your plan as your business grows
 
 :::tip
-Run a few test sessions before your first real event. It helps you get comfortable with the timing and flow so everything runs smoothly for your guests.
+Run a few test sessions before opening to real guests. It helps you get comfortable with the timing and flow so everything runs smoothly for your guests.
 :::

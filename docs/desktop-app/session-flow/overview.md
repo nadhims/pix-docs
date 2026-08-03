@@ -7,7 +7,7 @@ tags: [desktop-app, session, flow]
 
 # Session Flow Overview
 
-A session is the complete journey a guest takes through the photobooth -- from tapping "Start" to walking away with their photo. Understanding the flow helps you configure each step for your event.
+A session is the complete journey a guest takes through the photobooth -- from tapping "Start" to walking away with their photo. Understanding the flow helps you configure each step for your kiosk location.
 
 ## Flow Diagram
 
@@ -52,7 +52,7 @@ A session is the complete journey a guest takes through the photobooth -- from t
 
 1. **Home Screen** -- Displays your booth's branding and a start button. Fully customizable via the CMS in your Pix dashboard.
 
-2. **Payment** -- Optional. If enabled, guests pay before proceeding. Skipped entirely for free events or Starter plan booths.
+2. **Payment** -- Optional. If enabled, guests pay before proceeding. Skipped entirely when payment is disabled (free sessions) or on Starter plan booths.
 
 3. **Template Selection** -- Guests choose from the templates you have assigned to this booth in Pix Studio.
 

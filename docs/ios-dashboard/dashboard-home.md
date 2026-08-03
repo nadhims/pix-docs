@@ -33,7 +33,7 @@ Below the summary cards, the booth health section shows each booth's current sta
 | **Idle** | Booth is online but hasn't had a session today |
 
 :::caution
-An "Offline" status doesn't always mean something is wrong — the booth device may simply be powered off between events. Check the last-seen timestamp for context.
+An "Offline" status doesn't always mean something is wrong — the booth device may simply be powered off outside operating hours. Check the last-seen timestamp for context.
 :::
 
 ## Leaderboard

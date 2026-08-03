@@ -58,7 +58,7 @@ Never share your Server Key publicly. It grants full access to your payment acco
 
 ## Testing Payments
 
-Before going live at an event, always test the full payment flow:
+Before going live at your location, always test the full payment flow:
 
 1. **Use sandbox/test mode.** All three gateways offer test credentials — switch to these in the iOS Dashboard before testing.
 2. **Run a full session.** On the desktop app, go through capture and trigger the payment screen.

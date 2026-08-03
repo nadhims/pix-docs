@@ -38,7 +38,7 @@ Control which push notifications the app sends to your device:
 | **Payment Failed** | Alerts when a guest payment fails |
 | **Plan Expiring** | Reminder before your subscription renews or expires |
 
-Toggle each notification type on or off based on your preference. Booth Offline notifications are enabled by default and recommended for event operators.
+Toggle each notification type on or off based on your preference. Booth Offline notifications are enabled by default and recommended for kiosk operators.
 
 :::info
 Push notifications require notification permissions in iOS Settings. If you're not receiving alerts, check **Settings > Notifications > Pix Dashboard** on your device.

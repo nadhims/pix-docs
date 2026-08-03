@@ -58,5 +58,5 @@ Tap a device, then tap the name field to edit it. Use names that help you identi
 Swipe left on a device and tap **Remove**. This unregisters the device and removes its booth assignment. The device can be re-registered by signing in again.
 
 :::tip
-Before a big event, check the device list to confirm all your machines are online and assigned to the correct booths. This simple pre-check avoids surprises on event day.
+Before opening for the day, check the device list to confirm all your machines are online and assigned to the correct booths. This simple pre-check avoids surprises during operating hours.
 :::

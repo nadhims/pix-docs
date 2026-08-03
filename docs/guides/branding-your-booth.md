@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Branding Your Booth
-description: Customize templates, splash screens, and home layouts to match your brand or your client's event theme.
+description: Customize templates, splash screens, and home layouts to match your brand or location theme.
 tags: [guides, branding, templates, pix-studio, customization]
 ---
 
@@ -32,7 +32,7 @@ Design your template background in Canva, Photoshop, or Figma first, then import
 ### Template Best Practices
 
 - **Keep photo slots large.** Guests want to see themselves clearly — don't crowd the frame with too much decoration.
-- **Use high-contrast text.** If you add event names or dates, make sure they're readable against your background.
+- **Use high-contrast text.** If you add location names or promotional text, make sure they're readable against your background.
 - **Test on the actual printer.** Colors and fine details may look different on a dye-sub print versus a screen.
 
 ## Splash Screen Customization
@@ -53,7 +53,7 @@ Splash screen assets sync to the desktop app via CMS. After saving, the booth pi
 
 The desktop app's home screen is CMS-driven, meaning you can rearrange and customize it from the iOS Dashboard without updating the desktop app itself.
 
-- **Hero banner** — A large image or animation at the top. Use this for event branding or sponsor logos.
+- **Hero banner** — A large image or animation at the top. Use this for location branding or sponsor logos.
 - **Action buttons** — "Start Session", "View Gallery", or custom actions.
 - **Template preview carousel** — Let guests browse available layouts before they begin.
 
@@ -68,7 +68,7 @@ When running several booths, keeping a consistent look builds professionalism:
 - **Standardize the home layout.** Copy the home layout configuration from one booth to another in the Dashboard.
 
 :::caution
-If a client requests unique branding per booth (e.g., different sponsors at different stations), create separate templates and splash screens for each. Don't reuse assets that contain another client's logo.
+If you want unique branding per booth (e.g., different sponsors at different locations), create separate templates and splash screens for each. Don't reuse assets that contain another location's sponsor logo.
 :::
 
 <!-- Screenshot: Multiple booths with consistent branding -->

@@ -75,7 +75,7 @@ A drag-and-drop canvas editor for designing the kiosk interface. Operators can c
 
 ### Voucher
 
-A code that guests can enter at the booth to start a session without paying. Operators create vouchers in the dashboard to offer complimentary sessions — useful for VIP guests, sponsors, or promotional events.
+A code that guests can enter at the booth to start a session without paying. Operators create vouchers in the dashboard to offer complimentary sessions — useful for VIP guests, sponsors, or promotions.
 
 ### Payment Gateway
 

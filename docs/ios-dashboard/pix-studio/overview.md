@@ -27,7 +27,7 @@ When a guest finishes a session, the capture app composites their photos into th
 - **No design software needed** — create and edit templates entirely on your iPhone or iPad
 - **Live preview** — see exactly how the final print will look as you design
 - **Instant deployment** — assign templates to booths immediately after saving
-- **Folder organization** — group templates by event, client, or theme
+- **Folder organization** — group templates by location, season, or campaign
 
 :::tip
 If you already have template designs as PNG files, you can import them directly. Pix Studio will detect transparent regions as photo slots automatically.

@@ -21,7 +21,7 @@ The entire process is designed to be non-disruptive. Downloads happen silently, 
 <!-- Screenshot: Update available prompt on home screen -->
 
 :::tip
-Schedule a brief window before events to launch the app and let any pending updates install. This avoids update prompts during a live event.
+Schedule a brief window before opening for the day to launch the app and let any pending updates install. This avoids update prompts during operating hours.
 :::
 
 ## Checking for Updates Manually

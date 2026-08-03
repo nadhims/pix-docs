@@ -12,18 +12,18 @@ Pix supports running multiple booths under one account. Each booth has its own t
 ## Step 1: Create Your Booths
 
 1. Open the **iOS Dashboard** and go to **Booths**
-2. Tap **Add Booth** and give it a descriptive name (e.g., "Main Hall Booth", "Lobby Booth")
-3. Repeat for each physical booth station you plan to run
+2. Tap **Add Booth** and give it a descriptive name (e.g., "Mall Kiosk 1", "Cafe Location")
+3. Repeat for each fixed location where you're running a booth
 
 :::tip
-Name booths by location or client — it makes monitoring much easier when you're managing 3+ booths at an event.
+Name booths by their location — it makes monitoring much easier when you're managing several kiosk locations.
 :::
 
 <!-- Screenshot: Creating a new booth in iOS Dashboard -->
 
 ## Step 2: Assign Templates to Each Booth
 
-Each booth can have its own set of templates, letting you offer different photo layouts at different stations.
+Each booth can have its own set of templates, letting you offer different photo layouts at different locations.
 
 1. Go to **Pix Studio** in the iOS Dashboard
 2. Select a template and open its details
@@ -65,9 +65,9 @@ Tap any booth card to drill into its sessions, gallery, and analytics.
 
 <!-- Screenshot: Dashboard home showing multiple active booths -->
 
-## Tips for Multi-Booth Events
+## Tips for Managing Multiple Locations
 
-- **Label your hardware.** Put the booth name on each laptop with tape so staff don't mix them up.
-- **Use a shared hotspot.** A single high-quality mobile hotspot can serve 2-3 booths reliably.
-- **Stagger setup.** Get one booth fully working before starting the next — it's easier to troubleshoot one at a time.
-- **Assign a staff member per booth** or have one roamer who checks all booths on a rotation.
+- **Label your hardware.** Put the booth name on each laptop with tape, especially if you're configuring several before shipping them out to their locations.
+- **Plan connectivity per location.** Each site needs its own reliable connection — mall Wi-Fi, cafe Wi-Fi, or a dedicated mobile hotspot. Don't assume one connection can serve multiple locations.
+- **Stagger setup.** Get one location fully working before starting the next — it's easier to troubleshoot one at a time.
+- **Arrange a local point of contact** at each location (venue staff on-site) for basic issues like paper jams, plus a regular visit schedule of your own for maintenance and restocking.

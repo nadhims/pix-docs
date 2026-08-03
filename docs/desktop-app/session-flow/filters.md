@@ -48,7 +48,7 @@ For operators who want precise color grading control, Pix supports uploading cus
 3. Upload your `.cube` file (standard 3D LUT format).
 4. The filter appears alongside the built-in options for any booth it's assigned to.
 
-Each organization can upload up to 50 custom filters. Custom filters are managed per-booth from the dashboard, so you can curate different looks for different events.
+Each organization can upload up to 50 custom filters. Custom filters are managed per-booth from the dashboard, so you can curate different looks for different kiosk locations.
 
 :::tip
 Create signature filters that match your brand. Clients remember the unique look of your photos, and custom LUTs let you build a distinctive visual style.
@@ -62,7 +62,7 @@ By default, all filters (built-in + custom) are available on every booth. You ca
 2. Go to **Filter Assignments**.
 3. Select which filters to include and set their display order.
 
-This lets you curate event-specific filter sets — for example, only warm tones for a rustic wedding or only high-contrast options for a corporate brand activation.
+This lets you curate location-specific filter sets — for example, only warm tones for a beachside cafe location or only high-contrast options for a corporate brand activation.
 
 ## Enabling Filters
 
@@ -79,4 +79,4 @@ Filter processing happens entirely on-device using 3D LUT trilinear interpolatio
 
 ## Skipping Filters
 
-For high-volume events where speed is a priority, disable the filter step to shave a few seconds off each session. Guests go directly from capture to sharing.
+For high-traffic kiosk locations where speed is a priority, disable the filter step to shave a few seconds off each session. Guests go directly from capture to sharing.

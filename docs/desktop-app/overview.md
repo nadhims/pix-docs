@@ -51,7 +51,7 @@ The app runs as a kiosk-mode Electron window. Under the hood:
 The desktop app works with all Pix plans:
 
 - **Starter** (free) -- 1 booth, print-only, default template & UI, no editors or digital sharing
-- **Day Pass** ($5/day) -- full Pix Pro features for a single event day
+- **Day Pass** ($5/day) -- a single day of full Pix Pro features, e.g. for a promotion or trying it before subscribing
 - **Pix Pro** ($40/mo or $25/mo yearly) -- unlimited features for ongoing operations
 
 See the [Pricing](/docs/pricing/plans) section for full details.

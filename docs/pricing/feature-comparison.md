@@ -46,5 +46,5 @@ All plans support capturing photos without an internet connection. The differenc
 Day Pass and Pix Pro let you connect a payment provider (Xendit, DOKU, or Midtrans) so guests can pay per session or per custom frame directly at the booth, with Pix taking a 0% cut. This is optional — you can run a booth without guest-facing payments if your business model doesn't require it.
 
 :::info
-Need help deciding? Every new account starts with a free 3-day trial of Pix Pro, so you can try everything before choosing. Running events regularly? Pix Pro Yearly offers the best value at $300/year.
+Need help deciding? Every new account starts with a free 3-day trial of Pix Pro, so you can try everything before choosing. Running your kiosk full-time? Pix Pro Yearly offers the best value at $300/year.
 :::

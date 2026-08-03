@@ -42,13 +42,13 @@ Tap the **Background** button to choose from:
 - **Gradient** — two-color linear or radial gradient
 - **Image** — upload a PNG or JPG from your photo library
 
-For branded events, upload a client's background design that includes borders, logos, and decorative elements.
+For branded locations, upload a client's background design that includes borders, logos, and decorative elements.
 
 ## Adding Overlays
 
 Overlays sit on top of the photo slots. Common uses include:
 
-- Event logos or branding
+- Location logos or branding
 - Date stamps or custom text
 - Decorative frames around photo slots
 

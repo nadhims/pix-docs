@@ -23,7 +23,7 @@ This page covers the most common issues operators encounter with the Pix Desktop
 6. On macOS, open **System Settings > Privacy & Security > Camera** and confirm Pix has permission.
 
 :::tip
-If you frequently lose camera connection during events, use a shorter USB cable (under 2 meters) or a powered USB hub. Long cable runs are the most common cause of intermittent disconnects.
+If you frequently lose camera connection during operating hours, use a shorter USB cable (under 2 meters) or a powered USB hub. Long cable runs are the most common cause of intermittent disconnects.
 :::
 
 ## Printer Not Found

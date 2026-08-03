@@ -33,7 +33,7 @@ You can assign as many templates as you like. For a streamlined guest experience
 <!-- Screenshot: Template picker showing three template options -->
 
 :::tip
-If you assign only one template to a booth, the selection step is skipped automatically and the session jumps straight to capture. This is ideal for branded events with a single layout.
+If you assign only one template to a booth, the selection step is skipped automatically and the session jumps straight to capture. This is ideal for locations running a single branded layout.
 :::
 
 ## Guest Experience

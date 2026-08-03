@@ -33,14 +33,14 @@ You can also assign templates from the booth detail page. Go to **Booths**, tap 
 
 ## Bulk Assignment
 
-For events where every booth should offer the same templates:
+When multiple locations should offer the same templates:
 
 1. In Pix Studio, tap **Select** to enter multi-select mode.
 2. Check all the templates you want to assign.
 3. Tap **Assign to Booths** from the action bar.
 4. Select the target booths and confirm.
 
-This is particularly useful when setting up multiple booths for a single event.
+This is particularly useful when setting up multiple booths across different locations that should share the same template set.
 
 ## Unassigning Templates
 

@@ -14,8 +14,8 @@ The home screen is the first thing guests see when they approach your photobooth
 The home screen layout is managed entirely from your Pix dashboard -- no code or app changes required. The layout engine renders pages based on a CMS configuration that includes:
 
 - **Background image or color** -- full-screen backdrop for your booth
-- **Logo** -- your organization or event logo
-- **Text blocks** -- welcome messages, event name, instructions
+- **Logo** -- your organization's logo
+- **Text blocks** -- welcome messages, location name, instructions
 - **Start button** -- the primary call-to-action that kicks off the session flow
 
 <!-- Screenshot: Home screen with custom branding and start button -->
@@ -35,7 +35,7 @@ To update the home screen:
 
 ## Branding
 
-Your home screen should match your event or business branding. You can customize:
+Your home screen should match your business or location branding. You can customize:
 
 - Background image (recommended: match your display resolution, e.g., 1920x1080)
 - Logo placement and size

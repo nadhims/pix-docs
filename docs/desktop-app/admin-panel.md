@@ -7,7 +7,7 @@ tags: [desktop-app, admin, diagnostics, logs]
 
 # Admin Panel
 
-The admin panel is a hidden management interface accessible to booth operators. It provides tools for monitoring, troubleshooting, and managing the app during and after events.
+The admin panel is a hidden management interface accessible to booth operators. It provides tools for monitoring, troubleshooting, and managing the app during day-to-day operation.
 
 ## Accessing the Admin Panel
 
@@ -41,7 +41,7 @@ Items that failed repeatedly and were removed from automatic retry:
 - **Discard** items that cannot be recovered
 
 :::tip
-After an event, check the dead-letter queue before shutting down. Retrying items while on a stable internet connection often resolves transient failures.
+Check the dead-letter queue periodically, especially before closing down for the day. Retrying items while on a stable internet connection often resolves transient failures.
 :::
 
 ## Diagnostics

@@ -28,7 +28,7 @@ The Starter plan is free and supports one booth, print-only, with the default te
 
 ## Payment Gateway Configuration
 
-Your booths can accept payments from guests (e.g., pay-per-session or event packages). Pix supports three Indonesian payment gateways:
+Your booths can accept payments from guests (e.g., pay-per-session). Pix supports three Indonesian payment gateways:
 
 | Gateway | Supported Methods |
 |---------|------------------|

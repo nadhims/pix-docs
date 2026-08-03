@@ -12,10 +12,10 @@ The payment step is an optional gate in the session flow. When enabled, guests m
 ## When to Use Payment
 
 - **Paid public booths** -- shopping malls, arcades, or venues where each session has a per-use fee
-- **Premium add-ons** -- charge for prints or extra features at an otherwise free event
+- **Premium add-ons** -- charge for prints or extra features while the base session stays free
 - **Revenue-generating installations** -- permanent photobooth setups that operate as a business
 
-For free events (corporate parties, weddings, marketing activations), simply leave the payment step disabled and guests skip straight to template selection.
+For promotional periods where sessions are free (launch campaigns, brand activations, marketing promotions), simply leave the payment step disabled and guests skip straight to template selection.
 
 ## Configuring Payment
 

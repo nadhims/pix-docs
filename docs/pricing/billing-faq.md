@@ -18,7 +18,7 @@ Pix Pro Monthly is billed on the same date each month. Pix Pro Yearly is billed 
 A Day Pass activates the moment you purchase it. From that point, you have exactly 24 hours of full access to every feature. The countdown runs continuously — it does not pause overnight.
 
 :::caution
-Plan your Day Pass purchase to start close to your event time. If you buy it the night before, several hours will be used up before guests arrive.
+Plan your Day Pass purchase to start close to when you'll actually use it — for a promotion or a specific busy day. If you buy it the night before, several hours will already be used up by the time you need them.
 :::
 
 ## Can I upgrade from Starter to Pix Pro?

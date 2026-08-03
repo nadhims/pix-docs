@@ -54,7 +54,7 @@ Shows a real-time exposure simulation on the live view so you can judge brightne
 A live histogram is displayed alongside the preview, helping you spot blown highlights or crushed shadows before capture.
 
 :::tip
-For a fixed photobooth setup, dial in your settings once during setup, switch the lens to manual focus, and lock everything down. This eliminates autofocus delays and ensures consistent results throughout the event.
+For a fixed photobooth setup, dial in your settings once during setup, switch the lens to manual focus, and lock everything down. This eliminates autofocus delays and ensures consistent results throughout the day.
 :::
 
 :::caution

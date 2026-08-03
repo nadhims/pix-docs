@@ -38,7 +38,7 @@ The app automatically scales the composite image to fit the selected paper size.
 
 ## Test Print
 
-Before your event, always run a test print:
+Before opening for the day, always run a test print:
 
 1. Go to **Settings > Printer**.
 2. Select your printer and paper size.
@@ -47,7 +47,7 @@ Before your event, always run a test print:
 The app sends a sample image to verify colors, alignment, and paper feed. Adjust printer-specific settings (color density, margins) through the printer driver if needed.
 
 :::caution
-Keep spare media and ribbon on hand. Dye-sub printers stop mid-event when media runs out, and you cannot resume a partially used ribbon roll.
+Keep spare media and ribbon on hand. Dye-sub printers can run out of media at any point during operating hours, and you cannot resume a partially used ribbon roll.
 :::
 
 ## Enabling Print in the Session Flow

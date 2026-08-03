@@ -7,7 +7,7 @@ tags: [desktop-app, offline, queue, resilience]
 
 # Offline Resilience
 
-The Pix Desktop App is designed to keep running even when your internet connection drops. Events should never stop because of a WiFi hiccup.
+The Pix Desktop App is designed to keep running even when your internet connection drops. The kiosk should never go down because of a WiFi hiccup.
 
 ## How It Works
 
@@ -18,7 +18,7 @@ When the app detects it is offline, it continues operating normally with a few a
 - **QR codes are deferred** -- the sharing screen shows a message that the photo will be available online once connectivity is restored.
 
 :::info
-The app caches your booth configuration, templates, and branding locally. Even if the internet goes out before your event starts, the booth will work with the last synced configuration.
+The app caches your booth configuration, templates, and branding locally. Even if the internet drops at any point during operation, the booth will keep working with the last synced configuration.
 :::
 
 ## Upload Queue
@@ -42,15 +42,15 @@ If an upload fails repeatedly (e.g., the file is corrupt or the server rejects i
 - Include error details to help diagnose the failure
 
 :::caution
-Check the dead-letter queue periodically, especially after events with poor connectivity. A few items ending up there is normal, but a large number may indicate a configuration issue.
+Check the dead-letter queue periodically, especially after stretches of poor connectivity. A few items ending up there is normal, but a large number may indicate a configuration issue.
 :::
 
 ## Working Without Internet
 
-For fully offline events (remote locations, no WiFi), the booth works perfectly for capture and print. Microsites (QR code sharing and guest pages) will become available once you reconnect the device to the internet and the queue drains.
+For kiosk locations with no internet access at all (remote sites, no WiFi), the booth works perfectly for capture and print. Microsites (QR code sharing and guest pages) will become available once you reconnect the device to the internet and the queue drains.
 
 :::tip
-If you know your event will be offline, pre-sync your booth by launching the app and completing one test session while online. This ensures all templates and branding are cached locally.
+If you know a kiosk location has no reliable internet, pre-sync your booth by launching the app and completing one test session while online. This ensures all templates and branding are cached locally.
 :::
 
 ## Monitoring Queue Status
