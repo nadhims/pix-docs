@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: Gallery
 description: Browse session photos, filter by booth or date, and perform batch operations in the Gallery tab.
-tags: [ios, gallery, photos, sessions]
+tags: [gallery, photos, sessions]
 ---
 
 # Gallery
@@ -20,7 +20,7 @@ The gallery displays sessions as cards in a grid. Each card shows:
 - The date and time
 - The number of photos in the session
 
-Tap a session to view the full-resolution composite and individual captures.
+Click a session to view the full-resolution composite and individual captures.
 
 ## Filtering
 
@@ -36,7 +36,7 @@ Combine filters to quickly find sessions. For example, select a specific booth a
 
 ## Session Detail
 
-Tapping into a session shows:
+Clicking into a session shows:
 
 - The **final composite** — the finished photo with the template applied
 - **Individual captures** — each raw photo taken during the session
@@ -47,11 +47,11 @@ Tapping into a session shows:
 
 For managing photos in bulk:
 
-1. Tap **Select** in the top-right corner.
+1. Click **Select** in the top-right corner.
 2. Check the sessions you want to act on.
 3. Choose from the action bar:
-   - **Download** — save composites to your device's photo library
-   - **Share** — send via AirDrop, Messages, or other iOS share options
+   - **Download** — save composites to your device
+   - **Share** — send via email or other sharing options
    - **Delete** — remove sessions permanently
 
 :::caution

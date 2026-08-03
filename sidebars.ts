@@ -11,7 +11,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/create-account',
         'getting-started/choose-plan',
         'getting-started/download-desktop-app',
-        'getting-started/install-ios-dashboard',
+        'getting-started/access-dashboard',
         'getting-started/first-booth-setup',
         'getting-started/your-first-session',
       ],
@@ -91,7 +91,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Guides',
       items: [
-        'guides/event-day-checklist',
+        'guides/booth-operations-checklist',
         'guides/multi-booth-setup',
         'guides/payment-gateway-setup',
         'guides/branding-your-booth',

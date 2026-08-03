@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: Vouchers
 description: Create discount codes, set expiry dates, and track redemptions with the Vouchers feature.
-tags: [ios, vouchers, discounts, promotions]
+tags: [vouchers, discounts, promotions]
 ---
 
 # Vouchers
@@ -14,14 +14,14 @@ Vouchers let you offer discount codes to guests. Use them for promotions, limite
 ## Creating a Voucher
 
 1. Open **Vouchers** from the sidebar.
-2. Tap **+ New Voucher**.
+2. Click **+ New Voucher**.
 3. Fill in the details:
    - **Code** — the text guests enter (e.g., "WEEKEND20", "FREEPHOTO"). Codes are case-insensitive.
    - **Discount Type** — percentage off or fixed amount off.
    - **Discount Value** — the percentage (e.g., 25%) or fixed amount (e.g., Rp 10,000).
    - **Max Redemptions** — total number of times this code can be used (leave blank for unlimited).
    - **Expiry Date** — when the voucher stops working.
-4. Tap **Create**.
+4. Click **Create**.
 
 :::tip
 For limited-time vouchers, set the expiry date to the day after the promotion ends. This way the code works during the promotion window but can't be reused later.
@@ -38,7 +38,7 @@ The voucher list shows all codes with their status:
 | **Depleted** | Max redemptions reached |
 | **Disabled** | Manually deactivated |
 
-Tap any voucher to edit its details or disable it. You can also extend the expiry date or increase the redemption limit after creation.
+Click any voucher to edit its details or disable it. You can also extend the expiry date or increase the redemption limit after creation.
 
 ## Tracking Redemptions
 

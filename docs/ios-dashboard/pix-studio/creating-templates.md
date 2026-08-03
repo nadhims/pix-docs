@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Creating Templates
 description: Design photobooth templates with the Pix Studio visual editor — add photo slots, choose print sizes, and set backgrounds.
-tags: [ios, pix-studio, templates, editor, design]
+tags: [pix-studio, templates, editor, design]
 ---
 
 # Creating Templates
@@ -12,7 +12,7 @@ Pix Studio's visual editor makes it straightforward to build photobooth template
 ## Starting a New Template
 
 1. Open **Pix Studio** from the sidebar.
-2. Tap **+ New Template**.
+2. Click **+ New Template**.
 3. Choose a **Print Size** (this sets the canvas dimensions):
    - **4x6"** — standard photo print
    - **2x6"** — photo strip (classic booth style)
@@ -25,7 +25,7 @@ Pix Studio's visual editor makes it straightforward to build photobooth template
 
 Photo slots define where guest photos appear in the final composite.
 
-1. Tap **Add Slot** in the toolbar.
+1. Click **Add Slot** in the toolbar.
 2. Drag the slot to position it on the canvas.
 3. Resize by dragging the corner handles.
 4. Repeat for additional slots (e.g., 3-4 slots for a photo strip).
@@ -36,11 +36,11 @@ The number of photo slots determines how many photos the booth captures per sess
 
 ## Setting the Background
 
-Tap the **Background** button to choose from:
+Click the **Background** button to choose from:
 
 - **Solid Color** — pick from the color wheel or enter a hex code
 - **Gradient** — two-color linear or radial gradient
-- **Image** — upload a PNG or JPG from your photo library
+- **Image** — upload a PNG or JPG file from your computer
 
 For branded locations, upload a client's background design that includes borders, logos, and decorative elements.
 
@@ -52,11 +52,11 @@ Overlays sit on top of the photo slots. Common uses include:
 - Date stamps or custom text
 - Decorative frames around photo slots
 
-Tap **Add Overlay**, select an image from your library, and position it on the canvas.
+Click **Add Overlay**, select an image file, and position it on the canvas.
 
 ## Saving and Previewing
 
-Tap **Preview** to see how the template looks with sample photos. When you're satisfied, tap **Save**. The template appears in your library and is ready to be [assigned to booths](./assigning-templates.md).
+Click **Preview** to see how the template looks with sample photos. When you're satisfied, click **Save**. The template appears in your library and is ready to be [assigned to booths](./assigning-templates.md).
 
 :::caution
 Unsaved changes are lost if you navigate away from the editor. Always save before leaving.

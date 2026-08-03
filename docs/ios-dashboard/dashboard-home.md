@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Dashboard Home
 description: View real-time analytics, session counts, revenue, and booth health from the Dashboard tab.
-tags: [ios, dashboard, analytics, revenue]
+tags: [dashboard, analytics, revenue]
 ---
 
 # Dashboard Home
@@ -43,13 +43,13 @@ The leaderboard ranks your booths by session count or revenue for the selected p
 <!-- Screenshot: Booth leaderboard -->
 
 :::tip
-Tap any booth in the leaderboard to jump directly to its detail page, where you can review settings, assigned templates, and recent sessions.
+Click any booth in the leaderboard to jump directly to its detail page, where you can review settings, assigned templates, and recent sessions.
 :::
 
 ## Revenue Chart
 
 A line or bar chart visualizes daily revenue trends over the selected date range. Spot patterns like weekend spikes or slow weekdays to help you plan staffing and marketing.
 
-## Pull to Refresh
+## Refreshing Data
 
-All data on this screen refreshes automatically when you navigate to the tab. You can also pull down to force a refresh if you want the latest numbers mid-session.
+All data on this screen refreshes automatically when you navigate to the tab. You can also reload the page if you want the latest numbers mid-session.

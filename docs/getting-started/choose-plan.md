@@ -32,7 +32,7 @@ Pix offers flexible pricing so you only pay for what you need. Prices are shown 
 2. Navigate to **Billing** in the sidebar.
 3. Select your plan and complete payment.
 
-Your new plan activates immediately. You can also manage billing from the [iOS Dashboard](./install-ios-dashboard.md).
+Your new plan activates immediately. You can also manage billing from the [Pix Dashboard](./access-dashboard.md) on your phone.
 
 For full plan details and feature breakdowns, see [Plans & Pricing](/docs/pricing/plans).
 

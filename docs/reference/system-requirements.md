@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: System Requirements
-description: Minimum and recommended system requirements for the Pix Desktop App and iOS Dashboard.
+description: Minimum and recommended system requirements for the Pix Desktop App and Pix Dashboard.
 tags: [reference, requirements, hardware]
 ---
 
@@ -51,16 +51,16 @@ A built-in or external webcam can be used as a fallback for testing or lower-qua
 
 A dye-sublimation photo printer connected via USB. See [Supported Printers](./supported-printers.md) for tested models and print sizes.
 
-## Pix iOS Dashboard
+## Pix Dashboard
 
-The iOS Dashboard is a management app for monitoring your booths, viewing analytics, and managing templates from your phone or tablet.
+The Pix Dashboard is a web-based management tool for monitoring your booths, viewing analytics, and managing templates from any device -- no app to install.
 
 | Requirement | Detail |
 |---|---|
-| iOS version | 26.0 or later |
-| Devices | iPhone and iPad |
+| Browser | Latest version of Chrome, Safari, Firefox, or Edge |
+| Devices | Any desktop, laptop, tablet, or phone |
 | Network | Internet connection required (no offline support) |
 
 :::info
-The iOS Dashboard is a management tool, not a capture app. You still need the Desktop App to run a booth.
+The Pix Dashboard is a management tool, not a capture app. You still need the Desktop App to run a booth.
 :::

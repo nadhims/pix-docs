@@ -52,7 +52,7 @@ Congratulations -- you've completed your first Pix session. From here, you can e
 
 - **[Templates](/docs/desktop-app/session-flow/template-selection)** -- Create and customize photo layouts
 - **[Printer Setup](/docs/desktop-app/printer-setup)** -- Connect a thermal or dye-sub printer
-- **[iOS Dashboard](/docs/ios-dashboard/overview)** -- Monitor sessions and revenue in real time
+- **[Pix Dashboard](/docs/ios-dashboard/overview)** -- Monitor sessions and revenue in real time
 - **[Plans & Pricing](/docs/pricing/plans)** -- Upgrade your plan as your business grows
 
 :::tip

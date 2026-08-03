@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Assigning Templates to Booths
 description: Assign templates to one or more booths so guests can use them during sessions.
-tags: [ios, pix-studio, templates, booths, assignment]
+tags: [pix-studio, templates, booths, assignment]
 ---
 
 # Assigning Templates to Booths
@@ -22,22 +22,22 @@ When you assign a template to a booth, it becomes available in that booth's temp
 ## Assigning a Template
 
 1. Open a template in **Pix Studio**.
-2. Tap the **Assign** button (booth icon in the toolbar).
+2. Click the **Assign** button (booth icon in the toolbar).
 3. You'll see a list of all your booths with checkboxes.
 4. Check the booths where this template should be available.
-5. Tap **Save**.
+5. Click **Save**.
 
 :::tip
-You can also assign templates from the booth detail page. Go to **Booths**, tap a booth, then tap **Templates** to manage which designs are available at that location.
+You can also assign templates from the booth detail page. Go to **Booths**, click a booth, then click **Templates** to manage which designs are available at that location.
 :::
 
 ## Bulk Assignment
 
 When multiple locations should offer the same templates:
 
-1. In Pix Studio, tap **Select** to enter multi-select mode.
+1. In Pix Studio, click **Select** to enter multi-select mode.
 2. Check all the templates you want to assign.
-3. Tap **Assign to Booths** from the action bar.
+3. Click **Assign to Booths** from the action bar.
 4. Select the target booths and confirm.
 
 This is particularly useful when setting up multiple booths across different locations that should share the same template set.
@@ -46,9 +46,9 @@ This is particularly useful when setting up multiple booths across different loc
 
 To remove a template from a booth:
 
-1. Open the template and tap **Assign**.
+1. Open the template and click **Assign**.
 2. Uncheck the booth you want to remove it from.
-3. Tap **Save**.
+3. Click **Save**.
 
 :::caution
 Removing a template from a booth takes effect immediately. If a session is in progress using that template, it will complete normally, but new sessions won't see the template.
@@ -56,7 +56,7 @@ Removing a template from a booth takes effect immediately. If a session is in pr
 
 ## Checking Assignments
 
-Each template card in the library shows a small badge indicating how many booths it's assigned to. Tap it to see the full list of assigned booths.
+Each template card in the library shows a small badge indicating how many booths it's assigned to. Click it to see the full list of assigned booths.
 
 :::info
 If a booth has no templates assigned, guests will see an empty template selection screen. Always ensure at least one template is assigned to each active booth.

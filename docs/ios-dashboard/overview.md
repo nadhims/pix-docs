@@ -1,21 +1,21 @@
 ---
 sidebar_position: 1
-title: iOS Dashboard Overview
-description: Manage your photobooth business from your iPhone or iPad with the Pix iOS Dashboard.
-tags: [ios, dashboard, overview, getting-started]
+title: Pix Dashboard Overview
+description: Manage your photobooth business from any browser with the Pix Dashboard at pixture.io.
+tags: [dashboard, overview, getting-started]
 ---
 
-# iOS Dashboard Overview
+# Pix Dashboard Overview
 
-The Pix iOS Dashboard is a native SwiftUI app that puts your entire photobooth operation in your pocket. Built for iPhone and iPad, it gives you real-time control over booths, templates, analytics, billing, and devices — whether you're at a venue or on the go.
+The Pix Dashboard is a web application at pixture.io that puts your entire photobooth operation in one place. No install needed — it gives you real-time control over booths, templates, analytics, billing, and devices from any browser, desktop or mobile, whether you're at a venue or on the go.
 
-<!-- Screenshot: iOS Dashboard main screen -->
+<!-- Screenshot: Pix Dashboard main screen -->
 
 ## Requirements
 
-- **iOS 26 or later** (iPhone or iPad)
 - A Pix account with at least one active booth
 - Internet connection (no offline support)
+- Any modern web browser
 
 ## Main Tabs
 
@@ -32,18 +32,13 @@ Beyond the main tabs, the sidebar gives you access to **Pix Studio** (the visual
 
 ## Getting Started
 
-1. Download the Pix Dashboard from the App Store.
-2. Sign in with your Pix account credentials. Face ID / Touch ID is supported for quick access.
-3. You'll land on the **Dashboard** tab showing your analytics summary.
+1. Go to [pixture.io](https://pixture.io) and sign in with your Pix account credentials.
+2. You'll land on the **Dashboard** tab showing your analytics summary.
 
 :::tip
 If you manage multiple booths across venues, the Dashboard tab's leaderboard helps you quickly spot your top-performing locations.
 :::
 
-## iPhone vs iPad
-
-The app works on both form factors. On iPad, you get a persistent sidebar for faster navigation. On iPhone, the sidebar collapses into a tab bar. All features are available on both devices.
-
 :::info
-The iOS Dashboard is a management tool — it does not run photobooth sessions. For that, use the Pix Desktop App (macOS/Windows) or Pix Mobile (iOS/Android tablets).
+The Pix Dashboard is a management tool — it does not run photobooth sessions. For that, use the Pix Desktop App (macOS/Windows) or Pix Mobile (iOS/Android tablets).
 :::

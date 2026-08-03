@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 title: Pix Studio Overview
-description: Introduction to Pix Studio, the visual template editor built into the iOS Dashboard.
-tags: [ios, pix-studio, templates, editor]
+description: Introduction to Pix Studio, the visual template editor built into the Pix Dashboard.
+tags: [pix-studio, templates, editor]
 ---
 
 # Pix Studio Overview
 
-Pix Studio is the visual template editor built right into the Pix iOS Dashboard. It lets you design photobooth templates — the layouts your guests see when their photos are printed or shared — without needing a desktop design tool.
+Pix Studio is the visual template editor built right into the Pix Dashboard. It lets you design photobooth templates — the layouts your guests see when their photos are printed or shared — without needing a desktop design tool.
 
 <!-- Screenshot: Pix Studio editor -->
 
@@ -24,7 +24,7 @@ When a guest finishes a session, the capture app composites their photos into th
 
 ## Why Use Pix Studio?
 
-- **No design software needed** — create and edit templates entirely on your iPhone or iPad
+- **No design software needed** — create and edit templates entirely in your browser
 - **Live preview** — see exactly how the final print will look as you design
 - **Instant deployment** — assign templates to booths immediately after saving
 - **Folder organization** — group templates by location, season, or campaign
@@ -44,7 +44,7 @@ If you already have template designs as PNG files, you can import them directly.
 
 ## Getting Started
 
-From the sidebar, tap **Pix Studio** to see your template library. From there you can:
+From the sidebar, click **Pix Studio** to see your template library. From there you can:
 
 1. [Create a new template](./creating-templates.md)
 2. [Organize templates into folders](./folders-and-collections.md)

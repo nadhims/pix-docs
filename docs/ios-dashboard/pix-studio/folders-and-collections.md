@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Folders & Collections
 description: Organize your photobooth templates into folders and collections for easier management.
-tags: [ios, pix-studio, templates, folders, organization]
+tags: [pix-studio, templates, folders, organization]
 ---
 
 # Folders & Collections
@@ -13,10 +13,10 @@ As your template library grows, folders help you stay organized. Group templates
 
 ## Creating a Folder
 
-1. In **Pix Studio**, tap the **folder icon** in the top toolbar.
-2. Tap **New Folder**.
+1. In **Pix Studio**, click the **folder icon** in the top toolbar.
+2. Click **New Folder**.
 3. Enter a name (e.g., "Mall Kiosk 1 Templates", "Cafe Location", "Holiday 2026").
-4. Tap **Create**.
+4. Click **Create**.
 
 The folder appears in your sidebar navigation under Pix Studio.
 
@@ -24,22 +24,22 @@ The folder appears in your sidebar navigation under Pix Studio.
 
 There are two ways to organize templates into folders:
 
-**Drag and Drop (iPad)**
-- Long-press a template thumbnail until it lifts.
+**Drag and Drop**
+- Click and hold a template thumbnail until it lifts.
 - Drag it onto the target folder in the sidebar.
 
-**Move Action (iPhone & iPad)**
-- Tap the **...** menu on a template card.
+**Move Action**
+- Click the **...** menu on a template card.
 - Select **Move to Folder**.
 - Choose the destination folder.
 
 :::tip
-You can move multiple templates at once. Tap **Select** in the top-right corner, check the templates you want to move, then tap **Move**.
+You can move multiple templates at once. Click **Select** in the top-right corner, check the templates you want to move, then click **Move**.
 :::
 
 ## Managing Folders
 
-- **Rename** — tap the **...** menu next to a folder name and select **Rename**.
+- **Rename** — click the **...** menu next to a folder name and select **Rename**.
 - **Delete** — removes the folder but keeps the templates (they move back to the root library).
 - **Reorder** — drag folders in the sidebar to change their display order.
 

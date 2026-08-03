@@ -16,7 +16,7 @@ Running a smooth kiosk location comes down to a solid launch and steady upkeep. 
 - [ ] Set up your MacBook/laptop or computer at the location and connect it to power
 - [ ] Connect and test your Canon EOS camera (check battery and SD card)
 - [ ] Load printer paper and ribbon — do a test print
-- [ ] Confirm your iPad/iPhone has the iOS Dashboard installed and logged in
+- [ ] Confirm you can log in to the Pix Dashboard (pixture.io) from your phone or tablet browser
 
 ### Software
 
@@ -34,7 +34,7 @@ Running a smooth kiosk location comes down to a solid launch and steady upkeep. 
 ### Payment Gateway (if used)
 
 - [ ] Run a full test payment in sandbox mode before switching to production keys
-- [ ] Verify the test transaction appears in both the gateway dashboard and the iOS Dashboard
+- [ ] Verify the test transaction appears in both the gateway dashboard and the Pix Dashboard
 
 :::tip
 Give yourself extra time on launch day to troubleshoot. Location Wi-Fi can be unreliable — always have a personal hotspot as backup.
@@ -44,7 +44,7 @@ Give yourself extra time on launch day to troubleshoot. Location Wi-Fi can be un
 
 ### Monitoring
 
-- [ ] Check the **iOS Dashboard** periodically for session counts and upload status
+- [ ] Check the **Pix Dashboard** periodically for session counts and upload status
 - [ ] Confirm the upload queue is clear (0 pending) — investigate anything stuck
 - [ ] Confirm the camera connection is still stable
 - [ ] Check printer paper and ribbon levels — replace before they run out
@@ -64,7 +64,7 @@ Never power off the laptop while there are pending uploads. Let the offline queu
 
 ### Ongoing Review
 
-- [ ] Review the gallery in the iOS Dashboard periodically for image quality
+- [ ] Review the gallery in the Pix Dashboard periodically for image quality
 - [ ] Check **Analytics** for session count, popular templates, and sharing stats
 - [ ] Export transaction data from **Billing > Transactions** periodically if you charge guests
 - [ ] Pack and store printer ribbon and paper properly between restocks to avoid damage

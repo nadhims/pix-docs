@@ -28,9 +28,7 @@ Time to make it yours:
 - **Home Layout & Splash Screen editor** -- style what guests see before and around a session. See [Branding Your Booth](/docs/guides/branding-your-booth).
 - **Pix Studio (template editor)** -- design your own photo templates. See [Pix Studio Overview](/docs/ios-dashboard/pix-studio/overview).
 
-## Optional: iOS Dashboard
-
-If you manage booths on the go, [install the Pix iOS Dashboard](./install-ios-dashboard.md) to monitor revenue, manage templates, and handle billing from your iPhone or iPad.
+The [Pix Dashboard](./access-dashboard.md) also works great from your phone's browser if you want to monitor revenue, manage templates, and handle billing on the go -- no install needed.
 
 :::tip
 Most operators are running their first test session within 30 minutes of signing up.

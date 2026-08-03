@@ -2,7 +2,7 @@
 sidebar_position: 10
 title: Booth Pricing
 description: Configure per-booth and per-template pricing rules that determine what guests pay per session.
-tags: [ios, pricing, booths, templates, revenue]
+tags: [pricing, booths, templates, revenue]
 ---
 
 # Booth Pricing
@@ -23,10 +23,10 @@ This means you can set a base price on the booth and override it for premium tem
 
 ## Setting Booth Pricing
 
-1. Go to **Booths** and tap the booth you want to configure.
-2. Tap **Pricing**.
+1. Go to **Booths** and click the booth you want to configure.
+2. Click **Pricing**.
 3. Set the **Default Session Price** (e.g., Rp 20,000).
-4. Tap **Save**.
+4. Click **Save**.
 
 All sessions at this booth will use this price unless a template-specific price overrides it.
 
@@ -38,10 +38,10 @@ For free-session promotions (like a launch period where a sponsor covers the cos
 
 To charge different amounts for different template styles:
 
-1. In the booth's **Pricing** section, tap **Template Pricing**.
+1. In the booth's **Pricing** section, click **Template Pricing**.
 2. You'll see a list of templates assigned to this booth.
-3. Tap a template and enter its price.
-4. Tap **Save**.
+3. Click a template and enter its price.
+4. Click **Save**.
 
 | Template | Price | How It Works |
 |----------|-------|-------------|

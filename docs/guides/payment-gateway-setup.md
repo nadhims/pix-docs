@@ -7,7 +7,7 @@ tags: [guides, payments, billing, xendit, doku, midtrans]
 
 # Payment Gateway Setup
 
-If you charge guests per session, Pix integrates with three payment gateways popular in Southeast Asia. You configure your gateway once in the iOS Dashboard, and payments flow automatically during booth sessions.
+If you charge guests per session, Pix integrates with three payment gateways popular in Southeast Asia. You configure your gateway once in the Pix Dashboard, and payments flow automatically during booth sessions.
 
 ## Supported Gateways
 
@@ -38,17 +38,17 @@ The process is similar for all three gateways:
 - Some gateways also require a **Merchant ID** or **Callback Token**
 
 :::caution
-Never share your Server Key publicly. It grants full access to your payment account. Only enter it in the iOS Dashboard's secure billing settings.
+Never share your Server Key publicly. It grants full access to your payment account. Only enter it in the Pix Dashboard's secure billing settings.
 :::
 
-### 3. Configure in iOS Dashboard
+### 3. Configure in Pix Dashboard
 
-1. Open the **iOS Dashboard** and go to **Billing > Payment Gateways**
+1. Open the **Pix Dashboard** and go to **Billing > Payment Gateways**
 2. Select your gateway from the list
 3. Enter your API keys and merchant ID
-4. Tap **Save**
+4. Click **Save**
 
-<!-- Screenshot: Payment gateway configuration in iOS Dashboard -->
+<!-- Screenshot: Payment gateway configuration in Pix Dashboard -->
 
 ### 4. Set Your Pricing
 
@@ -60,10 +60,10 @@ Never share your Server Key publicly. It grants full access to your payment acco
 
 Before going live at your location, always test the full payment flow:
 
-1. **Use sandbox/test mode.** All three gateways offer test credentials — switch to these in the iOS Dashboard before testing.
+1. **Use sandbox/test mode.** All three gateways offer test credentials — switch to these in the Pix Dashboard before testing.
 2. **Run a full session.** On the desktop app, go through capture and trigger the payment screen.
 3. **Complete a test payment.** Use the gateway's test card numbers or test QRIS codes.
-4. **Verify the transaction.** Check that it appears in both the gateway dashboard and the iOS Dashboard under Billing > Transactions.
+4. **Verify the transaction.** Check that it appears in both the gateway dashboard and the Pix Dashboard under Billing > Transactions.
 
 :::tip
 Keep sandbox mode on during rehearsals and setup. Switch to production keys only when you're ready for real payments. The toggle is in **Billing > Payment Gateways**.
@@ -73,7 +73,7 @@ Keep sandbox mode on during rehearsals and setup. Switch to production keys only
 
 | Issue | Solution |
 |-------|----------|
-| "Gateway not configured" error | Verify API keys are entered correctly in iOS Dashboard |
+| "Gateway not configured" error | Verify API keys are entered correctly in Pix Dashboard |
 | Payment screen not appearing | Check that session pricing is set and assigned to the booth |
 | Transaction stuck as "pending" | Check your internet connection; pending transactions retry automatically |
 | Callback/webhook failures | Ensure your gateway's callback URL points to `api.pixapp.id` |

@@ -43,4 +43,4 @@ The download page lists separate macOS and Windows downloads side by side -- jus
 
 ## Next Step
 
-If you manage booths from your phone, [install the iOS Dashboard](./install-ios-dashboard.md). Otherwise, skip ahead to [setting up your first booth](./first-booth-setup.md).
+If you manage booths from your phone, check out the [Pix Dashboard](./access-dashboard.md) -- it works great from a mobile browser, no install needed. Otherwise, skip ahead to [setting up your first booth](./first-booth-setup.md).

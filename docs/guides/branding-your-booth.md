@@ -7,7 +7,7 @@ tags: [guides, branding, templates, pix-studio, customization]
 
 # Branding Your Booth
 
-A polished, branded booth makes a strong impression. Pix gives you control over the photo templates, splash screen, and home layout — all manageable from the iOS Dashboard without touching any code.
+A polished, branded booth makes a strong impression. Pix gives you control over the photo templates, splash screen, and home layout — all manageable from the Pix Dashboard without touching any code.
 
 ## Custom Templates in Pix Studio
 
@@ -15,8 +15,8 @@ Templates define how the final photo composite looks: where guest photos are pla
 
 ### Creating a Template
 
-1. Open **Pix Studio** in the iOS Dashboard
-2. Tap **Create Template**
+1. Open **Pix Studio** in the Pix Dashboard
+2. Click **Create Template**
 3. Choose a layout type (single photo, strip, grid, or custom)
 4. Upload your background design — a PNG at 1800x1200px (landscape) or 1200x1800px (portrait) works best
 5. Position the photo slots by dragging them into place
@@ -39,7 +39,7 @@ Design your template background in Canva, Photoshop, or Figma first, then import
 
 The splash screen is what guests see on the kiosk before they start a session. It sets the mood and invites interaction.
 
-1. In the iOS Dashboard, go to **Booths > [Your Booth] > Settings**
+1. In the Pix Dashboard, go to **Booths > [Your Booth] > Settings**
 2. Under **Splash Screen**, upload a custom image or video
 3. Add a call-to-action message (e.g., "Tap to Start!" or "Strike a Pose!")
 
@@ -51,13 +51,13 @@ Splash screen assets sync to the desktop app via CMS. After saving, the booth pi
 
 ## CMS Home Screen Layout
 
-The desktop app's home screen is CMS-driven, meaning you can rearrange and customize it from the iOS Dashboard without updating the desktop app itself.
+The desktop app's home screen is CMS-driven, meaning you can rearrange and customize it from the Pix Dashboard without updating the desktop app itself.
 
 - **Hero banner** — A large image or animation at the top. Use this for location branding or sponsor logos.
 - **Action buttons** — "Start Session", "View Gallery", or custom actions.
 - **Template preview carousel** — Let guests browse available layouts before they begin.
 
-Go to **Booths > [Your Booth] > Home Layout** in the iOS Dashboard to configure these blocks.
+Go to **Booths > [Your Booth] > Home Layout** in the Pix Dashboard to configure these blocks.
 
 ## Consistent Branding Across Multiple Booths
 
@@ -65,7 +65,7 @@ When running several booths, keeping a consistent look builds professionalism:
 
 - **Share templates.** Assign the same template set to all booths for a unified look, or mix-and-match for variety.
 - **Use the same splash screen.** Upload your brand's splash image once and apply it across all booths.
-- **Standardize the home layout.** Copy the home layout configuration from one booth to another in the Dashboard.
+- **Standardize the home layout.** Copy the home layout configuration from one booth to another in the Pix Dashboard.
 
 :::caution
 If you want unique branding per booth (e.g., different sponsors at different locations), create separate templates and splash screens for each. Don't reuse assets that contain another location's sponsor logo.

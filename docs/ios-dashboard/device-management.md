@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: Device Management
 description: Register devices, assign them to booths, and monitor their online/offline status.
-tags: [ios, devices, management, monitoring]
+tags: [devices, management, monitoring]
 ---
 
 # Device Management
@@ -27,10 +27,10 @@ You don't need to manually add devices. Just sign in to the Pix Desktop App or P
 
 ## Assigning a Device to a Booth
 
-1. Tap a device in the list.
-2. Tap **Assign to Booth**.
+1. Click a device in the list.
+2. Click **Assign to Booth**.
 3. Select the booth from the dropdown.
-4. Tap **Confirm**.
+4. Click **Confirm**.
 
 The device is now linked to that booth. When it comes online, the booth status updates accordingly.
 
@@ -51,11 +51,11 @@ The **Last Seen** timestamp tells you exactly when the device last reported in. 
 
 ## Renaming a Device
 
-Tap a device, then tap the name field to edit it. Use names that help you identify the physical machine, like "MacBook Pro - Venue A" or "iPad Mini #3".
+Click a device, then click the name field to edit it. Use names that help you identify the physical machine, like "MacBook Pro - Venue A" or "iPad Mini #3".
 
 ## Removing a Device
 
-Swipe left on a device and tap **Remove**. This unregisters the device and removes its booth assignment. The device can be re-registered by signing in again.
+Click the **•••** menu next to a device and choose **Remove**. This unregisters the device and removes its booth assignment. The device can be re-registered by signing in again.
 
 :::tip
 Before opening for the day, check the device list to confirm all your machines are online and assigned to the correct booths. This simple pre-check avoids surprises during operating hours.

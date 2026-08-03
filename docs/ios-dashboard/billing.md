@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: Billing
 description: Manage your Pix plan, configure payment gateways, and view invoices from the Billing tab.
-tags: [ios, billing, payments, gateways, plans]
+tags: [billing, payments, gateways, plans]
 ---
 
 # Billing
@@ -20,7 +20,7 @@ The top section shows your current Pix subscription:
 
 <!-- Screenshot: Billing plan overview -->
 
-To change plans, tap **Manage Plan**. You'll see the available options with pricing. Upgrades take effect immediately; downgrades apply at the end of your current billing period.
+To change plans, click **Manage Plan**. You'll see the available options with pricing. Upgrades take effect immediately; downgrades apply at the end of your current billing period.
 
 :::info
 The Starter plan is free and supports one booth, print-only, with the default template and no editors. Upgrade to Pix Pro for full access to Pix Studio, sharing, analytics, and unlimited templates.
@@ -38,11 +38,11 @@ Your booths can accept payments from guests (e.g., pay-per-session). Pix support
 
 ### Setting Up a Gateway
 
-1. Tap **Payment Gateways** in the Billing tab.
-2. Tap **Add Gateway**.
+1. Click **Payment Gateways** in the Billing tab.
+2. Click **Add Gateway**.
 3. Select your provider (Xendit, DOKU, or Midtrans).
 4. Enter your API keys (found in your gateway's merchant dashboard).
-5. Tap **Verify & Save** — Pix will test the connection.
+5. Click **Verify & Save** — Pix will test the connection.
 
 :::caution
 Keep your API keys confidential. Use production keys for live booths and sandbox/test keys only during setup. Never share keys in screenshots or support tickets.
@@ -50,7 +50,7 @@ Keep your API keys confidential. Use production keys for live booths and sandbox
 
 ## Invoices
 
-Scroll down in the Billing tab to see your invoice history. Each invoice shows the amount, date, and payment status. Tap an invoice to view or share the PDF.
+Scroll down in the Billing tab to see your invoice history. Each invoice shows the amount, date, and payment status. Click an invoice to view or share the PDF.
 
 :::tip
 Set up a dedicated email for invoice notifications so billing records are easy to find during tax season.

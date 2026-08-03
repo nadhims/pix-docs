@@ -7,7 +7,7 @@ tags: [getting-started, account, signup]
 
 # Create Your Account
 
-Before you can use the Pix Desktop App or iOS Dashboard, you need a Pix account.
+Before you can use the Pix Desktop App or Pix Dashboard, you need a Pix account.
 
 ## Step-by-Step
 
@@ -19,7 +19,7 @@ Before you can use the Pix Desktop App or iOS Dashboard, you need a Pix account.
 <!-- Screenshot: Sign up page on pixture.io -->
 
 :::tip
-Use the same email address across the Desktop App and iOS Dashboard so all your booths, templates, and billing stay connected under one account.
+Use the same email address across the Desktop App and Pix Dashboard so all your booths, templates, and billing stay connected under one account.
 :::
 
 ## What Happens Next

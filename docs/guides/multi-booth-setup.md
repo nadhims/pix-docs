@@ -7,25 +7,25 @@ tags: [guides, multi-booth, management]
 
 # Multi-Booth Setup
 
-Pix supports running multiple booths under one account. Each booth has its own templates, settings, and session history — but you manage them all from a single iOS Dashboard.
+Pix supports running multiple booths under one account. Each booth has its own templates, settings, and session history — but you manage them all from a single Pix Dashboard.
 
 ## Step 1: Create Your Booths
 
-1. Open the **iOS Dashboard** and go to **Booths**
-2. Tap **Add Booth** and give it a descriptive name (e.g., "Mall Kiosk 1", "Cafe Location")
+1. Open the **Pix Dashboard** and go to **Booths**
+2. Click **Add Booth** and give it a descriptive name (e.g., "Mall Kiosk 1", "Cafe Location")
 3. Repeat for each fixed location where you're running a booth
 
 :::tip
 Name booths by their location — it makes monitoring much easier when you're managing several kiosk locations.
 :::
 
-<!-- Screenshot: Creating a new booth in iOS Dashboard -->
+<!-- Screenshot: Creating a new booth in Pix Dashboard -->
 
 ## Step 2: Assign Templates to Each Booth
 
 Each booth can have its own set of templates, letting you offer different photo layouts at different locations.
 
-1. Go to **Pix Studio** in the iOS Dashboard
+1. Go to **Pix Studio** in the Pix Dashboard
 2. Select a template and open its details
 3. Under **Booth Assignments**, choose which booths should use this template
 4. Repeat for each template you want to assign
@@ -55,13 +55,13 @@ Double-check the booth name after login. If two machines accidentally log in as 
 
 ## Step 4: Monitor All Booths from Dashboard
 
-The iOS Dashboard home screen gives you a live overview of all active booths:
+The Pix Dashboard home screen gives you a live overview of all active booths:
 
 - **Session counts** per booth in real time
 - **Upload status** — see if any booth has pending uploads
 - **Revenue** — track per-booth earnings if you charge guests
 
-Tap any booth card to drill into its sessions, gallery, and analytics.
+Click any booth card to drill into its sessions, gallery, and analytics.
 
 <!-- Screenshot: Dashboard home showing multiple active booths -->
 

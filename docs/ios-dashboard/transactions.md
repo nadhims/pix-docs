@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: Transactions
 description: View transaction history, search and filter payments, and export data as CSV.
-tags: [ios, transactions, payments, export, csv]
+tags: [transactions, payments, export, csv]
 ---
 
 # Transactions
@@ -21,7 +21,7 @@ Each transaction entry shows:
 - **Payment Method** — the gateway used (Xendit, DOKU, Midtrans, or cash)
 - **Timestamp** — when the transaction occurred
 
-Tap any transaction to see the full detail view, including the payment gateway reference ID, guest contact info (if provided), and the session it's linked to.
+Click any transaction to see the full detail view, including the payment gateway reference ID, guest contact info (if provided), and the session it's linked to.
 
 ## Searching Transactions
 
@@ -51,9 +51,9 @@ To quickly review failed transactions, set the status filter to "Failed" and che
 To export transaction data:
 
 1. Apply any filters you want (the export respects active filters).
-2. Tap the **Export** button (download icon).
+2. Click the **Export** button (download icon).
 3. Choose **CSV** format.
-4. The file is generated and presented via the iOS share sheet — save it to Files, email it, or send it to your accounting software.
+4. The file downloads to your device — save it, email it, or import it into your accounting software.
 
 :::info
 Exported CSV files include all transaction fields: ID, amount, status, booth, gateway, reference, timestamp, and guest contact info. Column headers are included in the first row.

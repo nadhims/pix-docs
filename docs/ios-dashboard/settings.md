@@ -2,7 +2,7 @@
 sidebar_position: 11
 title: Settings
 description: Configure timezone, notifications, account preferences, and sign out from the Settings screen.
-tags: [ios, settings, timezone, notifications, account]
+tags: [settings, timezone, notifications, account]
 ---
 
 # Settings
@@ -15,9 +15,9 @@ The Settings screen holds your account-level preferences — timezone, notificat
 
 Your timezone setting determines how timestamps are displayed throughout the app — in analytics, transaction logs, session history, and the gallery.
 
-1. Tap **Timezone**.
+1. Click **Timezone**.
 2. Select your timezone from the list (e.g., "Asia/Jakarta", "America/New_York").
-3. Tap **Save**.
+3. Click **Save**.
 
 :::caution
 Changing your timezone does not alter existing data — it only changes how timestamps are displayed going forward. Historical sessions retain their original timestamps.
@@ -29,7 +29,7 @@ If you operate booths in multiple time zones, set your dashboard timezone to you
 
 ## Notifications
 
-Control which push notifications the app sends to your device:
+Control which notifications Pix sends you:
 
 | Notification | Description |
 |-------------|-------------|
@@ -40,10 +40,6 @@ Control which push notifications the app sends to your device:
 
 Toggle each notification type on or off based on your preference. Booth Offline notifications are enabled by default and recommended for kiosk operators.
 
-:::info
-Push notifications require notification permissions in iOS Settings. If you're not receiving alerts, check **Settings > Notifications > Pix Dashboard** on your device.
-:::
-
 ## Account
 
 The account section shows:
@@ -52,12 +48,8 @@ The account section shows:
 - **Organization** — the organization your account belongs to
 - **Role** — Owner, Admin, or Operator
 
-Tap **Change Password** to update your password. You'll need to enter your current password for verification.
-
-## Biometric Login
-
-If your device supports Face ID or Touch ID, you can enable biometric login for faster access. Toggle **Face ID / Touch ID** in the account section. Once enabled, you can unlock the app without entering your password each time.
+Click **Change Password** to update your password. You'll need to enter your current password for verification.
 
 ## Sign Out
 
-Tap **Sign Out** at the bottom of the settings screen. This clears your session and returns you to the login screen. You'll need to enter your credentials (or use biometrics) to sign back in.
+Click **Sign Out** at the bottom of the settings screen. This clears your session and returns you to the login screen. You'll need to enter your credentials to sign back in.
