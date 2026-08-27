@@ -24,7 +24,7 @@ Pix offers flexible pricing so you only pay for what you need. Prices are shown 
 
 - **Just exploring?** Your first 3 days are already a full **Pix Pro** trial. After that, the free **Starter** plan keeps 1 booth running -- print-only, default template & UI, no soft files or payment gateway.
 - **Need Pro features for just one day?** The **Day Pass** gives you full Pix Pro access for 24 hours at $5 -- great for a promotion or a busy day at your location.
-- **Operating regularly?** **Pix Pro** unlocks unlimited booths and templates, the Template Editor, UI Editor, soft files, payment gateway integration, and analytics. Go yearly for the best per-month rate.
+- **Operating regularly?** **Pix Pro** unlocks, for that booth, unlimited templates, the Template Editor, UI Editor, soft files, payment gateway integration, and analytics. Go yearly for the best per-month rate.
 
 ## How to Upgrade
 

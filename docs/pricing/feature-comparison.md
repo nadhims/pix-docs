@@ -13,7 +13,7 @@ Use the table below to see exactly what's included in each Pix plan. Day Pass an
 
 | Feature | Starter (Free) | Day Pass ($5/day) | Pix Pro ($40/mo or $300/yr) |
 |---|:---:|:---:|:---:|
-| **Booths** | 1 | Unlimited | Unlimited |
+| **Booths covered** | 1 (free) | 1 per Day Pass | 1 per subscription — one licence per booth |
 | **Templates** | Default only | Unlimited | Unlimited |
 | **Template Editor** | -- | Yes | Yes |
 | **UI Editor** | -- | Yes | Yes |

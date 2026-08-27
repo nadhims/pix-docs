@@ -13,6 +13,10 @@ Common questions about how billing works in Pix.
 
 Pix Pro Monthly is billed on the same date each month. Pix Pro Yearly is billed once per year. Your subscription renews automatically unless you cancel before the next billing date.
 
+## Is a Pix Pro subscription per booth or per account?
+
+Per booth. One subscription (or one Day Pass) licenses exactly one booth. If you run three booths and want Pro on all of them, you need three licences — you can also mix, for example one booth on Pix Pro and two on Starter. Licences can be transferred between your booths from **Licenses & plans** in the dashboard.
+
 ## When does a Day Pass activate?
 
 A Day Pass activates the moment you purchase it. From that point, you have exactly 24 hours of full access to every feature. The countdown runs continuously — it does not pause overnight.

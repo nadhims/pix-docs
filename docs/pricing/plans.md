@@ -39,10 +39,10 @@ If you need Pro features fewer than three days a month, Day Passes are more cost
 
 ## Pix Pro — $40/month (Rp 650.000/bulan), or $25/month billed yearly ($300/year, Rp 5.000.000/tahun)
 
-The full Pix experience, on a monthly or yearly billing cycle. Manage multiple booths, use unlimited templates, and access every feature.
+The full Pix experience for **one booth**, on a monthly or yearly billing cycle. Licences are per booth (per device): a business with three booths that all need Pro buys three licences, and can mix plans (e.g. one Pro, two Starter). A licence can be transferred between booths from the dashboard.
 
-**Includes:**
-- Unlimited booths
+**Includes (per licensed booth):**
+- 1 booth per licence — buy one per booth
 - Unlimited templates + Template Editor
 - UI Editor (drag-and-drop kiosk interface design)
 - Soft files (composite, GIF, Live Photo, singles) and digital/QR sharing

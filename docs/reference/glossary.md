@@ -11,7 +11,7 @@ Key terms used in Pix, explained for photobooth operators.
 
 ### Booth
 
-A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and photo session history. The Starter plan includes one booth; paid plans support unlimited booths.
+A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and photo session history. The Starter plan includes one booth; paid plans support one booth per licence (buy one per booth).
 
 ### Booth Health
 
