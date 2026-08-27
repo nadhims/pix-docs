@@ -12,7 +12,6 @@ const sidebars: SidebarsConfig = {
         'getting-started/choose-plan',
         'getting-started/download-desktop-app',
         'getting-started/access-dashboard',
-        'getting-started/first-booth-setup',
         'getting-started/your-first-session',
       ],
     },
@@ -22,7 +21,6 @@ const sidebars: SidebarsConfig = {
       link: {type: 'doc', id: 'desktop-app/overview'},
       items: [
         'desktop-app/installation',
-        'desktop-app/login-and-booth-selection',
         {
           type: 'category',
           label: 'Camera Setup',

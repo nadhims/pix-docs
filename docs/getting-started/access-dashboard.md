@@ -31,4 +31,4 @@ From the Pix Dashboard you can:
 
 ## Next Step
 
-Time to [set up your first booth](./first-booth-setup.md).
+Time to [download the Desktop App](./download-desktop-app.md).

@@ -16,9 +16,9 @@ Follow these steps to get up and running:
 1. **[Create your account](./create-account.md)** -- Sign up at pixture.io with your name, email, and phone number, then verify your email.
 2. **[Claim your free 3-day trial](./choose-plan.md)** -- Your account starts with full **Pix Pro** access for 3 days automatically -- no plan to pick right away. After that, it drops to the free Starter plan if you haven't upgraded.
 3. **[Download the Desktop App](./download-desktop-app.md)** -- Install the Pix kiosk app on your macOS or Windows machine.
-4. **[Pair your booth](./first-booth-setup.md)** -- Create a booth in the dashboard and sign in to the Desktop App with it.
-5. **[Connect your camera](./first-booth-setup.md)** -- Plug in a Canon EOS camera via USB, or use a webcam to test.
-6. **[Connect your printer](./first-booth-setup.md)** -- Optional but recommended, so customers can walk away with a physical print.
+4. **Pair your booth** -- In the dashboard open the booth, go to the **Device** tab, click **Generate code**, then type the 6-digit code into the Pixture App on the booth computer.
+5. **[Connect your camera](../desktop-app/camera-setup/camera-settings.md)** -- Plug in a Canon EOS camera via USB, or use a webcam to test.
+6. **[Connect your printer](../desktop-app/printer-setup.md)** -- Optional but recommended, so customers can walk away with a physical print.
 7. **[Run your first photo session](./your-first-photo session.md)** -- Walk a customer through the full capture-to-sharing experience.
 
 ## Once You're Up and Running
