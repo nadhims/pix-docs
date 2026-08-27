@@ -12,11 +12,11 @@ Prefer watching over reading? There's a full setup walkthrough on YouTube:
 **The Complete Photobooth Software Setup (BEGINNER)**
 https://www.youtube.com/watch?v=GFzLVmP7ny4
 
-It covers the same ground as this Getting Started section end-to-end — account creation, installing the Desktop App, setting up your first booth, designing templates and the kiosk UI, connecting a payment gateway, and running your first photo session — so it's a good option for operators who'd rather follow along visually than read.
+It covers the same ground as this Getting Started section end-to-end -- account creation, installing the Desktop App, setting up your first booth, designing templates and the kiosk UI, connecting a payment gateway, and running your first photo session -- so it's a good option for operators who'd rather follow along visually than read.
 
 ## Chapters (jump straight to a topic)
 
-When an operator's question matches one of these topics closely, share the direct timestamped link for that chapter instead of (or alongside) a text answer — it's often clearer than reading steps. If nothing matches closely, share the full video link above instead.
+When an operator's question matches one of these topics closely, share the direct timestamped link for that chapter instead of (or alongside) a text answer -- it's often clearer than reading steps. If nothing matches closely, share the full video link above instead.
 
 | Timestamp | Topic | Link |
 |---|---|---|
@@ -34,7 +34,7 @@ When an operator's question matches one of these topics closely, share the direc
 | 07:15 | Capture, filters & sharing screens | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=435s |
 | 08:25 | Assign the UI to your booth | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=505s |
 | 08:35 | Create a print template | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s |
-| 09:50 | Connect a payment gateway (Midtrans) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
+| 09:50 | Connect a payment gateway (the video shows an older gateway; Pix now uses DOKU) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
 | 10:30 | Photo Session pricing & packages | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=630s |
 | 11:00 | Assign templates, filters & import data | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=660s |
 | 11:25 | Full demo: pay, shoot, print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=685s |

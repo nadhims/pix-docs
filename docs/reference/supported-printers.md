@@ -7,6 +7,10 @@ tags: [reference, printers, hardware, printing]
 
 # Supported Printers
 
+:::info Prices
+Indonesian street prices below are approximate as of August 2026 and drift over time.
+:::
+
 Prints are sent through the operating system's standard print driver, so any printer with a compatible driver should work. Dye-sublimation printers (DNP, HiTi, Mitsubishi, Kodak) are the fastest and most durable option and are what most professional photobooth operators use, but they're not the only real option -- Epson's minilab and consumer inkjet printers are also common in Indonesia, especially for budget setups. The sections below cover both.
 
 ## Which Printer Should You Buy? (Budget Tiers)
@@ -90,7 +94,7 @@ Pix supports the following print sizes. The available sizes depend on your print
 | **A4 / A3** | Newspaper photobooth format -- needs an A3+ inkjet printer, not the dye-sub printers above |
 
 :::info
-Print size is configured per template in the template editor. Make sure your printer has the matching media loaded before starting a photo session.
+Print size is configured per template in Pix Design; the paper size is chosen on the kiosk under **Menu > Printer Settings > Media size**. Make sure your printer has the matching media loaded before starting a photo session.
 :::
 
 ## Setup Tips

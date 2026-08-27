@@ -1,72 +1,65 @@
 ---
 sidebar_position: 1
 title: Plans & Pricing
-description: Overview of Pix plans — Starter, Day Pass, and Pix Pro — with pricing and what's included.
-tags: [pricing, plans, billing]
+description: Pix Starter (free), Day Pass packs from $5, and Pix Pro at $40 per month or $25 per month billed yearly -- all priced per booth, in USD and IDR.
+tags: [pricing, plans, starter, day-pass, pix-pro]
 ---
 
 # Plans & Pricing
 
-Pix offers flexible plans designed around how photobooth operators actually work — whether you're running a single kiosk location or managing several full-time.
+Every plan is **per booth**. Mix them freely: one booth on Pix Pro, two on Starter, and a Day Pass for a pop-up next weekend.
 
-Pricing is shown in USD internationally and IDR in Indonesia.
+Prices below are the list prices. The [pricing page](https://pixture.io/#home-pricing) shows any promotion currently running, and IDR prices are set in rupiah rather than converted.
 
-:::tip Free 3-Day Trial
-Every new account starts with a free 3-day trial of **Pix Pro** — full features, no restrictions. If you don't upgrade before the trial ends, your account moves to the free **Starter** plan automatically. You don't lose access or your data.
-:::
+## Pix Starter -- Free
 
-## Starter — Free
+Free forever, no card. Per organization: **1 booth**, **2 templates**, the standard kiosk design, printing, and digital sharing (QR microsite with the composite, singles, GIF, and Live Photo) where every soft file carries a small **Pix watermark**.
 
-The Starter plan is free forever with one booth. It's a bare-bones way to keep running a booth at no cost once your trial ends, or to try Pix before committing.
+Not included: custom kiosk designs on the booth, the Template Editor beyond two templates, and clean soft files.
 
-**Includes:**
-- 1 booth
-- Offline operation
-- Printer support (prints are the only output — this is how customers get their photos)
-- Camera support (Canon DSLR + webcam)
+## Day Pass -- from $5 (Rp 85.000)
 
-**Not included:** Soft files (no GIFs, Live Photos, singles, or digital/QR sharing — prints only), Template Editor, UI Editor, microsites, real-time analytics, booth health monitoring, license management, custom branding, or payment gateway integration. You're limited to the default template and kiosk look.
+Pix Pro features on a booth for **24 hours**. Sold in packs:
 
-## Day Pass — $5 per day (Rp 85.000 per hari)
+| Pack | Booths for the day | USD | IDR |
+|---|---|---|---|
+| **Solo** | 1 | $5 | Rp 85.000 |
+| **Duo Pack** | 2 | $8 | Rp 135.000 |
+| **Event Pack** | 4 | $14 | Rp 250.000 |
+| **Festival Pack** | for large multi-station days | $24 | Rp 400.000 |
 
-The Day Pass unlocks every Pix Pro feature for a single 24-hour activation window. Perfect for a promotion, a busy weekend, or trying Pix Pro before committing to a subscription.
-
-**Includes everything in Pix Pro**, activated from the moment you purchase. The pass expires exactly 24 hours later.
+Day Passes never renew. Buy them into your License Pool ahead of time and attach them when the day comes; an event's station booths use them too.
 
 :::tip When to use a Day Pass
-If you need Pro features fewer than three days a month, Day Passes are more cost-effective than a Pix Pro subscription.
+Weekend markets, weddings, brand activations, and school events. If a booth runs more than about eight days a month, Pix Pro Monthly is cheaper.
 :::
 
-## Pix Pro — $40/month (Rp 650.000/bulan), or $25/month billed yearly ($300/year, Rp 5.000.000/tahun)
+## Pix Pro -- $40/month or $25/month billed yearly
 
-The full Pix experience for **one booth**, on a monthly or yearly billing cycle. Licences are per booth (per device): a business with three booths that all need Pro buys three licences, and can mix plans (e.g. one Pro, two Starter). A licence can be transferred between booths from the dashboard.
+Everything Pix does, on one booth:
 
-**Includes (per licensed booth):**
-- 1 booth per licence — buy one per booth
-- Unlimited templates + Template Editor
-- UI Editor (drag-and-drop kiosk interface design)
-- Soft files (composite, GIF, Live Photo, singles) and digital/QR sharing
-- Photo filters (built-in + custom .CUBE LUT upload)
-- Frame Lab (customers design and pay for their own custom frame)
-- Microsites (QR sharing + branded customer pages)
-- Printer support
-- Automatic cloud sync
-- Real-time analytics with booth leaderboard
-- Booth health monitoring
-- License management and transfer
-- Camera support (Canon DSLR + webcam)
-- Payment gateway integration (DOKU, Xendit, or Midtrans — customers pay via QRIS, Pix takes a 0% cut)
-- Mobile dashboard
+- Unlimited templates and the **Template Editor**
+- The **UI Editor** to design every kiosk screen
+- **Clean soft files** and the branded microsite
+- Photo session packages, extra prints, vouchers, bonus sessions, Frame Lab
+- Payment gateway (QRIS through DOKU) and hardware payments
+- Health monitoring, transactions, and per-currency reporting
 
-Yearly billing saves about 37% compared to paying monthly.
+| Cycle | USD | IDR |
+|---|---|---|
+| **Monthly** | $40 per month | Rp 850.000 per month |
+| **Yearly** | $25 per month, billed **$300 per year** | Rp 6.500.000 per year |
 
-## Choosing a Plan
+Yearly saves about 37% in USD and about 36% in IDR compared to paying monthly.
 
-| Scenario | Recommended Plan |
-|---|---|
-| Trying Pix for the first time | Free 3-day Pix Pro trial, then Starter if you're not ready to pay |
-| A single promotion or busy day | Day Pass |
-| Running your kiosk location day-to-day | Pix Pro (Monthly) |
-| Full-time, ongoing operation | Pix Pro (Yearly) |
+## Free 3-Day Trial
 
-Day Pass and Pix Pro include the same feature set — the only difference is billing period and cost. You can upgrade, downgrade, or switch billing at any time from the dashboard.
+Every organization can claim one free 3-day Pix Pro trial from **Licenses**, no card required. See [Choose Your Plan](../getting-started/choose-plan.md).
+
+## Pix AI
+
+AI backgrounds and effects are in **beta** and use credits bought separately. Credits work on any plan, including Starter.
+
+## Questions
+
+Licence transfers, cancellation, and payment methods are covered in the [Billing FAQ](./billing-faq.md). For a feature-by-feature table see [Feature Comparison](./feature-comparison.md).

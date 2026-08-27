@@ -13,8 +13,8 @@ Pix is a modern self-service photobooth system. Operators install a booth at a f
 
 Pix consists of two main applications:
 
-- **Pix Desktop App** — An Electron-based kiosk application that runs on macOS and Windows. It handles the photobooth experience: camera capture, photo filters, soft file generation (composites, GIFs, live photos, singles), printing, and microsite sharing.
-- **Pix Dashboard** — A web-based management dashboard for booth operators, at pixture.io. Monitor booth health, create templates, view real-time analytics, manage licenses and billing, and more — from any desktop or mobile browser.
+- **Pix Desktop App** -- An Electron-based kiosk application that runs on macOS and Windows. It handles the photobooth experience: camera capture, photo filters, soft file generation (composites, GIFs, live photos, singles), printing, and microsite sharing.
+- **Pix Dashboard** -- A web-based management dashboard for booth operators, at pixture.io. Monitor booth health, create templates, view real-time analytics, manage licenses and billing, and more -- from any desktop or mobile browser.
 
 ## What You'll Find Here
 
@@ -22,7 +22,7 @@ Pix consists of two main applications:
 |---------|-------------|
 | [Getting Started](/docs/getting-started/overview) | Set up your account, install the apps, and run your first photo session |
 | [Desktop App](/docs/desktop-app/overview) | Complete guide to the Pix kiosk application |
-| [Pix Dashboard](/docs/ios-dashboard/overview) | Manage booths, templates, and analytics |
+| [Pix Dashboard](/docs/dashboard/overview) | Manage booths, templates, and analytics |
 | [Pricing](/docs/pricing/plans) | Plans, features, and billing FAQ |
 | [Guides](/docs/guides/booth-operations-checklist) | Practical guides for common workflows |
 | [Reference](/docs/reference/system-requirements) | System requirements, supported hardware, glossary |
@@ -31,5 +31,5 @@ Pix consists of two main applications:
 
 - **New to Pix?** Start with the [Getting Started guide](/docs/getting-started/overview)
 - **Setting up a camera?** See [Canon EOS Setup](/docs/desktop-app/camera-setup/canon-eos) or [Webcam Fallback](/docs/desktop-app/camera-setup/webcam-fallback)
-- **Creating templates?** Check [Pix Design](/docs/ios-dashboard/pix-studio/overview)
+- **Creating templates?** Check [Pix Design](/docs/dashboard/pix-design/overview)
 - **Launching a new location?** Use the [Booth Operations Checklist](/docs/guides/booth-operations-checklist)

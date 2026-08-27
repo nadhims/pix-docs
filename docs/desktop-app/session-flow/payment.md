@@ -1,61 +1,44 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Payment
-description: Configuring the optional payment step in the photobooth photo session flow.
-tags: [desktop-app, photo session, payment, gateway]
+description: How customers pay at the kiosk -- QRIS through your gateway, vouchers, coins and cards, and how packages, tax, and the success screen appear.
+tags: [desktop-app, session-flow, payment, qris]
 ---
 
 # Payment
 
-The payment step is an optional gate in the photo session flow. When enabled, customers must complete a payment before proceeding to template selection and capture.
+The Payment screen appears after the start screen when a booth has pricing configured. Everything on it comes from [Booth Pricing](../../dashboard/booth-pricing.md) and the booth's kiosk design.
 
-## When to Use Payment
+## Choosing a Package
 
-- **Paid public booths** -- shopping malls, arcades, or venues where each photo session has a per-use fee
-- **Premium add-ons** -- charge for prints or extra features while the base photo session stays free
-- **Revenue-generating installations** -- permanent photobooth setups that operate as a business
+Customers pick **Single**, **Double** (2 sessions), or **Group** (4 sessions) if you offer them, and can add **additional sessions** with a stepper. The card shows the number of prints included, using the **print format** you set (a 2 inch cut shows two prints per sheet). Tax and fees are listed as separate lines under the subtotal.
 
-For promotional periods where photo sessions are free (launch campaigns, brand activations, marketing promotions), simply leave the payment step disabled and customers skip straight to template selection.
+## Ways to Pay
 
-## Configuring Payment
+| Method | How it works |
+|---|---|
+| **QRIS** | The kiosk shows a QR code from your connected DOKU account. The customer scans with any Indonesian banking or e-wallet app; the kiosk confirms within seconds |
+| **Voucher** | The customer taps **Use voucher** and types a code. Free, percentage, and fixed-amount vouchers are supported, and codes verify even when the booth is offline. See [Vouchers](../../dashboard/vouchers.md) |
+| **Coins, notes, cards** | With a coin acceptor, Nayax/EDC reader, or CASH-Interface2 system attached. See [Hardware Payments](../hardware-payments.md) |
 
-Payment settings are managed from the Pix dashboard:
+The QR code stays valid for the **payment timeout** set in Booth Pricing (default 5 minutes); after that the kiosk returns to the start screen.
 
-1. Go to your booth's settings in the dashboard.
-2. Enable **Payment Required** for the photo session flow.
-3. Configure your **payment gateway** credentials.
-4. Set the **price per photo session**.
+## The Success Screen
 
-<!-- Screenshot: Payment configuration in the dashboard -->
+Every paid route ends on the Payment Success screen, which you can design in the UI Editor. It shows for a few seconds by default, then moves on; the customer can tap anywhere to continue sooner.
 
-:::info
-The available payment gateways depend on your region and plan. Check the Pix dashboard for the gateways currently supported in your area.
+## Free Photo Sessions
+
+To run a booth for free, turn the **Payment screen off** in the booth's kiosk design (UI Editor). Do not set the price to 0; the kiosk refuses a zero price so nobody gives sessions away by accident.
+
+## Bonus Session
+
+If the booth has **Bonus** enabled in Marketing Studio, a customer who has just paid is offered a free second session, optionally after leaving a contact. See [Marketing Studio](../../dashboard/marketing-studio.md).
+
+## Design
+
+The Payment screen is fully designable in the [UI Editor](../../dashboard/pix-design/ui-editor.md): package cards, the QR popup's branding, and separate sub-pages for voucher entry, coins, cards, and success.
+
+:::tip Test with a free voucher
+A single-use free voucher lets you walk through the whole paid flow, including prints and sharing, without moving money.
 :::
-
-## Customer Experience
-
-When payment is enabled, the flow looks like this:
-
-1. Customer taps **Start** on the home screen.
-2. The payment screen appears showing the photo session price.
-3. Customer completes payment through the configured gateway.
-4. On successful payment, the photo session proceeds to template selection.
-
-If payment fails or is cancelled, the customer returns to the home screen.
-
-:::tip
-Keep the payment amount visible and the process quick. Long payment flows increase the chance customers will walk away before completing a photo session.
-:::
-
-## Skipping Payment
-
-To disable the payment step:
-
-- Set the booth to **free mode** in the dashboard, or
-- Use the **Starter plan**, which does not support payment gates
-
-When disabled, customers move directly from the home screen to template selection with no interruption.
-
-## Revenue Tracking
-
-All payment transactions are logged in your Pix dashboard. You can view revenue per booth, per day, and per photo session in the analytics section.

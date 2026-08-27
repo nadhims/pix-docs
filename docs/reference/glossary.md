@@ -11,11 +11,11 @@ Key terms used in Pix, explained for photobooth operators.
 
 ### Booth
 
-A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and photo session history. The Starter plan includes one booth; paid plans support one booth per licence (buy one per booth).
+A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and photo session history. The Starter plan includes one booth, two templates, and digital sharing with a Pix watermark; paid plans support one booth per licence (buy one per booth).
 
 ### Booth Health
 
-A monitoring system that tracks seven health signals for each booth: connectivity, camera status, printer status, upload queue, network latency, memory usage, and CPU temperature. Each signal reports a severity level (healthy, warning, or critical). Available on paid plans.
+A monitoring system that shows each booth's online status, last check-in, camera and printer state, upload queue, software version, and recent error records.
 
 ### Composite
 
@@ -35,7 +35,7 @@ A capture mode that takes a rapid burst of frames and assembles them into an ani
 
 ### License
 
-A per-booth plan assignment that determines which features the booth can access. Licenses can be transferred between booths from the dashboard — the source booth reverts to the free Starter plan and the target booth receives the paid plan.
+A per-booth plan assignment that determines which features the booth can access. Licenses can be transferred between booths from the dashboard -- the source booth reverts to the free Starter plan and the target booth receives the paid plan.
 
 ### Live Photo
 
@@ -51,7 +51,7 @@ The ability of the Pix Desktop App to continue operating without internet. Photo
 
 ### Photo Filter
 
-A color grading effect applied to photos after capture. Pix includes 14 built-in filters (warm vintage, cool blue, black & white, and more). Operators can also upload custom .CUBE LUT files for precise color grading. Customers browse a scrollable preview strip and choose a filter before sharing.
+A color grading effect applied to photos after capture. Pix includes 14 built-in filters plus Original (warm vintage, cool blue, black & white, and more). Operators can also upload custom .CUBE LUT files for precise color grading. Customers browse a scrollable preview strip and choose a filter before sharing.
 
 ### Pix Design
 
@@ -59,7 +59,7 @@ The template editor inside the Pix dashboard where you design and customize temp
 
 ### Photo Session
 
-One customer interaction from start to finish — selecting a template, capturing photos, applying a filter (optional), and sharing or printing the result. Photo Sessions are tracked for analytics and billing.
+One customer interaction from start to finish -- selecting a template, capturing photos, applying a filter (optional), and sharing or printing the result. Photo Sessions are tracked for analytics and billing.
 
 ### Soft Files
 
@@ -71,12 +71,33 @@ A visual layout that defines how photos are arranged in the final output. Templa
 
 ### UI Editor
 
-A drag-and-drop canvas editor for designing the kiosk interface. Operators can customize six screens (Home, Tutorial, Payment, Template Selection, Capture, Sharing) with buttons, images, text, and backgrounds. Uses a draft-and-publish workflow with one-click rollback.
+A drag-and-drop canvas editor for designing the kiosk interface. Operators design seven screens in the UI Editor (Start, Custom, Payment, Templates, Capture with its Review sub-page, Filter, Sharing). Save publishes the design to paired booths.
 
 ### Voucher
 
-A code that customers can enter at the booth to start a photo session without paying. Operators create vouchers in the dashboard to offer complimentary photo sessions — useful for VIP customers, sponsors, or promotions.
+A code customers enter on the kiosk's payment screen. Vouchers can make a photo session free, or take a percentage or fixed amount off; they verify even when the booth is offline. Operators create vouchers in the dashboard to offer complimentary photo sessions -- useful for VIP customers, sponsors, or promotions.
 
 ### Payment Gateway
 
-An integration that lets you accept payments from customers directly at the booth. Pix supports Xendit, DOKU, and Midtrans as payment providers. Configure your gateway in the dashboard under booth settings.
+An integration that lets you accept payments from customers directly at the booth. Pix uses DOKU for QRIS payments at the kiosk; hardware such as coin acceptors and card readers is supported separately.
+
+### Frame Lab
+Customers design and pay for their own frame from a link or QR before their photo session (Marketing Studio > Custom Template). Priced per booth.
+
+### Bonus Session
+A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled per booth in Marketing Studio.
+
+### License Pool
+Licences you own that are not attached to a booth. Licences are per booth and can be moved between booths and events from the Licenses page.
+
+### Pairing Code
+The 6-digit code generated on a booth's Device tab that links a kiosk computer to that booth. Replaces signing in on the kiosk.
+
+### Print Format
+A display-only Booth Pricing setting (standard, 2 inch cut, triple strip) that tells the payment screen how many pieces a printed sheet becomes.
+
+### Watermark
+Soft files from Starter booths carry a small Pix watermark. Pix Pro and Day Pass booths deliver clean files.
+
+### Pix AI
+AI-generated backgrounds and effects for photo sessions, currently in beta. Uses credits; also available on Starter.

@@ -7,10 +7,10 @@ tags: [guides, multi-booth, management]
 
 # Multi-Booth Setup
 
-Pix supports running multiple booths under one account. Each booth has its own templates, settings, and photo session history — but you manage them all from a single Pix Dashboard.
+Pix supports running multiple booths under one account. Each booth has its own templates, settings, and photo session history -- but you manage them all from a single Pix Dashboard.
 
 :::info Licences are per booth
-Plans are bought per booth, not per account. Every booth that needs Pix Pro features needs its own Pix Pro subscription or Day Pass; the rest can stay on the free Starter plan. Licences can be transferred between booths from **Licenses & plans**.
+Plans are bought per booth, not per account. Every booth that needs Pix Pro features needs its own Pix Pro subscription or Day Pass; the rest can stay on the free Starter plan. Licences can be transferred between booths from **Licenses**.
 :::
 
 ## Step 1: Create Your Booths
@@ -20,7 +20,7 @@ Plans are bought per booth, not per account. Every booth that needs Pix Pro feat
 3. Repeat for each fixed location where you're running a booth
 
 :::tip
-Name booths by their location — it makes monitoring much easier when you're managing several kiosk locations.
+Name booths by their location -- it makes monitoring much easier when you're managing several kiosk locations.
 :::
 
 <!-- Screenshot: Creating a new booth in Pix Dashboard -->
@@ -52,7 +52,7 @@ On each physical booth computer:
 Each desktop app instance is tied to one booth at a time. Make sure you pick the right one during login.
 
 :::caution
-Double-check the booth name after login. If two machines accidentally log in as the same booth, session data will overlap and analytics will be inaccurate.
+Double-check the booth name after login. A booth can only be paired to one computer at a time, so two kiosks can never report as the same booth and analytics will be inaccurate.
 :::
 
 <!-- Screenshot: Booth selection screen in Desktop App -->
@@ -61,9 +61,9 @@ Double-check the booth name after login. If two machines accidentally log in as 
 
 The Pix Dashboard home screen gives you a live overview of all active booths:
 
-- **Photo Session counts** per booth in real time
-- **Upload status** — see if any booth has pending uploads
-- **Revenue** — track per-booth earnings if you charge customers
+- **photo session counts** per booth in real time
+- **Upload status** -- see if any booth has pending uploads
+- **Revenue** -- track per-booth earnings if you charge customers
 
 Click any booth card to drill into its photo sessions, gallery, and analytics.
 
@@ -72,6 +72,6 @@ Click any booth card to drill into its photo sessions, gallery, and analytics.
 ## Tips for Managing Multiple Locations
 
 - **Label your hardware.** Put the booth name on each laptop with tape, especially if you're configuring several before shipping them out to their locations.
-- **Plan connectivity per location.** Each site needs its own reliable connection — mall Wi-Fi, cafe Wi-Fi, or a dedicated mobile hotspot. Don't assume one connection can serve multiple locations.
-- **Stagger setup.** Get one location fully working before starting the next — it's easier to troubleshoot one at a time.
+- **Plan connectivity per location.** Each site needs its own reliable connection -- mall Wi-Fi, cafe Wi-Fi, or a dedicated mobile hotspot. Don't assume one connection can serve multiple locations.
+- **Stagger setup.** Get one location fully working before starting the next -- it's easier to troubleshoot one at a time.
 - **Arrange a local point of contact** at each location (venue staff on-site) for basic issues like paper jams, plus a regular visit schedule of your own for maintenance and restocking.

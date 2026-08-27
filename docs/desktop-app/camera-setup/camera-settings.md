@@ -7,7 +7,7 @@ tags: [desktop-app, camera, settings, exposure]
 
 # Camera Settings
 
-When using a Canon EOS camera, the Pix Desktop App gives you full remote control over exposure and focus settings. Access these from the **Camera Settings** page in the admin panel.
+When using a Canon EOS camera, the Pix Desktop App gives you full remote control over exposure and focus settings. Open them from the kiosk's operator menu: double-tap the top-right corner, then **Camera Settings**.
 
 ## Exposure Controls
 
@@ -63,4 +63,4 @@ Camera settings are only available when a Canon EOS camera is connected. Webcam 
 
 ## Saving Settings
 
-Camera settings are saved per booth. When you switch booths or log in on a different device, the saved settings for that booth are restored automatically.
+Camera settings are saved on the kiosk computer, so they survive re-pairing and software updates.

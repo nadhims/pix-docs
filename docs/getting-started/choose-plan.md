@@ -1,41 +1,43 @@
 ---
 sidebar_position: 3
-title: Choose a Plan
-description: Compare Pix plans and pick the right one for your photobooth business.
-tags: [getting-started, pricing, plans]
+title: Choose Your Plan
+description: Start on the free Starter plan, claim the 3-day Pix Pro trial, then pick a Day Pass or Pix Pro per booth when you need more.
+tags: [getting-started, plans, pricing]
 ---
 
-# Choose a Plan
+# Choose Your Plan
 
-:::tip Free 3-Day Trial
-Every new account starts with a free 3-day trial of **Pix Pro** -- full features, no restrictions, no need to pick a plan to get started. If you don't upgrade before it ends, your account moves automatically to the free **Starter** plan -- you don't lose access. Use this page when you're ready to choose a paid plan, whether that's during your trial or once it ends.
-:::
+You do not have to decide on day one. Every organization starts on **Starter**, which is free and never expires, and plans are bought **per booth** whenever a booth needs more.
 
-Pix offers flexible pricing so you only pay for what you need. Prices are shown in USD internationally and IDR in Indonesia. Here's a quick comparison:
+## The Plans
 
-| Plan | Price | Best For |
-|------|-------|----------|
-| **Starter** | Free | After your trial, or trying Pix at no cost -- 1 booth, print-only, default template & UI |
-| **Day Pass** | $5/day (Rp 85.000/hari) | A single day of full Pix Pro features -- great for a promotion, a busy weekend, or trying Pro before subscribing |
-| **Pix Pro Monthly** | $40/mo (Rp 650.000/bln) | Operators managing multiple locations or steady foot traffic |
-| **Pix Pro Yearly** | $25/mo, billed $300/yr (Rp 5.000.000/thn) | Full-time operators who want the best value |
+| Plan | Price | Best for |
+|---|---|---|
+| **Starter** | Free | 1 booth, 2 templates, standard kiosk design, sharing with a Pix watermark |
+| **Day Pass** | From $5 (Rp 85.000) per booth per day, in packs of 1, 2, or 4 passes | Weekend events, weddings, pop-ups |
+| **Pix Pro Monthly** | $40 per month (Rp 850.000) per booth | A fixed booth running most days |
+| **Pix Pro Yearly** | $25 per month, billed $300 per year (Rp 6.500.000) per booth | The same booth, paying yearly |
 
-## Which Plan Should You Pick?
+Full detail on [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
 
-- **Just exploring?** Your first 3 days are already a full **Pix Pro** trial. After that, the free **Starter** plan keeps 1 booth running -- print-only, default template & UI, no soft files or payment gateway.
-- **Need Pro features for just one day?** The **Day Pass** gives you full Pix Pro access for 24 hours at $5 -- great for a promotion or a busy day at your location.
-- **Operating regularly?** **Pix Pro** unlocks, for that booth, unlimited templates, the Template Editor, UI Editor, soft files, payment gateway integration, and analytics. Go yearly for the best per-month rate.
+## Try Pix Pro First
 
-## How to Upgrade
+Open **Licenses** and claim the **free 3-day Pix Pro trial**. It unlocks the Template and UI Editors, unlimited templates, clean soft files, payments, and vouchers on one booth, with no card. Use those three days to set the booth up the way you want it; when the trial ends the booth returns to Starter with everything you built still in place.
 
-1. Log in to the Pix dashboard at **pixture.io**.
-2. Navigate to **Billing** in the sidebar.
-3. Select your plan and complete payment.
+## Upgrading a Booth
 
-Your new plan activates immediately. You can also manage billing from the [Pix Dashboard](./access-dashboard.md) on your phone.
+1. Open **Licenses**.
+2. On the **Booths** tab click **Upgrade** next to the booth, or buy a licence into the **License Pool** and assign it later.
+3. Complete checkout by card or, in Indonesia, QRIS.
 
-For full plan details and feature breakdowns, see [Plans & Pricing](/docs/pricing/plans).
+The kiosk picks up the new plan on its next check-in.
+
+## Which One?
+
+- Running a booth a few days a month: **Day Pass** packs.
+- Running it most days: **Pix Pro Monthly** pays for itself after about eight days of use.
+- Committed for the year: **Pix Pro Yearly** saves about a third.
 
 ## Next Step
 
-Not ready to pick yet? That's fine -- your trial covers you. Continue with [downloading the Desktop App](./download-desktop-app.md).
+**[Download the Pix Desktop App](./download-desktop-app.md)** and pair your first booth.

@@ -1,41 +1,30 @@
 ---
 sidebar_position: 2
 title: Create Your Account
-description: Sign up for a Pix account and access the dashboard.
+description: Sign up for Pix at pixture.io, verify your details, and land in your new dashboard on the free Starter plan.
 tags: [getting-started, account, signup]
 ---
 
 # Create Your Account
 
-Before you can use the Pix Desktop App or Pix Dashboard, you need a Pix account.
+## Step 1: Sign Up
 
-## Step-by-Step
+1. Go to [pixture.io](https://pixture.io) and click **Sign up**.
+2. Enter your business name, your name, email, and a password, or continue with Google.
+3. Verify your **WhatsApp number** with the one-time code Pix sends you. Pix uses WhatsApp for booth alerts and support, so this number should be one you actually check.
 
-1. **Go to [pixture.io](https://pixture.io)** and click **Sign Up**.
-2. **Enter your details** -- provide your name, email address, phone number, and a password.
-3. **Verify your email** -- check your inbox for a verification link and click it to activate your account.
-4. **Log in to the dashboard** -- return to pixture.io and sign in with your new credentials.
+## Step 2: Your Dashboard
 
-<!-- Screenshot: Sign up page on pixture.io -->
+You land in the Pix Dashboard with one organization and no booths yet. Every new organization starts on the free **Starter** plan: 1 booth, 2 templates, standard kiosk design, and digital sharing with a Pix watermark.
 
-:::tip
-Use the same email address across the Desktop App and Pix Dashboard so all your booths, templates, and billing stay connected under one account.
-:::
+## Step 3: Try Pix Pro Free
 
-## What Happens Next
+Every organization can claim **one free 3-day Pix Pro trial** from **Licenses**. It unlocks unlimited templates, the Template and UI Editors, and clean soft files on one booth for three days, with no card required. When it ends the booth returns to Starter unless you buy a licence.
 
-Once logged in, you land on the Pix web dashboard. From here you can:
+## Verification Email
 
-- View your organization details
-- Manage booths and templates
-- Access billing and plan settings
-
-Your account automatically starts on a **free 3-day trial of Pix Pro** with full access, so you can explore the system before deciding on a plan. After 3 days, if you haven't upgraded, your account moves automatically to the free **Starter** plan (1 booth, print-only, default template & UI) -- you don't lose access.
-
-:::caution
-If you don't receive the verification email within a few minutes, check your spam folder. The email comes from **noreply@pixapp.id**.
-:::
+If the verification email does not arrive within a few minutes, check your spam folder. It comes from **pixture.io**.
 
 ## Next Step
 
-Now that your account is ready, you're automatically on your [free 3-day trial](./choose-plan.md) -- next, [download the Desktop App](./download-desktop-app.md).
+**[Choose your plan](./choose-plan.md)** -- or skip straight to **[downloading the Pix Desktop App](./download-desktop-app.md)** and set up your first booth on Starter.

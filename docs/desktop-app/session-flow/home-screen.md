@@ -30,8 +30,8 @@ To update the home screen:
 
 1. Log into your Pix dashboard at [pixture.io](https://pixture.io).
 2. Navigate to your booth's settings.
-3. Edit the **Home Page** layout -- upload backgrounds, add text, position your logo.
-4. Save. The desktop app pulls the new layout on its next sync (usually within seconds).
+3. Edit the **Start Screen** in the UI Editor -- upload backgrounds, add text, position your logo.
+4. Save. Save publishes it; the kiosk picks it up on its next check-in, usually within seconds.
 
 ## Branding
 

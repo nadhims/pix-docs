@@ -7,11 +7,11 @@ tags: [desktop-app, camera, canon, edsdk]
 
 # Canon EOS Camera Setup
 
-The Pix Desktop App supports Canon EOS cameras via Canon's EDSDK (Electronic Digital SDK) over a direct USB connection. This gives you full-resolution captures and remote control of camera settings.
+The Pix Desktop App supports Canon EOS cameras via Canon's EDSDK (EOS Digital SDK) over a direct USB connection. This gives you full-resolution captures and remote control of camera settings.
 
 ## Supported Models
 
-Most Canon EOS DSLRs and mirrorless cameras released in the last 10 years are supported, including:
+Any Canon EOS body supported by Canon's EOS Digital SDK works; see [Supported Cameras](../../reference/supported-cameras.md) for the models we have tested.
 
 - **DSLR**: EOS 6D Mark II, 5D Mark IV, 90D, 80D, 77D, Rebel T7/T8i
 - **Mirrorless**: EOS R, R5, R6, R6 Mark II, R8, R50, R100, RP

@@ -27,7 +27,7 @@ The app uses the system's standard camera APIs, so any webcam recognized by your
 
 1. Plug in your USB webcam (or use the built-in camera).
 2. Open the Pix Desktop App. If no Canon camera is detected, the app automatically falls back to the available webcam.
-3. You can also manually select the webcam from **Settings > Camera Source**.
+3. You can also manually select the webcam from **Menu > Camera Settings > Camera device**.
 
 <!-- Screenshot: Camera source selection in settings -->
 
@@ -41,7 +41,7 @@ Compared to a Canon EOS setup, webcams have some restrictions:
 
 | Feature | Canon EOS | Webcam |
 |---------|-----------|--------|
-| Resolution | Up to 45 MP | Typically 1080p-4K |
+| Resolution | Full camera resolution | Typically 1080p-4K |
 | Manual controls | Full (ISO, aperture, shutter) | Limited or none |
 | Image quality | RAW/JPEG from sensor | Compressed video frame |
 | Live view | High quality via EDSDK | Standard video stream |

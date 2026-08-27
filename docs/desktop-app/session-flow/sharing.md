@@ -1,58 +1,37 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 title: Sharing
-description: How customers receive their photos via QR code, print, and microsite in the Pix Desktop App.
-tags: [desktop-app, photo session, sharing, qr-code, print]
+description: The last screen of a photo session -- print, QR code to the customer's photos, extra prints, and what each plan delivers.
+tags: [desktop-app, session-flow, sharing, qr, print]
 ---
 
 # Sharing
 
-The sharing screen is the final step of a photo session. Customers choose how they want to receive their photo before the booth resets for the next person.
+After the filter step the kiosk composes the final image, prints it if printing is enabled, and shows the Sharing screen.
 
-## Sharing Options
+## What the Customer Gets
 
-### QR Code
+- **Print** -- the composite goes to the printer automatically. Copies follow Booth Pricing and the kiosk's printer settings.
+- **QR code** -- scanning it opens a personal page with everything from the photo session: the composite, individual **singles**, the animated **GIF**, and the **Live Photo** (a short MP4), depending on which outputs the booth has enabled in **Booths > [booth] > Settings**.
+- **Extra prints** -- if priced in Booth Pricing, a button lets the customer buy more copies on the spot, paid the same way as the photo session.
 
-A QR code is displayed on screen that customers scan with their phone. This links to their branded microsite, where they can view, download, and share their photos.
+## The Microsite
 
-- No app download required -- the microsite works in any mobile browser.
-- The QR code is unique per photo session and links directly to that customer's photo.
+The QR leads to a branded page (see [Marketing Studio > Microsite](../../dashboard/marketing-studio.md)) where customers download their files or share them on. It goes live as soon as the booth has uploaded the photo session; on slow venue Wi-Fi the page says the photos are on their way and fills in when the upload lands.
 
-<!-- Screenshot: Sharing screen with QR code and print button -->
+## Plans
 
-:::tip
-Position the QR code at a comfortable scanning height. Most customers will use their phone camera, which works best at arm's length from the screen.
+- **Pix Pro** and **Day Pass** booths deliver clean soft files.
+- **Starter** booths deliver the same soft files with a small Pix watermark.
+
+## Screen Timeout
+
+The Sharing screen returns to the start screen after a page timer you set in the UI Editor, and the customer can tap **Done** at any time.
+
+## Design
+
+Everything on this screen -- the composite preview or showcase loop, the QR block, the print button, extra-prints button, and any text -- is arranged in the [UI Editor](../../dashboard/pix-design/ui-editor.md).
+
+:::tip Show the QR big
+Customers scan from arm's length while holding their print. A large QR block near eye level gets scanned; a small one in a corner gets missed.
 :::
-
-### Print
-
-If a printer is configured and enabled, a **Print** button appears on the sharing screen. Customers tap it to send their composite photo to the connected printer.
-
-- Prints are scaled to match the configured paper size.
-- Print typically completes in 10-15 seconds on dye-sublimation printers.
-- Each customer can print once per photo session (configurable in booth settings).
-
-### Microsite (Customer Page)
-
-Every photo session's photos are uploaded to a branded microsite at a unique URL. This mobile-friendly page displays your organization's logo and name, and allows customers to:
-
-- View their composites, GIFs, live photos, and singles
-- Download files to their device
-- Share directly to social media
-
-:::info
-Microsites are part of the Pix cloud service. Soft files are uploaded in the background and the microsite becomes available as soon as the upload completes. If the booth is offline, the upload is queued and the microsite goes live once connectivity is restored.
-:::
-
-## Sharing Screen Timeout
-
-The sharing screen displays for a configurable duration (default: 30 seconds) before automatically returning to the home screen. If a customer is actively interacting (scanning QR, waiting for print), the timer pauses.
-
-## Plan Limitations
-
-- **Starter** (free): QR code and microsite sharing are not available. Photos are captured and printed only, not shared digitally.
-- **Day Pass** and **Pix Pro**: All sharing options are available.
-
-## Skipping Sharing
-
-For kiosk setups where only printing matters, you can configure the booth to auto-print and skip the sharing screen entirely. The photo session ends as soon as the print job is sent.

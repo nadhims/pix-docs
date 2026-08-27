@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/docs/ios-dashboard/pix-studio/:path*", "destination": "/docs/dashboard/pix-design/:path*", "permanent": true },
+    { "source": "/docs/ios-dashboard/:path*", "destination": "/docs/dashboard/:path*", "permanent": true },
+    { "source": "/id/docs/ios-dashboard/pix-studio/:path*", "destination": "/id/docs/dashboard/pix-design/:path*", "permanent": true },
+    { "source": "/id/docs/ios-dashboard/:path*", "destination": "/id/docs/dashboard/:path*", "permanent": true }
+  ]
+}

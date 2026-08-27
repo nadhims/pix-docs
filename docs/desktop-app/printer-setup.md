@@ -11,7 +11,7 @@ The Pix Desktop App supports instant photo printing so customers can walk away w
 
 ## Auto-Discovery
 
-When you open **Settings > Printer**, the app scans for available printers on your system. Any printer installed and recognized by your operating system (macOS or Windows) will appear in the list.
+When you open **Menu > Printer Settings**, the app scans for available printers on your system. Any printer installed and recognized by your operating system (macOS or Windows) will appear in the list.
 
 This includes:
 
@@ -29,10 +29,7 @@ Dye-sublimation printers produce the best results for photobooth use. They are f
 
 After selecting a printer, choose the paper size that matches your loaded media:
 
-- **4x6"** (10x15 cm) -- most common for photobooths
-- **5x7"** (13x18 cm)
-- **6x8"** (15x20 cm)
-- **Custom** -- set dimensions manually for specialty media
+The **Media size** list comes from the printer driver, so it shows exactly the sizes your printer supports. Common choices are **4x6"** (10x15 cm, the photobooth standard, also cut into two 2x6" strips), **5x7"**, and **6x8"**.
 
 The app automatically scales the composite image to fit the selected paper size. Make sure your template dimensions in Pix Design match your paper size for pixel-perfect prints.
 
@@ -40,7 +37,7 @@ The app automatically scales the composite image to fit the selected paper size.
 
 Before opening for the day, always run a test print:
 
-1. Go to **Settings > Printer**.
+1. Open the operator menu (double-tap the top-right corner) and go to **Printer Settings**.
 2. Select your printer and paper size.
 3. Click **Test Print**.
 
@@ -61,4 +58,4 @@ Customers will see a print button on the sharing screen alongside QR code and ot
 
 ## Troubleshooting
 
-If the printer does not appear in the list, verify it is installed at the OS level (**System Preferences > Printers** on macOS or **Settings > Printers & Scanners** on Windows). See [Troubleshooting](./troubleshooting.md) for more help.
+If the printer does not appear in the list, verify it is installed at the OS level (**System Settings > Printers & Scanners** on macOS or **Settings > Bluetooth & devices > Printers & scanners** on Windows). See [Troubleshooting](./troubleshooting.md) for more help.

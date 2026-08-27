@@ -25,7 +25,7 @@ The Pix Desktop App is the kiosk software that runs your photobooth. It's availa
 3. Run the installer and follow the prompts.
 
 :::caution Windows SmartScreen Warning
-Windows may show a SmartScreen warning because the app is not yet code-signed for Windows. Click **More info**, then **Run anyway** to proceed. This is safe -- we're working on adding Windows code signing in a future update.
+Windows may show a SmartScreen warning because the Windows build is not code-signed, so SmartScreen shows a warning the first time. Click **More info > Run anyway**.
 :::
 
 ## System Requirements
@@ -34,11 +34,11 @@ Windows may show a SmartScreen warning because the app is not yet code-signed fo
 |---|-------|---------|
 | **OS** | macOS 13 (Ventura) or later | Windows 10 or later |
 | **Architecture** | Apple Silicon or Intel | x64 |
-| **Disk Space** | ~200 MB | ~200 MB |
+| **Disk Space** | 500 MB for the app, plus 2 GB free for photos and cache |
 | **Camera** | Canon EOS via USB or webcam | Canon EOS via USB or webcam |
 
 :::tip
-The download page lists separate macOS and Windows downloads side by side -- just pick the one that matches your computer.
+The download page detects your operating system and highlights the right build; both builds are always listed.
 :::
 
 ## Next Step
