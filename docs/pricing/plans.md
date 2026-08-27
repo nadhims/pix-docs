@@ -26,7 +26,6 @@ Pix Pro features on a booth for **24 hours**. Sold in packs:
 | **Solo** | 1 | $5 | Rp 85.000 |
 | **Duo Pack** | 2 | $8 | Rp 135.000 |
 | **Event Pack** | 4 | $14 | Rp 250.000 |
-| **Festival Pack** | for large multi-station days | $24 | Rp 400.000 |
 
 Day Passes never renew. Buy them into your License Pool ahead of time and attach them when the day comes; an event's station booths use them too.
 
