@@ -16,7 +16,7 @@ The Pix Desktop App includes a built-in auto-updater that keeps your booth runni
 3. Once downloaded, a prompt appears offering to restart and apply the update.
 4. After restart, the new version is active.
 
-The entire process is designed to be non-disruptive. Downloads happen silently, and the restart prompt only appears when the booth is idle on the home screen -- never mid-photo session.
+The entire process is designed to be non-disruptive. Downloads happen silently, and the restart prompt only appears when the booth is idle on the home screen -- never while you are using it.
 
 <!-- Screenshot: Update available prompt on home screen -->
 
@@ -65,3 +65,7 @@ Updates include:
 :::caution
 Avoid running outdated versions for extended periods. Older versions may not be compatible with the latest Pix API changes, which could cause sync or upload failures.
 :::
+
+## Release Notes
+
+What changed in each version is listed on the [Release Notes](/releases) page.

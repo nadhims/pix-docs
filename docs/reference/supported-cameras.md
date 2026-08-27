@@ -11,7 +11,7 @@ Pix captures photos using Canon EOS cameras connected via USB tethering. The Des
 
 ## Which Camera Should You Buy? (Budget Tiers)
 
-If you're not sure where to start, here's a rough guide by budget. Prices are approximate Indonesian market prices and will drift over time (secondhand prices especially) -- always check current pricing before buying.
+If you're not sure where to start, here's a rough guide by budget. Prices are approximate Indonesian market prices as of August 2026 and will drift over time (secondhand prices especially) -- always check current pricing before buying.
 
 | Tier | Model | Approx. Price (IDR) | Why |
 |---|---|---|---|
@@ -59,7 +59,7 @@ Most Canon EOS models with USB tethering support should work with Pix, even if n
 - Use the USB cable that came with your camera, or a high-quality replacement.
 - Connect the camera directly to your computer's USB port. Avoid USB hubs when possible, as they can introduce connection instability.
 - USB 3.0 or faster is recommended for quicker image transfer.
-- On macOS, the camera is managed by a native Swift sidecar process. On Windows, a .NET-based sidecar handles communication.
+- Canon cameras are driven through Canon's EOS Digital SDK on both macOS and Windows.
 
 :::caution
 Disable Canon's EOS Utility or any other tethering software before launching Pix. Only one application can control the camera over USB at a time.
@@ -72,7 +72,7 @@ If you don't have a Canon EOS camera, Pix can use any built-in or external webca
 - Testing your booth layout and flow before opening to customers
 - Running a lower-cost setup where DSLR quality isn't required
 
-To switch to webcam mode, go to **Settings > Camera** in the Desktop App and select your webcam from the device list.
+To switch to webcam mode, open the kiosk's operator menu and go to **Camera Settings** and select your webcam from the device list.
 
 :::info
 Webcam captures are limited to the webcam's native resolution. For professional-quality output, a Canon EOS camera is strongly recommended.

@@ -1,58 +1,52 @@
 ---
 sidebar_position: 3
 title: Billing FAQ
-description: Frequently asked questions about Pix billing, upgrades, Day Pass activation, refunds, and payment methods.
+description: Common questions about per-booth licences, transfers, cancellation, payment methods, and the free trial.
 tags: [pricing, billing, faq]
 ---
 
 # Billing FAQ
 
-Common questions about how billing works in Pix.
+## Is Pix priced per account or per booth?
 
-## How does billing work?
+Per booth. One Pix Pro subscription or one Day Pass licenses exactly one booth. Three booths that all need Pix Pro need three licences. You can mix plans: one booth on Pix Pro and two on Starter is a normal setup.
 
-Pix Pro Monthly is billed on the same date each month. Pix Pro Yearly is billed once per year. Your subscription renews automatically unless you cancel before the next billing date.
+## Where do I manage plans?
 
-## Is a Pix Pro subscription per booth or per account?
+**Licenses** in the dashboard. The **Booths** tab shows each booth's plan with **Upgrade**, **Transfer**, **Cancel**, and **Resubscribe**; the **License Pool** tab holds licences not attached to any booth.
 
-Per booth. One subscription (or one Day Pass) licenses exactly one booth. If you run three booths and want Pro on all of them, you need three licences — you can also mix, for example one booth on Pix Pro and two on Starter. Licences can be transferred between your booths from **Licenses & plans** in the dashboard.
+## Can I move a licence to another booth?
 
-## When does a Day Pass activate?
+Yes, from **Licenses > Booths > Transfer**. The licence moves immediately; the booth it left drops to Starter. Licences also move between booths and events.
 
-A Day Pass activates the moment you purchase it. From that point, you have exactly 24 hours of full access to every feature. The countdown runs continuously — it does not pause overnight.
+## What happens when I cancel?
 
-:::caution
-Plan your Day Pass purchase to start close to when you'll actually use it — for a promotion or a specific busy day. If you buy it the night before, several hours will already be used up by the time you need them.
-:::
+The booth keeps Pix Pro until the end of the period it has paid for, then drops to Starter. Nothing is deleted: templates, kiosk designs, photo sessions, and transactions stay. New soft files from that booth carry the Pix watermark and custom kiosk designs stop running on it until it is licensed again.
 
-## Can I upgrade from Starter to Pix Pro?
+## My booth says Expired. What now?
 
-Yes. You can upgrade at any time from the Pix dashboard. When you upgrade to Pix Pro Monthly or Yearly, billing starts immediately and you get instant access to all features.
+Click **Resubscribe** on it in **Licenses > Booths**. A new period starts right away.
 
-## Can I downgrade from Pix Pro to Starter?
+## When am I billed?
 
-Yes. When you cancel a Pix Pro subscription, you retain access until the end of your current billing period. After that, your account reverts to the Starter plan. Your data is preserved, but soft files, digital/QR sharing, the Template and UI editors, analytics, and payment gateway integration will be disabled. Printing keeps working on Starter.
+Pix Pro Monthly renews on the same date each month; Pix Pro Yearly renews once a year. Day Passes are one-off and never renew.
 
-## Can I switch between Monthly and Yearly Pix Pro?
+## What payment methods can I use for licences?
 
-Yes. If you switch from Monthly to Yearly, the change takes effect at the start of your next billing cycle. If you switch from Yearly to Monthly, it takes effect when your annual term ends.
-
-## What payment methods do you accept?
-
-Pix accepts major credit and debit cards. Payment is processed securely through our billing provider.
-
-## Do you offer refunds?
-
-Day Passes are non-refundable once activated. For Pix Pro subscriptions, contact support within 7 days of a charge if you believe it was made in error. We handle refund requests on a case-by-case basis.
-
-:::info
-Cancelling your subscription stops future charges but does not trigger a refund for the current period. You keep access until the period ends.
-:::
-
-## What happens to my data if I stop paying?
-
-Your account reverts to Starter. All your photos, templates, and booth configurations are preserved. You can access them again by resubscribing. Pix does not delete your data when a subscription lapses.
+Cards worldwide, and in Indonesia local methods such as QRIS at checkout. Licence payments are separate from the payment gateway your customers use at the kiosk.
 
 ## Is there a free trial?
 
-Yes. Every new account gets a free 3-day trial of Pix Pro with full features, no credit card required. If you don't upgrade before the trial ends, your account automatically moves to the Starter plan -- free forever, print-only, no soft files or editors -- rather than losing access. You can also buy a single Day Pass ($5) any time you want full features for just one day.
+Yes. Every organization can claim **one free 3-day Pix Pro trial** from **Licenses**, no card required. It applies to one booth and drops back to Starter after three days unless you buy a licence.
+
+## Do you charge a percentage of my photo session sales?
+
+No. Customer payments at the kiosk go through your own DOKU account (or your own hardware), and Pix takes 0%.
+
+## Why is the IDR price not the USD price converted?
+
+IDR prices are set in rupiah so they stay stable when exchange rates move. The [Plans & Pricing](./plans.md) page lists both.
+
+## I was charged and did not expect it
+
+Contact us within 7 days of the charge from the dashboard's **Help** chat or on WhatsApp at +62 851-2135-5870 with the booth name and date, and we will sort it out.

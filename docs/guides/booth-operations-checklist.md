@@ -15,13 +15,13 @@ Running a smooth kiosk location comes down to a solid launch and steady upkeep. 
 
 - [ ] Set up your MacBook/laptop or computer at the location and connect it to power
 - [ ] Connect and test your Canon EOS camera (check battery and SD card)
-- [ ] Load printer paper and ribbon — do a test print
+- [ ] Load printer paper and ribbon -- do a test print
 - [ ] Confirm you can log in to the Pix Dashboard (pixture.io) from your phone or tablet browser
 
 ### Software
 
-- [ ] Open the Pix Desktop App and log in with the correct booth
-- [ ] Verify your templates are loaded — tap through the home screen to confirm
+- [ ] Open the Pix Desktop App and confirm it shows the correct booth name in the operator menu
+- [ ] Verify your templates are loaded -- tap through the home screen to confirm
 - [ ] Run one full test photo session: capture, composite, print, and share via QR
 - [ ] Check that the upload queue shows "0 pending"
 
@@ -37,7 +37,7 @@ Running a smooth kiosk location comes down to a solid launch and steady upkeep. 
 - [ ] Verify the test transaction appears in both the gateway dashboard and the Pix Dashboard
 
 :::tip
-Give yourself extra time on launch day to troubleshoot. Location Wi-Fi can be unreliable — always have a personal hotspot as backup.
+Give yourself extra time on launch day to troubleshoot. Location Wi-Fi can be unreliable -- always have a personal hotspot as backup.
 :::
 
 ## Daily / Periodic Checks
@@ -45,15 +45,15 @@ Give yourself extra time on launch day to troubleshoot. Location Wi-Fi can be un
 ### Monitoring
 
 - [ ] Check the **Pix Dashboard** periodically for photo session counts and upload status
-- [ ] Confirm the upload queue is clear (0 pending) — investigate anything stuck
+- [ ] Confirm the upload queue is clear (0 pending) -- investigate anything stuck
 - [ ] Confirm the camera connection is still stable
-- [ ] Check printer paper and ribbon levels — replace before they run out
+- [ ] Check printer paper and ribbon levels -- replace before they run out
 
 ### Common Issues
 
 | Problem | Quick Fix |
 |---------|-----------|
-| Camera disconnects | Unplug and reconnect USB. The app will auto-recover within 10 seconds. |
+| Camera disconnects | Unplug and reconnect USB. The app reconnects automatically. |
 | Prints are faded | Replace the ribbon cartridge. Check printer driver settings for quality. |
 | Uploads stuck | Check Wi-Fi. Items queue offline and retry automatically when reconnected. |
 | App becomes unresponsive | Close and reopen the desktop app. Your session data is preserved. |
@@ -65,8 +65,8 @@ Never power off the laptop while there are pending uploads. Let the offline queu
 ### Ongoing Review
 
 - [ ] Review the gallery in the Pix Dashboard periodically for image quality
-- [ ] Check **Analytics** for photo session count, popular templates, and sharing stats
-- [ ] Export transaction data from **Billing > Transactions** periodically if you charge customers
+- [ ] Check the **Dashboard** for photo session counts, popular templates, and sharing stats
+- [ ] Export transaction data from **Transactions** periodically if you charge customers
 - [ ] Pack and store printer ribbon and paper properly between restocks to avoid damage
 
 :::info
@@ -75,4 +75,4 @@ All photos are automatically uploaded to your cloud storage. You don't need to m
 
 ## Printable Version
 
-Save this page or print it to keep near your kiosk setup — handy for yourself or anyone else who handles restocking and maintenance.
+Save this page or print it to keep near your kiosk setup -- handy for yourself or anyone else who handles restocking and maintenance.

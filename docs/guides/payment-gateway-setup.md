@@ -1,79 +1,50 @@
 ---
 sidebar_position: 3
 title: Payment Gateway Setup
-description: Configure Xendit, DOKU, or Midtrans to accept payments from your photobooth customers.
-tags: [guides, payments, billing, xendit, doku, midtrans]
+description: Connect DOKU so customers can pay for photo sessions by QRIS at the kiosk, test in sandbox, and go live.
+tags: [guides, payment, doku, qris]
 ---
 
 # Payment Gateway Setup
 
-If you charge customers per photo session, Pix integrates with three payment gateways popular in Southeast Asia. You configure your gateway once in the Pix Dashboard, and payments flow automatically during booth photo sessions.
+Pix takes kiosk payments by **QRIS** through **DOKU**. Customers scan the QR on the kiosk with any Indonesian bank or e-wallet app, the money settles to your DOKU account, and Pix takes no cut of it.
 
-## Supported Gateways
+If you prefer cash or card hardware instead of (or as well as) QRIS, see [Hardware Payments](../desktop-app/hardware-payments.md).
 
-| Gateway | Best For | Payment Methods |
-|---------|----------|-----------------|
-| **Xendit** | Broad coverage, easy onboarding | QRIS, bank transfer, e-wallets, cards |
-| **DOKU** | Established Indonesian businesses | QRIS, bank transfer, e-wallets |
-| **Midtrans** | Versatility, Gopay/Shopeepay focus | QRIS, e-wallets, cards, bank transfer |
+## Step 1: Get a DOKU Account
 
-:::info
-You only need one active gateway. Choose the one that best fits your region and preferred payment methods.
-:::
+1. Register at DOKU and complete business verification. DOKU's review typically takes a few business days.
+2. In the DOKU dashboard, open your **API credentials**. You will need the **Client ID**, **Secret key**, and the **RSA private key** used to sign requests. Keep the private key safe; Pix stores it encrypted and never shows it again.
 
-## General Setup Steps
+## Step 2: Connect It in Pix
 
-The process is similar for all three gateways:
+1. In the Pix Dashboard, open **Settings > Payment Gateway**.
+2. Choose **DOKU**, paste the credentials, and save.
+3. Leave the environment on **Sandbox** for now.
 
-### 1. Create a Gateway Account
+## Step 3: Test in Sandbox
 
-- Sign up at your chosen gateway's website ([xendit.co](https://xendit.co), [doku.com](https://doku.com), or [midtrans.com](https://midtrans.com))
-- Complete business verification (KYC) — this typically takes 1-3 business days
-- Once approved, you'll have access to your dashboard and API credentials
+1. Set a price on a test booth in [Booth Pricing](../dashboard/booth-pricing.md).
+2. Run a photo session on the kiosk and pay the sandbox QR with DOKU's test app or simulator.
+3. Confirm the kiosk moves to the success screen and the payment shows in **Transactions**.
 
-### 2. Get Your API Keys
+## Step 4: Go Live
 
-- In your gateway dashboard, locate the **API Keys** or **Settings > Integration** section
-- Copy your **Server Key** (secret) and **Client Key** (public)
-- Some gateways also require a **Merchant ID** or **Callback Token**
+Switch the environment to **Production** in **Settings > Payment Gateway**. New photo sessions charge real money from that moment; sessions already on the payment screen finish on the previous setting.
 
-:::caution
-Never share your Server Key publicly. It grants full access to your payment account. Only enter it in the Pix Dashboard's secure billing settings.
-:::
+## Per-Booth and Per-Event Gateways
 
-### 3. Configure in Pix Dashboard
-
-1. Open the **Pix Dashboard** and go to **Billing > Payment Gateways**
-2. Select your gateway from the list
-3. Enter your API keys and merchant ID
-4. Click **Save**
-
-<!-- Screenshot: Payment gateway configuration in Pix Dashboard -->
-
-### 4. Set Your Pricing
-
-1. Go to **Billing > Photo Session Pricing**
-2. Set the price per photo session (or per print, depending on your model)
-3. Choose which booths this pricing applies to
-
-## Testing Payments
-
-Before going live at your location, always test the full payment flow:
-
-1. **Use sandbox/test mode.** All three gateways offer test credentials — switch to these in the Pix Dashboard before testing.
-2. **Run a full photo session.** On the desktop app, go through capture and trigger the payment screen.
-3. **Complete a test payment.** Use the gateway's test card numbers or test QRIS codes.
-4. **Verify the transaction.** Check that it appears in both the gateway dashboard and the Pix Dashboard under Billing > Transactions.
-
-:::tip
-Keep sandbox mode on during rehearsals and setup. Switch to production keys only when you're ready for real payments. The toggle is in **Billing > Payment Gateways**.
-:::
+The organization gateway applies everywhere by default. A booth (on its **Settings** tab) or an event can override it with different DOKU credentials, useful when a venue or client must receive the money directly.
 
 ## Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
-| "Gateway not configured" error | Verify API keys are entered correctly in Pix Dashboard |
-| Payment screen not appearing | Check that photo session pricing is set and assigned to the booth |
-| Transaction stuck as "pending" | Check your internet connection; pending transactions retry automatically |
-| Callback/webhook failures | Ensure your gateway's callback URL points to `api.pixapp.id` |
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Kiosk shows "payment unavailable" | Gateway not connected, or wrong credentials | Re-check **Settings > Payment Gateway** and save again |
+| QR shown but payment never confirms | DOKU cannot reach Pix to confirm | Check the gateway environment (sandbox vs production) matches the app the customer paid with |
+| Payment confirmed but no session recorded | Kiosk offline at the moment of payment | The kiosk reconciles when it reconnects; check **Transactions** after a few minutes |
+| Amount differs from the package price | Tax or fees applied | See tax and fee settings in [Booth Pricing](../dashboard/booth-pricing.md) |
+
+:::tip Vouchers for testing
+Once live, use a single-use free voucher rather than a real payment to test changes to prices or kiosk designs.
+:::

@@ -32,12 +32,12 @@ The macOS build is signed with an Apple Developer ID certificate. Notarization e
 3. Launch **Pix** from the Start menu or desktop shortcut.
 
 :::info
-Windows builds are not yet code-signed. You may see a SmartScreen warning on first launch. Click **More info** then **Run anyway** to proceed. This does not affect app functionality.
+Windows builds are not code-signed, so Windows SmartScreen shows a warning the first time you run the installer. You may see a SmartScreen warning on first launch. Click **More info** then **Run anyway** to proceed. This does not affect app functionality.
 :::
 
 ## Verifying the Installation
 
-After launching, you should see the Pix login screen. If the app opens successfully, the installation is complete.
+After launching, you should see the pairing screen asking for a 6-digit code. If the app opens successfully, the installation is complete.
 
 <!-- Screenshot: Pix login screen after fresh install -->
 

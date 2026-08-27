@@ -28,7 +28,7 @@ The customer picks a photo template from the available options. Templates define
 The countdown begins and the camera fires automatically. Depending on the template, customers pose for one or more shots. They see a live preview between takes so they can adjust.
 
 :::tip
-Pix supports three capture modes: **standard photos**, **GIFs**, and **live photos**. The mode depends on the template assigned to your booth.
+A photo session can produce the printed **composite**, individual **singles**, a **GIF**, and a **Live Photo**, depending on the booth's sharing settings. The mode depends on the template assigned to your booth.
 :::
 
 ### 4. Filters
@@ -50,9 +50,9 @@ The photo session ends and the booth returns to the home screen, ready for the n
 
 Congratulations -- you've completed your first Pix photo session. From here, you can explore:
 
-- **[Templates](/docs/desktop-app/photo session-flow/template-selection)** -- Create and customize photo layouts
+- **[Templates](/docs/desktop-app/session-flow/template-selection)** -- Create and customize photo layouts
 - **[Printer Setup](/docs/desktop-app/printer-setup)** -- Connect a thermal or dye-sub printer
-- **[Pix Dashboard](/docs/ios-dashboard/overview)** -- Monitor photo sessions and revenue in real time
+- **[Pix Dashboard](/docs/dashboard/overview)** -- Monitor photo sessions and revenue in real time
 - **[Plans & Pricing](/docs/pricing/plans)** -- Upgrade your plan as your business grows
 
 :::tip

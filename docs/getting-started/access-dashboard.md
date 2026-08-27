@@ -27,7 +27,7 @@ From the Pix Dashboard you can:
 - **Dashboard tab** -- View photo session counts and revenue at a glance
 - **Booths tab** -- Create and configure booths, assign templates
 - **Gallery tab** -- Browse captured photos across all booths
-- **Billing tab** -- Manage your subscription and payment methods
+- **Licenses** -- your per-booth plans and licence pool
 
 ## Next Step
 

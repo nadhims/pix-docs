@@ -14,24 +14,23 @@ Welcome to Pix! This guide walks you through everything you need to go from zero
 Follow these steps to get up and running:
 
 1. **[Create your account](./create-account.md)** -- Sign up at pixture.io with your name, email, and phone number, then verify your email.
-2. **[Claim your free 3-day trial](./choose-plan.md)** -- Your account starts with full **Pix Pro** access for 3 days automatically -- no plan to pick right away. After that, it drops to the free Starter plan if you haven't upgraded.
+2. **[Claim your free 3-day trial](./choose-plan.md)** -- Every organization can claim one free 3-day **Pix Pro** trial from the dashboard; otherwise booths start on the free Starter plan (1 booth, 2 templates, watermarked sharing).
 3. **[Download the Desktop App](./download-desktop-app.md)** -- Install the Pix kiosk app on your macOS or Windows machine.
-4. **Pair your booth** -- In the dashboard open the booth, go to the **Device** tab, click **Generate code**, then type the 6-digit code into the Pixture App on the booth computer.
+4. **Pair your booth** -- In the dashboard open the booth, go to the **Device** tab, click **Generate code**, then type the 6-digit code into the Pix Desktop App on the booth computer.
 5. **[Connect your camera](../desktop-app/camera-setup/camera-settings.md)** -- Plug in a Canon EOS camera via USB, or use a webcam to test.
 6. **[Connect your printer](../desktop-app/printer-setup.md)** -- Optional but recommended, so customers can walk away with a physical print.
-7. **[Run your first photo session](./your-first-photo session.md)** -- Walk a customer through the full capture-to-sharing experience.
+7. **[Run your first photo session](./your-first-session.md)** -- Walk a customer through the full capture-to-sharing experience.
 
 ## Once You're Up and Running
 
 Time to make it yours:
 
-- **Home Layout & Splash Screen editor** -- style what customers see before and around a photo session. See [Branding Your Booth](/docs/guides/branding-your-booth).
-- **Pix Design (template editor)** -- design your own photo templates. See [Pix Design Overview](/docs/ios-dashboard/pix-studio/overview).
+- **UI Editor** (kiosk screen designer) -- style what customers see before and around a photo session. See [Branding Your Booth](/docs/guides/branding-your-booth).
+- **Pix Design (template editor)** -- design your own photo templates. See [Pix Design Overview](/docs/dashboard/pix-design/overview).
 
 The [Pix Dashboard](./access-dashboard.md) also works great from your phone's browser if you want to monitor revenue, manage templates, and handle billing on the go -- no install needed.
 
 :::tip
-Most operators are running their first test photo session within 30 minutes of signing up.
 :::
 
 ## What You'll Need

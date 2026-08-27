@@ -7,7 +7,7 @@ tags: [desktop-app, photo session, capture, gif, live-photo, composite]
 
 # Capture Modes
 
-The Pix Desktop App supports three capture modes, each producing a different type of [soft file](/docs/reference/glossary#soft-files). The capture mode is determined by the template the customer selects. In addition to the mode-specific output, each photo session can also generate **singles** — the individual captured photos saved as separate JPEGs.
+The Pix Desktop App supports three capture modes, each producing a different type of [soft file](/docs/reference/glossary#soft-files). The capture mode is determined by the template the customer selects. In addition to the mode-specific output, each photo session can also generate **singles** -- the individual captured photos saved as separate JPEGs.
 
 ## Composite (Multi-Shot)
 
@@ -62,9 +62,9 @@ This mode is ideal for:
 - Adding motion to the customer gallery page
 
 :::caution
-Live photo mode requires a Canon EOS camera. It is not available with the webcam fallback due to the need for simultaneous video and still capture.
+Live Photos are recorded from the live view and work with both Canon cameras and webcams.
 :::
 
 ## Choosing a Mode
 
-The capture mode is set per template in Pix Design. You can offer customers a mix by assigning templates with different modes to the same booth -- for example, two composite templates and one GIF template.
+Which outputs a booth produces (composite, singles, GIF, Live Photo) is set on the booth's **Settings** tab in the dashboard; the number of photos is set by the template's slots. You can offer customers a mix by assigning templates with different modes to the same booth -- for example, two composite templates and one GIF template.

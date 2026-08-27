@@ -34,10 +34,10 @@ If you frequently lose camera connection during operating hours, use a shorter U
 
 1. Confirm the printer is installed at the OS level:
    - **macOS**: System Settings > Printers & Scanners
-   - **Windows**: Settings > Bluetooth & Devices > Printers & Scanners
+   - **Windows**: Settings > Bluetooth & devices > Printers & scanners
 2. Print a test page from the OS to verify the printer is working independently.
 3. Check USB or network connection to the printer.
-4. Restart the app and re-open Settings > Printer.
+4. Restart the app and re-open **Menu > Printer Settings**.
 
 ## Upload Failures
 
@@ -73,8 +73,8 @@ Logs are your best tool for diagnosing issues:
 
 - **In-app**: Admin Panel > Logs section
 - **On disk**:
-  - macOS: `~/Library/Logs/Pix/`
-  - Windows: `%APPDATA%\Pix\logs\`
+  - macOS: `~/Library/Application Support/pix-desktopapp/logs/`
+  - Windows: `%APPDATA%\pix-desktopapp\logs\`
 
 When contacting Pix support, export your logs from the admin panel and include them in your report.
 
@@ -84,4 +84,4 @@ If the steps above do not resolve your issue:
 
 1. Export your logs from the Admin Panel.
 2. Note your app version (shown at the bottom of the Admin Panel).
-3. Contact support through the Pix dashboard or email with your logs and a description of the problem.
+3. Contact support from the dashboard's **Help** chat, or on WhatsApp at +62 851-2135-5870. Attach the logs above.

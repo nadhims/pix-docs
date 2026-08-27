@@ -24,7 +24,7 @@ The Pix Desktop App is an Electron-based kiosk application that runs on macOS an
 |---|---|---|
 | RAM | 4 GB | 8 GB or more |
 | Storage | 500 MB free (app only) | 2 GB+ free (photos and cache) |
-| Display | 1024 x 768 | 1080p or higher touchscreen |
+| Display | 1280 x 800 | 1080p or higher touchscreen |
 | USB | 1 available USB port (for camera) | USB 3.0 for faster tethering |
 
 :::tip
@@ -43,13 +43,13 @@ Microsites (QR code sharing and branded customer pages) require an active intern
 
 ### Camera
 
-A Canon EOS camera connected via USB is the primary capture method. See [Supported Cameras](./supported-cameras.md) for the full list of tested models.
+A Canon EOS camera connected by USB is the primary capture method. A built-in or USB webcam works too, as do virtual cameras such as OBS Virtual Camera on macOS. See [Supported Cameras](./supported-cameras.md) for the full list of tested models.
 
 A built-in or external webcam can be used as a fallback for testing or lower-quality setups.
 
 ### Printer (Optional)
 
-A dye-sublimation photo printer connected via USB. See [Supported Printers](./supported-printers.md) for tested models and print sizes.
+A photo printer connected by USB or over the network -- dye-sublimation (DNP, HiTi, Mitsubishi) is the photobooth standard, and inkjet photo printers also work. Several booths can share one printer; see [Sharing One Printer Between Booths](../guides/shared-printer.md). See [Supported Printers](./supported-printers.md) for tested models and print sizes.
 
 ## Pix Dashboard
 

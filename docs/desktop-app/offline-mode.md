@@ -13,7 +13,7 @@ The Pix Desktop App is designed to keep running even when your internet connecti
 
 When the app detects it is offline, it continues operating normally with a few adjustments:
 
-- **Photo Sessions run uninterrupted** -- capture, compositing, filters, and printing all work without internet.
+- **photo sessions run uninterrupted** -- capture, compositing, filters, and printing all work without internet.
 - **Uploads are queued** -- photos that would normally upload to the Pix cloud are stored locally and placed in an upload queue.
 - **QR codes are deferred** -- the sharing screen shows a message that the photo will be available online once connectivity is restored.
 

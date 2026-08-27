@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Pix Docs',
-  tagline: 'Documentation for Pix Photobooth',
+  title: 'Pix Docs by Pixture',
+  tagline: 'Documentation for the Pix photobooth platform',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -67,7 +67,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/pix-social-card.png',
+    image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -78,7 +78,7 @@ const config: Config = {
       logo: {
         alt: 'Pix',
         src: 'img/pix-logo-light.png',
-        srcDark: 'img/pix-logo-light.png',
+        srcDark: 'img/pix-logo-dark.png',
         href: '/',
         style: {height: '28px'},
       },

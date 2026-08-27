@@ -47,12 +47,12 @@ Each template has a specific **capture mode** associated with it:
 - **Live Photo** templates capture a short video clip plus a key frame
 
 :::info
-Templates are synced from the Pix API. Any changes you make in Pix Design -- adding templates, reordering, or removing them -- are reflected in the app on the next photo session reset.
+Templates are synced from the Pix API. Any changes you make in Pix Design -- adding templates, reordering, or removing them -- are reflected on the kiosk on its next check-in, usually within seconds.
 :::
 
 ## Plan Limitations
 
-- **Starter** (free): Default template only, no Template Editor access
+- **Starter** (free): up to 2 templates, standard designs only
 - **Day Pass** and **Pix Pro**: Unlimited templates, full Template Editor access
 
 Upgrade your plan in the Pix dashboard if you need custom or additional templates.
