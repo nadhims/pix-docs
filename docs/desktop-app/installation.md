@@ -13,6 +13,36 @@ Getting the Pix Desktop App installed takes just a few minutes on either macOS o
 
 Visit [pixture.io/download](https://pixture.io/download) to grab the latest installer. The page automatically detects your operating system and highlights the right download.
 
+## System Requirements
+
+The same table shown on [pixture.io/download](https://pixture.io/download):
+
+**macOS**
+
+| | Minimum | Recommended |
+|---|---|---|
+| Operating System | macOS 13 (Ventura) | macOS 14 (Sonoma) or later |
+| Processor | Apple Silicon or Intel | Apple Silicon (M1 or later) |
+| Memory | 8 GB RAM | 16 GB RAM |
+| Graphics | Integrated graphics | Dedicated / Apple Silicon GPU |
+| Storage | 1 GB available | 2 GB available |
+| Display | 1280 × 720 | 1080p or higher |
+| Camera Port | USB 2.0 (Canon DSLR) | USB 3.0 (Canon DSLR) |
+| Internet | Required for activation | Required for activation |
+
+**Windows**
+
+| | Minimum | Recommended |
+|---|---|---|
+| Operating System | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| Processor | Core i3 / Ryzen 3 | Core i5 / Ryzen 5 or better |
+| Memory | 8 GB RAM | 16 GB RAM |
+| Graphics | Integrated (UHD / Radeon) | Dedicated GPU (NVIDIA / AMD) |
+| Storage | 1 GB available | 2 GB available |
+| Display | 1280 × 720 | 1080p or higher |
+| Camera Port | USB 2.0 (Canon DSLR) | USB 3.0 (Canon DSLR) |
+| Internet | Required for activation | Required for activation |
+
 ## macOS
 
 1. Open the downloaded `.dmg` file.

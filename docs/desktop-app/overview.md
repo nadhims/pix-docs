@@ -25,10 +25,11 @@ The Pix Desktop App is a full-screen kiosk application that turns any Mac or Win
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
 | **macOS** | 13 (Ventura) | 14 (Sonoma) or later |
-| **Windows** | 10 (64-bit) | 11 |
-| **RAM** | 4 GB | 8 GB |
-| **Disk** | 500 MB free | 2 GB free |
-| **Display** | 1280 x 800 | 1080p touchscreen |
+| **Windows** | 10 (64-bit) | 11 (64-bit) |
+| **Processor** | Apple Silicon/Intel (Mac), Core i3 / Ryzen 3 (Win) | M1+, Core i5 / Ryzen 5 or better |
+| **RAM** | 8 GB | 16 GB |
+| **Disk** | 1 GB free | 2 GB free |
+| **Display** | 1280 x 720 | 1080p touchscreen |
 | **USB** | USB 2.0 (for camera) | USB 3.0 |
 
 :::tip

@@ -22,10 +22,13 @@ The Pix Desktop App is an Electron-based kiosk application that runs on macOS an
 
 | Component | Minimum | Recommended |
 |---|---|---|
-| RAM | 4 GB | 8 GB or more |
-| Storage | 500 MB free (app only) | 2 GB+ free (photos and cache) |
-| Display | 1280 x 800 | 1080p or higher touchscreen |
-| USB | 1 available USB port (for camera) | USB 3.0 for faster tethering |
+| Processor (macOS) | Apple Silicon or Intel | Apple Silicon (M1 or later) |
+| Processor (Windows) | Core i3 / Ryzen 3 | Core i5 / Ryzen 5 or better |
+| RAM | 8 GB | 16 GB |
+| Graphics | Integrated (UHD / Radeon / Apple) | Dedicated GPU or Apple Silicon |
+| Storage | 1 GB available | 2 GB+ available (photos and cache) |
+| Display | 1280 x 720 | 1080p or higher touchscreen |
+| USB | USB 2.0 port (Canon DSLR) | USB 3.0 for faster tethering |
 
 :::tip
 For kiosk use, a touchscreen display is strongly recommended. Pix is designed as a kiosk app where customers interact directly with the screen.
