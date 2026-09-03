@@ -37,7 +37,7 @@ Save publishes the design. Paired booths pick up changes on their next check-in,
 
 ## Plans
 
-The UI Editor is a Pix Pro feature. On Starter you can open the editor and create one project, but only a licensed computer can run a custom design; a watermarked computer runs the standard design.
+Every plan can use the UI Editor. On Starter you can open the editor, build one project, and run it on your kiosk, watermarked. The payment screen stays off until the computer is licensed.
 
 :::tip Preview at booth size
 Design at the kiosk's real resolution (most booths are 1920x1080 landscape) and test on the actual screen; touch targets that look fine on a laptop can be small on a 24-inch display.
