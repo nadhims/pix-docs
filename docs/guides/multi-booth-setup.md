@@ -10,7 +10,7 @@ tags: [guides, multi-booth, management]
 Pix supports running multiple booths under one account. Each booth has its own templates, settings, and photo session history -- but you manage them all from a single Pix Dashboard.
 
 :::info Licences are per computer
-Plans are bought per computer, not per account. Booths cost nothing: create as many as you like. Every computer that needs Pix Pro features needs its own Pix Pro subscription or Day Pass; the rest keep running with the Pixture watermark. Licences move between computers from **Devices**.
+Plans are bought per computer, not per account. Booths cost nothing: create as many as you like. Every computer that needs Pix Pro features needs its own Pix Pro subscription or Day Pass. While your account holds no licence at all, every computer runs with the Pixture watermark; once one licence is active, a computer past your licences is blocked until it gets one. Licences move between computers from **Devices**.
 :::
 
 ## Step 1: Create Your Booths

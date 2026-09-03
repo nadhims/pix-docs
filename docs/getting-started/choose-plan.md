@@ -7,7 +7,7 @@ tags: [getting-started, plans, pricing]
 
 # Choose Your Plan
 
-You do not have to decide on day one. The app is free to download and runs watermarked. License a computer when it has a paid job.
+You do not have to decide on day one. The app is free to download, and while your account holds no licence every computer you pair runs watermarked. License a computer when it has a paid job.
 
 ## The Plans
 
@@ -20,9 +20,13 @@ You do not have to decide on day one. The app is free to download and runs water
 
 Full detail on [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
 
+## One Licence, One Computer
+
+Your account is **Pix Starter** while it holds no licence: every computer you pair runs, watermarked. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Devices page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
+
 ## Try Pix Pro First
 
-Claim the **free 3-day Pix Pro trial** from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick, and gives it the Template and UI Editors, unlimited templates, clean photos and prints, payments, and vouchers, with no card. Use those three days to set the booth up the way you want it; when the trial ends the computer goes back to watermarked with everything you built still in place.
+Claim the **free 3-day Pix Pro trial** from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick, and gives it the Template and UI Editors, unlimited templates, clean photos and prints, payments, and vouchers, with no card. Use those three days to set the booth up the way you want it. The trial is a real licence, so while it runs your account is Pix Pro with one slot and a second paired computer is blocked until it gets its own; when the trial ends the account goes back to Pix Starter with everything you built still in place.
 
 ## Licensing a Computer
 

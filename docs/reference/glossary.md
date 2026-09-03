@@ -9,6 +9,10 @@ tags: [reference, glossary, terminology]
 
 Key terms used in Pix, explained for photobooth operators.
 
+### Blocked computer
+
+A computer on a Pix Pro account that holds no licence: paired, but it cannot start a session until it gets one.
+
 ### Booth
 
 A single photobooth setup registered in your Pix account, with its own templates, settings, and photo session history. Booths are free: create as many as you like, and pair a computer to the booth it is running today. What a plan pays for is the computer, not the booth.
@@ -35,7 +39,11 @@ A capture mode that takes a rapid burst of frames and assembles them into an ani
 
 ### License
 
-A plan held by one computer running the Pix Desktop App: Pix Pro, or a pass for 24 hours. A licence lives on the computer. Move it between computers from the Devices page; the computer it leaves becomes watermarked.
+A plan held by one computer running the Pix Desktop App: Pix Pro, or a pass for 24 hours. A licence lives on the computer. Move it between computers from the Devices page; the computer it leaves is blocked until it gets a licence of its own, and runs watermarked once your account holds none.
+
+### Licence slots
+
+One per active licence; the Devices page shows how many are in use.
 
 ### Live Photo
 
@@ -94,7 +102,7 @@ The licences and passes you own that are not on a computer yet. The Devices page
 A computer with a pass or Pix Pro active on it. Its photos, prints, and microsites are clean, and it can run your custom kiosk designs.
 
 ### Watermarked device
-A computer with no licence. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until you put a pass or Pix Pro on it.
+A computer on an account that holds no licence at all. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until a pass or Pix Pro is active on it.
 
 ### Pass
 A 24 hour Pix Pro licence for one computer, activated from the kiosk's operator menu or the Devices page.
@@ -106,7 +114,7 @@ The 6-digit code generated on a booth's Device tab that links a kiosk computer t
 A display-only Booth Pricing setting (standard, 2 inch cut, triple strip) that tells the payment screen how many pieces a printed sheet becomes.
 
 ### Watermark
-The Pixture mark on every photo, print, and microsite from a computer with no licence. It stops appearing on new photo sessions once a pass or Pix Pro is active on that computer.
+The Pixture mark on every photo, print, and microsite from a computer on an account that holds no licence. It stops appearing on new photo sessions once a pass or Pix Pro is active on that computer.
 
 ### Pix AI
 AI-generated backgrounds and effects for photo sessions, currently in beta. Uses credits; also available on Starter.

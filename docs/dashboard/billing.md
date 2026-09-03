@@ -9,9 +9,11 @@ tags: [dashboard, licenses, billing, subscription]
 
 A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. That page (the old **Licenses** page) lists every computer you have paired, plus the licences and passes you have not put on one yet.
 
+Your account is **Pix Starter** while it holds no licence and **Pix Pro** while at least one is active. A Pix Pro account has one slot per licence, counted at the top of the page.
+
 ## The Devices Page
 
-Each computer shows its name, the booth it is paired to, and whether it is **licensed** or **watermarked**. A licensed one also shows when its period ends. Unused passes are counted at the top.
+Each computer shows its name, the booth it is paired to, and whether it is **licensed**, **watermarked**, or **blocked**. A licensed one also shows when its period ends. The top of the page counts your licence slots, how many are in use, and the passes you have not put on a computer yet.
 
 The actions on a computer:
 
@@ -21,10 +23,12 @@ The actions on a computer:
 | **Use a pass** | Put one of your unused passes on it for 24 hours |
 | **Use Pix Pro licence** | Put a Pix Pro licence you already own on it |
 | **Move a licence here** | Take a licence off another computer and put it on this one |
-| **Release** | Take the licence off; the computer becomes watermarked |
+| **Release** | Take the licence off so another computer can use it; this one is blocked until it gets a licence, or watermarked once your account holds none |
 | **Cancel** | Stop renewal on a Pix Pro subscription paid by card |
 
-A licence moves immediately, and the kiosk picks it up on its next check-in, a few seconds when it is online. The computer the licence left becomes watermarked. Day Passes cannot be moved once they are running.
+A licence moves immediately, and the kiosk picks it up on its next check-in, a few seconds when it is online. The computer the licence left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
+
+**Watermarked** and **blocked** are not the same thing. While your account holds no licence at all, every computer runs with the Pixture watermark. Once one licence is active, a computer past your licences is blocked instead: it stays paired, but it cannot start a session until you release another computer, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
 
 ## Plans at a Glance
 
@@ -36,13 +40,25 @@ A licence moves immediately, and the kiosk picks it up on its next check-in, a f
 
 Current prices, in USD and IDR, are on [Plans & Pricing](../pricing/plans.md). Buying several Pix Pro licences at once gives a volume discount, shown in the checkout.
 
+## Before a Licence Ends
+
+A computer never goes from running clean to stopped without notice.
+
+| Licence | Where | When |
+|---|---|---|
+| Day Pass | Kiosk badge "Pass ends at 18:30"; operator notice on the idle Home screen (never during a session) with "Use another pass" when one is in the pool; Devices row countdown | 60 min, 15 min |
+| Subscription that will not renew (cancelled, or a QRIS purchase) | Email, Devices banner, kiosk badge "Pix Pro ends Sep 30" | 7 days, 1 day |
+| Renewing subscription whose payment failed | Email and Devices banner at once; the computer keeps running for a 3-day grace, then blocked | at once, then daily |
+
+A computer that lost its connection when its licence ended runs watermarked rather than blocked until it reconnects, so a dropped Wi-Fi never stops a paying booth.
+
 ## Cancelling
 
-**Cancel** stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the period it has already paid for, then becomes watermarked. Nothing is deleted: templates, kiosk designs, and photo sessions stay in your account. To license it again, buy Pix Pro or put a pass on it. A licence bought with QRIS does not renew at all: it simply ends when the period you paid for ends.
+**Cancel** stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the period it has already paid for. After that it is blocked while your account still holds another licence, and watermarked once no licence is left. Nothing is deleted: templates, kiosk designs, and photo sessions stay in your account. To license it again, buy Pix Pro or put a pass on it. A licence bought with QRIS does not renew at all: it simply ends when the period you paid for ends.
 
 ## Free 3-Day Pix Pro Trial
 
-Every organization can claim **one** free 3-day Pix Pro trial on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. That computer has full Pix Pro features for three days and becomes watermarked afterwards unless you buy a licence.
+Every organization can claim **one** free 3-day Pix Pro trial on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. That computer has full Pix Pro features for three days. The trial is a real licence, so while it runs your account is Pix Pro with one slot and a second paired computer is blocked until it gets its own. When the trial ends the account goes back to Pix Starter unless you buy a licence.
 
 ## What You Get for Free
 
@@ -53,5 +69,5 @@ Free to download. Every photo and print carries the Pixture watermark until a pa
 Licences are paid at checkout by card or, in Indonesia, by local methods such as QRIS. Yearly Pix Pro renews yearly, monthly Pix Pro renews monthly on the same date, and Day Passes never renew.
 
 :::tip Keep a spare pass
-If you run pop-ups, buying an extra Day Pass ahead of time means the new computer is live the moment you pair it: **Use a pass**, and the watermark is gone.
+If you run pop-ups, buying an extra Day Pass ahead of time means the new computer is live the moment you pair it: **Use a pass**, and it starts sessions straight away.
 :::
