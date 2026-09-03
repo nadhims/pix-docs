@@ -19,7 +19,7 @@ An **event** is a temporary setup that gets its own pricing, its own kiosk desig
 
 ## Station Booths and Licences
 
-Add a **station** for each kiosk that will run at the event. The event is ready to go live when each assigned booth's computer is licensed, or you have an unused pass for the ones that are not: put the pass on the computer from [Devices](./billing.md) or from the kiosk's operator menu on the day.
+Add a **station** for each kiosk that will run at the event. The event goes live when every assigned booth's computer is licensed. Keep an unused pass for any that are not, and put it on the computer from [Devices](./billing.md), or from the kiosk's operator menu on the day.
 
 Pair each station's computer with a 6-digit code from the station, exactly like a booth.
 

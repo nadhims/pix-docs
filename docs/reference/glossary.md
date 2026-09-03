@@ -23,7 +23,7 @@ The final image generated after a photo session. A composite combines the custom
 
 ### Day Pass
 
-The pack you buy: one or more passes, each giving one computer Pix Pro features for 24 hours. A pass waits in your pool until you put it on a computer, and never renews.
+A pack of one or more passes. Each pass gives one computer Pix Pro features for 24 hours, waits in your pool until you put it on a computer, and never renews.
 
 ### Dead Letter
 
@@ -87,7 +87,7 @@ Customers design and pay for their own frame from a link or QR before their phot
 ### Bonus Session
 A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled on each booth in Marketing Studio.
 
-### License Pool
+### Unused passes and licences
 The licences and passes you own that are not on a computer yet. The Devices page counts them at the top; put one on a computer with **Use a pass** or **Use Pix Pro licence**.
 
 ### Licensed device
@@ -97,7 +97,7 @@ A computer with a pass or Pix Pro active on it. Its photos, prints, and microsit
 A computer with no licence. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until you put a pass or Pix Pro on it.
 
 ### Pass
-A 24 hour Pix Pro licence for one computer, activated from the kiosk's admin menu or the Devices page.
+A 24 hour Pix Pro licence for one computer, activated from the kiosk's operator menu or the Devices page.
 
 ### Pairing Code
 The 6-digit code generated on a booth's Device tab that links a kiosk computer to that booth. Replaces signing in on the kiosk.

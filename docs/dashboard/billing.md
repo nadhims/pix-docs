@@ -7,7 +7,7 @@ tags: [dashboard, licenses, billing, subscription]
 
 # Licenses & Billing
 
-A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. **Devices** in the dashboard (the old Licenses page) lists every computer you have paired, plus the licences and passes you own that are not on a computer yet.
+A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. That page (the old **Licenses** page) lists every computer you have paired, plus the licences and passes you have not put on one yet.
 
 ## The Devices Page
 
@@ -38,13 +38,13 @@ Current prices, in USD and IDR, are on [Plans & Pricing](../pricing/plans.md). B
 
 ## Cancelling
 
-**Cancel** stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the period it has already paid for, then becomes watermarked. Nothing is deleted: templates, kiosk designs, and photo sessions stay in your account. To license it again, buy Pix Pro or put a pass on it. If you pay another way, message us from **Help** and we will stop the renewal for you.
+**Cancel** stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the period it has already paid for, then becomes watermarked. Nothing is deleted: templates, kiosk designs, and photo sessions stay in your account. To license it again, buy Pix Pro or put a pass on it. A licence bought with QRIS does not renew at all: it simply ends when the period you paid for ends.
 
 ## Free 3-Day Pix Pro Trial
 
-Every organization can claim **one** free 3-day Pix Pro trial on one computer from the Devices page, no card required. That computer has full Pix Pro features for three days and becomes watermarked afterwards unless you buy a licence.
+Every organization can claim **one** free 3-day Pix Pro trial on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. That computer has full Pix Pro features for three days and becomes watermarked afterwards unless you buy a licence.
 
-## What Starter Includes
+## What You Get for Free
 
 Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events. Booths are free profiles: create as many as you like, pair a computer to any of them, and rehearse the whole setup before you pay. What a licence adds on top is in the [Feature Comparison](../pricing/feature-comparison.md).
 
