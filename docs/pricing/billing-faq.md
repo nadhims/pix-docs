@@ -25,7 +25,7 @@ Yes, from **Devices > Move a licence here** on the computer that should get it, 
 
 ## What happens when I cancel?
 
-The computer keeps Pix Pro until the end of the period it has paid for. After that it is blocked while your account still holds another licence, and watermarked once no licence is left. Nothing is deleted: templates, kiosk designs, photo sessions, and transactions stay, and custom kiosk designs start running again the moment the computer is licensed again.
+The computer keeps Pix Pro until the end of the period it has paid for. After that it is blocked while your account still holds another licence, and watermarked once no licence is left. Nothing is deleted: templates, kiosk designs, photo sessions, and transactions stay, and the computer keeps running your own kiosk screens; what it loses is clean output and the payment screen.
 
 ## My computer says Watermarked. What now?
 

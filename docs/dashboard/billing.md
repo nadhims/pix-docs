@@ -50,6 +50,8 @@ A computer never goes from running clean to stopped without notice.
 | Subscription that will not renew (cancelled, or a QRIS purchase) | Email, Devices banner, kiosk badge "Pix Pro ends Sep 30" | 7 days, 1 day |
 | Renewing subscription whose payment failed | Email and Devices banner at once; the computer keeps running for a 3-day grace, then blocked | at once, then daily |
 
+After the grace, the computer is blocked while your account still holds another licence, and watermarked once no licence is left.
+
 A computer that lost its connection when its licence ended runs watermarked rather than blocked until it reconnects, so a dropped Wi-Fi never stops a paying booth.
 
 ## Cancelling
