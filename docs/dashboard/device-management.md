@@ -18,6 +18,10 @@ A **device** is the computer running the Pix Desktop App. Each device is paired 
 
 No account password is ever typed on the kiosk, so nothing sensitive is left on a machine in a public place.
 
+## Licensed or Watermarked
+
+A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. A paired computer with no licence still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event. When the kiosk starts watermarked it says so on the start screen and points to the operator menu, where **Use a pass on this device** puts one of your unused passes on it.
+
 ## Renaming or Unlinking
 
 From the same **Device** tab you can:
@@ -29,12 +33,12 @@ Unlink a device before you sell, repurpose, or send a computer for repair.
 
 ## Replacing a Computer
 
-Generate a new code from the booth's **Device** tab and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Unlink the old device once the new one is running.
+Generate a new code from the booth's **Device** tab and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Then on the Devices page choose **Move a licence here** and pick the old computer, and unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, release the old entry.
 
 ## Offline Grants
 
-A paired booth keeps working without internet: the device holds a signed offline grant for its licence, so it can start photo sessions, print, and queue uploads until it reconnects. See [Offline Mode](../desktop-app/offline-mode.md).
+A paired computer keeps working without internet: it holds a signed offline grant for its licence, so it can start photo sessions, print, and queue uploads until it reconnects. See [Offline Mode](../desktop-app/offline-mode.md).
 
-:::caution One device per booth
-Two computers cannot be paired to the same booth at the same time. Pairing a second device unlinks the first.
+:::caution One computer to a booth
+Two computers cannot be paired to the same booth at the same time. Pairing a second computer unlinks the first; the licence stays on the computer that holds it.
 :::

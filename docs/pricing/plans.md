@@ -1,41 +1,41 @@
 ---
 sidebar_position: 1
 title: Plans & Pricing
-description: Pix Starter (free), Day Pass packs from $5, and Pix Pro at $40 per month or $25 per month billed yearly -- all priced per booth, in USD and IDR.
+description: Pix Starter (free, watermarked), Day Pass packs from $5 per computer per day, and Pix Pro at $40 per month or $25 per month billed yearly, per licensed computer, in USD and IDR.
 tags: [pricing, plans, starter, day-pass, pix-pro]
 ---
 
 # Plans & Pricing
 
-Every plan is **per booth**. Mix them freely: one booth on Pix Pro, two on Starter, and a Day Pass for a pop-up next weekend.
+Every paid plan licenses **one computer** running the Pix Desktop App. A licence is not tied to a booth: pair the computer to whichever booth it is running today, and move the licence between computers from the Devices page.
 
 Prices below are the list prices. The [pricing page](https://pixture.io/#home-pricing) shows any promotion currently running, and IDR prices are set in rupiah rather than converted.
 
 ## Pix Starter -- Free
 
-Free forever, no card. Per organization: **1 booth**, **2 templates**, the standard kiosk design, printing, and digital sharing (QR microsite with the composite, singles, GIF, and Live Photo) where every soft file carries a small **Pix watermark**.
+Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events.
 
-Not included: custom kiosk designs on the booth, the Template Editor beyond two templates, and clean soft files.
+No account is needed to try it: install the app, choose one of the built-in frames and shoot. Create a free account to design your own frames and kiosk screens in the dashboard; they run on any computer you pair, watermarked until you put a pass or Pix Pro on it.
 
 ## Day Pass -- from $5 (Rp 85.000)
 
-Pix Pro features on a booth for **24 hours**. Sold in packs:
+Pix Pro features on one computer for **24 hours**. Sold in packs:
 
-| Pack | Booths for the day | USD | IDR |
+| Pack | Computers for the day | USD | IDR |
 |---|---|---|---|
 | **Solo** | 1 | $5 | Rp 85.000 |
 | **Duo Pack** | 2 | $8 | Rp 135.000 |
 | **Event Pack** | 4 | $14 | Rp 250.000 |
 
-Day Passes never renew. Buy them into your License Pool ahead of time and attach them when the day comes; an event's station booths use them too.
+Day Passes never renew. Buy them into your pool ahead of time and use them on the day from the kiosk's admin menu or the Devices page. Rp 85.000 per computer per event day. Pay when you have a job.
 
 :::tip When to use a Day Pass
-Weekend markets, weddings, brand activations, and school events. If a booth runs more than about eight days a month, Pix Pro Monthly is cheaper.
+Weekend markets, weddings, brand activations, and school events. If a computer runs more than about eight days a month, Pix Pro Monthly is cheaper.
 :::
 
 ## Pix Pro -- $40/month or $25/month billed yearly
 
-Everything Pix does, on one booth:
+Everything Pixture does, on one licensed computer:
 
 - Unlimited templates and the **Template Editor**
 - The **UI Editor** to design every kiosk screen
@@ -51,9 +51,11 @@ Everything Pix does, on one booth:
 
 Yearly saves about 37% in USD and about 36% in IDR compared to paying monthly.
 
+Buying several Pix Pro licences at once gives a volume discount, shown in the checkout.
+
 ## Free 3-Day Trial
 
-Every organization can claim one free 3-day Pix Pro trial from **Licenses**, no card required. See [Choose Your Plan](../getting-started/choose-plan.md).
+Every organization can claim one free 3-day Pix Pro trial on one computer from the Devices page, no card required. See [Choose Your Plan](../getting-started/choose-plan.md).
 
 ## Pix AI
 

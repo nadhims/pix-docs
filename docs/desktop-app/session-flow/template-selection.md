@@ -55,4 +55,4 @@ Templates are synced from the Pix API. Any changes you make in Pix Design -- add
 - **Starter** (free): up to 2 templates, standard designs only
 - **Day Pass** and **Pix Pro**: Unlimited templates, full Template Editor access
 
-Upgrade your plan in the Pix dashboard if you need custom or additional templates.
+Put a pass or Pix Pro on the computer from **Devices** if you need custom or additional templates.

@@ -14,7 +14,7 @@ Welcome to Pix! This guide walks you through everything you need to go from zero
 Follow these steps to get up and running:
 
 1. **[Create your account](./create-account.md)** -- Sign up at pixture.io with your name, email, and phone number, then verify your email.
-2. **[Claim your free 3-day trial](./choose-plan.md)** -- Every organization can claim one free 3-day **Pix Pro** trial from the dashboard; otherwise booths start on the free Starter plan (1 booth, 2 templates, watermarked sharing).
+2. **[Claim your free 3-day trial](./choose-plan.md)** -- Every organization can claim one free 3-day **Pix Pro** trial on one computer from **Devices**. Until a pass or Pix Pro is active on a computer, its photos and prints carry the Pixture watermark.
 3. **[Download the Desktop App](./download-desktop-app.md)** -- Install the Pix kiosk app on your macOS or Windows machine.
 4. **Pair your booth** -- In the dashboard open the booth, go to the **Device** tab, click **Generate code**, then type the 6-digit code into the Pix Desktop App on the booth computer.
 5. **[Connect your camera](../desktop-app/camera-setup/camera-settings.md)** -- Plug in a Canon EOS camera via USB, or use a webcam to test.

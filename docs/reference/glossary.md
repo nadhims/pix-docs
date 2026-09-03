@@ -11,7 +11,7 @@ Key terms used in Pix, explained for photobooth operators.
 
 ### Booth
 
-A single photobooth setup registered in your Pix account. Each booth has its own device, templates, and photo session history. The Starter plan includes one booth, two templates, and digital sharing with a Pix watermark; paid plans support one booth per licence (buy one per booth).
+A single photobooth setup registered in your Pix account, with its own templates, settings, and photo session history. Booths are free: create as many as you like, and pair a computer to the booth it is running today. What a plan pays for is the computer, not the booth.
 
 ### Booth Health
 
@@ -23,7 +23,7 @@ The final image generated after a photo session. A composite combines the custom
 
 ### Day Pass
 
-A 24-hour access pass that unlocks all Pix Pro features for a single day. Activates immediately upon purchase.
+The pack you buy: one or more passes, each giving one computer Pix Pro features for 24 hours. A pass waits in your pool until you put it on a computer, and never renews.
 
 ### Dead Letter
 
@@ -35,7 +35,7 @@ A capture mode that takes a rapid burst of frames and assembles them into an ani
 
 ### License
 
-A per-booth plan assignment that determines which features the booth can access. Licenses can be transferred between booths from the dashboard -- the source booth reverts to the free Starter plan and the target booth receives the paid plan.
+A plan held by one computer running the Pix Desktop App: Pix Pro, or a pass for 24 hours. A licence lives on the computer. Move it between computers from the Devices page; the computer it leaves becomes watermarked.
 
 ### Live Photo
 
@@ -82,13 +82,22 @@ A code customers enter on the kiosk's payment screen. Vouchers can make a photo 
 An integration that lets you accept payments from customers directly at the booth. Pix uses DOKU for QRIS payments at the kiosk; hardware such as coin acceptors and card readers is supported separately.
 
 ### Frame Lab
-Customers design and pay for their own frame from a link or QR before their photo session (Marketing Studio > Custom Template). Priced per booth.
+Customers design and pay for their own frame from a link or QR before their photo session (Marketing Studio > Custom Template). You set its price on each booth.
 
 ### Bonus Session
-A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled per booth in Marketing Studio.
+A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled on each booth in Marketing Studio.
 
 ### License Pool
-Licences you own that are not attached to a booth. Licences are per booth and can be moved between booths and events from the Licenses page.
+The licences and passes you own that are not on a computer yet. The Devices page counts them at the top; put one on a computer with **Use a pass** or **Use Pix Pro licence**.
+
+### Licensed device
+A computer with a pass or Pix Pro active on it. Its photos, prints, and microsites are clean, and it can run your custom kiosk designs.
+
+### Watermarked device
+A computer with no licence. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until you put a pass or Pix Pro on it.
+
+### Pass
+A 24 hour Pix Pro licence for one computer, activated from the kiosk's admin menu or the Devices page.
 
 ### Pairing Code
 The 6-digit code generated on a booth's Device tab that links a kiosk computer to that booth. Replaces signing in on the kiosk.
@@ -97,7 +106,7 @@ The 6-digit code generated on a booth's Device tab that links a kiosk computer t
 A display-only Booth Pricing setting (standard, 2 inch cut, triple strip) that tells the payment screen how many pieces a printed sheet becomes.
 
 ### Watermark
-Soft files from Starter booths carry a small Pix watermark. Pix Pro and Day Pass booths deliver clean files.
+The Pixture mark on every photo, print, and microsite from a computer with no licence. It stops appearing on new photo sessions once a pass or Pix Pro is active on that computer.
 
 ### Pix AI
 AI-generated backgrounds and effects for photo sessions, currently in beta. Uses credits; also available on Starter.

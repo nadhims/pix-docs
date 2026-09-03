@@ -25,6 +25,8 @@ The menu shows the booth name, the current **Pix version**, the update status, a
 
 Most settings are saved on the device; templates, kiosk design, filters, and pricing come from the dashboard.
 
+When the computer is watermarked, the menu also offers **Use a pass on this device** and the free 3-day Pix Pro trial, so you can license a booth at the venue without opening the dashboard. See [Device Management](../dashboard/device-management.md).
+
 ## The Admin Page
 
 - **Upload queue** -- every photo session waiting to upload, with its state: Queued, Uploading, Done, Retrying, or Failed. Failed items can be retried or cleared.

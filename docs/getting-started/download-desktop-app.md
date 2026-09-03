@@ -9,6 +9,8 @@ tags: [getting-started, desktop-app, install]
 
 The Pix Desktop App is the kiosk software that runs your photobooth. It's available for macOS and Windows.
 
+You can shoot with it before you pair anything: install it, pick one of the two built-in 4x6 frames (Classic Black or Classic White), and go. Photos and prints carry the Pixture watermark until a pass or Pix Pro is active on that computer.
+
 ## macOS
 
 1. Go to [pixture.io/download](https://pixture.io/download).
