@@ -7,7 +7,7 @@ tags: [dashboard, pricing, payments]
 
 # Booth Pricing
 
-Pricing is set per booth on the booth's **Pricing** tab (**Booths > [booth] > Pricing**). An organization-wide default applies to any booth without its own pricing. The tab has a live preview of the kiosk's payment screen, so you see exactly what customers will see before you save.
+Pricing is set on each booth's **Pricing** tab (**Booths > [booth] > Pricing**). An organization-wide default applies to any booth without its own pricing. The tab has a live preview of the kiosk's payment screen, so you see exactly what customers will see before you save.
 
 ## Session Price
 

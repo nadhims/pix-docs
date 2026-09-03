@@ -21,7 +21,7 @@ The **Pix Dashboard** is a web app at `pixture.io/dashboard`. Nothing to install
 | **Marketing Studio** | Audience, bonus sessions, campaigns, content, Frame Lab, microsite branding, and performance |
 | **Gallery** | Browse, download, and delete photo session outputs |
 | **Health** | Live booth status, camera and printer state, upload queue, and error records |
-| **Licenses** | Your per-booth licence pool: buy, upgrade, transfer, cancel, resubscribe, and start the free trial |
+| **Devices** | Every computer you have paired, licensed or watermarked: buy, use a pass, move a licence, release, cancel, and start the free trial |
 | **Pix Design** | Template Editor, UI Editor (kiosk screen designer), Photo Filters, GIF/Video overlay, and Pix AI (beta) |
 | **Help** | Chat with Lucy, the in-dashboard assistant, or open these docs |
 | **Settings** | Organization, preferences and language, members and activity, payment gateway, profile, security, and data |
@@ -30,7 +30,7 @@ The sidebar shows only the sections your role is allowed to see. Owners see ever
 
 ## Booths and Licences
 
-Every kiosk is a **booth**. Licences are **per booth**: a Pix Pro subscription or Day Pass covers one booth, and you can hold several in your pool and move them between booths (or into an event) from **Licenses**. Booths without a licence run on the free Starter plan. See [Licenses & Billing](./billing.md).
+Every kiosk is a **booth**, and booths are free: create as many as you like. Licences are per computer: a Pix Pro subscription or Day Pass covers one computer running the Pix Desktop App, and you move it between computers from **Devices**. A computer with no licence still runs the booth, with the Pixture watermark on every photo and print. See [Licenses & Billing](./billing.md).
 
 ## Pairing a Booth
 

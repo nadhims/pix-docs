@@ -1,63 +1,57 @@
 ---
 sidebar_position: 9
 title: Licenses & Billing
-description: How per-booth licences work in Pix -- the licence pool, upgrading, transferring, cancelling, resubscribing, and the free trial.
+description: How device licences work in Pix -- the Devices page, licensing a computer, moving a licence, cancelling, and the free trial.
 tags: [dashboard, licenses, billing, subscription]
 ---
 
 # Licenses & Billing
 
-Plans in Pix are bought **per booth**. The **Licenses** page shows every licence you own and which booth (or event) each one is attached to.
+A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. **Devices** in the dashboard (the old Licenses page) lists every computer you have paired, plus the licences and passes you own that are not on a computer yet.
 
-## The Two Tabs
+## The Devices Page
 
-- **Booths** -- each of your booths with its current plan: Starter (free), Day Pass, or Pix Pro, plus the licence period end date. Actions live here: **Upgrade**, **Transfer**, **Cancel**, and **Resubscribe**.
-- **License Pool** -- licences you own that are not attached to a booth right now. Buy a licence into the pool, then assign it, or keep a spare for a booth you set up later.
+Each computer shows its name, the booth it is paired to, and whether it is **licensed** or **watermarked**. A licensed one also shows when its period ends. Unused passes are counted at the top.
+
+The actions on a computer:
+
+| Action | What it does |
+|---|---|
+| **Buy** | Buy Pix Pro or a Day Pass pack for this computer, and complete checkout |
+| **Use a pass** | Put one of your unused passes on it for 24 hours |
+| **Use Pix Pro licence** | Put a Pix Pro licence you already own on it |
+| **Move a licence here** | Take a licence off another computer and put it on this one |
+| **Release** | Take the licence off; the computer becomes watermarked |
+| **Cancel** | Stop renewal on a Pix Pro subscription paid by card |
+
+A licence moves immediately, and the kiosk picks it up on its next check-in, a few seconds when it is online. The computer the licence left becomes watermarked. Day Passes cannot be moved once they are running.
 
 ## Plans at a Glance
 
 | Plan | Cycle | Best for |
 |---|---|---|
-| **Pix Starter** | Free, forever | Trying Pix, or a single booth that only needs prints and basic sharing |
+| **Pix Starter** | Free, forever | Setting up and rehearsing, or a booth where the watermark is fine |
 | **Day Pass** | Daily, in packs of one or more passes | Event days and pop-ups |
-| **Pix Pro** | Monthly or yearly | Fixed booth locations |
+| **Pix Pro** | Monthly or yearly | A computer that runs most days |
 
-Current prices, in USD and IDR, are on [Plans & Pricing](../pricing/plans.md).
+Current prices, in USD and IDR, are on [Plans & Pricing](../pricing/plans.md). Buying several Pix Pro licences at once gives a volume discount, shown in the checkout.
 
-## Upgrading a Booth
+## Cancelling
 
-1. Open **Licenses > Booths**.
-2. Click **Upgrade** on the booth.
-3. Choose Pix Pro Monthly, Pix Pro Yearly, or a Day Pass pack, and complete checkout.
-
-The licence attaches to that booth immediately and the kiosk picks up its new plan on its next check-in (a few seconds when online).
-
-## Transferring a Licence
-
-A licence can move between your booths, and between a booth and an event:
-
-1. Open **Licenses > Booths**, click **Transfer** on the booth that currently holds it.
-2. Pick the destination booth (or event).
-
-The source booth drops back to Starter. If the source booth is running a live event, transferring its licence ends that event's paid features, so do this between sessions.
-
-## Cancelling and Resubscribing
-
-- **Cancel** stops renewal. The booth keeps Pix Pro until the end of the period it has already paid for, then drops to Starter. Nothing is deleted: templates, kiosk designs, and photo sessions stay in your account.
-- **Resubscribe** is available on a booth whose licence has expired. It starts a fresh period immediately.
+**Cancel** stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the period it has already paid for, then becomes watermarked. Nothing is deleted: templates, kiosk designs, and photo sessions stay in your account. To license it again, buy Pix Pro or put a pass on it. If you pay another way, message us from **Help** and we will stop the renewal for you.
 
 ## Free 3-Day Pix Pro Trial
 
-Every organization can claim **one** free 3-day Pix Pro trial from the dashboard. It gives a booth full Pix Pro features for three days, no card required, and drops back to Starter afterwards unless you buy a licence.
+Every organization can claim **one** free 3-day Pix Pro trial on one computer from the Devices page, no card required. That computer has full Pix Pro features for three days and becomes watermarked afterwards unless you buy a licence.
 
 ## What Starter Includes
 
-Starter is free and never expires. Per organization it allows **one booth** and **two templates**, uses the standard kiosk design, and digital sharing works but every soft file carries a small Pix watermark. Buying Pix Pro or a Day Pass for a booth removes the watermark and unlocks the editors for that booth. Full detail on [Feature Comparison](../pricing/feature-comparison.md).
+Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events. Booths are free profiles: create as many as you like, pair a computer to any of them, and rehearse the whole setup before you pay. What a licence adds on top is in the [Feature Comparison](../pricing/feature-comparison.md).
 
 ## Payment for Licences
 
 Licences are paid at checkout by card or, in Indonesia, by local methods such as QRIS. Yearly Pix Pro renews yearly, monthly Pix Pro renews monthly on the same date, and Day Passes never renew.
 
-:::tip Keep a spare in the pool
-If you run pop-ups, buying an extra Day Pass into the **License Pool** ahead of time means the new booth is live the moment you pair it.
+:::tip Keep a spare pass
+If you run pop-ups, buying an extra Day Pass ahead of time means the new computer is live the moment you pair it: **Use a pass**, and the watermark is gone.
 :::

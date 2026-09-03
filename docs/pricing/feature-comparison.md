@@ -7,17 +7,17 @@ tags: [pricing, comparison, features]
 
 # Feature Comparison
 
-All plans are per booth. A booth on Day Pass has the same features as a booth on Pix Pro, for 24 hours.
+Every paid plan licenses one computer. A computer on a Day Pass has the same features as one on Pix Pro, for 24 hours. Booths are free profiles on every plan: create as many as you like and pair any computer to any of them.
 
 | Feature | Starter (free) | Day Pass (from $5 / Rp 85.000) | Pix Pro ($40/mo, or $25/mo yearly) |
 |---|---|---|---|
-| **Booths** | 1 per organization | 1 per pass | 1 per licence |
+| **Licensed computers** | None: every computer is watermarked | 1 per pass, for 24 hours | 1 per licence |
 | **Templates** | 2 | Unlimited | Unlimited |
 | **Template Editor** | Up to 2 templates | Yes | Yes |
 | **UI Editor** (kiosk screen design) | Standard design only | Yes | Yes |
-| **Printing** | Yes | Yes | Yes |
-| **Soft files** (singles, GIF, Live Photo) | Yes, with Pix watermark | Yes, clean | Yes, clean |
-| **QR microsite** | Yes, with Pix watermark | Yes, branded | Yes, branded |
+| **Printing** | Yes, with the Pixture watermark | Yes, clean | Yes, clean |
+| **Soft files** (singles, GIF, Live Photo) | Yes, with the Pixture watermark | Yes, clean | Yes, clean |
+| **QR microsite** | Yes, with the Pixture watermark | Yes, branded | Yes, branded |
 | **Photo filters** | Built-in | Built-in and custom .cube | Built-in and custom .cube |
 | **Payment gateway** (QRIS via DOKU) | -- | Yes | Yes |
 | **Hardware payments** (coins, cards, F13) | -- | Yes | Yes |
@@ -35,8 +35,8 @@ All plans are per booth. A booth on Day Pass has the same features as a booth on
 
 ## Notes
 
-- **Watermark**: Starter soft files and microsites show a small Pix logo. Buying a Day Pass or Pix Pro for the booth removes it from that booth's new photo sessions.
-- **Custom kiosk designs**: on Starter you can open the UI Editor and build one project, but only a booth with a Day Pass or Pix Pro licence can run it.
+- **Watermark**: every photo and print from an unlicensed computer carries the Pixture watermark, and so does its microsite. It stops on the photo sessions that computer runs after you put a pass or Pix Pro on it.
+- **Custom kiosk designs**: on Starter you can open the UI Editor and build one project, but only a licensed computer can run it.
 - **Payment gateway**: Pix takes 0% of your photo session revenue; DOKU's own fees apply.
 
 Prices and packs are on [Plans & Pricing](./plans.md).
