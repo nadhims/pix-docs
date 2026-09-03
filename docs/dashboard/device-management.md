@@ -16,11 +16,21 @@ A **device** is the computer running the Pix Desktop App. Each device is paired 
 3. On the kiosk computer, open the Pix Desktop App. The pairing screen is the first thing you see on a fresh install. You do not have to pair straight away: tap **Try it without an account** to shoot on a built-in frame, watermarked, and pair the computer later.
 4. Type the 6-digit code. The device downloads that booth's templates, kiosk design, filters, and pricing and goes straight to the start screen.
 
+:::note Pairing when every licence is in use
+The computer still pairs, so a licence or a pass can land on it, but it is blocked until one does. The kiosk says so: "All N licences are in use. Release a computer on the Devices page or buy another licence." The operator menu offers **Use a pass**, **Use Pix Pro licence**, **Move a licence here**, and **Buy** right there at the venue.
+:::
+
 No account password is ever typed on the kiosk, so nothing sensitive is left on a machine in a public place.
 
-## Licensed or Watermarked
+## Licensed, Watermarked, or Blocked
 
-A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. A paired computer with no licence still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event. When the kiosk starts watermarked and you have a pass, the trial, or a licence on another computer to offer, the start screen says so once and points to the operator menu, where **Use a pass on this device** puts one of your unused passes on it.
+A licence lives on the computer running the Pix Desktop App, and your account follows your licences. While you hold none the account is **Pix Starter**: every paired computer still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event.
+
+The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences is **blocked**: it stays paired, but it cannot start a session until you release another computer on the Devices page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
+
+When the kiosk starts without a licence and you have a pass, the trial, or a licence on another computer to offer, the start screen says so once and points to the operator menu, where **Use a pass on this device** puts one of your unused passes on it.
+
+Event station computers are the exception: they are never blocked. Outside a live event they run watermarked so you can set them up, and the event licenses them when it goes live. See [Events](./events.md).
 
 ## Renaming or Unlinking
 
@@ -37,7 +47,7 @@ Generate a new code from the booth's **Device** tab and pair the new machine. Th
 
 ## Offline Grants
 
-A paired computer keeps working without internet: it holds a signed offline grant for its licence, so it can start photo sessions, print, and queue uploads until it reconnects. The grant carries the licence's end time. When a pass runs out, the computer goes watermarked at that moment, online or not. See [Offline Mode](../desktop-app/offline-mode.md).
+A paired computer keeps working without internet: it holds a signed offline grant for its licence, so it can start photo sessions, print, and queue uploads until it reconnects. The grant carries the licence's end time. If the licence ends while the computer has lost its connection, the computer runs watermarked rather than blocked, with the note "Licence ended, reconnect to check", until it reaches the server again. A booth is never stopped by the kiosk's own clock. See [Offline Mode](../desktop-app/offline-mode.md).
 
 :::caution One computer to a booth
 Two computers cannot be paired to the same booth at the same time. Pairing a second computer unlinks the first; the licence stays on the computer that holds it.

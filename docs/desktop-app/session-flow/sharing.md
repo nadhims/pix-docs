@@ -22,7 +22,7 @@ The QR leads to a branded page (see [Marketing Studio > Microsite](../../dashboa
 ## Plans
 
 - A **licensed** computer, on Pix Pro or a Day Pass, delivers clean soft files.
-- A **watermarked** computer delivers the same soft files with the Pixture watermark.
+- A computer on a **Starter** account, with no licence anywhere on it, delivers the same soft files with the Pixture watermark.
 
 ## Screen Timeout
 

@@ -27,7 +27,7 @@ From the Pix Dashboard you can:
 - **Dashboard tab** -- View photo session counts and revenue at a glance
 - **Booths tab** -- Create and configure booths, assign templates
 - **Gallery tab** -- Browse captured photos across all booths
-- **Devices** -- every computer you have paired, licensed or watermarked, plus the passes you have not used yet
+- **Devices** -- every computer you have paired, licensed, watermarked, or blocked, plus the passes you have not used yet
 
 ## Next Step
 
