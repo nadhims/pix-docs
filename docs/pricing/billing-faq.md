@@ -13,11 +13,11 @@ Per computer. One Pix Pro subscription or one Day Pass licenses exactly one comp
 
 ## Where do I manage plans?
 
-**Devices** in the dashboard (the old Licenses page). Each computer shows whether it is licensed or watermarked, with **Use a pass**, **Move a licence here**, **Cancel** and **Release**. Passes you have bought but not used are counted at the top.
+**Devices** in the dashboard (the old Licenses page). Each computer shows whether it is licensed or watermarked, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Move a licence here**, **Release** and **Cancel**. Passes you have bought but not used are counted at the top.
 
 ## Can I move a licence to another computer?
 
-Yes, from **Devices > Move a licence here** on the computer that should get it. The licence moves immediately and the computer it left becomes watermarked. Day Passes cannot be moved once they are running.
+Yes, from **Devices > Move a licence here** on the computer that should get it, or from that computer's own operator menu on the kiosk. The licence moves immediately and the computer it left becomes watermarked. Day Passes cannot be moved once they are running.
 
 ## What happens when I cancel?
 
@@ -25,7 +25,7 @@ The computer keeps Pix Pro until the end of the period it has paid for, then bec
 
 ## My computer says Watermarked. What now?
 
-Put a pass or Pix Pro on it from **Devices**, or open the kiosk's admin menu and tap **Use a pass**.
+Put a pass or Pix Pro on it from **Devices**, or open the kiosk's operator menu and tap **Use a pass**.
 
 ## When am I billed?
 
@@ -37,7 +37,7 @@ Cards worldwide, and in Indonesia local methods such as QRIS at checkout. Licenc
 
 ## Is there a free trial?
 
-Yes. Every organization can claim **one free 3-day Pix Pro trial** on one computer from **Devices**, no card required. After three days that computer becomes watermarked again unless you buy a licence.
+Yes. Every organization can claim **one free 3-day Pix Pro trial** on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. After three days that computer becomes watermarked again unless you buy a licence.
 
 ## Do you charge a percentage of my photo session sales?
 

@@ -35,6 +35,7 @@ Every paid plan licenses one computer. A computer on a Day Pass has the same fea
 
 ## Notes
 
+- **Templates**: The two-template limit is per organization while you hold no licence at all. It lifts the moment you own any licence or unspent pass, on every computer.
 - **Watermark**: every photo and print from an unlicensed computer carries the Pixture watermark, and so does its microsite. It stops on the photo sessions that computer runs after you put a pass or Pix Pro on it.
 - **Custom kiosk designs**: on Starter you can open the UI Editor and build one project, but only a licensed computer can run it.
 - **Payment gateway**: Pix takes 0% of your photo session revenue; DOKU's own fees apply.

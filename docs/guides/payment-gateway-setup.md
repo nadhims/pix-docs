@@ -15,7 +15,7 @@ If you prefer cash or card hardware instead of (or as well as) QRIS, see [Hardwa
 
 The **Settings > Payment Gateway** picker also offers **Midtrans** and **Xendit** (Indonesia: QRIS, e-wallets, cards) and **Stripe** for operators outside Indonesia: card payments, plus physical tap-to-pay card readers via **Stripe Terminal** (readers are assigned to a booth in Settings).
 
-QRIS is Indonesia's national QR payment standard and only exists there. For operators outside Indonesia, describe scan-to-pay generically as **"QR code payment"** — whether it is available depends on the payment methods enabled on the Stripe account.
+QRIS is Indonesia's national QR payment standard and only exists there. For operators outside Indonesia, describe scan-to-pay generically as **"QR code payment"**: whether it is available depends on the payment methods enabled on the Stripe account.
 
 ## Step 1: Get a DOKU Account
 

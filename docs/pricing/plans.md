@@ -15,7 +15,7 @@ Prices below are the list prices. The [pricing page](https://pixture.io/#home-pr
 
 Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events.
 
-No account is needed to try it: install the app, choose one of the built-in frames and shoot. Create a free account to design your own frames and kiosk screens in the dashboard; they run on any computer you pair, watermarked until you put a pass or Pix Pro on it.
+No account is needed to try it: install the app, on the pairing screen tap **Try it without an account**, then choose one of the built-in frames and shoot. Create a free account to design your own frames and kiosk screens in the dashboard; they run on any computer you pair, watermarked until you put a pass or Pix Pro on it.
 
 ## Day Pass -- from $5 (Rp 85.000)
 
@@ -26,8 +26,9 @@ Pix Pro features on one computer for **24 hours**. Sold in packs:
 | **Solo** | 1 | $5 | Rp 85.000 |
 | **Duo Pack** | 2 | $8 | Rp 135.000 |
 | **Event Pack** | 4 | $14 | Rp 250.000 |
+| **Festival Pack** | 8 | $24 | Rp 400.000 |
 
-Day Passes never renew. Buy them into your pool ahead of time and use them on the day from the kiosk's admin menu or the Devices page. Rp 85.000 per computer per event day. Pay when you have a job.
+Rp 85.000 per computer per event day. Pay when you have a job. Day Passes never renew: buy them into your pool ahead of time and use them on the day, from the kiosk's operator menu or the Devices page.
 
 :::tip When to use a Day Pass
 Weekend markets, weddings, brand activations, and school events. If a computer runs more than about eight days a month, Pix Pro Monthly is cheaper.
@@ -55,7 +56,7 @@ Buying several Pix Pro licences at once gives a volume discount, shown in the ch
 
 ## Free 3-Day Trial
 
-Every organization can claim one free 3-day Pix Pro trial on one computer from the Devices page, no card required. See [Choose Your Plan](../getting-started/choose-plan.md).
+Every organization can claim one free 3-day Pix Pro trial on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. See [Choose Your Plan](../getting-started/choose-plan.md).
 
 ## Pix AI
 
