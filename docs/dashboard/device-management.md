@@ -43,7 +43,7 @@ Unlink a device before you sell, repurpose, or send a computer for repair.
 
 ## Replacing a Computer
 
-Generate a new code from the booth's **Device** tab and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Then open the Licenses page, choose **Move a licence here** on the new computer, and pick the old one. Unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, release the old entry.
+Open the Licenses page and **Release** the old computer first: while it still holds the licence, a new machine cannot get a pairing code if that was your last free slot. Then open the dead booth's **Device** tab, **Generate code**, and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing, and it picks up the freed licence automatically at its first check-in. Unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, release the old entry.
 
 ## Offline Grants
 
