@@ -13,15 +13,15 @@ Per computer. One Pix Pro subscription or one Day Pass licenses exactly one comp
 
 ## How many computers can run at once?
 
-As many as you have licences. While your account holds no licence it is **Pix Starter**, and every computer you pair runs with the Pixture watermark. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences stays paired but cannot start a session until it gets one. A Pix Pro account never has a watermarked computer.
+As many as you have licences. While your account holds no licence it is **Pix Starter**, and every computer you pair runs with the Pixture watermark. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer already paired stays paired if it falls past your licences, and cannot start a session until it gets one; but once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another. A Pix Pro account never has a watermarked computer.
 
 ## Where do I manage plans?
 
-**Licenses** in the dashboard. Each computer shows whether it is **licensed**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Move a licence here**, **Release** and **Cancel**. The top of the page counts your licence slots, how many are in use, and the passes you have bought but not used.
+**Licenses** in the dashboard. Each computer shows whether it is **licensed**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Release** and **Cancel**. The top of the page counts your licence slots, how many are in use, and the passes you have bought but not used.
 
 ## Can I move a licence to another computer?
 
-Yes, from **Licenses > Move a licence here** on the computer that should get it, or from that computer's own operator menu on the kiosk. The licence moves immediately. The computer it left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
+Yes, from that computer's own operator menu on the kiosk, or by releasing it from the Licenses page: the licence goes back to the pool and the next computer that checks in with none claims it automatically. The computer it left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
 
 ## What happens when I cancel?
 
@@ -33,7 +33,7 @@ Your account holds no licence, so every computer runs with the Pixture watermark
 
 ## My computer says Blocked. What now?
 
-Every licence you own is already on another computer. Release one on the **Licenses** page and move it here, use a pass on this computer, or buy another licence. The computer stays paired the whole time, so it runs the moment a licence lands on it.
+Every licence you own is already on another computer. Release one on the **Licenses** page: this computer picks it up automatically on its next check-in, a few seconds when it is online. Or use a pass on it, or buy another licence. The computer stays paired the whole time, so it runs the moment a licence lands on it.
 
 ## Am I warned before a licence ends?
 

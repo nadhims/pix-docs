@@ -21,7 +21,7 @@ The **Pix Dashboard** is a web app at `pixture.io/dashboard`. Nothing to install
 | **Marketing Studio** | Audience, bonus sessions, campaigns, content, Frame Lab, microsite branding, and performance |
 | **Gallery** | Browse, download, and delete photo session outputs |
 | **Health** | Live booth status, camera and printer state, upload queue, and error records |
-| **Licenses** | Every computer you have paired, licensed, watermarked, or blocked, with your licence slots counted at the top: buy, use a pass, use a Pix Pro licence, move a licence here, release, and cancel |
+| **Licenses** | Every computer you have paired, licensed, watermarked, or blocked, with your licence slots counted at the top: buy, use a pass, use a Pix Pro licence, release, and cancel |
 | **Pix Design** | Template Editor, UI Editor (kiosk screen designer), Photo Filters, GIF/Video overlay, and Pix AI (beta) |
 | **Help** | Chat with Lucy, the in-dashboard assistant, or open these docs |
 | **Settings** | Organization, preferences and language, members and activity, payment gateway, profile, security, and data |

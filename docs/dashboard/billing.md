@@ -24,11 +24,10 @@ The actions on a computer:
 | **Buy** | Buy Pix Pro or a Day Pass pack for this computer, and complete checkout |
 | **Use a pass** | Put one of your unused passes on it for 24 hours |
 | **Use Pix Pro licence** | Put a Pix Pro licence you already own on it |
-| **Move a licence here** | Take a licence off another computer and put it on this one |
 | **Release** | Take the licence off so another computer can use it; this one is blocked until it gets a licence, or watermarked once your account holds none |
 | **Cancel** | Stop renewal on a Pix Pro subscription paid by card |
 
-A licence moves immediately, and the kiosk picks it up on its next check-in, a few seconds when it is online. The computer the licence left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
+To move a licence to a different computer, use that computer's own operator menu on the kiosk, or **Release** it here: the licence goes back to the pool, and the next computer that checks in with none claims it automatically. The computer the licence left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
 
 **Watermarked** and **blocked** are not the same thing. While your account holds no licence at all, every computer runs with the Pixture watermark. Once one licence is active, a computer past your licences is blocked instead: it stays paired, but it cannot start a session until you release another computer, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
 
