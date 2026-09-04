@@ -39,11 +39,11 @@ A capture mode that takes a rapid burst of frames and assembles them into an ani
 
 ### License
 
-A plan held by one computer running the Pix Desktop App: Pix Pro, or a pass for 24 hours. A licence lives on the computer. Move it between computers from the Devices page; the computer it leaves is blocked until it gets a licence of its own, and runs watermarked once your account holds none.
+A plan held by one computer running the Pix Desktop App: Pix Pro, or a pass for 24 hours. A licence lives on the computer. Move it between computers from the Licenses page; the computer it leaves is blocked until it gets a licence of its own, and runs watermarked once your account holds none.
 
 ### Licence slots
 
-One per active licence; the Devices page shows how many are in use.
+One per active licence; the Licenses page shows how many are in use.
 
 ### Live Photo
 
@@ -96,7 +96,7 @@ Customers design and pay for their own frame from a link or QR before their phot
 A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled on each booth in Marketing Studio.
 
 ### Unused passes and licences
-The licences and passes you own that are not on a computer yet. The Devices page counts them at the top; put one on a computer with **Use a pass** or **Use Pix Pro licence**.
+The licences and passes you own that are not on a computer yet. The Licenses page counts them at the top; put one on a computer with **Use a pass** or **Use Pix Pro licence**.
 
 ### Licensed device
 A computer with a pass or Pix Pro active on it. Its photos, prints, and microsites are clean, and it can run your custom kiosk designs.
@@ -105,7 +105,7 @@ A computer with a pass or Pix Pro active on it. Its photos, prints, and microsit
 A computer on an account that holds no licence at all. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until a pass or Pix Pro is active on it.
 
 ### Pass
-A 24 hour Pix Pro licence for one computer, activated from the kiosk's operator menu or the Devices page.
+A 24 hour Pix Pro licence for one computer, activated from the kiosk's operator menu or the Licenses page.
 
 ### Pairing Code
 The 6-digit code generated on a booth's Device tab that links a kiosk computer to that booth. Replaces signing in on the kiosk.

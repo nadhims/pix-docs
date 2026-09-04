@@ -22,7 +22,7 @@ Full detail on [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](.
 
 ## One Licence, One Computer
 
-Your account is **Pix Starter** while it holds no licence: every computer you pair runs, watermarked. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Devices page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
+Your account is **Pix Starter** while it holds no licence: every computer you pair runs, watermarked. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
 
 ## Try Pix Pro First
 
@@ -30,11 +30,13 @@ Claim the **free 3-day Pix Pro trial** from the trial card in the dashboard (the
 
 ## Licensing a Computer
 
-1. Open **Devices**.
+A computer with no licence claims a free one from your pool automatically, the next time it checks in. If you do not have a spare:
+
+1. Open **Licenses**.
 2. Click **Buy** on the computer, or buy passes ahead of time and put one on it later with **Use a pass**.
 3. Complete checkout by card or, in Indonesia, QRIS.
 
-The kiosk picks up the licence on its next check-in.
+Either way, the kiosk picks up the licence on its next check-in.
 
 ## Which One?
 

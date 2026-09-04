@@ -19,7 +19,7 @@ An **event** is a temporary setup that gets its own pricing, its own kiosk desig
 
 ## Station Booths and Licences
 
-Add a **station** for each kiosk that will run at the event. The event goes live when every assigned booth's computer is licensed. Keep an unused pass for any that are not, and put it on the computer from [Devices](./billing.md), or from the kiosk's operator menu on the day.
+Add a **station** for each kiosk that will run at the event. The event goes live when every assigned booth's computer is licensed. Keep an unused pass for any that are not, and put it on the computer from [Licenses](./billing.md), or from the kiosk's operator menu on the day.
 
 Pair each station's computer with a 6-digit code from the station, exactly like a booth.
 
@@ -36,5 +36,5 @@ Every event gets a public album at `pixture.io/album/<slug>` showing the photo s
 Activate the event when the day starts and complete it when it ends. Only photo sessions captured between those two moments are tagged to the event and appear in its album and revenue.
 
 :::info One pool for booths and events
-There is one set of licences and passes, on the Devices page. A computer that is already licensed is ready for the event; keep an unused pass for each of the other station computers. Station computers are never blocked: outside a live event they run watermarked so you can set them up, and the event licenses them when it goes live.
+There is one set of licences and passes, on the Licenses page. A computer that is already licensed is ready for the event; keep an unused pass for each of the other station computers. Station computers are never blocked: outside a live event they run watermarked so you can set them up, and the event licenses them when it goes live.
 :::

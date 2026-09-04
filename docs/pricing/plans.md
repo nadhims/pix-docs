@@ -7,9 +7,9 @@ tags: [pricing, plans, starter, day-pass, pix-pro]
 
 # Plans & Pricing
 
-Every paid plan licenses **one computer** running the Pix Desktop App. A licence is not tied to a booth: pair the computer to whichever booth it is running today, and move the licence between computers from the Devices page.
+Every paid plan licenses **one computer** running the Pix Desktop App. A licence is not tied to a booth: pair the computer to whichever booth it is running today, and move the licence between computers from the Licenses page.
 
-Your account is **Pix Starter** while it holds no licence and **Pix Pro** the moment one is active, whether that is a Pix Pro subscription, a running Day Pass, or the free trial. A Pix Pro account has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Devices page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
+Your account is **Pix Starter** while it holds no licence and **Pix Pro** the moment one is active, whether that is a Pix Pro subscription, a running Day Pass, or the free trial. A Pix Pro account has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
 
 Prices below are the list prices. The [pricing page](https://pixture.io/#home-pricing) shows any promotion currently running, and IDR prices are set in rupiah rather than converted.
 
@@ -30,7 +30,7 @@ Pix Pro features on one computer for **24 hours**. Sold in packs:
 | **Event Pack** | 4 | $14 | Rp 250.000 |
 | **Festival Pack** | 8 | $24 | Rp 400.000 |
 
-Rp 85.000 per computer per event day. Pay when you have a job. Day Passes never renew: buy them into your pool ahead of time and use them on the day, from the kiosk's operator menu or the Devices page. A running pass is a licence like any other: for those 24 hours your account is Pix Pro with that one slot, so a second paired computer needs a licence of its own.
+Rp 85.000 per computer per event day. Pay when you have a job. Day Passes never renew: buy them into your pool ahead of time and use them on the day, from the kiosk's operator menu or the Licenses page. A running pass is a licence like any other: for those 24 hours your account is Pix Pro with that one slot, so a second paired computer needs a licence of its own.
 
 :::tip When to use a Day Pass
 Weekend markets, weddings, brand activations, and school events. If a computer runs more than about eight days a month, Pix Pro Monthly is cheaper.
