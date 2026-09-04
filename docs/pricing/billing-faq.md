@@ -17,11 +17,11 @@ As many as you have licences. While your account holds no licence it is **Pix St
 
 ## Where do I manage plans?
 
-**Devices** in the dashboard (the old Licenses page). Each computer shows whether it is **licensed**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Move a licence here**, **Release** and **Cancel**. The top of the page counts your licence slots, how many are in use, and the passes you have bought but not used.
+**Licenses** in the dashboard. Each computer shows whether it is **licensed**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Move a licence here**, **Release** and **Cancel**. The top of the page counts your licence slots, how many are in use, and the passes you have bought but not used.
 
 ## Can I move a licence to another computer?
 
-Yes, from **Devices > Move a licence here** on the computer that should get it, or from that computer's own operator menu on the kiosk. The licence moves immediately. The computer it left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
+Yes, from **Licenses > Move a licence here** on the computer that should get it, or from that computer's own operator menu on the kiosk. The licence moves immediately. The computer it left is blocked until it gets a licence of its own, and runs watermarked once your account holds no licence at all. Day Passes cannot be moved once they are running.
 
 ## What happens when I cancel?
 
@@ -29,15 +29,15 @@ The computer keeps Pix Pro until the end of the period it has paid for. After th
 
 ## My computer says Watermarked. What now?
 
-Your account holds no licence, so every computer runs with the Pixture watermark. Put a pass or Pix Pro on this one from **Devices**, or open the kiosk's operator menu and tap **Use a pass**.
+Your account holds no licence, so every computer runs with the Pixture watermark. Put a pass or Pix Pro on this one from **Licenses**, or open the kiosk's operator menu and tap **Use a pass**.
 
 ## My computer says Blocked. What now?
 
-Every licence you own is already on another computer. Release one on the **Devices** page and move it here, use a pass on this computer, or buy another licence. The computer stays paired the whole time, so it runs the moment a licence lands on it.
+Every licence you own is already on another computer. Release one on the **Licenses** page and move it here, use a pass on this computer, or buy another licence. The computer stays paired the whole time, so it runs the moment a licence lands on it.
 
 ## Am I warned before a licence ends?
 
-Yes. A Day Pass warns on the kiosk 60 and 15 minutes before it ends, a subscription that will not renew warns 7 days and 1 day ahead by email and on the Devices page, and a failed payment warns at once and leaves the computer running for three more days. The full table is in [Licenses & Billing](../dashboard/billing.md).
+Yes. A Day Pass warns on the kiosk 60 and 15 minutes before it ends, a subscription that will not renew warns 7 days and 1 day ahead by email and on the Licenses page, and a failed payment warns at once and leaves the computer running for three more days. The full table is in [Licenses & Billing](../dashboard/billing.md).
 
 ## When am I billed?
 

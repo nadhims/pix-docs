@@ -1,19 +1,21 @@
 ---
 sidebar_position: 9
 title: Licenses & Billing
-description: How device licences work in Pix -- the Devices page, licensing a computer, moving a licence, cancelling, and the free trial.
+description: How device licences work in Pix -- the Licenses page, licensing a computer, moving a licence, cancelling, and the free trial.
 tags: [dashboard, licenses, billing, subscription]
 ---
 
 # Licenses & Billing
 
-A licence lives on the computer running the Pix Desktop App. Move it between computers from the Devices page. That page (the old **Licenses** page) lists every computer you have paired, plus the licences and passes you have not put on one yet.
+A licence lives on the computer running the Pix Desktop App. A computer with no licence claims a free one from your pool automatically the next time it checks in, so most computers licence themselves the moment you have one to spare. The Licenses page lists every computer you have paired, plus the licences and passes you have not put on one yet.
 
 Your account is **Pix Starter** while it holds no licence and **Pix Pro** while at least one is active. A Pix Pro account has one slot per licence, counted at the top of the page.
 
-## The Devices Page
+## The Licenses Page
 
 Each computer shows its name, the booth it is paired to, and whether it is **licensed**, **watermarked**, or **blocked**. A licensed one also shows when its period ends. The top of the page counts your licence slots, how many are in use, and the passes you have not put on a computer yet.
+
+Click a computer's row to open its details and, if it has no licence, the actions to put one on it by hand. Hand-placing is mostly for a computer with no booth: without a booth it never checks in, so it can never claim a spare licence on its own.
 
 The actions on a computer:
 
@@ -46,9 +48,9 @@ A computer never goes from running clean to stopped without notice.
 
 | Licence | Where | When |
 |---|---|---|
-| Day Pass | Kiosk badge "Pass ends at 18:30"; operator notice on the idle Home screen (never during a session) with "Use another pass" when one is in the pool; Devices row countdown | 60 min, 15 min |
-| Subscription that will not renew (cancelled, or a QRIS purchase) | Email, Devices banner, kiosk badge "Pix Pro ends Sep 30" | 7 days, 1 day |
-| Renewing subscription whose payment failed | Email and Devices banner at once; the computer keeps running for a 3-day grace, then blocked | at once, then daily |
+| Day Pass | Kiosk badge "Pass ends at 18:30"; operator notice on the idle Home screen (never during a session) with "Use another pass" when one is in the pool; Licenses row countdown | 60 min, 15 min |
+| Subscription that will not renew (cancelled, or a QRIS purchase) | Email, Licenses banner, kiosk badge "Pix Pro ends Sep 30" | 7 days, 1 day |
+| Renewing subscription whose payment failed | Email and Licenses banner at once; the computer keeps running for a 3-day grace, then blocked | at once, then daily |
 
 After the grace, the computer is blocked while your account still holds another licence, and watermarked once no licence is left.
 

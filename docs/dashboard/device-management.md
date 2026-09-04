@@ -14,10 +14,10 @@ A **device** is the computer running the Pix Desktop App. Each device is paired 
 1. In the dashboard, open **Booths** and select the booth.
 2. Open the **Device** tab and click **Generate code**. A 6-digit code appears; it is valid for a short time.
 3. On the kiosk computer, open the Pix Desktop App. The pairing screen is the first thing you see on a fresh install. You do not have to pair straight away: tap **Try it without an account** to shoot on a built-in frame, watermarked, and pair the computer later.
-4. Type the 6-digit code. The device downloads that booth's templates, kiosk design, filters, and pricing and goes straight to the start screen.
+4. Type the 6-digit code. The device downloads that booth's templates, kiosk design, filters, and pricing and goes straight to the start screen. If your account has a spare licence or pass, the computer claims it automatically at this first check-in; with nothing to spare it starts watermarked instead.
 
-:::note Pairing when every licence is in use
-The computer still pairs, so a licence or a pass can land on it, but it is blocked until one does. The kiosk says so: "All N licences are in use. Release a computer on the Devices page or buy another licence." The operator menu can fix it at the venue: **Use a Day Pass**, **Use a Pix Pro licence**, **Move the licence from another computer**, or the free 3-day trial. Buying is on the Devices page of the dashboard.
+:::note When every licence is already in use
+**Generate code** will not issue one: the dashboard says every licence is in use and offers to buy another or release one from another computer. Free up a licence, then generate the code and pair as usual.
 :::
 
 No account password is ever typed on the kiosk, so nothing sensitive is left on a machine in a public place.
@@ -26,7 +26,7 @@ No account password is ever typed on the kiosk, so nothing sensitive is left on 
 
 A licence lives on the computer running the Pix Desktop App, and your account follows your licences. While you hold none the account is **Pix Starter**: every paired computer still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event.
 
-The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences is **blocked**: it stays paired, but it cannot start a session until you release another computer on the Devices page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
+The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences is **blocked**: it stays paired, but it cannot start a session until you release another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
 
 When the kiosk starts watermarked and you have a pass, the trial, or a licence on another computer to offer, the start screen says so once and points to the operator menu, where **Use a Day Pass** puts one of your unused passes on it. A blocked computer says so every time it returns to the start screen, since nothing can start until a licence lands on it.
 
@@ -43,7 +43,7 @@ Unlink a device before you sell, repurpose, or send a computer for repair.
 
 ## Replacing a Computer
 
-Generate a new code from the booth's **Device** tab and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Then open the Devices page, choose **Move a licence here** on the new computer, and pick the old one. Unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, release the old entry.
+Generate a new code from the booth's **Device** tab and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Then open the Licenses page, choose **Move a licence here** on the new computer, and pick the old one. Unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, release the old entry.
 
 ## Offline Grants
 
