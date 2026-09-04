@@ -13,7 +13,7 @@ Per computer. One Pix Pro subscription or one Day Pass licenses exactly one comp
 
 ## How many computers can run at once?
 
-As many as you have licences. While your account holds no licence it is **Pix Starter**, and every computer you pair runs with the Pixture watermark. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer already paired stays paired if it falls past your licences, and cannot start a session until it gets one; but once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another. A Pix Pro account never has a watermarked computer.
+As many as you have licences. While your account holds no licence it is **Pix Starter**, and every computer you pair runs with the Pixture watermark. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer already paired stays paired if it falls past your licences, and cannot start a session until it gets one; but once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
 
 ## Where do I manage plans?
 
