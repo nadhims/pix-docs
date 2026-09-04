@@ -17,7 +17,7 @@ A **device** is the computer running the Pix Desktop App. Each device is paired 
 4. Type the 6-digit code. The device downloads that booth's templates, kiosk design, filters, and pricing and goes straight to the start screen. If your account has a spare licence or pass, the computer claims it automatically at this first check-in; with nothing to spare it starts watermarked instead.
 
 :::note When every licence is already in use
-**Generate code** will not issue one: the dashboard says every licence is in use and offers to buy another or release one from another computer. Free up a licence, then generate the code and pair as usual.
+**Generate code** will not issue one: the dashboard says every licence is in use and offers to buy another or release one from another computer. Free up a licence, then generate the code and pair as usual. If you're holding an unspent pass, it pairs anyway and waits, blocked, until you put the pass on it.
 :::
 
 No account password is ever typed on the kiosk, so nothing sensitive is left on a machine in a public place.

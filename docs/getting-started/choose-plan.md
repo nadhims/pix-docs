@@ -22,7 +22,7 @@ Full detail on [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](.
 
 ## One Licence, One Computer
 
-Your account is **Pix Starter** while it holds no licence: every computer you pair runs, watermarked. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. Once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another. A Pix Pro account never has a watermarked computer.
+Your account is **Pix Starter** while it holds no licence: every computer you pair runs, watermarked. The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences stays paired but cannot start a session until you release another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. Once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
 
 ## Try Pix Pro First
 
