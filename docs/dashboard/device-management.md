@@ -17,7 +17,7 @@ A **device** is the computer running the Pix Desktop App. Each device is paired 
 4. Type the 6-digit code. The device downloads that booth's templates, kiosk design, filters, and pricing and goes straight to the start screen. If your account has a spare licence or pass, the computer claims it automatically at this first check-in; with nothing to spare it starts watermarked instead.
 
 :::note When every licence is already in use
-**Generate code** will not issue one: the dashboard says every licence is in use and offers to buy another or release one from another computer. Free up a licence, then generate the code and pair as usual. If you're holding an unspent pass, it pairs anyway and waits, blocked, until you put the pass on it.
+**Generate code** will not issue one: the dashboard says every licence is in use and offers to buy another or deactivate one on another computer. Free up a licence, then generate the code and pair as usual. If you're holding an unspent pass, it pairs anyway and waits, blocked, until you put the pass on it.
 :::
 
 No account password is ever typed on the kiosk, so nothing sensitive is left on a machine in a public place.
@@ -26,7 +26,7 @@ No account password is ever typed on the kiosk, so nothing sensitive is left on 
 
 A licence lives on the computer running the Pix Desktop App, and your account follows your licences. While you hold none the account is **Pix Starter**: every paired computer still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event.
 
-The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences is **blocked**: it stays paired, but it cannot start a session until you release another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
+The moment one licence is active, a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro** and has one slot per licence. A computer past your licences is **blocked**: it stays paired, but it cannot start a session until you deactivate another computer on the Licenses page, move a licence to it, use a pass on it, or buy another licence. A Pix Pro account never has a watermarked computer.
 
 When the kiosk starts watermarked and you have a pass, the trial, or a licence on another computer to offer, the start screen says so once and points to the operator menu, where **Use a Day Pass** puts one of your unused passes on it. A blocked computer says so every time it returns to the start screen, since nothing can start until a licence lands on it.
 
@@ -43,7 +43,7 @@ Unlink a device before you sell, repurpose, or send a computer for repair.
 
 ## Replacing a Computer
 
-Open the Licenses page and **Release** the old computer first: while it still holds the licence, a new machine cannot get a pairing code if that was your last free slot, unless you're holding an unspent pass, which lets it pair but leaves it blocked until you use one. Then open the dead booth's **Device** tab, **Generate code**, and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing, and it picks up the freed licence automatically at its first check-in. Unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, release the old entry.
+Open the Licenses page and **Deactivate** the old computer first: while it still holds the licence, a new machine cannot get a pairing code if that was your last free slot, unless you're holding an unspent pass, which lets it pair but leaves it blocked until you use one. Then open the dead booth's **Device** tab, **Generate code**, and pair the new machine. The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing, and it picks up the freed licence automatically at its first check-in. Unlink the old device once the new one is running. If a Windows update makes an old computer appear twice, deactivate the old entry.
 
 ## Offline Grants
 
