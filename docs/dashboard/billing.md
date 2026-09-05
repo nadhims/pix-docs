@@ -67,9 +67,9 @@ Every organization can claim **one** free 3-day Pix Pro trial on one computer, n
 
 Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events. Booths are free profiles: create as many as you like, pair a computer to any of them, and rehearse the whole setup before you pay. What an active device adds on top is in the [Feature Comparison](../pricing/feature-comparison.md).
 
-## Payment for Devices
+## Paying for Pix Pro
 
-Devices are paid at checkout by card or, in Indonesia, by local methods such as QRIS. Yearly Pix Pro renews yearly, monthly Pix Pro renews monthly on the same date, and Day Passes never renew.
+Pix Pro is paid at checkout by card or, in Indonesia, by local methods such as QRIS. Yearly Pix Pro renews yearly, monthly Pix Pro renews monthly on the same date, and Day Passes never renew.
 
 :::tip Keep a spare pass
 If you run pop-ups, buying an extra Day Pass ahead of time means the new computer is live the moment you pair it: **Use a pass**, and it starts sessions straight away.
