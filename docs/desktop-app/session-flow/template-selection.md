@@ -55,4 +55,4 @@ Templates are synced from the Pix API. Any changes you make in Pix Design -- add
 - **Starter** (free): up to 2 templates, standard designs only
 - **Day Pass** and **Pix Pro**: Unlimited templates, full Template Editor access
 
-The two-template limit is per organization while you hold no licence at all. It lifts the moment you own any licence or unspent pass, on every computer. Put a pass or Pix Pro on the computer from **Licenses** if you need custom or additional templates.
+The two-template limit is per organization while you have no active device at all. It lifts the moment you own any device or unspent pass, on every computer. Put a pass or Pix Pro on the computer from **Devices** if you need custom or additional templates.

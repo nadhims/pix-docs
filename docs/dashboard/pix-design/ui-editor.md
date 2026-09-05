@@ -37,7 +37,7 @@ Save publishes the design. Paired booths pick up changes on their next check-in,
 
 ## Plans
 
-Every plan can use the UI Editor. On Starter you can open the editor, build one project, and run it on your kiosk, watermarked. The payment screen stays off until the computer is licensed.
+Every plan can use the UI Editor. On Starter you can open the editor, build one project, and run it on your kiosk, watermarked. The payment screen stays off until the computer runs Pix Pro.
 
 :::tip Preview at booth size
 Design at the kiosk's real resolution (most booths are 1920x1080 landscape) and test on the actual screen; touch targets that look fine on a laptop can be small on a 24-inch display.

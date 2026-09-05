@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Pix Dashboard Overview
-description: The Pix Dashboard is the web control centre for your photobooth business -- booths, templates, pricing, licences, sharing, and analytics, from any browser.
+description: The Pix Dashboard is the web control centre for your photobooth business -- booths, templates, pricing, devices, sharing, and analytics, from any browser.
 tags: [dashboard, overview, web]
 ---
 
@@ -21,16 +21,16 @@ The **Pix Dashboard** is a web app at `pixture.io/dashboard`. Nothing to install
 | **Marketing Studio** | Audience, bonus sessions, campaigns, content, Frame Lab, microsite branding, and performance |
 | **Gallery** | Browse, download, and delete photo session outputs |
 | **Health** | Live booth status, camera and printer state, upload queue, and error records |
-| **Licenses** | Every computer you have paired, licensed, watermarked, or blocked, with your licence slots counted at the top: buy, use a pass, use a Pix Pro licence, deactivate, and cancel |
+| **Devices** | Every computer you have paired, whether it's Pix Pro, watermarked, or blocked, with the devices your subscription covers counted at the top: buy, use a pass, activate with Pix Pro, deactivate, and cancel |
 | **Pix Design** | Template Editor, UI Editor (kiosk screen designer), Photo Filters, GIF/Video overlay, and Pix AI (beta) |
 | **Help** | Chat with Lucy, the in-dashboard assistant, or open these docs |
 | **Settings** | Organization, preferences and language, members and activity, payment gateway, profile, security, and data |
 
 The sidebar shows only the sections your role is allowed to see. Owners see everything; members see what their role grants.
 
-## Booths and Licences
+## Booths and Devices
 
-Every kiosk is a **booth**, and booths are free: create as many as you like. Licences are per computer: a Pix Pro subscription or Day Pass covers one computer running the Pix Desktop App, and you move it between computers from **Licenses**. While your account holds no licence it is Pix Starter and every computer still runs the booth, with the Pixture watermark on every photo and print. Once one licence is active the account is Pix Pro, and a computer past your licences is blocked until it gets one. See [Licenses & Billing](./billing.md).
+Every kiosk is a **booth**, and booths are free: create as many as you like. Pix Pro is per computer: a subscription or Day Pass covers one computer running the Pix Desktop App, and you move it between computers from **Devices**. While your account holds no active device it is Pix Starter and every computer still runs the booth, with the Pixture watermark on every photo and print. Once one device is active the account is Pix Pro, and a computer past what your subscription covers is blocked until it gets one. See [Devices & Billing](./billing.md).
 
 ## Pairing a Booth
 
