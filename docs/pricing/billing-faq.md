@@ -9,7 +9,7 @@ tags: [pricing, billing, faq]
 
 ## Is Pix priced per account or per computer?
 
-Per computer. One Pix Pro subscription or one Day Pass activates exactly one computer running the Pix Desktop App. Three computers that all need Pix Pro need three devices. Booths are free: create as many as you like and pair any Pix Pro computer to any of them.
+Per computer. One Pix Pro subscription or one Day Pass activates exactly one computer running the Pix Desktop App. Three computers that all need Pix Pro need a subscription that covers three devices. Booths are free: create as many as you like and pair any Pix Pro computer to any of them.
 
 ## How many computers can run at once?
 
@@ -43,7 +43,7 @@ Yes. A Day Pass warns on the kiosk 60 and 15 minutes before it ends, a subscript
 
 Pix Pro Monthly renews on the same date each month; Pix Pro Yearly renews once a year. Day Passes are one-off and never renew.
 
-## What payment methods can I use for devices?
+## What payment methods can I use?
 
 Cards worldwide, and in Indonesia local methods such as QRIS at checkout. Device payments are separate from the payment gateway your customers use at the kiosk.
 
