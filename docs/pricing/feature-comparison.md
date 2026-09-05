@@ -38,7 +38,7 @@ Every paid plan licenses one computer. A computer on a Day Pass has the same fea
 
 - **Templates**: The two-template limit is per organization while you hold no licence at all. It lifts the moment you own any licence or unspent pass, on every computer.
 - **Watermark**: while your account holds no licence at all, every photo and print carries the Pixture watermark, and so does the microsite. It stops on the photo sessions a computer runs after you put a pass or Pix Pro on it.
-- **Blocked**: once one licence is active the account is Pix Pro, and a computer past your licences stays paired but cannot start a session until you release another computer, move a licence to it, use a pass on it, or buy another licence. Once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+- **Blocked**: once one licence is active the account is Pix Pro, and a computer past your licences stays paired but cannot start a session until you deactivate another computer, move a licence to it, use a pass on it, or buy another licence. Once every licence is in use, a brand new computer cannot pair at all until you free one up or buy another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
 - **Custom kiosk designs**: on Starter you can open the UI Editor, build one project, and run it on your kiosk, watermarked. The payment screen stays off until the computer is licensed.
 - **Payment gateway**: Pix takes 0% of your photo session revenue; DOKU's own fees apply.
 

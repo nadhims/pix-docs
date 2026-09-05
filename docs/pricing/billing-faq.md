@@ -17,7 +17,7 @@ As many as you have licences. While your account holds no licence it is **Pix St
 
 ## Where do I manage plans?
 
-**Licenses** in the dashboard. Each computer shows whether it is **licensed**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Release** and **Cancel**. The top of the page counts your licence slots, how many are in use, and the passes you have bought but not used.
+**Licenses** in the dashboard. Each computer shows whether it is **licensed**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Use Pix Pro licence**, **Deactivate** and **Cancel**. The top of the page counts your licence slots, how many are in use, and the passes you have bought but not used.
 
 ## Can I move a licence to another computer?
 
@@ -33,7 +33,7 @@ Your account holds no licence, so every computer runs with the Pixture watermark
 
 ## My computer says Blocked. What now?
 
-Every licence you own is already on another computer. Release one on the **Licenses** page: this computer picks it up automatically on its next check-in, a few seconds when it is online. Or use a pass on it, or buy another licence. The computer stays paired the whole time, so it runs the moment a licence lands on it.
+Every licence you own is already on another computer. Deactivate one on the **Licenses** page: this computer picks it up automatically on its next check-in, a few seconds when it is online. Or use a pass on it, or buy another licence. The computer stays paired the whole time, so it runs the moment a licence lands on it.
 
 ## Am I warned before a licence ends?
 
