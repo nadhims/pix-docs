@@ -11,7 +11,7 @@ Key terms used in Pix, explained for photobooth operators.
 
 ### Blocked computer
 
-A computer on a Pix Pro account that holds no licence: paired, but it cannot start a session until it gets one.
+A computer on a Pix Pro account that isn't active: paired, but it cannot start a session until you activate it.
 
 ### Booth
 
@@ -37,13 +37,9 @@ A queued upload or task that has failed repeatedly and been moved aside so it do
 
 A capture mode that takes a rapid burst of frames and assembles them into an animated GIF. Customers get a short looping animation instead of a static photo. One of the four soft file types.
 
-### License
+### Device
 
-A plan held by one computer running the Pix Desktop App: Pix Pro, or a pass for 24 hours. A licence lives on the computer. Move it between computers from the Licenses page; the computer it leaves is blocked until it gets a licence of its own, and runs watermarked once your account holds none.
-
-### Licence slots
-
-One per active licence; the Licenses page shows how many are in use.
+A computer or iPad running the Pix Desktop App. A device is active when Pix Pro or a Day Pass is running on it, and your subscription covers a number of devices, counted at the top of the Devices page. Move Pix Pro between devices from the Devices page; the device it leaves is blocked until it gets Pix Pro of its own, and runs watermarked once your account holds no active device.
 
 ### Live Photo
 
@@ -55,7 +51,7 @@ A branded, mobile-friendly web page where customers view and download their phot
 
 ### Offline Resilience
 
-The ability of the Pix Desktop App to continue operating without internet. Photo Sessions, composites, and prints work uninterrupted. An auto-sync upload queue stores files locally and uploads them when connectivity returns. Cryptographic offline grants (RS256-signed tokens) allow the app to verify its license locally during extended outages.
+The ability of the Pix Desktop App to continue operating without internet. Photo Sessions, composites, and prints work uninterrupted. An auto-sync upload queue stores files locally and uploads them when connectivity returns. Cryptographic offline grants (RS256-signed tokens) let the app verify it's still an active device locally during extended outages.
 
 ### Photo Filter
 
@@ -95,17 +91,17 @@ Customers design and pay for their own frame from a link or QR before their phot
 ### Bonus Session
 A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled on each booth in Marketing Studio.
 
-### Unused passes and licences
-The licences and passes you own that are not on a computer yet. The Licenses page counts them at the top; put one on a computer with **Use a pass** or **Use Pix Pro licence**.
+### Unused passes and devices
+The devices and passes you own that are not on a computer yet. The Devices page counts them at the top; put one on a computer with **Use a pass** or **Activate with Pix Pro**.
 
-### Licensed device
+### Active device
 A computer with a pass or Pix Pro active on it. Its photos, prints, and microsites are clean, and it can run your custom kiosk designs.
 
 ### Watermarked device
-A computer on an account that holds no licence at all. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until a pass or Pix Pro is active on it.
+A computer on an account with no active device at all. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until a pass or Pix Pro is active on it.
 
 ### Pass
-A 24 hour Pix Pro licence for one computer, activated from the kiosk's operator menu or the Licenses page.
+A 24 hour period of Pix Pro for one computer, activated from the kiosk's operator menu or the Devices page.
 
 ### Pairing Code
 The 6-digit code generated on a booth's Device tab that links a kiosk computer to that booth. Replaces signing in on the kiosk.
@@ -114,7 +110,7 @@ The 6-digit code generated on a booth's Device tab that links a kiosk computer t
 A display-only Booth Pricing setting (standard, 2 inch cut, triple strip) that tells the payment screen how many pieces a printed sheet becomes.
 
 ### Watermark
-The Pixture mark on every photo, print, and microsite from a computer on an account that holds no licence. It stops appearing on new photo sessions once a pass or Pix Pro is active on that computer.
+The Pixture mark on every photo, print, and microsite from a computer on an account with no active device. It stops appearing on new photo sessions once a pass or Pix Pro is active on that computer.
 
 ### Pix AI
 AI-generated backgrounds and effects for photo sessions, currently in beta. Uses credits; also available on Starter.

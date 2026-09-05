@@ -15,7 +15,7 @@ A **booth** is one kiosk. Create one per physical location or station.
 2. Click **Add Booth**.
 3. Give it a name customers will never see but you will recognise ("Mall Kiosk 1", "Cafe Corner").
 
-Booths are free: create as many as you like. A booth runs Pix Pro features when the computer paired to it is licensed, which you do from [Licenses](./billing.md).
+Booths are free: create as many as you like. A booth runs Pix Pro features once its paired computer is on Pix Pro, which you set from [Devices](./billing.md).
 
 ## The Booth Page
 
@@ -41,8 +41,8 @@ The Booths list and the **Health** page show whether each booth is online, when 
 
 ## Deleting a Booth
 
-Open the booth's **Settings** tab and choose delete. Its photo sessions remain in the Gallery and Transactions. The licence is not affected: it stays on the computer, ready for the next booth you pair it to.
+Open the booth's **Settings** tab and choose delete. Its photo sessions remain in the Gallery and Transactions. Pix Pro is not affected: it stays on the computer, ready for the next booth you pair it to.
 
 :::tip Name booths by place, not by plan
-Licences move between computers; places do not. "Grand Mall L2" ages better than "Pro Booth 1".
+Pix Pro moves between computers; places do not. "Grand Mall L2" ages better than "Pro Booth 1".
 :::
