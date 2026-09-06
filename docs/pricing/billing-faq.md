@@ -13,7 +13,7 @@ Per computer. One Pix Pro subscription or one Day Pass activates exactly one com
 
 ## How many computers can run at once?
 
-As many as your subscription covers. While your account holds no active device it is **Pix Starter**, and every computer you pair runs with the Pixture watermark. The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**. A computer already paired stays paired if it falls past what your subscription covers, and cannot start a session until it gets Pix Pro; but once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+As many as your subscription covers. **Pix Starter** runs on one computer, watermarked: pairing a second is refused at the pairing code, though replacing the computer on a booth that already has one always works. The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**. A computer already paired stays paired if it falls past what your subscription covers, and cannot start a session until it gets Pix Pro; but once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
 
 ## Where do I manage plans?
 
@@ -29,7 +29,7 @@ The computer keeps Pix Pro until the end of the period it has paid for. After th
 
 ## My computer says Watermarked. What now?
 
-Your account has no active device, so every computer runs with the Pixture watermark. Put a pass or Pix Pro on this one from **Devices**, or open the kiosk's operator menu and tap **Use a pass**.
+Your account has no active device, so this is normal: Pix Starter runs one computer, watermarked. Put a pass or Pix Pro on it from **Devices**, or open the kiosk's operator menu and tap **Use a pass**.
 
 ## My computer says Blocked. What now?
 

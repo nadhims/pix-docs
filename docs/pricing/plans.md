@@ -9,7 +9,7 @@ tags: [pricing, plans, starter, day-pass, pix-pro]
 
 Every paid plan activates **one computer** running the Pix Desktop App. A device is not tied to a booth: pair the computer to whichever booth it is running today, and move Pix Pro between computers from the Devices page.
 
-Your account is **Pix Starter** while it has no active device and **Pix Pro** the moment one is active, whether that is a Pix Pro subscription, a running Day Pass, or the free trial. A computer past what your subscription covers stays paired but cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. Once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+Your account is **Pix Starter** while it has no active device and **Pix Pro** the moment one is active, whether that is a Pix Pro subscription, a running Day Pass, or the free trial. Pix Starter runs on **one computer**: pairing a second is refused at the pairing code, though replacing the computer on a booth that already has one always works. Once your account is Pix Pro, a computer past what your subscription covers stays paired but cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. Once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
 
 Prices below are the list prices. The [pricing page](https://pixture.io/#home-pricing) shows any promotion currently running, and IDR prices are set in rupiah rather than converted.
 
@@ -17,7 +17,7 @@ Prices below are the list prices. The [pricing page](https://pixture.io/#home-pr
 
 Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events.
 
-No account is needed to try it: install the app, on the pairing screen tap **Try it without an account**, then choose one of the built-in frames and shoot. Create a free account to design your own frames and kiosk screens in the dashboard; while your account has no active device they run on every computer you pair, watermarked, until you put a pass or Pix Pro on one.
+No account is needed to try it: install the app, on the pairing screen tap **Try it without an account**, then choose one of the built-in frames and shoot. Create a free account to design your own frames and kiosk screens in Pix Design and Marketing Studio: every tool is open to try, though saving needs Pix Pro. Pix Starter pairs **one computer**, watermarked; pairing a second is refused at the pairing code until you put a pass or Pix Pro on one, and replacing the computer on a booth that already has one always works.
 
 ## Day Pass -- from $5 (Rp 85.000)
 

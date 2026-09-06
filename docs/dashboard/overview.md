@@ -30,7 +30,7 @@ The sidebar shows only the sections your role is allowed to see. Owners see ever
 
 ## Booths and Devices
 
-Every kiosk is a **booth**, and booths are free: create as many as you like. Pix Pro is per computer: a subscription or Day Pass covers one computer running the Pix Desktop App, and you move it between computers from **Devices**. While your account holds no active device it is Pix Starter and every computer still runs the booth, with the Pixture watermark on every photo and print. Once one device is active the account is Pix Pro, and a computer past what your subscription covers is blocked until it gets one. See [Devices & Billing](./billing.md).
+Every kiosk is a **booth**, and booths are free: create as many as you like. Pix Pro is per computer: a subscription or Day Pass covers one computer running the Pix Desktop App, and you move it between computers from **Devices**. Pix Starter runs on **one computer**, with the Pixture watermark on every photo and print; pairing a second computer is refused at the pairing code, though replacing the computer on a booth that already has one always works. The free trial, a Day Pass, or a Pix Pro subscription makes the account Pix Pro, and a computer past what your subscription covers is blocked until it gets one. See [Devices & Billing](./billing.md).
 
 ## Pairing a Booth
 

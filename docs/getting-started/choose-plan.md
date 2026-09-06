@@ -7,7 +7,7 @@ tags: [getting-started, plans, pricing]
 
 # Choose Your Plan
 
-You do not have to decide on day one. The app is free to download, and while your account has no active device every computer you pair runs watermarked. Activate a computer when it has a paid job.
+You do not have to decide on day one. The app is free to download: **Pix Starter** runs on one computer, watermarked, with every tool in Pix Design and Marketing Studio open to try (saving needs Pix Pro). Activate a computer when it has a paid job.
 
 ## The Plans
 
@@ -22,7 +22,7 @@ Full detail on [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](.
 
 ## One Device, One Computer
 
-Your account is **Pix Starter** while it has no active device: every computer you pair runs, watermarked. The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**. A computer past what your subscription covers stays paired but cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. Once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+Your account is **Pix Starter** while it has no active device: it runs on **one computer**, watermarked. Pairing a second computer is refused at the pairing code; replacing the computer on a booth that already has one always works. The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**, and pairing then follows your subscription: a computer past what it covers stays paired but cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. Once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
 
 ## Try Pix Pro First
 
