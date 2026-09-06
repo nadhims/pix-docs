@@ -13,7 +13,7 @@ Your account is **Pix Starter** while it has no active device and **Pix Pro** wh
 
 ## The Devices Page
 
-The list shows the computers that are active right now, on Pix Pro or on a pass: the name, the booth it is paired to, its device ID, when it was first and last seen, the app version, and its status. Click a row for its renewal date and the billing actions.
+The list shows the computers that are active right now, on Pix Pro or on a pass: the name, the booth it is paired to, its device ID, when it was first and last seen, the app version, and its status. The arrow beside **Deactivate** opens the renewal date and Manage billing.
 
 The top of the page counts the devices your subscription covers and how many are active. **Add devices** buys more. A computer that is waiting for a place activates itself the next time it checks in, as long as the subscription has room.
 
@@ -22,8 +22,7 @@ The actions on a computer:
 | Action | What it does |
 |---|---|
 | **Deactivate** | Frees this device's place on the subscription for another computer. The computer stays paired and stops running Pix Pro until a place is free again |
-| **Manage billing** | Opens the card subscription that pays for this device |
-| **Cancel** | Stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the paid period |
+| **Manage billing** | Opens the card subscription that pays for this device, where its renewal can also be stopped. A DOKU purchase is prepaid, with nothing to cancel |
 
 To move Pix Pro to a different computer, **Deactivate** the one that has it. The next computer that checks in without Pix Pro claims the free place on its own.
 
