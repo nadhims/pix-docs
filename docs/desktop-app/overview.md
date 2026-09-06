@@ -50,8 +50,8 @@ The app runs as a kiosk-mode Electron window. Under the hood:
 
 The desktop app works with all Pix plans:
 
-- **Starter** (free) -- 1 booth, 2 templates, standard kiosk design, digital sharing with a Pix watermark
-- **Day Pass** -- from $5 (Rp 85.000) per booth per day, in packs of 1, 2, or 4 passes
-- **Pix Pro** -- $40/month or $25/month billed yearly, per booth: unlimited templates, both editors, clean soft files
+- **Starter** (free) -- every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer
+- **Day Pass** -- from $5 (Rp 85.000) per computer per day, in packs of 1, 2, 4, or 8 passes
+- **Pix Pro** -- $40/month or $25/month billed yearly, per device: unlimited templates, both editors, clean photos and prints
 
 See the [Pricing](/docs/pricing/plans) section for full details.

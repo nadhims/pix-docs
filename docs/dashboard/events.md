@@ -17,9 +17,9 @@ An **event** is a temporary setup that gets its own pricing, its own kiosk desig
 4. Pick the **payment gateway** if this event should charge through a different gateway than your booths.
 5. Save. The event starts as a **draft**.
 
-## Station Booths and Licences
+## Station Booths and Devices
 
-Add a **station** for each kiosk that will run at the event. Each station consumes one licence from your [License Pool](./billing.md) while the event is live; the licence returns to the pool when the event completes. You can also transfer a licence off a booth into an event slot.
+Add a **station** for each kiosk that will run at the event. The event goes live when every assigned booth's computer is active. Keep an unused pass for any that are not, and put it on the computer from [Devices](./billing.md), or from the kiosk's operator menu on the day.
 
 Pair each station's computer with a 6-digit code from the station, exactly like a booth.
 
@@ -35,6 +35,6 @@ Every event gets a public album at `pixture.io/album/<slug>` showing the photo s
 
 Activate the event when the day starts and complete it when it ends. Only photo sessions captured between those two moments are tagged to the event and appear in its album and revenue.
 
-:::info Pix Pro does not cover events
-Event stations are licensed from your pool by Day Passes or transferred licences; a booth's Pix Pro subscription stays with that booth.
+:::info One pool for booths and events
+There is one set of devices and passes, on the Devices page. A computer that is already active is ready for the event; keep an unused pass for each of the other station computers. Station computers are never blocked: outside a live event they run watermarked so you can set them up, and the event covers them with a pass when it goes live.
 :::
