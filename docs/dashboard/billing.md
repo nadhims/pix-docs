@@ -13,23 +13,21 @@ Your account is **Pix Starter** while it has no active device and **Pix Pro** wh
 
 ## The Devices Page
 
-Each computer shows its name, the booth it is paired to, and its status: **Pix Pro**, **watermarked**, or **blocked**. A Pix Pro computer also shows when its period ends. The top of the page counts the devices your subscription covers, how many are active, and the passes you have not put on a computer yet.
+The list shows the computers that are active right now, on Pix Pro or on a pass: the name, the booth it is paired to, its device ID, when it was first and last seen, the app version, and its status. Click a row for its renewal date and the billing actions.
 
-Click a computer's row to open its details and, if it isn't active, the actions to activate it by hand. Hand-placing is mostly for a computer with no booth: without a booth it never checks in, so it can never claim a spare device on its own.
+The top of the page counts the devices your subscription covers and how many are active. **Add devices** buys more. A computer that is waiting for a place activates itself the next time it checks in, as long as the subscription has room.
 
 The actions on a computer:
 
 | Action | What it does |
 |---|---|
-| **Buy** | Buy Pix Pro or a Day Pass pack for this computer, and complete checkout |
-| **Use a pass** | Put one of your unused passes on it for 24 hours |
-| **Activate with Pix Pro** | Put Pix Pro you already own on it |
-| **Deactivate** | Frees this device's place on the subscription for another device; this one is blocked until it gets Pix Pro again, or watermarked once your account holds no active device |
-| **Cancel** | Stop renewal on a Pix Pro subscription paid by card |
+| **Deactivate** | Frees this device's place on the subscription for another computer. The computer stays paired and stops running Pix Pro until a place is free again |
+| **Manage billing** | Opens the card subscription that pays for this device |
+| **Cancel** | Stops renewal on a Pix Pro subscription paid by card. The computer keeps Pix Pro until the end of the paid period |
 
-To move Pix Pro to a different computer, use that computer's own operator menu on the kiosk, or **Deactivate** it here: the place it held frees up, and the next computer that checks in without Pix Pro claims it automatically. The computer it left is blocked until it gets Pix Pro of its own, and runs watermarked once your account has no active device at all. Day Passes cannot be moved once they are running.
+To move Pix Pro to a different computer, **Deactivate** the one that has it. The next computer that checks in without Pix Pro claims the free place on its own.
 
-**Watermarked** and **blocked** are not the same thing. While your account has no active device at all, every computer runs with the Pixture watermark. Once one device is active, a computer past what your subscription covers is blocked instead: it stays paired, but it cannot start a session until you deactivate another computer, use a pass on it, or add devices to your subscription. A Pix Pro account never has a watermarked computer.
+A computer past what your subscription covers is not listed here. On the kiosk it says "Device limit reached" and stops until you deactivate a computer or add devices. While your account has no active device at all, every computer runs with the Pixture watermark instead. A Day Pass is used from the kiosk's operator menu, **Use a Day Pass**, on the computer that needs it.
 
 ## Plans at a Glance
 
