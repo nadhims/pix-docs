@@ -19,7 +19,7 @@ You land in the Pix Dashboard with one organization and no booths yet. Booths ar
 
 ## Step 3: Try Pix Pro Free
 
-Every organization can claim **one free 3-day Pix Pro trial** on one computer, with no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick, and gives it unlimited templates, the Template and UI Editors, and clean photos and prints for three days. When it ends, the account returns to Pix Starter, so every computer on it is watermarked, unless you buy Pix Pro first.
+Every organization can claim **one free 3-day Pix Pro trial** on one computer, with no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick, and gives it unlimited templates, the Template and UI Editors, and clean photos and prints for three days. When it ends, the account returns to Pix Starter and its computer runs watermarked, unless you buy Pix Pro first.
 
 ## Verification Email
 
