@@ -59,7 +59,7 @@ A color grading effect applied to photos after capture. Pix includes 14 built-in
 
 ### Pix Design
 
-The template editor inside the Pix dashboard where you design and customize templates. Available on Day Pass and Pix Pro plans.
+The template editor inside the Pix dashboard where you design and customize templates. Every plan can open it to try; saving a template needs Pix Pro (or a Day Pass, or the free trial).
 
 ### Photo Session
 

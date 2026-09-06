@@ -27,7 +27,7 @@ The actions on a computer:
 
 To move Pix Pro to a different computer, **Deactivate** the one that has it. The next computer that checks in without Pix Pro claims the free place on its own.
 
-A computer past what your subscription covers is not listed here. On the kiosk it says "Device limit reached" and stops until you deactivate a computer or add devices. While your account has no active device at all, every computer runs with the Pixture watermark instead. A Day Pass is used from the kiosk's operator menu, **Use a Day Pass**, on the computer that needs it.
+A computer past what your subscription covers is not listed here. On the kiosk it says "Device limit reached" and stops until you deactivate a computer or add devices. While your account has no active device at all, it is Pix Starter and its one computer runs with the Pixture watermark instead. A Day Pass is used from the kiosk's operator menu, **Use a Day Pass**, on the computer that needs it.
 
 ## Plans at a Glance
 
@@ -63,7 +63,7 @@ Every organization can claim **one** free 3-day Pix Pro trial on one computer, n
 
 ## What You Get for Free
 
-Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events. Booths are free profiles: create as many as you like, pair a computer to any of them, and rehearse the whole setup before you pay. What an active device adds on top is in the [Feature Comparison](../pricing/feature-comparison.md).
+Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events. Booths are free profiles: create as many as you like, and rehearse the whole setup before you pay. Pix Starter pairs **one computer**: pairing a second is refused at the pairing code, though replacing the computer on a booth that already has one always works. You can also open every tool in Pix Design and Marketing Studio to try, though saving needs Pix Pro. What an active device adds on top is in the [Feature Comparison](../pricing/feature-comparison.md).
 
 ## Paying for Pix Pro
 

@@ -16,6 +16,10 @@ A **device** is the computer running the Pix Desktop App. Each device is paired 
 3. On the kiosk computer, open the Pix Desktop App. The pairing screen is the first thing you see on a fresh install. You do not have to pair straight away: tap **Try it without an account** to shoot on a built-in frame, watermarked, and pair the computer later.
 4. Type the 6-digit code. The device downloads that booth's templates, kiosk design, filters, and pricing and goes straight to the start screen. If your subscription has room, or you have a spare pass, the computer activates automatically at this first check-in; with nothing to spare it starts watermarked instead.
 
+:::note One computer on Pix Starter
+While your account has no active device or unspent pass, it can pair **one computer**. **Generate code** refuses on a second booth once another one already has a paired computer: add a device, buy a pass, or start the free trial first. Replacing the computer on a booth that already has one always works, since re-pairing that booth does not count against the limit.
+:::
+
 :::note When every device is already active
 **Generate code** will not issue one: the dashboard says every device is active and offers to add another or deactivate one on another computer. Free up a device, then generate the code and pair as usual. If you're holding an unspent pass, it pairs anyway and waits, blocked, until you put the pass on it.
 :::
@@ -24,7 +28,7 @@ No account password is ever typed on the kiosk, so nothing sensitive is left on 
 
 ## Pix Pro, Watermarked, or Blocked
 
-Pix Pro is per device, and your subscription covers a number of devices. While none are active the account is **Pix Starter**: every paired computer still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event.
+Pix Pro is per device, and your subscription covers a number of devices. While none are active the account is **Pix Starter**, running on **one computer**: it still runs your booth's frames and screens, with the Pixture watermark on every photo and print, so you can rehearse before the event.
 
 The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**. A computer past what your subscription covers is **blocked**: it stays paired, but it cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. A Pix Pro account never has a watermarked computer.
 
