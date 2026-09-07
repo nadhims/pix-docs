@@ -52,10 +52,16 @@ For managing photos in bulk:
 3. Choose from the action bar:
    - **Download** -- save composites to your device
    - **Share** -- copy the microsite link for that photo session
-   - **Delete** -- remove photo sessions permanently
+   - **Delete** -- hide photo sessions from the Gallery
+
+## Deleting Photos and the 30-Day Recovery Window
+
+Deleting a photo session does **not** erase it right away. The photo is hidden from the Gallery immediately, but the composite and individual captures stay in cloud storage for **30 days** before they are permanently removed.
+
+So a photo deleted by mistake is recoverable — but only within those 30 days, and only by us: there is no "trash" or "restore" button in the dashboard yet. Contact the Pix team with roughly when the photo was taken (and which booth) and we can bring it back.
 
 :::caution
-Deleting photo sessions is permanent and removes both the composite and individual captures from cloud storage. This cannot be undone.
+After 30 days the files are permanently deleted from cloud storage and cannot be recovered by anyone.
 :::
 
 ## Search
