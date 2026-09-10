@@ -13,9 +13,14 @@ If you prefer cash or card hardware instead of (or as well as) QRIS, see [Hardwa
 
 ## Other Gateways and International Operators
 
-The **Settings > Payment Gateway** picker also offers **Midtrans** and **Xendit** (Indonesia — QRIS, e-wallets, cards) and **Stripe** for operators outside Indonesia: card payments, plus physical tap-to-pay card readers via **Stripe Terminal** (readers are assigned per booth in Settings).
+The **Settings > Payment Gateway** picker also offers **Midtrans** and **Xendit** (Indonesia — QRIS, e-wallets, cards) and **Stripe** for operators outside Indonesia.
 
-QRIS is Indonesia's national QR payment standard and only exists there. For operators outside Indonesia, describe scan-to-pay generically as **"QR code payment"** — whether it is available depends on the payment methods enabled on the Stripe account.
+Stripe works two ways at the booth, both set up under **Settings > Payment Gateway**:
+
+- **QR payment** — no hardware. The kiosk shows a Stripe QR code on its payment screen; the customer scans it and pays on their phone through Stripe Checkout.
+- **Card payment** — a **Stripe Terminal** card reader connected to the booth, so customers tap or insert a card. Readers are assigned per booth in Settings. Recommended reader: **UX700**.
+
+QRIS is Indonesia's national QR payment standard and only exists there. For operators outside Indonesia, describe scan-to-pay generically as **"QR code payment"**.
 
 ## Step 1: Get a DOKU Account
 

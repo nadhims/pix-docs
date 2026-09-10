@@ -79,7 +79,7 @@ A code customers enter on the kiosk's payment screen. Vouchers can make a photo 
 
 ### Payment Gateway
 
-An integration that lets you accept payments from customers directly at the booth. Pix uses DOKU for QRIS payments at the kiosk; hardware such as coin acceptors and card readers is supported separately.
+An integration that lets you accept payments from customers directly at the booth. In Indonesia Pix uses DOKU for QRIS payments at the kiosk; outside Indonesia it uses Stripe (QR payment, or a Stripe Terminal card reader such as the UX700). Hardware such as coin acceptors and keyboard-mode card readers is supported separately.
 
 ### Frame Lab
 Customers design and pay for their own frame from a link or QR before their photo session (Marketing Studio > Custom Template). Priced per booth.
