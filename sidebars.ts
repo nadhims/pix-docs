@@ -128,6 +128,7 @@ const sidebars: SidebarsConfig = {
         'guides/payment-gateway-setup',
         'guides/branding-your-booth',
         'guides/shared-printer',
+        'guides/connect-an-ai-assistant',
       ],
     },
     {
