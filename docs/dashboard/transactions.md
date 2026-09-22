@@ -1,69 +1,71 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Transactions
-description: View transaction history, search and filter payments, and export data as CSV.
-tags: [transactions, payments, export, csv]
+description: Every payment your booths took, with search, booth and period filters, gateway sync, Excel export, and the row types you will see.
+tags: [transactions, payments, export, excel]
 ---
 
 # Transactions
 
-The Transactions screen tracks every payment processed through your booths. Use it to reconcile revenue, investigate specific payments, or export data for your accounting.
+**Transactions** lists every paid photo session and every payment your booths and online shops took. Use it to reconcile a day against your payment gateway, find one guest's payment, or hand a client the takings from their event.
 
-<!-- Screenshot: Transactions list -->
+![Transactions page: search, booth filter, Day, Week and Month pills, Sync with payment gateway and Export Excel icons, stat cards Total Transactions, Total Revenue, Payment Success and Session Completion](/img/docs/transactions.webp)
 
-## Transaction List
+## Filters and Search
 
-Each transaction entry shows:
+| Control | What it does |
+|---|---|
+| Search | Matches the booth, template, voucher code or event name ("Search booth, template...") |
+| **All Booths** | Limits the list to one booth |
+| **Day / Week / Month / Custom** | The period, or your own start and end dates |
+| "Showing" pills | Only on accounts whose booths trade in more than one currency. Pick a currency; totals are never combined or converted |
 
-- **Amount** -- the payment total
-- **Status** -- Paid, Pending, Failed, or Refunded
-- **Booth** -- which booth processed the payment
-- **Payment Method** -- QRIS through your gateway, voucher, coin or card hardware, bonus session, or free
-- **Timestamp** -- when the transaction occurred
+## Stat Cards
 
-Click any transaction to see the full detail view, including the payment gateway reference ID, customer contact info (if provided), and the photo session it's linked to.
+| Card | What it counts |
+|---|---|
+| Total Transactions | Payments in the period |
+| Total Revenue | Their sum, in the selected currency |
+| Payment Success | The share of payment attempts that completed |
+| Session Completion | The share of paid sessions that reached the end of the flow |
 
-## Searching Transactions
+## Toolbar
 
-The search bar lets you find transactions by:
+- **Sync with payment gateway** opens the Gateway Sync modal: pick a **Start Date** and **End Date** and click **Run Sync**. The dashboard asks your gateway for the payments it confirmed in that range and adds any the booths missed, for example after a venue's internet dropped mid-payment. Only members with access to all booths can run it.
+- **Export Excel** downloads the filtered list as a spreadsheet for your bookkeeping.
 
-- Transaction ID or reference number
-- Customer email or phone number
-- Amount (exact match)
+## Reading a Row
 
-This is useful when a customer disputes a charge or your payment gateway dashboard shows a transaction you need to cross-reference.
+Each row shows when the payment happened, the booth, the template, the package, the amount and how it was paid: your QR gateway, a voucher, coin or card hardware, or free. Rows captured during an event carry an event chip, so one search on the event name pulls out the client's takings.
 
-## Filtering
+Some rows carry a type label:
 
-Use the filter controls to narrow the list:
+| Label | What it means |
+|---|---|
+| Bonus | A free session granted by [Bonus Session](./marketing-studio.md) after a paid one |
+| Package | A Double, Group or Additional-session purchase |
+| Frame Lab | A guest paid online for their own frame |
+| Orphan Payment | A payment your gateway confirmed that no photo session claimed, for example when the guest paid and walked away before the session started |
+| Imported | A row you uploaded from a spreadsheet |
+| AI portrait, AI portrait + print | A portrait sold from the share page. Beta accounts only |
 
-- **Date Range** -- set a start and end date
-- **Booth** -- filter by one or more booths
-- **Status** -- show only Paid, Pending, Failed, or Refunded
-- **Payment method** -- filter by QRIS, voucher, hardware, or free
+**Validate** on a row opens Transaction Validation, where you check the payment against your gateway's own record before deciding what to do with an orphan or a disputed charge.
 
-:::tip
-To quickly review failed transactions, set the status filter to "Failed" and check if there's a pattern -- it might indicate a gateway configuration issue at a specific booth.
-:::
+## Imported Transactions
 
-## CSV Export
-
-To export transaction data:
-
-1. Apply any filters you want (the export respects active filters).
-2. Click the **Export** button (download icon).
-3. Choose **CSV** format.
-4. The file downloads to your device -- save it, email it, or import it into your accounting software.
-
-:::info
-Exported CSV files include all transaction fields: ID, amount, status, booth, gateway, reference, timestamp, and customer contact info. Column headers are included in the first row.
-:::
-
-## Reconciliation Tips
-
-- Export weekly or monthly CSVs and compare totals against your payment gateway dashboard.
-- Use the status filter to flag any "Pending" transactions that haven't resolved -- these may need manual follow-up with your gateway provider.
+Takings from before Pixture, or from a booth that ran on a different system, can sit in the same reports. On the booth's **Settings** tab, under **Import Transactions**, click **Download CSV Template**, fill it in, drop the .csv or .xlsx file (10 MB, up to 10,000 rows) and click **Confirm Import**. Imported rows carry the Imported label and count in the Dashboard totals. **Delete All Imported Data** removes them again.
 
 ## Currencies
 
-Booths can trade in different currencies. Transactions and totals are reported per currency and never converted, so a booth in IDR and a booth in MYR each get their own totals.
+Each booth trades in one currency and reports are kept per currency, never converted. A booth in rupiah and a booth in US dollars each get their own totals, and the "Showing" pills switch between them.
+
+:::tip Reconciling a day
+Run the same date range on Transactions and in your gateway's own dashboard. If the gateway shows a payment that Transactions does not, run **Sync with payment gateway** for that day before assuming it is lost.
+:::
+
+## Related
+
+- [Booth Pricing](./booth-pricing.md)
+- [Payment Gateway Setup](../guides/payment-gateway-setup.md)
+- [Vouchers](./vouchers.md)
+- [Hardware Payments](../desktop-app/hardware-payments.md)

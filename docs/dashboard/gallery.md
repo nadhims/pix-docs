@@ -1,73 +1,66 @@
 ---
-sidebar_position: 5
+sidebar_position: 10
 title: Gallery
-description: Browse photo session photos, filter by booth or date, and perform batch operations in the Gallery tab.
-tags: [gallery, photos, photo sessions]
+description: Browse every photo your booths captured, filter by booth and period, download or delete, and what the 30-day deletion window means.
+tags: [gallery, photos, sessions]
 ---
 
 # Gallery
 
-The Gallery tab gives you access to every photo taken across all your booths. Browse photo sessions, review composites, and manage your photo library.
+**Gallery** holds every photo your booths uploaded: the finished composite of each photo session and the single shots behind it. Use it to pull a photo for a guest who lost their link, collect consented photos for social media, or clear out a test day.
 
-<!-- Screenshot: Gallery grid view -->
+![Gallery page: search, booth filter, period pills, Select](/img/docs/gallery.webp)
 
-## Browsing Photo Sessions
+## Filters and Search
 
-The gallery displays photo sessions as cards in a grid. Each card shows:
+| Control | What it does |
+|---|---|
+| Search | Matches the booth or template ("Search booth, template...") |
+| **All Booths** | Limits the grid to one booth |
+| **All** | A second filter beside the booth picker; leave it on All to see every photo |
+| **Day / Week / Month** | The period |
 
-- A thumbnail of the final composite
-- The booth name
-- The date and time
-- The number of photos in the photo session
+The newest photos come first. Scroll down to load older ones, or narrow the period.
 
-Click a photo session to view the full-resolution composite and individual captures.
+## Working With Photos
 
-## Filtering
+Hover a photo, or open it, for the per-photo actions.
 
-Use the filter bar at the top to narrow down what you see:
+| Action | What it does |
+|---|---|
+| **Download** | Saves the full-size file to your computer |
+| **Delete** | Hides the photo from the Gallery and starts the 30-day window described below |
+| **Camera settings** | Shows what the camera used for this shot, handy when one booth's photos look different from another's |
 
-- **Booth** -- select one or more booths to filter by location
-- **Date Range** -- pick a start and end date, or use presets like "Today" or "This Week"
-- **Template** -- filter by the template used in the photo session
+Opening a photo session shows its composite and each single capture, with the booth, template and time.
 
-:::tip
-Combine filters to quickly find photo sessions. For example, select a specific booth and date range to review all photos from a particular day or time period.
+## Bulk Actions
+
+1. Click **Select**.
+2. Tick the photos you want, or click **Select All** for everything in the current filter.
+3. Click **Delete Selected**.
+
+Use a booth and period filter first so **Select All** takes only what you mean it to.
+
+## Deleting and the 30-Day Window
+
+Deleting does not erase a photo at once. It disappears from the Gallery and from the guest's sharing page immediately, but the files stay in storage for **30 days** before they are removed for good. There is no restore button in the dashboard: if you delete something by mistake, contact Pixture support within those 30 days with the booth and roughly when the photo was taken. After 30 days nothing can be recovered.
+
+## Consented Photos
+
+When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-studio.md), guests who tap **Yes, I agree** are marked in the Gallery, so you can find photos you are allowed to reuse without asking twice. Performance counts them as Consented photos.
+
+## Photos of an Event
+
+Photos captured during an [event](./events.md) also appear on the event's own Album tab and, while Link Sharing is on, in its public album. Deleting from either place removes the photo from both.
+
+:::caution Test days pile up
+A rehearsal produces real uploads. Filter the Gallery to the booth and the day, then **Select All** and **Delete Selected**, so the Dashboard's Templates Usage and Session counts reflect guests rather than staff.
 :::
 
-## Photo Session Detail
+## Related
 
-Clicking into a photo session shows:
-
-- The **final composite** -- the finished photo with the template applied
-- **Individual captures** -- each raw photo taken during the photo session
-- **Photo Session metadata** -- timestamp, booth, template, sharing method used
-- **Sharing status** -- whether the photo session was printed and whether its microsite was opened
-
-## Batch Operations
-
-For managing photos in bulk:
-
-1. Click **Select** in the top-right corner.
-2. Check the photo sessions you want to act on.
-3. Choose from the action bar:
-   - **Download** -- save composites to your device
-   - **Share** -- copy the microsite link for that photo session
-   - **Delete** -- hide photo sessions from the Gallery
-
-## Deleting Photos and the 30-Day Recovery Window
-
-Deleting a photo session does **not** erase it right away. The photo is hidden from the Gallery immediately, but the composite and individual captures stay in cloud storage for **30 days** before they are permanently removed.
-
-So a photo deleted by mistake is recoverable — but only within those 30 days, and only by us: there is no "trash" or "restore" button in the dashboard yet. Contact the Pix team with roughly when the photo was taken (and which booth) and we can bring it back.
-
-:::caution
-After 30 days the files are permanently deleted from cloud storage and cannot be recovered by anyone.
-:::
-
-## Search
-
-Use the search bar to find photo sessions by the contact captured with a bonus session, if any. This is helpful when a customer contacts you later asking for their photos.
-
-:::info
-Gallery loads the most recent photo sessions first. Scroll down to load older photo sessions, or use the date filter to jump to a specific time period.
-:::
+- [Dashboard Home](./dashboard-home.md)
+- [Marketing Studio](./marketing-studio.md)
+- [Sharing on the kiosk](../desktop-app/session-flow/sharing.md)
+- [Public Links](../reference/public-links.md)

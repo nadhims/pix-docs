@@ -1,51 +1,72 @@
 ---
 sidebar_position: 1
-title: Pix Dashboard Overview
-description: The Pix Dashboard is the web control centre for your photobooth business -- booths, templates, pricing, devices, sharing, and analytics, from any browser.
+title: Dashboard Overview
+description: A map of the Pixture dashboard at pixture.io, the sidebar, the account menu, roles, and what each page is for.
 tags: [dashboard, overview, web]
 ---
 
-# Pix Dashboard Overview
+# Dashboard Overview
 
-The **Pix Dashboard** is a web app at `pixture.io/dashboard`. Nothing to install: it runs in any modern browser on a laptop, tablet, or phone. Your booths run the [Pix Desktop App](../desktop-app/overview.md); the dashboard is where you manage them.
+The Pixture dashboard is a web app at pixture.io. Nothing to install: it works in any modern browser, on a laptop, a tablet or a phone. Your booths run the [Pix Desktop App](../desktop-app/overview.md); the dashboard is where you set them up, price them, watch them and get paid.
 
-## What You Can Do
+![Dashboard home of a Pix Pro account, with the sidebar on the left and the Revenue, Sessions and Session Completion cards](/img/docs/dashboard-home.webp)
 
-| Section | What it is for |
+## The Sidebar
+
+The sidebar lists the pages in this order. Your role decides which ones you see.
+
+| Page | What it is for |
 |---|---|
-| **Dashboard** | Revenue, photo session counts, and booth status at a glance |
-| **Events** | Temporary setups (weddings, expos, festivals) with their own pricing, station booths, and a public photo album |
-| **Booths** | One entry per kiosk: templates, filters, kiosk design, pricing, activity log, device pairing, and settings |
-| **Transactions** | Every paid photo session, filterable and exportable, reported per currency |
-| **Vouchers** | Free, percentage, or fixed-amount codes, single or in batches |
-| **Marketing Studio** | Audience, bonus sessions, campaigns, content, Frame Lab, microsite branding, and performance |
-| **Gallery** | Browse, download, and delete photo session outputs |
-| **Health** | Live booth status, camera and printer state, upload queue, and error records |
-| **Devices** | Every computer you have paired, whether it's Pix Pro, watermarked, or blocked, with the devices your subscription covers counted at the top: buy, use a pass, activate with Pix Pro, deactivate, and cancel |
-| **Pix Design** | Template Editor, UI Editor (kiosk screen designer), Photo Filters, GIF/Video overlay, and Pix AI (beta) |
-| **Help** | Chat with Lucy, the in-dashboard assistant, or open these docs |
-| **Settings** | Organization, preferences and language, members and activity, payment gateway, profile, security, and data |
+| [Dashboard](./dashboard-home.md) | Revenue, photo sessions, prints, vouchers, top booths and health for a day, week or month |
+| [Events](./events.md) | A booking pointed at your booths for a set of dates, with its own pricing, templates and a public album |
+| [Booths](./booth-management.md) | One page per kiosk: templates, filters, kiosk design, pricing, activity log, device and settings |
+| [Transactions](./transactions.md) | Every payment, searchable, filterable and exportable to Excel |
+| [Vouchers](./vouchers.md) | Free, fixed-amount or percentage codes, one at a time or in batches |
+| [Marketing Studio](./marketing-studio.md) | Consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance. Pix Pro only |
+| [Gallery](./gallery.md) | Browse, download and delete what your booths captured |
+| [Health](./health.md) | Which booths are online, their camera, printer, paper and error records |
+| [Licenses](./billing.md) | The computers running Pix Pro, your subscription, passes and **Add more devices** |
+| [Pix Design](./pix-design/overview.md) | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
+| Help | Opens a chat with Lucy, the dashboard assistant |
+| [Settings](./settings.md) | Organization, preferences, members, payment gateway, profile, billing, security and data |
 
-The sidebar shows only the sections your role is allowed to see. Owners see everything; members see what their role grants.
+Marketing Studio is not in the sidebar on Pix Starter. It appears once your account is Pix Pro.
 
-## Booths and Devices
+## Around the Sidebar
 
-Every kiosk is a **booth**, and booths are free: create as many as you like. Pix Pro is per computer: a subscription or Day Pass covers one computer running the Pix Desktop App, and you move it between computers from **Devices**. Pix Starter runs on **one computer**, with the Pixture watermark on every photo and print; pairing a second computer is refused at the pairing code, though replacing the computer on a booth that already has one always works. The free trial, a Day Pass, or a Pix Pro subscription makes the account Pix Pro, and a computer past what your subscription covers is blocked until it gets one. See [Devices & Billing](./billing.md).
+- **Updates bell.** At the top of the sidebar. Announcements from Pixture, and the place to reopen the free trial offer if you chose **Save for later**.
+- **Account menu.** The button at the bottom shows your initials and email. Open it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here.
+- **Organization switcher.** Shown only when you belong to more than one organization. Everything in the dashboard is scoped to the organization you have selected.
 
-## Pairing a Booth
+![Account menu at the bottom of the sidebar: Settings, Language, Log out](/img/docs/account-menu.webp)
 
-A kiosk is linked to a booth with a one-time code, not a login:
+## The Setup Banner
 
-1. Open **Booths**, pick the booth, and go to the **Device** tab.
-2. Click **Generate code**.
-3. In the Pix Desktop App, type the 6-digit code.
+A new account sees a banner on every page until setup is done: "Your photobooth isn't fully working yet. Complete your setup to start taking photos (2 of 4 steps done)." It offers **Watch the setup video** and **Install the app**. Follow [Pair your first booth](../getting-started/pair-your-first-booth.md) to finish the steps.
 
-The device is now that booth. Rename or unlink it from the same tab. See [Device Management](./device-management.md).
+## Help and Lucy
 
-## Multiple Organizations
+**Help** in the sidebar opens a chat panel with Lucy, the dashboard assistant. Ask how something works or where a setting lives, in plain words.
 
-If you belong to more than one organization, an organization switcher appears at the top of the sidebar. Everything in the dashboard is scoped to the organization you have selected.
+## Currency Switcher
+
+If your booths trade in more than one currency, the money pages (Dashboard, Transactions, Vouchers and Marketing Studio > Performance) show a row of "Showing" pills, one per currency. Pick one to see its totals. Totals are never combined across currencies, and nothing is converted. Each booth's currency is set on its **Settings** tab; see [Booth Pricing](./booth-pricing.md).
+
+## Roles and Permissions
+
+Owners and admins see every page. For everyone else, the role decides which sidebar entries appear and what they can change. Roles are managed from **Settings > Members > Manage Roles**, where each role picks its permission groups and whether it can reach all booths or none. Invite a team member with **+ Invite** and give them a role at the same time. See [Settings](./settings.md).
+
+## On a Phone
+
+The dashboard works on a phone. Keep it open at an event to watch sessions arrive and check a booth's health without leaving the floor.
 
 :::tip Language
-The dashboard is available in English and Bahasa Indonesia. Switch under **Settings > Preferences**.
+The dashboard is available in English and Bahasa Indonesia. Switch from the account menu, or under **Settings > Preferences**. The kiosk's guest-facing language is a separate setting on the same page.
 :::
+
+## Related
+
+- [Dashboard Home](./dashboard-home.md)
+- [Booths](./booth-management.md)
+- [Licenses](./billing.md)
+- [Settings](./settings.md)

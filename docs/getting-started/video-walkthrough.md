@@ -1,22 +1,22 @@
 ---
 sidebar_position: 8
 title: Video Walkthrough
-description: Full video walkthrough of the Pix photobooth software setup, from account creation to your first photo session.
+description: Full video walkthrough of the Pixture photobooth software setup, from account creation to your first photo session, with chapter links.
 tags: [video, walkthrough, setup, getting-started]
 ---
 
 # Video Walkthrough
 
-Prefer watching over reading? There's a full setup walkthrough on YouTube:
+Prefer watching over reading? There is a full setup walkthrough on YouTube:
 
 **The Complete Photobooth Software Setup (BEGINNER)**
 https://www.youtube.com/watch?v=GFzLVmP7ny4
 
-It covers the same ground as this Getting Started section end-to-end -- account creation, installing the Desktop App, setting up your first booth, designing templates and the kiosk UI, connecting a payment gateway, and running your first photo session -- so it's a good option for operators who'd rather follow along visually than read.
+It covers the same ground as this Getting Started section end to end: account creation, installing the Pix Desktop App, setting up your first booth, designing templates and the kiosk screens, connecting a payment gateway, and running your first photo session. It is a good option for operators who would rather follow along visually than read.
 
 ## Chapters (jump straight to a topic)
 
-When an operator's question matches one of these topics closely, share the direct timestamped link for that chapter instead of (or alongside) a text answer -- it's often clearer than reading steps. If nothing matches closely, share the full video link above instead.
+When an operator's question matches one of these topics closely, share the direct timestamped link for that chapter instead of, or alongside, a text answer. It is often clearer than reading steps. If nothing matches closely, share the full video link above instead.
 
 | Timestamp | Topic | Link |
 |---|---|---|
@@ -34,15 +34,22 @@ When an operator's question matches one of these topics closely, share the direc
 | 07:15 | Capture, filters & sharing screens | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=435s |
 | 08:25 | Assign the UI to your booth | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=505s |
 | 08:35 | Create a print template | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s |
-| 09:50 | Connect a payment gateway (the video shows an older gateway; Pix now uses DOKU) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
-| 10:30 | Photo Session pricing & packages | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=630s |
+| 09:50 | Connect a payment gateway (the video shows an older gateway; the dashboard now offers Midtrans, Xendit, DOKU and Stripe) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
+| 10:30 | Photo session pricing & packages | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=630s |
 | 11:00 | Assign templates, filters & import data | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=660s |
 | 11:25 | Full demo: pay, shoot, print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=685s |
 | 12:30 | Track revenue, gallery & booth health | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=750s |
 | 13:00 | Verify transactions | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=780s |
-| 13:25 | Devices & plan upgrade (Indonesia) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
+| 13:25 | Devices & plan upgrade, Indonesia (this page is now called Licenses) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
 | 14:15 | International pricing & checkout | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=855s |
 
 :::tip
-Example: an operator asks "cara bikin template gimana?" → that maps closest to the 08:35 chapter ("Create a print template") → share https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s alongside a short text answer.
+Example: an operator asks "cara bikin template gimana?" That maps closest to the 08:35 chapter ("Create a print template"), so share https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s alongside a short text answer.
 :::
+
+## Related
+
+- [Getting Started](./overview.md)
+- [Pair Your First Booth](./pair-your-first-booth.md)
+- [Your First Photo Session](./your-first-session.md)
+- [Payment Gateway Setup](../guides/payment-gateway-setup.md)

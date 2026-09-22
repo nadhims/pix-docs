@@ -1,50 +1,86 @@
 ---
 sidebar_position: 3
 title: Choose Your Plan
-description: Start free and watermarked, claim the 3-day Pix Pro trial, then put a Day Pass or Pix Pro on the computer when you have a paid job.
+description: Start free and watermarked on Pix Starter, claim the 3-day Pix Pro trial, then put a Day Pass or Pix Pro on the booth computer when it has a paid job.
 tags: [getting-started, plans, pricing]
 ---
 
 # Choose Your Plan
 
-You do not have to decide on day one. The app is free to download: **Pix Starter** runs on one computer, watermarked, with every tool in Pix Design and Marketing Studio open to try (saving needs Pix Pro). Activate a computer when it has a paid job.
+By the end of this page you know what Pix Starter gives you for free, what Pix Pro adds, and how to put Pix Pro on a computer from the Licenses page. You do not have to decide on day one: the app is free to install, and a computer activates the moment you buy something for it.
 
 ## The Plans
 
-| Plan | Price | Best for |
-|---|---|---|
-| **Starter** | Free | Setting up and rehearsing; every photo and print carries the Pixture watermark |
-| **Day Pass** | From $5 (Rp 85.000) per computer per day, in packs of 1, 2, 4, or 8 passes | Weekend events, weddings, pop-ups |
-| **Pix Pro Monthly** | $40 per month (Rp 850.000) per computer | A computer running most days |
-| **Pix Pro Yearly** | $25 per month, billed $300 per year (Rp 6.500.000) per computer | The same computer, paying yearly |
+Pixture is priced per computer, not per account or per booth. Booths are free profiles. What you pay for is Pix Pro on each computer that runs the Pix Desktop App.
 
-Full detail on [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
+| Plan | Dashboard name | Price | Best for |
+|---|---|---|---|
+| **Pix Starter** | Pix Starter | Free | Setting up, rehearsing, and booths that do not charge guests |
+| **Day Pass** | Pix Pro (1 Day) | $5 per computer per day (Rp 85.000 in Indonesia). 24 hours from when you use it | Weddings, markets, pop-ups: a computer that works a few days a month |
+| **Pix Pro Monthly** | Pix Pro (1 Month) | $40 per computer per month (Rp 850.000 in Indonesia). Cancel anytime | A computer that runs most days |
+| **Pix Pro Yearly** | Pix Pro (1 Year) | $300 per computer per year, which is $25 per month (Rp 6.500.000 in Indonesia). The dashboard marks it Best Value, Save 38% | The same computer, paying yearly |
 
-## One Device, One Computer
+Several devices in one purchase get a volume discount; the checkout shows the per-device price before you pay. Visitors from Indonesia see rupiah prices and prepaid notes instead of the card subscription. Full detail in [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
 
-Your account is **Pix Starter** while it has no active device: it runs on **one computer**, watermarked. Pairing a second computer is refused at the pairing code; replacing the computer on a booth that already has one always works. The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**, and pairing then follows your subscription: a computer past what it covers stays paired but cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. Once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+## Pix Starter: One Computer, Watermarked
 
-## Try Pix Pro First
+Your account is **Pix Starter** while no computer has Pix Pro. On Pix Starter:
 
-Claim the **free 3-day Pix Pro trial** from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick, and gives it the Template and UI Editors, unlimited templates, clean photos and prints, payments, and vouchers, with no card. Use those three days to set the booth up the way you want it. The trial makes it a real active device, so while it runs your account is Pix Pro and a second paired computer is blocked until it gets its own; when the trial ends the account goes back to Pix Starter with everything you built still in place.
+- The Pix Desktop App runs on **one computer**. Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
+- Every photo, print, GIF and video carries the **Pixture watermark**.
+- You get two ready-made 4x6 print templates and the default kiosk design. Pix Design is open to try every tool; creating a new project or saving needs Pix Pro, and the button reads **Upgrade to Create**.
+- The kiosk **skips the Payment screen**. Every photo session is free.
+- **Marketing Studio** is not shown in the sidebar.
 
-## Activating a Computer
+The moment one computer holds Pix Pro, through a subscription, a running Day Pass or the free trial, the whole account is **Pix Pro**: unlimited templates and kiosk designs, no watermark, payments, Marketing Studio. A computer beyond what your subscription covers stays paired but is blocked from starting sessions until you deactivate another computer or add a device.
 
-A computer that isn't active yet activates itself automatically the next time it checks in, as soon as you have room to spare. If you don't have a spare:
+## Try Pix Pro Free for 3 Days
 
-1. Open **Devices**.
-2. Click **Buy** on the computer, or buy passes ahead of time and put one on it later with **Use a pass**.
-3. Complete checkout by card or, in Indonesia, QRIS.
+Every account can claim one free trial: 3 days of Pix Pro on one computer, no card needed.
 
-Either way, the kiosk picks up Pix Pro on its next check-in.
+1. In the dashboard, wait for the **Try Pix Pro free for 3 days** popup, or open it later from the bell (**Updates**) at the top of the sidebar.
+2. Under **Which booth's computer?**, pick the booth. The trial goes on the computer paired to that booth.
+3. Click **Claim free trial**. **Save for later** closes the popup without using the trial.
+
+   ![The Try Pix Pro free for 3 days popup with the benefits list, the booth picker and the Claim free trial button](/img/docs/trial-popup.webp)
+
+The popup's footer tells you what happens at the end: "No credit card required. After 3 days that computer goes back to watermarked." Everything you built during the trial stays in your account. The trial can be moved to another computer from the Licenses page before it ends.
+
+## Activate a Computer
+
+Buying is done on the **Licenses** page. A computer that is paired and waiting picks Pix Pro up on its own the next time it connects.
+
+1. Open **Licenses** in the sidebar. On a Pix Starter account the **Devices** card says there are no devices yet, and the **Passes** card shows 0 unspent passes with a **Buy passes** button.
+
+   ![The Licenses page of a Pix Starter account with the Devices, Subscription, Next renewal and Passes cards and an Add more devices button](/img/docs/licenses-starter.webp)
+
+2. Click **Add more devices**. The modal explains: "One device runs one computer. Pick how long, and how many."
+3. Set **How many devices?** with the stepper. Click **See volume pricing** to compare the per-device price of the Day Pass, Monthly and Yearly at that quantity.
+4. Click **Select** on **Pix Pro (1 Day)**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)**.
+
+   ![The Add devices modal with the How many devices stepper, See volume pricing, and the Pix Pro (1 Day) $5, (1 Month) $40 and (1 Year) $300 cards](/img/docs/licenses-add-devices.webp)
+
+5. Complete the checkout. Internationally you pay by card and the subscription renews until you cancel. In Indonesia you pay at checkout with QRIS, bank transfer or a card, and the purchase is prepaid with no auto-renewal.
+
+What happens next depends on what you bought:
+
+- **Monthly or Yearly:** the next computer to check in takes the place. If you already have a paired computer waiting, it activates itself within minutes.
+- **Day Pass:** passes wait in your pool. Use one from the booth: open the operator menu on the kiosk and tap **Use a pass on this device**. The pass runs for 24 hours on that computer and cannot be moved afterwards.
+
+:::info
+The Add devices modal ends with the rule that matters most: "One device runs one computer. A computer past your subscription stays paired, it just will not start a session until you deactivate one or add another." Freeing a place is one click, **Deactivate**, on the Licenses page.
+:::
 
 ## Which One?
 
-- Shooting a few days a month: **Day Pass** packs.
-- Running most days: **Pix Pro Monthly** pays for itself after about eight days of use.
-- Committed for the year: **Pix Pro Yearly** saves about a third.
-- Several computers on Pix Pro at once: the checkout applies a volume discount.
+- Shooting a few days a month: **Day Passes**, bought in any quantity.
+- Running most days: **Pix Pro Monthly**. Eight Day Passes cost the same as a month.
+- Committed for the year: **Pix Pro Yearly** at $25 per month.
+- Several computers at once: the volume discount applies to all three.
 
-## Next Step
+## Related
 
-**[Download the Pix Desktop App](./download-desktop-app.md)** and pair your first booth.
+- [Plans & Pricing](../pricing/plans.md)
+- [Device Management](../dashboard/device-management.md)
+- [Licence on the Booth](../desktop-app/licence-on-the-booth.md)
+- [Billing FAQ](../pricing/billing-faq.md)

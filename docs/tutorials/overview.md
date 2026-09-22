@@ -1,0 +1,39 @@
+---
+sidebar_position: 0
+title: Tutorials
+description: Step-by-step tutorials for the jobs every Pixture operator does, grouped by setting up, earning, running and managing booths.
+tags: [tutorials, overview]
+---
+
+# Tutorials
+
+Each tutorial takes one job from start to finish, with numbered steps and dashboard screenshots. Finish [Getting Started](../getting-started/overview.md) first so you have a paired booth to work on.
+
+## Set Up
+
+- [Set Up a Booth](./set-up-a-booth.md). Create a booth, assign its templates, filters and kiosk design, and set what it outputs.
+- [Design a Print Template](./design-a-print-template.md). Turn a PNG with transparent photo slots into a print template and put it on your booths.
+- [Customise Kiosk Screens](./customise-kiosk-screens.md). Use the UI Editor to change what guests see on every screen, from the start button to sharing.
+
+## Earn
+
+- [Accept Payments](./accept-payments.md). Connect a payment gateway, set your session prices and packages, and switch payment on at the booth.
+- [Sell Sessions Online](./sell-sessions-online.md). Share a link where customers buy a package on their phone and get a code the booth accepts, even offline.
+- [Sell AI Portraits](./sell-ai-portraits.md). Offer AI portraits on the guest share page, digital or with a print picked up at the booth. Available to beta accounts.
+
+## Run
+
+- [Run an Event](./run-an-event.md). Create a dated event with its own booths, pricing, template pack and public album, and let it end by itself.
+- [Studio Mode](./studio-mode.md). Give guests a timed session where they take free shots and place their favourites into the template.
+
+## Manage
+
+- [Add or Move a Computer](./add-or-move-a-computer.md). Add devices to your subscription, use a Day Pass, and move Pix Pro from one computer to another.
+- [Connect a Coin or Card Reader](./connect-a-coin-or-card-reader.md). Take coins, a card terminal or a cash system at the booth through the local hardware API.
+
+## Related
+
+- [Getting Started](../getting-started/overview.md)
+- [Dashboard Overview](../dashboard/overview.md)
+- [Desktop App Overview](../desktop-app/overview.md)
+- [Booth Operations Checklist](../guides/booth-operations-checklist.md)
