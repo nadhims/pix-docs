@@ -1,56 +1,62 @@
 ---
 sidebar_position: 2
 title: Webcam Fallback
-description: Using a built-in or USB webcam as an alternative camera source in the Pix Desktop App.
+description: Using a built-in camera, a USB webcam or a virtual camera as the capture source in the Pix Desktop App.
 tags: [desktop-app, camera, webcam]
 ---
 
 # Webcam Fallback
 
-If you do not have a Canon EOS camera available, the Pix Desktop App can use any standard webcam as a capture source. This is useful for demos, testing, and casual setups.
+By the end of this page the booth is running on a webcam, a capture card or a virtual camera instead of a Canon body. This is the quickest way to test a booth, run a demo, or keep a booth going if the DSLR fails during opening hours.
 
 ## When to Use a Webcam
 
-- **Testing and demos** -- quickly verify your booth setup without connecting a DSLR.
-- **Casual setups** -- where maximum image quality is not critical.
-- **Backup** -- if your primary Canon camera fails during operating hours, a webcam keeps the booth running.
+- **Testing and demos**: check the kiosk design, templates and printing without setting up a DSLR.
+- **Casual setups** where print quality at large sizes is not the main point.
+- **A backup** so the booth keeps taking photos if the Canon camera stops responding.
 
-## Supported Webcams
+## Supported Sources
 
-The app uses the system's standard camera APIs, so any webcam recognized by your operating system will work:
+The app uses the operating system's own camera list, so anything the system recognises as a camera can be picked:
 
 - Built-in laptop cameras (MacBook FaceTime camera, Windows laptop cameras)
-- USB webcams (Logitech, Razer, etc.)
-- USB capture cards presenting as camera devices
+- USB webcams
+- USB capture cards that present themselves as a camera
+- Virtual cameras such as OBS, which are discovered on macOS
 
 ## Setting Up
 
-1. Plug in your USB webcam (or use the built-in camera).
-2. Open the Pix Desktop App. If no Canon camera is detected, the app automatically falls back to the available webcam.
-3. You can also manually select the webcam from **Menu > Camera Settings > Camera device**.
+1. Plug in the webcam, or use the built-in camera.
+2. Open the operator menu with two taps on the top-right corner and tap **Camera Settings**.
+3. Under **CAMERA DEVICE**, leave **Auto-detect** on, or pick the camera you want from the list.
+4. Tap **Set as Default** so the booth chooses the same camera after every restart.
+5. Check the **STATUS** block: **Camera Name** shows the device in use and **Live View** shows it is streaming.
 
-<!-- Screenshot: Camera source selection in settings -->
+With **Auto-detect** on, the app prefers a Canon camera when one is connected and falls back to a webcam when it is not.
 
-:::tip
-If you have multiple webcams connected, use the camera source dropdown in Settings to pick the one you want.
-:::
+## What Works the Same
+
+Everything in the photo session runs the same way on a webcam: countdown, per-photo adjust, filters, prints, GIF and live photo. Live photos taken on a webcam are mirrored the same way as the print, so the clip matches what the guest saw. **DIGITAL ZOOM**, **CAMERA ROTATION** and the live view aids on the Camera Settings page all apply to webcams too.
 
 ## Limitations
 
-Compared to a Canon EOS setup, webcams have some restrictions:
-
 | Feature | Canon EOS | Webcam |
 |---------|-----------|--------|
-| Resolution | Full camera resolution | Typically 1080p-4K |
-| Manual controls | Full (ISO, aperture, shutter) | Limited or none |
-| Image quality | RAW/JPEG from sensor | Compressed video frame |
-| Live view | High quality via EDSDK | Standard video stream |
-| Focus control | AF + MF via app | Camera-managed only |
+| Resolution | Full camera resolution | Typically 1080p to 4K |
+| Exposure controls in the app | ISO, aperture, shutter, white balance | Limited or none |
+| Image quality | JPEG from the sensor | A frame from the video stream |
+| Focus | Set on the camera body | Managed by the webcam |
 
 :::caution
-Webcam captures are extracted from the video stream, so print quality at large sizes may be noticeably lower than DSLR captures. For locations where prints are a primary offering, a Canon EOS camera is strongly recommended.
+Webcam captures are frames from a video stream, so large prints look noticeably softer than DSLR captures. If prints are your main product, use a Canon EOS camera.
 :::
 
 ## Switching Back to Canon
 
-Connect your Canon camera via USB and restart the app. The app prioritizes Canon cameras over webcams when both are available.
+Connect the Canon camera over USB and either restart the app or pick it under **CAMERA DEVICE**. With **Auto-detect** on, the Canon takes over on the next launch.
+
+## Related
+
+- [Canon EOS Setup](./canon-eos.md)
+- [Camera Settings](./camera-settings.md)
+- [Supported Cameras](../../reference/supported-cameras.md)

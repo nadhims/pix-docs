@@ -1,116 +1,196 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Glossary
-description: Definitions of key terms used throughout the Pix documentation and application.
+description: Definitions of the terms used across the Pixture dashboard, the Pix Desktop App and this documentation.
 tags: [reference, glossary, terminology]
 ---
 
 # Glossary
 
-Key terms used in Pix, explained for photobooth operators.
+Terms used in Pixture, explained for photobooth operators. Alphabetical.
 
-### Blocked computer
+### Additional session
 
-A computer on a Pix Pro account that isn't active: paired, but it cannot start a session until you activate it.
+An extra photo session a guest adds to a package at the Payment screen, priced under **Additional session price** on the booth's Pricing tab.
+
+### AI portrait pickup code
+
+A 7-character code a guest receives after buying an AI portrait print from their share page. Typed into the voucher box on the kiosk's Payment screen, it prints the portrait. Available to beta accounts.
+
+### Album
+
+The public page for an event at `pixture.io/album/{slug}`, showing every photo from all its booths. Turned on with **Link Sharing** on the event.
+
+### Assign photos
+
+The screen in Studio mode where the guest places the shots from their pool into the template's slots: tap a slot, then a photo.
+
+### Blocked
+
+A computer on a Pix Pro account that has no place on the subscription and no pass. It stays paired but cannot start a session until you deactivate another computer on the Licenses page, use a pass on it or add a device.
+
+### Bonus Session
+
+A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Set up in **Marketing Studio > Bonus Session**.
 
 ### Booth
 
-A single photobooth setup registered in your Pix account, with its own templates, settings, and photo session history. Booths are free: create as many as you like, and pair a computer to the booth it is running today. What a plan pays for is the computer, not the booth.
+A profile in the Pixture dashboard: a name, templates, a UI project, pricing, settings and a history. Booths are free and you can create as many as you like. A booth runs on one computer at a time.
 
-### Booth Health
+### Capture mode
 
-A monitoring system that shows each booth's online status, last check-in, camera and printer state, upload queue, software version, and recent error records.
+How a booth captures during an event: **Photo**, **Video** or **360 Slow-mo** (marked "Soon"). Set on the event's Setup tab; outside an event a booth shoots photos.
+
+### Central cashier
+
+A Multi-Booth setting where guests pay one person at a counter and receive an 8-character group code that works at any booth in the group.
 
 ### Composite
 
-The final image generated after a photo session. A composite combines the customer's captured photos with the template layout, backgrounds, and branding into a single shareable image.
+The final image of a photo session: the guest's photos placed into the template with its artwork. It is what prints and what the share page shows first.
+
+### Computer
+
+See **Device**.
 
 ### Day Pass
 
-A pack of one or more passes. Each pass gives one computer Pix Pro features for 24 hours, waits in your pool until you put it on a computer, and never renews.
+"Pix Pro (1 Day)" in the dashboard. Full Pix Pro on one computer for 24 hours from activation. Bought by quantity, kept in your pool until used, activated from the kiosk's operator menu with **Use a pass on this device**. It ends when the computer is deactivated and cannot be moved.
 
-### Dead Letter
+### Deactivate
 
-A queued upload or task that has failed repeatedly and been moved aside so it doesn't block other operations. Dead-lettered items appear in diagnostics and can be retried manually.
-
-### GIF Mode
-
-A capture mode that takes a rapid burst of frames and assembles them into an animated GIF. Customers get a short looping animation instead of a static photo. One of the four soft file types.
+The one action on a computer in the Licenses table. It frees that computer's place on your subscription for the next computer that checks in, returns a free trial to your pool, and ends a Day Pass.
 
 ### Device
 
-A computer or iPad running the Pix Desktop App. A device is active when Pix Pro or a Day Pass is running on it, and your subscription covers a number of devices, counted at the top of the Devices page. Move Pix Pro between devices from the Devices page; the device it leaves is blocked until it gets Pix Pro of its own, and runs watermarked once your account holds no active device.
+A computer running the Pix Desktop App, paired to a booth. Pix Pro is bought per device. The Licenses page lists your active devices with their booth, first and last seen, version and licence state.
 
-### Live Photo
+### Event
 
-A capture mode that records a short video clip alongside the photo capture. The output is a brief MP4 video file that customers can share, adding motion to the booth experience. One of the four soft file types.
+A dated job in **Events** with its own booths, templates, kiosk design, capture mode, pricing and album. Events run themselves from creation and end the day after their last date.
 
-### Microsite
+### Extra prints
 
-A branded, mobile-friendly web page where customers view and download their photos after a photo session. Each photo session generates a unique microsite URL shared via QR code. Microsites display composites, GIFs, live photos, and singles, and carry your organization's branding and logo.
+Additional sheets a guest buys on the Sharing screen, priced under **Extra print price** on the booth's Pricing tab.
 
-### Offline Resilience
+### Filter
 
-The ability of the Pix Desktop App to continue operating without internet. Photo Sessions, composites, and prints work uninterrupted. An auto-sync upload queue stores files locally and uploads them when connectivity returns. Cryptographic offline grants (RS256-signed tokens) let the app verify it's still an active device locally during extended outages.
+A colour look the guest picks on the Filter screen. 14 are built in; Pix Pro accounts can upload up to 50 custom `.cube` files under **Pix Design > Photo Filters**. The filter is applied to the print, the GIF and the live photo.
 
-### Photo Filter
+### Frame Lab
 
-A color grading effect applied to photos after capture. Pix includes 14 built-in filters plus Original (warm vintage, cool blue, black & white, and more). Operators can also upload custom .CUBE LUT files for precise color grading. Customers browse a scrollable preview strip and choose a filter before sharing.
+A Marketing Studio feature where guests design and pay for their own frame from a link or QR before their session, then use the code at the booth. Priced per booth. Needs Pix Pro.
 
-### Pix Design
+### GIF overlay
 
-The template editor inside the Pix dashboard where you design and customize templates. Every plan can open it to try; saving a template needs Pix Pro (or a Day Pass, or the free trial).
+A transparent PNG drawn over every GIF and video a booth makes. Uploaded under **Pix Design > GIF/Video overlay** and chosen on the booth's Settings tab.
 
-### Photo Session
+### Hardware API
 
-One customer interaction from start to finish -- selecting a template, capturing photos, applying a filter (optional), and sharing or printing the result. Photo Sessions are tracked for analytics and billing.
+The kiosk's local interface for coin acceptors, bill validators and keystroke card readers, set up under the operator menu's **Hardware API** page.
 
-### Soft Files
+### Heartbeat, online
 
-The digital output files from a photo session. Pix supports four soft file types: composites (PNG), animated GIFs, live photos (MP4), and singles (individual JPEGs). All are delivered through the same microsite sharing flow.
+The kiosk checks in with Pixture every few minutes. A booth shows as **Online** on the dashboard when it has checked in within the last 12 minutes.
 
-### Template
+### Licenses page
 
-A visual layout that defines how photos are arranged in the final output. Templates include background images, photo slot positions, and overlay graphics. You can upload .PNG templates with transparent regions (photo slots are auto-detected) or create templates from scratch in Pix Design.
+The dashboard page where you see your active devices, add devices, buy passes, deactivate a computer and manage AI credits.
 
-### UI Editor
+### Live photo
 
-A drag-and-drop canvas editor for designing the kiosk interface. Operators design seven screens in the UI Editor (Start, Custom, Payment, Templates, Capture with its Review sub-page, Filter, Sharing). Save publishes the design to paired booths.
+A short video clip recorded around the shot, shared on the share page next to the still.
+
+### Menu PIN
+
+A 4 to 8 digit PIN that locks the kiosk's operator menu. Set on the booth's Settings tab (**Menu PIN**) or for the account under **Settings > Security > Menu Access PIN**.
+
+### Multi-Booth group
+
+Several booths set up together from **Booths > + New Booth > Multi-Booth**, sharing templates, a kiosk design, pricing, a queue and a cashier.
+
+### Offline queue
+
+Photos and session records waiting on the kiosk to upload. Shown as **Uploads: N waiting** in the operator menu footer and in detail under **Admin Panel > UPLOAD QUEUE**. Network failures retry on their own.
+
+### Operator menu
+
+The kiosk's staff menu, opened by tapping the top-right corner of the screen twice. It holds Start Booth, Camera Settings, Printer Settings, Capture Settings, Hardware API, Admin Panel, Use a pass on this device, Logout, Exit App and Check for Updates, with the booth name, licence badge and upload status in the footer.
+
+### Package
+
+What a guest buys at the Payment screen: **Single**, **Double** or **Group** (four sessions), each with its prints included, priced on the booth's Pricing tab.
+
+### Payment gateway
+
+Your own merchant account (Midtrans, Xendit, DOKU or Stripe) connected under **Settings > Payment Gateway** so guests can pay by QR at the kiosk. Pixture takes no share of these payments.
+
+### Photo session
+
+One guest's run through the kiosk: start, payment, template, capture, filter and sharing. The Dashboard, Gallery and Transactions count them.
+
+### Pix Pro
+
+The paid tier, bought per computer as a Day Pass, monthly or yearly. Clean photos and prints, unlimited templates and UI projects, saving in Pix Design and Marketing Studio, payments at the booth. An account is Pix Pro while any computer has it.
+
+### Pix Starter
+
+The free tier. One computer, watermarked photos and prints, 2 templates and 1 UI project, no Payment screen. Pix Design and Marketing Studio are open to try; saving needs Pix Pro.
+
+### Pix AI preset, credit
+
+A Pix AI preset is a saved look chosen under **Pix Design > Pix AI** and assigned to booths. Each generated image costs one credit; credits are shared by every booth. Available to beta accounts.
+
+### Pool
+
+Two meanings. On the Licenses page, the unspent passes and free subscription places waiting for a computer. In Studio mode, the shots a guest has taken before assigning them to slots.
+
+### Print format, sheet
+
+Print counts in Booth Pricing are always sheets. **Print format** (Standard, 2 inch cut, Triple strip) only tells the Payment screen how many pieces each sheet becomes.
+
+### QRIS
+
+Indonesia's national QR payment standard. Guests pay by scanning the kiosk's QR with any Indonesian bank or wallet app. Available through Midtrans, Xendit and DOKU, in rupiah only.
+
+### Region
+
+A label on a booth (booth **Settings > Booth Info > Region**) used to filter the Booths list, the Dashboard and Health by location.
+
+### Share page, microsite
+
+The guest's page at `pixture.io/s/{code}`, opened from the QR on the Sharing screen. Its look is set under **Pix Design > Microsite**.
+
+### Stripe Terminal
+
+A Stripe card reader at the booth so guests tap or insert a card. Recommended reader: UX700.
+
+### Studio mode
+
+A booth mode where the guest takes free shots, then assigns them to the template's slots. Chosen when creating a UI project; needs Pix Desktop App 1.1.98 or newer.
+
+### Template, UI project, template pack
+
+A **template** (print template) is the artwork with photo slots that becomes the print and composite, made in **Pix Design > Template Editor**. A **UI project** is the kiosk design, every screen the guest sees, made in **Pix Design > UI Editor**. A **template pack** is a free bundle from Pixture (print layouts, a GIF overlay and a matching kiosk look) applied to an event with **Use this pack**.
+
+### Trial
+
+3 days of Pix Pro on one computer, once per account, no card. Returns to your pool if you deactivate the computer, and ends for good 3 days after you claimed it.
+
+### Unpaired mode
+
+The kiosk running without an account, from **Try it without an account** on the login screen: built-in frames and screens, watermarked, printing on, no cloud sharing or QR.
 
 ### Voucher
 
-A code customers enter on the kiosk's payment screen. Vouchers can make a photo session free, or take a percentage or fixed amount off; they verify even when the booth is offline. Operators create vouchers in the dashboard to offer complimentary photo sessions -- useful for VIP customers, sponsors, or promotions.
+A code a guest enters on the kiosk's Payment screen. Four kinds: a **single** voucher created by hand (free session, fixed amount or percentage), a **batch** of up to 1000 6-character codes, an **online** 7-character code bought in the online session shop, and a **group code** of 8 characters from a central cashier. All verify even when the booth is offline.
 
-### Payment Gateway
+### Watermarked
 
-An integration that lets you accept payments from customers directly at the booth. In Indonesia Pix uses DOKU for QRIS payments at the kiosk; outside Indonesia it uses Stripe (QR payment, or a Stripe Terminal card reader such as the UX700). Hardware such as coin acceptors and keyboard-mode card readers is supported separately.
+A computer with no Pix Pro on an account that has none. It keeps running its booth, and every photo and print carries the Pixture watermark. A computer that loses contact with Pixture while its Pix Pro ends also turns watermarked, with the badge "Pix Pro ended, reconnect to check".
 
-### Frame Lab
-Customers design and pay for their own frame from a link or QR before their photo session (Marketing Studio > Custom Template). You set its price on each booth.
+## Related
 
-### Bonus Session
-A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Enabled on each booth in Marketing Studio.
-
-### Unused passes and devices
-The devices and passes you own that are not on a computer yet. The Devices page counts them at the top; put one on a computer with **Use a pass** or **Activate with Pix Pro**.
-
-### Active device
-A computer with a pass or Pix Pro active on it. Its photos, prints, and microsites are clean, and it can run your custom kiosk designs.
-
-### Watermarked device
-A computer on an account with no active device at all. It still runs the booth it is paired to, and every photo and print carries the Pixture watermark until a pass or Pix Pro is active on it.
-
-### Pass
-A 24 hour period of Pix Pro for one computer, activated from the kiosk's operator menu or the Devices page.
-
-### Pairing Code
-The 6-digit code generated on a booth's Device tab that links a kiosk computer to that booth. Replaces signing in on the kiosk.
-
-### Print Format
-A display-only Booth Pricing setting (standard, 2 inch cut, triple strip) that tells the payment screen how many pieces a printed sheet becomes.
-
-### Watermark
-The Pixture mark on every photo, print, and microsite from a computer on an account with no active device. It stops appearing on new photo sessions once a pass or Pix Pro is active on that computer.
-
-### Pix AI
-AI-generated backgrounds and effects for photo sessions, currently in beta. Uses credits; also available on Starter.
+- [Plans & Pricing](../pricing/plans.md)
+- [Devices & Billing](../dashboard/billing.md)
+- [Public Links](./public-links.md)

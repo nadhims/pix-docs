@@ -1,64 +1,106 @@
 ---
 sidebar_position: 3
 title: Billing FAQ
-description: Common questions about Pix Pro per device, moving Pix Pro between computers, cancellation, payment methods, and the free trial.
+description: Answers on adding and moving devices, what happens when Pix Pro ends, cancelling, invoices, the free trial, passes and AI credits.
 tags: [pricing, billing, faq]
 ---
 
 # Billing FAQ
 
-## Is Pix priced per account or per computer?
+## How do I add a device?
 
-Per computer. One Pix Pro subscription or one Day Pass activates exactly one computer running the Pix Desktop App. Three computers that all need Pix Pro need a subscription that covers three devices. Booths are free: create as many as you like and pair any Pix Pro computer to any of them.
+1. Open **Licenses** in the Pixture dashboard.
+2. Tap **Add more devices**.
+3. Set **How many devices?** and pick **Pix Pro (1 Day)**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**.
+4. Pay at checkout. When you add devices to a card subscription you already have, the dashboard shows **Confirm this charge** first.
 
-## How many computers can run at once?
+A spare subscription attaches itself to the next computer that checks in without Pix Pro. Passes wait in your pool until you use one on the kiosk.
 
-As many as your subscription covers. **Pix Starter** runs on one computer, watermarked: pairing a second is refused at the pairing code, though replacing the computer on a booth that already has one always works. The moment one device is active, on a Pix Pro subscription, a running Day Pass, or the free trial, the account is **Pix Pro**. A computer already paired stays paired if it falls past what your subscription covers, and cannot start a session until it gets Pix Pro; but once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+## How do I move Pix Pro to another computer?
 
-## Where do I manage plans?
+1. On **Licenses**, find the computer in the **Devices** table and tap **Deactivate**.
+2. Confirm with **Deactivate** (or keep it with **Keep Pix Pro**).
+3. Pair the new computer, or let a computer that is already paired check in. The next computer without Pix Pro takes the free place, usually within a few seconds when it is online.
 
-**Devices** in the dashboard. Each computer shows whether it is **Pix Pro**, **watermarked**, or **blocked**, with **Buy**, **Use a pass**, **Activate with Pix Pro**, **Deactivate** and **Cancel**. The top of the page counts the devices your subscription covers, how many are active, and the passes you have bought but not used.
+The free trial moves the same way. A Day Pass does not: see the next question.
 
-## Can I move Pix Pro to another computer?
+## What does Deactivate do to a Day Pass?
 
-Yes, from that computer's own operator menu on the kiosk, or by deactivating it from the **Devices** page: it frees up, and the next computer that checks in without Pix Pro claims it automatically. The computer it left is blocked until it gets Pix Pro of its own, and runs watermarked once your account holds no active device at all. Day Passes cannot be moved once they are running.
+It ends the pass. The dashboard says it plainly: "A day pass ends here. It cannot be moved or used again". Only deactivate a computer on a pass when you are done with it for the day.
 
-## What happens when I cancel?
+## What happens when Pix Pro ends on a computer?
 
-The computer keeps Pix Pro until the end of the period it has paid for. After that it is blocked while your account still has another active device, and watermarked once none are left. Nothing is deleted: templates, kiosk designs, photo sessions, and transactions stay, and the computer keeps running your own kiosk screens; what it loses is clean output and the payment screen.
+You are warned first. A Day Pass shows a notice on the kiosk idle screen 60 and 15 minutes before it ends. A subscription that will not renew warns 7 days and 1 day ahead by email and with a banner in the dashboard.
 
-## My computer says Watermarked. What now?
+When it ends, the kiosk shows a popup naming what ended (Day Pass, free trial or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Licenses page. Guests see "Please call the operator."
 
-Your account has no active device, so this is normal: Pix Starter runs one computer, watermarked. Put a pass or Pix Pro on it from **Devices**, or open the kiosk's operator menu and tap **Use a pass**.
+What the computer does next depends on your account:
 
-## My computer says Blocked. What now?
+- If another computer still has Pix Pro, this one is **Blocked**: it stays paired but cannot start a session until you deactivate another computer, use a pass on it or add a device.
+- If it was the last Pix Pro in the account, the account drops back to Pix Starter and the computer runs **Watermarked**.
 
-Every device you own is already active. Deactivate one on the **Devices** page: this computer picks up Pix Pro automatically on its next check-in, a few seconds when it is online. Or use a pass on it, or add another device. The computer stays paired the whole time, so it runs the moment Pix Pro lands on it.
+Nothing is deleted. Templates, kiosk designs, photos and transactions stay.
 
-## Am I warned before Pix Pro ends?
+## My payment failed. How long do I have?
 
-Yes. A Day Pass warns on the kiosk 60 and 15 minutes before it ends, a subscription that will not renew warns 7 days and 1 day ahead by email and on the Devices page, and a failed payment warns at once and leaves the computer running for three more days. The full table is in [Devices & Billing](../dashboard/billing.md).
+You get an email at once and the Licenses table shows "Pix Pro, payment failed". The computer keeps running Pix Pro for a 3-day grace period. Update the card under **Settings > Pixture billing > Update card** within those days; after that the computer is blocked until the payment goes through.
 
-## When am I billed?
+## How do I cancel?
 
-Pix Pro Monthly renews on the same date each month; Pix Pro Yearly renews once a year. Day Passes are one-off and never renew.
+- **Card subscription:** open **Settings > Pixture billing** and tap **Manage subscription**. The computer keeps Pix Pro until the end of the period you paid for.
+- **QRIS purchase in Indonesia:** there is nothing to cancel. It is prepaid and simply ends when the period is over.
 
-## What payment methods can I use?
+## Where are my invoices?
 
-Cards worldwide, and in Indonesia local methods such as QRIS at checkout. Device payments are separate from the payment gateway your customers use at the kiosk.
+**Settings > Pixture billing > Invoice history**, with **View** and **Download** for each payment.
 
-## Is there a free trial?
+## How do I change the card?
 
-Yes. Every organization can claim **one free 3-day Pix Pro trial** on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. The trial makes it a real active device, so while it runs your account is Pix Pro and a second paired computer is blocked until it gets its own. After three days the account goes back to Pix Starter unless you buy Pix Pro.
+**Settings > Pixture billing > Update card**. This applies to card subscriptions. QRIS purchases are paid at checkout and nothing is stored.
 
-## Do you charge a percentage of my photo session sales?
+## Do you take promo codes?
 
-No. Customer payments at the kiosk go through your own DOKU account (or your own hardware), and Pix takes 0%.
+Yes. The Indonesian checkout has a **Have a promo code?** field. When a personal offer is live, the **Licenses** entry in the sidebar shows a "% OFF" pill. Current promotions are listed on [pixture.io](https://pixture.io).
 
-## Why is the IDR price not the USD price converted?
+## Can I get a refund?
 
-IDR prices are set in rupiah so they stay stable when exchange rates move. The [Plans & Pricing](./plans.md) page lists both.
+Contact support from the dashboard's **Help** chat, or on WhatsApp at +62 851-2135-5870, with the computer name and the date of the charge.
 
-## I was charged and did not expect it
+## Which currency is my subscription in?
 
-Contact us within 7 days of the charge from the dashboard's **Help** chat or on WhatsApp at +62 851-2135-5870 with the computer name and date, and we will sort it out.
+US dollars internationally, rupiah in Indonesia. The currency follows your location at checkout. Rupiah prices are set in rupiah, not converted, so they do not move with the exchange rate.
+
+## How does the free trial work?
+
+Once per account: 3 days of Pix Pro on one computer, no card. Claim it from the "Try Pix Pro free for 3 days" popup or the bell menu in the dashboard, or from the kiosk's operator menu. While it runs your account is Pix Pro. If you deactivate the computer, the trial returns to your pool and the next computer that checks in takes it. It ends for good 3 days after you claimed it, and the account goes back to Pix Starter unless you have bought Pix Pro.
+
+## Can I pair a second computer on Pix Starter?
+
+No. Pix Starter runs one computer, and a second computer is refused at the pairing code. Replacing the computer on a booth that already has one works. Add a device, use a pass or start the free trial to run more than one computer.
+
+## The kiosk says "Device limit reached". What now?
+
+Every device on your subscription is already active. On **Licenses**, deactivate a computer you are not using, or tap **Add more devices**. This computer picks up Pix Pro on its next check-in. Or open the kiosk's operator menu and tap **Use a pass on this device**.
+
+## Can I buy passes ahead of an event?
+
+Yes. Buy as many as you need on **Licenses > Add more devices** with **Pix Pro (1 Day)**. They wait in your pool and the **Passes** card counts them. On the day, open the operator menu on each computer and tap **Use a pass on this device**. The 24 hours start from that moment.
+
+## Is there volume pricing?
+
+Yes, when you add several devices in one purchase. Tap **See volume pricing** in the **Add devices** modal to see the per-device price for each plan before you pay.
+
+## Do AI credits expire?
+
+Credits bought as a pack never expire. Credits from the monthly plan reset each month. Pix AI is available to beta accounts.
+
+## Do you take a share of my photo session sales?
+
+No. Guest payments at the kiosk go through your own payment gateway account or your own hardware. Pixture takes no share of them; your gateway's own fees apply.
+
+## Related
+
+- [Plans & Pricing](./plans.md)
+- [Devices & Billing](../dashboard/billing.md)
+- [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
+- [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)

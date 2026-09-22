@@ -1,69 +1,79 @@
 ---
 sidebar_position: 1
 title: Plans & Pricing
-description: Pix Starter (free, watermarked), Day Pass packs from $5 per computer per day, and Pix Pro at $40 per month or $25 per month billed yearly, per device, in USD and IDR.
+description: Pix Starter (free, one computer, watermarked), the Day Pass at $5 or Rp 85.000 per computer per day, and Pix Pro at $40 per month or $300 per year per computer.
 tags: [pricing, plans, starter, day-pass, pix-pro]
 ---
 
 # Plans & Pricing
 
-Every paid plan activates **one computer** running the Pix Desktop App. A device is not tied to a booth: pair the computer to whichever booth it is running today, and move Pix Pro between computers from the Devices page.
+Pixture is priced per computer, not per account. Booths are free profiles: create as many as you like in the Pixture dashboard. What you pay for is Pix Pro on each computer that runs the Pix Desktop App.
 
-Your account is **Pix Starter** while it has no active device and **Pix Pro** the moment one is active, whether that is a Pix Pro subscription, a running Day Pass, or the free trial. Pix Starter runs on **one computer**: pairing a second is refused at the pairing code, though replacing the computer on a booth that already has one always works. Once your account is Pix Pro, a computer past what your subscription covers stays paired but cannot start a session until you deactivate another computer on the Devices page, use a pass on it, or add devices to your subscription. Once every device is active, a brand new computer cannot pair at all until you free one up or add another, unless you hold an unspent pass, which lets it pair but leaves it blocked until you use one. A Pix Pro account never has a watermarked computer.
+Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** the moment one does, whether through a subscription, a running Day Pass or the free trial. You buy and manage everything on the **Licenses** page of the dashboard.
 
-Prices below are the list prices. The [pricing page](https://pixture.io/#home-pricing) shows any promotion currently running, and IDR prices are set in rupiah rather than converted.
+## Pix Starter (free)
 
-## Pix Starter -- Free
+Pix Starter is for trying Pixture and for booths that do not charge guests.
 
-Free to download. Every photo and print carries the Pixture watermark until a pass or Pix Pro is active on that computer. Not for paid events.
+- **One computer.** Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
+- **Watermarked output.** Every photo and every print carries the Pixture watermark.
+- **Unlimited booth profiles**, 2 templates and 1 UI project on the account.
+- **Pix Design and Marketing Studio are open to browse and try.** Saving your own designs needs Pix Pro; the dashboard offers **Start free trial** or **Buy Pix Pro** when you try to save.
+- **No payment screen.** Every photo session is free and the kiosk skips the Payment screen.
 
-No account is needed to try it: install the app, on the pairing screen tap **Try it without an account**, then choose one of the built-in frames and shoot. Create a free account to design your own frames and kiosk screens in Pix Design and Marketing Studio: every tool is open to try, though saving needs Pix Pro. Pix Starter pairs **one computer**, watermarked; pairing a second is refused at the pairing code until you put a pass or Pix Pro on one, and replacing the computer on a booth that already has one always works.
+You do not even need an account to try the kiosk: install the Pix Desktop App and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.
 
-## Day Pass -- from $5 (Rp 85.000)
+## Day Pass, "Pix Pro (1 Day)"
 
-Pix Pro features on one computer for **24 hours**. Sold in packs:
+**$5 or Rp 85.000 per computer per day.** Full Pix Pro on one computer for 24 hours from the moment you activate it.
 
-| Pack | Computers for the day | USD | IDR |
-|---|---|---|---|
-| **Solo** | 1 | $5 | Rp 85.000 |
-| **Duo Pack** | 2 | $8 | Rp 135.000 |
-| **Event Pack** | 4 | $14 | Rp 250.000 |
-| **Festival Pack** | 8 | $24 | Rp 400.000 |
+- Buy any quantity. Unspent passes wait in your pool; the **Passes** card on the Licenses page counts them.
+- Use a pass from the kiosk: open the operator menu and tap **Use a pass on this device**. A computer paired while you hold unspent passes stays blocked until you use a pass on it.
+- A pass ends when the computer is deactivated. It cannot be moved to another computer or used again.
+- Passes never renew.
 
-Rp 85.000 per computer per event day. Pay when you have a job. Day Passes never renew: buy them into your pool ahead of time and use them on the day, from the kiosk's operator menu or the Devices page. A running pass is Pix Pro for 24 hours on that one computer, so a second paired computer needs a pass or Pix Pro of its own.
-
-:::tip When to use a Day Pass
-Weekend markets, weddings, brand activations, and school events. If a computer runs more than about eight days a month, Pix Pro Monthly is cheaper.
+:::tip When a Day Pass fits
+Weddings, markets, brand activations and school events, where you pass the cost on to the client. If a computer runs more than about eight event days a month, Pix Pro Monthly is cheaper.
 :::
 
-## Pix Pro -- $40/month or $25/month billed yearly
+## Pix Pro Monthly, "Pix Pro (1 Month)"
 
-Everything Pixture does, on one Pix Pro computer:
+**$40 or Rp 850.000 per computer per month.**
 
-- Unlimited templates and the **Template Editor**
-- The **UI Editor** to design every kiosk screen
-- **Clean soft files** and the branded microsite
-- Photo session packages, extra prints, vouchers, bonus sessions, Frame Lab
-- Payment gateway (QRIS through DOKU) and hardware payments
-- Health monitoring, transactions, and per-currency reporting
+- Paid by card, it renews every month until you cancel.
+- In Indonesia, purchases through QRIS are prepaid for one month and do not renew. The dashboard shows this as "Prepaid, no auto-renewal".
 
-| Cycle | USD | IDR |
-|---|---|---|
-| **Monthly** | $40 per month | Rp 850.000 per month |
-| **Yearly** | $25 per month, billed **$300 per year** | Rp 6.500.000 per year |
+## Pix Pro Yearly, "Pix Pro (1 Year)"
 
-Yearly saves about 37% in USD and about 36% in IDR compared to paying monthly.
+**$300 per computer per year**, about $25 per month. In Indonesia **Rp 6.500.000 per year**. The dashboard marks it "Best Value" with a "Save 38%" badge.
 
-Adding several devices at once gives a volume discount, shown in the checkout.
+## Several computers at once
+
+Adding several devices in one purchase gives a volume discount. Open **Licenses > Add more devices**, set **How many devices?** and tap **See volume pricing** to see the per-device price for the Day Pass, Monthly and Yearly before you pay.
 
 ## Free 3-Day Trial
 
-Every organization can claim one free 3-day Pix Pro trial on one computer, no card required. Claim it from the trial card in the dashboard (the popup, or the bell menu), or from the kiosk's operator menu. It goes on the computer paired to the booth you pick. The trial makes it a real active device, so while it runs your account is Pix Pro and a second paired computer is blocked until it gets its own. See [Choose Your Plan](../getting-started/choose-plan.md).
+Every account can claim one free trial: 3 days of Pix Pro on one computer, no card needed.
 
-## Pix AI
+1. In the dashboard, tap **Claim free trial** on the "Try Pix Pro free for 3 days" popup, or open it from the bell menu. On the kiosk, the operator menu offers the same.
+2. Pick the booth. The trial goes on the computer paired to it.
 
-AI backgrounds and effects are in **beta** and use credits bought separately. Credits work on any plan, including Starter.
+While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Licenses page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.
 
-## Questions
+## Pix AI credits
 
-Moving Pix Pro between computers, cancellation, and payment methods are covered in the [Billing FAQ](./billing-faq.md). For a feature-by-feature table see [Feature Comparison](./feature-comparison.md).
+Pix AI is in beta and available to beta accounts. Every generated image costs 1 credit. Credits are shared by every booth in the account and work on any plan. Buy them under **Licenses > Pix AI credits > Manage credits**, as packs of 100, 400 or 1000 credits, or as a monthly plan.
+
+## How you pay
+
+- **Internationally:** card checkout in US dollars. Monthly and Yearly renew on the card; manage it under **Settings > Pixture billing**.
+- **In Indonesia:** DOKU checkout in rupiah with QRIS, bank transfer or a card. Nothing is stored, and QRIS purchases are prepaid.
+
+Prices above are list prices. Promotions running right now are shown on [pixture.io](https://pixture.io), and the Indonesian checkout has a **Have a promo code?** field.
+
+## Related
+
+- [Feature Comparison](./feature-comparison.md)
+- [Billing FAQ](./billing-faq.md)
+- [Devices & Billing](../dashboard/billing.md)
+- [Choose Your Plan](../getting-started/choose-plan.md)

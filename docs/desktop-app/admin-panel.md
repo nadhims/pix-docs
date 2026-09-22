@@ -1,43 +1,77 @@
 ---
-sidebar_position: 6
-title: Operator Menu & Admin Panel
-description: Open the kiosk's hidden operator menu, protect it with a PIN, and use its Camera, Printer, Capture, API, and Admin pages.
+sidebar_position: 11
+title: Operator Menu
+description: How to open the kiosk's hidden operator menu, protect it with a PIN, read its status footer and notices, and use each of its pages including the Admin Panel.
 tags: [desktop-app, admin, settings, operator]
 ---
 
-# Operator Menu & Admin Panel
+# Operator Menu
 
-The kiosk hides its settings behind an operator menu so customers never see them.
+Every booth-side setting sits behind a hidden operator menu so guests never see it. This page shows how to open it, what the Menu page itself tells you, and what each of its sub-pages does, with a link to the page that covers each in depth. The Admin Panel, the upload queue, print history and app controls are described in full here.
 
 ## Opening the Menu
 
-**Double-tap the top-right corner** of the kiosk screen (two taps within three seconds). If a **Menu Access PIN** is set for your organization (**Dashboard > Settings > Security**), enter it. Set a PIN on every booth in a public place.
+1. Tap the top-right corner of the screen twice within three seconds. The zone is 120 by 120 pixels and carries a faint lock icon. It works on Home, Tutorial, Payment, Template Selection, Capture, Pool Assignment, AI, Filter and Sharing.
+2. If the booth has a PIN, the **Enter Admin PIN** pad appears. Type the PIN. A wrong one shows "Incorrect PIN".
 
-The menu shows the booth name, the current **Pix version**, the update status, and five pages:
+Set the PIN in the dashboard under **Booths > booth > Settings > Menu PIN** (4 to 8 digits, **Set PIN**, **Change**, **Disable**). A booth without one shows the notice "Your admin menu is not PIN-protected. Set a PIN in Dashboard > Booths > Settings…". Set a PIN on every booth in a public place.
 
-| Page | What is there |
+On the Login screen, before pairing, five taps within two seconds on a hidden area open the Admin Panel directly.
+
+## The Menu Page
+
+The buttons, top to bottom:
+
+| Button | What it opens |
 |---|---|
-| **Camera Settings** | Camera device (Canon or webcam), digital zoom, Canon exposure controls, hand sign detection. See [Camera Settings](./camera-setup/camera-settings.md) |
-| **Printer Settings** | Printer device, media size, orientation, copies per session, print alignment, test print. See [Printer Setup](./printer-setup.md) |
-| **Capture Settings** | Countdown, session timing, and capture options that live on the kiosk |
-| **API Settings** | Coin key, local Hardware API, F13 behaviour. See [Hardware Payments](./hardware-payments.md) |
-| **Admin** | Upload queue, storage, logs, and app controls |
+| **Start Booth** | Back to the guest screens |
+| **Camera Settings** | Camera device, live view aids, Canon exposure, zoom, rotation, hand sign detection. See [Camera Settings](./camera-setup/camera-settings.md) |
+| **Printer Settings** | Printer, media size, orientation, copies, alignment, test print. See [Printer Setup](./printer-setup.md) |
+| **Capture Settings** | Video and 360 slow-mo settings for a running event. See [Event Video Modes](./event-video-modes.md) |
+| **Hardware API** | Local API, CASH-Interface2 F13, keyboard coin input. See [Hardware Payments](./hardware-payments.md) |
+| **Admin Panel** | IDs, start on boot, upload queue, print history, preflight check. See below |
+| **Use a pass on this device** | Only when the computer is watermarked or blocked. See [Licence on the Booth](./licence-on-the-booth.md) |
+| **Logout** | Unlinks the computer from the booth. Needs a double-click, plus the PIN if one is set. On an unpaired booth this reads **Pair to your Pixture account** instead |
+| **Exit App** | Closes the app |
+| **Check for Updates** / **Restart & Update** | See [Software Updates](./software-updates.md) |
 
-Most settings are saved on the device; templates, kiosk design, filters, and pricing come from the dashboard.
+### Footer and badge
 
-When the computer is watermarked or blocked, the menu also offers **Use a pass on this device**, **Activate with Pix Pro**, **Move Pix Pro from another computer**, and the free 3-day Pix Pro trial, so you can activate the computer at the venue without opening the dashboard. See [Device Management](../dashboard/device-management.md).
+The footer shows the booth name, the account email, the licence badge (**Pix Pro**, **Trial until …**, **Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pix v…". Support will ask for that version.
 
-## The Admin Page
+### Notices
 
-- **Upload queue** -- every photo session waiting to upload, with its state: Queued, Uploading, Done, Retrying, or Failed. Failed items can be retried or cleared.
-- **Storage** -- how much disk the kiosk is using. Photos and clips are kept for 7 days after they upload, then removed automatically. When disk space runs low the kiosk warns you here and on the start screen, with a **Free Up Space** button; below about 1 GB free it cleans up on its own. Uploaded photos are always safe in the cloud.
-- **Logs** -- copy recent logs for support.
-- **App controls** -- restart the app, leave kiosk mode, or unpair the device.
+The Menu page surfaces anything that needs you:
+
+- "Unpaired. Pair to use your own frames, screens and sharing." on a booth running without an account.
+- The missing-PIN notice above.
+- A notice that the booth is running the default layout rather than one of your UI projects.
+- **Storage low** with a **Free Up Space** button when free disk drops below 3 GB.
+- A clock banner when the computer's clock is more than 2 minutes off. Fix the clock; payments and licence checks depend on it.
+- A payment-failed banner when the card payment for Pix Pro did not go through.
+
+## The Admin Panel
+
+The header reads **Admin Settings**. From the top:
+
+- **Info strip**: the booth, organisation and device IDs. Support may ask for the device ID; it is also on the booth's Device tab in the dashboard.
+- **Start on boot**: launches the app when the computer starts, so a booth recovers from a power cut on its own.
+- **UPLOAD QUEUE**: every upload waiting to reach Pixture. Filter with the pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying**. **Process Now** runs the queue immediately. **Clean Storage** removes local copies that have uploaded. **Retry Failed** and **Clear Failed** appear when anything has failed. A line underneath shows cache and disk use. See [Offline Mode](./offline-mode.md).
+- **PRINT HISTORY**: recent sessions, each with a **Print** button to reprint. Use it after "Print issue — photo saved." or when a guest asks for another copy.
+- **Preflight Check**: runs the booth's own checks (camera, printer, connection) and reports what is not ready. Run it before opening.
+- **Back to Menu**.
 
 ## Leaving the Menu
 
-Tap **Back to booth**. The kiosk returns to the start screen; nothing in the menu is visible to customers.
+Tap **Start Booth**. The booth returns to the Home screen and nothing from the menu is visible to guests. A session that was running when you opened the menu is not affected by anything you changed; changes apply from the next session.
 
-:::tip Windowed mode for setup
-For first-time setup on a laptop it is easier to run the app windowed. The menu's app controls toggle kiosk fullscreen; the app returns to fullscreen automatically after a software update.
+:::tip
+Two taps top-right, PIN, **Admin Panel**, **Print** is the fastest reprint. Teach it to whoever staffs the booth.
 :::
+
+## Related
+
+- [Licence on the Booth](./licence-on-the-booth.md)
+- [Offline Mode](./offline-mode.md)
+- [Booth Management](../dashboard/booth-management.md)
+- [Software Updates](./software-updates.md)

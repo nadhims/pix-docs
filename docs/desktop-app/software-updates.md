@@ -1,71 +1,57 @@
 ---
-sidebar_position: 9
+sidebar_position: 12
 title: Software Updates
-description: How the Pix Desktop App auto-updater works and how to manage updates.
+description: How the Pix Desktop App updates itself, how to check for an update from the operator menu, and where to see which version a booth runs.
 tags: [desktop-app, updates, auto-updater]
 ---
 
 # Software Updates
 
-The Pix Desktop App includes a built-in auto-updater that keeps your booth running the latest version without manual intervention.
+The Pix Desktop App keeps itself current without you touching the booth. This page explains how the background update works, how to check for one by hand from the operator menu, where the version is shown, and where to read what changed. The current version is 1.1.115.
 
-## How Auto-Update Works
+## How Updates Happen
 
-1. On launch, the app checks the update server for a newer version.
-2. If an update is available, it downloads in the background while the booth continues operating.
-3. Once downloaded, a prompt appears offering to restart and apply the update.
-4. After restart, the new version is active.
+1. The app checks for a newer version on launch and periodically while it runs.
+2. When one is found, it downloads in the background while the booth keeps taking sessions.
+3. Once downloaded, the app restarts to apply it when the booth is idle, never in the middle of a photo session.
+4. The booth comes back on the Home screen on the new version, paired and configured as before.
 
-The entire process is designed to be non-disruptive. Downloads happen silently, and the restart prompt only appears when the booth is idle on the home screen -- never while you are using it.
+Nothing is reinstalled by hand and the booth settings, camera, printer and queue are untouched.
 
-<!-- Screenshot: Update available prompt on home screen -->
+## Checking by Hand
 
-:::tip
-Schedule a brief window before opening for the day to launch the app and let any pending updates install. This avoids update prompts during operating hours.
-:::
+If you want an update now rather than on the next check:
 
-## Checking for Updates Manually
+1. Open the operator menu with two taps on the top-right corner and enter the PIN if there is one.
+2. Tap **Check for Updates**.
+3. When an update is ready, the same button reads **Restart & Update**. Tap it to restart into the new version.
 
-If you want to check immediately rather than waiting for the automatic check:
+Do this before opening, not during a busy hour; the restart takes the booth off the Home screen for a moment.
 
-1. Open the **Admin Panel**.
-2. Select **Check for Updates**.
-3. If an update is available, you can download and install it from there.
+## Which Version a Booth Runs
 
-## Update Behavior by Platform
+- **On the booth**: the operator menu footer shows "Pix v…".
+- **In the dashboard**: the **Health** page and the **Licenses** table (its **Version** column) show the version each booth last reported, so you can see from anywhere which booths are behind.
 
-### macOS
+Some features need a minimum version: Studio mode needs 1.1.98 or newer, online voucher packages 1.1.101 or newer, event video modes 1.1.102 or newer, and every currency 1.1.106 or newer. The dashboard warns you on the booth's UI Project tab when Studio mode needs an update.
 
-Updates are delivered as signed `.dmg` packages. The auto-updater downloads, verifies the code signature, and replaces the running application. A restart is required to apply.
+## Platform Notes
 
-### Windows
+- **macOS**: updates are signed and notarised. The app replaces itself and restarts.
+- **Windows**: the update installs and relaunches the app on its own.
 
-Updates are delivered as `.exe` installers. The auto-updater downloads and launches the installer when the user accepts the update. The app closes, installs, and relaunches automatically.
-
-:::info
-Both platforms verify the update's integrity before applying it. If a download is corrupt or tampered with, the update is discarded and retried on the next check.
-:::
-
-## Version Information
-
-To check the currently running version:
-
-- Open the **Admin Panel** -- the version number is displayed at the bottom of the panel.
-
-The current version is useful when reporting issues to Pix support.
-
-## Staying Up to Date
-
-Updates include:
-
-- **Bug fixes** -- stability and reliability improvements
-- **New features** -- new capture modes, sharing options, and UI enhancements
-- **Security patches** -- important security updates
+Both platforms verify the download before applying it; a damaged download is discarded and fetched again on the next check.
 
 :::caution
-Avoid running outdated versions for extended periods. Older versions may not be compatible with the latest Pix API changes, which could cause sync or upload failures.
+Do not leave a booth on an old version for months. Newer dashboard features assume a current app, and uploads or sync can fail on a version that is far behind.
 :::
 
 ## Release Notes
 
 What changed in each version is listed on the [Release Notes](/releases) page.
+
+## Related
+
+- [Operator Menu](./admin-panel.md)
+- [Installation](./installation.md)
+- [Troubleshooting](./troubleshooting.md)

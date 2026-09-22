@@ -1,77 +1,73 @@
 ---
 sidebar_position: 2
 title: Multi-Booth Setup
-description: How to create and manage multiple photobooth stations from a single Pix account.
+description: Run several booths from one Pixture account, group them into a Multi-Booth with shared settings, a shared queue and a central cashier, and license one computer per booth.
 tags: [guides, multi-booth, management]
 ---
 
 # Multi-Booth Setup
 
-Pix supports running multiple booths under one account. Each booth has its own templates, settings, and photo session history -- but you manage them all from a single Pix Dashboard.
+One Pixture account can run any number of booths. Each booth is a free profile with its own templates, kiosk design, pricing and history. When several booths work together at one venue, a **Multi-Booth** group lets you set them up once, share one queue and sell sessions from one cashier. At the end you have a group of booths that share settings, each paired to its own computer with its own Pix Pro.
 
-:::info Pix Pro is per computer
-Plans are bought per computer, not per account. Booths cost nothing: create as many as you like. Every computer that needs Pix Pro features needs its own Pix Pro subscription or Day Pass. Pix Starter runs on **one computer**: while your account has no active device, pairing a second computer to a different booth is refused at the pairing code (replacing the computer on a booth that already has one always works). Add a device, a pass, or start the free trial to run more than one computer; once one device is active, a computer past what your subscription then covers is blocked until it gets one. Move Pix Pro between computers from **Devices**.
-:::
+## Before you start
 
-## Step 1: Create Your Booths
+- One computer per booth. A booth can only be paired to one computer, and a computer to one booth.
+- Pix Pro is per computer. Each computer in the group needs its own place on your subscription or a Day Pass. See [Plans & Pricing](../pricing/plans.md).
+- Group codes for a central cashier need the Pix Desktop App 1.1.102 or newer on every booth.
 
-1. Open the **Pix Dashboard** and go to **Booths**
-2. Click **Add Booth** and give it a descriptive name (e.g., "Mall Kiosk 1", "Cafe Location")
-3. Repeat for each fixed location where you're running a booth
+## Step 1: Create the group
 
-:::tip
-Name booths by their location -- it makes monitoring much easier when you're managing several kiosk locations.
-:::
+1. Open **Booths** in the Pixture dashboard and tap **+ New Booth**.
+2. Switch to the **Multi-Booth** tab.
+3. Enter a **Name** for the group and set **How many photo booths?**.
+4. Create the group. It appears in the Booths list with the type Multi-Booth, and each booth inside it is a normal booth.
 
-<!-- Screenshot: Creating a new booth in Pix Dashboard -->
+To add booths later, open the group and tap **+ Add booths**. **Rename** changes the group name.
 
-## Step 2: Assign Templates to Each Booth
+## Step 2: Set up the group once
 
-Each booth can have its own set of templates, letting you offer different photo layouts at different locations.
+Open the group from the Booths list. It has six tabs.
 
-1. Go to **Pix Design** in the Pix Dashboard
-2. Select a template and open its details
-3. Under **Booth Assignments**, choose which booths should use this template
-4. Repeat for each template you want to assign
+1. **Photo Booths**: the booths in the group and their status.
+2. **Templates**: pick the templates every booth in the group offers.
+3. **UI Project**: pick the kiosk design for the group.
+4. **Queue**: tap **Set up shared queue** to run one queue for the whole group, then **Open TV view** to show it on a screen at the venue.
+5. **Cashier**: see the next step.
+6. **Settings**: the pricing form, the same as a single booth's Pricing tab.
 
-A single template can be assigned to multiple booths, or you can give each booth a unique set.
+Tap **Save for all booths** to push the tabs' settings to every booth in the group.
 
-:::info
-Templates are managed centrally in Pix Design and pushed to booths via the CMS. Changes sync automatically the next time the desktop app refreshes.
-:::
+## Step 3: Choose how guests pay
 
-## Step 3: Log In to Each Desktop App
+On the **Cashier** tab, **How guests pay** has two options.
 
-On each physical booth computer:
+- **Pay at the booth**: each kiosk shows its own Payment screen, as a single booth does.
+- **Central cashier**: guests pay one person at a counter and receive a code. Add what the cashier sells under **Products** with **Add product**. Each sale produces an 8-character group code that works at any booth in the group. On a Central Cashier booth the kiosk opens the Payment screen straight on the code step, and the code box accepts codes of 6 to 8 characters.
 
-1. Open the **Pix Desktop App**
-2. Log in with your account credentials
-3. When prompted, **select the correct booth** from the list
-4. The app loads that booth's templates, settings, and home layout
+## Step 4: Pair one computer per booth
 
-Each desktop app instance is tied to one booth at a time. Make sure you pick the right one during login.
+1. Open each booth from the group's **Photo Booths** tab and go to its **Device** tab.
+2. Tap **Generate code**, then enter the code in the Pix Desktop App on that booth's computer.
+3. Check the licence badge in the kiosk's operator menu. It should read **Pix Pro** or **Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Licenses > Add more devices**, or use a pass on it.
 
-:::caution
-Double-check the booth name after login. A booth can only be paired to one computer at a time, so two kiosks can never report as the same booth and analytics will be inaccurate.
-:::
+## Regions for many locations
 
-<!-- Screenshot: Booth selection screen in Desktop App -->
+If you run booths in several places, give each booth a region so you can filter by it.
 
-## Step 4: Monitor All Booths from Dashboard
+1. Open the booth and go to **Settings > Booth Info**.
+2. Under **Region**, tap **+ New**, name it in **Create Region**, then **Save Changes**.
 
-The Pix Dashboard home screen gives you a live overview of all active booths:
+The Booths list, the Dashboard and Health pages filter by region with **All Regions**.
 
-- **photo session counts** for each booth in real time
-- **Upload status** -- see if any booth has pending uploads
-- **Revenue** -- track per-booth earnings if you charge customers
+## Tips
 
-Click any booth card to drill into its photo sessions, gallery, and analytics.
+- Name booths and groups by venue or position ("Hall A left"). Labels on the computers themselves save confusion when you set up several before shipping them out.
+- Get one booth fully working, then copy its settings to the others with **Save for all booths**.
+- Each location needs its own reliable internet. Two booths at one venue can share a connection; two venues cannot.
 
-<!-- Screenshot: Dashboard home showing multiple active booths -->
+## Related
 
-## Tips for Managing Multiple Locations
-
-- **Label your hardware.** Put the booth name on each laptop with tape, especially if you're configuring several before shipping them out to their locations.
-- **Plan connectivity per location.** Each site needs its own reliable connection -- mall Wi-Fi, cafe Wi-Fi, or a dedicated mobile hotspot. Don't assume one connection can serve multiple locations.
-- **Stagger setup.** Get one location fully working before starting the next -- it's easier to troubleshoot one at a time.
-- **Arrange a local point of contact** at each location (venue staff on-site) for basic issues like paper jams, plus a regular visit schedule of your own for maintenance and restocking.
+- [Booth Management](../dashboard/booth-management.md)
+- [Booth Pricing](../dashboard/booth-pricing.md)
+- [Sharing One Printer Between Booths](./shared-printer.md)
+- [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
