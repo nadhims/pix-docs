@@ -68,7 +68,7 @@ When running several booths, keeping a consistent look builds professionalism:
 - **Standardize the home layout.** Assign the same UI project to several booths from each booth's **UI Project** tab in the Pix Dashboard.
 
 :::caution
-If you want unique branding per booth (e.g., different sponsors at different locations), create separate templates and splash screens for each. Don't reuse assets that contain another location's sponsor logo.
+If you want unique branding on each booth (e.g., different sponsors at different locations), create separate templates and splash screens for each. Don't reuse assets that contain another location's sponsor logo.
 :::
 
 <!-- Screenshot: Multiple booths with consistent branding -->

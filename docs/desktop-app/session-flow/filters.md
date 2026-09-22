@@ -66,7 +66,7 @@ This lets you curate location-specific filter sets -- for example, only warm ton
 
 ## Enabling Filters
 
-Filters are enabled per booth from the Pix dashboard:
+Filters are enabled on each booth from the Pix dashboard:
 
 1. Open your booth settings.
 2. Toggle **Enable Filters** on.

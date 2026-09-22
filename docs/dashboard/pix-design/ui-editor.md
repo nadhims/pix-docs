@@ -37,7 +37,7 @@ Save publishes the design. Paired booths pick up changes on their next check-in,
 
 ## Plans
 
-The UI Editor is a Pix Pro feature. On Starter you can open the editor and create one project, but only booths with a Pix Pro or Day Pass licence can run a custom design; Starter booths run the standard design.
+Every plan can use the UI Editor. On Starter you can open the editor and design every screen to try, though saving needs Pix Pro. The payment screen stays off until the computer runs Pix Pro.
 
 :::tip Preview at booth size
 Design at the kiosk's real resolution (most booths are 1920x1080 landscape) and test on the actual screen; touch targets that look fine on a laptop can be small on a 24-inch display.

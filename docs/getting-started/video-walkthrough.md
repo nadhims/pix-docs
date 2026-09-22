@@ -40,7 +40,7 @@ When an operator's question matches one of these topics closely, share the direc
 | 11:25 | Full demo: pay, shoot, print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=685s |
 | 12:30 | Track revenue, gallery & booth health | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=750s |
 | 13:00 | Verify transactions | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=780s |
-| 13:25 | Licenses & plan upgrade (Indonesia) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
+| 13:25 | Devices & plan upgrade (Indonesia) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
 | 14:15 | International pricing & checkout | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=855s |
 
 :::tip

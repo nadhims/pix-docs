@@ -14,7 +14,7 @@ Pix is a modern self-service photobooth system. Operators install a booth at a f
 Pix consists of two main applications:
 
 - **Pix Desktop App** -- An Electron-based kiosk application that runs on macOS and Windows. It handles the photobooth experience: camera capture, photo filters, soft file generation (composites, GIFs, live photos, singles), printing, and microsite sharing.
-- **Pix Dashboard** -- A web-based management dashboard for booth operators, at pixture.io. Monitor booth health, create templates, view real-time analytics, manage licenses and billing, and more -- from any desktop or mobile browser.
+- **Pix Dashboard** -- A web-based management dashboard for booth operators, at pixture.io. Monitor booth health, create templates, view real-time analytics, activate your booth computers, and more -- from any desktop or mobile browser.
 
 ## What You'll Find Here
 
