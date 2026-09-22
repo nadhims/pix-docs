@@ -90,12 +90,22 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          to: '/docs/tutorials/overview',
+          label: 'Tutorials',
+          position: 'left',
+        },
+        {
+          to: '/releases',
+          label: 'Release notes',
+          position: 'left',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
         {
           href: 'https://pixture.io',
-          label: 'Go to Pix',
+          label: 'Go to Pixture',
           position: 'right',
           className: 'navbar-site-link',
         },

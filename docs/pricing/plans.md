@@ -17,8 +17,8 @@ Pix Starter is for trying Pixture and for booths that do not charge guests.
 
 - **One computer.** Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
 - **Watermarked output.** Every photo and every print carries the Pixture watermark.
-- **Unlimited booth profiles**, 2 templates and 1 UI project on the account.
-- **Pix Design and Marketing Studio are open to browse and try.** Saving your own designs needs Pix Pro; the dashboard offers **Start free trial** or **Buy Pix Pro** when you try to save.
+- **Unlimited booth profiles**, two ready-made print templates and the default kiosk design.
+- **Pix Design is open to try.** Creating or saving your own designs needs Pix Pro; the dashboard offers **Start free trial** or **Buy Pix Pro** when you try. Marketing Studio needs Pix Pro.
 - **No payment screen.** Every photo session is free and the kiosk skips the Payment screen.
 
 You do not even need an account to try the kiosk: install the Pix Desktop App and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.

@@ -18,7 +18,7 @@ By the end of this page the Pix Desktop App is installed on your booth computer,
 ## Download
 
 1. Open [pixture.io/download](https://pixture.io/download).
-2. Pick the installer for your computer: the **macOS** DMG for **Apple Silicon** or **Intel**, or the **Windows** installer. Choose the Apple Silicon build for any M-series Mac; it includes native video and GIF encoding.
+2. Pick the installer for your computer: the **macOS** DMG (one universal build that runs on Apple Silicon and Intel Macs) or the **Windows** installer. On Apple Silicon Macs the app runs natively, including video and GIF encoding, so Rosetta is not needed.
 
 ## Install on macOS
 

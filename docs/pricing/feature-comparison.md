@@ -13,10 +13,10 @@ Pix Pro is per computer. A computer on a Day Pass has exactly the same features 
 |---|---|---|
 | **Computers** | One | One per device you add; add as many as you need |
 | **Watermark on photos and prints** | Yes, on every photo and print | None |
-| **Templates** | 2 on the account | Unlimited |
-| **UI projects** (kiosk designs) | 1 on the account | Unlimited |
-| **Pix Design saving** | Browse and try; saving needs Pix Pro | Yes |
-| **Marketing Studio** | Browse and try; saving needs Pix Pro | Yes |
+| **Templates** | Two ready-made templates | Unlimited, plus your own designs |
+| **UI projects** (kiosk designs) | The default kiosk design | Unlimited, plus your own designs |
+| **Pix Design** | Open to try; creating and saving needs Pix Pro | Full |
+| **Marketing Studio** | No | Yes |
 | **Frame Lab** (guests design their own frame) | No | Yes |
 | **Payments at the booth and vouchers** | No, the Payment screen is skipped and every session is free | Payment gateway, hardware payments, packages, extra prints, tax and fees, vouchers |
 | **Online session shop** | No | Yes |

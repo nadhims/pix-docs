@@ -135,7 +135,7 @@ The paid tier, bought per computer as a Day Pass, monthly or yearly. Clean photo
 
 ### Pix Starter
 
-The free tier. One computer, watermarked photos and prints, 2 templates and 1 UI project, no Payment screen. Pix Design and Marketing Studio are open to try; saving needs Pix Pro.
+The free tier. One computer, watermarked photos and prints, no Payment screen. It comes with two ready-made templates and the default kiosk design. Pix Design is open to try, but creating or saving your own designs needs Pix Pro. Marketing Studio needs Pix Pro.
 
 ### Pix AI preset, credit
 
