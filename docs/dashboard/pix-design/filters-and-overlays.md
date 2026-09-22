@@ -44,7 +44,7 @@ By default a booth offers every filter, built-in and custom. To narrow it:
 
 ### What the guest sees
 
-The Filter screen comes after capture (and after the AI screen on beta accounts). The **Filter Strip** block lists the booth's filters as cards, in the grid you shaped in the UI Editor, and the **Filter Preview** block shows the guest's photo with the chosen filter applied. The screen can be turned off with **Enabled in session flow**, in which case photos go out unfiltered. See [UI Editor](./ui-editor.md#filter) and [Filters on the kiosk](../../desktop-app/session-flow/filters.md).
+The Filter screen comes after capture. The **Filter Strip** block lists the booth's filters as cards, in the grid you shaped in the UI Editor, and the **Filter Preview** block shows the guest's photo with the chosen filter applied. The screen can be turned off with **Enabled in session flow**, in which case photos go out unfiltered. See [UI Editor](./ui-editor.md#filter) and [Filters on the kiosk](../../desktop-app/session-flow/filters.md).
 
 :::tip
 A brand look usually needs one or two filters, not fourteen. Assign a short set per booth so the Filter screen stays quick to use.

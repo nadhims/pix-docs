@@ -39,7 +39,7 @@ Free sessions are a switch, never a price of 0. The form refuses 0 and tells you
 | **Group session price** | Switch on to sell four sessions as one package, with its own Prints included |
 | **Additional session price** | Switch on to let a guest add sessions on top of a package, at this price each |
 
-Every print count on this tab is a number of **sheets**. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the guest, so keep Prints included at 1 and set Print format to 2 inch cut; the payment screen then reads "2 Prints". Setting the count to 2 would print two sheets.
+Every print count on this tab is a number of **sheets**. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the guest, so keep Prints included at 1 and set Print format to 2 inch cut; the payment screen then shows two prints. Setting the count to 2 would print two sheets.
 
 Packages need a payment method that can charge a variable amount. A QR gateway or Stripe can; a fixed-price coin box cannot. See [Hardware Payments](../desktop-app/hardware-payments.md).
 

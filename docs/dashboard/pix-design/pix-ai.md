@@ -9,10 +9,7 @@ tags: [dashboard, pix-design, pix-ai, beta]
 
 **Pix AI** turns a guest's photo into a portrait in a chosen look: a film still, a painted portrait, an anime frame. You pick the looks (presets) your booths offer, and the guest picks one. It is available to beta accounts. Once Pix AI is on for your account, a **Pix AI (Beta)** card appears in the Pix Design hub, a **Pix AI credits** card on the Licenses page, and a credits line in the account menu.
 
-Guests meet Pix AI in two places:
-
-- **On the booth.** When the AI screen is on in the booth's UI project, it comes right after capture, before the Filter screen. The guest chooses a look and the styled photos go on to the print and the share page.
-- **On the share page.** When you sell AI portraits on a booth, the guest's share page carries a banner to an AI portrait shop. The guest picks one photo and one look, pays through your payment gateway, and receives the portrait as a download, or as a print collected at the booth with a pickup code. See [Sell AI portraits](../../tutorials/sell-ai-portraits.md).
+Guests meet Pix AI on the share page. When you sell AI portraits on a booth, the guest's share page carries a banner to an AI portrait shop. The guest picks one photo and one look, pays through your payment gateway, and receives the portrait as a download, or as a print collected at the booth with a pickup code. See [Sell AI portraits](../../tutorials/sell-ai-portraits.md). A booth-side AI screen right after capture is still being rolled out; when it reaches your booths, guests will be able to pick a look at the kiosk as well.
 
 Each generated image costs 1 credit.
 
@@ -35,8 +32,8 @@ Each tile has a booth picker. Tick the booths that should offer the look; a look
    ![Browse AI presets modal with tick marks on presets and Add](/img/docs/pix-design-ai-browse-modal.webp)
 
 2. Search or scroll the catalogue. Presets already on your shelf are marked.
-3. Tick the looks you want. The footer counts your picks; **Add** and **Remove** adjust the shelf.
-4. Click **Apply changes**. **Cancel** drops the ticks.
+3. Tick the looks you want.
+4. Click **Add**.
 
 Pixture authors and adds presets over time, so check back for new looks.
 
@@ -52,11 +49,11 @@ The result appears in the frame after a short wait, usually under a minute, so y
 
 ### Output shape
 
-Each preset has its own shape, and **Output shape** lets you set one for your account, for example 3:4 for portrait prints or 1:1 for square stickers. Changing the shape never changes the credit cost.
+**Output shape** sets the shape of the generated images for your account.
 
 ### Recent generations
 
-The latest images generated for your account, from booths, the share page and tests, with the preset used. Useful for checking what guests are getting.
+The latest images generated for your account, from the share page and your tests, with the preset used. Useful for checking what guests are getting.
 
 ## Credits
 
@@ -72,7 +69,7 @@ Credits are shared by every booth in your account. Open **Licenses > Pix AI cred
 The account menu at the bottom of the sidebar shows how many credits are left and a **Top up credits** shortcut, so you notice a low balance without opening Licenses.
 
 :::caution
-Generations need credits in the balance, on the booth and on the share page alike. Top up before an event rather than during it.
+Generations need credits in the balance. Top up before an event rather than during it.
 :::
 
 ## Selling AI Portraits on the Share Page

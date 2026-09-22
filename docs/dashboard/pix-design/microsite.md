@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, microsite, sharing]
 
 # Microsite (Share Page)
 
-Every photo session gets its own page on pixture.io. The guest scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo, each with a download button, under your organisation's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
+Every photo session gets its own page on pixture.io. The guest scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo, each with a download button, under your organization's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
 
 ![Microsite page with the Page, Header, Buttons, Promo banner and Menu links sections, the font picker, background and Save to booths](/img/docs/pix-design-microsite.webp)
 
@@ -16,7 +16,7 @@ Every photo session gets its own page on pixture.io. The guest scans the QR code
 The link looks like `pixture.io/s/…` and is unique per session. It shows:
 
 - The composite (the print layout with the guest's photos), the single photos, the GIF and the live photo, as far as the booth's [Output Settings](../booth-management.md) allow.
-- Your organisation logo from **Settings > General**, and the header, colours, buttons and links you set here.
+- Your organization logo from **Settings > General**, and the header, colours, buttons and links you set here.
 - The promo popup, if you turned it on.
 - On beta accounts with an AI portrait price set, a banner that leads to the AI portrait shop. See [Pix AI (Beta)](./pix-ai.md).
 
@@ -44,7 +44,7 @@ Below the sections sit the **font picker**, **Custom font (optional)** for a bra
 
 ### Save to booths
 
-The share page design is held per booth. **Save to booths** opens a picker: "This microsite design applies to the booths you pick." Choose the booths and confirm. A venue with its own branding can have its own share page while the rest of your booths keep another design.
+The share page design is held per booth. **Save to booths** opens a booth picker. Choose the booths and confirm. A venue with its own branding can have its own share page while the rest of your booths keep another design.
 
 ### Show promo popup again
 

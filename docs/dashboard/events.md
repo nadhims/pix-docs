@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: Events
-description: Book your booths for a wedding, expo or festival with their own dates, pricing, templates and a public album. An event runs itself from creation to the day after its last date.
+description: Book your booths for a wedding, expo or festival with their own dates, pricing, templates and a public album, and let the event run itself from creation to the day after its last date.
 tags: [dashboard, events, album]
 ---
 
 # Events
 
-An **event** is a booking pointed at your booths: a set of dates, a client and a venue, with its own pricing, templates, kiosk design and a public album of everything captured. The event runs itself. It is **ONGOING** from the moment you create it when today falls within its dates, it ends by itself the day after its last date, and its booths follow the dates plus one night of grace, so a party that runs past midnight still counts. There is no Start or End button.
+An **event** is a booking pointed at your booths: a set of dates, a client and a venue, with its own pricing, templates, kiosk design and a public album of everything captured. The event runs itself. It is **ONGOING** from the moment you create it, it ends by itself the day after its last date, and its booths follow the dates plus one night of grace, so a party that runs past midnight still counts. There is no Start or End button.
 
 ![Events page with one ongoing event card](/img/docs/events-list.webp)
 
@@ -28,7 +28,7 @@ Each event is a card with its cover photo, dates and status. The bar above it ha
 | **Event Name**, **Client**, **Venue** | Shown in the header and searchable in the list |
 | **Event date**, **End date** | One day or a range |
 | **Start time**, **End time** | The hours shown on the event page |
-| **Booths** | Tick the booths that run this event. A booth already paired to a permanent kiosk is hidden unless it has run an event before |
+| **Booths** | Tick the booths that run this event |
 | **Pay Per Session** | On: guests pay at the kiosk with the **Session price**, **Double session price**, **Group session price** and **Additional session price** you enter here. Off: every session is free, for a hosted wedding or a sponsored booth |
 | **Payment gateway** | The gateway that takes this event's payments. Leave it on the organization default unless the client needs another |
 | **Kiosk UI** | The kiosk design every booth shows during the event |
@@ -38,7 +38,7 @@ Each event is a card with its cover photo, dates and status. The bar above it ha
 
 ![Event page: name, date, ONGOING chip, FREE FOR GUESTS badge, Link Sharing switch, overview cards, Album, Setup and Report tabs](/img/docs/event-detail.webp)
 
-The header shows the name, dates and times, the status chip (**ONGOING** while today is within the dates, **Ended** afterwards), a **Paid sessions** or **FREE FOR GUESTS** badge, "for" followed by the client's name, the venue and **Edit**.
+The header shows the name, dates and times, the status chip (**ONGOING** from creation, **Ended** after the last date), a **Paid sessions** or **FREE FOR GUESTS** badge, "for" followed by the client's name, the venue and **Edit**.
 
 The overview cards count Sessions, Prints, Revenue and Booths, show the upload queue (Uploaded, Uploading, then "All photos uploaded"), the **Link Sharing** switch with the album URL and **Copy**, and recent activity.
 

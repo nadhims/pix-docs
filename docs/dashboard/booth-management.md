@@ -89,7 +89,7 @@ Pair, rename, unlink or remove the computer. See [Devices and Pairing](./device-
 | **Output Settings** | **Singles Upload**, **GIF Upload**, **Live Photo Upload**, **Print Output**, then **Save Output Settings**; a **GIF overlay** picker with its own **Save**. Marked Pix Pro on Starter |
 | **Payment Gateway** | **Active Gateway**: Organization Default or one gateway from Settings, then **Save** |
 | **Booth Info** | Booth Name with **Rename**; Region (**No Region**, or **+ New** to create one), then **Save Changes** |
-| **Currency** | **Same as organization** or **Different for this booth**, then **Save Currency**. No conversion: a booth reports in its own currency. Anything other than rupiah needs Stripe; DOKU, Midtrans and Xendit take rupiah only |
+| **Currency** | **Same as organization** or **Different for this booth**, then **Save Currency**. See [Booth Pricing](./booth-pricing.md#currency) |
 | **Menu PIN** | 4 to 8 digits that lock the kiosk's operator menu: **Set PIN**, **Change**, **Disable** |
 | **Import Transactions** | **Download CSV Template**, drop a .csv or .xlsx (10 MB, 10,000 rows), **Confirm Import**. **Delete All Imported Data** undoes it |
 | **Danger Zone** | **Deactivate Booth**, the same two-step delete as the list |

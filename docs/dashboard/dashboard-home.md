@@ -83,7 +83,7 @@ Open a booth from the Dashboard, for example from the Top Booth Revenue list or 
 When a booth runs its first photo session, the page shows the banner "Your booth is live" with a **View gallery** link. From then on the cards fill up as sessions arrive.
 
 :::tip Reading an empty Dashboard
-A brand new account shows zeros and the setup banner. Nothing is wrong: the cards only count sessions that a paired booth has uploaded. Pair a computer, run one test session, and the first numbers appear within a minute.
+A brand new account shows zeros and the setup banner. Nothing is wrong: the cards only count sessions that a paired booth has uploaded. Pair a computer, run one test session, and the first numbers appear.
 :::
 
 ## Related

@@ -7,7 +7,7 @@ tags: [dashboard, devices, pairing]
 
 # Devices and Pairing
 
-A **device** is the computer running the Pix Desktop App. Each computer is paired to exactly one booth, with a one-time code rather than a login, so no password is ever typed on a machine in a public place. Everything about the computer lives on the booth's **Device** tab.
+A **device** is the computer running the Pix Desktop App. Each computer is paired to exactly one booth with a code from the dashboard. Everything about the computer lives on the booth's **Device** tab.
 
 ![Booth Device tab before pairing: Device card with Bind existing device, and Pairing & access with Generate code](/img/docs/booth-device-tab-unpaired.webp)
 
@@ -34,7 +34,7 @@ On a Pix Pro account, a spare place on your subscription attaches itself at this
 
 | Field or button | What it is |
 |---|---|
-| Name | Click **Rename device** to name it by place ("Mall Kiosk PC 2"); Health and Licenses list it by this name |
+| Name | Click **Rename device** to name it by place ("Mall Kiosk PC 2"); Licenses lists it by this name |
 | Fingerprint | The computer's hardware id, with a copy button |
 | Registered, Last seen | When it was paired and when it last checked in |
 | **Bind existing device** | Shown only while nothing is paired: attach a computer that is already registered on your account |
@@ -63,7 +63,7 @@ The booth's settings live in the dashboard, not on the computer, so the new mach
 
 ## One Computer per Booth
 
-Two computers cannot be paired to the same booth at once. Pairing a second computer takes the place of the first.
+Two computers cannot be paired to the same booth at once. **Unlink** the first before you pair the next.
 
 ## When Pairing Is Refused
 
@@ -72,7 +72,7 @@ Two computers cannot be paired to the same booth at once. Pairing a second compu
 - **Event booths** are never refused or blocked: they run watermarked outside a live event and the event covers them on the day. See [Events](./events.md).
 
 :::caution No licence moves from the kiosk
-Taking Pix Pro off one computer and giving it to another happens only on the dashboard: **Deactivate** or **Unlink** the first, and the next computer that checks in picks it up. The kiosk's operator menu can use a pass, start the trial or activate a spare place, but only for the computer it runs on.
+Taking Pix Pro off one computer and giving it to another happens only on the dashboard: **Deactivate** or **Unlink** the first, and the next computer that checks in picks it up. The kiosk's operator menu can use a pass, but only for the computer it runs on.
 :::
 
 ## Related

@@ -48,7 +48,7 @@ Deleting does not erase a photo at once. It disappears from the Gallery and from
 
 ## Consented Photos
 
-When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-studio.md), guests who tap **Yes, I agree** are marked in the Gallery, so you can find photos you are allowed to reuse without asking twice. Performance counts them as Consented photos.
+When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-studio.md), the photos of guests who tap **Yes, I agree** are collected in the gallery below the consent settings on the Content tab, so you can find photos you are allowed to reuse without asking twice. Performance counts them as Consented photos.
 
 ## Photos of an Event
 

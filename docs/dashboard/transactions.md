@@ -15,7 +15,7 @@ tags: [transactions, payments, export, excel]
 
 | Control | What it does |
 |---|---|
-| Search | Matches the booth, template, voucher code or event name ("Search booth, template...") |
+| Search | Matches the booth or template ("Search booth, template...") |
 | **All Booths** | Limits the list to one booth |
 | **Day / Week / Month / Custom** | The period, or your own start and end dates |
 | "Showing" pills | Only on accounts whose booths trade in more than one currency. Pick a currency; totals are never combined or converted |
@@ -36,7 +36,7 @@ tags: [transactions, payments, export, excel]
 
 ## Reading a Row
 
-Each row shows when the payment happened, the booth, the template, the package, the amount and how it was paid: your QR gateway, a voucher, coin or card hardware, or free. Rows captured during an event carry an event chip, so one search on the event name pulls out the client's takings.
+Each row shows when the payment happened, the booth, the template, the package, the amount and how it was paid: your QR gateway, a voucher, coin or card hardware, or free. Rows captured during an event carry an event chip, so the client's takings are easy to pick out.
 
 Some rows carry a type label:
 

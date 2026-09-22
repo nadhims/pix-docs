@@ -23,7 +23,7 @@ Ask guests whether you may feature their photos. Pick a booth at the top, then:
 | **Apply to all booths** | Copies this booth's consent settings to every booth |
 | **Save changes** | Saves the selected booth |
 
-Photos from guests who agreed are marked in the [Gallery](./gallery.md) so you can find them for social media.
+Photos from guests who agreed appear in the gallery below these settings, so you can find them for social media.
 
 ## Audience
 

@@ -73,11 +73,9 @@ Every event with its date, booth count and whether it is covered: **Ready**, **N
 
 ## Before Pix Pro Ends
 
-| Cover | Where you are warned | When |
-|---|---|---|
-| Day Pass | On the kiosk | 60 and 15 minutes before it ends |
-| Subscription that will not renew | Email and a dashboard banner | 7 days and 1 day before |
-| Renewing subscription whose payment failed | Email and banner at once; the computer keeps Pix Pro for a 3-day grace, then is blocked | At once |
+- A Day Pass or the free trial warns on the kiosk's idle screen 60 and 15 minutes before it ends. When it has ended, a popup on the kiosk names what ended and offers **Manage devices**, a QR code to this page.
+- A subscription that will not renew (cancelled, or a prepaid rupiah purchase) warns by email and a dashboard banner 7 days and 1 day before it ends.
+- If a subscription renewal payment fails, you get an email and a dashboard banner at once, the computer's License column reads "Pix Pro, payment failed" and the kiosk shows a payment-failed banner. The computer keeps Pix Pro for a 3-day grace, then is blocked. Fix the card under **Settings > Pixture billing**.
 
 ## Cancelling and Invoices
 
@@ -95,7 +93,7 @@ With no active device the account is Pix Starter: "No devices yet, Pix Starter r
 
 ## Pix AI Credits
 
-Beta accounts have a **Pix AI credits** page: credits left, **Buy more**, the cost per image (1 credit), **How you pay** (a monthly plan or pay as you go) and credit packs of 100, 400 or 1000. Credits are not a licence and do not change your device count.
+Beta accounts have a **Pix AI credits** page: credits left, **Buy more**, the cost per image (1 credit), **How you pay** (a monthly plan or pay as you go) and credit packs of 100, 400 or 1000. Credits are separate from Pix Pro and do not change your device count.
 
 ![Pix AI credits page: Credits left, Buy more, cost per image, How you pay, credit packs](/img/docs/licenses-ai-credits.webp)
 

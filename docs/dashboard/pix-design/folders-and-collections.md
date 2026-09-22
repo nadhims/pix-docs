@@ -42,7 +42,7 @@ A category is a label on a template project, such as "Birthday", "Wedding" or "M
 
 - **On the kiosk.** The Templates screen shows a row of category buttons above the template cards. Guests tap one to see only that group. The row scrolls when there are many categories.
 - **On the booth's Templates tab.** The **All Categories** filter and the **Manage Templates** modal filter by category, which speeds up assigning a themed set to one booth.
-- **On the Template Projects list.** The **Category** filter shows or hides categorised and uncategorised projects, and the search box matches category names too.
+- **On the Template Projects list.** The **Category** filter narrows the grid to one category.
 
 Use a small, stable set of category names. Two spellings of the same word ("Wedding" and "Weddings") show as two buttons on the kiosk.
 
@@ -59,7 +59,7 @@ They are most useful before assigning: a booth loaded with 4x6" photo paper shou
 
 ## Search
 
-The search box on the list finds projects by name, print size, media type or category across every folder. With a large library this is faster than browsing folders, and it combines with the three filters.
+The search box on the list finds projects across every folder. With a large library this is faster than browsing folders, and it combines with the three filters.
 
 :::tip
 Filter first, then **Select All**, then **Move to**. Filtering by Paper Size and selecting everything is the quickest way to sort an imported batch of PNGs into folders.

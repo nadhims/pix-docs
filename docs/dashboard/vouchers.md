@@ -73,7 +73,7 @@ On the kiosk's Payment screen the guest opens the voucher box and types the code
 | 7 characters | The online shop (Pix Desktop App 1.1.101 or newer) |
 | 8 characters | A group session code from a Multi-Booth cashier |
 
-The kiosk checks codes without waiting for the server, so a printed voucher or a code bought online still works when the venue's internet is down. The redemption is reported once the booth reconnects.
+A code bought online or from a Multi-Booth cashier carries its package inside the code, so the kiosk accepts it even when the venue's internet is down. The redemption is reported once the booth reconnects.
 
 ## Tracking
 

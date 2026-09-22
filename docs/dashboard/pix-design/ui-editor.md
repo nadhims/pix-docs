@@ -67,7 +67,7 @@ The idle screen guests walk up to. Its settings:
 
 ### Custom Screen
 
-An optional tutorial or intro screen between Start and Payment. It is off by default; turn on **Enabled in session flow** to use it.
+An optional tutorial or intro screen between Start and Payment. Turn on **Enabled in session flow** to use it.
 
 ### Payment Screen
 
@@ -95,7 +95,7 @@ The template picker. The **Template Cards** block is a grid you shape with a car
 The shooting screen, and the page whose settings change the booth's behaviour most.
 
 - **Live View** shows the camera. Pick a **Camera Frame** ratio (16:9, 9:16, 4:3, 3:4, 3:2, 2:3 or 1:1) and the booth fits the whole camera frame inside the block without cropping. Its text overlay can run to several lines, each with its own font, size, weight and colour.
-- **Capture trigger**: **Tap** (the guest taps the screen), **Shutter button** (an on-screen button), **Camera shutter** (the photographer presses the camera's own shutter) or **Auto** (Photobooth projects only; every slot shoots on the countdown). With Tap or Shutter button the guest triggers the first photo and the booth runs the remaining slots by itself.
+- **Camera trigger**: **Tap** (the guest taps the screen), **Shutter button** (an on-screen button), **Camera shutter** (the photographer presses the camera's own shutter) or **Auto** (Photobooth projects only; every slot shoots on the countdown). With Tap or Shutter button the guest triggers the first photo and the booth runs the remaining slots by itself.
 - The **countdown** before each shot.
 - **Session Time**: the length of the session from the first capture, and what happens when it runs out. It runs whether or not you place a **Session Timer** block; the block only displays it. A **Photo Counter** block shows "n of N".
 - **Preview Cards**: one square card per template slot, numbered while empty, filled as shots land, the current slot ringed; the row scrolls on templates with many slots.
@@ -130,7 +130,7 @@ The last screen: QR code, print, and back to Start.
 
 ## Working With Blocks
 
-Every block has a position and size, a corner radius (0 by default), and, where it draws text, a font, size, weight and colour. Buttons and click areas carry an action such as start, next, retake, apply voucher or finish, so you can build a screen entirely from your own artwork and invisible click areas. To change a number quickly, drag its label in the properties panel left or right (hold Shift for bigger steps).
+Every block has a position and size, a corner radius (0 by default), and, where it draws text, a font, size, weight and colour. Buttons and click areas carry an action such as start, next, retake, apply voucher or finish, so you can build a screen entirely from your own artwork and invisible click areas. To change a number quickly, drag its label in the properties panel left or right.
 
 ## Preview
 

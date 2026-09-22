@@ -63,7 +63,7 @@ Events carry their own template set, kiosk design and overlay, chosen on the eve
 Booths pick up a saved design on their next idle refresh, usually within seconds, without a restart. A photo session already in progress finishes on the old design.
 
 :::tip
-Duplicate before you experiment. A copy of the live UI project or template lets you try ideas without touching what guests see; assign the copy when it is ready.
+Duplicate before you experiment. **Duplicate** on a UI project's card menu gives you a copy to try ideas on without touching what guests see; assign the copy when it is ready.
 :::
 
 ## Related
