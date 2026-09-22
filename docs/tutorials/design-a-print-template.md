@@ -27,7 +27,9 @@ Print sizes are at 600 DPI:
 | 4x6" | 2400 x 3600 |
 | 6x8" | 3600 x 4800 |
 
-A4, A3 and a **Custom** size (you set the pixels) are also available.
+A4, A3 and a **Custom** size (you set the pixels) are also available. The editor names the target size for the project and resizes any image to fit, so an off-size export still works, but design at the exact size for the sharpest print.
+
+![Template editor drop zone reading Drop PNG here or click to browse, target 2400 x 3600 px at 600 DPI](/img/docs/pix-design-template-editor.webp)
 
 ## Step 1: Prepare the PNG
 
@@ -73,10 +75,6 @@ The editor opens with your PNG on the canvas. The side panel lists **Photo Slots
 2. To put a QR code on the print, click **Add QR code** and place it.
 3. Click **Preview** to check the result.
 4. If the PNG needs a change, fix it in your design tool and click **Re-upload**; the slots are detected again.
-
-![Template editor drop zone reading Drop PNG here or click to browse, target 2400 x 3600 px at 600 DPI](/img/docs/pix-design-template-editor.webp)
-
-The drop zone above is what the editor shows before a project has its PNG. It names the target size and resizes any image to fit, so an off-size export still works, but design at the exact size for the sharpest print.
 
 ## Step 4: Save and name the template
 

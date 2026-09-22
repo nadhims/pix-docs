@@ -44,8 +44,8 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 ## Step 4: What the Customer Sees
 
 1. The page shows the booth's packages: **Single**, **Double** and **Group** cards, a stepper for additional sessions, the prints included in the booth's print format, and any tax or fees, with the total.
-2. The customer pays by QRIS through your gateway, or with a **Pay by card** button when your gateway is Stripe.
-3. After payment the page shows a 7-character code, displayed as NNNP-TTT. The customer keeps that page open or screenshots it. A booth on an older app version gets a 6-character code that is always worth one single session.
+2. The customer pays by QRIS through your gateway, or by card when your gateway is Stripe.
+3. After payment the page shows a 7-character code. The customer keeps that page open or screenshots it. A booth on an older app version gets a 6-character code that is always worth one single session.
 
 ## Step 5: Redeem at the Booth
 
@@ -56,15 +56,12 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 ## Step 6: Where It Shows
 
 1. **Transactions** lists each online purchase with the amount paid.
-2. **Vouchers** lists the codes the shop has issued next to the vouchers you created yourself.
-
-   ![Vouchers page with existing vouchers, the Vouchers and Batches tabs, Refill and Delete](/img/docs/vouchers-list.webp)
 
 ## Check It Worked
 
 - Click **Open** on the card and buy a single session with your own phone.
 - Type the code into the booth's voucher box. The kiosk shows **Payment Success** and continues to templates.
-- The purchase appears on **Transactions**, and the code on **Vouchers**.
+- The purchase appears on **Transactions**.
 
 ## Troubleshooting
 

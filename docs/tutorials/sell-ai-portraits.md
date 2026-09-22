@@ -73,7 +73,7 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 - **Transactions** lists each sale as a row labelled **AI portrait** or **AI portrait + print**, counted in Total Revenue and in the Excel export. These rows are not tied to a photo session.
 - The **Dashboard** revenue card includes them.
-- **Licenses > Pix AI credits** shows recent generations and the credit history.
+- **Pix Design > Pix AI** lists the recent generations, and the **Pix AI credits** card on **Licenses** shows the credits left.
 
 ## Check It Worked
 

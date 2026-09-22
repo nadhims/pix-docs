@@ -27,8 +27,8 @@ Payments go straight from the guest to your own gateway account. Pixture never h
 
    ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/settings-gateway-providers.webp)
 
-3. Fill in the keys from your gateway's merchant dashboard. Each field has a **How to find this?** expander.
-   - **DOKU:** Secret Key, Client ID, Merchant ID, and a Merchant Private Key (RSA 2048). Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.
+3. Fill in the keys from your gateway's merchant dashboard.
+   - **DOKU:** Secret Key, Client ID, Merchant ID, and a Merchant Private Key (RSA 2048), each with a **How to find this?** expander. Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.
 
      ![Add Payment Gateway modal, DOKU form with Secret Key, Client ID, Merchant ID, Merchant Private Key and Sandbox Mode](/img/docs/settings-gateway-doku.webp)
 
@@ -106,7 +106,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 | "Enter a price, or switch payment off above" when saving | The session price must be above 0. Free sessions are the switch at the top of the Pricing tab, never a price of 0. |
 | Stripe charges succeed but nothing pays out | The saved key is an `sk_test_` key. Paste the live `sk_live_` key, save, and run the test charge again. |
 | The QR tile stays blank while the countdown runs | The booth could not download the QR image. Check the booth's internet connection and start the payment again. |
-| The guest's wallet says the merchant was not found ("Merchant tidak ditemukan") | That message comes from the guest's wallet, not the booth: weak mobile data at the venue, or a QR that expired after about 5 minutes. Cancel and start a fresh payment. |
+| The guest's wallet says the merchant was not found ("Merchant tidak ditemukan") | That message comes from the guest's wallet, not the booth: weak mobile data at the venue, or a QR that expired (it lasts as long as the booth's **Payment timeout**). Cancel and start a fresh payment. |
 | A payment reached the gateway but the session shows no revenue | Run **Sync with payment gateway** on the Transactions page for that date. |
 
 ## Related

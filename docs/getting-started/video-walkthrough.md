@@ -16,7 +16,7 @@ It covers the same ground as this Getting Started section end to end: account cr
 
 ## Chapters (jump straight to a topic)
 
-When an operator's question matches one of these topics closely, share the direct timestamped link for that chapter instead of, or alongside, a text answer. It is often clearer than reading steps. If nothing matches closely, share the full video link above instead.
+Each link opens the video at that chapter, so you can watch only the part you need.
 
 | Timestamp | Topic | Link |
 |---|---|---|
@@ -42,10 +42,6 @@ When an operator's question matches one of these topics closely, share the direc
 | 13:00 | Verify transactions | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=780s |
 | 13:25 | Devices & plan upgrade, Indonesia (this page is now called Licenses) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
 | 14:15 | International pricing & checkout | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=855s |
-
-:::tip
-Example: an operator asks "cara bikin template gimana?" That maps closest to the 08:35 chapter ("Create a print template"), so share https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s alongside a short text answer.
-:::
 
 ## Related
 

@@ -32,11 +32,11 @@ Studio mode and event video modes change the middle of this flow; see [Studio Se
 
 ## Check the Result in the Dashboard
 
-1. Open **Gallery**. Your session's photos are there, with the booth and template names. Use the booth filter and the **Day** / **Week** / **Month** pills to narrow the list, and **Select** to download or delete several at once. Photos can take a moment to appear while the booth uploads.
+1. Open **Gallery**. Your session's photos are there, with the booth and template names. Use the booth filter and the **Day** / **Week** / **Month** pills to narrow the list, **Download** on a photo to save it, and **Select** to delete several at once. Photos can take a moment to appear while the booth uploads.
 
    ![The Gallery page with the search box, booth filter, period pills and Select button](/img/docs/gallery.webp)
 
-2. Open **Transactions**. A paid session shows up as a row with its amount and payment status. A free test session does not create a transaction.
+2. Open **Transactions**. A paid session shows up as a row with its amount and payment status.
 
    ![The Transactions page with search, booth filter, period pills, and the Total Transactions, Total Revenue, Payment Success and Session Completion cards](/img/docs/transactions.webp)
 

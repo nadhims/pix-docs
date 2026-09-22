@@ -44,7 +44,7 @@ Every page of the dashboard is one click away in the left sidebar. Owners and ad
   ![The account menu at the bottom of the sidebar with Settings, Language and Log out](/img/docs/account-menu.webp)
 
 - **The bell (Updates).** Announcements from Pixture, next to the logo at the top. The **Try Pix Pro free for 3 days** popup can be reopened from here if you saved it for later.
-- **The setup banner.** On a new account every page carries "Your photobooth isn't fully working yet. Complete your setup to start taking photos (2 of 4 steps done)." with **Watch the setup video** and **Install the app**. It disappears once the booth is paired and has run a session.
+- **The setup banner.** On a new account every page carries the setup banner with **Watch the setup video** and **Install the app** (see [Create Your Account](./create-account.md)). It disappears once the booth is paired and has run a session.
 - **Region, booth and period filters.** The Dashboard home has **All Regions** and **All Booths** pickers, **Day** / **Week** / **Month** pills and a month picker. Transactions, Gallery and Events use the same **Day** / **Week** / **Month** pills.
 - **Hide the revenue figure.** The eye icon on the **Revenue** card blanks the number, handy when a guest or a client is looking over your shoulder. The chip next to it compares with the previous period.
 - **More than one currency.** If your booths charge in different currencies, a **Showing** row of currency pills appears on Dashboard, Transactions and Vouchers. Totals are never combined across currencies.

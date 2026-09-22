@@ -19,7 +19,7 @@ Search by booth name, and filter by **All**, **Critical**, **Warning**, **Health
 
 | Column | What it shows |
 |---|---|
-| Booth | The booth and the name of its computer |
+| Booth | The booth's name |
 | Status | Healthy, Warning, Critical or Offline |
 | Issues | What the kiosk is reporting, in plain words |
 | Today | Sessions so far today |
@@ -57,8 +57,8 @@ At the bottom of the page, **Error records** lists the errors your kiosks report
 
 The version of the Pix Desktop App each computer runs is listed on the [Licenses](./billing.md) page, in the Version column. The current version is 1.1.115. The kiosk updates itself; see [Software Updates](../desktop-app/software-updates.md).
 
-:::tip Name your computers
-Health lists booths with the name of their computer. Naming each one by place on the booth's **Device** tab makes this page readable at a glance.
+:::tip Name your booths by place
+Health lists booths by booth name. A name like "Grand Mall L2" makes this page readable at a glance; rename from the chevron menu on the Booths page.
 :::
 
 ## Related

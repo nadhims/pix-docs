@@ -87,7 +87,7 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 
 ## Step 7: During and After the Event
 
-1. On **Transactions**, sessions captured during the event carry an event chip, and you can search by the event's name.
+1. On **Transactions**, sessions captured during the event carry an event chip.
 2. Open the **Report** tab for each booth's camera, printer, paper, memory and disk, sessions, prints and active hours, plus **Incidents during the event**.
 
    ![Event Report tab with per-booth health and incidents](/img/docs/event-report.webp)

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Welcome to Pixture Docs
-description: Pixture is photobooth software. The Pix Desktop App runs the kiosk on a Mac or Windows computer, and the Pixture dashboard at pixture.io runs everything else.
+description: Pixture is photobooth software, with the Pix Desktop App running the kiosk on a Mac or Windows computer and the Pixture dashboard at pixture.io running everything else.
 slug: /
 tags: [welcome, overview]
 ---
@@ -50,7 +50,7 @@ Five steps take a new account to its first photo session. Most operators finish 
 
 - **Studio mode.** A timed session where guests take free shots and then place their favourites into the template slots. Needs Pix Desktop App 1.1.98 or newer. See [Studio Sessions](./desktop-app/studio-sessions.md).
 - **Events that run themselves.** Give an event its dates and it is ongoing right away, then ends on its own the day after the last date. Each event can shoot photos or video (360 slow-mo is marked Soon) and can start from a free template pack. See [Events](./dashboard/events.md).
-- **Device licensing.** Pix Pro lives on the computer, not the booth. Buy a Day Pass at $5 per computer per day, or claim the free 3-day trial, on the Licenses page. See [Plans & Pricing](./pricing/plans.md).
+- **Device licensing.** Pix Pro lives on the computer, not the booth. Buy a Day Pass at $5 per computer per day on the Licenses page, or claim the free 3-day trial from the popup in the dashboard. See [Plans & Pricing](./pricing/plans.md).
 - **Online session shop.** Every booth has a link where customers pick a package on their phone, pay, and receive a code the booth accepts even offline. Needs 1.1.101 or newer. See [Sell Sessions Online](./tutorials/sell-sessions-online.md).
 - **AI portraits on the share page.** Guests can buy an AI portrait from their share page, digital or with a print picked up at the booth. Available to beta accounts. See [Pix AI](./dashboard/pix-design/pix-ai.md).
 - **Every currency and country.** Set any timezone and any ISO currency for your organisation, and a different currency per booth if you need it. Needs 1.1.106 or newer.

@@ -21,7 +21,7 @@ By the end of this page the Pix Desktop App, the kiosk software that runs your p
 
    ![The dashboard of a new account with the setup banner and its Install the app button](/img/docs/dashboard-new-account.webp)
 
-2. Pick the installer: the **macOS** disk image for **Apple Silicon** or **Intel**, or the **Windows** installer. Choose the Apple Silicon build for any M-series Mac; it includes native video and GIF encoding, so live photos and filters do not need Rosetta.
+2. Pick the installer: the **macOS** disk image (one build for both Apple Silicon and Intel Macs) or the **Windows** installer. On Apple Silicon, version 1.1.115 or newer encodes live photos, filters and GIFs natively, with no Rosetta needed.
 
 ## Install on macOS
 
@@ -45,7 +45,7 @@ The Windows installer is not code-signed yet, so SmartScreen shows a warning the
 
 The app opens full screen on the pairing screen. There are two ways in:
 
-- **Pair to your Pixture account.** Type the 6-digit code from the booth's **Device** tab in the dashboard. This is the normal path; the full steps are in [Pair Your First Booth](./pair-your-first-booth.md).
+- Pair the booth: type the 6-digit code from the booth's **Device** tab in the dashboard. This is the normal path; the full steps are in [Pair Your First Booth](./pair-your-first-booth.md).
 - **Try it without an account.** Tap this to run the booth unpaired with the built-in frames and screens. It prints if a printer is set up and puts the Pixture watermark on everything. There is no cloud upload and no QR code sharing in this mode. When you are ready, open the operator menu and tap **Pair to your Pixture account**.
 
 The app updates itself: it checks for updates on its own, downloads them in the background and restarts when the booth is idle. See [Software Updates](../desktop-app/software-updates.md).

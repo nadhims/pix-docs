@@ -49,7 +49,7 @@ CASH-Interface2 boards and similar cash systems talk to the booth by pressing ke
 
 ### Setup B1: the cash system is the gate (Payment screen off)
 
-The guest pays the cash system first. When the credit reaches the price, the system presses **F13** and the session starts. Pix records that session as paid at the booth's session price.
+The guest pays the cash system first. When the credit reaches the price, the system presses **F13** and the session starts. The booth records that session as paid at the booth's session price.
 
 1. In the cash system's software, set the receiver name to **Pix - START**, the hotkey to **F13**, and the cost to your session price. On a Nayax reader, set the credit per pulse to match the board's channel value.
 2. In the UI Editor, open the booth's UI project. On the **Payment Screen** tab, turn **Enabled in session flow** off. On the **Start Screen** tab, under **SESSION TRIGGER**, tick **F13** only and untick **Touch Screen**, the keys and **Start Button**, so nobody can start a session without paying. **Save**.

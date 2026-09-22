@@ -51,7 +51,7 @@ The first thing the dashboard shows is onboarding. It has two steps.
 
    ![Onboarding step 1, Quick setup, with Organization Name, Timezone, Currency, Booth Name and Location filled and a Continue button](/img/docs/onboarding-quick-setup.webp)
 
-2. Click **Continue**. **Skip for now** also works; you can rename the organisation and set the timezone and currency later under **Settings > Preferences**.
+2. Click **Continue**. **Skip for now** also works; you can rename the organisation later under **Settings > General** and set the timezone and currency under **Settings > Preferences**.
 3. On **2 · You're ready**, the dashboard lists what comes next: install the app, pair your booth, run a test session. Click **Go to Dashboard**.
 
    ![Onboarding step 2, You're ready, listing Install the app, Pair your booth and Run a test session with a Go to Dashboard button](/img/docs/onboarding-ready.webp)

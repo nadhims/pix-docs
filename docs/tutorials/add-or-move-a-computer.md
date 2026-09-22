@@ -94,7 +94,7 @@ Pix Starter has no subscription. **Licenses** reads "No devices yet", one comput
 ## Before Pix Pro Ends
 
 - A subscription that will not renew warns 7 days and 1 day ahead by email and a dashboard banner, and the booth page badge shows the end date (**Pix Pro until** a date).
-- A failed renewal charge sends an email and shows a banner at once. The **LICENSE** column reads **Pix Pro, payment failed** and the kiosk shows a payment-failed banner. You have 3 days to fix the card under **Settings > Billing & Payment** before the computer is Blocked.
+- A failed renewal charge sends an email and shows a banner at once. The **LICENSE** column reads **Pix Pro, payment failed** and the kiosk shows a payment-failed banner. You have 3 days to fix the card under **Settings > Pixture billing** before the computer is Blocked.
 - A Day Pass or the free trial warns on the kiosk idle screen 60 and 15 minutes before the end.
 - When the last place ends, the account returns to Pix Starter, watermarked.
 
@@ -112,7 +112,7 @@ Pix Starter has no subscription. **Licenses** reads "No devices yet", one comput
 | The new computer is paired but Blocked | No free place, or you hold unspent passes and none is used on it yet | Deactivate another computer or add a device; or **Use a pass on this device** |
 | Deactivate freed a place but the new computer is still Blocked | It has not checked in yet, or another computer took the place | Make sure the Pix Desktop App is running and online; check **Active devices** |
 | A pass disappeared after Deactivate | Deactivate ends a pass | Buy another pass; deactivate only subscription computers you mean to move |
-| **LICENSE** reads **Pix Pro, payment failed** | The renewal charge failed | Update the card under **Settings > Billing & Payment** within 3 days |
+| **LICENSE** reads **Pix Pro, payment failed** | The renewal charge failed | Update the card under **Settings > Pixture billing** within 3 days |
 | Kiosk badge reads "Pix Pro ended, reconnect to check" | The computer was offline when its period ended | Reconnect it; the kiosk checks again |
 
 ## Related

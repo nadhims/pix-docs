@@ -29,7 +29,7 @@ Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same
 
 ## What Is Free
 
-**Pix Starter** costs nothing and has no time limit. It runs the Pix Desktop App on **one computer**, with the Pixture watermark on every photo, print, GIF and video. A new account comes with two ready-made 4x6 print templates (Classic Black and Classic White) and the default kiosk design, so a booth works minutes after pairing. Pix Design is open to try every tool, and saving your own designs needs Pix Pro. A Pix Starter booth does not charge guests: the kiosk skips the Payment screen.
+**Pix Starter** costs nothing and has no time limit. It runs the Pix Desktop App on **one computer**, with the Pixture watermark on every photo, print, GIF and video, and a new account comes with two ready-made print templates and the default kiosk design, so a booth works minutes after pairing. What else Pix Starter includes, and what Pix Pro adds, is on [Choose Your Plan](./choose-plan.md).
 
 Every account can also claim one free **3-day Pix Pro trial** on one computer, with no card. See [Choose Your Plan](./choose-plan.md).
 
