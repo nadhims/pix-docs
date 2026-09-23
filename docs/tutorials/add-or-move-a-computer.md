@@ -25,19 +25,19 @@ A spare place attaches itself. The next computer that connects takes it, so you 
 
 1. Click **Licenses** in the sidebar and check the **Devices** card.
 
-![Licenses page of a Pix Pro account with the Devices, Subscription, Next renewal and Passes cards and the Active devices table](/img/docs/licenses-devices.webp)
+![Licenses page of a Pix Pro account with the Devices, Subscription, Next renewal and Passes cards and the Active devices table](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-devices.webp)
 
 2. Click **Add more devices**. The modal reads "One device runs one computer. Pick how long, and how many."
 
-![Add devices modal with the How many devices stepper, See volume pricing and the Pix Pro plan cards](/img/docs/licenses-add-devices.webp)
+![Add devices modal with the How many devices stepper, See volume pricing and the Pix Pro plan cards](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices.webp)
 
 3. Set **How many devices?** The counter shows **Devices** now and **Updated devices** after the purchase.
 
-![Add devices modal with the quantity stepper set to 3 devices](/img/docs/licenses-add-devices-quantity.webp)
+![Add devices modal with the quantity stepper set to 3 devices](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices-quantity.webp)
 
 4. Click **See volume pricing** to see how the per-device price changes with quantity; several devices bought together cost less each.
 
-![Volume pricing table with Day Pass, Monthly and Yearly prices per quantity](/img/docs/licenses-volume-pricing.webp)
+![Volume pricing table with Day Pass, Monthly and Yearly prices per quantity](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-volume-pricing.webp)
 
 5. Click **Select** on **Pix Pro (1 Month)** ($40 per computer per month, cancel anytime) or **Pix Pro (1 Year)** ($25 per computer per month, billed $300 per year, marked BEST VALUE) and complete checkout. If you already pay by card, a **Confirm this charge** step shows the amount and **Add and pay**.
 
@@ -58,7 +58,7 @@ You are retiring a booth computer and want its Pix Pro on the replacement. Nothi
 1. On **Licenses**, find the old computer under **Active devices** and click **Deactivate**.
 2. In **Deactivate this computer**, read the note: a place on your subscription frees up. Click **Deactivate**, or **Keep Pix Pro** to back out.
 
-![Deactivate this computer modal with Keep Pix Pro and Deactivate](/img/docs/licenses-deactivate-modal.webp)
+![Deactivate this computer modal with Keep Pix Pro and Deactivate](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-deactivate-modal.webp)
 
 3. Pair the new computer (Step 2). If it is already paired and Blocked, just leave the Pix Desktop App running: the next computer that checks in takes the place.
 
@@ -74,7 +74,7 @@ A Day Pass is Pix Pro on one computer for 24 hours from the moment you use it: $
 
 1. On **Licenses**, click **Buy passes** on the **Passes** card (or **Add more devices** and pick **Pix Pro (1 Day)**), choose how many and pay. Unspent passes show on the **Passes** card.
 
-![Buy passes flow opened from the Passes card](/img/docs/licenses-buy-passes.webp)
+![Buy passes flow opened from the Passes card](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-buy-passes.webp)
 
 2. On the day, at the booth: open the operator menu (tap the top-right corner twice within 3 seconds and enter the PIN if one is set) and tap **Use a pass on this device**. The button appears only while the computer has no Pix Pro. The booth must be online at that moment.
 3. The operator menu badge now reads **Pass until** a time. The kiosk warns on its idle screen 60 and 15 minutes before the pass ends; when it ends, a popup names what ended and guests see "Please call the operator."

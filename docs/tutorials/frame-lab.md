@@ -28,7 +28,7 @@ Frame Lab is a page guests open on their phone. They build a frame in a small st
 6. Set **Voucher expiry** in hours (1 to 168). The clock starts when the guest pays.
 7. Click **Save changes**. To copy the same settings to every booth, click **Apply to all booths**.
 
-![Marketing Studio Frame Lab tab: booth picker, the Frame Lab switch, Price, Canvas and Voucher expiry](/img/docs/marketing-frame-lab.webp)
+![Marketing Studio Frame Lab tab: booth picker, the Frame Lab switch, Price, Canvas and Voucher expiry](/img/docs/steps/tutorials-frame-lab--marketing-frame-lab.webp)
 
 The switch refuses to turn on until the booth has a template ("Assign at least one active template to this booth before enabling Frame Lab."). The same settings also live on the booth page: click the **Frame Lab** cell in the booth's property grid.
 

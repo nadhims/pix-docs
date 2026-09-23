@@ -46,15 +46,15 @@ The editor turns every transparent region into one slot, so give each slot a sin
 
 1. In the sidebar click **Pix Design**, then open **Template Editor**.
 
-![Pix Design hub with the Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/pix-design-hub.webp)
+![Pix Design hub with the Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/steps/tutorials-design-a-print-template--pix-design-hub.webp)
 
 2. On **Template Projects**, click **New Project**.
 
-![Template Projects list with folders, filters, project cards showing booth counts and the New Project button](/img/docs/pix-design-templates.webp)
+![Template Projects list with folders, filters, project cards showing booth counts and the New Project button](/img/docs/steps/tutorials-design-a-print-template--pix-design-templates.webp)
 
 3. Pick a **Print Size** card and a **Media Type** card, drop your PNG on **Template PNG**, and click **Create Project**. The button stays disabled until both a size and a file are chosen.
 
-![Create Template Project modal with 4x6 selected, the Media Type cards and the Template PNG drop zone](/img/docs/pix-design-create-template-modal.webp)
+![Create Template Project modal with 4x6 selected, the Media Type cards and the Template PNG drop zone](/img/docs/steps/tutorials-design-a-print-template--pix-design-create-template-modal.webp)
 
 **Media Type** tells the booth and the printer how each sheet is used:
 

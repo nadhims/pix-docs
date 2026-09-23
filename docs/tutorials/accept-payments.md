@@ -25,17 +25,17 @@ Payments go straight from the guest to your own gateway account. Pixture never h
 1. Go to **Settings > Payment Gateway** and click **Add Payment Gateway**.
 2. Choose your provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Stripe** for card payments everywhere else.
 
-   ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/settings-gateway-providers.webp)
+   ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/steps/tutorials-accept-payments--settings-gateway-providers.webp)
 
 3. Fill in the keys from your gateway's merchant dashboard.
    - **DOKU:** Secret Key, Client ID, Merchant ID, and a Merchant Private Key (RSA 2048), each with a **How to find this?** expander. Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.
 
-     ![Add Payment Gateway modal, DOKU form with Secret Key, Client ID, Merchant ID, Merchant Private Key and Sandbox Mode](/img/docs/settings-gateway-doku.webp)
+     ![Add Payment Gateway modal, DOKU form with Secret Key, Client ID, Merchant ID, Merchant Private Key and Sandbox Mode](/img/docs/steps/tutorials-accept-payments--settings-gateway-doku.webp)
 
    - **Midtrans:** Server Key and Client Key.
    - **Stripe:** the Secret key. It must start with `sk_` or `rk_`; Pixture checks the key when you save. There is no Sandbox switch for Stripe: the key itself decides test or live, and an `sk_test_` key creates charges that never pay out.
 
-     ![Add Payment Gateway modal, Stripe form with the Secret key field](/img/docs/settings-gateway-stripe.webp)
+     ![Add Payment Gateway modal, Stripe form with the Secret key field](/img/docs/steps/tutorials-accept-payments--settings-gateway-stripe.webp)
 
 4. Click **Continue**, then **Connect Gateway**.
 
@@ -48,16 +48,16 @@ Payments go straight from the guest to your own gateway account. Pixture never h
 
 1. Open **Booths**, click **Configure** on the booth, then the **Pricing** tab. Turn **Payment on this booth** ON. The preview on the left shows the kiosk's payment screen as you edit.
 
-   ![Booth Pricing tab, full page, with the Payment on this booth switch, live preview and Price & packages](/img/docs/booth-pricing-full.webp)
+   ![Booth Pricing tab, full page, with the Payment on this booth switch, live preview and Price & packages](/img/docs/steps/tutorials-accept-payments--booth-pricing-full.webp)
 
 2. On **Price & packages**, enter the **Session price** (it must be above 0). Pick the **Print format** that matches your paper: **Standard** (1 print per sheet), **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet). Turn on **Double session price**, **Group session price** (4 sessions) and **Additional session price** if you sell packages, each with its **Prints included**.
 
-   ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/booth-pricing-packages.webp)
+   ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/steps/tutorials-accept-payments--booth-pricing-packages.webp)
 
 3. On **Time**, set the **Payment timeout** (30 to 1800 seconds), how long the guest has to pay. On **Extra prints**, turn on **Extra print price** if guests may buy more prints on the Sharing screen.
 4. On **Tax & fees**, enter the tax percentage and label, choose **Charge to**: **Guest** (added on top of the prices) or **Included in the prices** (shown as incl.), and add any fixed or percentage fees with **+ Add fee**. Click **Save changes** in the save bar.
 
-   ![Pricing sub-tab Tax & fees: Tax, Charge to, Fees and + Add fee](/img/docs/booth-pricing-tax-fees.webp)
+   ![Pricing sub-tab Tax & fees: Tax, Charge to, Fees and + Add fee](/img/docs/steps/tutorials-accept-payments--booth-pricing-tax-fees.webp)
 
 :::note
 Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the guest. Set **Prints included** to 1 and **Print format** to **2 inch cut**; the kiosk then shows "2 prints". Setting the count to 2 prints two sheets.
@@ -67,7 +67,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 1. On the booth's **Settings** tab, find **Payment Gateway** and set **Active Gateway** to **Organization Default** or a specific gateway, then click **Save**. The same tab holds the booth's **Currency**; the active gateway must be able to charge in it.
 
-   ![Booth Settings tab with Output Settings, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/booth-settings-tab.webp)
+   ![Booth Settings tab with Output Settings, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/steps/tutorials-accept-payments--booth-settings-tab.webp)
 
 ## Step 5: What the Guest Sees
 
@@ -80,7 +80,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 1. Open **Transactions**. Each paid session is a row; the cards on top show Total Transactions, Total Revenue, Payment Success and Session Completion for the period you pick (Day, Week, Month or Custom).
 
-   ![Transactions page with search, booth filter, period pills, Sync with payment gateway and Export Excel icons, and the four stat cards](/img/docs/transactions.webp)
+   ![Transactions page with search, booth filter, period pills, Sync with payment gateway and Export Excel icons, and the four stat cards](/img/docs/steps/tutorials-accept-payments--transactions.webp)
 
 2. If a payment reached your gateway but is missing here, click the **Sync with payment gateway** icon, set a Start Date and End Date and click **Run Sync**. Use the **Export Excel** icon for your accountant.
 
@@ -88,7 +88,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 1. Open **Vouchers**, click **+ Create**, then **Single Voucher**. Enter a **Voucher Code**, set **Discount Type** to **Free Session**, a **Max Redemptions** count and, if you like, a **Booth Restriction** and an **Expiration Date**.
 
-   ![Create Voucher modal with Voucher Code, Discount Type, Discount Value, Max Redemptions, Booth Restriction and Expiration Date](/img/docs/vouchers-create-single.webp)
+   ![Create Voucher modal with Voucher Code, Discount Type, Discount Value, Max Redemptions, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-accept-payments--vouchers-create-single.webp)
 
 2. On the booth's Payment screen, tap **Voucher** and type the code. A voucher that covers the whole price shows the Payment Success screen and continues like a paid session, with no charge created.
 

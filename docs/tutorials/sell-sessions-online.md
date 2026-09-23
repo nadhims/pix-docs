@@ -22,17 +22,17 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 1. Open **Booths**, click **Configure** on the booth, then the **Pricing** tab. The **Sell sessions online** card at the top shows the booth's link with **Copy**, **Open** and a QR code.
 
-   ![Booth Pricing tab, top, with the Sell sessions online card, its link, Copy, Open and QR](/img/docs/booth-pricing-tab.webp)
+   ![Booth Pricing tab, top, with the Sell sessions online card, its link, Copy, Open and QR](/img/docs/steps/tutorials-sell-sessions-online--booth-pricing-tab.webp)
 
 2. The same link is one click away on the **Vouchers** page: click **Online shop link**.
 
-   ![Online shop link popup on the Vouchers page](/img/docs/vouchers-online-shop-link.webp)
+   ![Online shop link popup on the Vouchers page](/img/docs/steps/tutorials-sell-sessions-online--vouchers-online-shop-link.webp)
 
 ## Step 2: Check the Prices the Shop Will Show
 
 1. On the **Price & packages** sub-tab, review the **Session price**, the **Double** and **Group** packages, the **Additional session price**, the **Print format** and the prints included. The shop shows the same cards as the kiosk's package picker.
 
-   ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/booth-pricing-packages.webp)
+   ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/steps/tutorials-sell-sessions-online--booth-pricing-packages.webp)
 
 2. Tax and fees from the **Tax & fees** sub-tab apply to the shop too. Click **Save changes** if you edited anything.
 

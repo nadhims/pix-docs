@@ -31,19 +31,19 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 1. Open **Licenses** and click **Manage credits** on the **Pix AI credits** card. The page shows your credits left, the cost per image (1 credit per portrait) and how you pay.
 
-   ![Pix AI credits page with Credits left, Buy more, cost per image, How you pay and the credit packs](/img/docs/licenses-ai-credits.webp)
+   ![Pix AI credits page with Credits left, Buy more, cost per image, How you pay and the credit packs](/img/docs/steps/tutorials-sell-ai-portraits--licenses-ai-credits.webp)
 
 2. Click **Buy more** and pick a pack of 100, 400 or 1000 credits, priced in rupiah in Indonesia and in dollars everywhere else, or choose a monthly plan whose credits reset each month. Credits are shared by every booth in your organization.
 
 ## Step 2: Put Presets on the Booth
 
-1. Go to **Pix Design > Pix AI**. The page has your **Saved presets**, a **Browse AI presets** button, a **Test a preset** panel and **Recent generations**.
+1. Go to **Pix Design > Pix AI**. The page has your **Saved presets**, a **Browse catalogue** button (it opens the Browse AI presets window), a **Test a preset** panel and **Recent generations**.
 
-   ![Pix AI (Beta) page with Saved presets, Browse AI presets, Test a preset and Recent generations](/img/docs/pix-design-ai.webp)
+   ![Pix AI (Beta) page with Saved presets, Browse AI presets, Test a preset and Recent generations](/img/docs/steps/tutorials-sell-ai-portraits--pix-design-ai.webp)
 
-2. Click **Browse AI presets**, tick the looks you want to sell and click **Add**.
+2. Click **Browse catalogue**, tick the looks you want to sell and click **Add**.
 
-   ![Browse AI presets modal with tickable preset cards and Add](/img/docs/pix-design-ai-browse-modal.webp)
+   ![Browse AI presets modal with tickable preset cards and Add](/img/docs/steps/tutorials-sell-ai-portraits--pix-design-ai-browse-modal.webp)
 
 3. On each saved preset, assign the booths that may sell it (or all booths). Only presets assigned to a booth appear in that booth's shop.
 4. Try a look before selling it: in **Test a preset**, add a photo or use the sample photo, pick the preset and click **Generate**. A test costs 1 credit.
@@ -52,7 +52,7 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 1. Open **Booths**, click **Configure** on the booth, then the **Pricing** tab and scroll to the bottom. Beta accounts see a card called **AI portrait on the share page** under the pricing sub-tabs.
 
-   ![Booth Pricing tab, full page, with the Sell sessions online card, the Payment on this booth switch and the pricing sub-tabs](/img/docs/booth-pricing-full.webp)
+   ![Booth Pricing tab, full page, with the Sell sessions online card, the Payment on this booth switch and the pricing sub-tabs](/img/docs/steps/tutorials-sell-ai-portraits--booth-pricing-full.webp)
 
 2. Turn on **Sell AI portraits on the share page** and enter the **Price per portrait**.
 3. To sell prints, turn on **Offer a print at this booth** and enter the **Digital + print price** (what the guest pays for the portrait and the print together).

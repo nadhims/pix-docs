@@ -27,7 +27,7 @@ Each tile has a booth picker. Tick the booths that should offer the look; a look
 
 ### Browse AI presets
 
-1. Click **Browse AI presets** (or the **+ Add preset** tile).
+1. Click **Browse catalogue** (or the **+ Add preset** tile). The Browse AI presets window opens.
 
    ![Browse AI presets modal with tick marks on presets and Add](/img/docs/pix-design-ai-browse-modal.webp)
 

@@ -21,7 +21,7 @@ In this tutorial you will create a booth in the Pixture dashboard, assign print 
 2. On the **Single booth** tab, type a **Booth Name** that tells you where the booth is or what it is for, and a **Location** if you like.
 3. Click **Create**.
 
-![Create Booth modal on the Single booth tab with Booth Name and Location filled in](/img/docs/booths-create-modal.webp)
+![Create Booth modal on the Single booth tab with Booth Name and Location filled in](/img/docs/steps/tutorials-set-up-a-booth--booths-create-modal.webp)
 
 The new booth appears in the list with a dash under **DEVICE** and **PLAN**, because no computer is paired yet. Click **Configure** to open it. The first time it opens, the popup "Pair your booth first" offers **Generate pairing code**. Click **Maybe later** for now; you pair the computer in Step 7, once the booth is ready for guests.
 
@@ -29,12 +29,12 @@ The new booth appears in the list with a dash under **DEVICE** and **PLAN**, bec
 
 1. Open the **Templates** tab and click **Manage Templates**.
 
-![Booth Templates tab with the Assigned Templates card and the Manage Templates button](/img/docs/booth-templates-tab.webp)
+![Booth Templates tab with the Assigned Templates card and the Manage Templates button](/img/docs/steps/tutorials-set-up-a-booth--booth-templates-tab.webp)
 
 2. Tick every template this booth should offer. The **Assigned / Not Assigned**, **All Categories**, **All Sizes** and **All Media** filters narrow the list.
 3. Click **Save Templates**.
 
-![Manage Templates modal listing templates with their size and media type and the Save Templates button](/img/docs/booth-manage-templates-modal.webp)
+![Manage Templates modal listing templates with their size and media type and the Save Templates button](/img/docs/steps/tutorials-set-up-a-booth--booth-manage-templates-modal.webp)
 
 A new account comes with two ready-made 4x6 templates, Classic Black and Classic White. On Pix Starter these are the two templates you can use; Pix Pro lets you design as many as you like in Pix Design (see [Design a Print Template](./design-a-print-template.md)). Assign at least one template, or guests have nothing to pick.
 
@@ -44,7 +44,7 @@ A new account comes with two ready-made 4x6 templates, Classic Black and Classic
 2. Pick a design from the dropdown. It is grouped by **Photobooth mode**, **Studio mode** and **Simple mode**, and the tab shows the resulting **Booth mode**.
 3. Click **Save**.
 
-![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/booth-ui-project-tab.webp)
+![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
 Every account starts with the default kiosk design, so you can leave this as it is and come back once you have built your own (see [Customise the Kiosk Screens](./customise-kiosk-screens.md)). Studio mode needs Pix Desktop App 1.1.98 or newer on the booth computer.
 
@@ -62,7 +62,7 @@ Pixture ships 14 built-in filters. **Pix Design > Photo Filters** lets you uploa
 3. On **Price & packages**, enter the **Session price**. Pick the **Print format** that matches your paper (Standard, 2 inch cut or Triple strip), and turn on **Double session price**, **Group session price** or **Additional session price** if you offer packages.
 4. Click **Save changes** in the save bar.
 
-![Booth Pricing tab with the Sell sessions online card, the Payment on this booth switch, the live kiosk preview and the Price & packages form](/img/docs/booth-pricing-full.webp)
+![Booth Pricing tab with the Sell sessions online card, the Payment on this booth switch, the live kiosk preview and the Price & packages form](/img/docs/steps/tutorials-set-up-a-booth--booth-pricing-full.webp)
 
 Taking payments at the kiosk needs a payment gateway under **Settings > Payment Gateway**, or a coin or card reader (see [Connect a Coin Acceptor or Card Reader](./connect-a-coin-or-card-reader.md)). On Pix Starter the kiosk skips the Payment screen, so sessions stay free until the computer runs Pix Pro. The other sub-tabs set the **Payment timeout** (**Time**), an **Extra print price** for the sharing screen (**Extra prints**) and **Tax & fees**. See [Booth Pricing](../dashboard/booth-pricing.md).
 
@@ -72,7 +72,7 @@ Taking payments at the kiosk needs a payment gateway under **Settings > Payment 
 2. Under **Output Settings**, switch on what the booth should produce: **Singles Upload**, **GIF Upload**, **Live Photo Upload** and **Print Output**. Click **Save Output Settings**.
 3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so guests cannot open the operator menu on the kiosk.
 
-![Booth Settings tab with Output Settings switches, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/booth-settings-tab.webp)
+![Booth Settings tab with Output Settings switches, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/steps/tutorials-set-up-a-booth--booth-settings-tab.webp)
 
 The same tab sets the booth's **Active Gateway** (**Organization Default** unless this booth needs a different one), its **Region** and its **Currency**.
 
@@ -81,7 +81,7 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 1. Open the **Device** tab and, under **Pairing & access**, click **Generate code**.
 2. The **Pair Pixture App** modal shows a 6-digit code that expires in 10 minutes. **Copy Code** puts it on the clipboard; **Regenerate** issues a fresh one.
 
-![Pair Pixture App modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/booth-pairing-code.webp)
+![Pair Pixture App modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
 
 3. On the booth computer, open the Pix Desktop App and enter the code on its pairing screen.
 4. Back in the dashboard, click **Done**.

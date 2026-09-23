@@ -52,13 +52,13 @@ Buying is done on the **Licenses** page. A computer that is paired and waiting p
 
 1. Open **Licenses** in the sidebar. On a Pix Starter account the **Devices** card says there are no devices yet, and the **Passes** card shows 0 unspent passes with a **Buy passes** button.
 
-   ![The Licenses page of a Pix Starter account with the Devices, Subscription, Next renewal and Passes cards and an Add more devices button](/img/docs/licenses-starter.webp)
+   ![The Licenses page of a Pix Starter account with the Devices, Subscription, Next renewal and Passes cards and an Add more devices button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
 
 2. Click **Add more devices**. The modal explains: "One device runs one computer. Pick how long, and how many."
 3. Set **How many devices?** with the stepper. Click **See volume pricing** to compare the per-device price of the Day Pass, Monthly and Yearly at that quantity.
 4. Click **Select** on **Pix Pro (1 Day)**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)**.
 
-   ![The Add devices modal with the How many devices stepper, See volume pricing, and the Pix Pro (1 Day) $5, (1 Month) $40 and (1 Year) $300 cards](/img/docs/licenses-add-devices.webp)
+   ![The Add devices modal with the How many devices stepper, See volume pricing, and the Pix Pro (1 Day) $5, (1 Month) $40 and (1 Year) $300 cards](/img/docs/steps/getting-started-choose-plan--licenses-add-devices.webp)
 
 5. Complete the checkout. Internationally you pay by card and the subscription renews until you cancel. In Indonesia you pay at checkout with QRIS, bank transfer or a card, and the purchase is prepaid with no auto-renewal.
 

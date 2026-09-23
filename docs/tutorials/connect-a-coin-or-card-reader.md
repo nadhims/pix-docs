@@ -32,11 +32,11 @@ Guests tap or insert a card on a Stripe Terminal reader at the booth. The paymen
 1. Open **Settings > Payment Gateway** and click **Add Payment Gateway**.
 2. Under **Choose your payment provider**, pick **Stripe**, then **Continue**.
 
-![Add Payment Gateway modal, step 1, with the Midtrans, Xendit, DOKU and Stripe providers](/img/docs/settings-gateway-providers.webp)
+![Add Payment Gateway modal, step 1, with the Midtrans, Xendit, DOKU and Stripe providers](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--settings-gateway-providers.webp)
 
 3. Paste your Stripe **Secret key** (it must start with `sk_` or `rk_`; use the live key, since an `sk_test_` key never pays out) and click **Connect Gateway**.
 
-![Add Payment Gateway modal with the Stripe form](/img/docs/settings-gateway-stripe.webp)
+![Add Payment Gateway modal with the Stripe form](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--settings-gateway-stripe.webp)
 
 4. On the booth's **Settings** tab, set **Active Gateway** to the Stripe gateway if the organization default is something else.
 5. Set up the reader itself and which booth it belongs to as described in [Payment Gateway Reference](../guides/payment-gateway-setup.md).
@@ -54,7 +54,7 @@ The guest pays the cash system first. When the credit reaches the price, the sys
 1. In the cash system's software, set the receiver name to **Pix - START**, the hotkey to **F13**, and the cost to your session price. On a Nayax reader, set the credit per pulse to match the board's channel value.
 2. In the UI Editor, open the booth's UI project. On the **Payment Screen** tab, turn **Enabled in session flow** off. On the **Start Screen** tab, under **SESSION TRIGGER**, tick **F13** only and untick **Touch Screen**, the keys and **Start Button**, so nobody can start a session without paying. **Save**.
 
-![UI Editor on the Start Screen with the Session Trigger checkboxes, including F13](/img/docs/pix-design-ui-editor-start.webp)
+![UI Editor on the Start Screen with the Session Trigger checkboxes, including F13](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--pix-design-ui-editor-start.webp)
 
 3. On the booth, open the operator menu (tap the top-right corner twice within 3 seconds and enter the PIN if one is set) and tap **Hardware API**. In the CASH-Interface2 section, turn on **Treat F13 as the cash system's paid signal**. The page shows a setup table for the **Pix - START** receiver you can copy from.
 4. Tap **Start Booth** and feed the acceptor: the session should start on its own once the price is reached.

@@ -34,15 +34,15 @@ Studio mode and event video modes change the middle of this flow; see [Studio Se
 
 1. Open **Gallery**. Your session's photos are there, with the booth and template names. Use the booth filter and the **Day** / **Week** / **Month** pills to narrow the list, **Download** on a photo to save it, and **Select** to delete several at once. Photos can take a moment to appear while the booth uploads.
 
-   ![The Gallery page with the search box, booth filter, period pills and Select button](/img/docs/gallery.webp)
+   ![The Gallery page with the search box, booth filter, period pills and Select button](/img/docs/steps/getting-started-your-first-session--gallery.webp)
 
 2. Open **Transactions**. A paid session shows up as a row with its amount and payment status.
 
-   ![The Transactions page with search, booth filter, period pills, and the Total Transactions, Total Revenue, Payment Success and Session Completion cards](/img/docs/transactions.webp)
+   ![The Transactions page with search, booth filter, period pills, and the Total Transactions, Total Revenue, Payment Success and Session Completion cards](/img/docs/steps/getting-started-your-first-session--transactions.webp)
 
 3. Open **Health**. Your booth's row shows its status, any issues, today's session count, the paper level and when it was last seen. Errors from the booth land under **Error records**.
 
-   ![The Health page with booth rows showing Status, Issues, Today, Paper and Last seen, and the Error records section](/img/docs/health.webp)
+   ![The Health page with booth rows showing Status, Issues, Today, Paper and Last seen, and the Error records section](/img/docs/steps/getting-started-your-first-session--health.webp)
 
 The dashboard home also shows a "Your booth is live" banner with a **View gallery** button after the first session, and the setup banner goes away.
 

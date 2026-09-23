@@ -20,11 +20,11 @@ In this tutorial you will create a UI project in Pix Design, design the Start, P
 1. Click **Pix Design** in the sidebar, then open **UI Editor**.
 2. On **UI Projects**, click **New Project**.
 
-![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/pix-design-ui-projects.webp)
+![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-projects.webp)
 
 3. Type a **Project Name**, pick the **Orientation** (**Landscape 1920×1080** or **Portrait 1080×1920**) and a **Booth mode**, then create the project.
 
-![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/pix-design-new-ui-project-modal.webp)
+![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-new-ui-project-modal.webp)
 
 Booth mode sets the flow the design follows:
 
@@ -51,7 +51,7 @@ Studio mode needs Pix Desktop App 1.1.98 or newer on the booth. See [Studio Sess
 2. Under **SESSION TRIGGER**, tick how a session starts: **Touch Screen** (tap anywhere), **Start Button** (adds a button block you can style), **F13** (for a cash system or a remote button) and **Space, S, Page Up, Page Down Keys**.
 3. Under **Home Page Settings**, keep **Enabled in session flow** on and set the **Idle Timeout**, the number of seconds before the kiosk returns to the start.
 
-![UI Editor on the Start Screen with the page tabs, the canvas with a Start button, Page Background, Session Trigger checkboxes, Home Page Settings and Layers](/img/docs/pix-design-ui-editor-start.webp)
+![UI Editor on the Start Screen with the page tabs, the canvas with a Start button, Page Background, Session Trigger checkboxes, Home Page Settings and Layers](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-start.webp)
 
 **CAPTURE SETTINGS > Show live view** puts the camera feed on the Start Screen, so passers-by see themselves. Every page has **Enabled in session flow**; when it is off, the kiosk skips that screen.
 
@@ -61,7 +61,7 @@ Studio mode needs Pix Desktop App 1.1.98 or newer on the booth. See [Studio Sess
 2. Add the blocks the screen needs: **Payment QR** shows the gateway's QR code; **Voucher Input** has an editable title, subtitle and button colours (an empty title hides the line), or use the plain **Voucher Field** code box for your own artwork; **Payment Status** shows where the payment stands.
 3. Under **Timeout**, keep or adjust the defaults: the screen returns to the start after 120 seconds idle (0 = never), a voucher, coin or card step returns to the methods after 60 seconds, and the success screen stays 3 seconds (0 = wait for a tap).
 
-![UI Editor on the Payment Screen](/img/docs/pix-design-ui-editor-payment.webp)
+![UI Editor on the Payment Screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-payment.webp)
 
 The success screen also shows when a voucher covers the whole price; free sessions skip the Payment Screen entirely. The QR payment popup takes its colours, fonts and buttons from this design.
 
@@ -70,7 +70,7 @@ The success screen also shows when a voucher covers the whole price; free sessio
 1. Open the **Templates** tab and select the **Template Cards** block. It shows every template assigned to the booth, using the thumbnail rendered in the Template Editor.
 2. Size and place the block, and set the card shadow and corner radius (the default radius is 0). Templates with categories get a category rail that scrolls when there are many.
 
-![UI Editor on the Templates screen](/img/docs/pix-design-ui-editor-templates.webp)
+![UI Editor on the Templates screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-templates.webp)
 
 ## Step 6: Design the Capture and Review screens
 
@@ -78,7 +78,7 @@ The success screen also shows when a voucher covers the whole price; free sessio
 2. Set **Session Time** in the page settings. The countdown starts at the first capture; a **Session Timer** block only displays it, always as MM:SS.
 3. Add the **Preview Cards** block: one square card per template slot, numbered while empty, filled as the shots land, with the current slot ringed. A **Photo Counter** block shows how many shots are done.
 
-![UI Editor on the Capture screen](/img/docs/pix-design-ui-editor-capture.webp)
+![UI Editor on the Capture screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-capture.webp)
 
 4. On the **Review** tab, place the **Review Photo** block and the **Retake Button** and **Next Button**; the built-in buttons size to their blocks. Under **Review Settings**, turn on **Advanced mode** if guests should adjust each photo: tapping a slot on the composed preview lets them scale, move and mirror that one photo.
 
@@ -87,14 +87,14 @@ The success screen also shows when a voucher covers the whole price; free sessio
 1. On the **Filter** tab, add the **Filter Strip** block, a grid of filter cards, and choose its card ratio (16:9 to square; square is the default). Filter cards take their corner radius from the strip. Add a **Filter Preview** block so guests see the chosen filter on their photo.
 2. On the **Sharing** tab, add the **QR Code** block (the link to the guest's photos), the **Composed Preview** block (the finished print) and a **Finish Button**. With the showcase loop off, the preview shows the live photo once it is ready; GIF previews show the real GIF. If you sell extra prints, the price comes from the booth's **Pricing > Extra prints** tab and the extra prints control appears on this screen.
 
-![UI Editor on the Sharing screen](/img/docs/pix-design-ui-editor-sharing.webp)
+![UI Editor on the Sharing screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-sharing.webp)
 
 ## Step 8: Preview, save and assign
 
 1. Click **Preview** to walk through the screens as a guest would, then **Save**.
 2. Assign the design: on **UI Projects**, open the card's menu and choose **Assign to booths**; or open the booth's **UI Project** tab, pick the project from the dropdown and click **Save**.
 
-![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/booth-ui-project-tab.webp)
+![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
 
 The card menu also offers **Duplicate** (start a variant for another client), **Rename**, **Add frame template to this project** and **Delete**.
 

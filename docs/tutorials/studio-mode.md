@@ -23,7 +23,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 1. Go to **Pix Design > UI Editor** and click **New Project**.
 2. Enter a **Project Name**, choose the **Orientation** (Landscape 1920×1080 or Portrait 1080×1920) and pick the **Studio** booth mode card (Start, Pay, Template, Timed shoot, Pick photos, Filter, Share).
 
-   ![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/pix-design-new-ui-project-modal.webp)
+   ![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/steps/tutorials-studio-mode--pix-design-new-ui-project-modal.webp)
 
 3. Create the project. The editor opens with the usual page tabs plus **Assign photos**.
 
@@ -31,7 +31,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 
 1. Open the **Capture** tab. The right rail holds the pool settings: the session length (the pool timer, 0 for no time limit), **Max photos** (0 for no limit, up to 40), and **Camera trigger**: **Tap**, **Shutter button** or **Camera shutter** (the photographer shoots from the camera body). Studio projects start with Tap and a "Tap to Start" overlay.
 
-   ![UI Editor on the Capture screen with the canvas, blocks and the right rail settings](/img/docs/pix-design-ui-editor-capture.webp)
+   ![UI Editor on the Capture screen with the canvas, blocks and the right rail settings](/img/docs/steps/tutorials-studio-mode--pix-design-ui-editor-capture.webp)
 
 2. Arrange the blocks: the shutter button (a red disc with a white ring; shape and centre are yours to change), the **Last Shot** card (opens a gallery of the pool with **Remove**), the **Photo Counter** ("n of N"), the **Session Timer** and the **Done** button. Done stays hidden until the minimum number of shots is reached. The **Preview Cards** block adds one square card per template slot that fills as shots land (app 1.1.114 or newer).
 3. Every shot gets a short review: **Next** keeps it, **Retake** drops it. The review settings let you hide **Retake** or the counter.
@@ -47,12 +47,12 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 
 1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Photobooth mode**, **Studio mode** and **Simple mode**; pick your project under Studio mode. The page then reads "Booth mode: Studio".
 
-   ![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/booth-ui-project-tab.webp)
+   ![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/steps/tutorials-studio-mode--booth-ui-project-tab.webp)
 
 2. Click **Save**. A warning appears if the booth's app is older than 1.1.98.
 3. To put the same design on several booths at once, use the card menu on **Pix Design > UI Editor** and choose **Assign to booths**.
 
-   ![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/pix-design-ui-projects.webp)
+   ![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/steps/tutorials-studio-mode--pix-design-ui-projects.webp)
 
 ## Step 5: Run a Session
 

@@ -19,7 +19,7 @@ By the end of this page the Pix Desktop App, the kiosk software that runs your p
 
 1. Go to [pixture.io/download](https://pixture.io/download). The page highlights the build for the computer you are on; every build is listed. You can also get there from the setup banner in your dashboard by clicking **Install the app**, or from **Settings > Download App**.
 
-   ![The dashboard of a new account with the setup banner and its Install the app button](/img/docs/dashboard-new-account.webp)
+   ![The dashboard of a new account with the setup banner and its Install the app button](/img/docs/steps/getting-started-download-desktop-app--dashboard-new-account.webp)
 
 2. Pick the installer: the **macOS** disk image (one build for both Apple Silicon and Intel Macs) or the **Windows** installer. On Apple Silicon, version 1.1.115 or newer encodes live photos, filters and GIFs natively, with no Rosetta needed.
 

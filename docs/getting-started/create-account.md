@@ -19,7 +19,7 @@ By the end of this page you have a Pixture account, an organisation named after 
 1. Go to [pixture.io/signup](https://pixture.io/signup). The page is titled **Create your account** and reminds you that no credit card is needed.
 2. Pick one way in: **Sign up with Google**, **Sign up with Apple**, or type your email address and click **Sign up with email**.
 
-   ![The Create your account page with Sign up with Google, Sign up with Apple and an email address field](/img/docs/signup-page.webp)
+   ![The Create your account page with Sign up with Google, Sign up with Apple and an email address field](/img/docs/steps/getting-started-create-account--signup-page.webp)
 
 3. If you used email, the page says **Check your email.** Open the message from pixture.io and click the link. It opens the Complete your account page. If nothing arrives within a few minutes, check your spam folder.
 
