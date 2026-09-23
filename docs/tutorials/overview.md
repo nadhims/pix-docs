@@ -20,6 +20,7 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 - [Accept Payments](./accept-payments.md). Connect a payment gateway, set your session prices and packages, and switch payment on at the booth.
 - [Sell Sessions Online](./sell-sessions-online.md). Share a link where customers buy a package on their phone and get a code the booth accepts, even offline.
 - [Sell AI Portraits](./sell-ai-portraits.md). Offer AI portraits on the guest share page, digital or with a print picked up at the booth. Available to beta accounts.
+- [Let Guests Design Their Own Frame](./frame-lab.md). Switch on Frame Lab, follow a guest from the phone studio to payment and voucher, and redeem the code at the booth.
 
 ## Run
 

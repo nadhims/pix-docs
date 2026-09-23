@@ -50,7 +50,12 @@ Bonus sessions show a Bonus label on [Transactions](./transactions.md).
 
 ![Marketing Studio Frame Lab tab: per-booth price, canvas, voucher expiry, guest upload page QR](/img/docs/marketing-frame-lab.webp)
 
-Frame Lab lets a guest design their own frame on their phone, pay for it, and use it at the booth. The guest flow is Upload, Pay, Get Voucher, Use at Booth. Each booth has its own **Price**, **Canvas** size in pixels and **Voucher expiry**. Below them are the shared **Guest upload page** QR, the **Page banner** and **Studio assets** the page shows, and **Recent Frame Lab uploads**. Frame Lab sales show a Frame Lab label on Transactions. The per-booth page, with the enable switch and a live preview, is reached from the booth's property grid; see [Booths](./booth-management.md).
+Frame Lab lets a guest design their own frame on their phone, pay for it, and use it at the booth. The guest either builds the frame in a small studio (layout, colours, stickers, caption) or uploads a finished PNG, pays by QR code through your gateway, and gets a single-use voucher code that loads their frame on the booth. Each booth has its own **Frame Lab** switch, **Price**, **Canvas (px)** and **Voucher expiry** (hours). Below them are the shared **Guest upload page** QR and link, the **Page banner**, the **Studio assets** (textures and graphics guests can use in the studio) and **Recent Frame Lab uploads** with each order's voucher code and status. Frame Lab sales show as **CT** rows on Transactions. The per-booth page with the same settings is reached from the **Frame Lab** cell of the booth's property grid; see [Booths](./booth-management.md). The whole journey, from switching it on to the guest redeeming the code at the booth, is in [Let Guests Design Their Own Frame](../tutorials/frame-lab.md).
+
+<div className="phone-row">
+  <figure><img src="/img/docs/framelab-studio-format.webp" alt="The guest studio on a phone: a four-photo 4x6 frame with the Format, Upload, BG, Deco and Text tools" /><figcaption>What the guest sees: the Frame Lab studio.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-voucher.webp" alt="Your voucher is ready screen with the six-character code" /><figcaption>After payment: the single-use voucher code.</figcaption></figure>
+</div>
 
 ## Campaigns
 

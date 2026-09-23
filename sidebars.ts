@@ -30,6 +30,7 @@ const sidebars: SidebarsConfig = {
         'tutorials/sell-sessions-online',
         'tutorials/studio-mode',
         'tutorials/sell-ai-portraits',
+        'tutorials/frame-lab',
         'tutorials/add-or-move-a-computer',
         'tutorials/connect-a-coin-or-card-reader',
       ],
