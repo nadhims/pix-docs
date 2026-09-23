@@ -66,7 +66,7 @@ All three CI2 setups use the booth's **Hardware API** page: open the operator me
 
 ### Setup B1: Start-gate (recommended)
 
-The guest pays the cash system first. When the credit reaches the price, the system presses **F13** and the session starts. the booth never shows a price, and the session is recorded as paid at the booth's session price.
+The guest pays the cash system first. When the credit reaches the price, the system presses **F13** and the session starts. The booth never shows a price, and the session is recorded as paid at the booth's session price.
 
 | Where | Setting | Value |
 |---|---|---|
@@ -96,7 +96,7 @@ F13 must stay the only session trigger. A Start Button or Touch Screen trigger n
 
 ### Setup B2: Pay on the Payment screen
 
-The guest picks a package on the booth's Payment screen and pays on the reader or coin box from the Card or Coin popup. the booth puts the amount due in its window title, the cash system counts the money and presses **F13** once the amount is covered, and the booth records the session as paid at the amount on screen. This is the setup for packages and for a running total on screen.
+The guest picks a package on the booth's Payment screen and pays on the reader or coin box from the Card or Coin popup. The booth puts the amount due in its window title, the cash system counts the money and presses **F13** once the amount is covered, and the booth records the session as paid at the amount on screen. This is the setup for packages and for a running total on screen.
 
 | Where | Setting | Value |
 |---|---|---|
