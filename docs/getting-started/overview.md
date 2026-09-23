@@ -1,42 +1,41 @@
 ---
 sidebar_position: 1
 title: Getting Started
-description: Get your Pix photobooth up and running, step by step.
+description: The fifteen-minute path from a new Pixture account to your first photo session, what you need, and what the free plan gives you.
 tags: [getting-started, quickstart]
 ---
 
-# Getting Started with Pix
+# Getting Started
 
-Welcome to Pix! This guide walks you through everything you need to go from zero to your first photobooth photo session.
+By the end of this section you have a Pixture account, the Pix Desktop App running on a booth computer that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
 
-## Quick-Start Flowchart
+## The Fifteen-Minute Path
 
-Follow these steps to get up and running:
+1. [Create your account](./create-account.md). Sign up at pixture.io, complete your profile and answer the Quick setup, which also creates your first booth.
+2. [Choose your plan](./choose-plan.md). Stay on the free Pix Starter plan, claim the 3-day Pix Pro trial, or put a Day Pass or Pix Pro on the booth computer. You can come back to this at any time.
+3. [Install the Pix Desktop App](./download-desktop-app.md) on the Mac or Windows computer that will run the booth.
+4. [Pair your first booth](./pair-your-first-booth.md). Generate a 6-digit code in the dashboard and type it into the app.
+5. [Know your way around the dashboard](./access-dashboard.md). A short tour of the sidebar, so you know where prices, templates, health and licences live.
+6. [Run your first photo session](./your-first-session.md). Walk through the guest flow once, then find the photos in the Gallery.
 
-1. **[Create your account](./create-account.md)** -- Sign up at pixture.io with your name, email, and phone number, then verify your email.
-2. **[Claim your free 3-day trial](./choose-plan.md)** -- Every organization can claim one free 3-day **Pix Pro** trial from the dashboard; otherwise booths start on the free Starter plan (1 booth, 2 templates, watermarked sharing).
-3. **[Download the Desktop App](./download-desktop-app.md)** -- Install the Pix kiosk app on your macOS or Windows machine.
-4. **Pair your booth** -- In the dashboard open the booth, go to the **Device** tab, click **Generate code**, then type the 6-digit code into the Pix Desktop App on the booth computer.
-5. **[Connect your camera](../desktop-app/camera-setup/camera-settings.md)** -- Plug in a Canon EOS camera via USB, or use a webcam to test.
-6. **[Connect your printer](../desktop-app/printer-setup.md)** -- Optional but recommended, so customers can walk away with a physical print.
-7. **[Run your first photo session](./your-first-session.md)** -- Walk a customer through the full capture-to-sharing experience.
+Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same ground in about fifteen minutes, with chapter links.
 
-## Once You're Up and Running
+## What You Need
 
-Time to make it yours:
+- A **Mac** on macOS 13 or later, or a **Windows** 10 or 11 (64-bit) PC. Full details in [System Requirements](../reference/system-requirements.md).
+- A **camera**: a Canon EOS camera on USB, or a built-in or USB webcam to get going.
+- An **internet connection** for sign-up, pairing, template sync and QR code sharing. The booth keeps shooting and printing if the connection drops later.
+- Optional: a **photo printer** so guests leave with a print, and a **touchscreen** so guests can run the booth on their own.
 
-- **UI Editor** (kiosk screen designer) -- style what customers see before and around a photo session. See [Branding Your Booth](/docs/guides/branding-your-booth).
-- **Pix Design (template editor)** -- design your own photo templates. See [Pix Design Overview](/docs/dashboard/pix-design/overview).
+## What Is Free
 
-The [Pix Dashboard](./access-dashboard.md) also works great from your phone's browser if you want to monitor revenue, manage templates, and handle billing on the go -- no install needed.
+**Pix Starter** costs nothing and has no time limit. It runs the Pix Desktop App on **one computer**, with the Pixture watermark on every photo, print, GIF and video, and a new account comes with two ready-made print templates and the default kiosk design, so a booth works minutes after pairing. What else Pix Starter includes, and what Pix Pro adds, is on [Choose Your Plan](./choose-plan.md).
 
-:::tip
-:::
+Every account can also claim one free **3-day Pix Pro trial** on one computer, with no card. See [Choose Your Plan](./choose-plan.md).
 
-## What You'll Need
+## Related
 
-- A computer running **macOS 13+** or **Windows 10+**
-- A **Canon EOS camera** connected via USB (or a built-in webcam for testing)
-- An internet connection for setup and sharing features
-
-Ready? Let's start by [creating your account](./create-account.md).
+- [Create Your Account](./create-account.md)
+- [System Requirements](../reference/system-requirements.md)
+- [Plans & Pricing](../pricing/plans.md)
+- [Booth Operations Checklist](../guides/booth-operations-checklist.md)

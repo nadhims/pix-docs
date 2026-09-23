@@ -1,55 +1,93 @@
 ---
 sidebar_position: 2
 title: Dashboard Home
-description: View real-time analytics, photo session counts, revenue, and booth health from the Dashboard tab.
+description: The Dashboard page, its filters, every card from Revenue to Health, and the booth details drawer.
 tags: [dashboard, analytics, revenue]
 ---
 
 # Dashboard Home
 
-The Dashboard tab is your command center. It surfaces the numbers that matter most -- how many photo sessions you've run, how much revenue you've earned, and which booths need attention.
+**Dashboard** is the first page after you log in. It shows how your booths did over a day, a week or a month: revenue, photo sessions, prints, vouchers, the templates guests picked, the booths that earned most, and whether anything needs attention.
 
-<!-- Screenshot: Dashboard analytics overview -->
+![Dashboard home of a Pix Pro account: Revenue, Sessions, Session Completion, Peak Day, Prints, Vouchers and Templates Usage cards](/img/docs/dashboard-home.webp)
 
-## Analytics Summary
+## Filters
 
-At the top of the screen, you'll see key metrics for the selected time period:
+The header sets what every card below it shows.
 
-- **Total Photo Sessions** -- number of completed photobooth photo sessions
-- **Revenue** -- total earnings across all booths
-- **Average Per Photo Session** -- revenue divided by photo session count
-- **Active Booths** -- how many booths ran at least one photo session
+| Control | What it does |
+|---|---|
+| **All Regions** | Limits the page to booths in one region. Regions are set on each booth's Settings tab |
+| **All Booths** | Limits the page to one booth |
+| **Day / Week / Month** | The period every card reports |
+| Month picker | Jumps to an earlier month |
 
-Use the date range picker to switch between **Today**, **This Week**, **This Month**, or a **Custom Range**.
+If your booths trade in more than one currency, a row of "Showing" pills appears above the cards. Each currency has its own figures; nothing is converted or combined.
 
-## Booth Health
+## The Cards
 
-Below the summary cards, the booth health section shows each booth's current status:
+### Revenue
 
-| Status | Meaning |
-|--------|---------|
-| **Online** | Booth is connected and ready for photo sessions |
-| **Offline** | Booth has not reported in recently |
-| **Idle** | Booth is online but hasn't had a photo session today |
+Paid photo sessions in the period, with a "vs previous period" chip and the month-to-date total. Click the eye icon to hide the figure when someone is looking over your shoulder; click it again to show it.
 
-:::caution
-An "Offline" status doesn't always mean something is wrong -- the booth device may simply be powered off outside operating hours. Check the last-seen timestamp for context.
+### Sessions
+
+How many photo sessions started in the period.
+
+### Session Completion
+
+The share of started sessions that reached the end of the flow. A low figure means guests are starting sessions but not finishing them.
+
+### Peak Day and Peak Hour
+
+Your busiest day of the week and busiest hour, so you know when to staff up or restock paper.
+
+### Prints
+
+How many prints your booths made in the period.
+
+### Vouchers
+
+Voucher redemptions in the period. See [Vouchers](./vouchers.md).
+
+### Templates Usage
+
+Which templates guests picked, most used first, with a search box for accounts with many templates.
+
+![Dashboard home, full page, with Top Booth Revenue and Health below the first row of cards](/img/docs/dashboard-home-full.webp)
+
+### Top Booth Revenue
+
+Your booths ranked by revenue in the period. Useful when you run several venues and want to know which one carries the month.
+
+### Health
+
+"All clear" when every booth is online and reporting no issues, "All offline" when none has checked in. Anything in between lists the booths that need a look. The full picture is on [Health](./health.md).
+
+## Booth Details Drawer
+
+Open a booth from the Dashboard, for example from the Top Booth Revenue list or the Health card, to see that booth at a glance in a side panel.
+
+| Field | What it shows |
+|---|---|
+| Today | Sessions and revenue so far today |
+| Issues | Anything the kiosk is reporting |
+| First Online / Last Online | When the booth first and last checked in |
+| Sessions, Revenue | Totals for the selected period |
+| Active Hours / Down Hours | How long the booth was online and offline |
+| Hourly Activity | Sessions by hour |
+| Paper Level | What the printer reports, where the driver supports it |
+
+## "Your booth is live"
+
+When a booth runs its first photo session, the page shows the banner "Your booth is live" with a **View gallery** link. From then on the cards fill up as sessions arrive.
+
+:::tip Reading an empty Dashboard
+A brand new account shows zeros and the setup banner. Nothing is wrong: the cards only count sessions that a paired booth has uploaded. Pair a computer, run one test session, and the first numbers appear.
 :::
 
-## Leaderboard
+## Related
 
-The leaderboard ranks your booths by photo session count or revenue for the selected period. This is especially useful if you operate multiple booths across different venues.
-
-<!-- Screenshot: Booth leaderboard -->
-
-:::tip
-Click any booth in the leaderboard to jump directly to its detail page, where you can review settings, assigned templates, and recent photo sessions.
-:::
-
-## Revenue Chart
-
-A line or bar chart visualizes daily revenue trends over the selected date range. Spot patterns like weekend spikes or slow weekdays to help you plan staffing and marketing.
-
-## Refreshing Data
-
-All data on this screen refreshes automatically when you navigate to the tab. You can also reload the page if you want the latest numbers.
+- [Health](./health.md)
+- [Transactions](./transactions.md)
+- [Booths](./booth-management.md)

@@ -1,42 +1,44 @@
 ---
 sidebar_position: 2
 title: Feature Comparison
-description: What each Pix plan includes, side by side -- Starter, Day Pass, and Pix Pro.
+description: What Pix Starter and Pix Pro include, side by side, and when a Day Pass beats a subscription.
 tags: [pricing, comparison, features]
 ---
 
 # Feature Comparison
 
-All plans are per booth. A booth on Day Pass has the same features as a booth on Pix Pro, for 24 hours.
+Pix Pro is per computer. A computer on a Day Pass has exactly the same features as one on a Pix Pro subscription, for 24 hours. The table compares an account with no Pix Pro at all (Pix Starter) with a computer running Pix Pro.
 
-| Feature | Starter (free) | Day Pass (from $5 / Rp 85.000) | Pix Pro ($40/mo, or $25/mo yearly) |
-|---|---|---|---|
-| **Booths** | 1 per organization | 1 per pass | 1 per licence |
-| **Templates** | 2 | Unlimited | Unlimited |
-| **Template Editor** | Up to 2 templates | Yes | Yes |
-| **UI Editor** (kiosk screen design) | Standard design only | Yes | Yes |
-| **Printing** | Yes | Yes | Yes |
-| **Soft files** (singles, GIF, Live Photo) | Yes, with Pix watermark | Yes, clean | Yes, clean |
-| **QR microsite** | Yes, with Pix watermark | Yes, branded | Yes, branded |
-| **Photo filters** | Built-in | Built-in and custom .cube | Built-in and custom .cube |
-| **Payment gateway** (QRIS via DOKU) | -- | Yes | Yes |
-| **Hardware payments** (coins, cards, F13) | -- | Yes | Yes |
-| **Packages, extra prints, tax and fees** | -- | Yes | Yes |
-| **Vouchers** | -- | Yes | Yes |
-| **Bonus session and contact capture** | -- | Yes | Yes |
-| **Frame Lab** (customer-designed frames) | -- | Yes | Yes |
-| **Events and public albums** | -- | Yes (stations use Day Passes) | Yes |
-| **Health monitoring** | Basic | Yes | Yes |
-| **Transactions and per-currency reports** | -- | Yes | Yes |
-| **Team members and roles** | Yes | Yes | Yes |
-| **Pix AI** (beta, credits) | Yes | Yes | Yes |
-| **Offline capture and printing** | Yes | Yes | Yes |
-| **Support** | Docs and chat | Docs and chat | Priority chat |
+| Feature | Pix Starter (free) | Pix Pro |
+|---|---|---|
+| **Computers** | One | One per device you add; add as many as you need |
+| **Watermark on photos and prints** | Yes, on every photo and print | None |
+| **Templates** | Two ready-made templates | Unlimited, plus your own designs |
+| **UI projects** (kiosk designs) | The default kiosk design | Unlimited, plus your own designs |
+| **Pix Design** | Open to try; creating and saving needs Pix Pro | Full |
+| **Marketing Studio** | No | Yes |
+| **Frame Lab** (guests design their own frame) | No | Yes |
+| **Payments at the booth and vouchers** | No, the Payment screen is skipped and every session is free | Payment gateway, hardware payments, packages, extra prints, tax and fees, vouchers |
+| **Online session shop** | No | Yes |
+| **Events** | Set up on any plan; each booth's computer needs Pix Pro or a Day Pass for the event | Yes |
+| **Studio mode** | Needs a UI project in Studio mode, so Pix Pro | Yes, on kiosk 1.1.98 or newer |
+| **Video and 360 event modes** | No | Video; 360 slow-mo is marked "Soon" |
+| **Filters** | 14 built-in | 14 built-in plus up to 50 custom .cube files |
+| **Share page and microsite** | Yes, watermarked photos | Yes, clean photos with your branding |
+| **Gallery, Transactions and Health** | Yes | Yes |
+| **Team members and roles** | Yes | Yes |
+| **Pix AI** | Beta accounts, credits, any plan | Beta accounts, credits, any plan |
 
-## Notes
+## Day Pass or Pix Pro?
 
-- **Watermark**: Starter soft files and microsites show a small Pix logo. Buying a Day Pass or Pix Pro for the booth removes it from that booth's new photo sessions.
-- **Custom kiosk designs**: on Starter you can open the UI Editor and build one project, but only a booth with a Day Pass or Pix Pro licence can run it.
-- **Payment gateway**: Pix takes 0% of your photo session revenue; DOKU's own fees apply.
+Both give the same Pix Pro on one computer. The difference is how long it lasts and how you pay.
 
-Prices and packs are on [Plans & Pricing](./plans.md).
+A **Day Pass** ($5 or Rp 85.000) is a 24-hour Pix Pro that you buy ahead and use on the day, from the kiosk's operator menu. It suits operators who work events and pass the cost on to the client. It cannot be moved to another computer once used.
+
+**Pix Pro Monthly** ($40 or Rp 850.000) pays off after about eight event days a month on the same computer. **Pix Pro Yearly** ($300 or Rp 6.500.000) is the cheapest way to run a fixed location all year. Both can be moved between computers by deactivating one on the Licenses page.
+
+## Related
+
+- [Plans & Pricing](./plans.md)
+- [Billing FAQ](./billing-faq.md)
+- [Choose Your Plan](../getting-started/choose-plan.md)

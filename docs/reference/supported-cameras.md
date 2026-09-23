@@ -1,34 +1,32 @@
 ---
 sidebar_position: 2
 title: Supported Cameras
-description: Canon EOS cameras tested with Pix, USB connection requirements, and webcam fallback.
+description: Canon EOS cameras tested with the Pix Desktop App, USB connection requirements, sideways mounts, and the webcam fallback.
 tags: [reference, cameras, hardware]
 ---
 
 # Supported Cameras
 
-Pix captures photos using Canon EOS cameras connected via USB tethering. The Desktop App communicates with the camera through Canon's EDSDK, giving you full control over settings like aperture, shutter speed, and ISO directly from the app.
+The Pix Desktop App captures photos with Canon EOS cameras connected by USB. It talks to the camera through Canon's own software kit, so exposure settings such as aperture, shutter speed and ISO are controlled from the kiosk's **Camera Settings** page.
 
-## Which Camera Should You Buy? (Budget Tiers)
+## Which camera should you buy?
 
-If you're not sure where to start, here's a rough guide by budget. Prices are approximate Indonesian market prices as of August 2026 and will drift over time (secondhand prices especially) -- always check current pricing before buying.
+If you are not sure where to start, here is a rough guide by budget. Prices are approximate Indonesian market prices as of August 2026 and will drift over time (secondhand prices especially). Always check current pricing before buying.
 
-| Tier | Model | Approx. Price (IDR) | Why |
+| Tier | Model | Approx. price (IDR) | Why |
 |---|---|---|---|
-| **Low budget** | EOS 1200D (secondhand) | ~1.2-2.2 juta | Cheapest realistic USB-tetherable Canon EOS on the used market. Not on Canon's current lineup and not on Pix's officially tested list below, but EDSDK/USB tethering support means it should work -- a reasonable way to test the waters before investing more. |
-| **Mid budget** | EOS R100 (new) | ~8.5-10 juta | Canon's current cheapest mirrorless. New with warranty, RF mount, genuinely current product -- not a used-market gamble. Not on the officially tested list, but the same EDSDK/USB tethering logic applies. |
-| **Upper-mid** | EOS R10 or EOS R8 (tested) | R10 ~18 juta, R8 ~21 juta | Both officially tested. R10 is APS-C; R8 steps up to full-frame for a relatively small jump in price -- a good bridge if R6 Mark II feels like too big a leap. |
-| **High budget** | EOS R6 Mark II (tested) | ~28-30 juta | Full-frame image quality and fast autofocus at roughly half the price of the EOS R5, which is priced closer to flagship territory for resolution a photobooth doesn't need. The sensible top of the recommended range. |
+| **Low budget** | EOS 1200D (secondhand) | ~1.2 to 2.2 juta | Cheapest realistic USB-tetherable Canon EOS on the used market. Not on Canon's current lineup and not on the tested list below, but USB tethering support means it should work. A reasonable way to test the waters before investing more. |
+| **Mid budget** | EOS R100 (new) | ~8.5 to 10 juta | Canon's current cheapest mirrorless. New with warranty, RF mount, a current product rather than a used-market gamble. Not on the tested list, but the same USB tethering logic applies. |
+| **Upper-mid** | EOS R10 or EOS R8 (tested) | R10 ~18 juta, R8 ~21 juta | Both tested. R10 is APS-C; R8 steps up to full-frame for a relatively small jump in price. |
+| **High budget** | EOS R6 Mark II (tested) | ~28 to 30 juta | Full-frame image quality and fast autofocus at roughly half the price of the EOS R5, whose resolution a photobooth does not need. The sensible top of the range. |
 
 :::caution
-These are approximate, point-in-time market prices (especially the secondhand 1200D) -- treat them as a starting reference, not a quote. Always check current prices with a retailer or marketplace before buying.
+These are approximate, point-in-time market prices (especially the secondhand 1200D). Treat them as a starting reference, not a quote.
 :::
 
-## Tested Canon EOS Models
+## Tested Canon EOS models
 
-The following cameras have been tested and confirmed to work with Pix:
-
-### Mirrorless (EOS R System)
+### Mirrorless (EOS R system)
 
 | Model | Notes |
 |---|---|
@@ -51,29 +49,39 @@ The following cameras have been tested and confirmed to work with Pix:
 | 250D / Rebel SL3 | Compact, great starter camera |
 
 :::tip
-Most Canon EOS models with USB tethering support should work with Pix, even if not listed above. If your camera supports Canon's EOS Utility for remote shooting, it will likely work with Pix.
+Most Canon EOS models with USB tethering should work, even if not listed above. If your camera supports Canon's EOS Utility for remote shooting, it will likely work with the Pix Desktop App.
 :::
 
-## USB Connection Requirements
+## USB connection
 
 - Use the USB cable that came with your camera, or a high-quality replacement.
-- Connect the camera directly to your computer's USB port. Avoid USB hubs when possible, as they can introduce connection instability.
+- Connect the camera directly to the computer's USB port. Avoid hubs when possible; they can introduce connection instability.
 - USB 3.0 or faster is recommended for quicker image transfer.
-- Canon cameras are driven through Canon's EOS Digital SDK on both macOS and Windows.
+- Set the camera body to **M**, **Av** or **Tv** so the kiosk can control exposure. Focus mode is set on the body.
+- Quit Canon's EOS Utility or any other tethering software before launching the kiosk. Only one application can control the camera over USB at a time.
 
-:::caution
-Disable Canon's EOS Utility or any other tethering software before launching Pix. Only one application can control the camera over USB at a time.
-:::
+If the camera disconnects mid-session, the kiosk reconnects on its own. Capture waits on "Camera is warming up" and, if the camera does not respond within 30 seconds, ends the session and returns to the start screen.
 
-## Webcam Fallback
+## Sideways and upside-down mounts
 
-If you don't have a Canon EOS camera, Pix can use any built-in or external webcam as a capture device. This is useful for:
+If the camera is mounted rotated, for example a portrait-mounted body in a tall booth:
 
-- Testing your booth layout and flow before opening to customers
-- Running a lower-cost setup where DSLR quality isn't required
+1. Open the operator menu and tap **Camera Settings**.
+2. Under **CAPTURE**, set **CAMERA ROTATION** to 90, 180 or 270.
 
-To switch to webcam mode, open the kiosk's operator menu and go to **Camera Settings** and select your webcam from the device list.
+The live view, the crop guide and the captured photo all follow the rotation.
 
-:::info
-Webcam captures are limited to the webcam's native resolution. For professional-quality output, a Canon EOS camera is strongly recommended.
-:::
+## Webcam fallback
+
+Without a Canon EOS camera, the kiosk can use any built-in or external webcam, or a virtual camera such as OBS Virtual Camera on macOS. This is useful for testing your booth layout and flow before opening to guests, or for a lower-cost setup where DSLR quality is not required.
+
+1. Open the operator menu and tap **Camera Settings**.
+2. Under **CAMERA DEVICE**, pick the webcam instead of **Auto-detect**, and tap **Set as Default**.
+
+Webcam captures are limited to the webcam's native resolution. For professional output, a Canon EOS camera is strongly recommended.
+
+## Related
+
+- [System Requirements](./system-requirements.md)
+- [Supported Printers](./supported-printers.md)
+- [Booth Operations Checklist](../guides/booth-operations-checklist.md)

@@ -1,58 +1,54 @@
 ---
 sidebar_position: 4
 title: Template Selection
-description: How customers choose a photo template during a photo session and how to manage assigned templates.
-tags: [desktop-app, photo session, templates]
+description: How guests choose a print design on the booth, where the templates come from, and how events, template packs and plan limits change the set.
+tags: [desktop-app, photo-session, templates]
 ---
 
 # Template Selection
 
-After the home screen (and optional payment), customers choose a template that determines the layout and style of their photos.
+After Home, the optional Tutorial and Payment, the guest picks the design their photos will go into. This page explains what the guest sees, where the booth gets its templates, and what changes the set: your booth assignments, plan limits, and a running event.
 
-## What Are Templates?
+## What the Guest Sees
 
-Templates define how the final composite image looks:
+The screen shows a **Template Cards** block with one card per assigned template. Each card is the thumbnail rendered by the Pix Design template editor, so it looks exactly like the finished print. The first template is preselected so the large preview is never empty; the guest taps a card to choose it and taps Next (or the card, depending on your design) to move on to Capture.
 
-- **Number of photo slots** -- how many individual shots are taken (1, 2, 3, 4, or more)
-- **Layout arrangement** -- where each photo sits in the final image (grid, strip, collage, etc.)
-- **Overlay graphics** -- borders, logos, decorations, and text baked into the design
-- **Output dimensions** -- matched to your print paper size or digital sharing format
+Two details make the screen feel quick on a booth with many designs:
 
-Templates are created and managed in **Pix Design** from the dashboard.
+- A **category rail** runs alongside the cards. Templates with a category get their own button; the rail scrolls when there are more categories than fit. Uncategorised templates show under All.
+- Cards **load progressively** and fade in as their thumbnails arrive, so the guest can start choosing while the rest are still coming.
 
-## Assigning Templates to a Booth
+The card layout, spacing, corner radius, selection ring and shadow are all set on the Template Cards block in the UI Editor's **Templates** tab.
 
-Only templates assigned to a booth appear in the customer-facing picker:
+## Where the Templates Come From
 
-1. Open **Pix Design** in the dashboard.
-2. Select the template you want to use.
-3. Assign it to one or more booths.
+Only templates assigned to the booth appear:
 
-You can assign as many templates as you like. For a streamlined customer experience, 2-4 options works best.
+1. In the dashboard, open **Booths**, pick the booth and open its **Templates** tab.
+2. Click **Manage Templates**, tick the designs you want and click **Save Templates**. You can also assign a design to several booths at once from Pix Design with **Assign to booths**.
 
-<!-- Screenshot: Template picker showing three template options -->
+The booth's Templates tab marks one of the assigned designs with a **Default** badge. Changes reach the booth on its next check-in, usually within seconds. Templates are made in the Pix Design template editor; see [Pix Design](../../dashboard/pix-design/overview.md). The number of shots in the session is the number of photo slots in the chosen design.
 
-:::tip
-If you assign only one template to a booth, the selection step is skipped automatically and the photo session jumps straight to capture. This is ideal for locations running a single branded layout.
-:::
+## Plan Limits
 
-## Customer Experience
+- **Pix Starter**: up to 2 templates, and the output carries the Pixture watermark.
+- **Pix Pro** (subscription, Day Pass or trial): unlimited templates.
 
-The template picker shows thumbnail previews of each available template. Customers simply tap the one they want, and the photo session proceeds to the capture step configured for that template.
+On Pix Starter you can open the template editor and try any design, but saving needs Pix Pro. See [Plans](../../pricing/plans.md).
 
-Each template has a specific **capture mode** associated with it:
+## During an Event
 
-- **Composite** templates capture multiple individual shots
-- **GIF** templates capture a rapid sequence for animation
-- **Live Photo** templates capture a short video clip plus a key frame
+While an event runs on the booth, the event's template set replaces the booth's own. The event set is exclusive: if the event has no templates, the guest has nothing to pick, which is why the event's Setup tab says to assign at least one. The quickest way to fill an event is a **template pack**: **Events > event > Setup > Choose a template** opens the pack browser, and **Use this pack** copies the pack's print layouts, a GIF overlay and a matching kiosk UI project into the event. The booth follows the event's dates plus one night of grace, then returns to its own templates. See [Events](../../dashboard/events.md).
 
-:::info
-Templates are synced from the Pix API. Any changes you make in Pix Design -- adding templates, reordering, or removing them -- are reflected on the kiosk on its next check-in, usually within seconds.
-:::
+If the event pins Video or 360 Slow-mo, this screen is skipped altogether and the booth records instead. See [Event Video Modes](../event-video-modes.md).
 
-## Plan Limitations
+## Design
 
-- **Starter** (free): up to 2 templates, standard designs only
-- **Day Pass** and **Pix Pro**: Unlimited templates, full Template Editor access
+The page background, the Template Cards block and any Next button, text or timer are arranged in the UI Editor. The page's idle timer sits in its page settings. A booth with two to four designs keeps the choice fast; more is fine, the rail and progressive loading are built for it.
 
-Upgrade your plan in the Pix dashboard if you need custom or additional templates.
+## Related
+
+- [Pix Design](../../dashboard/pix-design/overview.md)
+- [Booth Management](../../dashboard/booth-management.md)
+- [Events](../../dashboard/events.md)
+- [Capture Modes](./capture-modes.md)
