@@ -22,6 +22,8 @@ Payments go straight from the guest to your own gateway account. Pixture never h
 
 ## Step 1: Connect a Gateway
 
+No merchant account yet, or unsure where each key lives on the provider's dashboard? [Create a Payment Gateway](./create-a-payment-gateway.md) walks through that first; come back here once the gateway card shows on your Settings page.
+
 1. Go to **Settings > Payment Gateway** and click **Add Payment Gateway**.
 2. Choose your provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Stripe** for card payments everywhere else.
 
@@ -111,6 +113,9 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 ## Related
 
+- [Create a Payment Gateway](./create-a-payment-gateway.md)
+- [Payment Setups by Use Case](./payment-setups-by-use-case.md)
+- [Take Card, Coin and Cash Payments](./connect-a-coin-or-card-reader.md)
 - [Booth Pricing](../dashboard/booth-pricing.md)
 - [Payment gateway setup](../guides/payment-gateway-setup.md)
 - [Transactions](../dashboard/transactions.md)

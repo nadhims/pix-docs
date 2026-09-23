@@ -17,7 +17,9 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 
 ## Earn
 
+- [Create a Payment Gateway](./create-a-payment-gateway.md). Open a merchant account with DOKU or Stripe, collect the keys, connect the gateway, test it, and add Stripe's webhook and card readers.
 - [Accept Payments](./accept-payments.md). Connect a payment gateway, set your session prices and packages, and switch payment on at the booth.
+- [Payment Setups by Use Case](./payment-setups-by-use-case.md). The setup that fits an event rental, a self-service mall booth, a multi-booth studio or a pop-up box.
 - [Sell Sessions Online](./sell-sessions-online.md). Share a link where customers buy a package on their phone and get a code the booth accepts, even offline.
 - [Sell AI Portraits](./sell-ai-portraits.md). Offer AI portraits on the guest share page, digital or with a print picked up at the booth. Available to beta accounts.
 - [Let Guests Design Their Own Frame](./frame-lab.md). Switch on Frame Lab, follow a guest from the phone studio to payment and voucher, and redeem the code at the booth.
@@ -30,7 +32,7 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 ## Manage
 
 - [Add or Move a Computer](./add-or-move-a-computer.md). Add devices to your subscription, use a Day Pass, and move Pix Pro from one computer to another.
-- [Connect a Coin or Card Reader](./connect-a-coin-or-card-reader.md). Take coins, a card terminal or a cash system at the booth through the local hardware API.
+- [Take Card, Coin and Cash Payments](./connect-a-coin-or-card-reader.md). A Stripe Terminal reader, a coin or note acceptor or Nayax reader on a CASH-Interface2 board, your own bridge on the local Hardware API, or cash at the counter as voucher codes.
 
 ## Related
 

@@ -7,7 +7,7 @@ tags: [guides, payment, gateway, doku, stripe, qris]
 
 # Payment Gateway Reference
 
-A payment gateway lets guests pay for a photo session by scanning a QR code on the kiosk. The money goes to your own gateway account; Pixture takes no share of it. This page is the reference for the gateway settings. For the step-by-step walk-through from an empty account to a first paid session, follow [Accept Payments](../tutorials/accept-payments.md).
+A payment gateway lets guests pay for a photo session by scanning a QR code on the kiosk. The money goes to your own gateway account; Pixture takes no share of it. This page is the reference for the gateway settings. For the step-by-step walk-through from opening the merchant account to the test charge, follow [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md); for prices and the first paid session, [Accept Payments](../tutorials/accept-payments.md).
 
 ## Before you start
 

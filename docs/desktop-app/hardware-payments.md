@@ -13,7 +13,7 @@ Besides QR payments through your gateway, the booth can take money from hardware
 
 - The hardware is wired to the booth computer and configured on its own side (coin values, price, pulse settings).
 - The booth's Payment screen has a **Coin** or **Card** sub-screen designed in the UI Editor if you want guests to see a running total, or the Payment screen is off if the cash system is the gate. See [Payment](./session-flow/payment.md).
-- A step-by-step setup is in [Connect a Coin or Card Reader](../tutorials/connect-a-coin-or-card-reader.md).
+- A step-by-step setup, including the Nayax portal values and cash at the counter, is in [Take Card, Coin and Cash Payments](../tutorials/connect-a-coin-or-card-reader.md).
 
 ## Keyboard Coin Input
 
@@ -73,7 +73,7 @@ Pix records what the hardware reports. It cannot tell a card reader to charge a 
 
 ## Related
 
-- [Connect a Coin or Card Reader](../tutorials/connect-a-coin-or-card-reader.md)
+- [Take Card, Coin and Cash Payments](../tutorials/connect-a-coin-or-card-reader.md)
 - [Payment](./session-flow/payment.md)
 - [Booth Pricing](../dashboard/booth-pricing.md)
 - [Operator Menu](./admin-panel.md)
