@@ -48,9 +48,9 @@ The editor turns every transparent region into one slot, so give each slot a sin
 
 ![Pix Design hub with the Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/steps/tutorials-design-a-print-template--pix-design-hub.webp)
 
-2. On **Template Projects**, click **New Project**.
+2. On **Template Projects**, click **New Project**. On Pix Starter the same button reads **Upgrade to Create**, because saving a template of your own needs Pix Pro; the two ready-made templates, Classic Black and Classic White, are already there to use.
 
-![Template Projects list with folders, filters, project cards showing booth counts and the New Project button](/img/docs/steps/tutorials-design-a-print-template--pix-design-templates.webp)
+![Template Projects list with folders, filters, the two ready-made templates with booth counts, and the Upgrade to Create button on Pix Starter](/img/docs/steps/tutorials-design-a-print-template--pix-design-templates.webp)
 
 3. Pick a **Print Size** card and a **Media Type** card, drop your PNG on **Template PNG**, and click **Create Project**. The button stays disabled until both a size and a file are chosen.
 
@@ -97,9 +97,7 @@ The booth's own **Templates > Manage Templates** modal works the other way round
 
 ## Step 6: On Pix Starter
 
-A Pix Starter account comes with two ready-made 4x6 templates, Classic Black and Classic White. The Template Projects header reads **2 / 2** and the button reads **Upgrade to Create**.
-
-![Template Projects on Pix Starter showing 2 / 2, the two ready-made templates and Upgrade to Create](/img/docs/pix-design-templates-starter.webp)
+A Pix Starter account comes with two ready-made 4x6 templates, Classic Black and Classic White, both already assigned to your first booth. The Template Projects header reads **2 / 2** and the button reads **Upgrade to Create**, as in the screenshot under Step 2.
 
 You can open the editor and try every tool, but creating a new project or saving needs Pix Pro. **Upgrade to Create** opens the "Pix Pro keeps your work" modal with **Not now**, **Start free trial** and **Buy Pix Pro**. The free trial gives you 3 days of Pix Pro on one computer, with no credit card required.
 

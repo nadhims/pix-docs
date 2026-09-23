@@ -18,15 +18,13 @@ A print template is the layout a guest's photos land in: the 4x6" print, the 2x6
 
 **Pix Design > Template Editor** opens the Template Projects list.
 
-![Template Projects list with folders, filters, project cards with booth counts, Manage Template and New Project](/img/docs/pix-design-templates.webp)
+![Template Projects list with folders, filters, the two ready-made templates with booth counts, Manage Template and, on Pix Starter, Upgrade to Create](/img/docs/pix-design-templates.webp)
 
 - The folder column on the left starts with **All Projects**; **New Folder** adds your own. See [Folders and Categories](./folders-and-collections.md).
 - The **Category**, **Paper Size** and **Media Type** filters and the search box narrow the grid.
 - Each card carries a booth count badge, such as "20 booths", so you can see where a design is in use. The card menu offers **Rename**, **Assign to booths** and **Delete**.
 - **Manage Template** lists your booths and jumps to a booth's Templates tab.
-- **New Project** starts a template. On Pix Starter the header reads **2 / 2** and the button reads **Upgrade to Create**.
-
-![Template Projects on Pix Starter showing 2 / 2, the two ready-made templates and Upgrade to Create](/img/docs/pix-design-templates-starter.webp)
+- **New Project** starts a template. On Pix Starter the header reads **2 / 2** and the button reads **Upgrade to Create**, as in the screenshot above; the two ready-made templates, Classic Black and Classic White, come with every account.
 
 ## Preparing the PNG
 

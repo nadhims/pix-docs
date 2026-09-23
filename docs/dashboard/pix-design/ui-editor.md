@@ -13,10 +13,11 @@ The **UI Editor** is where you design what guests see on the kiosk. A design is 
 
 **Pix Design > UI Editor** opens the UI Projects list. Every account starts with one project, Default Layout.
 
-![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/pix-design-ui-projects.webp)
+![UI Projects list showing a Client projects folder with three project cards, Manage UI Project and New Project](/img/docs/pix-design-ui-projects.webp)
 
 - **New Project** creates a project (on Pix Starter the button reads **Upgrade to Create**).
 - **Manage UI Project** lists booths and jumps to a booth's UI Project tab.
+- **New Folder** in the left column groups projects, for example by client or venue. Tick cards, or **Select All**, then **Move to** files them; **All Projects** always shows everything.
 - The card menu offers **Duplicate**, **Rename**, **Assign to booths**, **Add frame template to this project** (attaches a print template to the project) and **Delete**.
 
 On Pix Starter a banner explains that you can try the UI editor freely, but saving a project needs Pix Pro.
