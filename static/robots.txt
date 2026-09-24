@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.pixture.io/sitemap.xml
+
+# Plain-text index and full docs for AI agents: https://docs.pixture.io/llms.txt and https://docs.pixture.io/llms-full.txt
