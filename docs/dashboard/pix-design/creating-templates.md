@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Template Editor
-description: Create a print template from a PNG with transparent photo windows, choose its print size and media type, and send it to your booths.
+description: Create a print template from a PNG or JPG, choose its print size and media type, turn solid areas transparent with Remove BG, cut photo slots out of the artwork, and arrange, snap and layer slots.
 tags: [dashboard, pix-design, templates, printing]
 ---
 
