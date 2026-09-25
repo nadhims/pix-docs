@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Assigning Templates
-description: Put a template on one booth, several booths or an event, and understand what guests see when an event takes over a booth.
+description: Put a template on one booth, several booths or an event, manage one booth's templates from the Booth filter on Template Projects, and understand what guests see when an event takes over a booth.
 tags: [dashboard, pix-design, templates, booths, events]
 ---
 

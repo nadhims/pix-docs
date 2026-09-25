@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Design a Print Template
-description: Prepare a transparent PNG at print size, turn it into a template project in Pix Design, check the photo slots and assign the template to your booths.
+description: Prepare a PNG or JPG at print size, turn it into a template project in Pix Design, make the photo areas transparent with Remove BG if needed, check the photo slots and assign the template to your booths.
 tags: [tutorials, pix-design, templates, print]
 ---
 
