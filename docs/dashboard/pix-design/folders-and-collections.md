@@ -48,18 +48,19 @@ Use a small, stable set of category names. Two spellings of the same word ("Wedd
 
 ## Paper Size and Media Type Filters
 
-Two more filters sit next to Category on the list:
+Three more filters sit next to Category on the list:
 
 | Filter | What it matches |
 |---|---|
 | **Paper Size** | The print size chosen when the project was created: 2x6", 4x6", 6x8", A4, A3 or a custom size |
 | **Media Type** | Normal, 2" Cut, Perforated, Triple Strip, Sticker or a custom media name |
+| **Booth** | The templates assigned to one booth, counted the same way as the card's booth badge. Picking a booth also shows **Manage templates** for it |
 
 They are most useful before assigning: a booth loaded with 4x6" photo paper should only get 4x6" Normal templates, and a strip printer should only get 2" Cut or Triple Strip designs. The same **All Sizes** and **All Media** filters appear in the booth's **Manage Templates** modal. See [Assigning Templates](./assigning-templates.md).
 
 ## Search
 
-The search box on the list finds projects across every folder. With a large library this is faster than browsing folders, and it combines with the three filters.
+The search box on the list finds projects across every folder. With a large library this is faster than browsing folders, and it combines with the other filters. **Clear filters** resets them all.
 
 :::tip
 Filter first, then **Select All**, then **Move to**. Filtering by Paper Size and selecting everything is the quickest way to sort an imported batch of PNGs into folders.
