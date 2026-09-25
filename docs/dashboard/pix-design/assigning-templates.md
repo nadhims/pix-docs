@@ -22,13 +22,19 @@ Best when one design should go to many booths.
 
 The same modal appears on the first save of a new template, right after **Name Your Template**.
 
-### From Manage Template
+### From the Booth filter
 
-Best when you are already in the list and want to work booth by booth.
+Best when you are already in the list and want to work booth by booth, without leaving the page.
 
-1. Click **Manage Template** in the Template Projects header.
-2. Pick a booth. The dashboard jumps to that booth's **Templates** tab.
-3. Continue with **Manage Templates**, below.
+1. On **Template Projects**, open the **Booth** filter and pick a booth. The grid shows only that booth's templates. (**Manage Template** in the header does the same.)
+
+   ![Template Projects list with the Booth filter open, listing All booths and each booth](/img/docs/pix-design-templates-booth-filter.webp)
+
+2. Click **Manage templates**. A window titled with the booth's name opens, with a search box, an **All** / **Assigned** switch and every template as a card.
+
+   ![Manage templates window for one booth with the search box, All and Assigned switch, 2 assigned and Save](/img/docs/pix-design-templates-manage-booth.webp)
+
+3. Tick or untick templates, then click **Save**. The booth count badges on the list update straight away. **Clear all** unticks every template.
 
 ### From the booth's Templates tab
 

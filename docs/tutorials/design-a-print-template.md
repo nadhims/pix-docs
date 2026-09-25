@@ -29,7 +29,7 @@ Print sizes are at 600 DPI:
 
 A4, A3 and a **Custom** size (you set the pixels) are also available. The editor names the target size for the project and resizes any image to fit, so an off-size export still works, but design at the exact size for the sharpest print.
 
-![Template editor drop zone reading Drop PNG here or click to browse, target 2400 x 3600 px at 600 DPI](/img/docs/pix-design-template-editor.webp)
+![Template editor with the Classic Black template: two photo slots, the toolbar with Preview, Remove BG, Re-upload and Save, and the Photo Slots panel](/img/docs/pix-design-template-editor.webp)
 
 ## Step 1: Prepare the PNG
 
@@ -37,6 +37,8 @@ A4, A3 and a **Custom** size (you set the pixels) are also available. The editor
 2. Draw your frame, logo, text and decorations. Leave the areas where photos go fully transparent: not white, not partly transparent.
 3. Keep everything else opaque, so no photo shows through by accident.
 4. Export as PNG-24 with an alpha channel, under 15 MB.
+
+Your design tool cannot export transparency, or you only have a JPG? Export it with solid white boxes where the photos go, and remove them in Step 3 with **Remove BG**.
 
 :::tip Slots need clean edges
 The editor turns every transparent region into one slot, so give each slot a single clear shape with a hard edge at full transparency. Soft or partly transparent edges make the slot boundary unclear.
@@ -71,10 +73,17 @@ The editor turns every transparent region into one slot, so give each slot a sin
 
 The editor opens with your PNG on the canvas. The side panel lists **Photo Slots (n)**, one for each transparent area it found.
 
-1. Check that the count matches your design. If a slot is missing, click **Add slot manually** and draw it.
-2. To put a QR code on the print, click **Add QR code** and place it.
-3. Click **Preview** to check the result.
-4. If the PNG needs a change, fix it in your design tool and click **Re-upload**; the slots are detected again.
+1. Check that the count matches your design. If a slot is missing, click **Add slot manually** and draw it. A slot drawn over your artwork has **Cut out artwork** ticked, so that rectangle is cleared from the design when you save.
+2. No slots at all because the photo boxes are white? Click **Remove BG**, click inside one box, **Shift**-click the others, and click **Remove**. The boxes turn transparent and each one becomes a slot.
+
+   ![Remove background panel with Tolerance, Smooth edge, Expand, Connected area only and a picked colour](/img/docs/pix-design-template-remove-bg.webp)
+
+3. To line slots up, drag a box around them (or press Cmd+A / Ctrl+A) and move or resize them together; they snap to the canvas centre and to each other.
+4. To put a QR code on the print, click **Add QR code** and place it.
+5. Click **Preview** to check the result.
+6. If the design needs a change, fix it in your design tool and click **Re-upload**; the slots are detected again.
+
+Every tool in the editor is described in [Template Editor](../dashboard/pix-design/creating-templates.md#the-editor).
 
 ## Step 4: Save and name the template
 
@@ -86,8 +95,8 @@ The editor opens with your PNG on the canvas. The side panel lists **Photo Slots
 
 - On **Template Projects**, each card's menu has **Rename**, **Assign to booths** and **Delete**. **Assign to booths** opens the booth list with an **All booths** option and **Apply**.
 - **New Folder** in the folder sidebar groups templates by client, season or size. Tick cards with **Select All** and use **Move to** to file them.
-- Filter the list by **Category**, **Paper Size** and **Media Type**.
-- **Manage Template** shows which booths use a template and jumps to that booth's Templates tab.
+- Filter the list by **Category**, **Paper Size**, **Media Type** and **Booth**. With a booth picked, **Manage templates** opens that booth's templates in a window on the same page.
+- **Delete** on a template that booths still use lists those booths and offers **Unassign & delete**.
 
 The booth's own **Templates > Manage Templates** modal works the other way round: pick templates for one booth. See [Assigning Templates to Booths](../dashboard/pix-design/assigning-templates.md).
 
