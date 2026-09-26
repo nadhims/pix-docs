@@ -57,6 +57,18 @@ Guests tap or insert a card on a reader at the booth. The payment goes through y
 
 Packages work with this setup: the reader charges whatever amount the guest picked on screen.
 
+**Before you buy a reader.** Stripe sells its readers in the Stripe Dashboard under **Terminal > Shop**, and which models you can order depends on the country of your Stripe account. A reader charges only in that account's own currency: a Malaysian Stripe account charges MYR, a US account USD. A booth priced in another currency gets "Card reader payment could not be started" instead of the tap screen, so set the booth's currency to match the account.
+
+**What the guest sees.**
+
+- **Approved card:** the booth shows **Payment Success** a moment after the tap and the session starts.
+- **Declined card:** the reader shows the decline and the booth keeps waiting. To retry, the guest cancels and chooses the card method again, which sends a fresh charge to the reader.
+- **Guest cancels:** cancelling the payment on the booth clears the reader's tap screen and cancels the charge, so nothing can go through later.
+
+:::caution Keep the booth running until Payment Success
+The booth confirms a card payment by asking Stripe while its payment screen is open. If the booth is closed, restarted or loses power right after the tap, Stripe keeps the charge but no session is recorded. Find the payment in the Stripe Dashboard under **Payments** and refund it, or give the guest a voucher code.
+:::
+
 ## Setup B: A CASH-Interface2 Cash System
 
 A CASH-Interface2 (CI2) kit is a board plus its keystroke software. The board takes coin validators (NRI G13, RM5, EMP800 and pin-compatible), note validators (NV9, NV10) and, through its PULSE input or a PULSE adapter, cashless readers such as the Nayax ONYX, VPOS Touch and AMIT 3, Ingenico and ePort. Coins, notes and a card reader can all be on at once.
@@ -131,6 +143,10 @@ For a coin or note box with a USB keyboard adapter, or a CI2 set to type one key
 4. Start a session, open the Coin popup, and feed the acceptor until the total is reached.
 
 Keyboard coin input and the F13 paid signal do not mix: turning one on greys the other out, because in the start-gate the cash system does the counting.
+
+:::caution Every price must be a whole number of pulses
+The booth counts keystrokes, not money, and settles on the first one that covers the price. With **Value per keystroke** at Rp10.000 and a Rp25.000 package, the guest pays Rp30.000 (three pulses) and the booth records Rp25.000. The same goes for a Nayax reader's **Credit per Pulse** and a coin box's smallest coin. Pick a value that divides every price you sell, for example Rp5.000 for Rp25.000 and Rp30.000.
+:::
 
 :::note Notes, change and extra prints
 Note validators work like coin validators; the CI2 board has a separate BILL plug and channel values for each note. Change is the cash system's job: the CI2 can pay change from up to two hoppers, and the booth never knows about it. Extra prints bought on the Sharing screen are always paid by QR code through the gateway; a reader or coin box does not cover them.
@@ -228,6 +244,8 @@ Keep **QR Pay** on as well, so guests who would rather pay on their phone still 
 | The F13 toggle is greyed out on the Hardware API page | **Enable keyboard coin input** is on | Turn keyboard coin input off; the two setups do not mix |
 | A Nayax reader shows "Cash only" | Its inhibit is active: the portal inhibit is on without the wire, or the CI2 software is not active (the board's yellow LED is off) | Fix it on the Nayax side first; for a test, disable the inhibit in the Nayax portal and restart the reader |
 | A guest paid on the DuitNow terminal but the booth did not react (B4) | The terminal's pulse output is not reaching the CI2 board, or its pulse value does not match the channel value | Check the wiring to the PULSE input, then compare Transpire's credit per pulse with the CI2 channel value and **Value per keystroke** |
+| The booth says "Card reader payment could not be started" (A) | The booth's currency is not your Stripe account's currency, or the reader is offline | Set the booth's currency to the account's currency; check the reader is online under **Terminal** in Stripe |
+| A guest was charged on the reader but no session was recorded (A) | The booth closed or lost power after the tap, before it saw the payment | Find the payment under **Payments** in Stripe, then refund it or give the guest a voucher code |
 | The Stripe reader is not in the dropdown | It is not registered on this Stripe account, or is offline | Register it under Terminal in Stripe and connect it to Wi-Fi |
 | The bridge gets 409 | Wrong screen for that call | Poll `/api/v1/status`; call `/start` only on the Start screen and `/payment-complete` only while a payment is awaited |
 | The bridge's requests are rejected | Missing or old token | Copy the current **Access token**; **Regenerate** invalidates the old one |
