@@ -1,8 +1,8 @@
 ---
 sidebar_position: 10
 title: Hardware Payments
-description: Take coins, banknotes or card taps at the booth with a coin acceptor, a Nayax or EDC reader, or a CASH-Interface2 system, using the kiosk's Hardware API page.
-tags: [desktop-app, payments, hardware, coin, nayax]
+description: Take coins, banknotes, card taps or DuitNow QR at the booth with a coin acceptor, a Nayax or EDC reader, a Transpire QR DuitNow terminal, or a CASH-Interface2 system, using the kiosk's Hardware API page.
+tags: [desktop-app, payments, hardware, coin, nayax, duitnow, transpire-qr]
 ---
 
 # Hardware Payments
@@ -26,6 +26,8 @@ Many acceptors act as a USB keyboard and send one keystroke per coin, note or cr
 5. Set **Value per keystroke** in the booth's currency.
 
 Nayax and EDC readers with a pulse-per-credit output work the same way: map the key and the value per pulse. Fractional currencies settle correctly. No bridge box is needed.
+
+A DuitNow QR terminal from Transpire QR (Malaysia) also sends pulses after a guest pays by QR, so it is set up the same way. See [Setup B4](../tutorials/connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr).
 
 ## CASH-Interface2 Systems
 
@@ -64,6 +66,7 @@ The page lists the endpoints:
 |---|---|
 | Coin or note acceptor with a keyboard mode | Keyboard coin input |
 | Nayax or EDC reader with pulse-per-credit output | Keyboard coin input with the reader's value per pulse |
+| Transpire QR DuitNow terminal (Malaysia) | Keyboard coin input with its value per pulse, or F13 as a start-gate |
 | CASH-Interface2 cash system | F13 with the Pix - START or Pix - PAYMENT receiver |
 | A bridge, PLC or terminal that can call a URL | The local Hardware API |
 

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 12
 title: Take Card, Coin and Cash Payments
-description: Take money at the booth without a QR code, with a Stripe Terminal card reader, a coin or note acceptor or a Nayax reader on a CASH-Interface2 board, your own bridge on the local Hardware API, or cash at the counter turned into voucher codes.
-tags: [tutorials, payments, hardware, coin, cash, nayax, cash-interface2, stripe-terminal]
+description: Take money at the booth without a QR code, with a Stripe Terminal card reader, a coin or note acceptor, a Nayax reader or a Transpire QR DuitNow terminal on a CASH-Interface2 board, your own bridge on the local Hardware API, or cash at the counter turned into voucher codes.
+tags: [tutorials, payments, hardware, coin, cash, nayax, cash-interface2, stripe-terminal, duitnow, transpire-qr, malaysia]
 ---
 
 # Take Card, Coin and Cash Payments
 
-A QR code through your payment gateway is the default way a booth gets paid. This tutorial covers the other ways money comes in: a Stripe Terminal card reader, a coin or note acceptor or a Nayax, Ingenico or ePort card reader on a CASH-Interface2 board, your own bridge on the booth's local Hardware API, and cash taken by a person at the counter. Every setup ends the same way: the photo session is recorded as paid in **Transactions**, with the amount, not as a free session.
+A QR code through your payment gateway is the default way a booth gets paid. This tutorial covers the other ways money comes in: a Stripe Terminal card reader, a coin or note acceptor, a Nayax, Ingenico or ePort card reader or a Transpire QR DuitNow terminal on a CASH-Interface2 board, your own bridge on the booth's local Hardware API, and cash taken by a person at the counter. Every setup ends the same way: the photo session is recorded as paid in **Transactions**, with the amount, not as a free session.
 
 Allow about 30 minutes for a keystroke setup once the hardware is wired, longer if you build a bridge.
 
@@ -28,6 +28,7 @@ Allow about 30 minutes for a keystroke setup once the hardware is wired, longer 
 | A coin or note acceptor, or a Nayax, Ingenico or ePort reader, on a CASH-Interface2 board, at one fixed price | **B1: Start-gate** (recommended) | Pays on the reader first; the booth starts by itself and never shows a price |
 | The same hardware, but you sell packages and want the amount on screen | **B2: Pay on the Payment screen** | Picks a package on the booth, then pays on the reader; the reader confirms |
 | A coin box with a USB keyboard adapter, or a CASH-Interface2 typing one key per coin | **B3: Coins by keystroke** | Feeds coins while the booth counts them on screen |
+| A booth in Malaysia that should take DuitNow QR at the booth | **B4: DuitNow QR terminal** (Transpire QR), then B1 or B3 | Scans a QR on the terminal with any Malaysian bank or e-wallet app |
 | A PLC, bridge box or terminal that can call a URL | **C: Local Hardware API** | Whatever your bridge does |
 | A person at the counter taking cash | **D: Voucher codes** | Pays the cashier, gets a code, types it into the Voucher box |
 
@@ -135,6 +136,46 @@ Keyboard coin input and the F13 paid signal do not mix: turning one on greys the
 Note validators work like coin validators; the CI2 board has a separate BILL plug and channel values for each note. Change is the cash system's job: the CI2 can pay change from up to two hoppers, and the booth never knows about it. Extra prints bought on the Sharing screen are always paid by QR code through the gateway; a reader or coin box does not cover them.
 :::
 
+### Setup B4: A DuitNow QR Terminal in Malaysia (Transpire QR)
+
+DuitNow QR is Malaysia's national QR standard, so almost every Malaysian bank and e-wallet app can pay it. Your payment gateway in Pixture cannot show a DuitNow QR yet (Stripe in Malaysia takes cards, not DuitNow). A **Transpire QR** terminal fills that gap: a small screen next to the booth shows a dynamic DuitNow QR, the guest scans and pays with their own app, and the terminal then sends coin-style pulses, the same signal a Nayax reader sends. On a CASH-Interface2 board those pulses drive setup B1 or B3 above, so nothing new is needed in Pixture.
+
+Transpire QR (transpire.com.my) is a Malaysian company that builds these terminals for laundromats and vending machines. It is not part of Pixture: you buy the terminal and open the merchant account with Transpire, and the money settles to you through them. Pixture records the amount the booth counted, so **Transactions** shows the session as paid at that amount.
+
+**Ask Transpire before you buy.** Their public pages do not list these, and they decide which setup you can run:
+
+| Question | Why it matters |
+|---|---|
+| Can the terminal charge more than one amount (a menu, or any amount), or one fixed price? | Fixed price: use B1 with one session price and packages off. More than one amount: B3 can follow packages |
+| What is one pulse worth, and can it be changed? | It becomes the **Credit per pulse** below. Every price you sell must be a whole number of pulses |
+| Which model fits a machine that only needs a pulse output? | Transpire sells a TQR-DNQR panel and an MDB series for vending machines; a photo booth needs the pulse output |
+| Terminal price, fees and payout time | Transpire does not publish them |
+| Merchant registration | Expect to need your Malaysian business registration (SSM), as with any Malaysian payment provider |
+
+**Wiring.** Transpire's terminal has an optically isolated pulse output with a configurable format, made to replace a coin acceptor's signal. Connect it to the CASH-Interface2 board's PULSE input (through a PULSE adapter if the board needs one), the way a Nayax reader is connected. Unplug the board's 12 V supply before you connect anything.
+
+| Where | Setting | B1 start-gate (one price) | B3 counting (any amount) |
+|---|---|---|---|
+| Transpire terminal | Price | Your session price, in RM | The amounts guests may pay |
+| | Credit per pulse | The whole session price (one pulse per session) | A small unit that divides every price, for example RM1 |
+| CI2 board | Channel value | Same as credit per pulse | Same as credit per pulse |
+| CI2 software | Receiver name | `Pix - START` | One keystroke per pulse, no receiver needed |
+| | Hotkey | `F13` | The key it types per pulse (F1, for example) |
+| Pix Design | Payment screen | **Off** | **On**, with **Debit/Credit Card** on |
+| | Session trigger | **F13 only** | Your usual trigger |
+| Hardware API page | Treat F13 as the cash system's paid signal | **On** | Off |
+| | Keyboard coin input | Off | **On**, **Value per keystroke** = credit per pulse |
+
+1. Set the booth's currency to **MYR** and its **Session price** on the Pricing tab (see [Booth Pricing](../dashboard/booth-pricing.md)).
+2. Have Transpire set the terminal's price and pulse value to match the table. The terminal's pulse settings are on Transpire's side, not in Pixture.
+3. Follow **B1** above for a single price: receiver **Pix - START**, **F13** as the only session trigger, and **Treat F13 as the cash system's paid signal** on.
+4. Or follow **B3** to let the booth count: set the CI2 board to type one key per pulse, turn on **Debit/Credit Card** in the UI Editor, and on the Hardware API page turn on **Enable keyboard coin input** with **Value per keystroke** equal to one pulse. The Tap to Pay popup shows the amount received so far against the price, and continues once the price is covered.
+5. Pay a real, small amount with a Malaysian bank app. Check that the session starts, that **Transactions** in the Pixture dashboard shows it at the price, and that the same payment appears in Transpire's own sales report.
+
+:::caution Keep every price a whole number of pulses
+The booth counts pulses, not ringgit. With RM10 per pulse and a RM15 package, the guest has to pay RM20 and the booth records RM15. Pick a pulse value that divides every price you sell, or sell one price with B1.
+:::
+
 ## Setup C: Your Own Bridge on the Local Hardware API
 
 If your hardware can make an HTTP request (a PLC, a bridge box, a card terminal with a webhook), the booth runs a small API on the computer.
@@ -186,6 +227,7 @@ Keep **QR Pay** on as well, so guests who would rather pay on their phone still 
 | The total on the Coin popup climbs by the wrong amount (B3) | **Value per keystroke** does not match the acceptor's unit | Correct one of them |
 | The F13 toggle is greyed out on the Hardware API page | **Enable keyboard coin input** is on | Turn keyboard coin input off; the two setups do not mix |
 | A Nayax reader shows "Cash only" | Its inhibit is active: the portal inhibit is on without the wire, or the CI2 software is not active (the board's yellow LED is off) | Fix it on the Nayax side first; for a test, disable the inhibit in the Nayax portal and restart the reader |
+| A guest paid on the DuitNow terminal but the booth did not react (B4) | The terminal's pulse output is not reaching the CI2 board, or its pulse value does not match the channel value | Check the wiring to the PULSE input, then compare Transpire's credit per pulse with the CI2 channel value and **Value per keystroke** |
 | The Stripe reader is not in the dropdown | It is not registered on this Stripe account, or is offline | Register it under Terminal in Stripe and connect it to Wi-Fi |
 | The bridge gets 409 | Wrong screen for that call | Poll `/api/v1/status`; call `/start` only on the Start screen and `/payment-complete` only while a payment is awaited |
 | The bridge's requests are rejected | Missing or old token | Copy the current **Access token**; **Regenerate** invalidates the old one |

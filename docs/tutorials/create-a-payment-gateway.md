@@ -22,6 +22,7 @@ In this tutorial you will open a merchant account with a gateway, collect the ke
 | You are in | Use | Guests pay with |
 |---|---|---|
 | Indonesia | **DOKU** | QRIS from any wallet or banking app |
+| Malaysia | **Stripe** | A card on their phone through a QR code, or a tap on a Stripe Terminal reader. For DuitNow QR, add a Transpire QR terminal at the booth, see [Setup B4](./connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr) |
 | Anywhere else | **Stripe** | A card on their phone through a QR code, or a tap on a Stripe Terminal reader at the booth |
 
 Midtrans and Xendit are also on the provider list for merchants who already have an account there; both are QRIS in Indonesia only. Midtrans, Xendit and DOKU charge in rupiah only, so a booth priced in any other currency needs Stripe.

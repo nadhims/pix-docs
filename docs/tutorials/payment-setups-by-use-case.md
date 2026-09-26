@@ -45,7 +45,7 @@ A fixed unit in a mall corridor, a café, a campus lobby or a cinema foyer that 
 4. Set the **Payment timeout** on the Time sub-tab so an abandoned payment returns the booth to the Start screen, and turn on **Extra print price** if guests may buy more prints on the Sharing screen.
 5. Add a **Menu PIN** on the booth's Settings tab and check the **Health** page for printer paper, camera and online status from wherever you are.
 
-**Cash without a person.** Outside Indonesia a **Stripe Terminal** reader is the simplest card option. For coins and notes anywhere, a CASH-Interface2 kit with the **start-gate** setup keeps the booth honest: the guest pays first, the machine starts by itself, and the session is recorded at the session price. Use the **pay on the Payment screen** setup instead if you sell packages and your reader can charge a variable amount.
+**Cash without a person.** Outside Indonesia a **Stripe Terminal** reader is the simplest card option. For coins and notes anywhere, a CASH-Interface2 kit with the **start-gate** setup keeps the booth honest: the guest pays first, the machine starts by itself, and the session is recorded at the session price. Use the **pay on the Payment screen** setup instead if you sell packages and your reader can charge a variable amount. In Malaysia, a Transpire QR terminal on the same kind of board lets guests pay by DuitNow QR at the booth; see [Setup B4](./connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr).
 
 **What to watch**
 
