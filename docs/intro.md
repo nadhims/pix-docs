@@ -38,6 +38,7 @@ Five steps take a new account to its first photo session. Most operators finish 
 | Section | What is in it |
 |---|---|
 | [Getting Started](./getting-started/overview.md) | Account, plan, install, pairing, the dashboard tour and your first photo session |
+| [Use Cases](./use-cases/overview.md) | How to run a self-service booth, event rentals, a multi-booth studio or a pop-up box with Pixture |
 | [Tutorials](./tutorials/overview.md) | Step-by-step jobs: set up a booth, design a template, accept payments, run an event, and more |
 | [Dashboard](./dashboard/overview.md) | Every page of the Pixture dashboard, from Booths and Pricing to Licenses and Settings |
 | [Desktop App](./desktop-app/overview.md) | The kiosk: installation, cameras, printers, the session flow, the operator menu and troubleshooting |

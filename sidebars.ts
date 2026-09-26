@@ -19,6 +19,17 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Use Cases',
+      link: {type: 'doc', id: 'use-cases/overview'},
+      items: [
+        'use-cases/self-service-photobooth',
+        'use-cases/event-rental',
+        'use-cases/multi-booth-studio',
+        'use-cases/pop-up-booth',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Tutorials',
       link: {type: 'doc', id: 'tutorials/overview'},
       items: [

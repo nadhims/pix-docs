@@ -7,7 +7,7 @@ tags: [tutorials, payments, use-cases, events, self-service, pop-up]
 
 # Payment Setups by Use Case
 
-There are four ways to run a photo booth business, and each one gets paid differently. An event booth is paid by the client before the day starts, a mall booth is paid by every guest, a studio has a person at the counter, and a pop-up box works wherever the crowd is this weekend, sometimes without reliable internet. This page matches each of them to a Pixture setup, so you can pick one and follow the tutorial for it.
+There are four ways to run a photo booth business, and each one gets paid differently. An event booth is paid by the client before the day starts, a mall booth is paid by every guest, a studio has a person at the counter, and a pop-up box works wherever the crowd is this weekend, sometimes without reliable internet. This page matches each of them to a Pixture setup, so you can pick one and follow the tutorial for it. For the whole setup of each model, not only payments, see [Use Cases](../use-cases/overview.md).
 
 | You run | Who pays, and when | Setup in Pixture | Hardware |
 |---|---|---|---|
