@@ -22,7 +22,7 @@ The **Organization** card: the name with **Save**, the logo (**Upload Logo** or 
 | Setting | What it does |
 |---|---|
 | Dashboard language | English or Bahasa Indonesia, for you only |
-| **Booth language** | The language of the guest-facing prompts on every kiosk, such as the consent question. One setting for the whole organization |
+| **Booth language** | The language of the guest-facing prompts on every booth, such as the consent question. One setting for the whole organization |
 | **Timezone** | Any timezone. Reports, daily limits and event dates follow it |
 | **Default currency** | Any currency. Booths inherit it unless they set their own |
 | **Tour & Onboarding** | **Replay Tour** and **Show Checklist** bring back the first-run guidance |
@@ -77,7 +77,7 @@ Titled **Billing & Payment**, in three blocks: the subscription state ("Subscrip
 |---|---|
 | **Change Password** | Current, new and confirm |
 | **Two-Factor Authentication** | **Enable Two-Factor Authentication** shows a QR code and a manual entry key for your authenticator app; enter the 6-digit code and click **Verify & Enable**. Copy the recovery codes with **Copy Codes** and keep them somewhere safe before **Done** |
-| **Menu Access PIN** | 4 to 8 digits that lock the operator menu on every kiosk: **Set PIN** or **Disable PIN**. A single booth can override it on its Settings tab |
+| **Menu Access PIN** | 4 to 8 digits that lock the operator menu on every booth: **Set PIN** or **Disable PIN**. A single booth can override it on its Settings tab |
 | **Session** | **Sign Out** |
 
 ## Data
@@ -85,7 +85,7 @@ Titled **Billing & Payment**, in three blocks: the subscription state ("Subscrip
 ![Settings > Data: Import Templates, Reset Booth Data](/img/docs/settings-data.webp)
 
 - **Import Templates.** Pick a **Template Size** (2x6, 3x6, 4x6, A2 to A5), drop a ZIP of up to 200 MB holding up to 50 PNGs, and click **Import Selected**. Each PNG becomes a template.
-- **Reset Booth Data.** Per booth, **Reset Data** removes that booth's photo sessions (soft-deleted, gone for good after 30 days), daily statistics, activity logs and payment transactions. The booth's settings, templates and kiosk design stay. Type the booth name to confirm, then **Reset Booth Data**.
+- **Reset Booth Data.** Per booth, **Reset Data** removes that booth's photo sessions (soft-deleted, gone for good after 30 days), daily statistics, activity logs and payment transactions. The booth's settings, templates and screen design stay. Type the booth name to confirm, then **Reset Booth Data**.
 
 ## Download App
 
@@ -106,4 +106,4 @@ Add a second owner or admin so the business is not locked out if one phone or pa
 - [Dashboard Overview](./overview.md)
 - [Licenses](./billing.md)
 - [Payment Gateway Setup](../guides/payment-gateway-setup.md)
-- [Admin Panel on the kiosk](../desktop-app/admin-panel.md)
+- [Admin Panel on the booth](../desktop-app/admin-panel.md)

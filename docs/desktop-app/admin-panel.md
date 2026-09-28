@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Operator Menu
-description: How to open the kiosk's hidden operator menu, protect it with a PIN, read its status footer and notices, and use each of its pages including the Admin Panel.
+description: How to open the booth's hidden operator menu, protect it with a PIN, read its status footer and notices, and use each of its pages including the Admin Panel.
 tags: [desktop-app, admin, settings, operator]
 ---
 

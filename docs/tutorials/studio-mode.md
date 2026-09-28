@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Run a Studio Mode Session
-description: Build a Studio kiosk design where guests take a pool of shots and then place them into the template, assign it to a booth and run a timed session.
+description: Build a Studio screen design where guests take a pool of shots and then place them into the template, assign it to a booth and run a timed session.
 tags: [tutorials, studio-mode, pix-design, ui-editor]
 ---
 
@@ -47,7 +47,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 
 1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Photobooth mode**, **Studio mode** and **Simple mode**; pick your project under Studio mode. The page then reads "Booth mode: Studio".
 
-   ![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/steps/tutorials-studio-mode--booth-ui-project-tab.webp)
+   ![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/steps/tutorials-studio-mode--booth-ui-project-tab.webp)
 
 2. Click **Save**. A warning appears if the booth's app is older than 1.1.98.
 3. To put the same design on several booths at once, use the card menu on **Pix Design > UI Editor** and choose **Assign to booths**.
@@ -87,4 +87,4 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 - [Studio sessions on the booth](../desktop-app/studio-sessions.md)
 - [UI Editor](../dashboard/pix-design/ui-editor.md)
 - [Capture modes](../desktop-app/session-flow/capture-modes.md)
-- [Customise the kiosk screens](customise-kiosk-screens.md)
+- [Customise the booth screens](customise-kiosk-screens.md)

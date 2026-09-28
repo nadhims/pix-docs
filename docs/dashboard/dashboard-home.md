@@ -71,7 +71,7 @@ Open a booth from the Dashboard, for example from the Top Booth Revenue list or 
 | Field | What it shows |
 |---|---|
 | Today | Sessions and revenue so far today |
-| Issues | Anything the kiosk is reporting |
+| Issues | Anything the booth is reporting |
 | First Online / Last Online | When the booth first and last checked in |
 | Sessions, Revenue | Totals for the selected period |
 | Active Hours / Down Hours | How long the booth was online and offline |

@@ -26,7 +26,7 @@ Every booth on an event needs Pix Pro or a **Day Pass** on its computer. If you 
 ### 3. Make it look like their event
 
 - Give the event its own templates, from your own designs in Pix Design or one of Pixture's free template packs. See [Assigning Templates](../dashboard/pix-design/assigning-templates.md).
-- Give it a kiosk look with the couple's names or the brand's colours. See [Customise the Kiosk Screens](../tutorials/customise-kiosk-screens.md).
+- Give it a booth look with the couple's names or the brand's colours. See [Customise the Booth Screens](../tutorials/customise-kiosk-screens.md).
 - Switch the booths to video or slow-motion capture for the event if the client booked it. See [Event Video Modes](../desktop-app/event-video-modes.md).
 
 ### 4. Free for guests, or paid

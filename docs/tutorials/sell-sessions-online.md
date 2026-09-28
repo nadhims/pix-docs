@@ -15,7 +15,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 - **Pix Pro on the booth's computer.**
 - **A payment gateway connected** (**Settings > Payment Gateway**). Indonesian gateways sell by QRIS; Stripe sells by card.
-- **Prices saved on the booth's Pricing tab**, with **Payment on this booth** ON. The shop sells exactly what the kiosk sells.
+- **Prices saved on the booth's Pricing tab**, with **Payment on this booth** ON. The shop sells exactly what the booth sells.
 - **Pix Desktop App 1.1.101 or newer** on the booth. Older versions can only accept a code for a single session.
 
 ## Step 1: Find the Link and QR Code
@@ -30,7 +30,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 ## Step 2: Check the Prices the Shop Will Show
 
-1. On the **Price & packages** sub-tab, review the **Session price**, the **Double** and **Group** packages, the **Additional session price**, the **Print format** and the prints included. The shop shows the same cards as the kiosk's package picker.
+1. On the **Price & packages** sub-tab, review the **Session price**, the **Double** and **Group** packages, the **Additional session price**, the **Print format** and the prints included. The shop shows the same cards as the booth's package picker.
 
    ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/steps/tutorials-sell-sessions-online--booth-pricing-packages.webp)
 
@@ -50,7 +50,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 ## Step 5: Redeem at the Booth
 
 1. The customer starts a session. On the **Payment** screen, they tap **Voucher** and type the code.
-2. The booth checks the code itself, so it works without internet. The code carries the package that was bought (double, group, additional sessions), and the kiosk shows the **Payment Success** screen before moving on to templates.
+2. The booth checks the code itself, so it works without internet. The code carries the package that was bought (double, group, additional sessions), and the booth shows the **Payment Success** screen before moving on to templates.
 3. A code works at the booth it was bought for.
 
 ## Step 6: Where It Shows
@@ -60,7 +60,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 ## Check It Worked
 
 - Click **Open** on the card and buy a single session with your own phone.
-- Type the code into the booth's voucher box. The kiosk shows **Payment Success** and continues to templates.
+- Type the code into the booth's voucher box. The booth shows **Payment Success** and continues to templates.
 - The purchase appears on **Transactions**.
 
 ## Troubleshooting

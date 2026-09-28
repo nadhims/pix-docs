@@ -7,7 +7,7 @@ tags: [getting-started, booths, pairing, device]
 
 # Pair Your First Booth
 
-By the end of this page the booth computer is linked to a booth in your dashboard, has downloaded that booth's templates and kiosk design, and is showing its start screen. The dashboard shows the booth as Online with the computer's name. Pairing takes two minutes.
+By the end of this page the booth computer is linked to a booth in your dashboard, has downloaded that booth's templates and screen design, and is showing its start screen. The dashboard shows the booth as Online with the computer's name. Pairing takes two minutes.
 
 ## Before You Start
 
@@ -21,7 +21,7 @@ By the end of this page the booth computer is linked to a booth in your dashboar
 
    ![The Booths page of a new account with two booths that have no device yet and a dash for the plan](/img/docs/steps/getting-started-pair-your-first-booth--booths-list-new-account.webp)
 
-   To add another booth, click **+ New Booth**, stay on the **Single booth** tab, enter a **Booth Name** and, if you like, a **Location**, then click **Create**. Booths are free, so create one per kiosk.
+   To add another booth, click **+ New Booth**, stay on the **Single booth** tab, enter a **Booth Name** and, if you like, a **Location**, then click **Create**. Booths are free, so create one for every photobooth you run.
 
    ![The Create Booth modal on the Single booth tab with Booth Name and Location filled](/img/docs/steps/getting-started-pair-your-first-booth--booths-create-modal.webp)
 
@@ -36,20 +36,20 @@ By the end of this page the booth computer is linked to a booth in your dashboar
    ![The Pair Pixture App modal with a 6-digit code, the Expires in countdown, and the Copy Code, Regenerate and Done buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-pairing-code.webp)
 
 4. On the booth computer, type the 6 digits on the app's pairing screen.
-5. The booth downloads its templates, kiosk design and pricing and shows the start screen. Click **Done** on the modal. Back in the dashboard, the booth's status turns **Online** and the **Device** tab shows the computer's name, its fingerprint and when it was last seen.
+5. The booth downloads its templates, screen design and pricing and shows the start screen. Click **Done** on the modal. Back in the dashboard, the booth's status turns **Online** and the **Device** tab shows the computer's name, its fingerprint and when it was last seen.
 
    ![The booth Device tab with a paired computer showing its name, fingerprint, last seen time, and the Rename device, Unlink and Remove actions](/img/docs/steps/getting-started-pair-your-first-booth--booth-device-tab-paired.webp)
 
 ## What Happens Next
 
-- **The badge on the booth.** Open the operator menu on the kiosk (tap the top-right corner twice within three seconds). The footer shows the booth name, your email and a licence badge: **Watermarked** on Pix Starter, **Pix Pro**, **Trial until …** or **Pass until …** once the computer holds Pix Pro. See [Licence on the Booth](../desktop-app/licence-on-the-booth.md).
+- **The badge on the booth.** Open the operator menu on the booth (tap the top-right corner twice within three seconds). The footer shows the booth name, your email and a licence badge: **Watermarked** on Pix Starter, **Pix Pro**, **Trial until …** or **Pass until …** once the computer holds Pix Pro. See [Licence on the Booth](../desktop-app/licence-on-the-booth.md).
 - **On Pix Starter**, one computer is all the account runs. Pairing a second computer is refused at the code. Replacing the computer on a booth that already has one works: click **Unlink** on the Device tab, then generate a new code for the new computer.
 - **On a Pix Pro account**, a spare place on your subscription attaches itself to the computer when it checks in. If every place is taken, the computer stays paired but cannot start a session until you click **Deactivate** on another computer or **Add more devices** on the **Licenses** page. If the modal reports "Device limit reached", free a place and click **Try Again**.
 - **One computer per booth.** The **Generate code** button is disabled while a computer is linked. To move the booth to a different computer, **Unlink** the old one first. Pix Pro and the free trial follow to the new computer; a Day Pass stays where it was used.
 - **Online means a recent check-in.** The booth checks in every few minutes; the dashboard shows it Online when it has been heard from in the last 12 minutes.
 
 :::tip
-Pair from your phone. Open the dashboard in the phone's browser, generate the code, and type it on the kiosk while standing in front of it.
+Pair from your phone. Open the dashboard in the phone's browser, generate the code, and type it on the booth while standing in front of it.
 :::
 
 ## Related

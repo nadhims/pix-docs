@@ -30,7 +30,7 @@ A booth that opens every day runs on **Pix Pro**, monthly or yearly, on its comp
 ### 3. Lock the booth
 
 - Set a **Menu PIN** on the booth's **Settings** tab, so guests cannot open the operator menu. See [Operator Menu](../desktop-app/admin-panel.md).
-- In the booth's UI project, make sure only the triggers you want can start a session; a paid booth should not start on a tap without paying. See [Customise the Kiosk Screens](../tutorials/customise-kiosk-screens.md).
+- In the booth's UI project, make sure only the triggers you want can start a session; a paid booth should not start on a tap without paying. See [Customise the Booth Screens](../tutorials/customise-kiosk-screens.md).
 
 ### 4. Watch it from anywhere
 

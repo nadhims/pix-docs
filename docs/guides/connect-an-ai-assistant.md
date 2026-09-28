@@ -7,7 +7,7 @@ tags: [guides, ai, mcp, setup]
 
 # Connect an AI Assistant
 
-Pixture has a connector for AI assistants. Once connected, an assistant can read your business (booths, revenue, sessions, templates) and do a few safe things for you: finish your setup, create a pairing code for the kiosk, assign templates, create vouchers. It works with Claude, ChatGPT and Claude Code, and it only ever sees the business you signed in with.
+Pixture has a connector for AI assistants. Once connected, an assistant can read your business (booths, revenue, sessions, templates) and do a few safe things for you: finish your setup, create a pairing code for the booth, assign templates, create vouchers. It works with Claude, ChatGPT and Claude Code, and it only ever sees the business you signed in with.
 
 You do not need this to use Pixture. It is a second way to get set up, for people who already talk to an assistant every day.
 
@@ -16,7 +16,7 @@ You do not need this to use Pixture. It is a second way to get set up, for peopl
 | | Pix Starter (free) | Pix Pro |
 |---|---|---|
 | Guided setup: brand, currency, timezone, booth name | Yes | Yes |
-| Pairing code for the kiosk app | Yes | Yes |
+| Pairing code for the booth app | Yes | Yes |
 | Booth list, booth health, template list | Yes | Yes |
 | Product help (how payments, filters, vouchers work) | Yes | Yes |
 | Revenue, sessions, transactions, leaderboard | -- | Yes |
@@ -69,7 +69,7 @@ Call pix_tenant_setup_status first, then walk me through going live one short
 message at a time: confirm my brand name, currency and timezone with
 pix_tenant_apply_setup; help me install the Pix app on the booth computer; give
 me a pairing code with pix_tenant_pairing_code and check setup status until the
-kiosk is paired; then a first test session. If I ask how anything works, use
+booth is paired; then a first test session. If I ask how anything works, use
 pix_tenant_help.
 ```
 
@@ -78,7 +78,7 @@ The three steps it will take you through are the same three the dashboard shows 
 ## Things an assistant cannot do
 
 - Install the Pix app or sign in to it. That happens on the booth computer.
-- Upload a logo or design templates and kiosk screens. Those need the browser.
+- Upload a logo or design templates and booth screens. Those need the browser.
 - Buy Pix Pro or a Day Pass. Payments stay on the Devices page.
 - See any other Pixture business, or create accounts.
 

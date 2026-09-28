@@ -7,7 +7,7 @@ tags: [desktop-app, camera, sony]
 
 # Sony Alpha Camera Setup
 
-The Pix Desktop App drives Sony Alpha and ZV bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page, the same as with a Canon. By the end of this page your Sony is connected and ready for a full day.
+The Pix Desktop App drives Sony Alpha and ZV bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page, the same as with a Canon. By the end of this page your Sony is connected and ready for a full day.
 
 ## Supported Models
 

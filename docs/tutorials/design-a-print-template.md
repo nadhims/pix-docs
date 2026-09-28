@@ -116,7 +116,7 @@ You can open the editor and try every tool, but creating a new project or saving
 
 - The template card on **Template Projects** shows a booth count badge, for example "2 booths".
 - The booth's **Templates** tab lists the template under **Assigned Templates**.
-- On the kiosk, the template card shows on the Templates screen with the thumbnail from the editor, and a test session fills every slot and prints at the right size.
+- On the booth, the template card shows on the Templates screen with the thumbnail from the editor, and a test session fills every slot and prints at the right size.
 
 ## Troubleshooting
 

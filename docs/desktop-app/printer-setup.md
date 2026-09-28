@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Printer Setup
-description: Choosing a printer, media size and alignment on the kiosk, running a test print, and what happens when a print fails during a photo session.
+description: Choosing a printer, media size and alignment on the booth, running a test print, and what happens when a print fails during a photo session.
 tags: [desktop-app, printer, printing, setup]
 ---
 

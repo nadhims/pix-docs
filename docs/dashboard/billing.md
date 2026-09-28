@@ -35,7 +35,7 @@ Under the cards, "N of M allowed devices active, N devices remaining" and **Add 
 | LICENSE | **Pix Pro**, **Day Pass**, **Trial**, "Pix Pro, payment failed", **Blocked** or **Watermarked** |
 | ACTIONS | **Deactivate**, with a chevron showing the renewal date and **Manage billing** |
 
-A computer does not need activating by hand. When your subscription has a place to spare, the next computer that checks in takes it. A Day Pass is used from the kiosk's operator menu on the computer that needs it.
+A computer does not need activating by hand. When your subscription has a place to spare, the next computer that checks in takes it. A Day Pass is used from the booth's operator menu on the computer that needs it.
 
 ## Deactivate
 
@@ -73,9 +73,9 @@ Every event with its date, booth count and whether it is covered: **Ready**, **N
 
 ## Before Pix Pro Ends
 
-- A Day Pass or the free trial warns on the kiosk's idle screen 60 and 15 minutes before it ends. When it has ended, a popup on the kiosk names what ended and offers **Manage devices**, a QR code to this page.
+- A Day Pass or the free trial warns on the booth's idle screen 60 and 15 minutes before it ends. When it has ended, a popup on the booth names what ended and offers **Manage devices**, a QR code to this page.
 - A subscription that will not renew (cancelled, or a prepaid rupiah purchase) warns by email and a dashboard banner 7 days and 1 day before it ends.
-- If a subscription renewal payment fails, you get an email and a dashboard banner at once, the computer's License column reads "Pix Pro, payment failed" and the kiosk shows a payment-failed banner. The computer keeps Pix Pro for a 3-day grace, then is blocked. Fix the card under **Settings > Pixture billing**.
+- If a subscription renewal payment fails, you get an email and a dashboard banner at once, the computer's License column reads "Pix Pro, payment failed" and the booth shows a payment-failed banner. The computer keeps Pix Pro for a 3-day grace, then is blocked. Fix the card under **Settings > Pixture billing**.
 
 ## Cancelling and Invoices
 
@@ -89,7 +89,7 @@ Every organization can claim one free 3-day Pix Pro trial on one computer, with 
 
 ![Licenses page of a Pix Starter account: No devices yet, Subscription, Passes, Add more devices](/img/docs/licenses-starter.webp)
 
-With no active device the account is Pix Starter: "No devices yet, Pix Starter runs one computer, watermarked". Every photo and print carries the Pixture watermark, and a second computer is refused at the pairing code. Booths, templates and kiosk designs are still yours to prepare. See [Plans](../pricing/plans.md).
+With no active device the account is Pix Starter: "No devices yet, Pix Starter runs one computer, watermarked". Every photo and print carries the Pixture watermark, and a second computer is refused at the pairing code. Booths, templates and screen designs are still yours to prepare. See [Plans](../pricing/plans.md).
 
 ## Pix AI Credits
 

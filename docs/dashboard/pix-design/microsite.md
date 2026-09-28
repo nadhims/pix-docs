@@ -20,7 +20,7 @@ The link looks like `pixture.io/s/…` and is unique per session. It shows:
 - The promo popup, if you turned it on.
 - On beta accounts with an AI portrait price set, a banner that leads to the AI portrait shop. See [Pix AI (Beta)](./pix-ai.md).
 
-If the booth loses its connection mid-session, the QR code still shows and the kiosk tells the guest their photos will appear at the link once the booth reconnects. The page fills in as the uploads land. See [Public links](../../reference/public-links.md) for the full list of guest-facing links.
+If the booth loses its connection mid-session, the QR code still shows and the booth tells the guest their photos will appear at the link once the booth reconnects. The page fills in as the uploads land. See [Public links](../../reference/public-links.md) for the full list of guest-facing links.
 
 ## Designing the Page
 
@@ -60,7 +60,7 @@ Microsite visits are counted in **Marketing Studio > Performance**, and the prom
 
 ## Related
 
-- [Sharing on the kiosk](../../desktop-app/session-flow/sharing.md)
+- [Sharing on the booth](../../desktop-app/session-flow/sharing.md)
 - [Branding your booth](../../guides/branding-your-booth.md)
 - [Marketing Studio](../marketing-studio.md)
 - [Pix AI (Beta)](./pix-ai.md)

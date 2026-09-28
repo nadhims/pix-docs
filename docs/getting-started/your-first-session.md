@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Your First Photo Session
-description: Walk through the guest flow on the kiosk from the start screen to sharing, then find the photos, the transaction and the booth's health in the dashboard.
+description: Walk through the guest flow on the booth from the start screen to sharing, then find the photos, the transaction and the booth's health in the dashboard.
 tags: [getting-started, photo-session, capture, sharing]
 ---
 
@@ -12,13 +12,13 @@ By the end of this page you have run one photo session on your paired booth, see
 ## Before You Start
 
 - The booth is [paired](./pair-your-first-booth.md) and showing its start screen.
-- A camera is connected. Open the operator menu on the kiosk (tap the top-right corner twice within three seconds), then **Camera Settings**, and check the **STATUS** section shows your camera. A webcam works for a first test.
-- Optional: a printer is selected under **Printer Settings**. Until one is, the kiosk says "Guest printing is disabled until a printer is selected." and guests share by QR code only.
+- A camera is connected. Open the operator menu on the booth (tap the top-right corner twice within three seconds), then **Camera Settings**, and check the **STATUS** section shows your camera. A webcam works for a first test.
+- Optional: a printer is selected under **Printer Settings**. Until one is, the booth says "Guest printing is disabled until a printer is selected." and guests share by QR code only.
 - The booth has at least one template. Open the booth in the dashboard and check its **Templates** tab. A new account ships with two ready-made 4x6 templates.
 
 ## The Guest Flow
 
-There are no screenshots of the kiosk in these docs. This is what each screen does, in the order the guest meets it. Screens marked "if on" are turned on or off per kiosk design in the UI Editor.
+There are no screenshots of the booth in these docs. This is what each screen does, in the order the guest meets it. Screens marked "if on" are turned on or off per screen design in the UI Editor.
 
 1. **Start.** The booth idles on your start screen. The guest taps the screen, or presses the start button or a key if you set those up as session triggers.
 2. **Tutorial (if on).** A short how-it-works screen.

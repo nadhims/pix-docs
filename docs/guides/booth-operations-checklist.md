@@ -12,12 +12,12 @@ A smooth booth day comes down to a few checks at the right moments. Run through 
 ## Before Opening
 
 1. Plug the computer into **power** and switch off sleep for the day.
-2. Connect the camera, switch it on and check its battery. On a Canon, set the body to M, Av or Tv for manual control from the kiosk.
+2. Connect the camera, switch it on and check its battery. On a Canon, set the body to M, Av or Tv for manual control from the booth.
 3. Load **printer paper and ribbon**.
-4. Open the operator menu (tap the top-right corner of the kiosk twice), go to **Printer Settings** and press the test print button. Guest printing stays disabled until a printer is selected under **PRINTER DEVICE**.
+4. Open the operator menu (tap the top-right corner of the booth twice), go to **Printer Settings** and press the test print button. Guest printing stays disabled until a printer is selected under **PRINTER DEVICE**.
 5. Check the footer of the operator menu: **Internet: Online**.
 6. Check the licence badge in the same footer. It should read **Pix Pro**, **Pass until** a time later than closing, or **Trial until** a later date. **Watermarked** means the account has no Pix Pro; **Blocked, all N devices active** means this computer needs a place on your subscription. Fix either on the **Licenses** page of the dashboard, or tap **Use a pass on this device**.
-7. Tap **Start Booth** and leave the kiosk on the start screen.
+7. Tap **Start Booth** and leave the booth on the start screen.
 8. Run one full photo session: capture, print and scan the QR on the Sharing screen with your phone.
 
 :::tip
@@ -28,17 +28,17 @@ Venue Wi-Fi is the most common failure on launch day. Bring a phone hotspot as a
 
 1. Open **Health** in the Pixture dashboard from your phone. Each booth shows Status, Issues, Today, Paper and Last seen. A booth is online when it has checked in within the last 12 minutes.
 2. Watch the **Paper** column and replace media before it runs out.
-3. On the kiosk, glance at the operator menu footer: **Uploads: up to date** is what you want. **Uploads: N waiting** means photos are queued; that is normal for a moment after each session and during a network drop.
+3. On the booth, glance at the operator menu footer: **Uploads: up to date** is what you want. **Uploads: N waiting** means photos are queued; that is normal for a moment after each session and during a network drop.
 4. If the operator menu shows a clock banner, the computer's clock is more than 2 minutes off. Fix the time in the operating system.
 
 ### Common issues
 
 | Problem | What to do |
 |---|---|
-| Camera disconnects | Unplug and reconnect the USB cable. The kiosk reconnects on its own. If capture waits on "Camera is warming up" for more than 30 seconds, the session ends and returns to the start screen by itself. |
-| A print did not come out | The kiosk retries a print 3 times, 5 seconds apart. If it still fails, the guest sees a print issue notice and the photo is saved. Reprint from the operator menu: **Admin Panel > PRINT HISTORY > Print**. |
+| Camera disconnects | Unplug and reconnect the USB cable. The booth reconnects on its own. If capture waits on "Camera is warming up" for more than 30 seconds, the session ends and returns to the start screen by itself. |
+| A print did not come out | The booth retries a print 3 times, 5 seconds apart. If it still fails, the guest sees a print issue notice and the photo is saved. Reprint from the operator menu: **Admin Panel > PRINT HISTORY > Print**. |
 | Uploads waiting for a long time | Check the internet. Network failures retry on their own and never give up. Items marked **Failed** in **Admin Panel > UPLOAD QUEUE** can be sent again with **Retry Failed**. |
-| Storage low notice in the operator menu | The kiosk warns below 3 GB free and cleans up below 1 GB. Tap **Free Up Space**, or use **Admin Panel > Clean Storage**. |
+| Storage low notice in the operator menu | The booth warns below 3 GB free and cleans up below 1 GB. Tap **Free Up Space**, or use **Admin Panel > Clean Storage**. |
 
 ## Closing
 

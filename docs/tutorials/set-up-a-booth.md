@@ -1,19 +1,19 @@
 ---
 sidebar_position: 1
 title: Set Up a Booth From Scratch
-description: Create a booth in the Pixture dashboard, give it templates, a kiosk design, filters and pricing, pair the booth computer and run a test photo session.
+description: Create a booth in the Pixture dashboard, give it templates, a screen design, filters and pricing, pair the booth computer and run a test photo session.
 tags: [tutorials, booths, setup, pairing]
 ---
 
 # Set Up a Booth From Scratch
 
-In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the kiosk design and filters, set a price or make photo sessions free, check the outputs, pair the booth computer and run a test session. Allow about 30 minutes, plus the time to install the Pix Desktop App.
+In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the booth's screen design and filters, set a price or make photo sessions free, check the outputs, pair the booth computer and run a test session. Allow about 30 minutes, plus the time to install the Pix Desktop App.
 
 ## Before You Start
 
 - A Pixture account, with the dashboard open at pixture.io.
 - The [Pix Desktop App](../getting-started/download-desktop-app.md) installed on the booth computer, with the camera and printer connected.
-- On Pix Starter, one computer can be paired and every photo, print and GIF carries the Pixture watermark. Pix Pro removes the watermark and unlocks payments at the kiosk. See [Plans & Pricing](../pricing/plans.md).
+- On Pix Starter, one computer can be paired and every photo, print and GIF carries the Pixture watermark. Pix Pro removes the watermark and unlocks payments at the booth. See [Plans & Pricing](../pricing/plans.md).
 
 ## Step 1: Create the booth
 
@@ -38,15 +38,15 @@ The new booth appears in the list with a dash under **DEVICE** and **PLAN**, bec
 
 A new account comes with two ready-made 4x6 templates, Classic Black and Classic White. On Pix Starter these are the two templates you can use; Pix Pro lets you design as many as you like in Pix Design (see [Design a Print Template](./design-a-print-template.md)). Assign at least one template, or guests have nothing to pick.
 
-## Step 3: Choose the kiosk design
+## Step 3: Choose the booth's screen design
 
 1. Open the **UI Project** tab.
 2. Pick a design from the dropdown. It is grouped by **Photobooth mode**, **Studio mode** and **Simple mode**, and the tab shows the resulting **Booth mode**.
 3. Click **Save**.
 
-![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
+![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
-Every account starts with the default kiosk design, so you can leave this as it is and come back once you have built your own (see [Customise the Kiosk Screens](./customise-kiosk-screens.md)). Studio mode needs Pix Desktop App 1.1.98 or newer on the booth computer.
+Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pix Desktop App 1.1.98 or newer on the booth computer.
 
 ## Step 4: Choose filters
 
@@ -58,19 +58,19 @@ Pixture ships 14 built-in filters. **Pix Design > Photo Filters** lets you uploa
 ## Step 5: Set the price, or make sessions free
 
 1. Open the **Pricing** tab.
-2. Set the **Payment on this booth** switch. On, guests pay the prices below at the kiosk. Off, every session is free and the kiosk skips the Payment screen; your prices are kept for later.
+2. Set the **Payment on this booth** switch. On, guests pay the prices below at the booth. Off, every session is free and the booth skips the Payment screen; your prices are kept for later.
 3. On **Price & packages**, enter the **Session price**. Pick the **Print format** that matches your paper (Standard, 2 inch cut or Triple strip), and turn on **Double session price**, **Group session price** or **Additional session price** if you offer packages.
 4. Click **Save changes** in the save bar.
 
-![Booth Pricing tab with the Sell sessions online card, the Payment on this booth switch, the live kiosk preview and the Price & packages form](/img/docs/steps/tutorials-set-up-a-booth--booth-pricing-full.webp)
+![Booth Pricing tab with the Sell sessions online card, the Payment on this booth switch, the live booth preview and the Price & packages form](/img/docs/steps/tutorials-set-up-a-booth--booth-pricing-full.webp)
 
-Taking payments at the kiosk needs a payment gateway under **Settings > Payment Gateway**, or a coin or card reader (see [Connect a Coin Acceptor or Card Reader](./connect-a-coin-or-card-reader.md)). On Pix Starter the kiosk skips the Payment screen, so sessions stay free until the computer runs Pix Pro. The other sub-tabs set the **Payment timeout** (**Time**), an **Extra print price** for the sharing screen (**Extra prints**) and **Tax & fees**. See [Booth Pricing](../dashboard/booth-pricing.md).
+Taking payments at the booth needs a payment gateway under **Settings > Payment Gateway**, or a coin or card reader (see [Connect a Coin Acceptor or Card Reader](./connect-a-coin-or-card-reader.md)). On Pix Starter the booth skips the Payment screen, so sessions stay free until the computer runs Pix Pro. The other sub-tabs set the **Payment timeout** (**Time**), an **Extra print price** for the sharing screen (**Extra prints**) and **Tax & fees**. See [Booth Pricing](../dashboard/booth-pricing.md).
 
 ## Step 6: Check outputs and the operator PIN
 
 1. Open the **Settings** tab.
 2. Under **Output Settings**, switch on what the booth should produce: **Singles Upload**, **GIF Upload**, **Live Photo Upload** and **Print Output**. Click **Save Output Settings**.
-3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so guests cannot open the operator menu on the kiosk.
+3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so guests cannot open the operator menu on the booth.
 
 ![Booth Settings tab with Output Settings switches, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/steps/tutorials-set-up-a-booth--booth-settings-tab.webp)
 
@@ -90,7 +90,7 @@ If the modal shows "Device limit reached" instead of a code, every place on your
 
 ## Step 8: Run a test photo session
 
-1. On the kiosk, tap the Start screen to begin a session.
+1. On the booth, tap the Start screen to begin a session.
 2. Pick a template, pose for the shots, choose a filter and continue to the Sharing screen.
 3. Scan the QR code with your phone and check that the print comes out.
 

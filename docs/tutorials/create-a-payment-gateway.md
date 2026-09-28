@@ -15,7 +15,7 @@ In this tutorial you will open a merchant account with a gateway, collect the ke
 
 - **A registered business and a business bank account.** Gateways will not onboard you without both. In Indonesia that is a KBLI 74201 registration plus an NIB through OSS; in Malaysia an SSM registration; in the United States an LLC plus a sales tax permit is the usual minimum.
 - **Owner or admin access** to the Pixture dashboard.
-- **Pix Pro on the booth's computer** for the test at the kiosk. On Pix Starter the kiosk skips the Payment screen.
+- **Pix Pro on the booth's computer** for the test at the booth. On Pix Starter the booth skips the Payment screen.
 
 ## Step 1: Pick the Provider
 

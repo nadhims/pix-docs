@@ -7,22 +7,22 @@ tags: [dashboard, pricing, payments]
 
 # Booth Pricing
 
-Every booth has its own prices, set on **Booths > [booth] > Pricing**. The tab shows a live preview of the kiosk's payment screen on the left, so you see what guests will see before you save. Bonus Session, Frame Lab and the consent prompt are not here: they live in [Marketing Studio](./marketing-studio.md).
+Every booth has its own prices, set on **Booths > [booth] > Pricing**. The tab shows a live preview of the booth's payment screen on the left, so you see what guests will see before you save. Bonus Session, Frame Lab and the consent prompt are not here: they live in [Marketing Studio](./marketing-studio.md).
 
 ![Booth Pricing tab, top: Sell sessions online card with the link, Copy, Open and a QR code](/img/docs/booth-pricing-tab.webp)
 
 ## Sell Sessions Online
 
-The card at the top is this booth's online shop. Guests open the link on their phone, pick a package at the prices below, pay, and get a code the booth accepts even while offline. Print the QR at the booth or share the link ahead of an event. Online payment uses QRIS in Indonesia and card through Stripe elsewhere. **Copy** and **Open** are next to the link. The kiosk needs Pix Desktop App 1.1.101 or newer to accept the 7-character codes. See [Sell Sessions Online](../tutorials/sell-sessions-online.md).
+The card at the top is this booth's online shop. Guests open the link on their phone, pick a package at the prices below, pay, and get a code the booth accepts even while offline. Print the QR at the booth or share the link ahead of an event. Online payment uses QRIS in Indonesia and card through Stripe elsewhere. **Copy** and **Open** are next to the link. The booth needs Pix Desktop App 1.1.101 or newer to accept the 7-character codes. See [Sell Sessions Online](../tutorials/sell-sessions-online.md).
 
 ## Payment on This Booth
 
 The switch under the Pricing heading decides whether guests pay at all.
 
-| Setting | What the kiosk does |
+| Setting | What the booth does |
 |---|---|
 | On | "Guests pay the prices below at the kiosk." |
-| Off | Every photo session is free and the kiosk skips the Payment screen. Your prices are kept, so switching back on restores them |
+| Off | Every photo session is free and the booth skips the Payment screen. Your prices are kept, so switching back on restores them |
 
 Free sessions are a switch, never a price of 0. The form refuses 0 and tells you to switch payment off instead. Booths on Pix Starter always run free, with the watermark.
 
@@ -33,7 +33,7 @@ Free sessions are a switch, never a price of 0. The form refuses 0 and tells you
 | Field | What it sets |
 |---|---|
 | **Session price** | What one photo session costs, in the booth's currency. Must be above 0 |
-| **Print format** | **Standard** (1 print per sheet), **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet). Display only: the kiosk shows guests how many pieces they take home without changing what the printer produces |
+| **Print format** | **Standard** (1 print per sheet), **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet). Display only: the booth shows guests how many pieces they take home without changing what the printer produces |
 | **Prints included** | Sheets printed for a Single session |
 | **Double session price** | Switch on to sell two sessions as one package, with its own Prints included |
 | **Group session price** | Switch on to sell four sessions as one package, with its own Prints included |
@@ -47,7 +47,7 @@ Packages need a payment method that can charge a variable amount. A QR gateway o
 
 ![Pricing sub-tab Time: Payment timeout](/img/docs/booth-pricing-time.webp)
 
-**Payment timeout** is how long the kiosk waits for a payment before returning to the start screen, from 30 to 1800 seconds.
+**Payment timeout** is how long the booth waits for a payment before returning to the start screen, from 30 to 1800 seconds.
 
 ## Extra Prints
 
@@ -67,7 +67,7 @@ Switch on **Extra print price (sharing screen)** to sell more copies after the s
 
 ## Saving
 
-Any change shows the save bar: "Unsaved changes" with **Cancel** and **Save changes**. Prices reach the kiosk on its next check-in.
+Any change shows the save bar: "Unsaved changes" with **Cancel** and **Save changes**. Prices reach the booth on its next check-in.
 
 ## Currency
 
@@ -86,4 +86,4 @@ Create a Free Session voucher and run a real photo session to check the payment 
 - [Accept Payments](../tutorials/accept-payments.md)
 - [Payment Gateway Setup](../guides/payment-gateway-setup.md)
 - [Vouchers](./vouchers.md)
-- [Payment screen on the kiosk](../desktop-app/session-flow/payment.md)
+- [Payment screen on the booth](../desktop-app/session-flow/payment.md)

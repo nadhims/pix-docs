@@ -19,14 +19,14 @@ A booth with no computer shows the status **Unknown**, a dash for the licence an
 
 ## Pairing a Computer
 
-1. Install the Pix Desktop App on the kiosk computer. See [Download the Desktop App](../getting-started/download-desktop-app.md).
+1. Install the Pix Desktop App on the booth computer. See [Download the Desktop App](../getting-started/download-desktop-app.md).
 2. On the booth's **Device** tab, under **Pairing & access**, click **Generate code**. The Pair Pixture App modal shows a 6-digit code with "Enter this code in the Pixture App to link it to [booth name]." and a countdown from 10 minutes. Use **Copy Code**, or **Regenerate** if it expires.
-3. Type the code on the kiosk's pairing screen.
-4. Click **Done**. The computer downloads the booth's templates, kiosk design, filters and prices and goes to the start screen.
+3. Type the code on the booth's pairing screen.
+4. Click **Done**. The computer downloads the booth's templates, screen design, filters and prices and goes to the start screen.
 
 ![Pair Pixture App modal showing the 6-digit code, Expires in, Copy Code, Regenerate, Done](/img/docs/booth-pairing-code.webp)
 
-On a Pix Pro account, a spare place on your subscription attaches itself at this first check-in, so the computer runs Pix Pro straight away. A Day Pass is not spent automatically: use one from the kiosk's operator menu when the day starts.
+On a Pix Pro account, a spare place on your subscription attaches itself at this first check-in, so the computer runs Pix Pro straight away. A Day Pass is not spent automatically: use one from the booth's operator menu when the day starts.
 
 ## The Device Card
 
@@ -48,11 +48,11 @@ Three actions look alike and do different things.
 
 | Action | Where | What happens |
 |---|---|---|
-| **Unlink** | Booth > Device | The kiosk returns to the pairing screen and stops acting as this booth. Pix Pro from a subscription or the free trial returns to your pool; a Day Pass stays on that computer. Photo sessions already uploaded stay in your account |
+| **Unlink** | Booth > Device | The computer returns to the pairing screen and stops acting as this booth. Pix Pro from a subscription or the free trial returns to your pool; a Day Pass stays on that computer. Photo sessions already uploaded stay in your account |
 | **Remove** | Booth > Device, Danger zone | Retires the device for good. Use it for a computer you have sold or scrapped |
 | **Deactivate** | Licenses page | Frees the computer's place on your subscription for another computer. The computer stays paired but cannot start a session until a place is free again. On a Day Pass, deactivating ends the pass; it cannot be moved or used again |
 
-Logging out of the kiosk does the same as **Unlink**. Unlink a computer before you sell it, repurpose it or send it for repair.
+Logging out of the booth does the same as **Unlink**. Unlink a computer before you sell it, repurpose it or send it for repair.
 
 ## Replacing a Computer
 
@@ -68,11 +68,11 @@ Two computers cannot be paired to the same booth at once. **Unlink** the first b
 ## When Pairing Is Refused
 
 - **Pix Starter runs one computer.** Once one booth has a paired computer, **Generate code** on a second booth is refused. Add a device, buy a pass or start the free trial first.
-- **Pix Pro with every device in use.** The modal shows "Device limit reached" with **Try Again**. Deactivate a computer on the [Licenses](./billing.md) page or click **Add more devices** there, then generate the code again. If you hold an unspent Day Pass, the computer pairs anyway and waits, blocked, until you use the pass on it from the kiosk's operator menu.
+- **Pix Pro with every device in use.** The modal shows "Device limit reached" with **Try Again**. Deactivate a computer on the [Licenses](./billing.md) page or click **Add more devices** there, then generate the code again. If you hold an unspent Day Pass, the computer pairs anyway and waits, blocked, until you use the pass on it from the booth's operator menu.
 - **Event booths** are never refused or blocked: they run watermarked outside a live event and the event covers them on the day. See [Events](./events.md).
 
-:::caution No licence moves from the kiosk
-Taking Pix Pro off one computer and giving it to another happens only on the dashboard: **Deactivate** or **Unlink** the first, and the next computer that checks in picks it up. The kiosk's operator menu can use a pass, but only for the computer it runs on.
+:::caution No licence moves from the booth
+Taking Pix Pro off one computer and giving it to another happens only on the dashboard: **Deactivate** or **Unlink** the first, and the next computer that checks in picks it up. The booth's operator menu can use a pass, but only for the computer it runs on.
 :::
 
 ## Related

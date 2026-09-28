@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Welcome to Pixture Docs
-description: Pixture is photobooth software, with the Pix Desktop App running the kiosk on a Mac or Windows computer and the Pixture dashboard at pixture.io running everything else.
+description: Pixture is photobooth software, with the Pix Desktop App running the booth on a Mac or Windows computer and the Pixture dashboard at pixture.io running everything else.
 slug: /
 tags: [welcome, overview]
 ---
@@ -10,14 +10,14 @@ tags: [welcome, overview]
 
 Pixture is photobooth software. Guests walk up to a booth, take their photos, and leave with a print, a QR code to their photos, a GIF or a live photo. You run the booth from a Mac or Windows computer and manage everything else from a browser.
 
-It is built for booth operators of every size, anywhere in the world: a single self-service kiosk in a mall, a cafe corner, a rental company that sends booths to weddings, or an event agency running a dozen stations at a festival.
+It is built for booth operators of every size, anywhere in the world: a single self-service booth in a mall, a cafe corner, a rental company that sends booths to weddings, or an event agency running a dozen stations at a festival.
 
 ## The Two Apps
 
 | App | Where it runs | What it does |
 |---|---|---|
-| **Pix Desktop App** | A Mac or Windows computer at the booth | The kiosk your guests use: start screen, payment, template choice, capture, filters, sharing and printing. Works with Canon, Sony, Nikon and Fujifilm cameras or a webcam, and keeps shooting when the venue internet drops. |
-| **Pixture dashboard** | Any browser at [pixture.io](https://pixture.io) | Where you create booths, design print templates and kiosk screens, set prices, connect a payment gateway, run events, watch health and revenue, and manage your devices and billing. |
+| **Pix Desktop App** | A Mac or Windows computer at the booth | The booth your guests use: start screen, payment, template choice, capture, filters, sharing and printing. Works with Canon, Sony, Nikon and Fujifilm cameras or a webcam, and keeps shooting when the venue internet drops. |
+| **Pixture dashboard** | Any browser at [pixture.io](https://pixture.io) | Where you create booths, design print templates and booth screens, set prices, connect a payment gateway, run events, watch health and revenue, and manage your devices and billing. |
 
 One account covers both. Whatever you save in the dashboard reaches the booth the next time it checks in.
 
@@ -37,12 +37,12 @@ Five steps take a new account to its first photo session. Most operators finish 
 
 | Section | What is in it |
 |---|---|
-| [How Pixture Works](./getting-started/how-pixture-works.md) | The words and pieces of Pixture in one page: kiosk, booth, dashboard, template, UI project, share page |
+| [How Pixture Works](./getting-started/how-pixture-works.md) | The words and pieces of Pixture in one page: booth, booth, dashboard, template, UI project, share page |
 | [Getting Started](./getting-started/overview.md) | Account, plan, install, pairing, the dashboard tour and your first photo session |
 | [Use Cases](./use-cases/overview.md) | How to run a self-service booth, event rentals, a multi-booth studio or a pop-up box with Pixture |
 | [Tutorials](./tutorials/overview.md) | Step-by-step jobs: set up a booth, design a template, accept payments, run an event, and more |
 | [Dashboard](./dashboard/overview.md) | Every page of the Pixture dashboard, from Booths and Pricing to Licenses and Settings |
-| [Desktop App](./desktop-app/overview.md) | The kiosk: installation, cameras, printers, the session flow, the operator menu and troubleshooting |
+| [Desktop App](./desktop-app/overview.md) | The booth: installation, cameras, printers, the session flow, the operator menu and troubleshooting |
 | [Plans & Billing](./pricing/plans.md) | Pix Starter, the Day Pass, Pix Pro, the free trial and billing questions |
 | [Guides](./guides/booth-operations-checklist.md) | Longer reads for running a booth well: operations checklist, multi-booth, payment gateways, branding |
 | [Reference](./reference/system-requirements.md) | System requirements, supported cameras and printers, public links and the glossary |

@@ -26,7 +26,7 @@ Each booth is paired to its own computer, and each computer needs its own Pix Pr
 ### 3. One queue, one cashier
 
 - **Queue**: set up a shared queue for the group and show it on a screen at the venue with **Open TV view**.
-- **Cashier**: choose **Pay at the booth**, where each kiosk shows its own Payment screen, or **Central cashier**, where guests pay the attendant and get an 8-character code that works at any booth in the group. See [Multi-Booth Setup](../guides/multi-booth-setup.md#step-3-choose-how-guests-pay).
+- **Cashier**: choose **Pay at the booth**, where each booth shows its own Payment screen, or **Central cashier**, where guests pay the attendant and get an 8-character code that works at any booth in the group. See [Multi-Booth Setup](../guides/multi-booth-setup.md#step-3-choose-how-guests-pay).
 
 ### 4. Studio sessions
 

@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
-title: Customise the Kiosk Screens
-description: Build your own kiosk design in the Pix Design UI Editor, from the Start Screen to Sharing, then assign it to a booth.
-tags: [tutorials, pix-design, ui-editor, kiosk]
+title: Customise the Booth Screens
+description: Build your own screen design in the Pix Design UI Editor, from the Start Screen to Sharing, then assign it to a booth.
+tags: [tutorials, pix-design, ui-editor, booth]
 ---
 
-# Customise the Kiosk Screens
+# Customise the Booth Screens
 
 In this tutorial you will create a UI project in Pix Design, design the Start, Payment, Templates, Capture, Review, Filter and Sharing screens, preview and save the design, and assign it to a booth. Allow about 45 minutes for a first design.
 
@@ -38,22 +38,22 @@ Studio mode needs Pix Desktop App 1.1.98 or newer on the booth. See [Studio Sess
 
 ## Step 2: Find your way around the editor
 
-- **Page tabs** across the top: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Filter and Sharing (a Studio project adds Assign photos). Each tab is one kiosk screen. Custom Screen is an optional extra page; include it with **Enabled in session flow**.
+- **Page tabs** across the top: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Filter and Sharing (a Studio project adds Assign photos). Each tab is one booth screen. Custom Screen is an optional extra page; include it with **Enabled in session flow**.
 - **Canvas** in the middle, with **Fit**, zoom and **1:1** controls, **Snap** for alignment, undo and redo.
 - **Floating palette** at the bottom of the canvas adds blocks: Text, Image, Start Button, Next Button, Live View, Template Cards, Preview Cards, QR Code, Session Timer, Filter Strip and more.
 - **Right rail**: **PAGE BACKGROUND** first (Type: **Solid Color**, **Image**, **Gradient**, or **Video** on the Start Screen), then the page's own settings, then the settings of the selected block.
 - **LAYERS** at the bottom of the rail lists the blocks on the page.
-- The header shows the project name and where it is used (**Unused** or **N booths**). **Preview** shows the design as the kiosk will; **Save** stores it, and the toolbar reads **Saved** when nothing is pending.
+- The header shows the project name and where it is used (**Unused** or **N booths**). **Preview** shows the design as the booth will; **Save** stores it, and the toolbar reads **Saved** when nothing is pending.
 
 ## Step 3: Design the Start Screen
 
 1. On the **Start Screen** tab, set **PAGE BACKGROUND > Type** to **Image** and upload your artwork, or **Video** for a looping clip. **Solid Color** and **Gradient** work too.
 2. Under **SESSION TRIGGER**, tick how a session starts: **Touch Screen** (tap anywhere), **Start Button** (adds a button block you can style), **F13** (for a cash system or a remote button) and **Space, S, Page Up, Page Down Keys**.
-3. Under **Home Page Settings**, keep **Enabled in session flow** on and set the **Idle Timeout**, the number of seconds before the kiosk returns to the start.
+3. Under **Home Page Settings**, keep **Enabled in session flow** on and set the **Idle Timeout**, the number of seconds before the booth returns to the start.
 
 ![UI Editor on the Start Screen with the page tabs, the canvas with a Start button, Page Background, Session Trigger checkboxes, Home Page Settings and Layers](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-start.webp)
 
-**CAPTURE SETTINGS > Show live view** puts the camera feed on the Start Screen, so passers-by see themselves. Every page has **Enabled in session flow**; when it is off, the kiosk skips that screen.
+**CAPTURE SETTINGS > Show live view** puts the camera feed on the Start Screen, so passers-by see themselves. Every page has **Enabled in session flow**; when it is off, the booth skips that screen.
 
 ## Step 4: Design the Payment Screen
 
@@ -94,7 +94,7 @@ The success screen also shows when a voucher covers the whole price; free sessio
 1. Click **Preview** to walk through the screens as a guest would, then **Save**.
 2. Assign the design: on **UI Projects**, open the card's menu and choose **Assign to booths**; or open the booth's **UI Project** tab, pick the project from the dropdown and click **Save**.
 
-![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
+![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
 
 The card menu also offers **Duplicate** (start a variant for another client), **Rename**, **Add frame template to this project** and **Delete**.
 
@@ -106,15 +106,15 @@ If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** 
 
 - The project card on **UI Projects** shows the booth count, and the editor header reads **N booths** instead of **Unused**.
 - The booth's **UI Project** tab shows the project and its **Booth mode**.
-- On the kiosk, run a test session and walk through every screen you designed.
+- On the booth, run a test session and walk through every screen you designed.
 
 ## Troubleshooting
 
 | Symptom | Cause | Fix |
 |---|---|---|
 | **Save** opens the Pix Pro modal | The account is on Pix Starter | Start the free trial or buy Pix Pro |
-| A screen never appears on the kiosk | **Enabled in session flow** is off for that page; for the Payment Screen, **Payment on this booth** is off or the computer is on Pix Starter | Turn the page on; check the booth's Pricing tab |
-| The kiosk still shows the old design | The project is not assigned to that booth | Booth > **UI Project** tab, pick the project, **Save** |
+| A screen never appears on the booth | **Enabled in session flow** is off for that page; for the Payment Screen, **Payment on this booth** is off or the computer is on Pix Starter | Turn the page on; check the booth's Pricing tab |
+| The booth still shows the old design | The project is not assigned to that booth | Booth > **UI Project** tab, pick the project, **Save** |
 | A Studio project cannot be chosen for a booth | The booth's Pix Desktop App is older than 1.1.98 | Update the app from the operator menu (**Check for Updates**) |
 | Guests cannot start a session | No session trigger ticked and no Start Button on the canvas | Tick **Touch Screen** or add a **Start Button** |
 

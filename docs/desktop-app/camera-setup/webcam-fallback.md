@@ -11,7 +11,7 @@ By the end of this page the booth is running on a webcam, a capture card or a vi
 
 ## When to Use a Webcam
 
-- **Testing and demos**: check the kiosk design, templates and printing without setting up a DSLR.
+- **Testing and demos**: check the booth's screen design, templates and printing without setting up a DSLR.
 - **Casual setups** where print quality at large sizes is not the main point.
 - **A backup** so the booth keeps taking photos if the main camera stops responding.
 

@@ -7,7 +7,7 @@ tags: [desktop-app, camera, fujifilm]
 
 # Fujifilm Camera Setup
 
-The Pix Desktop App drives Fujifilm X and GFX bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page. By the end of this page your Fujifilm is connected and ready for a full day.
+The Pix Desktop App drives Fujifilm X and GFX bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page. By the end of this page your Fujifilm is connected and ready for a full day.
 
 ## Supported Models
 
@@ -43,7 +43,7 @@ With a Fujifilm connected, **CAMERA SETTINGS** on the Camera Settings page shows
 - **Turn off auto power-off** so the camera stays awake between guests.
 - **Keep the USB run short.** Use a powered USB hub if the cable is longer than about 2 metres.
 - **Lock focus to manual** once the framing is set, so the lens does not hunt between shots.
-- On an older body, remember its buttons are locked while the booth is connected: change settings from the kiosk, or unplug first.
+- On an older body, remember its buttons are locked while the booth is connected: change settings from the booth, or unplug first.
 
 ## Troubleshooting
 

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: Folders and Categories
-description: Keep a growing template library tidy with folders, and use categories so guests can browse templates by group on the kiosk.
+description: Keep a growing template library tidy with folders, and use categories so guests can browse templates by group on the booth.
 tags: [dashboard, pix-design, templates, organization]
 ---
 
 # Folders and Categories
 
-Folders and categories do different jobs. **Folders** are for you: they group template projects in the dashboard and never reach the booth. **Categories** are for guests: a template's category becomes a button on the kiosk's Templates screen, so a booth with many designs stays easy to browse. Both live on the Template Projects list under **Pix Design > Template Editor**.
+Folders and categories do different jobs. **Folders** are for you: they group template projects in the dashboard and never reach the booth. **Categories** are for guests: a template's category becomes a button on the booth's Templates screen, so a booth with many designs stays easy to browse. Both live on the Template Projects list under **Pix Design > Template Editor**.
 
 ![Template Projects list with the folder column, the Category, Paper Size and Media Type filters, and project cards](/img/docs/pix-design-templates.webp)
 
@@ -40,11 +40,11 @@ Every project card has a menu with **Rename**, **Assign to booths** and **Delete
 
 A category is a label on a template project, such as "Birthday", "Wedding" or "Minimal". Categories matter in three places:
 
-- **On the kiosk.** The Templates screen shows a row of category buttons above the template cards. Guests tap one to see only that group. The row scrolls when there are many categories.
+- **On the booth.** The Templates screen shows a row of category buttons above the template cards. Guests tap one to see only that group. The row scrolls when there are many categories.
 - **On the booth's Templates tab.** The **All Categories** filter and the **Manage Templates** modal filter by category, which speeds up assigning a themed set to one booth.
 - **On the Template Projects list.** The **Category** filter narrows the grid to one category.
 
-Use a small, stable set of category names. Two spellings of the same word ("Wedding" and "Weddings") show as two buttons on the kiosk.
+Use a small, stable set of category names. Two spellings of the same word ("Wedding" and "Weddings") show as two buttons on the booth.
 
 ## Paper Size and Media Type Filters
 
@@ -70,4 +70,4 @@ Filter first, then **Select All**, then **Move to**. Filtering by Paper Size and
 
 - [Template Editor](./creating-templates.md)
 - [Assigning Templates](./assigning-templates.md)
-- [Template Selection on the kiosk](../../desktop-app/session-flow/template-selection.md)
+- [Template Selection on the booth](../../desktop-app/session-flow/template-selection.md)

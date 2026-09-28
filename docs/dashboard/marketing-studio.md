@@ -9,7 +9,7 @@ tags: [dashboard, marketing, bonus, frame-lab]
 
 **Marketing Studio** groups the tools that bring guests back: permission to reuse their photos, a contact list, a buy-one-get-one bonus, guest-designed frames, and campaigns that switch all of it on for a season. It is Pix Pro only and does not appear in the sidebar on Pix Starter.
 
-![Marketing Studio Content tab: Marketing consent switch, Consent text, live kiosk consent prompt preview](/img/docs/marketing-content.webp)
+![Marketing Studio Content tab: Marketing consent switch, Consent text, live booth consent prompt preview](/img/docs/marketing-content.webp)
 
 ## Content
 
@@ -19,7 +19,7 @@ Ask guests whether you may feature their photos. Pick a booth at the top, then:
 |---|---|
 | **Marketing consent** | "Ask guests if you may reuse their photos for marketing. Opt-ins appear in the gallery below. Off by default." |
 | **Consent text** | Your own wording. "Blank = built-in default in the booth's language." |
-| Live preview | The kiosk prompt as guests see it: "May we feature your photos?" with **Yes, I agree** and **No thanks** |
+| Live preview | The booth prompt as guests see it: "May we feature your photos?" with **Yes, I agree** and **No thanks** |
 | **Apply to all booths** | Copies this booth's consent settings to every booth |
 | **Save changes** | Saves the selected booth |
 
@@ -35,7 +35,7 @@ The contacts captured at your booths, with **Contact**, **Visits** and **Last se
 
 ![Marketing Studio Bonus Session tab: Buy 1 get 1 free, Daily limit, Active days, Active hours, Contact capture](/img/docs/marketing-bonus.webp)
 
-**Buy 1, get 1 free.** A guest who pays for a photo session gets a second one free, right after the first, with a popup on the kiosk and a countdown into the next session. It fires only after a genuinely paid session: a free, voucher or bonus session never earns another bonus.
+**Buy 1, get 1 free.** A guest who pays for a photo session gets a second one free, right after the first, with a popup on the booth and a countdown into the next session. It fires only after a genuinely paid session: a free, voucher or bonus session never earns another bonus.
 
 | Setting | What it does |
 |---|---|

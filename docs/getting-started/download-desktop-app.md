@@ -7,12 +7,12 @@ tags: [getting-started, desktop-app, install]
 
 # Install the Pix Desktop App
 
-By the end of this page the Pix Desktop App, the kiosk software that runs your photobooth, is installed on the booth computer and open on its pairing screen. The current version is 1.1.115.
+By the end of this page the Pix Desktop App, the booth software that runs your photobooth, is installed on the booth computer and open on its pairing screen. The current version is 1.1.115.
 
 ## Before You Start
 
 - A **Mac** on macOS 13 or later (Apple Silicon or Intel), or a **Windows** 10 or 11 (64-bit) PC.
-- At least 3 GB of free disk space. The kiosk warns you below that and cleans up its cache below 1 GB.
+- At least 3 GB of free disk space. The booth warns you below that and cleans up its cache below 1 GB.
 - Internet access for the download, pairing and updates.
 
 ## Download

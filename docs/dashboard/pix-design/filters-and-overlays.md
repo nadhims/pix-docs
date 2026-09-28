@@ -22,7 +22,7 @@ Pixture ships 14 built-in filters. You can add up to 50 of your own as .cube LUT
 
    ![Upload Filter modal with Filter Name and .cube File](/img/docs/pix-design-upload-filter-modal.webp)
 
-3. Enter a **Filter Name**. This is the label under the filter card on the kiosk, so keep it short.
+3. Enter a **Filter Name**. This is the label under the filter card on the booth, so keep it short.
 4. Choose the **.cube File** and confirm.
 
 The filter appears next to the built-in ones with a preview on a sample photo. **Delete Filter** removes a custom filter; the built-in ones stay.
@@ -44,7 +44,7 @@ By default a booth offers every filter, built-in and custom. To narrow it:
 
 ### What the guest sees
 
-The Filter screen comes after capture. The **Filter Strip** block lists the booth's filters as cards, in the grid you shaped in the UI Editor, and the **Filter Preview** block shows the guest's photo with the chosen filter applied. The screen can be turned off with **Enabled in session flow**, in which case photos go out unfiltered. See [UI Editor](./ui-editor.md#filter) and [Filters on the kiosk](../../desktop-app/session-flow/filters.md).
+The Filter screen comes after capture. The **Filter Strip** block lists the booth's filters as cards, in the grid you shaped in the UI Editor, and the **Filter Preview** block shows the guest's photo with the chosen filter applied. The screen can be turned off with **Enabled in session flow**, in which case photos go out unfiltered. See [UI Editor](./ui-editor.md#filter) and [Filters on the booth](../../desktop-app/session-flow/filters.md).
 
 :::tip
 A brand look usually needs one or two filters, not fourteen. Assign a short set per booth so the Filter screen stays quick to use.
@@ -78,5 +78,5 @@ Both pages open on Pix Starter, but saving in Pix Design needs Pix Pro, so uploa
 
 - [UI Editor](./ui-editor.md)
 - [Booth Management](../booth-management.md)
-- [Filters on the kiosk](../../desktop-app/session-flow/filters.md)
+- [Filters on the booth](../../desktop-app/session-flow/filters.md)
 - [Event video modes](../../desktop-app/event-video-modes.md)
