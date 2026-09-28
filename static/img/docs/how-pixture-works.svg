@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>How Pixture fits together: the booth at your venue, the Pixture dashboard, and the guest's phone</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#181514"/></marker>
+    <marker id="c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#D97756"/></marker>
+  </defs>
+  <rect width="1200" height="700" fill="#FAF8F6"/>
+
+  <!-- column labels -->
+  <text x="190" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#8A817C" letter-spacing="1.5">AT YOUR VENUE</text>
+  <text x="600" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#8A817C" letter-spacing="1.5">ONLINE, AT PIXTURE.IO</text>
+  <text x="1010" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#8A817C" letter-spacing="1.5">ON THE GUEST'S PHONE</text>
+
+  <!-- booth / kiosk -->
+  <rect x="40" y="70" width="300" height="520" rx="18" fill="#fff" stroke="#181514" stroke-width="2"/>
+  <text x="190" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#181514">The kiosk</text>
+  <text x="190" y="134" text-anchor="middle" font-size="14" fill="#5E5753">the booth guests stand in</text>
+  <rect x="70" y="160" width="240" height="96" rx="12" fill="#FBEAE3" stroke="#D97756" stroke-width="2"/>
+  <text x="190" y="196" text-anchor="middle" font-size="17" font-weight="700" fill="#181514">Computer</text>
+  <text x="190" y="220" text-anchor="middle" font-size="14" fill="#181514">running the Pix Desktop App</text>
+  <text x="190" y="241" text-anchor="middle" font-size="13" fill="#5E5753">Mac or Windows, one per booth</text>
+  <rect x="70" y="276" width="112" height="64" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="126" y="314" text-anchor="middle" font-size="15" fill="#181514">Camera</text>
+  <rect x="198" y="276" width="112" height="64" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="254" y="314" text-anchor="middle" font-size="15" fill="#181514">Printer</text>
+  <rect x="70" y="360" width="240" height="64" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="190" y="388" text-anchor="middle" font-size="15" fill="#181514">Touchscreen</text>
+  <text x="190" y="408" text-anchor="middle" font-size="13" fill="#5E5753">shows the UI project</text>
+  <text x="190" y="462" text-anchor="middle" font-size="15" font-weight="700" fill="#181514">A photo session</text>
+  <text x="190" y="486" text-anchor="middle" font-size="13" fill="#5E5753">start, pay, pick a template,</text>
+  <text x="190" y="505" text-anchor="middle" font-size="13" fill="#5E5753">take photos, filter, share</text>
+  <text x="190" y="548" text-anchor="middle" font-size="14" fill="#181514">Print in hand + QR code</text>
+
+  <!-- dashboard -->
+  <rect x="440" y="70" width="320" height="520" rx="18" fill="#fff" stroke="#181514" stroke-width="2"/>
+  <text x="600" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#181514">The dashboard</text>
+  <text x="600" y="134" text-anchor="middle" font-size="14" fill="#5E5753">where you run the business</text>
+  <rect x="468" y="160" width="264" height="58" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="600" y="186" text-anchor="middle" font-size="15" font-weight="700" fill="#181514">Booths</text>
+  <text x="600" y="206" text-anchor="middle" font-size="13" fill="#5E5753">one profile per kiosk, prices, settings</text>
+  <rect x="468" y="232" width="264" height="104" rx="10" fill="#FBEAE3" stroke="#D97756" stroke-width="2"/>
+  <text x="600" y="258" text-anchor="middle" font-size="15" font-weight="700" fill="#181514">Pix Design</text>
+  <text x="600" y="282" text-anchor="middle" font-size="13" fill="#181514">Templates: the print layout</text>
+  <text x="600" y="302" text-anchor="middle" font-size="13" fill="#181514">UI projects: the kiosk screens</text>
+  <text x="600" y="322" text-anchor="middle" font-size="13" fill="#181514">Microsite: the guest's page</text>
+  <rect x="468" y="350" width="264" height="58" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="600" y="376" text-anchor="middle" font-size="15" font-weight="700" fill="#181514">Events</text>
+  <text x="600" y="396" text-anchor="middle" font-size="13" fill="#5E5753">dated jobs with their own look</text>
+  <rect x="468" y="422" width="264" height="58" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="600" y="448" text-anchor="middle" font-size="15" font-weight="700" fill="#181514">Payments and Licenses</text>
+  <text x="600" y="468" text-anchor="middle" font-size="13" fill="#5E5753">gateway, vouchers, Pix Pro per computer</text>
+  <rect x="468" y="494" width="264" height="58" rx="10" fill="#fff" stroke="#181514" stroke-width="1.5"/>
+  <text x="600" y="520" text-anchor="middle" font-size="15" font-weight="700" fill="#181514">Gallery, Transactions, Health</text>
+  <text x="600" y="540" text-anchor="middle" font-size="13" fill="#5E5753">photos, money, booth status</text>
+
+  <!-- phone -->
+  <rect x="890" y="110" width="240" height="440" rx="34" fill="#fff" stroke="#181514" stroke-width="2"/>
+  <rect x="970" y="126" width="80" height="8" rx="4" fill="#181514"/>
+  <text x="1010" y="186" text-anchor="middle" font-size="20" font-weight="700" fill="#181514">Share page</text>
+  <text x="1010" y="210" text-anchor="middle" font-size="14" fill="#5E5753">(the microsite)</text>
+  <rect x="930" y="232" width="160" height="150" rx="10" fill="#FBEAE3" stroke="#D97756" stroke-width="2"/>
+  <text x="1010" y="302" text-anchor="middle" font-size="14" fill="#181514">the guest's photos,</text>
+  <text x="1010" y="322" text-anchor="middle" font-size="14" fill="#181514">GIF, live photo</text>
+  <rect x="930" y="398" width="160" height="40" rx="20" fill="#D97756"/>
+  <text x="1010" y="424" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Download</text>
+  <text x="1010" y="478" text-anchor="middle" font-size="13" fill="#5E5753">under your logo and colours</text>
+
+  <!-- arrows kiosk <-> dashboard -->
+  <path d="M440 200 L346 200" stroke="#181514" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <text x="392" y="176" text-anchor="middle" font-size="12.5" fill="#181514">designs,</text>
+  <text x="392" y="191" text-anchor="middle" font-size="12.5" fill="#181514">prices</text>
+  <path d="M340 300 L434 300" stroke="#181514" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <text x="392" y="322" text-anchor="middle" font-size="12.5" fill="#181514">photos,</text>
+  <text x="392" y="337" text-anchor="middle" font-size="12.5" fill="#181514">sessions,</text>
+  <text x="392" y="352" text-anchor="middle" font-size="12.5" fill="#181514">status</text>
+  <!-- dashboard -> phone -->
+  <path d="M760 300 L884 300" stroke="#181514" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <text x="822" y="282" text-anchor="middle" font-size="12.5" fill="#181514">serves the page</text>
+  <!-- kiosk QR -> phone (coral, curved under) -->
+  <path d="M190 590 C190 655, 1010 655, 1010 556" stroke="#D97756" stroke-width="2.5" fill="none" marker-end="url(#c)"/>
+  <text x="600" y="682" text-anchor="middle" font-size="14" font-weight="700" fill="#D97756">guest scans the QR code on the kiosk</text>
+</svg>
