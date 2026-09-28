@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
 title: Fujifilm Setup
-description: Connect a Fujifilm X or GFX camera to the Pix Desktop App over USB with Fujifilm's official Camera Control SDK, on Mac or Windows, and set it up for a booth.
+description: Connect a Fujifilm X or GFX camera to the Pix Desktop App over USB, on Mac or Windows, and set it up for a booth.
 tags: [desktop-app, camera, fujifilm]
 ---
 
 # Fujifilm Camera Setup
 
-The Pix Desktop App drives Fujifilm X and GFX bodies over USB through Fujifilm's official X Camera Control SDK, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page. By the end of this page your Fujifilm is connected and ready for a full day.
+The Pix Desktop App drives Fujifilm X and GFX bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page. By the end of this page your Fujifilm is connected and ready for a full day.
 
 ## Supported Models
 

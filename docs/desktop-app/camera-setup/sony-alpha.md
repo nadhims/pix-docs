@@ -1,17 +1,17 @@
 ---
 sidebar_position: 2
 title: Sony Alpha Setup
-description: Connect a Sony Alpha or ZV camera to the Pix Desktop App over USB with Sony's official Camera Remote SDK, on Mac or Windows, and set it up for a booth.
+description: Connect a Sony Alpha or ZV camera to the Pix Desktop App over USB, on Mac or Windows, and set it up for a booth.
 tags: [desktop-app, camera, sony]
 ---
 
 # Sony Alpha Camera Setup
 
-The Pix Desktop App drives Sony Alpha and ZV bodies over USB through Sony's official Camera Remote SDK, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page, the same as with a Canon. By the end of this page your Sony is connected and ready for a full day.
+The Pix Desktop App drives Sony Alpha and ZV bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page, the same as with a Canon. By the end of this page your Sony is connected and ready for a full day.
 
 ## Supported Models
 
-These are the bodies Sony's Camera Remote SDK supports:
+These are the Sony bodies the app supports:
 
 | Series | Models |
 |---|---|
@@ -20,11 +20,11 @@ These are the bodies Sony's Camera Remote SDK supports:
 | Vlog | ZV-E10 II, ZV-E1 |
 | Cinema Line | FX series |
 
-**Not supported:** A6400, A6600, A7 III and the first ZV-E10. Sony's SDK does not cover them. For those bodies, use a webcam or capture card instead; see [Webcam Fallback](./webcam-fallback.md).
+**Not supported:** A6400, A6600, A7 III and the first ZV-E10. Sony does not offer remote control for them. For those bodies, use a webcam or capture card instead; see [Webcam Fallback](./webcam-fallback.md).
 
 ## Before You Start
 
-- **Update the camera to the latest firmware** from Sony's support site. The SDK expects current firmware.
+- **Update the camera to the latest firmware** from Sony's support site. Older firmware may not connect.
 - **A USB cable** to the camera's USB-C port, connected straight to the computer.
 - **No other camera software running.** Sony Imaging Edge, Lightroom and similar tools claim the camera over USB, and only one program can hold it.
 - **On Windows, install the Sony driver once** (below).
@@ -67,7 +67,7 @@ With a Sony connected, **CAMERA SETTINGS** on the Camera Settings page shows ISO
 | The camera is not detected on Windows | Install the Sony driver (above), then replug the camera |
 | The camera is not detected on any computer | Check the USB mode is **PC Remote**, the firmware is current, and no other camera software is open. The app looks for a Sony every 5 seconds, so give it a moment after plugging in |
 | Exposure controls are greyed out | Set the mode dial to **M**, **A** or **S** |
-| Your model is not in the list above | Sony's SDK does not support it. Use [Webcam Fallback](./webcam-fallback.md) |
+| Your model is not in the list above | Sony does not offer remote control for it. Use [Webcam Fallback](./webcam-fallback.md) |
 
 The **CAMERA LOG** at the bottom of the Camera Settings page shows what the app sees. See [Troubleshooting](../troubleshooting.md) for more.
 

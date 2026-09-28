@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: Nikon Z Setup
-description: Connect a Nikon Z mirrorless camera to the Pix Desktop App over USB with Nikon's official Remote SDK, on Mac or Windows, and set it up for a booth.
+description: Connect a Nikon Z mirrorless camera to the Pix Desktop App over USB, on Mac or Windows, and set it up for a booth.
 tags: [desktop-app, camera, nikon]
 ---
 
 # Nikon Z Camera Setup
 
-The Pix Desktop App drives Nikon Z mirrorless bodies over USB through Nikon's official Remote SDK, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page. By the end of this page your Nikon is connected and ready for a full day.
+The Pix Desktop App drives Nikon Z mirrorless bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page. By the end of this page your Nikon is connected and ready for a full day.
 
 ## Supported Models
 
@@ -16,7 +16,7 @@ The Pix Desktop App drives Nikon Z mirrorless bodies over USB through Nikon's of
 | Full-frame | Z9, Z8, Z6III, Z7II, Z6II, Z7, Z6, Z5II, Z5, Zf, ZR |
 | APS-C (DX) | Z50II, Z50, Z30, Zfc |
 
-**Nikon DSLRs (the D series) are not supported.** Nikon's Z-series SDK covers mirrorless bodies only. For a D-series camera, use a webcam or capture card instead; see [Webcam Fallback](./webcam-fallback.md).
+**Nikon DSLRs (the D series) are not supported.** Only Nikon's Z mirrorless bodies can be controlled this way. For a D-series camera, use a webcam or capture card instead; see [Webcam Fallback](./webcam-fallback.md).
 
 The computer needs **Windows 11 (64-bit)** or **macOS 13 or newer**.
 

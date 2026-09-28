@@ -7,7 +7,7 @@ tags: [reference, cameras, hardware]
 
 # Supported Cameras
 
-The Pix Desktop App captures photos with a camera body connected by USB, on Mac and Windows. It talks to each camera through the maker's own official software kit (SDK), so the live view appears on the booth screen and exposure settings such as aperture, shutter speed and ISO are controlled from the kiosk's **Camera Settings** page.
+The Pix Desktop App captures photos with a camera body connected by USB, on Mac and Windows. It controls the camera directly, so the live view appears on the booth screen and exposure settings such as aperture, shutter speed and ISO are controlled from the kiosk's **Camera Settings** page.
 
 | Brand | Supported bodies | Setup |
 |---|---|---|
@@ -16,7 +16,7 @@ The Pix Desktop App captures photos with a camera body connected by USB, on Mac 
 | **Nikon** | Z9, Z8, Z6III, Z7II, Z6II, Z7, Z6, Z5II, Z5, Zf, ZR, Z50II, Z50, Z30, Zfc (Z mirrorless only) | [Nikon Z Setup](../desktop-app/camera-setup/nikon-z.md) |
 | **Fujifilm** | X-H2S, X-H2, X-T5, X-S20, X-M5, GFX100 II, GFX100S II, GFX100RF, plus X-T3, X-T4, X-Pro3, X-S10, GFX 50S, GFX 50R, GFX100, GFX100S, GFX50S II | [Fujifilm Setup](../desktop-app/camera-setup/fujifilm.md) |
 
-Not supported: Sony A6400, A6600, A7 III and the first ZV-E10, and Nikon D-series DSLRs, because the makers' SDKs do not cover them. For those, use the [webcam fallback](#webcam-fallback) with a capture card.
+Not supported: Sony A6400, A6600, A7 III and the first ZV-E10, and Nikon D-series DSLRs, because the makers do not offer remote control for them. For those, use the [webcam fallback](#webcam-fallback) with a capture card.
 
 ## Which camera should you buy?
 
