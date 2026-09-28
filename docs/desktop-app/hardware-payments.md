@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Hardware Payments
-description: Take coins, banknotes, card taps or DuitNow QR at the booth with a coin acceptor, a Nayax or EDC reader, a Transpire QR DuitNow terminal, or a CASH-Interface2 system, using the kiosk's Hardware API page.
+description: Take coins, banknotes, card taps or DuitNow QR at the booth with a coin acceptor, a Nayax or EDC reader, a Transpire QR DuitNow terminal, or a CASH-Interface2 system, using the booth's Hardware API page.
 tags: [desktop-app, payments, hardware, coin, nayax, duitnow, transpire-qr]
 ---
 

@@ -28,11 +28,11 @@ Your account is **Pix Starter** while no computer has Pix Pro. On Pix Starter:
 
 - The Pix Desktop App runs on **one computer**. Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
 - Every photo, print, GIF and video carries the **Pixture watermark**.
-- You get two ready-made 4x6 print templates and the default kiosk design. Pix Design is open to try every tool; creating a new project or saving needs Pix Pro, and the button reads **Upgrade to Create**.
-- The kiosk **skips the Payment screen**. Every photo session is free.
+- You get two ready-made 4x6 print templates and the default screen design. Pix Design is open to try every tool; creating a new project or saving needs Pix Pro, and the button reads **Upgrade to Create**.
+- The booth **skips the Payment screen**. Every photo session is free.
 - **Marketing Studio** is not shown in the sidebar.
 
-The moment one computer holds Pix Pro, through a subscription, a running Day Pass or the free trial, the whole account is **Pix Pro**: unlimited templates and kiosk designs, no watermark, payments, Marketing Studio. A computer beyond what your subscription covers stays paired but is blocked from starting sessions until you deactivate another computer or add a device.
+The moment one computer holds Pix Pro, through a subscription, a running Day Pass or the free trial, the whole account is **Pix Pro**: unlimited templates and screen designs, no watermark, payments, Marketing Studio. A computer beyond what your subscription covers stays paired but is blocked from starting sessions until you deactivate another computer or add a device.
 
 ## Try Pix Pro Free for 3 Days
 
@@ -65,7 +65,7 @@ Buying is done on the **Licenses** page. A computer that is paired and waiting p
 What happens next depends on what you bought:
 
 - **Monthly or Yearly:** the next computer to check in takes the place. If you already have a paired computer waiting, it activates itself within minutes.
-- **Day Pass:** passes wait in your pool. Use one from the booth: open the operator menu on the kiosk and tap **Use a pass on this device**. The pass runs for 24 hours on that computer and cannot be moved afterwards.
+- **Day Pass:** passes wait in your pool. Use one from the booth: open the operator menu on the booth and tap **Use a pass on this device**. The pass runs for 24 hours on that computer and cannot be moved afterwards.
 
 :::info
 The Add devices modal ends with the rule that matters most: "One device runs one computer. A computer past your subscription stays paired, it just will not start a session until you deactivate one or add another." Freeing a place is one click, **Deactivate**, on the Licenses page.

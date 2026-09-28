@@ -19,7 +19,7 @@ The sidebar lists the pages in this order. Your role decides which ones you see.
 |---|---|
 | [Dashboard](./dashboard-home.md) | Revenue, photo sessions, prints, vouchers, top booths and health for a day, week or month |
 | [Events](./events.md) | A booking pointed at your booths for a set of dates, with its own pricing, templates and a public album |
-| [Booths](./booth-management.md) | One page per kiosk: templates, filters, kiosk design, pricing, activity log, device and settings |
+| [Booths](./booth-management.md) | One page per booth: templates, filters, screen design, pricing, activity log, device and settings |
 | [Transactions](./transactions.md) | Every payment, searchable, filterable and exportable to Excel |
 | [Vouchers](./vouchers.md) | Free, fixed-amount or percentage codes, one at a time or in batches |
 | [Marketing Studio](./marketing-studio.md) | Consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance. Pix Pro only |
@@ -61,7 +61,7 @@ Owners and admins see every page. For everyone else, the role decides which side
 The dashboard works on a phone. Keep it open at an event to watch sessions arrive and check a booth's health without leaving the floor.
 
 :::tip Language
-The dashboard is available in English and Bahasa Indonesia. Switch from the account menu, or under **Settings > Preferences**. The kiosk's guest-facing language is a separate setting on the same page.
+The dashboard is available in English and Bahasa Indonesia. Switch from the account menu, or under **Settings > Preferences**. The booth's guest-facing language is a separate setting on the same page.
 :::
 
 ## Related

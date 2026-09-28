@@ -11,9 +11,9 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 
 ## Set Up
 
-- [Set Up a Booth](./set-up-a-booth.md). Create a booth, assign its templates, filters and kiosk design, and set what it outputs.
+- [Set Up a Booth](./set-up-a-booth.md). Create a booth, assign its templates, filters and screen design, and set what it outputs.
 - [Design a Print Template](./design-a-print-template.md). Turn a PNG with transparent photo slots into a print template and put it on your booths.
-- [Customise Kiosk Screens](./customise-kiosk-screens.md). Use the UI Editor to change what guests see on every screen, from the start button to sharing.
+- [Customise Booth Screens](./customise-kiosk-screens.md). Use the UI Editor to change what guests see on every screen, from the start button to sharing.
 
 ## Earn
 

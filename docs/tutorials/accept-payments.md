@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Accept Payments at the Booth
-description: Connect a payment gateway, set what a photo session costs at one booth, and take the first QR or card payment on the kiosk.
+description: Connect a payment gateway, set what a photo session costs at one booth, and take the first QR or card payment on the booth.
 tags: [tutorials, payments, pricing, payment-gateway]
 ---
 
@@ -48,7 +48,7 @@ No merchant account yet, or unsure where each key lives on the provider's dashbo
 
 ## Step 3: Set Prices on the Booth
 
-1. Open **Booths**, click **Configure** on the booth, then the **Pricing** tab. Turn **Payment on this booth** ON. The preview on the left shows the kiosk's payment screen as you edit.
+1. Open **Booths**, click **Configure** on the booth, then the **Pricing** tab. Turn **Payment on this booth** ON. The preview on the left shows the booth's payment screen as you edit.
 
    ![Booth Pricing tab, full page, with the Payment on this booth switch, live preview and Price & packages](/img/docs/steps/tutorials-accept-payments--booth-pricing-full.webp)
 
@@ -62,7 +62,7 @@ No merchant account yet, or unsure where each key lives on the provider's dashbo
    ![Pricing sub-tab Tax & fees: Tax, Charge to, Fees and + Add fee](/img/docs/steps/tutorials-accept-payments--booth-pricing-tax-fees.webp)
 
 :::note
-Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the guest. Set **Prints included** to 1 and **Print format** to **2 inch cut**; the kiosk then shows "2 prints". Setting the count to 2 prints two sheets.
+Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the guest. Set **Prints included** to 1 and **Print format** to **2 inch cut**; the booth then shows "2 prints". Setting the count to 2 prints two sheets.
 :::
 
 ## Step 4: Use a Different Gateway on One Booth (Optional)
@@ -73,10 +73,10 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 ## Step 5: What the Guest Sees
 
-1. After the Start screen (and the Tutorial, if enabled), the kiosk shows the **Payment** screen with the price and, if you sell packages, a package picker with the print counts, subtotal, fees and tax.
+1. After the Start screen (and the Tutorial, if enabled), the booth shows the **Payment** screen with the price and, if you sell packages, a package picker with the print counts, subtotal, fees and tax.
 2. With a QRIS gateway, a QR code appears with the amount and a countdown. The guest scans it with any wallet app and pays on their phone.
 3. With Stripe, the QR opens a Stripe checkout page on the guest's phone, where they pay by card.
-4. Once the gateway confirms the payment, the kiosk shows the **Payment Success** screen for a few seconds (tap anywhere to continue) and moves on to template selection. Coin and card readers connected to the booth use the same screen through the **Coin** and **Card** steps.
+4. Once the gateway confirms the payment, the booth shows the **Payment Success** screen for a few seconds (tap anywhere to continue) and moves on to template selection. Coin and card readers connected to the booth use the same screen through the **Coin** and **Card** steps.
 
 ## Step 6: Find the Money
 
@@ -97,14 +97,14 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 ## Check It Worked
 
 - Start a session on the booth. The Payment screen shows your price and a QR code.
-- Pay with your own phone (or a Free Session voucher). The kiosk shows **Payment Success** and continues to templates.
+- Pay with your own phone (or a Free Session voucher). The booth shows **Payment Success** and continues to templates.
 - The session appears as a row in **Transactions**, and the real payment appears in your gateway's own dashboard.
 
 ## Troubleshooting
 
 | What you see | What to check |
 |---|---|
-| The kiosk never shows a Payment screen | The computer is on Pix Starter (watermarked), **Payment on this booth** is OFF, or the Payment Screen has **Enabled in session flow** unticked in the booth's UI project (**Pix Design > UI Editor**). |
+| The booth never shows a Payment screen | The computer is on Pix Starter (watermarked), **Payment on this booth** is OFF, or the Payment Screen has **Enabled in session flow** unticked in the booth's UI project (**Pix Design > UI Editor**). |
 | "Enter a price, or switch payment off above" when saving | The session price must be above 0. Free sessions are the switch at the top of the Pricing tab, never a price of 0. |
 | Stripe charges succeed but nothing pays out | The saved key is an `sk_test_` key. Paste the live `sk_live_` key, save, and run the test charge again. |
 | The QR tile stays blank while the countdown runs | The booth could not download the QR image. Check the booth's internet connection and start the payment again. |

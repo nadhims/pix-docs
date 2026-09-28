@@ -12,7 +12,7 @@ Prefer watching over reading? There is a full setup walkthrough on YouTube:
 **The Complete Photobooth Software Setup (BEGINNER)**
 https://www.youtube.com/watch?v=GFzLVmP7ny4
 
-It covers the same ground as this Getting Started section end to end: account creation, installing the Pix Desktop App, setting up your first booth, designing templates and the kiosk screens, connecting a payment gateway, and running your first photo session. It is a good option for operators who would rather follow along visually than read.
+It covers the same ground as this Getting Started section end to end: account creation, installing the Pix Desktop App, setting up your first booth, designing templates and the booth screens, connecting a payment gateway, and running your first photo session. It is a good option for operators who would rather follow along visually than read.
 
 ## Chapters (jump straight to a topic)
 

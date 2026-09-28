@@ -11,7 +11,7 @@ Venue internet is the least reliable part of a booth, so the Pix Desktop App is 
 
 ## During a Session
 
-Nothing stops. Capture, review, filters and printing run entirely on the booth, and the kiosk design, templates and branding are cached on the computer, so the booth runs with its last synced setup. Every photo is saved locally first and placed in the upload queue. On the Sharing screen the QR code still appears; if nothing has uploaded after 15 seconds the guest reads "No connection — your photos will appear at this link once the booth reconnects." The link works as soon as the booth catches up.
+Nothing stops. Capture, review, filters and printing run entirely on the booth, and the booth's screen design, templates and branding are cached on the computer, so the booth runs with its last synced setup. Every photo is saved locally first and placed in the upload queue. On the Sharing screen the QR code still appears; if nothing has uploaded after 15 seconds the guest reads "No connection — your photos will appear at this link once the booth reconnects." The link works as soon as the booth catches up.
 
 ## The Upload Queue
 
@@ -54,7 +54,7 @@ The booth does not phone home to stay licensed. If a pass, trial or subscription
 The booth sends a heartbeat every 5 minutes while idle. The dashboard's Health page, Booths list and booth page show the booth as **Offline** once 12 minutes have passed without one. A short outage will not flip the status; a booth showing Offline has been out of touch for a while.
 
 :::tip
-For a venue you know has no internet, launch the app and run one test session while online first. That caches the kiosk design and templates so the booth is ready when you arrive.
+For a venue you know has no internet, launch the app and run one test session while online first. That caches the booth's screen design and templates so the booth is ready when you arrive.
 :::
 
 ## Related

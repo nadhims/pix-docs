@@ -1,13 +1,13 @@
 ---
 sidebar_position: 5
 title: UI Editor
-description: Design every kiosk screen in a UI project, from the Start Screen to Sharing, set the session behaviour that goes with each page, and put the design on your booths.
-tags: [dashboard, pix-design, ui-editor, kiosk]
+description: Design every booth screen in a UI project, from the Start Screen to Sharing, set the session behaviour that goes with each page, and put the design on your booths.
+tags: [dashboard, pix-design, ui-editor, booth]
 ---
 
 # UI Editor
 
-The **UI Editor** is where you design what guests see on the kiosk. A design is a **UI project**: every screen of the photo session, the blocks on each screen (buttons, text, live view, template cards, QR code) and the page settings that drive the booth, such as what starts a session and how long it lasts. Each booth runs one UI project, and events can pin their own. By the end of this page you will know the editor's layout, what each page does on the booth, and how to save and assign a project.
+The **UI Editor** is where you design what guests see on the booth. A design is a **UI project**: every screen of the photo session, the blocks on each screen (buttons, text, live view, template cards, QR code) and the page settings that drive the booth, such as what starts a session and how long it lasts. Each booth runs one UI project, and events can pin their own. By the end of this page you will know the editor's layout, what each page does on the booth, and how to save and assign a project.
 
 ## The UI Projects List
 
@@ -29,7 +29,7 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
    ![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/pix-design-new-ui-project-modal.webp)
 
 2. Enter a **Project Name**.
-3. Choose the **Orientation**: **Landscape** (1920 x 1080) or **Portrait** (1080 x 1920). Match the kiosk's screen.
+3. Choose the **Orientation**: **Landscape** (1920 x 1080) or **Portrait** (1080 x 1920). Match the booth's screen.
 4. Choose a **Booth mode**. It sets the pages the project has and the flow the booth runs:
 
    | Booth mode | Flow on the booth |
@@ -49,7 +49,7 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
 - **Header.** The project name and where it is used ("Unused" or "N booths").
 - **Page tabs.** Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Filter, Sharing. Studio projects add Assign photos.
 - **Toolbar.** **Fit**, zoom and **1:1**; **Snap**; undo and redo; a "Saved" state; **Preview**; **Save**.
-- **Canvas.** The screen at kiosk resolution. Drag a block to move it, drag its corners to resize it.
+- **Canvas.** The screen at booth resolution. Drag a block to move it, drag its corners to resize it.
 - **Block palette.** A floating bar at the bottom of the canvas adds blocks to the current page.
 - **Right rail.** **Page Background** first (Type: **Solid Color**, **Image**, **Gradient**, or **Video** on the Start Screen only), then the page's own settings, then the selected block's properties.
 - **Layers.** The stacking order of the page's blocks, at the bottom of the rail.
@@ -101,7 +101,7 @@ The shooting screen, and the page whose settings change the booth's behaviour mo
 - **Session Time**: the length of the session from the first capture, and what happens when it runs out. It runs whether or not you place a **Session Timer** block; the block only displays it. A **Photo Counter** block shows "n of N".
 - **Preview Cards**: one square card per template slot, numbered while empty, filled as shots land, the current slot ringed; the row scrolls on templates with many slots.
 
-A remote plugged into the kiosk follows the Start Screen's session triggers: Space, S, Page Up, Page Down or F13 take the shot.
+A remote plugged into the booth follows the Start Screen's session triggers: Space, S, Page Up, Page Down or F13 take the shot.
 
 ### Review
 
@@ -148,13 +148,13 @@ Three places:
 1. **Assign to booths** on the project's card menu: tick booths or **All booths**, then **Apply**.
 2. **Booths > booth > UI Project** tab: the dropdown groups projects under **Photobooth mode**, **Studio mode** and **Simple mode**. Pick one and click **Save**. The tab warns when Studio needs a newer app.
 
-   ![Booth UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/booth-ui-project-tab.webp)
+   ![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/booth-ui-project-tab.webp)
 
 3. **Events > event > Setup > Kiosk UI > Manage UI Project**: keep the booth's own UI project or pin one for the event. While the event runs, its choice wins.
 
 ## Related
 
-- [Customise kiosk screens](../../tutorials/customise-kiosk-screens.md)
+- [Customise booth screens](../../tutorials/customise-kiosk-screens.md)
 - [Session flow on the booth](../../desktop-app/session-flow/overview.md)
 - [Booth Pricing](../booth-pricing.md)
 - [Photo Filters and Overlays](./filters-and-overlays.md)

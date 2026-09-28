@@ -62,7 +62,7 @@ You are retiring a booth computer and want its Pix Pro on the replacement. Nothi
 
 3. Pair the new computer (Step 2). If it is already paired and Blocked, just leave the Pix Desktop App running: the next computer that checks in takes the place.
 
-Two other actions free the place as well: logging the kiosk out (operator menu > **Logout**) and **Unlink** on the booth's **Device** tab. Both return Pix Pro, or the free trial, to the pool, and the next computer to check in takes it. A Day Pass does not move; see Step 4.
+Two other actions free the place as well: logging the booth out (operator menu > **Logout**) and **Unlink** on the booth's **Device** tab. Both return Pix Pro, or the free trial, to the pool, and the next computer to check in takes it. A Day Pass does not move; see Step 4.
 
 :::caution The place goes to whoever checks in first
 If several Blocked computers are online, the first one to connect after you deactivate takes the freed place. Deactivate while only the intended computer is running the Pix Desktop App.
@@ -77,12 +77,12 @@ A Day Pass is Pix Pro on one computer for 24 hours from the moment you use it: $
 ![Buy passes flow opened from the Passes card](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-buy-passes.webp)
 
 2. On the day, at the booth: open the operator menu (tap the top-right corner twice within 3 seconds and enter the PIN if one is set) and tap **Use a pass on this device**. The button appears only while the computer has no Pix Pro. The booth must be online at that moment.
-3. The operator menu badge now reads **Pass until** a time. The kiosk warns on its idle screen 60 and 15 minutes before the pass ends; when it ends, a popup names what ended and guests see "Please call the operator."
+3. The operator menu badge now reads **Pass until** a time. The booth warns on its idle screen 60 and 15 minutes before the pass ends; when it ends, a popup names what ended and guests see "Please call the operator."
 
 Rules that only apply to passes:
 
 - A pass is used from the booth, never from the dashboard.
-- A pass ends where it started. **Deactivate** on a computer running a pass ends the pass; it cannot be moved or used again. Logging the kiosk out leaves the pass on that computer.
+- A pass ends where it started. **Deactivate** on a computer running a pass ends the pass; it cannot be moved or used again. Logging the booth out leaves the pass on that computer.
 - A computer paired while you hold unspent passes stays **Blocked** until a pass is used on it. Pixture never spends a pass for you, since that would start the 24 hours without asking.
 
 ## Step 5: On Pix Starter
@@ -94,15 +94,15 @@ Pix Starter has no subscription. **Licenses** reads "No devices yet", one comput
 ## Before Pix Pro Ends
 
 - A subscription that will not renew warns 7 days and 1 day ahead by email and a dashboard banner, and the booth page badge shows the end date (**Pix Pro until** a date).
-- A failed renewal charge sends an email and shows a banner at once. The **LICENSE** column reads **Pix Pro, payment failed** and the kiosk shows a payment-failed banner. You have 3 days to fix the card under **Settings > Pixture billing** before the computer is Blocked.
-- A Day Pass or the free trial warns on the kiosk idle screen 60 and 15 minutes before the end.
+- A failed renewal charge sends an email and shows a banner at once. The **LICENSE** column reads **Pix Pro, payment failed** and the booth shows a payment-failed banner. You have 3 days to fix the card under **Settings > Pixture billing** before the computer is Blocked.
+- A Day Pass or the free trial warns on the booth idle screen 60 and 15 minutes before the end.
 - When the last place ends, the account returns to Pix Starter, watermarked.
 
 ## Check It Worked
 
 - The **Devices** card counts the new computer, and its row under **Active devices** shows **Pix Pro** with today's **FIRST SEEN** date.
 - **Booths** shows **Pix Pro** under **PLAN** for that booth.
-- The kiosk operator menu badge reads **Pix Pro**, and a test session has no watermark.
+- The booth operator menu badge reads **Pix Pro**, and a test session has no watermark.
 
 ## Troubleshooting
 
@@ -113,7 +113,7 @@ Pix Starter has no subscription. **Licenses** reads "No devices yet", one comput
 | Deactivate freed a place but the new computer is still Blocked | It has not checked in yet, or another computer took the place | Make sure the Pix Desktop App is running and online; check **Active devices** |
 | A pass disappeared after Deactivate | Deactivate ends a pass | Buy another pass; deactivate only subscription computers you mean to move |
 | **LICENSE** reads **Pix Pro, payment failed** | The renewal charge failed | Update the card under **Settings > Pixture billing** within 3 days |
-| Kiosk badge reads "Pix Pro ended, reconnect to check" | The computer was offline when its period ended | Reconnect it; the kiosk checks again |
+| Booth badge reads "Pix Pro ended, reconnect to check" | The computer was offline when its period ended | Reconnect it; the booth checks again |
 
 ## Related
 

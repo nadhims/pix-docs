@@ -46,7 +46,7 @@ The app opens full screen on the login screen. You have two ways in:
 
 1. In the dashboard, open **Booths**, pick the booth, open its **Device** tab and click **Generate code**.
 2. Type the 6-digit code into the pairing screen on the booth.
-3. The booth downloads its kiosk design, templates and pricing, and shows the Start screen.
+3. The booth downloads its screen design, templates and pricing, and shows the Start screen.
 
 Pairing links this computer to that booth. The full walkthrough is in [Pair Your First Booth](../getting-started/pair-your-first-booth.md).
 

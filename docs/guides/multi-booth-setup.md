@@ -7,7 +7,7 @@ tags: [guides, multi-booth, management]
 
 # Multi-Booth Setup
 
-One Pixture account can run any number of booths. Each booth is a free profile with its own templates, kiosk design, pricing and history. When several booths work together at one venue, a **Multi-Booth** group lets you set them up once, share one queue and sell sessions from one cashier. At the end you have a group of booths that share settings, each paired to its own computer with its own Pix Pro.
+One Pixture account can run any number of booths. Each booth is a free profile with its own templates, screen design, pricing and history. When several booths work together at one venue, a **Multi-Booth** group lets you set them up once, share one queue and sell sessions from one cashier. At the end you have a group of booths that share settings, each paired to its own computer with its own Pix Pro.
 
 ## Before you start
 
@@ -30,7 +30,7 @@ Open the group from the Booths list. It has six tabs.
 
 1. **Photo Booths**: the booths in the group and their status.
 2. **Templates**: pick the templates every booth in the group offers.
-3. **UI Project**: pick the kiosk design for the group.
+3. **UI Project**: pick the booth's screen design for the group.
 4. **Queue**: tap **Set up shared queue** to run one queue for the whole group, then **Open TV view** to show it on a screen at the venue.
 5. **Cashier**: see the next step.
 6. **Settings**: the pricing form, the same as a single booth's Pricing tab.
@@ -41,14 +41,14 @@ Tap **Save for all booths** to push the tabs' settings to every booth in the gro
 
 On the **Cashier** tab, **How guests pay** has two options.
 
-- **Pay at the booth**: each kiosk shows its own Payment screen, as a single booth does.
-- **Central cashier**: guests pay one person at a counter and receive a code. Add what the cashier sells under **Products** with **Add product**. Each sale produces an 8-character group code that works at any booth in the group. On a Central Cashier booth the kiosk opens the Payment screen straight on the code step, and the code box accepts codes of 6 to 8 characters.
+- **Pay at the booth**: each booth shows its own Payment screen, as a single booth does.
+- **Central cashier**: guests pay one person at a counter and receive a code. Add what the cashier sells under **Products** with **Add product**. Each sale produces an 8-character group code that works at any booth in the group. On a Central Cashier booth the booth opens the Payment screen straight on the code step, and the code box accepts codes of 6 to 8 characters.
 
 ## Step 4: Pair one computer per booth
 
 1. Open each booth from the group's **Photo Booths** tab and go to its **Device** tab.
 2. Tap **Generate code**, then enter the code in the Pix Desktop App on that booth's computer.
-3. Check the licence badge in the kiosk's operator menu. It should read **Pix Pro** or **Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Licenses > Add more devices**, or use a pass on it.
+3. Check the licence badge in the booth's operator menu. It should read **Pix Pro** or **Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Licenses > Add more devices**, or use a pass on it.
 
 ## Regions for many locations
 

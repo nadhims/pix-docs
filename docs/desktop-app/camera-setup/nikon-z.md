@@ -7,7 +7,7 @@ tags: [desktop-app, camera, nikon]
 
 # Nikon Z Camera Setup
 
-The Pix Desktop App drives Nikon Z mirrorless bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the kiosk's **Camera Settings** page. By the end of this page your Nikon is connected and ready for a full day.
+The Pix Desktop App drives Nikon Z mirrorless bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page. By the end of this page your Nikon is connected and ready for a full day.
 
 ## Supported Models
 

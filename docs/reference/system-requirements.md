@@ -9,7 +9,7 @@ tags: [reference, requirements, hardware]
 
 ## Pix Desktop App
 
-The Pix Desktop App is the kiosk application. It runs on macOS and Windows. The current version is 1.1.115.
+The Pix Desktop App is the booth application. It runs on macOS and Windows. The current version is 1.1.115.
 
 ### Operating system
 
@@ -26,12 +26,12 @@ The Pix Desktop App is the kiosk application. It runs on macOS and Windows. The 
 | Processor (Windows) | Core i3 / Ryzen 3 | Core i5 / Ryzen 5 or better |
 | RAM | 8 GB | 16 GB |
 | Graphics | Integrated (UHD / Radeon / Apple) | Dedicated GPU or Apple Silicon |
-| Storage | 3 GB free (the kiosk warns below this and cleans up below 1 GB) | More, for photos and cache |
+| Storage | 3 GB free (the booth warns below this and cleans up below 1 GB) | More, for photos and cache |
 | Display | 1280 x 720 | 1080p or higher touchscreen |
 | USB | USB 2.0 port for the camera | USB 3.0 for faster tethering |
 
 :::tip
-For kiosk use, a touchscreen is strongly recommended. The Pix Desktop App is designed as a kiosk where guests interact directly with the screen.
+For booth use, a touchscreen is strongly recommended. The Pix Desktop App is designed as a booth where guests interact directly with the screen.
 :::
 
 Apple Silicon Macs run the app natively from version 1.1.115, which bundles its own video tools for live photos, filters and GIFs. Rosetta is not needed.
@@ -43,7 +43,7 @@ Apple Silicon Macs run the app natively from version 1.1.115, which bundles its 
 - Minimum recommended speed: 5 Mbps upload for smooth photo syncing between photo sessions.
 
 :::caution
-The share page (QR code sharing) needs the booth to upload. If a venue's Wi-Fi is unreliable, bring a phone hotspot as a backup; the kiosk keeps capturing and printing in the meantime.
+The share page (QR code sharing) needs the booth to upload. If a venue's Wi-Fi is unreliable, bring a phone hotspot as a backup; the booth keeps capturing and printing in the meantime.
 :::
 
 ### Camera

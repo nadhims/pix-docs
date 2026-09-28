@@ -7,7 +7,7 @@ tags: [getting-started, dashboard, mobile]
 
 # Know Your Way Around the Dashboard
 
-The Pixture dashboard is a website at [pixture.io](https://pixture.io). Nothing to install: it works in any desktop or mobile browser, so you can check revenue, swap templates or pair a booth from your phone while standing next to the kiosk. By the end of this page you know what each sidebar item is for and where the small controls live.
+The Pixture dashboard is a website at [pixture.io](https://pixture.io). Nothing to install: it works in any desktop or mobile browser, so you can check revenue, swap templates or pair a booth from your phone while standing next to the booth. By the end of this page you know what each sidebar item is for and where the small controls live.
 
 ## Log In
 
@@ -26,7 +26,7 @@ Every page of the dashboard is one click away in the left sidebar. Owners and ad
 |---|---|
 | **Dashboard** | Revenue, photo sessions, session completion, peak day, prints, vouchers, template usage, top booth revenue and a health summary, for the period you pick |
 | **Events** | Dated setups such as weddings and expos, each with its own booths, pricing, template pack and public album |
-| **Booths** | One entry per kiosk. Open a booth for its Templates, Filters, UI Project, Pricing, Activity Log, Device and Settings tabs |
+| **Booths** | One entry per booth. Open a booth for its Templates, Filters, UI Project, Pricing, Activity Log, Device and Settings tabs |
 | **Transactions** | Every paid photo session, with search, booth and date filters, an Excel export and a sync with your payment gateway |
 | **Vouchers** | Free, percentage or fixed-amount codes, single or in batches, plus the **Online shop link** |
 | **Marketing Studio** | Pix Pro only: marketing consent, audience, bonus sessions, Frame Lab, campaigns and performance |

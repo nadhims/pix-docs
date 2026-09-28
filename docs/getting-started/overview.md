@@ -9,7 +9,7 @@ tags: [getting-started, quickstart]
 
 By the end of this section you have a Pixture account, the Pix Desktop App running on a booth computer that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
 
-New to words like kiosk, booth, template or microsite? Read [How Pixture Works](./how-pixture-works.md) first; it takes five minutes.
+New to words like booth, template, UI project or microsite? Read [How Pixture Works](./how-pixture-works.md) first; it takes five minutes.
 
 ## The Fifteen-Minute Path
 
@@ -31,7 +31,7 @@ Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same
 
 ## What Is Free
 
-**Pix Starter** costs nothing and has no time limit. It runs the Pix Desktop App on **one computer**, with the Pixture watermark on every photo, print, GIF and video, and a new account comes with two ready-made print templates and the default kiosk design, so a booth works minutes after pairing. What else Pix Starter includes, and what Pix Pro adds, is on [Choose Your Plan](./choose-plan.md).
+**Pix Starter** costs nothing and has no time limit. It runs the Pix Desktop App on **one computer**, with the Pixture watermark on every photo, print, GIF and video, and a new account comes with two ready-made print templates and the default screen design, so a booth works minutes after pairing. What else Pix Starter includes, and what Pix Pro adds, is on [Choose Your Plan](./choose-plan.md).
 
 Every account can also claim one free **3-day Pix Pro trial** on one computer, with no card. See [Choose Your Plan](./choose-plan.md).
 

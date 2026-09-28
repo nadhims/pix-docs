@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Camera Settings
-description: Every control on the kiosk's Camera Settings page, from live view aids and camera exposure for Canon, Sony, Nikon and Fujifilm to digital zoom, rotation and hand sign detection.
+description: Every control on the booth's Camera Settings page, from live view aids and camera exposure for Canon, Sony, Nikon and Fujifilm to digital zoom, rotation and hand sign detection.
 tags: [desktop-app, camera, settings, exposure]
 ---
 

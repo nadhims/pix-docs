@@ -67,7 +67,7 @@ A few things worth knowing on day one:
 - **One account, one organisation.** Signing up creates one organisation for your business. Everything you make, booths, templates, events and transactions, belongs to it.
 - **Staff do not sign up separately.** Invite them from **Settings > Members > + Invite** with an email address and a role. They accept the invitation by email and join your organisation.
 - **Booths are free.** Create as many as you like under **Booths**. What you pay for later is Pix Pro on the computers that run them.
-- **The account starts on Pix Starter.** One computer, watermarked output, two ready-made templates and the default kiosk design. See [Choose Your Plan](./choose-plan.md).
+- **The account starts on Pix Starter.** One computer, watermarked output, two ready-made templates and the default screen design. See [Choose Your Plan](./choose-plan.md).
 
 ## Related
 

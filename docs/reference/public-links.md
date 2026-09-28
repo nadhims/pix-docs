@@ -15,7 +15,7 @@ Pixture puts a few pages on the open web for your guests and clients. This page 
 
 What the guest sees: their photos, GIF and live photo from that session, with your branding from **Pix Design > Microsite**. On Pix Starter the photos carry the Pixture watermark.
 
-Where it comes from: the QR code on the kiosk's **Sharing** screen, and the QR printed on the sheet if the template has a QR code slot. The page fills as the booth uploads; during a network drop the QR still shows and the photos appear at the link once the booth reconnects.
+Where it comes from: the QR code on the booth's **Sharing** screen, and the QR printed on the sheet if the template has a QR code slot. The page fills as the booth uploads; during a network drop the QR still shows and the photos appear at the link once the booth reconnects.
 
 Photos stay available until you delete them in the dashboard's **Gallery**. Deleted photos are removed for good after 30 days.
 
@@ -23,7 +23,7 @@ Photos stay available until you delete them in the dashboard's **Gallery**. Dele
 
 **`pixture.io/s/{code}/ai`**, available to beta accounts.
 
-What the guest sees: a shop on their share page where they buy an AI portrait made from their session photos, as a digital file or as a print picked up at the booth. A print purchase gives a 7-character pickup code that the guest types into the voucher box on the kiosk's Payment screen (Pix Desktop App 1.1.110 or newer).
+What the guest sees: a shop on their share page where they buy an AI portrait made from their session photos, as a digital file or as a print picked up at the booth. A print purchase gives a 7-character pickup code that the guest types into the voucher box on the booth's Payment screen (Pix Desktop App 1.1.110 or newer).
 
 Where it is turned on: open the booth, go to the **Pricing** tab and, under **AI portrait on the share page**, switch on **Sell AI portraits on the share page** and set the price. **Offer a print at this booth** adds the print option.
 
@@ -39,7 +39,7 @@ Where it is turned on: open the event in **Events** and switch **Link Sharing** 
 
 **`pixture.io/voucher/{slug}?booth=...`**, one per booth.
 
-What the customer sees: the booth's packages (Single, Double, Group, additional sessions) at the prices from its Pricing tab, paid on their phone. They receive a 7-character code that the kiosk redeems even when it is offline.
+What the customer sees: the booth's packages (Single, Double, Group, additional sessions) at the prices from its Pricing tab, paid on their phone. They receive a 7-character code that the booth redeems even when it is offline.
 
 Where it comes from: the **Sell online** button on any row of the **Booths** list (link and a QR PNG), the **Sell sessions online** card on the booth's **Pricing** tab, or **Online shop link** on the **Vouchers** page. Needs Pix Desktop App 1.1.101 or newer on the booth.
 
@@ -54,7 +54,7 @@ Where it comes from: **Marketing Studio > Frame Lab** shows the shared **Guest u
 | Page | Address | What it is |
 |---|---|---|
 | Pixture dashboard | `pixture.io` | Sign in to set up booths, design, watch health and manage billing |
-| Licenses shortcut | `pixture.io/licenses` | Opens your Licenses page. The kiosk shows it as a QR code under **Manage devices** when Pix Pro or a pass ends on that computer |
+| Licenses shortcut | `pixture.io/licenses` | Opens your Licenses page. The booth shows it as a QR code under **Manage devices** when Pix Pro or a pass ends on that computer |
 | Documentation | `docs.pixture.io` | These pages |
 | Download | The **Download** link on pixture.io | The Pix Desktop App for macOS and Windows |
 

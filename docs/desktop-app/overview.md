@@ -7,7 +7,7 @@ tags: [desktop-app, overview, getting-started]
 
 # Pix Desktop App Overview
 
-The Pix Desktop App is the kiosk software that turns a Mac or Windows computer into a photobooth. It runs full screen, drives your camera and printer, walks the guest through a photo session and hands over the result as a print and a QR code. This page tells you what the app does, what has changed recently, what it needs to run, and how it fits together with the Pixture dashboard.
+The Pix Desktop App is the booth software that turns a Mac or Windows computer into a photobooth. It runs full screen, drives your camera and printer, walks the guest through a photo session and hands over the result as a print and a QR code. This page tells you what the app does, what has changed recently, what it needs to run, and how it fits together with the Pixture dashboard.
 
 ## What It Does
 
@@ -50,7 +50,7 @@ A touchscreen is not required, but guests tap the screen all the way through a s
 
 The app is the booth. The Pixture dashboard at pixture.io is where you design and manage it:
 
-- **Pix Design** holds your print templates, the kiosk screens (UI projects), photo filters and GIF overlays. Save there and the booth picks the change up on its next check-in, usually within seconds.
+- **Pix Design** holds your print templates, the booth screens (UI projects), photo filters and GIF overlays. Save there and the booth picks the change up on its next check-in, usually within seconds.
 - **Booths** holds each booth's pricing, assigned templates and filters, output switches (singles, GIF, live photo, print) and the operator menu PIN.
 - **Events** switches booths into video or 360 slow-mo capture and gives them event templates for the day.
 - **Licenses** is where Pix Pro, Day Passes and the free trial are put on computers and moved between them.
@@ -61,7 +61,7 @@ The booth itself keeps only what belongs to the hardware: camera, printer, hardw
 
 - **Pix Starter** (free): one computer, and every photo, print, GIF and video carries the Pixture watermark.
 - **Day Pass**: full Pix Pro on one computer for 24 hours, $5 or Rp 85.000 per computer per day.
-- **Pix Pro** Monthly ($40 or Rp 850.000) or Yearly ($300 per year): clean output, unlimited templates and kiosk designs, per computer.
+- **Pix Pro** Monthly ($40 or Rp 850.000) or Yearly ($300 per year): clean output, unlimited templates and screen designs, per computer.
 
 See [Plans](../pricing/plans.md) for the full comparison.
 

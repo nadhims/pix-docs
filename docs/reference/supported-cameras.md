@@ -7,7 +7,7 @@ tags: [reference, cameras, hardware]
 
 # Supported Cameras
 
-The Pix Desktop App captures photos with a camera body connected by USB, on Mac and Windows. It controls the camera directly, so the live view appears on the booth screen and exposure settings such as aperture, shutter speed and ISO are controlled from the kiosk's **Camera Settings** page.
+The Pix Desktop App captures photos with a camera body connected by USB, on Mac and Windows. It controls the camera directly, so the live view appears on the booth screen and exposure settings such as aperture, shutter speed and ISO are controlled from the booth's **Camera Settings** page.
 
 | Brand | Supported bodies | Setup |
 |---|---|---|
@@ -68,11 +68,11 @@ Most Canon EOS models with USB tethering should work, even if not listed above. 
 - Use the USB cable that came with your camera, or a high-quality replacement.
 - Connect the camera directly to the computer's USB port. Avoid hubs when possible; they can introduce connection instability.
 - USB 3.0 or faster is recommended for quicker image transfer.
-- Set the camera to a manual-capable mode (**M**, **Av** or **Tv** on a Canon, **M**, **A** or **S** on a Sony or Nikon) so the kiosk can control exposure. Focus mode is set on the body.
+- Set the camera to a manual-capable mode (**M**, **Av** or **Tv** on a Canon, **M**, **A** or **S** on a Sony or Nikon) so the booth can control exposure. Focus mode is set on the body.
 - Some bodies need a USB mode: **PC Remote** on a Sony, **USB TETHER SHOOTING AUTO** on a Fujifilm. Sony on Windows also needs a one-time driver install. See each brand's setup page.
-- Quit the maker's own tethering software (Canon EOS Utility, Sony Imaging Edge, Nikon NX Tether, Fujifilm X Acquire) and Lightroom before launching the kiosk. Only one application can control the camera over USB at a time.
+- Quit the maker's own tethering software (Canon EOS Utility, Sony Imaging Edge, Nikon NX Tether, Fujifilm X Acquire) and Lightroom before launching the booth. Only one application can control the camera over USB at a time.
 
-If the camera disconnects mid-session, the kiosk reconnects on its own. Capture waits on "Camera is warming up" and, if the camera does not respond within 30 seconds, ends the session and returns to the start screen.
+If the camera disconnects mid-session, the booth reconnects on its own. Capture waits on "Camera is warming up" and, if the camera does not respond within 30 seconds, ends the session and returns to the start screen.
 
 ## Sideways and upside-down mounts
 
@@ -85,7 +85,7 @@ The live view, the crop guide and the captured photo all follow the rotation.
 
 ## Webcam fallback
 
-Without a supported camera body, the kiosk can use any built-in or external webcam, or a virtual camera such as OBS Virtual Camera on macOS. This is useful for testing your booth layout and flow before opening to guests, or for a lower-cost setup where DSLR quality is not required.
+Without a supported camera body, the booth can use any built-in or external webcam, or a virtual camera such as OBS Virtual Camera on macOS. This is useful for testing your booth layout and flow before opening to guests, or for a lower-cost setup where DSLR quality is not required.
 
 1. Open the operator menu and tap **Camera Settings**.
 2. Under **CAMERA DEVICE**, pick the webcam instead of **Auto-detect**, and tap **Set as Default**.

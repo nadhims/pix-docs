@@ -13,7 +13,7 @@ The Home screen is what the booth shows while it waits for the next guest: your 
 
 The Home screen is the **Start Screen** tab of the booth's UI project in the Pix Design UI Editor. Set a **Page Background** (solid colour, image, gradient or, on this page only, a video), then add your logo, text and a **Start Button** block. Save, and the booth picks the change up on its next check-in, usually within seconds, with no restart. See [UI Editor](../../dashboard/pix-design/ui-editor.md).
 
-A large, centred start prompt works best in a kiosk; guests should understand in one glance that the screen is for them.
+A large, centred start prompt works best in a booth; guests should understand in one glance that the screen is for them.
 
 ## What Starts a Session
 

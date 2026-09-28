@@ -13,12 +13,12 @@ Allow about 30 minutes for a keystroke setup once the hardware is wired, longer 
 
 ## Before You Start
 
-- **Pix Pro on the booth computer.** On Pix Starter the kiosk skips the Payment screen, so nothing can be charged.
+- **Pix Pro on the booth computer.** On Pix Starter the booth skips the Payment screen, so nothing can be charged.
 - **Pix Desktop App 1.1.87 or newer**, so that hardware payments are recorded as revenue.
 - **The booth's Pricing tab set:** **Payment on this booth** on and a **Session price** (see [Booth Pricing](../dashboard/booth-pricing.md)). A cash system that starts the session records it at this price.
 - **The hardware wired to the booth computer and configured on its own side:** coin values, the price, pulse or keystroke output. The CASH-Interface2 board needs its own 12 V supply; always unplug it before you connect an acceptor.
 - **A Stripe gateway** if you use a Stripe Terminal reader; see [Create a Payment Gateway](./create-a-payment-gateway.md).
-- The kiosk pages in this tutorial have no screenshots; they are described in words.
+- The booth pages in this tutorial have no screenshots; they are described in words.
 
 ## Pick Your Setup
 
@@ -36,7 +36,7 @@ Which one fits your business is covered in [Payment Setups by Use Case](./paymen
 
 ## The Payment Screen's Methods
 
-Every setup except the start-gate goes through the kiosk's Payment screen, and what that screen offers is set in the UI Editor.
+Every setup except the start-gate goes through the booth's Payment screen, and what that screen offers is set in the UI Editor.
 
 1. Open **Pix Design > UI Editor**, open the booth's project and click the **Payment Screen** tab.
 2. Under **Payment Methods**, turn on the methods the booth takes: **QR Pay** (the gateway), **Debit/Credit Card** (a card reader: it shows a tap-to-pay popup until the reader confirms), **Coin Acceptor** (it shows an insert-coins popup until enough is in) and **Voucher**. The last method on cannot be turned off.
@@ -53,7 +53,7 @@ Guests tap or insert a card on a reader at the booth. The payment goes through y
 2. Register the reader in the Stripe Dashboard under **Terminal** and connect it to the booth's Wi-Fi.
 3. On the Stripe gateway card under **Settings > Payment Gateway**, open **Card readers (Stripe Terminal)** and pick the reader in the booth's dropdown. It reads **No reader (QR payment)** until you do.
 4. In the UI Editor, turn on **Debit/Credit Card** under Payment Methods and **Save**.
-5. Start a session on the booth, tap the card method, and tap a card on the reader. The kiosk shows **Payment Success** once Stripe confirms.
+5. Start a session on the booth, tap the card method, and tap a card on the reader. The booth shows **Payment Success** once Stripe confirms.
 
 Packages work with this setup: the reader charges whatever amount the guest picked on screen.
 
@@ -125,7 +125,7 @@ The guest picks a package on the booth's Payment screen and pays on the reader o
 1. In the CI2 software, set the receiver name to **Pix - PAYMENT**, turn **Detect partial** and **Use variable price** on, and set the hotkey to **F13**. While the booth waits for a hardware payment its title reads `Pix - PAYMENT #<amount>#` in the currency's smallest unit, so the variable price follows whatever the guest picked.
 2. In the UI Editor, keep the Payment Screen enabled and turn on **Debit/Credit Card** and/or **Coin Acceptor**. **Save**.
 3. On the booth, turn on **Treat F13 as the cash system's paid signal** on the Hardware API page. With the Payment screen on, the page shows the receiver as **Pix - PAYMENT** and reminds you to enable the Card or Coin method.
-4. Test: start a session, pick a package, tap the card or coin method and pay. The popup closes on the F13 and the kiosk shows **Payment Success**.
+4. Test: start a session, pick a package, tap the card or coin method and pay. The popup closes on the F13 and the booth shows **Payment Success**.
 
 :::caution Packages need a reader that charges a variable amount
 Pulse and keystroke setups are often one fixed price. The booth trusts the amount it showed, so a fixed-price reader plus a package reports more revenue than it collected. Confirm variable pricing on your own reader first; with a fixed price, keep packages off and sell the session price only. The **Price & packages** tab says the same.
@@ -222,7 +222,7 @@ For an attended booth where a person takes the cash, a batch of single-use vouch
 
 ![Generate Batch modal with Batch Name, Number of Codes, Discount Type, Value per Code, Max Redemptions per Code, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--vouchers-create-batch.webp)
 
-5. The cashier takes the money and hands over one code. On the booth's Payment screen the guest taps **Voucher** and types it; the kiosk shows **Payment Success** and continues.
+5. The cashier takes the money and hands over one code. On the booth's Payment screen the guest taps **Voucher** and types it; the booth shows **Payment Success** and continues.
 
 Keep **QR Pay** on as well, so guests who would rather pay on their phone still can. For customers who want to pay before they arrive, [Sell Sessions Online](./sell-sessions-online.md) does the same with a link instead of a cashier.
 

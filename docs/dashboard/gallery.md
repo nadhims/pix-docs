@@ -62,5 +62,5 @@ A rehearsal produces real uploads. Filter the Gallery to the booth and the day, 
 
 - [Dashboard Home](./dashboard-home.md)
 - [Marketing Studio](./marketing-studio.md)
-- [Sharing on the kiosk](../desktop-app/session-flow/sharing.md)
+- [Sharing on the booth](../desktop-app/session-flow/sharing.md)
 - [Public Links](../reference/public-links.md)

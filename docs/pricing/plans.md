@@ -17,18 +17,18 @@ Pix Starter is for trying Pixture and for booths that do not charge guests.
 
 - **One computer.** Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
 - **Watermarked output.** Every photo and every print carries the Pixture watermark.
-- **Unlimited booth profiles**, two ready-made print templates and the default kiosk design.
+- **Unlimited booth profiles**, two ready-made print templates and the default screen design.
 - **Pix Design is open to try.** Creating or saving your own designs needs Pix Pro; the dashboard offers **Start free trial** or **Buy Pix Pro** when you try. Marketing Studio needs Pix Pro.
-- **No payment screen.** Every photo session is free and the kiosk skips the Payment screen.
+- **No payment screen.** Every photo session is free and the booth skips the Payment screen.
 
-You do not even need an account to try the kiosk: install the Pix Desktop App and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.
+You do not even need an account to try the booth: install the Pix Desktop App and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.
 
 ## Day Pass, "Pix Pro (1 Day)"
 
 **$5 or Rp 85.000 per computer per day.** Full Pix Pro on one computer for 24 hours from the moment you activate it.
 
 - Buy any quantity. Unspent passes wait in your pool; the **Passes** card on the Licenses page counts them.
-- Use a pass from the kiosk: open the operator menu and tap **Use a pass on this device**. A computer paired while you hold unspent passes stays blocked until you use a pass on it.
+- Use a pass from the booth: open the operator menu and tap **Use a pass on this device**. A computer paired while you hold unspent passes stays blocked until you use a pass on it.
 - A pass ends when the computer is deactivated. It cannot be moved to another computer or used again.
 - Passes never renew.
 
@@ -55,7 +55,7 @@ Adding several devices in one purchase gives a volume discount. Open **Licenses 
 
 Every account can claim one free trial: 3 days of Pix Pro on one computer, no card needed.
 
-1. In the dashboard, tap **Claim free trial** on the "Try Pix Pro free for 3 days" popup, or open it from the bell menu. On the kiosk, the operator menu offers the same.
+1. In the dashboard, tap **Claim free trial** on the "Try Pix Pro free for 3 days" popup, or open it from the bell menu. On the booth, the operator menu offers the same.
 2. Pick the booth. The trial goes on the computer paired to it.
 
 While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Licenses page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.

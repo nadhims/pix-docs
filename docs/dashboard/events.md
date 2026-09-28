@@ -7,7 +7,7 @@ tags: [dashboard, events, album]
 
 # Events
 
-An **event** is a booking pointed at your booths: a set of dates, a client and a venue, with its own pricing, templates, kiosk design and a public album of everything captured. The event runs itself. It is **ONGOING** from the moment you create it, it ends by itself the day after its last date, and its booths follow the dates plus one night of grace, so a party that runs past midnight still counts. There is no Start or End button.
+An **event** is a booking pointed at your booths: a set of dates, a client and a venue, with its own pricing, templates, screen design and a public album of everything captured. The event runs itself. It is **ONGOING** from the moment you create it, it ends by itself the day after its last date, and its booths follow the dates plus one night of grace, so a party that runs past midnight still counts. There is no Start or End button.
 
 ![Events page with one ongoing event card](/img/docs/events-list.webp)
 
@@ -29,9 +29,9 @@ Each event is a card with its cover photo, dates and status. The bar above it ha
 | **Event date**, **End date** | One day or a range |
 | **Start time**, **End time** | The hours shown on the event page |
 | **Booths** | Tick the booths that run this event |
-| **Pay Per Session** | On: guests pay at the kiosk with the **Session price**, **Double session price**, **Group session price** and **Additional session price** you enter here. Off: every session is free, for a hosted wedding or a sponsored booth |
+| **Pay Per Session** | On: guests pay at the booth with the **Session price**, **Double session price**, **Group session price** and **Additional session price** you enter here. Off: every session is free, for a hosted wedding or a sponsored booth |
 | **Payment gateway** | The gateway that takes this event's payments. Leave it on the organization default unless the client needs another |
-| **Kiosk UI** | The kiosk design every booth shows during the event |
+| **Kiosk UI** | The screen design every booth shows during the event |
 | **Templates** | The print templates guests can pick |
 
 ## The Event Page
@@ -60,9 +60,9 @@ Everything captured during the event, newest first, with a booth filter, **Selec
 
 - **Booths.** Each booth on the event with its pairing state, **Pair Booth** (a pairing code for a new computer), **Unlink** and **Remove**. **+ Add booth** opens the Add booths modal: **Add to event** for booths that are ready, **Add devices** for booths whose computer has no Pix Pro yet, and **Create booth** when you need a fresh one.
 - **Booth mode.** **Photo**, **Video** or **360 Slow-mo** (marked SOON). The mode is set per event, so every booth on it records the same way. Video shows its own settings: **Display text before recording**, **Timeline Preset**, clip duration and speed, **Soundtrack**, **Overlay** and a **Preview**. See [Event Video Modes](../desktop-app/event-video-modes.md).
-- **Template.** "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Choose a template** opens the free Pixture template packs, when packs are available: each pack brings its print layouts, a GIF overlay and a matching kiosk look, and **Use this pack** copies all three into the event. **Manage Templates** picks from your own templates; **Image overlay** sets the frame burned into GIFs and videos. The event's template set is exclusive: the booth's own templates are not offered while the event runs.
-- **Kiosk UI.** **Manage UI Project** keeps the booth's own kiosk design or pins one to the event.
-- **Gallery QR.** Shows the album's QR code on the kiosk so guests find their photos. Click **Save** after changing it.
+- **Template.** "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Choose a template** opens the free Pixture template packs, when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look, and **Use this pack** copies all three into the event. **Manage Templates** picks from your own templates; **Image overlay** sets the frame burned into GIFs and videos. The event's template set is exclusive: the booth's own templates are not offered while the event runs.
+- **Kiosk UI.** **Manage UI Project** keeps the booth's own screen design or pins one to the event.
+- **Gallery QR.** Shows the album's QR code on the booth so guests find their photos. Click **Save** after changing it.
 
 ![Add booths modal on an event](/img/docs/event-add-booths-modal.webp)
 
@@ -74,12 +74,12 @@ Per-booth health for the event: camera, printer, paper, memory and disk, session
 
 ## Editing and Deleting
 
-**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and payment gateway. Booths, kiosk design and templates are changed on the Setup tab. **Delete Event** on the event page works at any time, even while the event is live (the list's bulk **Delete** skips ongoing events); the booths and their photo sessions stay in your account, only the event and its album go away.
+**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and payment gateway. Booths, screen design and templates are changed on the Setup tab. **Delete Event** on the event page works at any time, even while the event is live (the list's bulk **Delete** skips ongoing events); the booths and their photo sessions stay in your account, only the event and its album go away.
 
 ## Licences, Pricing and Transactions
 
-- Each booth on an event needs Pix Pro on its computer or an unspent Day Pass in your pool. **Licenses > Events** lists every event with **Ready**, **No booth** or "N without Pix Pro or a pass". Buy passes on the [Licenses](./billing.md) page; a pass is used from the kiosk's operator menu on the day.
-- While the event runs, its session price, packages and gateway replace the booth's own. Tax, fees and currency stay the booth's. The kiosk shows the Payment screen when the event charges and skips it when the event is free.
+- Each booth on an event needs Pix Pro on its computer or an unspent Day Pass in your pool. **Licenses > Events** lists every event with **Ready**, **No booth** or "N without Pix Pro or a pass". Buy passes on the [Licenses](./billing.md) page; a pass is used from the booth's operator menu on the day.
+- While the event runs, its session price, packages and gateway replace the booth's own. Tax, fees and currency stay the booth's. The booth shows the Payment screen when the event charges and skips it when the event is free.
 - Photo sessions captured during the event carry an event chip on [Transactions](./transactions.md), so the client's takings are easy to pull out.
 
 ## Related

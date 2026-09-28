@@ -41,7 +41,7 @@ Dye-sub prints emerge dry in seconds with a protective overcoat, so they resist 
 | Canon | Selphy CP1500 | 4x6" | Portable, good for low-traffic or pop-up locations |
 
 :::tip
-The DNP DS-RX1 and DS620 are the most popular choices among photobooth operators. On the kiosk, set **ORIENTATION** to **Landscape** for dye-sub printers.
+The DNP DS-RX1 and DS620 are the most popular choices among photobooth operators. On the booth, set **ORIENTATION** to **Landscape** for dye-sub printers.
 :::
 
 ## Inkjet alternatives
@@ -81,7 +81,7 @@ Print size is set per template in Pix Design when you create the template projec
 | **6x8"** | Larger format on 6x8"-capable dye-subs |
 | **A-sizes** | Newspaper photobooth format; needs an A3+ inkjet, not the dye-sub printers above |
 
-On the kiosk, choose the loaded paper under **Printer Settings > MEDIA SIZE (LOADED PAPER)** and set **ORIENTATION** to match. Booth Pricing's **Print format** (Standard, 2 inch cut, Triple strip) only changes how many pieces the Payment screen says a sheet becomes; print counts in Booth Pricing are always sheets.
+On the booth, choose the loaded paper under **Printer Settings > MEDIA SIZE (LOADED PAPER)** and set **ORIENTATION** to match. Booth Pricing's **Print format** (Standard, 2 inch cut, Triple strip) only changes how many pieces the Payment screen says a sheet becomes; print counts in Booth Pricing are always sheets.
 
 ## Setup tips
 
@@ -94,11 +94,11 @@ On the kiosk, choose the loaded paper under **Printer Settings > MEDIA SIZE (LOA
 - Epson: [epson.co.id](https://www.epson.co.id)
 - Kodak: [kodakmoments.com](https://business.kodakmoments.com)
 
-**Select it on the kiosk.** Open the operator menu, tap **Printer Settings**, pick the printer under **PRINTER DEVICE**, set **MEDIA SIZE (LOADED PAPER)** and **ORIENTATION**, and press the test print button. Guest printing is disabled until a printer is selected. **COPIES PER SESSION** and **PRINT ALIGNMENT** (scale and offsets) are on the same page.
+**Select it on the booth.** Open the operator menu, tap **Printer Settings**, pick the printer under **PRINTER DEVICE**, set **MEDIA SIZE (LOADED PAPER)** and **ORIENTATION**, and press the test print button. Guest printing is disabled until a printer is selected. **COPIES PER SESSION** and **PRINT ALIGNMENT** (scale and offsets) are on the same page.
 
 **Test before opening to guests.** Print a sample composite to confirm colours, alignment and paper feed. Dye-sub printers need a short warm-up, so the first print may take longer. With an inkjet, print a couple of test photos and let them dry fully to check for smudging.
 
-**If a print fails**, the kiosk retries up to 3 times, 5 seconds apart. If it still fails, the guest sees a print issue notice and the photo is saved; reprint it from the operator menu under **Admin Panel > PRINT HISTORY**.
+**If a print fails**, the booth retries up to 3 times, 5 seconds apart. If it still fails, the guest sees a print issue notice and the photo is saved; reprint it from the operator menu under **Admin Panel > PRINT HISTORY**.
 
 **Avoid laser printers** for photo prints; they are not designed for photo output. Inkjet is a different story: dye-sub is faster and more durable, but a well-chosen Epson SureLab or EcoTank is a working option for budget setups. Plan for slower prints and a short drying time.
 

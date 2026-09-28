@@ -38,7 +38,7 @@ On Pix Starter you can open the template editor and try any design, but saving n
 
 ## During an Event
 
-While an event runs on the booth, the event's template set replaces the booth's own. The event set is exclusive: if the event has no templates, the guest has nothing to pick, which is why the event's Setup tab says to assign at least one. The quickest way to fill an event is a **template pack**: **Events > event > Setup > Choose a template** opens the pack browser, and **Use this pack** copies the pack's print layouts, a GIF overlay and a matching kiosk UI project into the event. The booth follows the event's dates plus one night of grace, then returns to its own templates. See [Events](../../dashboard/events.md).
+While an event runs on the booth, the event's template set replaces the booth's own. The event set is exclusive: if the event has no templates, the guest has nothing to pick, which is why the event's Setup tab says to assign at least one. The quickest way to fill an event is a **template pack**: **Events > event > Setup > Choose a template** opens the pack browser, and **Use this pack** copies the pack's print layouts, a GIF overlay and a matching booth screens project into the event. The booth follows the event's dates plus one night of grace, then returns to its own templates. See [Events](../../dashboard/events.md).
 
 If the event pins Video or 360 Slow-mo, this screen is skipped altogether and the booth records instead. See [Event Video Modes](../event-video-modes.md).
 

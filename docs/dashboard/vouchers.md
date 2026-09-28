@@ -1,13 +1,13 @@
 ---
 sidebar_position: 8
 title: Vouchers
-description: Single vouchers and batches of up to 1000 codes, free, fixed-amount or percentage, plus the online shop link and how guests redeem codes at the kiosk.
+description: Single vouchers and batches of up to 1000 codes, free, fixed-amount or percentage, plus the online shop link and how guests redeem codes at the booth.
 tags: [dashboard, vouchers, promotions]
 ---
 
 # Vouchers
 
-A voucher is a code a guest types into the voucher box on the kiosk's Payment screen. It can make the photo session free, take a fixed amount off, or take a percentage off. Make them one at a time for a partner or an influencer, or in a batch of up to 1000 for a corporate order or a flyer campaign.
+A voucher is a code a guest types into the voucher box on the booth's Payment screen. It can make the photo session free, take a fixed amount off, or take a percentage off. Make them one at a time for a partner or an influencer, or in a batch of up to 1000 for a corporate order or a flyer campaign.
 
 ![Vouchers page with existing vouchers: Vouchers and Batches tabs, Refill and Delete on each row](/img/docs/vouchers-list.webp)
 
@@ -65,7 +65,7 @@ Each voucher or batch row has two actions.
 
 ## How Guests Redeem
 
-On the kiosk's Payment screen the guest opens the voucher box and types the code on the on-screen keyboard. Codes are not case sensitive. The length tells the kiosk what it is looking at:
+On the booth's Payment screen the guest opens the voucher box and types the code on the on-screen keyboard. Codes are not case sensitive. The length tells the booth what it is looking at:
 
 | Length | Comes from |
 |---|---|
@@ -73,7 +73,7 @@ On the kiosk's Payment screen the guest opens the voucher box and types the code
 | 7 characters | The online shop (Pix Desktop App 1.1.101 or newer) |
 | 8 characters | A group session code from a Multi-Booth cashier |
 
-A code bought online or from a Multi-Booth cashier carries its package inside the code, so the kiosk accepts it even when the venue's internet is down. The redemption is reported once the booth reconnects.
+A code bought online or from a Multi-Booth cashier carries its package inside the code, so the booth accepts it even when the venue's internet is down. The redemption is reported once the booth reconnects.
 
 ## Tracking
 
@@ -87,4 +87,4 @@ Before a launch, make a Free Session voucher with one redemption and run the who
 
 - [Booth Pricing](./booth-pricing.md)
 - [Sell Sessions Online](../tutorials/sell-sessions-online.md)
-- [Payment screen on the kiosk](../desktop-app/session-flow/payment.md)
+- [Payment screen on the booth](../desktop-app/session-flow/payment.md)

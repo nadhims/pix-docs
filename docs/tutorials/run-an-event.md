@@ -1,13 +1,13 @@
 ---
 sidebar_position: 7
 title: Run an Event
-description: Create an event with its own dates, booths, prices, templates and kiosk look, share the online album with the client, and read the report when it ends.
+description: Create an event with its own dates, booths, prices, templates and booth look, share the online album with the client, and read the report when it ends.
 tags: [tutorials, events, album, licences]
 ---
 
 # Run an Event
 
-In this tutorial you will create an event, put booths on it, give it its own templates and kiosk look, share the online album with your client and read the report afterwards. The dashboard work takes about 15 minutes; the event then runs itself on its dates.
+In this tutorial you will create an event, put booths on it, give it its own templates and booth look, share the online album with your client and read the report afterwards. The dashboard work takes about 15 minutes; the event then runs itself on its dates.
 
 ## Before You Start
 
@@ -34,11 +34,11 @@ In this tutorial you will create an event, put booths on it, give it its own tem
 
 ## Step 2: Understand the Event Status
 
-1. The event page opens with the name, dates, a status chip and a badge that reads **FREE FOR GUESTS** or **Paid sessions**. The chip says **ONGOING** from the moment you create the event; there is no Start button. If the dates are still ahead, the booths switch to the event's templates, kiosk design and prices on the first date.
+1. The event page opens with the name, dates, a status chip and a badge that reads **FREE FOR GUESTS** or **Paid sessions**. The chip says **ONGOING** from the moment you create the event; there is no Start button. If the dates are still ahead, the booths switch to the event's templates, screen design and prices on the first date.
 
    ![Event page with name, date, ONGOING chip, FREE FOR GUESTS badge, Link Sharing switch, overview cards and the Album, Setup and Report tabs](/img/docs/steps/tutorials-run-an-event--event-detail.webp)
 
-2. Events run by their dates. The event ends by itself the day after its last date, and its booths follow the event dates plus one night of grace. While the event runs, each booth on it uses the event's templates, kiosk look, prices and gateway instead of its own. There are no Start or End buttons to press on the day.
+2. Events run by their dates. The event ends by itself the day after its last date, and its booths follow the event dates plus one night of grace. While the event runs, each booth on it uses the event's templates, booth look, prices and gateway instead of its own. There are no Start or End buttons to press on the day.
 
 ## Step 3: Put Booths on the Event
 
@@ -60,15 +60,15 @@ In this tutorial you will create an event, put booths on it, give it its own tem
 1. In the **Booth mode** card, pick **Photo** or **Video**. **360 Slow-mo** is marked **SOON** and cannot be chosen yet. The mode is set per event and shared by every booth on it; outside an event a booth always shoots photos.
 2. With **Video**, extra settings appear: **Display text before recording**, a **Timeline Preset**, the clip recording duration and speed, a **Soundtrack**, an **Overlay** and a preview. The guest's video gets your intro, outro and soundtrack; it records in portrait or landscape; **Keep original clip** also saves the unedited recording on the booth. Video mode needs Pix Desktop App 1.1.102 or newer; the booth picks the mode up on its Start screen, and its operator menu's Capture settings say "Synced with event …".
 
-## Step 5: Assign Templates and a Kiosk Look
+## Step 5: Assign Templates and a Booth Look
 
-1. The **Template** card reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." Click **Choose a template** to open Pixture's free template packs. Each pack brings its print layouts, a GIF overlay and a matching kiosk look; pick one and click **Use this pack** (when packs are available). Or click **Manage Templates** to tick templates from your own Pix Design projects.
+1. The **Template** card reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." Click **Choose a template** to open Pixture's free template packs. Each pack brings its print layouts, a GIF overlay and a matching booth look; pick one and click **Use this pack** (when packs are available). Or click **Manage Templates** to tick templates from your own Pix Design projects.
 
    ![Manage Templates modal on an event](/img/docs/steps/tutorials-run-an-event--event-manage-templates-modal.webp)
 
 2. In the **Kiosk UI** card, click **Manage UI Project** and choose **Booth's own UI Project** or one of your designs. **Create new UI project** jumps to Pix Design.
 
-   ![Manage UI Project modal on an event with the kiosk designs and Create new UI project](/img/docs/steps/tutorials-run-an-event--event-manage-ui-modal.webp)
+   ![Manage UI Project modal on an event with the screen designs and Create new UI project](/img/docs/steps/tutorials-run-an-event--event-manage-ui-modal.webp)
 
 3. In the **Gallery** card, choose whether the booth shows a QR code to the event album, then click **Save**.
 
@@ -92,11 +92,11 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 
    ![Event Report tab with per-booth health and incidents](/img/docs/steps/tutorials-run-an-event--event-report.webp)
 
-3. **Edit** changes the dates, prices or gateway at any time, even while the event is live. **Delete Event** in the toolbar removes it. The day after the last date the event ends by itself, and the booths go back to their own templates, kiosk look and prices the night after.
+3. **Edit** changes the dates, prices or gateway at any time, even while the event is live. **Delete Event** in the toolbar removes it. The day after the last date the event ends by itself, and the booths go back to their own templates, booth look and prices the night after.
 
 ## Check It Worked
 
-- Start a session on one of the event's booths. The template screen shows only the event's templates and the kiosk look you picked.
+- Start a session on one of the event's booths. The template screen shows only the event's templates and the booth look you picked.
 - Finish the session. The **Sessions** card on the event page counts it, the photo appears on the **Album** tab and at the album link, and the row on **Transactions** shows the event chip.
 
 ## Troubleshooting

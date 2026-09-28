@@ -126,12 +126,12 @@ On the first **Save** the editor asks you to **Name Your Template** and offers *
 ## Tips
 
 - **Slot order is capture order.** Slot 1 gets the first photo. Check the numbering under **Photo Slots** before you save.
-- **Prints per sheet is a pricing setting.** With 2" Cut or Triple Strip media, set **Print format** on the booth's [Pricing](../booth-pricing.md) tab so the kiosk shows the guest the right number of prints. It changes what is shown, not what is printed.
+- **Prints per sheet is a pricing setting.** With 2" Cut or Triple Strip media, set **Print format** on the booth's [Pricing](../booth-pricing.md) tab so the booth shows the guest the right number of prints. It changes what is shown, not what is printed.
 - **Many PNGs at once?** **Settings > Data > Import Templates** takes a ZIP of up to 50 PNGs at one print size.
-- **Categories** on templates become buttons on the kiosk's Templates screen. See [Folders and Categories](./folders-and-collections.md).
+- **Categories** on templates become buttons on the booth's Templates screen. See [Folders and Categories](./folders-and-collections.md).
 
 :::tip
-The kiosk shows each template card using the thumbnail rendered by this editor, so what you see in **Preview** is what guests pick from.
+The booth shows each template card using the thumbnail rendered by this editor, so what you see in **Preview** is what guests pick from.
 :::
 
 ## Related

@@ -7,7 +7,7 @@ tags: [dashboard, booths, management]
 
 # Booths
 
-A **booth** is one kiosk: a place, a computer and the templates, design and prices it runs. Booths are free profiles, so create one per station or venue. What a booth can do depends on the computer paired to it: Pix Pro, watermarked on Pix Starter, or blocked when a Pix Pro account has more computers than devices.
+A **booth** is one photobooth station: a place, a computer and the templates, design and prices it runs. Booths are free profiles, so create one per station or venue. What a booth can do depends on the computer paired to it: Pix Pro, watermarked on Pix Starter, or blocked when a Pix Pro account has more computers than devices.
 
 ![Booths page of a Pix Pro account: Booth, Type, Region, Device, Plan, Templates columns and Configure buttons](/img/docs/booths-list.webp)
 
@@ -36,7 +36,7 @@ Search by name, region, device or plan. **Filter** narrows by region, status (On
 
 ![Create Booth modal, Single booth tab, with Booth Name and Location filled](/img/docs/booths-create-modal.webp)
 
-The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo booths?**. A group is several kiosks at one venue sharing a queue and, if you want, a central cashier. Its page has the tabs Photo Booths, Templates, UI Project, Queue (**Set up shared queue**, **Open TV view**), Cashier (**Pay at the booth** or **Central cashier**, with products) and Settings, plus **Save for all booths**. See [Multi-Booth Setup](../guides/multi-booth-setup.md).
+The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo booths?**. A group is several booths at one venue sharing a queue and, if you want, a central cashier. Its page has the tabs Photo Booths, Templates, UI Project, Queue (**Set up shared queue**, **Open TV view**), Cashier (**Pay at the booth** or **Central cashier**, with products) and Settings, plus **Save for all booths**. See [Multi-Booth Setup](../guides/multi-booth-setup.md).
 
 ![Create Booth modal, Multi-Booth tab: Name and How many photo booths](/img/docs/booths-create-multibooth.webp)
 
@@ -44,7 +44,7 @@ The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo
 
 ![Booth page of a paired Pix Pro booth: Online status, Pix Pro until, property grid and tabs](/img/docs/booth-overview.webp)
 
-The header shows the status pill (**Online** when the computer has checked in within the last 12 minutes, **Offline** when it has not, **Unknown** when no computer is paired), the licence badge ("Pix Pro until", "Day pass until", "Trial until", Watermarked, Blocked, or a dash), "Last seen", and a menu with **Rename Booth**. The property grid below jumps to each part of the setup: Templates, Filters, UI Project, Frame Lab, Session Price, Payment Gateway, Device, Kiosk Settings and Output Settings.
+The header shows the status pill (**Online** when the computer has checked in within the last 12 minutes, **Offline** when it has not, **Unknown** when no computer is paired), the licence badge ("Pix Pro until", "Day pass until", "Trial until", Watermarked, Blocked, or a dash), "Last seen", and a menu with **Rename Booth**. The property grid below jumps to each part of the setup: Templates, Filters, UI Project, Frame Lab, Session Price, Payment Gateway, Device, Booth Settings and Output Settings.
 
 ### Templates
 
@@ -56,15 +56,15 @@ The header shows the status pill (**Online** when the computer has checked in wi
 
 ### Filters
 
-**Booth Filters** and **Manage Filters**: Select all, Assigned / Not Assigned, All Types / Custom, then **Save Filter Assignments**. With no explicit assignment, every filter is available on the kiosk.
+**Booth Filters** and **Manage Filters**: Select all, Assigned / Not Assigned, All Types / Custom, then **Save Filter Assignments**. With no explicit assignment, every filter is available on the booth.
 
 ![Booth Filters tab: Booth Filters, Manage Filters](/img/docs/booth-filters-tab.webp)
 
 ### UI Project
 
-The kiosk design this booth runs, grouped by **Photobooth mode**, **Studio mode** and **Simple mode**. Pick one and click **Save**; the tab then shows "Booth mode". Studio mode needs Pix Desktop App 1.1.98 or newer. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
+The screen design this booth runs, grouped by **Photobooth mode**, **Studio mode** and **Simple mode**. Pick one and click **Save**; the tab then shows "Booth mode". Studio mode needs Pix Desktop App 1.1.98 or newer. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
 
-![Booth UI Project tab: dropdown grouped by Photobooth, Studio and Simple mode, Save](/img/docs/booth-ui-project-tab.webp)
+![Kiosk UI Project tab: dropdown grouped by Photobooth, Studio and Simple mode, Save](/img/docs/booth-ui-project-tab.webp)
 
 ### Pricing
 
@@ -90,7 +90,7 @@ Pair, rename, unlink or remove the computer. See [Devices and Pairing](./device-
 | **Payment Gateway** | **Active Gateway**: Organization Default or one gateway from Settings, then **Save** |
 | **Booth Info** | Booth Name with **Rename**; Region (**No Region**, or **+ New** to create one), then **Save Changes** |
 | **Currency** | **Same as organization** or **Different for this booth**, then **Save Currency**. See [Booth Pricing](./booth-pricing.md#currency) |
-| **Menu PIN** | 4 to 8 digits that lock the kiosk's operator menu: **Set PIN**, **Change**, **Disable** |
+| **Menu PIN** | 4 to 8 digits that lock the booth's operator menu: **Set PIN**, **Change**, **Disable** |
 | **Import Transactions** | **Download CSV Template**, drop a .csv or .xlsx (10 MB, 10,000 rows), **Confirm Import**. **Delete All Imported Data** undoes it |
 | **Danger Zone** | **Deactivate Booth**, the same two-step delete as the list |
 

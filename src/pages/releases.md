@@ -28,7 +28,7 @@ The Pix Desktop App updates itself in the background and asks to restart when th
 ## 1.1.111 (20 September 2026)
 
 - Bad venue internet no longer loses photos. Network failures retry on a short schedule (up to every 5 minutes) and never count toward the upload give-up limit.
-- AI generation runs as a job and the kiosk checks on it for up to 5 minutes, so a slow generation no longer times out. Available to beta accounts.
+- AI generation runs as a job and the booth checks on it for up to 5 minutes, so a slow generation no longer times out. Available to beta accounts.
 
 ## 1.1.110 (19 September 2026)
 
@@ -36,7 +36,7 @@ The Pix Desktop App updates itself in the background and asks to restart when th
 
 ## 1.1.109 (15 September 2026)
 
-- Before skipping the Payment screen for a free session, the kiosk confirms the price with a fresh check (up to 1.5 seconds), so a booth that was just switched to paid does not give away a session.
+- Before skipping the Payment screen for a free session, the booth confirms the price with a fresh check (up to 1.5 seconds), so a booth that was just switched to paid does not give away a session.
 
 ## 1.1.107 and 1.1.108 (15 September 2026)
 
@@ -59,7 +59,7 @@ The Pix Desktop App updates itself in the background and asks to restart when th
 - New **Use a pass on this device** button and a licence badge in the operator menu. The start screen only informs; actions sit behind the PIN.
 - Notices on the idle screen 60 and 15 minutes before a Day Pass or trial ends, and a banner when a payment fails.
 - Output never downgrades in the middle of a session. If the computer is offline when Pix Pro ends, it turns watermarked rather than blocked.
-- **Try it without an account** on the login screen runs the kiosk with built-in frames and screens, watermarked, without cloud sharing.
+- **Try it without an account** on the login screen runs the booth with built-in frames and screens, watermarked, without cloud sharing.
 
 ## 1.1.103 (5 September 2026)
 
@@ -69,7 +69,7 @@ The Pix Desktop App updates itself in the background and asks to restart when th
 
 - **Multi-Booth group codes**: 8-character codes bought at a central cashier work at any booth in the group. The voucher box accepts 6 to 8 characters, and Central Cashier booths open the Payment screen straight on the code step.
 - Event video mode reaches the booth, with the event's intro, outro and soundtrack added to the guest's video, portrait recording, the overlay designed in the dashboard, and a **Keep original clip** option that saves the untouched recording next to the app's videos.
-- Template cards on the kiosk use the thumbnail rendered by Pix Design.
+- Template cards on the booth use the thumbnail rendered by Pix Design.
 
 ## 1.1.101 (28 August 2026)
 
@@ -110,7 +110,7 @@ The Pix Desktop App updates itself in the background and asks to restart when th
 - Live photos are ready in about a second on the Sharing screen instead of about eight.
 - Live Photos now carry the guest's chosen filter, as the composite and GIF already did.
 - Live Photos match the mirror orientation of the prints on webcam booths.
-- Template cards on the kiosk draw the card shadow set in Pix Design.
+- Template cards on the booth draw the card shadow set in Pix Design.
 
 ## Earlier
 

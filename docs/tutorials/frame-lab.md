@@ -16,7 +16,7 @@ Frame Lab is a page guests open on their phone. They build a frame in a small st
 - Pix Pro on the booth's computer. On Pix Starter the switch is locked with a **Pix Pro** badge.
 - A payment gateway connected under **Settings > Payment Gateway**. Frame Lab charges the guest by QR code payment through your gateway (QRIS in Indonesia), and the gateway must charge in the booth's currency. See [Accept Payments at the Booth](./accept-payments.md).
 - At least one print template assigned to the booth. The guest's frame is built at that template's print size.
-- A session price on the booth and **Payment on this booth** switched on. The voucher is redeemed on the kiosk's Payment screen, so a booth that runs free sessions cannot accept it.
+- A session price on the booth and **Payment on this booth** switched on. The voucher is redeemed on the booth's Payment screen, so a booth that runs free sessions cannot accept it.
 
 ## Step 1: Switch Frame Lab on and set the price
 

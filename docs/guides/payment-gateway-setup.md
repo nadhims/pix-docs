@@ -7,12 +7,12 @@ tags: [guides, payment, gateway, doku, stripe, qris]
 
 # Payment Gateway Reference
 
-A payment gateway lets guests pay for a photo session by scanning a QR code on the kiosk. The money goes to your own gateway account; Pixture takes no share of it. This page is the reference for the gateway settings. For the step-by-step walk-through from opening the merchant account to the test charge, follow [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md); for prices and the first paid session, [Accept Payments](../tutorials/accept-payments.md).
+A payment gateway lets guests pay for a photo session by scanning a QR code on the booth. The money goes to your own gateway account; Pixture takes no share of it. This page is the reference for the gateway settings. For the step-by-step walk-through from opening the merchant account to the test charge, follow [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md); for prices and the first paid session, [Accept Payments](../tutorials/accept-payments.md).
 
 ## Before you start
 
 - A verified merchant account with one of the providers below.
-- Pix Pro on the booth's computer. On Pix Starter the kiosk skips the Payment screen.
+- Pix Pro on the booth's computer. On Pix Starter the booth skips the Payment screen.
 - A price on the booth's **Pricing** tab, with **Payment on this booth** switched on.
 
 ## Providers
@@ -43,7 +43,7 @@ The gateway card now shows **Edit** and **Test**.
 
 ## Sandbox and live
 
-- **Midtrans and DOKU:** **Sandbox Mode** is real. On, the kiosk talks to the provider's sandbox and test apps pay; off, real money moves.
+- **Midtrans and DOKU:** **Sandbox Mode** is real. On, the booth talks to the provider's sandbox and test apps pay; off, real money moves.
 - **Stripe:** there is no sandbox switch. The key decides: an `sk_test_` key charges Stripe's test mode and those payments **never pay out**, even though they look successful in the dashboard. Paste the live key before opening to guests.
 
 ## The test charge
@@ -69,26 +69,26 @@ Midtrans, Xendit and DOKU charge in rupiah only. A booth priced in any other cur
 
 Both are set up from the same Stripe gateway.
 
-- **QR payment:** no hardware. The kiosk shows a Stripe QR code on its Payment screen; the guest scans it and pays on their phone.
+- **QR payment:** no hardware. The booth shows a Stripe QR code on its Payment screen; the guest scans it and pays on their phone.
 - **Stripe Terminal:** a card reader at the booth, so guests tap or insert a card. Readers are assigned per booth in Settings. Recommended reader: **UX700**.
 
 ## Cash, coins and other card terminals
 
-Coin acceptors, bill validators and keystroke card readers do not go through a gateway. They are set up on the kiosk under the operator menu's **Hardware API** page. See [Hardware Payments](../desktop-app/hardware-payments.md).
+Coin acceptors, bill validators and keystroke card readers do not go through a gateway. They are set up on the booth under the operator menu's **Hardware API** page. See [Hardware Payments](../desktop-app/hardware-payments.md).
 
 ## Troubleshooting
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| The kiosk skips the Payment screen | Payment is off on the booth, or the computer is watermarked | Switch on **Payment on this booth** on the Pricing tab; check the licence badge in the operator menu |
-| Payment unavailable on the kiosk | No gateway connected, or wrong keys | Re-check **Settings > Payment Gateway**, then run **Test** |
+| The booth skips the Payment screen | Payment is off on the booth, or the computer is watermarked | Switch on **Payment on this booth** on the Pricing tab; check the licence badge in the operator menu |
+| Payment unavailable on the booth | No gateway connected, or wrong keys | Re-check **Settings > Payment Gateway**, then run **Test** |
 | QR shown but the payment never confirms | Sandbox and the guest's app do not match, or the webhook is missing | Match **Sandbox Mode** to the app the guest paid with; paste the webhook URL into the provider's dashboard |
 | Stripe payments succeed but no money arrives | An `sk_test_` key | **Edit** the gateway and paste the live key |
-| Payment confirmed but no session recorded | The kiosk was offline at that moment | Wait a few minutes, then check **Transactions**; **Sync with payment gateway** pulls missing payments for a date range |
+| Payment confirmed but no session recorded | The booth was offline at that moment | Wait a few minutes, then check **Transactions**; **Sync with payment gateway** pulls missing payments for a date range |
 | Amount differs from the package price | Tax or fees applied | See **Tax & fees** on the booth's Pricing tab |
 
 :::tip Vouchers for testing
-Once live, use a single-use free voucher rather than a real payment to test changes to prices or kiosk designs.
+Once live, use a single-use free voucher rather than a real payment to test changes to prices or screen designs.
 :::
 
 ## Related

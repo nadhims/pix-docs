@@ -58,7 +58,7 @@ One template on the tab carries a **Default** badge, marking the booth's default
 
 The booth picks up the change on its next idle refresh, usually within seconds, without a restart. A photo session already in progress finishes with the template the guest chose; the next session sees the new set.
 
-On the kiosk, guests see the assigned templates as cards on the Templates screen, grouped by the category buttons if your templates carry categories. See [Template Selection](../../desktop-app/session-flow/template-selection.md) for the guest side.
+On the booth, guests see the assigned templates as cards on the Templates screen, grouped by the category buttons if your templates carry categories. See [Template Selection](../../desktop-app/session-flow/template-selection.md) for the guest side.
 
 :::caution
 A booth with no templates assigned has nothing for guests to pick. Keep at least one template on every booth that runs sessions, and match the paper: a 4x6" Normal template on a strip printer will not print as intended.
@@ -70,7 +70,7 @@ An event carries its own templates, separate from the booths' everyday set. Whil
 
 You set the event's templates on the event's **Setup** tab, in the **Template** card:
 
-- **Choose a template** opens the browser of free template packs from Pixture, when packs are available. Each pack brings its print layouts, a GIF overlay and a matching kiosk look, and **Use this pack** copies all of that into the event.
+- **Choose a template** opens the browser of free template packs from Pixture, when packs are available. Each pack brings its print layouts, a GIF overlay and a matching booth look, and **Use this pack** copies all of that into the event.
 - **Manage Templates** opens the same modal as on a booth, so you can pick from your own template projects.
 
 ![Manage Templates modal on an event](/img/docs/event-manage-templates-modal.webp)

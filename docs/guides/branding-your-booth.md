@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
 title: Branding Your Booth
-description: Put your brand on every surface a guest sees, from the kiosk screens and print templates to the share page, GIF overlays and event looks.
+description: Put your brand on every surface a guest sees, from the booth screens and print templates to the share page, GIF overlays and event looks.
 tags: [guides, branding, templates, pix-design, customization]
 ---
 
 # Branding Your Booth
 
-Guests meet your brand on the kiosk screen, on the print, on the GIF and on the share page they open from the QR code. All of it is designed in the Pixture dashboard, nothing on the kiosk itself. At the end of this guide your logo, kiosk screens, templates, share page and overlays all carry the same look.
+Guests meet your brand on the booth screen, on the print, on the GIF and on the share page they open from the QR code. All of it is designed in the Pixture dashboard, nothing on the booth itself. At the end of this guide your logo, booth screens, templates, share page and overlays all carry the same look.
 
 ## Before you start
 
@@ -22,7 +22,7 @@ Guests meet your brand on the kiosk screen, on the print, on the GIF and on the 
 
 The logo appears on the share page and wherever the dashboard shows your organization.
 
-## Step 2: Design the kiosk screens
+## Step 2: Design the booth screens
 
 1. Open **Pix Design > UI Editor** and open a UI project, or tap **New Project** (name, **Orientation** and **Booth mode**).
 2. Pick a page tab: **Start Screen**, **Payment Screen**, **Templates**, **Capture**, **Review**, **Filter** or **Sharing**.
@@ -66,14 +66,14 @@ An overlay is a transparent PNG drawn over every GIF and video the booth makes.
 An event can carry its own look without touching your everyday booth setup. On the event's **Setup** tab:
 
 - **Kiosk UI**: tap **Manage UI Project** and pick a project, or keep "Booth's own UI Project".
-- **Template**: tap **Choose a template** to open the template pack browser. Each free pack from Pixture brings print layouts, a GIF overlay and a matching kiosk look; tap **Use this pack** to copy all of it into the event. Or tap **Manage Templates** to assign your own.
+- **Template**: tap **Choose a template** to open the template pack browser. Each free pack from Pixture brings print layouts, a GIF overlay and a matching booth look; tap **Use this pack** to copy all of it into the event. Or tap **Manage Templates** to assign your own.
 - **Image overlay** for video modes.
 
 When the event ends, the booths return to their own templates and design.
 
 ## Booth language
 
-Set the language guests see on the kiosk under **Settings > Preferences > Booth language** and tap **Save**. The dashboard language is set separately on the same page.
+Set the language guests see on the booth under **Settings > Preferences > Booth language** and tap **Save**. The dashboard language is set separately on the same page.
 
 ## Related
 
