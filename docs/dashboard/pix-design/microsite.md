@@ -9,7 +9,7 @@ tags: [dashboard, pix-design, microsite, sharing]
 
 Every photo session gets its own page on pixture.io. The guest scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo, each with a download button, under your organization's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
 
-![Microsite page with the Page, Header, Buttons, Promo banner and Menu links sections, the font picker, background and Save to booths](/img/docs/pix-design-microsite.webp)
+![Microsite page with the Page, Header, Buttons, Promo banner and Menu links tabs, the colour, font, background and photo settings, and the live preview of the guest download page](/img/docs/pix-design-microsite.webp)
 
 ## What Guests See
 
