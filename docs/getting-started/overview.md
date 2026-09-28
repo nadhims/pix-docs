@@ -9,6 +9,8 @@ tags: [getting-started, quickstart]
 
 By the end of this section you have a Pixture account, the Pix Desktop App running on a booth computer that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
 
+New to words like kiosk, booth, template or microsite? Read [How Pixture Works](./how-pixture-works.md) first; it takes five minutes.
+
 ## The Fifteen-Minute Path
 
 1. [Create your account](./create-account.md). Sign up at pixture.io, complete your profile and answer the Quick setup, which also creates your first booth.

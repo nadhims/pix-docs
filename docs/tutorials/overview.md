@@ -7,7 +7,7 @@ tags: [tutorials, overview]
 
 # Tutorials
 
-Each tutorial takes one job from start to finish, with numbered steps and dashboard screenshots. Finish [Getting Started](../getting-started/overview.md) first so you have a paired booth to work on.
+Each tutorial takes one job from start to finish, with numbered steps and dashboard screenshots. Finish [Getting Started](../getting-started/overview.md) first so you have a paired booth to work on. If a word is unfamiliar, see [How Pixture Works](../getting-started/how-pixture-works.md) or the [Glossary](../reference/glossary.md).
 
 ## Set Up
 

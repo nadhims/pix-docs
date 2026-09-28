@@ -3,11 +3,13 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   docsSidebar: [
     'intro',
+    {type: 'link', label: 'Glossary', href: '/docs/reference/glossary'},
     {
       type: 'category',
       label: 'Getting Started',
       link: {type: 'doc', id: 'getting-started/overview'},
       items: [
+        'getting-started/how-pixture-works',
         'getting-started/create-account',
         'getting-started/choose-plan',
         'getting-started/download-desktop-app',
