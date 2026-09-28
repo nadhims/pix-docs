@@ -12,7 +12,7 @@ The Pix Desktop App is the kiosk software that turns a Mac or Windows computer i
 ## What It Does
 
 - Runs the whole photo session on one screen: start, payment, template choice, capture, review, filters and sharing.
-- Works with Canon EOS, Sony Alpha, Nikon Z and Fujifilm X and GFX cameras over USB, through each maker's official SDK, and with any webcam or virtual camera the operating system can see.
+- Works with Canon EOS, Sony Alpha, Nikon Z and Fujifilm X and GFX cameras over USB, and with any webcam or virtual camera the operating system can see.
 - Prints to any printer the computer can print to, including shared and network printers.
 - Makes up to four outputs from one session: the printed composite, the single photos, an animated GIF and a live photo clip.
 - Shares through a QR code that opens the guest's own share page.

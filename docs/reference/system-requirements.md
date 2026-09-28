@@ -48,7 +48,7 @@ The share page (QR code sharing) needs the booth to upload. If a venue's Wi-Fi i
 
 ### Camera
 
-A camera body connected by USB is the primary capture method: Canon EOS, Sony Alpha, Nikon Z or Fujifilm X and GFX, each through the maker's official SDK. Nikon support needs Windows 11 or macOS 13 or newer. A built-in or USB webcam works too, as do virtual cameras such as OBS Virtual Camera on macOS. Cameras mounted sideways or upside down are handled by the **CAMERA ROTATION** setting under **Camera Settings** in the operator menu. See [Supported Cameras](./supported-cameras.md).
+A camera body connected by USB is the primary capture method: Canon EOS, Sony Alpha, Nikon Z or Fujifilm X and GFX. Nikon support needs Windows 11 or macOS 13 or newer. A built-in or USB webcam works too, as do virtual cameras such as OBS Virtual Camera on macOS. Cameras mounted sideways or upside down are handled by the **CAMERA ROTATION** setting under **Camera Settings** in the operator menu. See [Supported Cameras](./supported-cameras.md).
 
 ### Printer (optional)
 
