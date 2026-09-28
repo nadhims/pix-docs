@@ -60,6 +60,7 @@ The **CAMERA LOG** at the bottom of the Camera Settings page shows what the app 
 ## Related
 
 - [Camera Settings](./camera-settings.md)
+- [Sony Alpha Setup](./sony-alpha.md), [Nikon Z Setup](./nikon-z.md), [Fujifilm Setup](./fujifilm.md)
 - [Webcam Fallback](./webcam-fallback.md)
 - [Supported Cameras](../../reference/supported-cameras.md)
 - [Troubleshooting](../troubleshooting.md)

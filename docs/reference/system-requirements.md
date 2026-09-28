@@ -28,7 +28,7 @@ The Pix Desktop App is the kiosk application. It runs on macOS and Windows. The 
 | Graphics | Integrated (UHD / Radeon / Apple) | Dedicated GPU or Apple Silicon |
 | Storage | 3 GB free (the kiosk warns below this and cleans up below 1 GB) | More, for photos and cache |
 | Display | 1280 x 720 | 1080p or higher touchscreen |
-| USB | USB 2.0 port (Canon camera) | USB 3.0 for faster tethering |
+| USB | USB 2.0 port for the camera | USB 3.0 for faster tethering |
 
 :::tip
 For kiosk use, a touchscreen is strongly recommended. The Pix Desktop App is designed as a kiosk where guests interact directly with the screen.
@@ -48,7 +48,7 @@ The share page (QR code sharing) needs the booth to upload. If a venue's Wi-Fi i
 
 ### Camera
 
-A Canon EOS camera connected by USB is the primary capture method. A built-in or USB webcam works too, as do virtual cameras such as OBS Virtual Camera on macOS. Cameras mounted sideways or upside down are handled by the **CAMERA ROTATION** setting under **Camera Settings** in the operator menu. See [Supported Cameras](./supported-cameras.md).
+A camera body connected by USB is the primary capture method: Canon EOS, Sony Alpha, Nikon Z or Fujifilm X and GFX, each through the maker's official SDK. Nikon support needs Windows 11 or macOS 13 or newer. A built-in or USB webcam works too, as do virtual cameras such as OBS Virtual Camera on macOS. Cameras mounted sideways or upside down are handled by the **CAMERA ROTATION** setting under **Camera Settings** in the operator menu. See [Supported Cameras](./supported-cameras.md).
 
 ### Printer (optional)
 

@@ -23,7 +23,7 @@ Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same
 ## What You Need
 
 - A **Mac** on macOS 13 or later, or a **Windows** 10 or 11 (64-bit) PC. Full details in [System Requirements](../reference/system-requirements.md).
-- A **camera**: a Canon EOS camera on USB, or a built-in or USB webcam to get going.
+- A **camera**: a Canon, Sony, Nikon or Fujifilm camera on USB (see [Supported Cameras](../reference/supported-cameras.md)), or a built-in or USB webcam to get going.
 - An **internet connection** for sign-up, pairing, template sync and QR code sharing. The booth keeps shooting and printing if the connection drops later.
 - Optional: a **photo printer** so guests leave with a print, and a **touchscreen** so guests can run the booth on their own.
 

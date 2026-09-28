@@ -25,7 +25,7 @@ The buttons, top to bottom:
 | Button | What it opens |
 |---|---|
 | **Start Booth** | Back to the guest screens |
-| **Camera Settings** | Camera device, live view aids, Canon exposure, zoom, rotation, hand sign detection. See [Camera Settings](./camera-setup/camera-settings.md) |
+| **Camera Settings** | Camera device, live view aids, camera exposure, zoom, rotation, hand sign detection. See [Camera Settings](./camera-setup/camera-settings.md) |
 | **Printer Settings** | Printer, media size, orientation, copies, alignment, test print. See [Printer Setup](./printer-setup.md) |
 | **Capture Settings** | Video and 360 slow-mo settings for a running event. See [Event Video Modes](./event-video-modes.md) |
 | **Hardware API** | Local API, CASH-Interface2 F13, keyboard coin input. See [Hardware Payments](./hardware-payments.md) |
