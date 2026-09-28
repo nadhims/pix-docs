@@ -16,7 +16,7 @@ It is built for booth operators of every size, anywhere in the world: a single s
 
 | App | Where it runs | What it does |
 |---|---|---|
-| **Pix Desktop App** | A Mac or Windows computer at the booth | The kiosk your guests use: start screen, payment, template choice, capture, filters, sharing and printing. Works with a Canon EOS camera or a webcam, and keeps shooting when the venue internet drops. |
+| **Pix Desktop App** | A Mac or Windows computer at the booth | The kiosk your guests use: start screen, payment, template choice, capture, filters, sharing and printing. Works with Canon, Sony, Nikon and Fujifilm cameras or a webcam, and keeps shooting when the venue internet drops. |
 | **Pixture dashboard** | Any browser at [pixture.io](https://pixture.io) | Where you create booths, design print templates and kiosk screens, set prices, connect a payment gateway, run events, watch health and revenue, and manage your devices and billing. |
 
 One account covers both. Whatever you save in the dashboard reaches the booth the next time it checks in.

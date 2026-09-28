@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Camera Settings
-description: Every control on the kiosk's Camera Settings page, from live view aids and Canon exposure to digital zoom, rotation and hand sign detection.
+description: Every control on the kiosk's Camera Settings page, from live view aids and camera exposure for Canon, Sony, Nikon and Fujifilm to digital zoom, rotation and hand sign detection.
 tags: [desktop-app, camera, settings, exposure]
 ---
 
@@ -21,13 +21,13 @@ Toggles at the top of the page overlay helpers on the live preview while you set
 
 ## CAMERA DEVICE
 
-Choose **Auto-detect** or a specific camera from the list, then tap **Set as Default** so the booth uses the same one after every restart. With Auto-detect on, a connected Canon camera is preferred over a webcam. See [Webcam Fallback](./webcam-fallback.md).
+Choose **Auto-detect** or a specific camera from the list, then tap **Set as Default** so the booth uses the same one after every restart. With Auto-detect on, the app connects the first camera it finds, normally a connected camera body before a webcam. With more than one camera plugged in, pick the one you want and tap **Set as Default** so there is no guessing. See [Webcam Fallback](./webcam-fallback.md).
 
-## CAMERA CONTROLS (Canon)
+## CAMERA SETTINGS (Canon, Sony, Nikon, Fujifilm)
 
-With a Canon EOS camera connected, this section shows the camera's exposure properties: ISO, aperture, shutter speed and white balance. The page notes "Set camera to M / Av / Tv mode for manual control": in other modes the camera ignores what the app sends. Focus mode is set on the camera body, not here.
+With a Canon EOS, Sony Alpha, Nikon Z or Fujifilm camera connected, this section shows the camera's exposure properties: ISO, aperture, shutter speed and white balance (Fujifilm adds exposure compensation). The page reminds you to put the camera in a manual-capable mode: "Set camera to M / Av / Tv mode for manual control" on a Canon, "M / A / S" on the others. In other modes the camera ignores what the app sends. Focus mode is set on the camera body, not here. With a webcam, this section is called **CAMERA CONTROLS** and shows what the webcam allows.
 
-When white balance is set to **K**, a **COLOR TEMPERATURE** slider appears so you can match the venue lighting exactly.
+When white balance is set to a colour temperature (**K**), a **COLOR TEMPERATURE** slider appears so you can match the venue lighting exactly.
 
 Starting points that work for most booths:
 
@@ -60,6 +60,9 @@ Tap **Back to Menu** to leave the page. Camera settings only cover the camera it
 ## Related
 
 - [Canon EOS Setup](./canon-eos.md)
+- [Sony Alpha Setup](./sony-alpha.md)
+- [Nikon Z Setup](./nikon-z.md)
+- [Fujifilm Setup](./fujifilm.md)
 - [Webcam Fallback](./webcam-fallback.md)
 - [Capture Modes](../session-flow/capture-modes.md)
 - [Troubleshooting](../troubleshooting.md)

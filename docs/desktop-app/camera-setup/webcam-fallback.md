@@ -7,13 +7,13 @@ tags: [desktop-app, camera, webcam]
 
 # Webcam Fallback
 
-By the end of this page the booth is running on a webcam, a capture card or a virtual camera instead of a Canon body. This is the quickest way to test a booth, run a demo, or keep a booth going if the DSLR fails during opening hours.
+By the end of this page the booth is running on a webcam, a capture card or a virtual camera instead of a camera body (Canon, Sony, Nikon or Fujifilm). This is the quickest way to test a booth, run a demo, or keep a booth going if the DSLR fails during opening hours.
 
 ## When to Use a Webcam
 
 - **Testing and demos**: check the kiosk design, templates and printing without setting up a DSLR.
 - **Casual setups** where print quality at large sizes is not the main point.
-- **A backup** so the booth keeps taking photos if the Canon camera stops responding.
+- **A backup** so the booth keeps taking photos if the main camera stops responding.
 
 ## Supported Sources
 
@@ -32,7 +32,7 @@ The app uses the operating system's own camera list, so anything the system reco
 4. Tap **Set as Default** so the booth chooses the same camera after every restart.
 5. Check the **STATUS** block: **Camera Name** shows the device in use and **Live View** shows it is streaming.
 
-With **Auto-detect** on, the app prefers a Canon camera when one is connected and falls back to a webcam when it is not.
+With **Auto-detect** on, the app normally picks a connected camera body first and falls back to a webcam when there is none. **Set as Default** removes any guessing.
 
 ## What Works the Same
 
@@ -40,7 +40,7 @@ Everything in the photo session runs the same way on a webcam: countdown, per-ph
 
 ## Limitations
 
-| Feature | Canon EOS | Webcam |
+| Feature | Camera body (Canon, Sony, Nikon, Fujifilm) | Webcam |
 |---------|-----------|--------|
 | Resolution | Full camera resolution | Typically 1080p to 4K |
 | Exposure controls in the app | ISO, aperture, shutter, white balance | Limited or none |
@@ -48,12 +48,12 @@ Everything in the photo session runs the same way on a webcam: countdown, per-ph
 | Focus | Set on the camera body | Managed by the webcam |
 
 :::caution
-Webcam captures are frames from a video stream, so large prints look noticeably softer than DSLR captures. If prints are your main product, use a Canon EOS camera.
+Webcam captures are frames from a video stream, so large prints look noticeably softer than DSLR captures. If prints are your main product, use a supported camera body.
 :::
 
-## Switching Back to Canon
+## Switching Back to a Camera Body
 
-Connect the Canon camera over USB and either restart the app or pick it under **CAMERA DEVICE**. With **Auto-detect** on, the Canon takes over on the next launch.
+Connect the camera over USB and either restart the app or pick it under **CAMERA DEVICE**, then tap **Set as Default**.
 
 ## Related
 
