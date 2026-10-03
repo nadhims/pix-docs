@@ -42,10 +42,10 @@ By the end of this page the booth computer is linked to a booth in your dashboar
 
 ## What Happens Next
 
-- **The badge on the booth.** Open the operator menu on the booth (tap the top-right corner twice within three seconds). The footer shows the booth name, your email and a licence badge: **Watermarked** on Pix Starter, **Pix Pro**, **Trial until …** or **Pass until …** once the computer holds Pix Pro. See [Licence on the Booth](../desktop-app/licence-on-the-booth.md).
+- **The badge on the booth.** Open the operator menu on the booth (tap the top-right corner twice within three seconds). The footer shows the booth name, your email and a plan badge: **Watermarked** on Pix Starter, **Pix Pro**, **Trial until …** or **Event Pass until …** once the computer holds Pix Pro. See [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md).
 - **On Pix Starter**, one computer is all the account runs. Pairing a second computer is refused at the code. Replacing the computer on a booth that already has one works: click **Unlink** on the Device tab, then generate a new code for the new computer.
-- **On a Pix Pro account**, a spare place on your subscription attaches itself to the computer when it checks in. If every place is taken, the computer stays paired but cannot start a session until you click **Deactivate** on another computer or **Add more devices** on the **Licenses** page. If the modal reports "Device limit reached", free a place and click **Try Again**.
-- **One computer per booth.** The **Generate code** button is disabled while a computer is linked. To move the booth to a different computer, **Unlink** the old one first. Pix Pro and the free trial follow to the new computer; a Day Pass stays where it was used.
+- **On a Pix Pro account**, a spare place on your subscription attaches itself to the computer when it checks in. If every place is taken, the computer stays paired but cannot start a session until you click **Deactivate** on another computer or **Buy license** on the **Devices** page. If the modal reports "Device limit reached", free a place and click **Try Again**.
+- **One computer per booth.** The **Generate code** button is disabled while a computer is linked. To move the booth to a different computer, **Unlink** the old one first. Pix Pro and the free trial follow to the new computer; an Event Pass stays where it was used.
 - **Online means a recent check-in.** The booth checks in every few minutes; the dashboard shows it Online when it has been heard from in the last 12 minutes.
 
 :::tip

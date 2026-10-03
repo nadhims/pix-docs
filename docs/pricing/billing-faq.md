@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Billing FAQ
-description: Answers on adding and moving devices, what happens when Pix Pro ends, cancelling, invoices, the free trial, passes and AI credits.
+description: Answers on adding and moving devices, what happens when Pix Pro ends, cancelling, invoices, the free trial, Event Passes and AI credits.
 tags: [pricing, billing, faq]
 ---
 
@@ -9,41 +9,41 @@ tags: [pricing, billing, faq]
 
 ## How do I add a device?
 
-1. Open **Licenses** in the Pixture dashboard.
-2. Tap **Add more devices**.
-3. Set **How many devices?** and pick **Pix Pro (1 Day)**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**.
+1. Open **Devices** in the Pixture dashboard.
+2. Tap **Buy license** and pick **Event Pass** or **Pix Pro**.
+3. For Pix Pro, set **How many devices?** and pick **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**. For Event Passes, set how many.
 4. Pay at checkout. When you add devices to a card subscription you already have, the dashboard shows **Confirm this charge** first.
 
-A spare subscription attaches itself to the next computer that checks in without Pix Pro. Passes wait in your pool until you use one on the booth.
+A spare subscription attaches itself to the next computer that checks in without Pix Pro. Event Passes wait in your account until you use one at the booth.
 
 ## How do I move Pix Pro to another computer?
 
-1. On **Licenses**, find the computer in the **Devices** table and tap **Deactivate**.
+1. On **Devices**, find the computer in the **Devices** table and tap **Deactivate**.
 2. Confirm with **Deactivate** (or keep it with **Keep Pix Pro**).
 3. Pair the new computer, or let a computer that is already paired check in. The next computer without Pix Pro takes the free place, usually within a few seconds when it is online.
 
-The free trial moves the same way. A Day Pass does not: see the next question.
+The free trial moves the same way. An Event Pass does not: see the next question.
 
-## What does Deactivate do to a Day Pass?
+## What does Deactivate do to an Event Pass?
 
-It ends the pass. The dashboard says it plainly: "A day pass ends here. It cannot be moved or used again". Only deactivate a computer on a pass when you are done with it for the day.
+It ends the Event Pass. The dashboard warns you first: it ends there and cannot be moved or used again. Only deactivate a computer on an Event Pass when you are done with it for the day.
 
 ## What happens when Pix Pro ends on a computer?
 
-You are warned first. A Day Pass shows a notice on the booth idle screen 60 and 15 minutes before it ends. A subscription that will not renew warns 7 days and 1 day ahead by email and with a banner in the dashboard.
+You are warned first. An Event Pass shows a notice on the booth idle screen 60 and 15 minutes before it ends. A subscription that will not renew warns 7 days and 1 day ahead by email and with a banner in the dashboard.
 
-When it ends, the booth shows a popup naming what ended (Day Pass, free trial or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Licenses page. Guests see "Please call the operator."
+When it ends, the booth shows a popup naming what ended (for example "Your Event Pass has ended", or the free trial, or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Devices page. Guests see "Please call the operator."
 
 What the computer does next depends on your account:
 
-- If another computer still has Pix Pro, this one is **Blocked**: it stays paired but cannot start a session until you deactivate another computer, use a pass on it or add a device.
+- If another computer still has Pix Pro, this one is **Blocked**: it stays paired but cannot start a session until you deactivate another computer, use an Event Pass on it or add a device.
 - If it was the last Pix Pro in the account, the account drops back to Pix Starter and the computer runs **Watermarked**.
 
 Nothing is deleted. Templates, screen designs, photos and transactions stay.
 
 ## My payment failed. How long do I have?
 
-You get an email at once and the Licenses table shows "Pix Pro, payment failed". The computer keeps running Pix Pro for a 3-day grace period. Update the card under **Settings > Pixture billing > Update card** within those days; after that the computer is blocked until the payment goes through.
+You get an email at once and the Devices table shows "Pix Pro, payment failed". The computer keeps running Pix Pro for a 3-day grace period. Update the card under **Settings > Pixture billing > Update card** within those days; after that the computer is blocked until the payment goes through.
 
 ## How do I cancel?
 
@@ -60,7 +60,7 @@ You get an email at once and the Licenses table shows "Pix Pro, payment failed".
 
 ## Do you take promo codes?
 
-Yes. The Indonesian checkout has a **Have a promo code?** field. When a personal offer is live, the **Licenses** entry in the sidebar shows a "% OFF" pill. Current promotions are listed on [pixture.io](https://pixture.io).
+Yes. The Indonesian checkout has a **Have a promo code?** field. When a personal offer is live, the **Devices** entry in the sidebar shows a "% OFF" pill. Current promotions are listed on [pixture.io](https://pixture.io).
 
 ## Can I get a refund?
 
@@ -76,19 +76,19 @@ Once per account: 3 days of Pix Pro on one computer, no card. Claim it from the 
 
 ## Can I pair a second computer on Pix Starter?
 
-No. Pix Starter runs one computer, and a second computer is refused at the pairing code. Replacing the computer on a booth that already has one works. Add a device, use a pass or start the free trial to run more than one computer.
+No. Pix Starter runs one computer, and a second computer is refused at the pairing code. Replacing the computer on a booth that already has one works. Add a device, use an Event Pass or start the free trial to run more than one computer.
 
 ## The booth says "Device limit reached". What now?
 
-Every device on your subscription is already active. On **Licenses**, deactivate a computer you are not using, or tap **Add more devices**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use a pass on this device**.
+Every device on your subscription is already active. On **Devices**, deactivate a computer you are not using, or tap **Buy license**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
 
-## Can I buy passes ahead of an event?
+## Can I buy Event Passes ahead of an event?
 
-Yes. Buy as many as you need on **Licenses > Add more devices** with **Pix Pro (1 Day)**. They wait in your pool and the **Passes** card counts them. On the day, open the operator menu on each computer and tap **Use a pass on this device**. The 24 hours start from that moment.
+Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Devices** page, or pick **Event Pass** under **Buy license**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
 
 ## Is there volume pricing?
 
-Yes, when you add several devices in one purchase. Tap **See volume pricing** in the **Add devices** modal to see the per-device price for each plan before you pay.
+Yes, for Pix Pro, when you add several devices in one purchase. Tap **See volume pricing** in the Pix Pro checkout to see the per-device price for Monthly and Yearly before you pay. Event Passes are a flat price.
 
 ## Do AI credits expire?
 
@@ -101,6 +101,6 @@ No. Guest payments at the booth go through your own payment gateway account or y
 ## Related
 
 - [Plans & Pricing](./plans.md)
-- [Devices & Billing](../dashboard/billing.md)
+- [Devices](../dashboard/billing.md)
 - [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)

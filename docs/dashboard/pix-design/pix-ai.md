@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, pix-ai, beta]
 
 # Pix AI (Beta)
 
-**Pix AI** turns a guest's photo into a portrait in a chosen look: a film still, a painted portrait, an anime frame. You pick the looks (presets) your booths offer, and the guest picks one. It is available to beta accounts. Once Pix AI is on for your account, a **Pix AI (Beta)** card appears in the Pix Design hub, a **Pix AI credits** card on the Licenses page, and a credits line in the account menu.
+**Pix AI** turns a guest's photo into a portrait in a chosen look: a film still, a painted portrait, an anime frame. You pick the looks (presets) your booths offer, and the guest picks one. It is available to beta accounts. Once Pix AI is on for your account, a **Pix AI (Beta)** card appears in the Pix Design hub, a **Pix AI credits** card on the Devices page, and a credits line in the account menu.
 
 Guests meet Pix AI on the share page. When you sell AI portraits on a booth, the guest's share page carries a banner to an AI portrait shop. The guest picks one photo and one look, pays through your payment gateway, and receives the portrait as a download, or as a print collected at the booth with a pickup code. See [Sell AI portraits](../../tutorials/sell-ai-portraits.md). A booth-side AI screen right after capture is still being rolled out; when it reaches your booths, guests will be able to pick a look at the booth as well.
 
@@ -57,7 +57,7 @@ The latest images generated for your account, from the share page and your tests
 
 ## Credits
 
-Credits are shared by every booth in your account. Open **Licenses > Pix AI credits** (the **Manage credits** button on the credits card) to see and buy them.
+Credits are shared by every booth in your account. Open **Devices > Pix AI credits** (the **Manage credits** button on the credits card) to see and buy them.
 
 ![Pix AI credits page with Credits left, Buy more, cost per image, How you pay and credit packs](/img/docs/licenses-ai-credits.webp)
 
@@ -66,7 +66,7 @@ Credits are shared by every booth in your account. Open **Licenses > Pix AI cred
 - **How you pay**: pay as you go with credit packs, or a monthly plan. **Switch to monthly**, **Manage plan** and **Renew** live here.
 - **Credit packs** of 100, 400 and 1000 credits, priced in rupiah or dollars depending on where you are; the page shows the current prices.
 
-The account menu at the bottom of the sidebar shows how many credits are left and a **Top up credits** shortcut, so you notice a low balance without opening Licenses.
+The account menu at the bottom of the sidebar shows how many credits are left and a **Top up credits** shortcut, so you notice a low balance without opening Devices.
 
 :::caution
 Generations need credits in the balance. Top up before an event rather than during it.

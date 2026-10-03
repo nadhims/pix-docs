@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: Run an Event
 description: Create an event with its own dates, booths, prices, templates and booth look, share the online album with the client, and read the report when it ends.
-tags: [tutorials, events, album, licences]
+tags: [tutorials, events, album, event-pass]
 ---
 
 # Run an Event
@@ -11,7 +11,7 @@ In this tutorial you will create an event, put booths on it, give it its own tem
 
 ## Before You Start
 
-- **Every booth on the event needs Pix Pro on its computer or a Day Pass.** Buy passes on the **Licenses** page (Passes card, **Buy passes**) before the day.
+- **Every booth on the event needs Pix Pro on its computer or an Event Pass.** Buy Event Passes on the **Devices** page (Event Passes card, **Buy Event Passes**) before the day.
 - **Templates for the event**, either your own in Pix Design or one of Pixture's free template packs (when packs are available).
 - **A payment gateway connected** (**Settings > Payment Gateway**) if guests pay per photo session at the event.
 - The booths' computers installed and paired, or ready to pair on site.
@@ -51,9 +51,9 @@ In this tutorial you will create an event, put booths on it, give it its own tem
    ![Add booths modal on an event](/img/docs/steps/tutorials-run-an-event--event-add-booths-modal.webp)
 
 3. For a booth without a computer yet, click **Pair Booth** and enter the code in the Pix Desktop App on site. **Unlink** releases a computer from a booth; **Remove** takes the booth off the event.
-4. Check readiness on **Licenses > Events**. Each event shows **Ready**, **No booth**, or **N without Pix Pro or a pass**. Fix the last one with **Add more devices** or **Buy passes**; a pass is then used from the booth's operator menu with **Use a pass on this device**.
+4. Check readiness on **Devices > Events**. Each event shows **Ready**, **No booth**, or how many computers need an Event Pass or Pix Pro. Fix the last one with **Buy license** or **Buy Event Passes**. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass**.
 
-   ![Licenses page, Events tab with Event, Date, Booths and Ready columns](/img/docs/steps/tutorials-run-an-event--licenses-events-tab.webp)
+   ![Devices page, Events tab with Event, Date, Booths and Ready columns](/img/docs/steps/tutorials-run-an-event--licenses-events-tab.webp)
 
 ## Step 4: Choose the Booth Mode
 
@@ -105,7 +105,7 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 |---|---|
 | The booth still shows its everyday templates | The booth is not on the event, or the event's dates do not include today. Check the Booths card and the dates under **Edit**. |
 | Guests see nothing on the template screen | No template is assigned to the event. Add one on the **Setup** tab. |
-| **Licenses > Events** says "N without Pix Pro or a pass" | Add devices or buy passes, then use the pass from the booth's operator menu. |
+| **Devices > Events** says computers need an Event Pass or Pix Pro | Add devices or buy Event Passes, then tap **Use Event Pass** at the booth on the day. |
 | The album link does not open | **Link Sharing** is OFF. Turn it on again. |
 | The **Slideshow** button is missing | It appears only while **Link Sharing** is ON. |
 | Video mode does not reach the booth | The booth needs Pix Desktop App 1.1.102 or newer, and it picks the mode up on its Start screen. |

@@ -9,7 +9,7 @@ tags: [getting-started, concepts, glossary]
 
 Pixture is software for running a photobooth business. Before you set anything up, it helps to know the handful of words the rest of these docs use and how the pieces connect. This page covers them in the order you meet them. For any other word, see the [Glossary](../reference/glossary.md).
 
-![How Pixture fits together. At your venue, the booth: a computer running the Pix Desktop App, with a camera, a printer and a touchscreen, where a guest runs a photo session and leaves with a print and a QR code. Online at pixture.io, the dashboard: booths, Pix Design (templates, UI projects, microsite), events, payments and licenses, and the gallery, transactions and health. The dashboard sends designs and prices to the booth, the booth sends back photos, sessions and status, and the guest scans the QR code to open their share page on their phone.](/img/docs/how-pixture-works.svg)
+![How Pixture fits together. At your venue, the booth: a computer running the Pix Desktop App, with a camera, a printer and a touchscreen, where a guest runs a photo session and leaves with a print and a QR code. Online at pixture.io, the dashboard: booths, Pix Design (templates, UI projects, microsite), events, payments and devices, and the gallery, transactions and health. The dashboard sends designs and prices to the booth, the booth sends back photos, sessions and status, and the guest scans the QR code to open their share page on their phone.](/img/docs/how-pixture-works.svg)
 
 ## The Three Places
 
@@ -52,7 +52,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 
 **Payment gateway.** Your own merchant account (DOKU in Indonesia, Stripe elsewhere) that lets guests pay at the booth. Pixture never holds the money. See [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md).
 
-**Licenses.** The page where you put Pix Pro on your computers. See [Plans & Pricing](../pricing/plans.md).
+**Devices.** The page where you put Pix Pro on your computers. See [Plans & Pricing](../pricing/plans.md).
 
 ## On the Guest's Phone
 
@@ -65,7 +65,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 | These words | The difference |
 |---|---|
 | Booth, photobooth | The same thing: the machine guests use at your venue. Its settings live on the booth's page in the dashboard |
-| Computer, device | The same thing: the PC inside a booth. The Licenses page calls it a device |
+| Computer, device | The same thing: the PC inside a booth. The Devices page calls it a device |
 | Template, UI project | A **template** is what gets printed; a **UI project** is what the screen shows |
 | Share page, microsite, album | The **share page** is one guest's photos; the **microsite** is how every share page looks; the **album** is every photo of an event |
 | Pixture, Pix | **Pixture** is the company and the dashboard; **Pix** names its products: Pix Desktop App, Pix Design, Pix Pro, Pix Starter, Pix AI |
@@ -79,7 +79,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 | What the booth screens look like | Dashboard, Pix Design > UI Editor |
 | What the guest's share page looks like | Dashboard, Pix Design > Microsite |
 | Camera exposure, printer, coin or card reader | At the booth, operator menu |
-| Pix Pro on a computer | Dashboard, Licenses |
+| Pix Pro on a computer | Dashboard, Devices |
 
 ## Next Steps
 

@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
 title: Plans & Pricing
-description: Pix Starter (free, one computer, watermarked), the Day Pass at $5 or Rp 85.000 per computer per day, and Pix Pro at $40 per month or $300 per year per computer.
-tags: [pricing, plans, starter, day-pass, pix-pro]
+description: Pix Starter (free, one computer, watermarked), Pix Pro at $40 per month or $300 per year per computer, and the Event Pass at $5 or Rp 85.000 for 24 hours of Pix Pro on one computer.
+tags: [pricing, plans, starter, event-pass, pix-pro]
 ---
 
 # Plans & Pricing
 
 Pixture is priced per computer, not per account. Booths are free profiles: create as many as you like in the Pixture dashboard. What you pay for is Pix Pro on each computer that runs the Pix Desktop App.
 
-Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** the moment one does, whether through a subscription, a running Day Pass or the free trial. You buy and manage everything on the **Licenses** page of the dashboard.
+Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** the moment one does, whether through a subscription, a running Event Pass or the free trial. You buy and manage everything on the **Devices** page of the dashboard.
 
 ## Pix Starter (free)
 
@@ -23,16 +23,17 @@ Pix Starter is for trying Pixture and for booths that do not charge guests.
 
 You do not even need an account to try the booth: install the Pix Desktop App and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.
 
-## Day Pass, "Pix Pro (1 Day)"
+## Event Pass
 
-**$5 or Rp 85.000 per computer per day.** Full Pix Pro on one computer for 24 hours from the moment you activate it.
+**$5 or Rp 85.000.** 24 hours of Pix Pro on one computer. The 24 hours start only when you use the Event Pass at the booth.
 
-- Buy any quantity. Unspent passes wait in your pool; the **Passes** card on the Licenses page counts them.
-- Use a pass from the booth: open the operator menu and tap **Use a pass on this device**. A computer paired while you hold unspent passes stays blocked until you use a pass on it.
-- A pass ends when the computer is deactivated. It cannot be moved to another computer or used again.
-- Passes never renew.
+- Buy any time, in any quantity, at a flat price. Unused Event Passes wait in your account; the **Event Passes** card on the Devices page shows "N unused".
+- Use one at the booth: on an event, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?". Any other time, open the operator menu and tap **Use an Event Pass on this computer**. A computer paired while you hold unused Event Passes stays blocked until you use one on it.
+- While it runs, the booth shows a badge "Event Pass until HH:mm".
+- An Event Pass ends when the computer is deactivated. It cannot be moved to another computer or used again.
+- Event Passes never renew.
 
-:::tip When a Day Pass fits
+:::tip When an Event Pass fits
 Weddings, markets, brand activations and school events, where you pass the cost on to the client. If a computer runs more than about eight event days a month, Pix Pro Monthly is cheaper.
 :::
 
@@ -49,7 +50,7 @@ Weddings, markets, brand activations and school events, where you pass the cost 
 
 ## Several computers at once
 
-Adding several devices in one purchase gives a volume discount. Open **Licenses > Add more devices**, set **How many devices?** and tap **See volume pricing** to see the per-device price for the Day Pass, Monthly and Yearly before you pay.
+Adding several devices in one purchase gives a volume discount. Open **Devices > Buy license > Pix Pro**, set **How many devices?** and tap **See volume pricing** to see the per-device price for Monthly and Yearly before you pay.
 
 ## Free 3-Day Trial
 
@@ -58,11 +59,11 @@ Every account can claim one free trial: 3 days of Pix Pro on one computer, no ca
 1. In the dashboard, tap **Claim free trial** on the "Try Pix Pro free for 3 days" popup, or open it from the bell menu. On the booth, the operator menu offers the same.
 2. Pick the booth. The trial goes on the computer paired to it.
 
-While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Licenses page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.
+While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Devices page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.
 
 ## Pix AI credits
 
-Pix AI is in beta and available to beta accounts. Every generated image costs 1 credit. Credits are shared by every booth in the account and work on any plan. Buy them under **Licenses > Pix AI credits > Manage credits**, as packs of 100, 400 or 1000 credits, or as a monthly plan.
+Pix AI is in beta and available to beta accounts. Every generated image costs 1 credit. Credits are shared by every booth in the account and work on any plan. Buy them under **Devices > Pix AI credits > Manage credits**, as packs of 100, 400 or 1000 credits, or as a monthly plan.
 
 ## How you pay
 
@@ -75,5 +76,5 @@ Prices above are list prices. Promotions running right now are shown on [pixture
 
 - [Feature Comparison](./feature-comparison.md)
 - [Billing FAQ](./billing-faq.md)
-- [Devices & Billing](../dashboard/billing.md)
+- [Devices](../dashboard/billing.md)
 - [Choose Your Plan](../getting-started/choose-plan.md)

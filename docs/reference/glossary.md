@@ -27,7 +27,7 @@ The screen in Studio mode where the guest places the shots from their pool into 
 
 ### Blocked
 
-A computer on a Pix Pro account that has no place on the subscription and no pass. It stays paired but cannot start a session until you deactivate another computer on the Licenses page, use a pass on it or add a device.
+A computer on a Pix Pro account that has no place on the subscription and no Event Pass. It stays paired but cannot start a session until you deactivate another computer on the Devices page, use an Event Pass on it or add a device.
 
 ### Bonus Session
 
@@ -61,21 +61,25 @@ See **Device**.
 
 Pixture's web app at pixture.io, where you set up booths, design with Pix Design, set prices, connect payments and read your numbers. Works in any browser, including on a phone.
 
-### Day Pass
-
-"Pix Pro (1 Day)" in the dashboard. Full Pix Pro on one computer for 24 hours from activation. Bought by quantity, kept in your pool until used, activated from the booth's operator menu with **Use a pass on this device**. It ends when the computer is deactivated and cannot be moved.
-
 ### Deactivate
 
-The one action on a computer in the Licenses table. It frees that computer's place on your subscription for the next computer that checks in, returns a free trial to your pool, and ends a Day Pass.
+The one action on a computer in the Devices table. It frees that computer's place on your subscription for the next computer that checks in, returns a free trial to your account, and ends an Event Pass.
 
 ### Device
 
-A computer running the Pix Desktop App, paired to a booth. Pix Pro is bought per device. The Licenses page lists your active devices with their booth, first and last seen, version and licence state.
+A computer running the Pix Desktop App, paired to a booth. Pix Pro is bought per device. The Devices page lists your active devices with their booth, first and last seen, version and plan.
+
+### Devices page
+
+The dashboard page where you see your active devices, add devices, buy Event Passes, deactivate a computer and manage AI credits. It used to be called Licenses.
 
 ### Event
 
 A dated job in **Events** with its own booths, templates, screen design, capture mode, pricing and album. Events run themselves from creation and end the day after their last date.
+
+### Event Pass
+
+24 hours of Pix Pro on one computer, $5 or Rp 85.000. Buy any number at any time, at a flat price. Unused Event Passes wait in your account, shown as "N unused" on the **Event Passes** card of the Devices page. One starts only when you use it at the booth: tap **Use Event Pass** on the event start screen, or **Use an Event Pass on this computer** in the operator menu. It ends when the computer is deactivated and cannot be moved.
 
 ### Extra prints
 
@@ -104,10 +108,6 @@ The booth checks in with Pixture every few minutes. A booth shows as **Online** 
 ### Kiosk
 
 Another word for a **booth**, the machine guests use. These docs say booth; you may still see "kiosk" in a few dashboard hints and on the event **Kiosk UI** card.
-
-### Licenses page
-
-The dashboard page where you see your active devices, add devices, buy passes, deactivate a computer and manage AI credits.
 
 ### Live photo
 
@@ -139,7 +139,7 @@ Photos and session records waiting on the booth to upload. Shown as **Uploads: N
 
 ### Operator menu
 
-The booth's staff menu, opened by tapping the top-right corner of the screen twice. It holds Start Booth, Camera Settings, Printer Settings, Capture Settings, Hardware API, Admin Panel, Use a pass on this device, Logout, Exit App and Check for Updates, with the booth name, licence badge and upload status in the footer.
+The booth's staff menu, opened by tapping the top-right corner of the screen twice. It holds Start Booth, Camera Settings, Printer Settings, Capture Settings, Hardware API, Admin Panel, Use an Event Pass on this computer, Logout, Exit App and Check for Updates, with the booth name, plan badge and upload status in the footer.
 
 ### Package
 
@@ -175,7 +175,7 @@ The Pixture app installed on the booth computer, for Mac and Windows. It runs th
 
 ### Pix Pro
 
-The paid tier, bought per computer as a Day Pass, monthly or yearly. Clean photos and prints, unlimited templates and UI projects, saving in Pix Design and Marketing Studio, payments at the booth. An account is Pix Pro while any computer has it.
+The paid tier, bought per computer, monthly or yearly. An Event Pass gives 24 hours of it. Clean photos and prints, unlimited templates and UI projects, saving in Pix Design and Marketing Studio, payments at the booth. An account is Pix Pro while any computer has it.
 
 ### Pix Starter
 
@@ -187,7 +187,7 @@ The company and its dashboard at pixture.io. Its products carry the Pix name: Pi
 
 ### Pool
 
-Two meanings. On the Licenses page, the unspent passes and free subscription places waiting for a computer. In Studio mode, the shots a guest has taken before assigning them to slots.
+Two meanings. On the Devices page, the unused Event Passes and free subscription places waiting for a computer. In Studio mode, the shots a guest has taken before assigning them to slots.
 
 ### Print format, sheet
 
@@ -261,6 +261,6 @@ A computer with no Pix Pro on an account that has none. It keeps running its boo
 
 
 - [Plans & Pricing](../pricing/plans.md)
-- [Licenses](../dashboard/billing.md)
+- [Devices](../dashboard/billing.md)
 - [Public Links](./public-links.md)
 - [How Pixture Works](../getting-started/how-pixture-works.md)
