@@ -30,6 +30,7 @@ Two tabs, **Vouchers** and **Batches**, each with its count. The buttons at the 
 | **Voucher Code** | The code the guest types |
 | **Discount Type** | **Free Session**, **Fixed Amount** or **Percentage** |
 | **Discount Value** | The amount or percentage. Not shown for Free Session |
+| **Value** | Optional. What you sold the voucher for. It is counted as revenue when the code is redeemed, so leave it empty for free promo codes |
 | **Max Redemptions** | How many times the code works. 1 for single use |
 | **Booth Restriction** | All booths, or one booth only |
 | **Expiration Date** | Optional. The code stops working after this date |
