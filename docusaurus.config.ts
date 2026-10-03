@@ -57,7 +57,7 @@ const config: Config = {
         description:
           'How to run a photo booth business on Pixture: the Pix Desktop App on the booth computer, the web dashboard, Pix Design, payments, events, plans and troubleshooting.',
         rootContent:
-          'Pixture is photo booth software. The Pix Desktop App runs the booth (camera, printer, payment, sharing) and the web dashboard at https://pixture.io manages booths, designs, prices, payments and reports. Plans: Pix Starter (free, one computer, watermarked) and Pix Pro (Day Pass, monthly or yearly, per computer). Each page below is also available as plain markdown by adding .md to its URL.',
+          'Pixture is photo booth software. The Pix Desktop App runs the booth (camera, printer, payment, sharing) and the web dashboard at https://pixture.io manages booths, designs, prices, payments and reports. Plans: Pix Starter (free, one computer, watermarked) and Pix Pro (monthly or yearly, per computer), plus the Event Pass: 24 hours of Pix Pro on one computer. Each page below is also available as plain markdown by adding .md to its URL.',
         includeOrder: [
           'intro.md',
           'getting-started/**',

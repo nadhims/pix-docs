@@ -26,7 +26,7 @@ Search by name, region, device or plan. **Filter** narrows by region, status (On
 
 ![Booths row chevron menu: Rename, Unlink device, Delete booth](/img/docs/booths-row-menu.webp)
 
-**Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Licenses page first.
+**Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Devices page first.
 
 ## Creating a Booth
 
@@ -44,7 +44,7 @@ The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo
 
 ![Booth page of a paired Pix Pro booth: Online status, Pix Pro until, property grid and tabs](/img/docs/booth-overview.webp)
 
-The header shows the status pill (**Online** when the computer has checked in within the last 12 minutes, **Offline** when it has not, **Unknown** when no computer is paired), the licence badge ("Pix Pro until", "Day pass until", "Trial until", Watermarked, Blocked, or a dash), "Last seen", and a menu with **Rename Booth**. The property grid below jumps to each part of the setup: Templates, Filters, UI Project, Frame Lab, Session Price, Payment Gateway, Device, Booth Settings and Output Settings.
+The header shows the status pill (**Online** when the computer has checked in within the last 12 minutes, **Offline** when it has not, **Unknown** when no computer is paired), the plan badge ("Pix Pro until", "Event Pass until", "Trial until", Watermarked, Blocked, or a dash), "Last seen", and a menu with **Rename Booth**. The property grid below jumps to each part of the setup: Templates, Filters, UI Project, Frame Lab, Session Price, Payment Gateway, Device, Booth Settings and Output Settings.
 
 ### Templates
 

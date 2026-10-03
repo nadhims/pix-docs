@@ -14,7 +14,7 @@ There are four ways to run a photo booth business, and each one gets paid differ
 | **Event rental** (weddings, corporate dinners, launches) | The client pays a flat fee per event; guests pay nothing | An **Event** with **Free for guests**, no Payment screen | None |
 | **Self-service booth** (mall corridor, café, campus, cinema lobby) | Every guest, at the booth, unattended | A gateway with **QR Pay** and **Voucher**, packages, optional card reader or coin box | Optional: Stripe Terminal reader, or a coin or note acceptor and Nayax reader on a CASH-Interface2 board |
 | **Multi-booth studio** (four to eight booths, one attendant) | Every guest, at the counter or at the booth | One gateway for all booths, **Voucher codes** for cash at the counter, prices per booth | Optional card reader at the counter |
-| **Pop-up box** (markets, festivals, campus fairs) | Every guest, at the stall, often on mobile data | A gateway for QR, **online packages** and voucher codes that work offline, a Day Pass per event day | None |
+| **Pop-up box** (markets, festivals, campus fairs) | Every guest, at the stall, often on mobile data | A gateway for QR, **online packages** and voucher codes that work offline, an Event Pass per event day | None |
 
 ## Event Rental
 
@@ -30,7 +30,7 @@ The booth travels to the customer. The client pays you a flat fee per event, typ
 **What to watch**
 
 - Keep **Payment on this booth** on the booth's Pricing tab for your self-service work; the event setting overrides it while the event runs.
-- A computer you only use at events can run on a **Day Pass** instead of a monthly licence. See [Add or Move a Computer](./add-or-move-a-computer.md).
+- A computer you only use at events can run on an **Event Pass** instead of Pix Pro Monthly. See [Add or Move a Computer](./add-or-move-a-computer.md).
 - Planners want a vendor who never causes a complaint. Test the booth with a free voucher the day before, and put the operator PIN on the booth so guests cannot reach the menu.
 
 ## Self-Service Booth
@@ -78,7 +78,7 @@ A knockdown box that packs into a car and sets up in under an hour at a market, 
 **Set it up**
 
 1. Connect a gateway for QR payments, the same one as for a fixed booth.
-2. Put the booth's computer on a **Day Pass** for each event day, or on Pix Pro if you go out most weekends. See [Add or Move a Computer](./add-or-move-a-computer.md).
+2. Use an **Event Pass** on the booth's computer for each event day, or on Pix Pro if you go out most weekends. See [Add or Move a Computer](./add-or-move-a-computer.md).
 3. Switch on the **online shop link** under **Vouchers** and put it on a sign at the stall. Guests buy a package on their phone, get a code, and the booth accepts it even when the venue's Wi-Fi drops. See [Sell Sessions Online](./sell-sessions-online.md).
 4. For cash, take it at the stall and hand over codes from a **voucher batch** generated before you leave, with the event date as the **Expiration Date**.
 5. Bring a 4G router or a phone hotspot for the QR payments and the uploads; the booth keeps sessions in its queue and uploads them when the connection returns.

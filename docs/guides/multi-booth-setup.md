@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Multi-Booth Setup
-description: Run several booths from one Pixture account, group them into a Multi-Booth with shared settings, a shared queue and a central cashier, and license one computer per booth.
+description: Run several booths from one Pixture account, group them into a Multi-Booth with shared settings, a shared queue and a central cashier, and put Pix Pro on one computer per booth.
 tags: [guides, multi-booth, management]
 ---
 
@@ -12,7 +12,7 @@ One Pixture account can run any number of booths. Each booth is a free profile w
 ## Before you start
 
 - One computer per booth. A booth can only be paired to one computer, and a computer to one booth.
-- Pix Pro is per computer. Each computer in the group needs its own place on your subscription or a Day Pass. See [Plans & Pricing](../pricing/plans.md).
+- Pix Pro is per computer. Each computer in the group needs its own place on your subscription or an Event Pass. See [Plans & Pricing](../pricing/plans.md).
 - Group codes for a central cashier need the Pix Desktop App 1.1.102 or newer on every booth.
 
 ## Step 1: Create the group
@@ -48,7 +48,7 @@ On the **Cashier** tab, **How guests pay** has two options.
 
 1. Open each booth from the group's **Photo Booths** tab and go to its **Device** tab.
 2. Tap **Generate code**, then enter the code in the Pix Desktop App on that booth's computer.
-3. Check the licence badge in the booth's operator menu. It should read **Pix Pro** or **Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Licenses > Add more devices**, or use a pass on it.
+3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Devices > Add more devices**, or use an Event Pass on it.
 
 ## Regions for many locations
 

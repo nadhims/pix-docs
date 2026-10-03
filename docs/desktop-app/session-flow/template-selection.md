@@ -32,7 +32,7 @@ The booth's Templates tab marks one of the assigned designs with a **Default** b
 ## Plan Limits
 
 - **Pix Starter**: up to 2 templates, and the output carries the Pixture watermark.
-- **Pix Pro** (subscription, Day Pass or trial): unlimited templates.
+- **Pix Pro** (subscription, Event Pass or trial): unlimited templates.
 
 On Pix Starter you can open the template editor and try any design, but saving needs Pix Pro. See [Plans](../../pricing/plans.md).
 

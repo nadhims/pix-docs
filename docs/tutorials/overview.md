@@ -31,7 +31,7 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 
 ## Manage
 
-- [Add or Move a Computer](./add-or-move-a-computer.md). Add devices to your subscription, use a Day Pass, and move Pix Pro from one computer to another.
+- [Add or Move a Computer](./add-or-move-a-computer.md). Add devices to your subscription, use an Event Pass, and move Pix Pro from one computer to another.
 - [Take Card, Coin and Cash Payments](./connect-a-coin-or-card-reader.md). A Stripe Terminal reader, a coin or note acceptor or Nayax reader on a CASH-Interface2 board, your own bridge on the local Hardware API, or cash at the counter as voucher codes.
 
 ## Related

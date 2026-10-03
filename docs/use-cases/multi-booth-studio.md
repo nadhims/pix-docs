@@ -19,9 +19,9 @@ Guests pay per session, at a counter or at the booth. Packages, extra prints and
 
 Create a **Multi-Booth** group under **Booths > + New Booth**, set **How many photo booths?**, and set it up once: the group's **Templates**, **UI Project** and **Settings** (pricing) tabs apply to every booth when you click **Save for all booths**. Each booth is still a normal booth, so a themed booth can have its own templates on top. See [Multi-Booth Setup](../guides/multi-booth-setup.md).
 
-### 2. One computer and one licence per booth
+### 2. One computer and one Pix Pro per booth
 
-Each booth is paired to its own computer, and each computer needs its own Pix Pro. Add devices under **Licenses > Add more devices**; volume pricing applies as you add more. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
+Each booth is paired to its own computer, and each computer needs its own Pix Pro. Add devices under **Devices > Add more devices**; volume pricing applies as you add more. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
 
 ### 3. One queue, one cashier
 
