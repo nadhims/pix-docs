@@ -13,7 +13,7 @@ A **device** is the computer running the Pix Desktop App. Each computer is paire
 
 ## Pair Your Booth First
 
-A booth with no computer shows the status **Unknown**, a dash for the licence and "No device" in the grid. The first time you open it, a popup says "Pair your booth first: [booth name] isn't paired to a device yet. Generate a code and enter it on the booth app to go live." with **Generate pairing code** and **Maybe later**.
+A booth with no computer shows the status **Unknown**, a dash for the plan and "No device" in the grid. The first time you open it, a popup says "Pair your booth first: [booth name] isn't paired to a device yet. Generate a code and enter it on the booth app to go live." with **Generate pairing code** and **Maybe later**.
 
 ![Pair your booth first popup on an unpaired booth with Generate pairing code](/img/docs/booth-pair-first-popup.webp)
 
@@ -26,7 +26,7 @@ A booth with no computer shows the status **Unknown**, a dash for the licence an
 
 ![Pair Pixture App modal showing the 6-digit code, Expires in, Copy Code, Regenerate, Done](/img/docs/booth-pairing-code.webp)
 
-On a Pix Pro account, a spare place on your subscription attaches itself at this first check-in, so the computer runs Pix Pro straight away. A Day Pass is not spent automatically: use one from the booth's operator menu when the day starts.
+On a Pix Pro account, a spare place on your subscription attaches itself at this first check-in, so the computer runs Pix Pro straight away. An Event Pass is never started automatically: use one at the booth when the day starts.
 
 ## The Device Card
 
@@ -34,7 +34,7 @@ On a Pix Pro account, a spare place on your subscription attaches itself at this
 
 | Field or button | What it is |
 |---|---|
-| Name | Click **Rename device** to name it by place ("Mall Kiosk PC 2"); Licenses lists it by this name |
+| Name | Click **Rename device** to name it by place ("Mall Kiosk PC 2"); the Devices page lists it by this name |
 | Fingerprint | The computer's hardware id, with a copy button |
 | Registered, Last seen | When it was paired and when it last checked in |
 | **Bind existing device** | Shown only while nothing is paired: attach a computer that is already registered on your account |
@@ -48,9 +48,9 @@ Three actions look alike and do different things.
 
 | Action | Where | What happens |
 |---|---|---|
-| **Unlink** | Booth > Device | The computer returns to the pairing screen and stops acting as this booth. Pix Pro from a subscription or the free trial returns to your pool; a Day Pass stays on that computer. Photo sessions already uploaded stay in your account |
+| **Unlink** | Booth > Device | The computer returns to the pairing screen and stops acting as this booth. Pix Pro from a subscription or the free trial returns to your account; a running Event Pass stays on that computer. Photo sessions already uploaded stay in your account |
 | **Remove** | Booth > Device, Danger zone | Retires the device for good. Use it for a computer you have sold or scrapped |
-| **Deactivate** | Licenses page | Frees the computer's place on your subscription for another computer. The computer stays paired but cannot start a session until a place is free again. On a Day Pass, deactivating ends the pass; it cannot be moved or used again |
+| **Deactivate** | Devices page | Frees the computer's place on your subscription for another computer. The computer stays paired but cannot start a session until a place is free again. On an Event Pass, deactivating ends it; it cannot be moved or used again |
 
 Logging out of the booth does the same as **Unlink**. Unlink a computer before you sell it, repurpose it or send it for repair.
 
@@ -59,7 +59,7 @@ Logging out of the booth does the same as **Unlink**. Unlink a computer before y
 1. Open the booth's **Device** tab. If **Generate code** is greyed out because the old computer is still linked, click **Unlink** first.
 2. Click **Generate code** and pair the new computer.
 
-The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Pix Pro from a subscription or the trial reaches it at its first check-in; a Day Pass stays with the computer it was used on. Replacing a booth's computer always works, even on Pix Starter.
+The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Pix Pro from a subscription or the trial reaches it at its first check-in; an Event Pass stays with the computer it was used on. Replacing a booth's computer always works, even on Pix Starter.
 
 ## One Computer per Booth
 
@@ -67,17 +67,17 @@ Two computers cannot be paired to the same booth at once. **Unlink** the first b
 
 ## When Pairing Is Refused
 
-- **Pix Starter runs one computer.** Once one booth has a paired computer, **Generate code** on a second booth is refused. Add a device, buy a pass or start the free trial first.
-- **Pix Pro with every device in use.** The modal shows "Device limit reached" with **Try Again**. Deactivate a computer on the [Licenses](./billing.md) page or click **Add more devices** there, then generate the code again. If you hold an unspent Day Pass, the computer pairs anyway and waits, blocked, until you use the pass on it from the booth's operator menu.
+- **Pix Starter runs one computer.** Once one booth has a paired computer, **Generate code** on a second booth is refused. Add a device, buy an Event Pass or start the free trial first.
+- **Pix Pro with every device in use.** The modal shows "Device limit reached" with **Try Again**. Deactivate a computer on the [Devices](./billing.md) page or click **Add more devices** there, then generate the code again. If you hold an unused Event Pass, the computer pairs anyway and waits, blocked, until you use the Event Pass on it at the booth.
 - **Event booths** are never refused or blocked: they run watermarked outside a live event and the event covers them on the day. See [Events](./events.md).
 
-:::caution No licence moves from the booth
-Taking Pix Pro off one computer and giving it to another happens only on the dashboard: **Deactivate** or **Unlink** the first, and the next computer that checks in picks it up. The booth's operator menu can use a pass, but only for the computer it runs on.
+:::caution Pix Pro never moves from the booth
+Taking Pix Pro off one computer and giving it to another happens only on the dashboard: **Deactivate** or **Unlink** the first, and the next computer that checks in picks it up. The booth's operator menu can use an Event Pass, but only for the computer it runs on.
 :::
 
 ## Related
 
-- [Licenses](./billing.md)
+- [Devices](./billing.md)
 - [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
 - [Offline Mode](../desktop-app/offline-mode.md)

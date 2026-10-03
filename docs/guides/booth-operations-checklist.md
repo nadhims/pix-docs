@@ -7,7 +7,7 @@ tags: [guides, checklist, operations]
 
 # Booth Operations Checklist
 
-A smooth booth day comes down to a few checks at the right moments. Run through this list when you open, glance at the dashboard during the day, close properly, and do a short review once a week. At the end you know the booth is licensed, printing, uploading and up to date.
+A smooth booth day comes down to a few checks at the right moments. Run through this list when you open, glance at the dashboard during the day, close properly, and do a short review once a week. At the end you know the booth has Pix Pro, is printing, uploading and up to date.
 
 ## Before Opening
 
@@ -16,7 +16,7 @@ A smooth booth day comes down to a few checks at the right moments. Run through 
 3. Load **printer paper and ribbon**.
 4. Open the operator menu (tap the top-right corner of the booth twice), go to **Printer Settings** and press the test print button. Guest printing stays disabled until a printer is selected under **PRINTER DEVICE**.
 5. Check the footer of the operator menu: **Internet: Online**.
-6. Check the licence badge in the same footer. It should read **Pix Pro**, **Pass until** a time later than closing, or **Trial until** a later date. **Watermarked** means the account has no Pix Pro; **Blocked, all N devices active** means this computer needs a place on your subscription. Fix either on the **Licenses** page of the dashboard, or tap **Use a pass on this device**.
+6. Check the plan badge in the same footer. It should read **Pix Pro**, **Event Pass until** a time later than closing, or **Trial until** a later date. **Watermarked** means the account has no Pix Pro; **Blocked, all N devices active** means this computer needs a place on your subscription. Fix either on the **Devices** page of the dashboard, or tap **Use an Event Pass on this computer**.
 7. Tap **Start Booth** and leave the booth on the start screen.
 8. Run one full photo session: capture, print and scan the QR on the Sharing screen with your phone.
 

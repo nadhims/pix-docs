@@ -1,13 +1,13 @@
 ---
 sidebar_position: 13
 title: Troubleshooting
-description: Symptom, likely cause and fix for the common camera, printer, network, payment, licence, clock and storage problems on the Pix Desktop App, and where the logs are.
+description: Symptom, likely cause and fix for the common camera, printer, network, payment, Pix Pro, clock and storage problems on the Pix Desktop App, and where the logs are.
 tags: [desktop-app, troubleshooting, support]
 ---
 
 # Troubleshooting
 
-This page is the first stop when a booth misbehaves. Each table lists a symptom, the most likely cause and the fix, grouped by camera, printer, network and uploads, payment, licence, and the computer itself. At the end you will find where the logs live and how to get them to support.
+This page is the first stop when a booth misbehaves. Each table lists a symptom, the most likely cause and the fix, grouped by camera, printer, network and uploads, payment, Pix Pro, and the computer itself. At the end you will find where the logs live and how to get them to support.
 
 ## Camera
 
@@ -50,27 +50,27 @@ This page is the first stop when a booth misbehaves. Each table lists a symptom,
 |---|---|---|
 | The QR tile stays empty but the timer runs | The QR image could not be loaded | The image is served through Pixture, so check the booth's internet first, then the gateway's status under **Settings > Payment Gateway** |
 | Guest's wallet says "merchant not found" (or "merchant tidak ditemukan") | The wallet on the guest's phone could not resolve the QR: poor mobile data, or a QR that expired after the payment timeout | Ask the guest to try again on a fresh QR, or use a voucher. This is not the booth's connection |
-| Payment screen never appears | **Payment on this booth** is off, or the computer is watermarked | Turn the switch on under **Booths > booth > Pricing**; put Pix Pro or a pass on the computer |
+| Payment screen never appears | **Payment on this booth** is off, or the computer is watermarked | Turn the switch on under **Booths > booth > Pricing**; put Pix Pro or an Event Pass on the computer |
 | Coins are not counted | Keyboard coin input is off or the key is wrong | **Menu > Hardware API > Enable keyboard coin input**, match **Coin key** to what the acceptor sends |
 | Cash system sessions show as free | F13 is not treated as paid | Turn on **Treat F13 as the cash system's paid signal** under **Menu > Hardware API** |
 | Nayax reader says "Cash only" | The reader's inhibit is active | Check the Nayax portal's inhibit setting and that the CASH-Interface2 software is active |
 | Voucher code refused | Wrong length or a spent code | Codes are 6, 7 or 8 characters; check remaining uses on the Vouchers page |
 
-## Licence
+## Pix Pro
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| Every photo carries the Pixture watermark | Pix Starter, or a pass, trial or subscription that ended | Put Pix Pro or a pass on the computer: **Use a pass on this device** in the menu, or **Licenses** in the dashboard |
-| Booth shows "Device limit reached", guests see "Please call the operator." | All device places on a Pix Pro account are in use | **Licenses > Deactivate** a computer you no longer use, or **Add more devices** |
-| A popup says the Day Pass, trial or Pix Pro ended | The licence ran out | Scan the **Manage devices** QR or open **Licenses**; a running session finishes clean |
-| Badge reads "Pix Pro ended, reconnect to check" | The licence expired while the booth was offline | Reconnect; the booth checks in and clears the watermark if the account has a place for it |
-| Cannot re-pair after Logout | On an old version the licence was left on the computer | Update the app; Logout now returns Pix Pro or the trial to the pool. A Day Pass stays on the computer by design |
+| Every photo carries the Pixture watermark | Pix Starter, or an Event Pass, trial or subscription that ended | Put Pix Pro or an Event Pass on the computer: **Use an Event Pass on this computer** in the menu, or **Devices** in the dashboard |
+| Booth shows "Device limit reached", guests see "Please call the operator." | All device places on a Pix Pro account are in use | **Devices > Deactivate** a computer you no longer use, or **Add more devices** |
+| A popup says the Event Pass, trial or Pix Pro ended | Pix Pro ran out on this computer | Scan the **Manage devices** QR or open **Devices**; a running session finishes clean |
+| Badge reads "Pix Pro ended, reconnect to check" | Pix Pro expired while the booth was offline | Reconnect; the booth checks in and clears the watermark if the account has a place for it |
+| Cannot re-pair after Logout | On an old version Pix Pro was left on the computer | Update the app; Logout now returns Pix Pro or the trial to your account. A running Event Pass stays on the computer by design |
 
 ## The Computer
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| A clock banner in the operator menu | The computer's clock is more than 2 minutes off | Set the clock to automatic in the operating system; payments and licence checks depend on it |
+| A clock banner in the operator menu | The computer's clock is more than 2 minutes off | Set the clock to automatic in the operating system; payments and Pix Pro checks depend on it |
 | "Storage low" in the menu | Less than 3 GB free | Tap **Free Up Space**, or **Admin Panel > Clean Storage**; below 1 GB the booth cleans up on its own |
 | The app is unresponsive or closed on its own | A transient fault or the computer under load | Restart the app, close other programs, check disk space, update to the current version |
 | The app did not come back after a power cut | **Start on boot** is off | Turn it on in **Admin Panel** |
@@ -92,5 +92,5 @@ The camera's own log is on the Camera Settings page under **CAMERA LOG**. Suppor
 
 - [Operator Menu](./admin-panel.md)
 - [Offline Mode](./offline-mode.md)
-- [Licence on the Booth](./licence-on-the-booth.md)
+- [Pix Pro on the Booth](./licence-on-the-booth.md)
 - [Printer Setup](./printer-setup.md)

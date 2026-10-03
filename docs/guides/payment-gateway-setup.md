@@ -80,7 +80,7 @@ Coin acceptors, bill validators and keystroke card readers do not go through a g
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| The booth skips the Payment screen | Payment is off on the booth, or the computer is watermarked | Switch on **Payment on this booth** on the Pricing tab; check the licence badge in the operator menu |
+| The booth skips the Payment screen | Payment is off on the booth, or the computer is watermarked | Switch on **Payment on this booth** on the Pricing tab; check the plan badge in the operator menu |
 | Payment unavailable on the booth | No gateway connected, or wrong keys | Re-check **Settings > Payment Gateway**, then run **Test** |
 | QR shown but the payment never confirms | Sandbox and the guest's app do not match, or the webhook is missing | Match **Sandbox Mode** to the app the guest paid with; paste the webhook URL into the provider's dashboard |
 | Stripe payments succeed but no money arrives | An `sk_test_` key | **Edit** the gateway and paste the live key |

@@ -29,7 +29,7 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 ## Step 1: Buy AI Credits
 
-1. Open **Licenses** and click **Manage credits** on the **Pix AI credits** card. The page shows your credits left, the cost per image (1 credit per portrait) and how you pay.
+1. Open **Devices** and click **Manage credits** on the **Pix AI credits** card. The page shows your credits left, the cost per image (1 credit per portrait) and how you pay.
 
    ![Pix AI credits page with Credits left, Buy more, cost per image, How you pay and the credit packs](/img/docs/steps/tutorials-sell-ai-portraits--licenses-ai-credits.webp)
 
@@ -73,7 +73,7 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 - **Transactions** lists each sale as a row labelled **AI portrait** or **AI portrait + print**, counted in Total Revenue and in the Excel export. These rows are not tied to a photo session.
 - The **Dashboard** revenue card includes them.
-- **Pix Design > Pix AI** lists the recent generations, and the **Pix AI credits** card on **Licenses** shows the credits left.
+- **Pix Design > Pix AI** lists the recent generations, and the **Pix AI credits** card on **Devices** shows the credits left.
 
 ## Check It Worked
 

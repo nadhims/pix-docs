@@ -30,14 +30,14 @@ The buttons, top to bottom:
 | **Capture Settings** | Video and 360 slow-mo settings for a running event. See [Event Video Modes](./event-video-modes.md) |
 | **Hardware API** | Local API, CASH-Interface2 F13, keyboard coin input. See [Hardware Payments](./hardware-payments.md) |
 | **Admin Panel** | IDs, start on boot, upload queue, print history, preflight check. See below |
-| **Use a pass on this device** | Only when the computer is watermarked or blocked. See [Licence on the Booth](./licence-on-the-booth.md) |
+| **Use an Event Pass on this computer** | Only when the computer is watermarked or blocked. See [Pix Pro on the Booth](./licence-on-the-booth.md) |
 | **Logout** | Unlinks the computer from the booth. Needs a double-click, plus the PIN if one is set. On an unpaired booth this reads **Pair to your Pixture account** instead |
 | **Exit App** | Closes the app |
 | **Check for Updates** / **Restart & Update** | See [Software Updates](./software-updates.md) |
 
 ### Footer and badge
 
-The footer shows the booth name, the account email, the licence badge (**Pix Pro**, **Trial until …**, **Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pix v…". Support will ask for that version.
+The footer shows the booth name, the account email, the plan badge (**Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pix v…". Support will ask for that version.
 
 ### Notices
 
@@ -47,7 +47,7 @@ The Menu page surfaces anything that needs you:
 - The missing-PIN notice above.
 - A notice that the booth is running the default layout rather than one of your UI projects.
 - **Storage low** with a **Free Up Space** button when free disk drops below 3 GB.
-- A clock banner when the computer's clock is more than 2 minutes off. Fix the clock; payments and licence checks depend on it.
+- A clock banner when the computer's clock is more than 2 minutes off. Fix the clock; payments and Pix Pro checks depend on it.
 - A payment-failed banner when the card payment for Pix Pro did not go through.
 
 ## The Admin Panel
@@ -71,7 +71,7 @@ Two taps top-right, PIN, **Admin Panel**, **Print** is the fastest reprint. Teac
 
 ## Related
 
-- [Licence on the Booth](./licence-on-the-booth.md)
+- [Pix Pro on the Booth](./licence-on-the-booth.md)
 - [Offline Mode](./offline-mode.md)
 - [Booth Management](../dashboard/booth-management.md)
 - [Software Updates](./software-updates.md)

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Event Rental
-description: Rent your photo booth to weddings, corporate dinners and launches with Pixture, with a branded look per event, free sessions for guests, the online album for your client and a Day Pass for each event day.
+description: Rent your photo booth to weddings, corporate dinners and launches with Pixture, with a branded look per event, free sessions for guests, the online album for your client and an Event Pass for each event day.
 tags: [use-cases, events, weddings, corporate]
 ---
 
@@ -19,9 +19,9 @@ The client pays a fixed fee per event, usually agreed before the day. Weddings a
 
 Create an **Event** for each booking, with its dates, client and venue. An event runs itself: it is active from the moment you create it, the booths on it follow its dates, and it ends by itself the day after its last date. See [Run an Event](../tutorials/run-an-event.md).
 
-### 2. License the event days
+### 2. Cover the event days
 
-Every booth on an event needs Pix Pro or a **Day Pass** on its computer. If you only work weekends, Day Passes for the event days usually cost less than a subscription. Check **Licenses > Events** before the day: each event shows **Ready**, or which booths still need Pix Pro or a pass. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
+Every booth on an event needs Pix Pro or an **Event Pass** on its computer. If you only work weekends, Event Passes for the event days usually cost less than a subscription. Check **Devices > Events** before the day: each event shows **Ready**, or which booths still need an Event Pass or Pix Pro. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
 
 ### 3. Make it look like their event
 

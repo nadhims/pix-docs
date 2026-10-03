@@ -1,13 +1,13 @@
 ---
 sidebar_position: 9
 title: Offline Mode
-description: What the booth does when the venue internet drops, how the upload queue retries, what the operator sees in the Admin Panel, and how the licence and payments behave offline.
+description: What the booth does when the venue internet drops, how the upload queue retries, what the operator sees in the Admin Panel, and how Pix Pro and payments behave offline.
 tags: [desktop-app, offline, queue, resilience]
 ---
 
 # Offline Mode
 
-Venue internet is the least reliable part of a booth, so the Pix Desktop App is built to keep taking, printing and sharing photos through it. This page explains what happens during a session when the line drops, how the upload queue retries and when it gives up, what the Admin Panel shows, how storage is kept under control, and how vouchers and the licence behave without internet.
+Venue internet is the least reliable part of a booth, so the Pix Desktop App is built to keep taking, printing and sharing photos through it. This page explains what happens during a session when the line drops, how the upload queue retries and when it gives up, what the Admin Panel shows, how storage is kept under control, and how vouchers and Pix Pro behave without internet.
 
 ## During a Session
 
@@ -45,9 +45,9 @@ The booth cleans up on its own when free disk space drops below 1 GB, and warns 
 - **QR payments** need the gateway, so they need internet. A guest cannot pay by QRIS or Stripe QR while the line is down.
 - **Coin and card readers** attached to the computer talk to the booth locally and keep working; the session is recorded as paid and uploaded when the line returns.
 
-## The Licence Offline
+## Pix Pro Offline
 
-The booth does not phone home to stay licensed. If a pass, trial or subscription expires while the booth is offline, the booth turns **watermarked**, never blocked, and the badge reads "Pix Pro ended, reconnect to check". It clears on the next check-in if the account still has a place for the computer. See [Licence on the Booth](./licence-on-the-booth.md).
+The booth does not phone home to keep Pix Pro. If an Event Pass, trial or subscription expires while the booth is offline, the booth turns **watermarked**, never blocked, and the badge reads "Pix Pro ended, reconnect to check". It clears on the next check-in if the account still has a place for the computer. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 
 ## Heartbeat and the Dashboard
 
@@ -61,5 +61,5 @@ For a venue you know has no internet, launch the app and run one test session wh
 
 - [Operator Menu](./admin-panel.md)
 - [Sharing](./session-flow/sharing.md)
-- [Licence on the Booth](./licence-on-the-booth.md)
+- [Pix Pro on the Booth](./licence-on-the-booth.md)
 - [Troubleshooting](./troubleshooting.md)

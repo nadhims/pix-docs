@@ -33,7 +33,7 @@ With **Marketing consent** on in Marketing Studio, the Sharing screen asks the g
 
 ## Watermark
 
-A computer on Pix Pro, a Day Pass or the free trial delivers clean prints and files. A computer on Pix Starter, or one whose licence has run out, delivers the same prints, photos, GIFs and videos with the Pixture watermark. An unpaired booth running "Try it without an account" prints but has no QR code and no upload. See [Licence on the Booth](../licence-on-the-booth.md).
+A computer on Pix Pro, an Event Pass or the free trial delivers clean prints and files. A computer on Pix Starter, or one whose Pix Pro has run out, delivers the same prints, photos, GIFs and videos with the Pixture watermark. An unpaired booth running "Try it without an account" prints but has no QR code and no upload. See [Pix Pro on the Booth](../licence-on-the-booth.md).
 
 ## Ending the Session
 

@@ -40,7 +40,7 @@ Each link opens the video at that chapter, so you can watch only the part you ne
 | 11:25 | Full demo: pay, shoot, print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=685s |
 | 12:30 | Track revenue, gallery & booth health | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=750s |
 | 13:00 | Verify transactions | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=780s |
-| 13:25 | Devices & plan upgrade, Indonesia (this page is now called Licenses) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
+| 13:25 | Devices & plan upgrade, Indonesia (this page is now called Devices) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=805s |
 | 14:15 | International pricing & checkout | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=855s |
 
 ## Related

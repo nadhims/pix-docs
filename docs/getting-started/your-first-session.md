@@ -49,7 +49,7 @@ The dashboard home also shows a "Your booth is live" banner with a **View galler
 ## Tips
 
 - **Run a few test sessions** before opening. Watch the countdown length, the filter step and the sharing screen, and change what you do not like in the UI Editor.
-- **Expect the watermark on Pix Starter.** Every photo, print, GIF and video carries the Pixture watermark until the computer holds Pix Pro, a Day Pass or the free trial.
+- **Expect the watermark on Pix Starter.** Every photo, print, GIF and video carries the Pixture watermark until the computer holds Pix Pro, an Event Pass or the free trial.
 - **Free sessions skip Payment.** If you want to rehearse the payment step, put Pix Pro on the computer, turn **Payment on this booth** on under the booth's **Pricing** tab, and connect a gateway under **Settings > Payment Gateway**.
 - **Lock the operator menu** before guests arrive: set a PIN under the booth's **Settings** tab (**Menu PIN**). Guests then cannot reach Camera Settings, Printer Settings or Logout.
 
