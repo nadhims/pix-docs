@@ -68,7 +68,7 @@ Two computers cannot be paired to the same booth at once. **Unlink** the first b
 ## When Pairing Is Refused
 
 - **Pix Starter runs one computer.** Once one booth has a paired computer, **Generate code** on a second booth is refused. Add a device, buy an Event Pass or start the free trial first.
-- **Pix Pro with every device in use.** The modal shows "Device limit reached" with **Try Again**. Deactivate a computer on the [Devices](./billing.md) page or click **Add more devices** there, then generate the code again. If you hold an unused Event Pass, the computer pairs anyway and waits, blocked, until you use the Event Pass on it at the booth.
+- **Pix Pro with every device in use.** The modal shows "Device limit reached" with **Try Again**. Deactivate a computer on the [Devices](./billing.md) page or click **Buy license** there, then generate the code again. If you hold an unused Event Pass, the computer pairs anyway and waits, blocked, until you use the Event Pass on it at the booth.
 - **Event booths** are never refused or blocked: they run watermarked outside a live event and the event covers them on the day. See [Events](./events.md).
 
 :::caution Pix Pro never moves from the booth

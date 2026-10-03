@@ -27,17 +27,17 @@ A spare place attaches itself. The next computer that connects takes it, so you 
 
 ![Devices page of a Pix Pro account with the Devices, Subscription, Next renewal and Event Passes cards and the Active devices table](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-devices.webp)
 
-2. Click **Add more devices**. The modal reads "One device runs one computer. Pick how long, and how many."
+2. Click **Buy license**, then **Pix Pro**. The checkout reads "One device runs one computer. Pick monthly or yearly, and how many."
 
-![Add devices modal with the How many devices stepper, See volume pricing and the Pix Pro plan cards](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices.webp)
+![Pix Pro checkout with the How many devices stepper, See volume pricing and the Pix Pro plan cards](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices.webp)
 
 3. Set **How many devices?** The counter shows **Devices** now and **Updated devices** after the purchase.
 
-![Add devices modal with the quantity stepper set to 3 devices](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices-quantity.webp)
+![Pix Pro checkout with the quantity stepper set to 3 devices](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices-quantity.webp)
 
 4. Click **See volume pricing** to see how the per-device price changes with quantity; several devices bought together cost less each.
 
-![Volume pricing table with Event Pass, Monthly and Yearly prices per quantity](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-volume-pricing.webp)
+![Volume pricing table with Pix Pro Monthly and Yearly prices per quantity](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-volume-pricing.webp)
 
 5. Click **Select** on **Pix Pro (1 Month)** ($40 per computer per month, cancel anytime) or **Pix Pro (1 Year)** ($25 per computer per month, billed $300 per year, marked BEST VALUE) and complete checkout. If you already pay by card, a **Confirm this charge** step shows the amount and **Add and pay**.
 
@@ -72,7 +72,7 @@ If several Blocked computers are online, the first one to connect after you deac
 
 An Event Pass is 24 hours of Pix Pro on one computer, starting from the moment you use it at the booth: $5 (Rp 85.000).
 
-1. On **Devices**, click **Buy Event Passes** on the **Event Passes** card (or **Add more devices** and pick **Event Pass**), choose how many and pay. The card shows how many are unused.
+1. On **Devices**, click **Buy Event Passes** on the **Event Passes** card (or **Buy license** and pick **Event Pass**), choose how many and pay. The card shows how many are unused.
 
 ![Buy Event Passes flow opened from the Event Passes card](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-buy-passes.webp)
 
@@ -87,9 +87,9 @@ Rules that only apply to Event Passes:
 
 ## Step 5: On Pix Starter
 
-Pix Starter has no subscription. **Devices** reads "No devices yet", one computer is paired, and every photo, print and GIF carries the Pixture watermark. A second computer is refused at the pairing code. To run more computers, start the 3-day free trial (one computer) or click **Add more devices**.
+Pix Starter has no subscription. **Devices** reads "No devices yet", one computer is paired, and every photo, print and GIF carries the Pixture watermark. A second computer is refused at the pairing code. To run more computers, start the 3-day free trial (one computer) or click **Buy license**.
 
-![Devices page of a Pix Starter account with No devices yet, Subscription, Event Passes and Add more devices](/img/docs/licenses-starter.webp)
+![Devices page of a Pix Starter account with No devices yet, Subscription, Event Passes and Buy license](/img/docs/licenses-starter.webp)
 
 ## Before Pix Pro Ends
 

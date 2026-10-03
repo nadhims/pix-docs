@@ -51,7 +51,7 @@ In this tutorial you will create an event, put booths on it, give it its own tem
    ![Add booths modal on an event](/img/docs/steps/tutorials-run-an-event--event-add-booths-modal.webp)
 
 3. For a booth without a computer yet, click **Pair Booth** and enter the code in the Pix Desktop App on site. **Unlink** releases a computer from a booth; **Remove** takes the booth off the event.
-4. Check readiness on **Devices > Events**. Each event shows **Ready**, **No booth**, or how many computers need an Event Pass or Pix Pro. Fix the last one with **Add more devices** or **Buy Event Passes**. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass**.
+4. Check readiness on **Devices > Events**. Each event shows **Ready**, **No booth**, or how many computers need an Event Pass or Pix Pro. Fix the last one with **Buy license** or **Buy Event Passes**. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass**.
 
    ![Devices page, Events tab with Event, Date, Booths and Ready columns](/img/docs/steps/tutorials-run-an-event--licenses-events-tab.webp)
 

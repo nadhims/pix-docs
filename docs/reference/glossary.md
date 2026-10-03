@@ -79,7 +79,7 @@ A dated job in **Events** with its own booths, templates, screen design, capture
 
 ### Event Pass
 
-24 hours of Pix Pro on one computer, $5 or Rp 85.000. Buy any number at any time; volume pricing applies. Unused Event Passes wait in your account, shown as "N unused" on the **Event Passes** card of the Devices page. One starts only when you use it at the booth: tap **Use Event Pass** on the event start screen, or **Use an Event Pass on this computer** in the operator menu. It ends when the computer is deactivated and cannot be moved.
+24 hours of Pix Pro on one computer, $5 or Rp 85.000. Buy any number at any time, at a flat price. Unused Event Passes wait in your account, shown as "N unused" on the **Event Passes** card of the Devices page. One starts only when you use it at the booth: tap **Use Event Pass** on the event start screen, or **Use an Event Pass on this computer** in the operator menu. It ends when the computer is deactivated and cannot be moved.
 
 ### Extra prints
 
