@@ -25,7 +25,7 @@ The sidebar lists the pages in this order. Your role decides which ones you see.
 | [Marketing Studio](./marketing-studio.md) | Consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance. Pix Pro only |
 | [Gallery](./gallery.md) | Browse, download and delete what your booths captured |
 | [Health](./health.md) | Which booths are online, their camera, printer, paper and error records |
-| [Devices](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Add more devices** |
+| [Devices](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Buy license** |
 | [Pix Design](./pix-design/overview.md) | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | Help | Opens a chat with Lucy, the dashboard assistant |
 | [Settings](./settings.md) | Organization, preferences, members, payment gateway, profile, billing, security and data |

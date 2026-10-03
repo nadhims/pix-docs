@@ -61,7 +61,7 @@ This page is the first stop when a booth misbehaves. Each table lists a symptom,
 | Symptom | Likely cause | Fix |
 |---|---|---|
 | Every photo carries the Pixture watermark | Pix Starter, or an Event Pass, trial or subscription that ended | Put Pix Pro or an Event Pass on the computer: **Use an Event Pass on this computer** in the menu, or **Devices** in the dashboard |
-| Booth shows "Device limit reached", guests see "Please call the operator." | All device places on a Pix Pro account are in use | **Devices > Deactivate** a computer you no longer use, or **Add more devices** |
+| Booth shows "Device limit reached", guests see "Please call the operator." | All device places on a Pix Pro account are in use | **Devices > Deactivate** a computer you no longer use, or **Buy license** |
 | A popup says the Event Pass, trial or Pix Pro ended | Pix Pro ran out on this computer | Scan the **Manage devices** QR or open **Devices**; a running session finishes clean |
 | Badge reads "Pix Pro ended, reconnect to check" | Pix Pro expired while the booth was offline | Reconnect; the booth checks in and clears the watermark if the account has a place for it |
 | Cannot re-pair after Logout | On an old version Pix Pro was left on the computer | Update the app; Logout now returns Pix Pro or the trial to your account. A running Event Pass stays on the computer by design |

@@ -21,7 +21,7 @@ Create a **Multi-Booth** group under **Booths > + New Booth**, set **How many ph
 
 ### 2. One computer and one Pix Pro per booth
 
-Each booth is paired to its own computer, and each computer needs its own Pix Pro. Add devices under **Devices > Add more devices**; volume pricing applies as you add more. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
+Each booth is paired to its own computer, and each computer needs its own Pix Pro. Add devices under **Devices > Buy license**; volume pricing applies as you add more. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
 
 ### 3. One queue, one cashier
 

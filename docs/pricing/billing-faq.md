@@ -10,8 +10,8 @@ tags: [pricing, billing, faq]
 ## How do I add a device?
 
 1. Open **Devices** in the Pixture dashboard.
-2. Tap **Add more devices**.
-3. Set **How many devices?** and pick **Event Pass**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**.
+2. Tap **Buy license** and pick **Event Pass** or **Pix Pro**.
+3. For Pix Pro, set **How many devices?** and pick **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**. For Event Passes, set how many.
 4. Pay at checkout. When you add devices to a card subscription you already have, the dashboard shows **Confirm this charge** first.
 
 A spare subscription attaches itself to the next computer that checks in without Pix Pro. Event Passes wait in your account until you use one at the booth.
@@ -80,15 +80,15 @@ No. Pix Starter runs one computer, and a second computer is refused at the pairi
 
 ## The booth says "Device limit reached". What now?
 
-Every device on your subscription is already active. On **Devices**, deactivate a computer you are not using, or tap **Add more devices**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
+Every device on your subscription is already active. On **Devices**, deactivate a computer you are not using, or tap **Buy license**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
 
 ## Can I buy Event Passes ahead of an event?
 
-Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Devices** page, or pick **Event Pass** under **Add more devices**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
+Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Devices** page, or pick **Event Pass** under **Buy license**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
 
 ## Is there volume pricing?
 
-Yes, when you add several devices in one purchase. Tap **See volume pricing** in the **Add devices** modal to see the per-device price for each plan before you pay.
+Yes, for Pix Pro, when you add several devices in one purchase. Tap **See volume pricing** in the Pix Pro checkout to see the per-device price for Monthly and Yearly before you pay. Event Passes are a flat price.
 
 ## Do AI credits expire?
 
