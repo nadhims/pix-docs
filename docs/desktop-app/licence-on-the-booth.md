@@ -33,7 +33,7 @@ A watermarked computer keeps working: guests take photos, print and share. The P
 On a Pix Pro account, a computer without Pix Pro is blocked rather than watermarked: it refuses to start sessions and shows "Device limit reached". Guests see "Please call the operator." To free it:
 
 1. On the dashboard, open **Devices**.
-2. Either click **Deactivate** on a computer you no longer use, which frees its place, or click **Add more devices** to buy another place.
+2. Either click **Deactivate** on a computer you no longer use, which frees its place, or click **Buy license** to buy another place.
 3. The blocked computer picks up Pix Pro on its next check-in.
 
 Only the dashboard moves Pix Pro between computers. There is nothing on the booth that takes Pix Pro from another computer.

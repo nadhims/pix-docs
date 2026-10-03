@@ -20,7 +20,7 @@ Pixture is priced per computer, not per account or per booth. Booths are free pr
 | **Pix Pro Monthly** | Pix Pro (1 Month) | $40 per computer per month (Rp 850.000 in Indonesia). Cancel anytime | A computer that runs most days |
 | **Pix Pro Yearly** | Pix Pro (1 Year) | $300 per computer per year, which is $25 per month (Rp 6.500.000 in Indonesia). The dashboard marks it Best Value, Save 38% | The same computer, paying yearly |
 
-Several devices in one purchase get a volume discount; the checkout shows the per-device price before you pay. Visitors from Indonesia see rupiah prices and prepaid notes instead of the card subscription. Full detail in [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
+Several Pix Pro devices in one purchase get a volume discount; the checkout shows the per-device price before you pay. Visitors from Indonesia see rupiah prices and prepaid notes instead of the card subscription. Full detail in [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
 
 ## Pix Starter: One Computer, Watermarked
 
@@ -52,13 +52,13 @@ Buying is done on the **Devices** page. A computer that is paired and waiting pi
 
 1. Open **Devices** in the sidebar. On a Pix Starter account the **Devices** card says there are no devices yet, and the **Event Passes** card shows 0 unused with a **Buy Event Passes** button.
 
-   ![The Devices page of a Pix Starter account with the Devices, Subscription, Next renewal and Event Passes cards and an Add more devices button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
+   ![The Devices page of a Pix Starter account with the Devices, Subscription, Next renewal and Event Passes cards and a Buy license button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
 
-2. Click **Add more devices**. The modal explains: "One device runs one computer. Pick how long, and how many."
-3. Set **How many devices?** with the stepper. Click **See volume pricing** to compare the per-device price of the Event Pass, Monthly and Yearly at that quantity.
+2. Click **Buy license**, then pick **Pix Pro** (or **Event Pass** for a single event). The Pix Pro checkout explains: "One device runs one computer. Pick monthly or yearly, and how many."
+3. Set **How many devices?** with the stepper. Click **See volume pricing** to compare the per-device price of Monthly and Yearly at that quantity.
 4. Click **Select** on **Event Pass**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)**.
 
-   ![The Add devices modal with the How many devices stepper, See volume pricing, and the Event Pass $5, Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 cards](/img/docs/steps/getting-started-choose-plan--licenses-add-devices.webp)
+   ![The Pix Pro checkout with the How many devices stepper, See volume pricing, and the Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 cards](/img/docs/steps/getting-started-choose-plan--licenses-add-devices.webp)
 
 5. Complete the checkout. Internationally you pay by card and the subscription renews until you cancel. In Indonesia you pay at checkout with QRIS, bank transfer or a card, and the purchase is prepaid with no auto-renewal.
 
@@ -68,7 +68,7 @@ What happens next depends on what you bought:
 - **Event Pass:** unused Event Passes wait in your account. Use one at the booth: tap **Use Event Pass** on the event start screen, or open the operator menu and tap **Use an Event Pass on this computer**. It runs for 24 hours on that computer and cannot be moved afterwards.
 
 :::info
-The Add devices modal ends with the rule that matters most: "One device runs one computer. A computer past your subscription stays paired, it just will not start a session until you deactivate one or add another." Freeing a place is one click, **Deactivate**, on the Devices page.
+The Pix Pro checkout ends with the rule that matters most: "One device runs one computer. A computer past your subscription stays paired, it just will not start a session until you deactivate one or add another." Freeing a place is one click, **Deactivate**, on the Devices page.
 :::
 
 ## Which One?

@@ -27,7 +27,7 @@ You do not even need an account to try the booth: install the Pix Desktop App an
 
 **$5 or Rp 85.000.** 24 hours of Pix Pro on one computer. The 24 hours start only when you use the Event Pass at the booth.
 
-- Buy any time, in any quantity. Several at once get volume pricing. Unused Event Passes wait in your account; the **Event Passes** card on the Devices page shows "N unused".
+- Buy any time, in any quantity, at a flat price. Unused Event Passes wait in your account; the **Event Passes** card on the Devices page shows "N unused".
 - Use one at the booth: on an event, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?". Any other time, open the operator menu and tap **Use an Event Pass on this computer**. A computer paired while you hold unused Event Passes stays blocked until you use one on it.
 - While it runs, the booth shows a badge "Event Pass until HH:mm".
 - An Event Pass ends when the computer is deactivated. It cannot be moved to another computer or used again.
@@ -50,7 +50,7 @@ Weddings, markets, brand activations and school events, where you pass the cost 
 
 ## Several computers at once
 
-Adding several devices in one purchase gives a volume discount. Open **Devices > Add more devices**, set **How many devices?** and tap **See volume pricing** to see the per-device price for the Event Pass, Monthly and Yearly before you pay.
+Adding several devices in one purchase gives a volume discount. Open **Devices > Buy license > Pix Pro**, set **How many devices?** and tap **See volume pricing** to see the per-device price for Monthly and Yearly before you pay.
 
 ## Free 3-Day Trial
 

@@ -23,7 +23,7 @@ Pix Pro is per computer. A computer running the Pix Desktop App is a **device**,
 
 ## Active Devices
 
-Under the cards, "N of M allowed devices active, N devices remaining" and **Add more devices**. The table lists each active computer.
+Under the cards, "N of M allowed devices active, N devices remaining" and **Buy license**. The table lists each active computer.
 
 | Column | What it shows |
 |---|---|
@@ -43,12 +43,12 @@ A computer does not need activating by hand. When your subscription has a place 
 
 **Deactivate** frees a computer's place for another. On a subscription, "A place on your subscription frees up" and the next computer that checks in claims it; the deactivated computer stays paired but cannot start a session until a place is free again. On an Event Pass, the modal warns that the Event Pass ends here and cannot be moved or used again. The modal offers **Keep Pix Pro** or **Deactivate**.
 
-## Add More Devices
+## Buy a License
 
-![Add devices modal: How many devices, See volume pricing, plan cards Event Pass $5, Pix Pro (1 Month) $40, Pix Pro (1 Year) $300 with Save 38%](/img/docs/licenses-add-devices.webp)
+![Pix Pro checkout: How many devices, See volume pricing, Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 with Save 38%](/img/docs/licenses-add-devices.webp)
 
-1. Click **Add more devices**. "One device runs one computer. Pick how long, and how many."
-2. Set **How many devices?**. Several at once earn a volume discount; **See volume pricing** shows the table.
+1. Click **Buy license** and pick **Event Pass** or **Pix Pro**. Each has its own checkout.
+2. **Pix Pro:** pick Monthly or Yearly and set **How many devices?**. Several at once earn a volume discount; **See volume pricing** shows the table. **Event Pass:** set how many. The price is flat.
 3. Click **Select** on a plan card and pay at checkout.
 
 | Plan card | Price | Note on the card |
@@ -57,11 +57,11 @@ A computer does not need activating by hand. When your subscription has a place 
 | **Pix Pro (1 Month)** | $40 per month, Rp 850.000 in Indonesia | "Per computer. Cancel anytime" |
 | **Pix Pro (1 Year)** | $25 per month, billed $300 per year, Rp 6.500.000 in Indonesia | BEST VALUE, "Save 38%" |
 
-![Volume pricing table: Event Pass, Monthly and Yearly per quantity](/img/docs/licenses-volume-pricing.webp)
+![Volume pricing table: Pix Pro Monthly and Yearly per quantity](/img/docs/licenses-volume-pricing.webp)
 
 Outside Indonesia you pay by card at checkout, and Monthly and Yearly renew until you cancel. In Indonesia the modal shows rupiah, QRIS, bank transfer or card at checkout, notes such as "Prepaid, no auto-renewal", and a promo code field; a rupiah purchase is prepaid and simply ends when its period ends.
 
-![Add devices modal as seen from Indonesia: rupiah prices, prepaid notes, promo code](/img/docs/licenses-add-devices-idr.webp)
+![Pix Pro checkout as seen from Indonesia: rupiah prices, prepaid notes, promo code](/img/docs/licenses-add-devices-idr.webp)
 
 Adding devices to a card subscription you already have shows **Confirm this charge** before anything is billed.
 
@@ -87,7 +87,7 @@ Every organization can claim one free 3-day Pix Pro trial on one computer, with 
 
 ## Pix Starter
 
-![Devices page of a Pix Starter account: No devices yet, Subscription, Event Passes, Add more devices](/img/docs/licenses-starter.webp)
+![Devices page of a Pix Starter account: No devices yet, Subscription, Event Passes, Buy license](/img/docs/licenses-starter.webp)
 
 With no active device the account is Pix Starter: "No devices yet, Pix Starter runs one computer, watermarked". Every photo and print carries the Pixture watermark, and a second computer is refused at the pairing code. Booths, templates and screen designs are still yours to prepare. See [Plans](../pricing/plans.md).
 
