@@ -67,7 +67,7 @@ Your photo (**Upload Photo**, **Remove Photo**), **Display name** with **Save**,
 
 ![Settings > Pixture billing: subscription state, payment method, invoice history](/img/docs/settings-pixture-billing.webp)
 
-Titled **Billing & Payment**, in three blocks: the subscription state ("Subscription active", "Subscription ends", "Day Pass running" or "No subscription") with **Manage subscription** or **Add devices**; the payment method, **Update card** for card subscriptions or "Paid at checkout with QRIS, bank transfer or a card. Nothing is stored." for rupiah purchases; and **Invoice history** with **View** and **Download**. Cancelling a card subscription happens behind **Manage subscription**. See [Licenses](./billing.md).
+Titled **Billing & Payment**, in three blocks: the subscription state ("Subscription active", "Subscription ends", "Event Pass running" or "No subscription") with **Manage subscription** or **Add devices**; the payment method, **Update card** for card subscriptions or "Paid at checkout with QRIS, bank transfer or a card. Nothing is stored." for rupiah purchases; and **Invoice history** with **View** and **Download**. Cancelling a card subscription happens behind **Manage subscription**. See [Devices](./billing.md).
 
 ## Security
 
@@ -104,6 +104,6 @@ Add a second owner or admin so the business is not locked out if one phone or pa
 ## Related
 
 - [Dashboard Overview](./overview.md)
-- [Licenses](./billing.md)
+- [Devices](./billing.md)
 - [Payment Gateway Setup](../guides/payment-gateway-setup.md)
 - [Admin Panel on the booth](../desktop-app/admin-panel.md)

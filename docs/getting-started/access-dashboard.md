@@ -32,7 +32,7 @@ Every page of the dashboard is one click away in the left sidebar. Owners and ad
 | **Marketing Studio** | Pix Pro only: marketing consent, audience, bonus sessions, Frame Lab, campaigns and performance |
 | **Gallery** | Browse, download and delete the photos your booths produced |
 | **Health** | Live booth status, issues, today's sessions, paper level, last seen, and error records to download |
-| **Licenses** | Your devices, subscription, next renewal and passes. **Add more devices** and **Deactivate** live here |
+| **Devices** | Your devices, subscription, next renewal and Event Passes. **Add more devices** and **Deactivate** live here |
 | **Pix Design** | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | **Help** | Opens a chat with Lucy, the in-dashboard assistant |
 | **Settings** | Organisation, preferences, members, payment gateway, profile, Pixture billing, security and data |

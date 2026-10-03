@@ -54,7 +54,7 @@ Where it comes from: **Marketing Studio > Frame Lab** shows the shared **Guest u
 | Page | Address | What it is |
 |---|---|---|
 | Pixture dashboard | `pixture.io` | Sign in to set up booths, design, watch health and manage billing |
-| Licenses shortcut | `pixture.io/licenses` | Opens your Licenses page. The booth shows it as a QR code under **Manage devices** when Pix Pro or a pass ends on that computer |
+| Devices shortcut | `pixture.io/licenses` | Opens your Devices page. The booth shows it as a QR code under **Manage devices** when Pix Pro or an Event Pass ends on that computer |
 | Documentation | `docs.pixture.io` | These pages |
 | Download | The **Download** link on pixture.io | The Pix Desktop App for macOS and Windows |
 

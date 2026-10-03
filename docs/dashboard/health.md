@@ -55,7 +55,7 @@ At the bottom of the page, **Error records** lists the errors your booths report
 
 ## App Version and Updates
 
-The version of the Pix Desktop App each computer runs is listed on the [Licenses](./billing.md) page, in the Version column. The current version is 1.1.115. The booth updates itself; see [Software Updates](../desktop-app/software-updates.md).
+The version of the Pix Desktop App each computer runs is listed on the [Devices](./billing.md) page, in the Version column. The current version is 1.1.115. The booth updates itself; see [Software Updates](../desktop-app/software-updates.md).
 
 :::tip Name your booths by place
 Health lists booths by booth name. A name like "Grand Mall L2" makes this page readable at a glance; rename from the chevron menu on the Booths page.

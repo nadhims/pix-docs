@@ -112,11 +112,11 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 | Symptom | Cause | Fix |
 |---|---|---|
 | The pairing code is refused | Codes expire after 10 minutes | Click **Regenerate** and enter the new code |
-| "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Licenses page, add a device, or use a Day Pass. Pix Starter runs one computer |
+| "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Devices page, add a device, or use an Event Pass. Pix Starter runs one computer |
 | The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pix Desktop App is running |
 | Guests see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |
 | Every session is free | **Payment on this booth** is off, or the computer is on Pix Starter | Turn the switch on and connect a gateway; Pix Starter skips the Payment screen |
-| Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Licenses page |
+| Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Devices page |
 
 ## Related
 

@@ -14,10 +14,10 @@ New to words like booth, template, UI project or microsite? Read [How Pixture Wo
 ## The Fifteen-Minute Path
 
 1. [Create your account](./create-account.md). Sign up at pixture.io, complete your profile and answer the Quick setup, which also creates your first booth.
-2. [Choose your plan](./choose-plan.md). Stay on the free Pix Starter plan, claim the 3-day Pix Pro trial, or put a Day Pass or Pix Pro on the booth computer. You can come back to this at any time.
+2. [Choose your plan](./choose-plan.md). Stay on the free Pix Starter plan, claim the 3-day Pix Pro trial, or put Pix Pro or an Event Pass on the booth computer. You can come back to this at any time.
 3. [Install the Pix Desktop App](./download-desktop-app.md) on the Mac or Windows computer that will run the booth.
 4. [Pair your first booth](./pair-your-first-booth.md). Generate a 6-digit code in the dashboard and type it into the app.
-5. [Know your way around the dashboard](./access-dashboard.md). A short tour of the sidebar, so you know where prices, templates, health and licences live.
+5. [Know your way around the dashboard](./access-dashboard.md). A short tour of the sidebar, so you know where prices, templates, health and devices live.
 6. [Run your first photo session](./your-first-session.md). Walk through the guest flow once, then find the photos in the Gallery.
 
 Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same ground in about fifteen minutes, with chapter links.

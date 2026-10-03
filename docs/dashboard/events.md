@@ -76,15 +76,15 @@ Per-booth health for the event: camera, printer, paper, memory and disk, session
 
 **Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and payment gateway. Booths, screen design and templates are changed on the Setup tab. **Delete Event** on the event page works at any time, even while the event is live (the list's bulk **Delete** skips ongoing events); the booths and their photo sessions stay in your account, only the event and its album go away.
 
-## Licences, Pricing and Transactions
+## Pix Pro, Pricing and Transactions
 
-- Each booth on an event needs Pix Pro on its computer or an unspent Day Pass in your pool. **Licenses > Events** lists every event with **Ready**, **No booth** or "N without Pix Pro or a pass". Buy passes on the [Licenses](./billing.md) page; a pass is used from the booth's operator menu on the day.
+- Each booth on an event needs Pix Pro on its computer or an unused Event Pass in your account. **Devices > Events** lists every event with **Ready**, **No booth** or a note that N computers need an Event Pass or Pix Pro. Buy Event Passes on the [Devices](./billing.md) page; on the day, the booth asks "Use an Event Pass for today?" and you tap **Use Event Pass**.
 - While the event runs, its session price, packages and gateway replace the booth's own. Tax, fees and currency stay the booth's. The booth shows the Payment screen when the event charges and skips it when the event is free.
 - Photo sessions captured during the event carry an event chip on [Transactions](./transactions.md), so the client's takings are easy to pull out.
 
 ## Related
 
 - [Run an Event](../tutorials/run-an-event.md)
-- [Licenses](./billing.md)
+- [Devices](./billing.md)
 - [Event Video Modes](../desktop-app/event-video-modes.md)
 - [Public Links](../reference/public-links.md)

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Pop-Up Booth
-description: Take a portable photo box to markets, festivals and campus fairs with Pixture, pay only for the days you work with a Day Pass, and keep selling when the internet is weak.
+description: Take a portable photo box to markets, festivals and campus fairs with Pixture, pay only for the days you work with an Event Pass, and keep selling when the internet is weak.
 tags: [use-cases, pop-up, portable, festivals]
 ---
 
@@ -13,7 +13,7 @@ A pop-up booth is a knockdown box that packs into a car and sets up in under an 
 
 ### 1. Pay for the days you work
 
-Put a **Day Pass** on the booth computer for each event day, or Pix Pro if you go out most weekends. Buy passes ahead on the **Licenses** page. See [Plans & Pricing](../pricing/plans.md).
+Use an **Event Pass** on the booth computer for each event day, or Pix Pro if you go out most weekends. Buy Event Passes ahead on the **Devices** page. See [Plans & Pricing](../pricing/plans.md).
 
 ### 2. Take payment at the stall
 

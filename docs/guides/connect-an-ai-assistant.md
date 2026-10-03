@@ -79,7 +79,7 @@ The three steps it will take you through are the same three the dashboard shows 
 
 - Install the Pix app or sign in to it. That happens on the booth computer.
 - Upload a logo or design templates and booth screens. Those need the browser.
-- Buy Pix Pro or a Day Pass. Payments stay on the Devices page.
+- Buy Pix Pro or an Event Pass. Payments stay on the Devices page.
 - See any other Pixture business, or create accounts.
 
 ## Disconnect

@@ -26,7 +26,7 @@ The current version is **1.1.115**. The main changes since 1.1.82:
 - **Studio mode.** A timed pool session: the guest takes as many shots as they like, then assigns their favourites to the template slots. See [Studio Sessions](./studio-sessions.md).
 - **Per-photo adjust on the Review screen.** Tap a photo to scale it, mirror it or move the crop before it goes into the layout. The separate Adjust screen is gone. See [Review and Adjust](./session-flow/review-and-adjust.md).
 - **Video and 360 slow-mo for events.** An event can switch every booth in it to video capture, with an intro, outro, soundtrack and overlay. See [Event Video Modes](./event-video-modes.md).
-- **Device licensing and "Try it without an account".** Pix Pro now lives on the computer, the operator menu shows a licence badge, and a fresh install can run watermarked with built-in frames before it is paired. See [Licence on the Booth](./licence-on-the-booth.md).
+- **Pix Pro per computer and "Try it without an account".** Pix Pro now lives on the computer, the operator menu shows a plan badge, and a fresh install can run watermarked with built-in frames before it is paired. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 - **Every currency.** Prices show the way the dashboard shows them, in any currency, with a tax label that follows the currency.
 - **An upload queue that survives bad venue internet.** Network failures retry on a short schedule and never count against a photo. See [Offline Mode](./offline-mode.md).
 - **AI portrait print pickup.** A guest who bought an AI portrait on their phone types a pickup code into the booth and takes the print from the tray (available to beta accounts).
@@ -53,14 +53,14 @@ The app is the booth. The Pixture dashboard at pixture.io is where you design an
 - **Pix Design** holds your print templates, the booth screens (UI projects), photo filters and GIF overlays. Save there and the booth picks the change up on its next check-in, usually within seconds.
 - **Booths** holds each booth's pricing, assigned templates and filters, output switches (singles, GIF, live photo, print) and the operator menu PIN.
 - **Events** switches booths into video or 360 slow-mo capture and gives them event templates for the day.
-- **Licenses** is where Pix Pro, Day Passes and the free trial are put on computers and moved between them.
+- **Devices** is where Pix Pro, Event Passes and the free trial are put on computers and moved between them.
 
 The booth itself keeps only what belongs to the hardware: camera, printer, hardware payment settings and the upload queue. All of that sits behind the operator menu, which opens with two taps on the top-right corner of the screen. See [Operator Menu](./admin-panel.md).
 
 ## Plans
 
 - **Pix Starter** (free): one computer, and every photo, print, GIF and video carries the Pixture watermark.
-- **Day Pass**: full Pix Pro on one computer for 24 hours, $5 or Rp 85.000 per computer per day.
+- **Event Pass**: 24 hours of Pix Pro on one computer, $5 or Rp 85.000. The 24 hours start when you use it at the booth.
 - **Pix Pro** Monthly ($40 or Rp 850.000) or Yearly ($300 per year): clean output, unlimited templates and screen designs, per computer.
 
 See [Plans](../pricing/plans.md) for the full comparison.

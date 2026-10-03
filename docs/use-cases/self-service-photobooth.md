@@ -15,7 +15,7 @@ Guests pay per photo session, usually the price of a cup of coffee. Income grows
 
 ## The Setup
 
-### 1. License the computer
+### 1. Put Pix Pro on the computer
 
 A booth that opens every day runs on **Pix Pro**, monthly or yearly, on its computer. Pix Starter is free but watermarked and skips the Payment screen, so it cannot charge guests. See [Plans & Pricing](../pricing/plans.md).
 

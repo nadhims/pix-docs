@@ -67,7 +67,7 @@ The app checks for updates on its own, downloads them in the background and rest
 - **macOS**: drag Pix from Applications to the Trash.
 - **Windows**: open **Settings > Apps > Installed apps**, find Pix and click **Uninstall**.
 
-Uninstalling does not free the computer's place on your subscription. Log out from the operator menu first, or deactivate the computer on the dashboard's **Licenses** page. See [Licence on the Booth](./licence-on-the-booth.md).
+Uninstalling does not free the computer's place on your subscription. Log out from the operator menu first, or deactivate the computer on the dashboard's **Devices** page. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 
 ## Related
 

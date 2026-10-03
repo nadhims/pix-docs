@@ -41,9 +41,9 @@ Five steps take a new account to its first photo session. Most operators finish 
 | [Getting Started](./getting-started/overview.md) | Account, plan, install, pairing, the dashboard tour and your first photo session |
 | [Use Cases](./use-cases/overview.md) | How to run a self-service booth, event rentals, a multi-booth studio or a pop-up box with Pixture |
 | [Tutorials](./tutorials/overview.md) | Step-by-step jobs: set up a booth, design a template, accept payments, run an event, and more |
-| [Dashboard](./dashboard/overview.md) | Every page of the Pixture dashboard, from Booths and Pricing to Licenses and Settings |
+| [Dashboard](./dashboard/overview.md) | Every page of the Pixture dashboard, from Booths and Pricing to Devices and Settings |
 | [Desktop App](./desktop-app/overview.md) | The booth: installation, cameras, printers, the session flow, the operator menu and troubleshooting |
-| [Plans & Billing](./pricing/plans.md) | Pix Starter, the Day Pass, Pix Pro, the free trial and billing questions |
+| [Plans & Billing](./pricing/plans.md) | Pix Starter, Pix Pro, the Event Pass, the free trial and billing questions |
 | [Guides](./guides/booth-operations-checklist.md) | Longer reads for running a booth well: operations checklist, multi-booth, payment gateways, branding |
 | [Reference](./reference/system-requirements.md) | System requirements, supported cameras and printers, public links and the glossary |
 | [Release notes](/releases) | What changed in each version of the Pix Desktop App and the dashboard |
@@ -52,7 +52,7 @@ Five steps take a new account to its first photo session. Most operators finish 
 
 - **Studio mode.** A timed session where guests take free shots and then place their favourites into the template slots. Needs Pix Desktop App 1.1.98 or newer. See [Studio Sessions](./desktop-app/studio-sessions.md).
 - **Events that run themselves.** Give an event its dates and it is ongoing right away, then ends on its own the day after the last date. Each event can shoot photos or video (360 slow-mo is marked Soon) and can start from a free template pack. See [Events](./dashboard/events.md).
-- **Device licensing.** Pix Pro lives on the computer, not the booth. Buy a Day Pass at $5 per computer per day on the Licenses page, or claim the free 3-day trial from the popup in the dashboard. See [Plans & Pricing](./pricing/plans.md).
+- **Pix Pro per computer.** Pix Pro lives on the computer, not the booth. Buy an Event Pass, 24 hours of Pix Pro for $5, on the Devices page, or claim the free 3-day trial from the popup in the dashboard. See [Plans & Pricing](./pricing/plans.md).
 - **Online session shop.** Every booth has a link where customers pick a package on their phone, pay, and receive a code the booth accepts even offline. Needs 1.1.101 or newer. See [Sell Sessions Online](./tutorials/sell-sessions-online.md).
 - **AI portraits on the share page.** Guests can buy an AI portrait from their share page, digital or with a print picked up at the booth. Available to beta accounts. See [Pix AI](./dashboard/pix-design/pix-ai.md).
 - **Every currency and country.** Set any timezone and any ISO currency for your organisation, and a different currency per booth if you need it. Needs 1.1.106 or newer.
