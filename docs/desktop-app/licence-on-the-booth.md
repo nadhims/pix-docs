@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Pix Pro on the Booth
-description: What the Pix Pro badge in the operator menu means, what watermarked and blocked look like on the booth, how to use an Event Pass, the warnings before it ends, and what Logout does to Pix Pro.
+description: What the Pix Pro badge in the operator menu means, what watermarked and blocked look like on the booth, how an event computer gets its Event Pass or Pix Pro, pairing with a code, the warnings before it ends, and what Logout does to Pix Pro.
 tags: [desktop-app, pix-pro, event-pass]
 ---
 
@@ -42,9 +42,21 @@ Only the dashboard moves Pix Pro between computers. There is nothing on the boot
 
 When the computer is watermarked or blocked, the operator menu shows **Use an Event Pass on this computer**. Tap it to start one of your unused Event Passes on this computer for the next 24 hours. The button sits behind the menu PIN, so a guest cannot use up your Event Passes; the prompt on the Home screen is information only.
 
-On an event, the booth asks first: "Use an Event Pass for today?" Tap **Use Event Pass** to start one, or **Use Pix Pro** if the computer already has a Pix Pro subscription place.
+Event Passes are bought on the Devices page: **Buy license**, then **Event Pass**.
 
-Event Passes are bought on the Devices page with **Buy Event Passes** on the **Event Passes** card.
+## On an Event
+
+A computer paired to an [event](../dashboard/events.md) never runs watermarked: it needs an Event Pass or Pix Pro before it can start sessions. Until it has one, the booth shows a start screen instead of Home:
+
+- **"Use an Event Pass for today?"** when you have unused Event Passes ("You have 1 Event Pass."). Tap **Use Event Pass** to start one on this computer; its 24 hours start now.
+- **Use Pix Pro** when a Pix Pro in your account is on no computer ("Use Pix Pro for this event?"). The computer runs on it for as long as it is paired.
+- **"No Event Passes left"** when there is nothing to use. Scan the QR code to **Buy Event Passes on your phone**, then tap **Recheck**.
+
+Both buttons sit behind the menu PIN. Once the computer has its license, the booth goes to Home and the event page on the dashboard shows the computer as **Event Pass** with a countdown, or **Pix Pro**. A running Event Pass can be given 24 more hours from the dashboard with **Extend 24h** on the computer's row.
+
+## Pair With a Code
+
+The operator menu has **Pair with a code**. Enter the 6-digit code from the dashboard (an event's **Pair a computer**, or a booth's pairing code) to move this computer there **without logging out**, so its Pix Pro stays with it. The app reloads on the new booth or event.
 
 ## Warnings Before It Ends
 

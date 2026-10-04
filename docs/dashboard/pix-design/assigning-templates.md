@@ -66,12 +66,12 @@ A booth with no templates assigned has nothing for guests to pick. Keep at least
 
 ## Events Use Their Own Set
 
-An event carries its own templates, separate from the booths' everyday set. While the event runs (its dates plus one night of grace), every booth in the event shows the event's templates instead of its own. When the event ends, the booths return to their usual assignments by themselves.
+An event carries its own templates, separate from the booths' everyday set. While the event runs (its dates plus one night of grace), every computer on the event shows the event's templates instead of its booth's own. When the event ends, the booths return to their usual assignments by themselves.
 
-You set the event's templates on the event's **Setup** tab, in the **Template** card:
+You set the event's templates on the event's **Setup** tab, on the **Template** tab of the booth mode settings (or on the wizard's Templates step when you create the event):
 
-- **Choose a template** opens the browser of free template packs from Pixture, when packs are available. Each pack brings its print layouts, a GIF overlay and a matching booth look, and **Use this pack** copies all of that into the event.
-- **Manage Templates** opens the same modal as on a booth, so you can pick from your own template projects.
+- **Browse template packs** opens the browser of free template packs from Pixture, when packs are available. Each pack brings its print layouts, a GIF overlay and a matching booth look, and **Use this pack** copies all of that into the event.
+- **Add templates** (or **Manage Templates**) opens the same modal as on a booth, so you can pick from your own template projects.
 
 ![Manage Templates modal on an event](/img/docs/event-manage-templates-modal.webp)
 

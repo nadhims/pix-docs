@@ -17,21 +17,21 @@ The client pays a fixed fee per event, usually agreed before the day. Weddings a
 
 ### 1. Create the event
 
-Create an **Event** for each booking, with its dates, client and venue. An event runs itself: it is active from the moment you create it, the booths on it follow its dates, and it ends by itself the day after its last date. See [Run an Event](../tutorials/run-an-event.md).
+Create an **Event** for each booking with the wizard: its dates, client and venue, its **Booth mode** (Photobooth, Studio or Video) and its **Output** (prints, GIF, live photo, raw singles). Then pair the computers you bring straight from the event page. An event runs itself: it is active from the moment you create it, its computers follow its dates, and it ends by itself the day after its last date. See [Run an Event](../tutorials/run-an-event.md).
 
 ### 2. Cover the event days
 
-Every booth on an event needs Pix Pro or an **Event Pass** on its computer. If you only work weekends, Event Passes for the event days usually cost less than a subscription. Check **Devices > Events** before the day: each event shows **Ready**, or which booths still need an Event Pass or Pix Pro. See [Add a Second Computer or Move Pix Pro](../tutorials/add-or-move-a-computer.md).
+Every computer on an event needs Pix Pro or an **Event Pass**: 24 hours of Pix Pro on one computer, starting when you use it at the booth. If you only work weekends, Event Passes for the event days usually cost less than a subscription; for a two-day wedding, **Extend 24h** adds a second day to the same computer. The event page's **Computers** card says "You're covered", or how many computers still need an Event Pass or Pix Pro, with **Buy license**. See [Events](../dashboard/events.md#licenses-pricing-and-transactions).
 
 ### 3. Make it look like their event
 
 - Give the event its own templates, from your own designs in Pix Design or one of Pixture's free template packs. See [Assigning Templates](../dashboard/pix-design/assigning-templates.md).
 - Give it a booth look with the couple's names or the brand's colours. See [Customise the Booth Screens](../tutorials/customise-kiosk-screens.md).
-- Switch the booths to video or slow-motion capture for the event if the client booked it. See [Event Video Modes](../desktop-app/event-video-modes.md).
+- Switch the event's booth mode to video if the client booked a video guest book. See [Event Video Modes](../desktop-app/event-video-modes.md).
 
 ### 4. Free for guests, or paid
 
-A new event is **Free for guests**: booths on it skip the Payment screen. If the client wants guests to pay (a sponsor charging for keepsake prints, for example), give the event its own prices and, if the money should go to the client, its own payment gateway. See [Events](../dashboard/events.md).
+A new event is **Free for guests**: computers on it skip the Payment screen. If the client wants guests to pay (a sponsor charging for keepsake prints, for example), give the event its own prices and, if the money should go to the client, its own payment gateway. See [Events](../dashboard/events.md).
 
 ### 5. The album and the report
 
