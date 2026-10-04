@@ -150,7 +150,7 @@ Three places:
 
    ![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/booth-ui-project-tab.webp)
 
-3. **Events > event > Setup > Kiosk UI > Manage UI Project**: keep the booth's own UI project or pin one for the event. While the event runs, its choice wins.
+3. **Events > event > Setup > Appearance > Change**: pin a UI project to the event. The list shows only projects made for the event's booth mode. While the event runs, its choice wins.
 
 ## Related
 

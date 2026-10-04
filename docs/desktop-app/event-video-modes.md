@@ -7,18 +7,17 @@ tags: [desktop-app, events, video, slow-mo]
 
 # Event Video Modes
 
-An event can turn every booth in it into a video booth for the day. The mode is chosen once on the event, synced to each booth, and the booth records short clips with the event's intro, outro, soundtrack and overlay instead of taking photos. This page explains where the mode is set, what the booth's Capture Settings page mirrors, how a video session runs, and where the original clip is kept. Video modes need Pix Desktop App 1.1.102 or newer.
+An event can turn every booth in it into a video booth for the day. The mode is chosen once on the event, synced to each booth, and the booth records short clips with the event's intro, outro, soundtrack and overlay instead of taking photos. This page explains where the mode is set, what the booth's Capture Settings page mirrors, how a video session runs, and where the original clip is kept. Video modes need the Pixture desktop app 1.1.102 or newer.
 
 ## Where the Mode Is Chosen
 
-Photo, Video and 360 Slow-mo are set per **event**, not per booth:
+Video is one of the event's booth modes, set per **event**, not per booth:
 
-1. In the dashboard, open **Events**, pick the event and open its **Setup** tab.
-2. Under **Booth mode**, choose **Photo**, **Video** or **360 Slow-mo**.
-3. Fill in the video settings below it: **Display text before recording**, the Timeline **Preset**, the clip recording duration and speed, a **Soundtrack**, and the **Overlay**. **Preview** shows the result.
-4. Click **Save**.
+1. In the dashboard, open **Events**, pick the event and open its **Setup** tab. (Or pick it while creating the event: the wizard's Details step has **Booth mode**.)
+2. In the **Booth mode** box, click **Change** and choose **Video** from the Video group. **360 Slow-mo** is marked **Soon** and cannot be chosen unless the event already had it.
+3. Fill in the video settings that appear: **Display text before recording**, the Timeline **Preset**, the clip recording duration and speed, a **Soundtrack**, and the **Overlay**. **Preview** shows the result. Changes save as you go.
 
-All booths in the event share the mode. Outside an event a booth always shoots photos. **360 Slow-mo** shows "Soon" in the dashboard and cannot be chosen unless the event already had it enabled. See [Events](../dashboard/events.md) and [Run an Event](../tutorials/run-an-event.md).
+An event has one booth mode, and every computer paired to it uses it. Switching the mode keeps the computers paired; each booth picks it up on its next Start screen. The event's output becomes the video itself, and its screen design runs the Start and Payment screens before recording. Outside an event a booth runs its own mode. See [Events](../dashboard/events.md) and [Run an Event](../tutorials/run-an-event.md).
 
 ## The Booth's Capture Settings Page
 

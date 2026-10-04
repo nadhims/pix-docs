@@ -65,8 +65,8 @@ An overlay is a transparent PNG drawn over every GIF and video the booth makes.
 
 An event can carry its own look without touching your everyday booth setup. On the event's **Setup** tab:
 
-- **Kiosk UI**: tap **Manage UI Project** and pick a project, or keep "Booth's own UI Project".
-- **Template**: tap **Choose a template** to open the template pack browser. Each free pack from Pixture brings print layouts, a GIF overlay and a matching booth look; tap **Use this pack** to copy all of it into the event. Or tap **Manage Templates** to assign your own.
+- **Appearance**: tap **Change** and pick a UI project made for the event's booth mode, or keep the Default Layout.
+- **Template**: tap **Browse template packs** to open the template pack browser. Each free pack from Pixture brings print layouts, a GIF overlay and a matching booth look; tap **Use this pack** to copy all of it into the event. Or tap **Manage Templates** to assign your own.
 - **Image overlay** for video modes.
 
 When the event ends, the booths return to their own templates and design.
