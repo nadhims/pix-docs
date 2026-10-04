@@ -21,7 +21,7 @@ Create an **Event** for each booking with the wizard: its dates, client and venu
 
 ### 2. Cover the event days
 
-Every computer on an event needs Pix Pro or an **Event Pass**: 24 hours of Pix Pro on one computer, starting when you use it at the booth. If you only work weekends, Event Passes for the event days usually cost less than a subscription; for a two-day wedding, **Extend 24h** adds a second day to the same computer. The event page's **Computers** card says "You're covered", or how many computers still need an Event Pass or Pix Pro, with **Buy license**. See [Events](../dashboard/events.md#licenses-pricing-and-transactions).
+Every computer on an event needs Pix Pro or an **Event Pass**: 24 hours of Pix Pro on one computer, starting when you use it at the booth. If you only work weekends, Event Passes for the event days usually cost less than a subscription; for a two-day wedding, **Extend 24h** adds a second day to the same computer. The event page's **Computers** card says when every computer has an Event Pass or Pix Pro, or how many computers still need an Event Pass or Pix Pro, with **Buy license**. See [Events](../dashboard/events.md#licenses-pricing-and-transactions).
 
 ### 3. Make it look like their event
 
