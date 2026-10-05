@@ -22,14 +22,14 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Events page with one ongoing event card and the + Create Event button](/img/docs/steps/tutorials-run-an-event--events-list.webp)
 
-2. Fill in **Event Name** and **Client**. Under **Booth mode** the event starts as **Photobooth**; click **Change** to pick **Studio** or **Video** instead. Under **Output**, untick anything guests should not get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, **Start time**, **End time** and **Venue**, and click **Next**.
+2. Fill in **Event Name** and **Client**. Under **Booth mode** the event starts as **Photobooth**; click **Change** to pick **Studio** or **Video** instead. Under **Output**, untick anything guests should not get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
 
    ![Create Event wizard, Details step with Booth mode and Output](/img/docs/event-create-wizard.webp)
 
-3. **Templates**: pick the templates guests can choose from. **Next**.
-4. **Screens**: the **Appearance** is the screen design the booth shows. The list holds only designs made for the booth mode you picked; leave the Default Layout or choose your own. **Next**.
-5. **Payment**: turn on **Pay Per Session** and enter the **Session price**, **Double session price**, **Group session price** and **Additional session price** if guests pay at this event; leave it off for a client-paid event. Pick a **Payment gateway** or keep the organization default.
-6. Click **Create event**. The event page opens with **Pair a computer** ready.
+3. **Templates**: click **Configure** and tick the templates guests can choose from, or skip this and add them on the Setup tab later. **Next**.
+4. **Screens**: the **Appearance** is the screen design the booth shows. Click **Configure** to pick one; the list holds only designs made for the booth mode you picked, and a Landscape / Portrait switch filters it. Leave the Default Layout or choose your own. **Next**.
+5. **Payment**: turn on **Pay Per Session** and enter the **Session price** if guests pay at this event, then switch on **Double session price**, **Group session price** or **Additional session price** only for the packages you sell; leave it off for a client-paid event. Pick a **Payment gateway** or keep the organization default.
+6. Click **Create event**. The event page opens on the **Setup** tab with the **Pair a computer** popup already open.
 
 ## Step 2: Understand the Event Status
 
@@ -45,9 +45,9 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Event Setup tab with setup progress, the Computers card, Booth mode, Output and Appearance](/img/docs/event-setup-computers.webp)
 
-2. In the **Computers** card, click **Pair a computer**. You get a 6-digit code when a license is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get a license first": click **Buy license**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code.
+2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **Regenerate**, when a license is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get a license first": click **Buy license**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
 
-   ![Pair a computer popup with a 6-digit code](/img/docs/event-pair-popup.webp)
+   ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 
 3. At the venue, open the Pixture desktop app. On a fresh computer, enter the code on the login screen. On a computer that is already set up, open the operator menu and tap **Pair with a code**; it does not log you out. Repeat for every computer at the event.
 4. Each paired computer appears in the **Computers** card. **Needs license** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.
@@ -64,15 +64,15 @@ Unlink it from its everyday booth on the dashboard first. That puts its Pix Pro 
 
 2. The **Output** box lists what guests get. **Change** opens the four options with a picture and a line each; tick the ones you want and **Save**. Every computer on the event follows it.
 3. The **Appearance** box shows the screen design. **Change** lists the designs made for the event's booth mode, by screen orientation.
-4. With **Video**, the video settings appear below: **Display text before recording**, a **Timeline Preset**, the clip recording duration and speed, a **Soundtrack**, an **Overlay** and a preview. See [Event Video Modes](../desktop-app/event-video-modes.md).
+4. With **Video**, the video settings appear below: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, an **Overlay** (or an orientation when there is none) and optional **Intro video** and **Outro video**. They save as you go. See [Event Video Modes](../desktop-app/event-video-modes.md).
 
 ## Step 5: Assign Templates
 
-1. In a photo mode, the **Template** tab reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." Click **Add templates** (or **Manage Templates**) to tick templates from your own Pix Design projects, or **Browse template packs** for Pixture's free packs (when packs are available): each pack brings its print layouts, a GIF overlay and a matching booth look.
+1. In a photo mode, the **Template** tab reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." Click **Add templates** (or **+ Manage Templates**) to tick templates from your own Pix Design projects; the popup's **Browse template packs** button opens Pixture's free packs (when packs are available): each pack brings its print layouts, a GIF overlay and a matching booth look.
 
    ![Manage Templates modal on an event](/img/docs/steps/tutorials-run-an-event--event-manage-templates-modal.webp)
 
-2. **Countdown**, **Mirror** and **Overlay** sit next to it, for the countdown before each shot, mirroring the live view and the frame burned into GIFs.
+2. **Countdown**, **Mirror** and **Overlay** sit next to it: the countdown before each shot (1 to 10 seconds), mirroring the live view and the saved photo like a selfie, and the overlay drawn over GIFs and videos.
 
 :::note
 An event's template set is exclusive. While the event runs, the booth offers only the templates assigned here, not its everyday set. Assign at least one before the doors open.
@@ -91,11 +91,11 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 
 1. Keep an eye on the **Computers** card: each Event Pass shows its time left. For a longer event, click **Extend 24h** on a computer's row to add 24 hours from an unused Event Pass.
 2. On **Transactions**, sessions captured during the event carry an event chip.
-3. Open the **Report** tab for each computer's camera, printer, paper, memory and disk, sessions, prints and active hours, plus **Incidents during the event**.
+3. Open the **Report** tab for each computer's camera, printer, paper remaining, CPU temperature, memory, free storage, API latency, monitor, sessions, prints, active hours, incidents and printer unit, plus **Incidents during the event**.
 
    ![Event Report tab with per-booth health and incidents](/img/docs/steps/tutorials-run-an-event--event-report.webp)
 
-4. **Edit** changes the dates, prices or gateway at any time, even while the event is live. **Delete Event** in the toolbar removes it. The day after the last date the event ends by itself, and the computers are released the night after.
+4. **Edit** changes the dates, prices or gateway at any time until the event ends, even while it is live. **Delete Event** in the toolbar removes it. The day after the last date the event ends by itself, and the computers are released the night after.
 
 ## Check It Worked
 
