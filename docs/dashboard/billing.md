@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Devices
-description: The Devices page, where you see which computers run Pix Pro, add devices, buy Event Passes, deactivate a computer, and check that an event's booths are ready.
+description: The Devices page, where you see which computers run Pix Pro, add devices, buy Event Passes, and deactivate a computer.
 tags: [dashboard, devices, billing, subscription]
 ---
 
@@ -48,7 +48,7 @@ A computer does not need activating by hand. When your subscription has a place 
 ![Pix Pro checkout: How many devices, See volume pricing, Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 with Save 38%](/img/docs/licenses-add-devices.webp)
 
 1. Click **Buy license** and pick **Event Pass** or **Pix Pro**. Each has its own checkout.
-2. **Pix Pro:** pick Monthly or Yearly and set **How many devices?**. Several at once earn a volume discount; **See volume pricing** shows the table. **Event Pass:** set how many. The price is flat.
+2. **Pix Pro:** pick Monthly or Yearly and set **How many devices?**. Several at once earn a volume discount; **See volume pricing** shows the table. **Event Pass:** the checkout is **Buy Event Pass**; set **How many computers?**. The price is flat; to run longer, extend from the event page. A checkout opened from an event brings you back to it.
 3. Click **Select** on a plan card and pay at checkout.
 
 | Plan card | Price | Note on the card |
@@ -65,11 +65,9 @@ Outside Indonesia you pay by card at checkout, and Monthly and Yearly renew unti
 
 Adding devices to a card subscription you already have shows **Confirm this charge** before anything is billed.
 
-## Events Tab
-
-![Devices page, Events tab: Event, Date, Booths, Ready](/img/docs/licenses-events-tab.webp)
-
-Every event with its date, booth count and whether it is covered: **Ready**, **No booth**, or a note that N computers need an Event Pass or Pix Pro. A booth's computer needs Pix Pro or an unused Event Pass for the event day. See [Events](./events.md).
+:::tip Events
+Whether an event's computers are covered shows on the event itself: its **Computers** card says "All N computers have an Event Pass or Pix Pro." or how many still need one. See [Events](./events.md).
+:::
 
 ## Before Pix Pro Ends
 

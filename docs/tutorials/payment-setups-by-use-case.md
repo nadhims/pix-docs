@@ -23,8 +23,8 @@ The booth travels to the customer. The client pays you a flat fee per event, typ
 **Set it up**
 
 1. Create an **Event** for the date, with its own name, client and venue. A fresh event is **Free for guests** with **Link Sharing** on, so booths that follow the event skip the Payment screen and every guest gets their photos by QR gallery. See [Run an Event](./run-an-event.md).
-2. Assign the booths you bring to the event. They follow the event's dates and switch back the night after it ends.
-3. If the client sells something at the event, say a sponsor charging for a keepsake print, give the event its own gateway under **Edit > Payment gateway** so the money goes to their account. See [Create a Payment Gateway](./create-a-payment-gateway.md), Step 8.
+2. Pair the computers you bring from the event page (**Pair a computer**). They follow the event's dates; the night after it ends they are unlinked, so pair each one back to its everyday booth.
+3. If the client sells something at the event, say a sponsor charging for a keepsake print, turn on **Pay Per Session** under **Edit**, then pick the event's own **Payment gateway** so the money goes to their account. See [Create a Payment Gateway](./create-a-payment-gateway.md), Step 8.
 4. Extras that earn on top of the fee: **Sell AI Portraits** on the guest share page, and an event template pack or exclusive templates the client approves in advance.
 
 **What to watch**
