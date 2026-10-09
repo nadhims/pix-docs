@@ -78,7 +78,7 @@ A knockdown box that packs into a car and sets up in under an hour at a market, 
 **Set it up**
 
 1. Connect a gateway for QR payments, the same one as for a fixed booth.
-2. Use an **Event Pass** on the booth's computer for each event day, or on Pix Pro if you go out most weekends. See [Add or Move a Computer](./add-or-move-a-computer.md).
+2. Use an **Event Pass** on the booth PC for each event day, or on Pix Pro if you go out most weekends. See [Add or Move a Computer](./add-or-move-a-computer.md).
 3. Switch on the **online shop link** under **Vouchers** and put it on a sign at the stall. Guests buy a package on their phone, get a code, and the booth accepts it even when the venue's Wi-Fi drops. See [Sell Sessions Online](./sell-sessions-online.md).
 4. For cash, take it at the stall and hand over codes from a **voucher batch** generated before you leave, with the event date as the **Expiration Date**.
 5. Bring a 4G router or a phone hotspot for the QR payments and the uploads; the booth keeps sessions in its queue and uploads them when the connection returns.

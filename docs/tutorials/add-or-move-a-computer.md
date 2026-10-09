@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
 title: Add a Second Computer or Move Pix Pro
-description: Add a device to your subscription for a new booth computer, move Pix Pro from one computer to another, and use Event Passes for single event days.
+description: Add a device to your subscription for a new booth PC, move Pix Pro from one computer to another, and use Event Passes for single event days.
 tags: [tutorials, devices, pix-pro, event-pass]
 ---
 
 # Add a Second Computer or Move Pix Pro
 
-In this tutorial you will add a device to your subscription so a second booth computer runs Pix Pro, pair that computer, move Pix Pro from an old computer to a new one, and use an Event Pass for a single event day. Allow about 15 minutes, plus checkout.
+In this tutorial you will add a device to your subscription so a second booth PC runs Pix Pro, pair that computer, move Pix Pro from an old computer to a new one, and use an Event Pass for a single event day. Allow about 15 minutes, plus checkout.
 
 ## Before You Start
 
@@ -53,7 +53,7 @@ Buy first, then pair: when every place is taken and there are no unused Event Pa
 
 ## Step 3: Move Pix Pro to another computer
 
-You are retiring a booth computer and want its Pix Pro on the replacement. Nothing is bought; the place moves.
+You are retiring a booth PC and want its Pix Pro on the replacement. Nothing is bought; the place moves.
 
 1. On **Devices**, find the old computer under **Active devices** and click **Deactivate**.
 2. In **Deactivate this computer**, read the note: a place on your subscription frees up. Click **Deactivate**, or **Keep Pix Pro** to back out.

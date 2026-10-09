@@ -7,7 +7,7 @@ tags: [desktop-app, installation, setup]
 
 # Installation
 
-By the end of this page the Pixture Photobooth app is installed on your booth computer, it has either been paired to your Pixture account or is running in the unpaired try-out mode, and you know how to reach the operator menu. Installing takes a few minutes on either platform.
+By the end of this page the Pixture Photobooth app is installed on your booth PC, it has either been paired to your Pixture account or is running in the unpaired try-out mode, and you know how to reach the operator menu. Installing takes a few minutes on either platform.
 
 ## Before You Start
 

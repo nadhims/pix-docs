@@ -11,7 +11,7 @@ Besides QR payments through your gateway, the booth can take money from hardware
 
 ## Before You Start
 
-- The hardware is wired to the booth computer and configured on its own side (coin values, price, pulse settings).
+- The hardware is wired to the booth PC and configured on its own side (coin values, price, pulse settings).
 - The booth's Payment screen has a **Coin** or **Card** sub-screen designed in the UI Editor if you want guests to see a running total, or the Payment screen is off if the cash system is the gate. See [Payment](./session-flow/payment.md).
 - A step-by-step setup, including the Nayax portal values and cash at the counter, is in [Take Card, Coin and Cash Payments](../tutorials/connect-a-coin-or-card-reader.md).
 
@@ -50,7 +50,7 @@ For bridges, PLCs and terminals that can make an HTTP request, the booth runs a 
 1. Open **Menu > Hardware API**.
 2. Turn on **Enable local API**. It listens on **Port** 14500 by default.
 3. Read the **Access token** off the screen and give it to whoever wires the bridge. **Regenerate** issues a new one; every request must carry the token.
-4. By default only the booth computer can connect. Turn on **Allow LAN access** to accept a bridge on the same network.
+4. By default only the booth PC can connect. Turn on **Allow LAN access** to accept a bridge on the same network.
 
 The page lists the endpoints:
 

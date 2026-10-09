@@ -27,7 +27,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 
 **Computer.** The Mac or Windows PC inside the booth. One computer runs one booth. Pixture's paid plan, Pix Pro, is bought per computer; the dashboard also calls a computer a **device**.
 
-**Pixture Photobooth.** The Pixture Photobooth app you install on the booth computer. It runs the screens guests touch, drives the camera and printer, and talks to the dashboard. See [Install the Pixture Photobooth app](./download-desktop-app.md).
+**Pixture Photobooth.** The Pixture Photobooth app you install on the booth PC. It runs the screens guests touch, drives the camera and printer, and talks to the dashboard. See [Install the Pixture Photobooth app](./download-desktop-app.md).
 
 **Camera and printer.** A camera body on USB, or a webcam, and a photo printer. See [Supported Cameras](../reference/supported-cameras.md) and [Supported Printers](../reference/supported-printers.md).
 
@@ -39,7 +39,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 
 **Dashboard.** Pixture's web app at pixture.io, where you run the business. See [Know Your Way Around the Dashboard](./access-dashboard.md).
 
-**The booth's page.** Every booth has a page in the dashboard, under **Booths**, with its templates, screen design, prices, settings and history. You connect the booth's computer to it once, with a 6-digit **pairing code**, and from then on everything you set there reaches that booth. See [Pair Your First Booth](./pair-your-first-booth.md).
+**The booth's page.** Every booth has a page in the dashboard, under **Booths**, with its templates, screen design, prices, settings and history. You connect the booth PC to it once, with a 6-digit **pairing code**, and from then on everything you set there reaches that booth. See [Pair Your First Booth](./pair-your-first-booth.md).
 
 **Pix Design.** The design studio inside the dashboard. It holds everything guests see:
 

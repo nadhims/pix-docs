@@ -171,7 +171,7 @@ The design studio in the dashboard: the Template Editor for prints, the UI Edito
 
 ### Pixture Photobooth
 
-The Pixture Photobooth app installed on the booth computer, for Mac and Windows. It runs the guest's screens, drives the camera and printer, takes payments and syncs with the dashboard. Download it from pixture.io/download.
+The Pixture Photobooth app installed on the booth PC, for Mac and Windows. It runs the guest's screens, drives the camera and printer, takes payments and syncs with the dashboard. Download it from pixture.io/download.
 
 ### Pix Pro
 

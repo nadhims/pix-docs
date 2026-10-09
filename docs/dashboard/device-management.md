@@ -19,7 +19,7 @@ A booth with no computer shows the status **Unknown**, a dash for the plan and "
 
 ## Pairing a Computer
 
-1. Install the Pixture Photobooth app on the booth computer. See [Install the Pixture Photobooth app](../getting-started/download-desktop-app.md).
+1. Install the Pixture Photobooth app on the booth PC. See [Install the Pixture Photobooth app](../getting-started/download-desktop-app.md).
 2. On the booth's **Device** tab, under **Pairing & access**, click **Generate code**. The Pair Pixture Photobooth modal shows a 6-digit code with "Enter this code in the Pixture Photobooth app to link it to [booth name]." and a countdown from 10 minutes. Use **Copy Code**, or **Regenerate** if it expires.
 3. Type the code on the booth's pairing screen.
 4. Click **Done**. The computer downloads the booth's templates, screen design, filters and prices and goes to the start screen.
@@ -59,7 +59,7 @@ Logging out of the booth does the same as **Unlink**. Unlink a computer before y
 1. Open the booth's **Device** tab. If **Generate code** is greyed out because the old computer is still linked, click **Unlink** first.
 2. Click **Generate code** and pair the new computer.
 
-The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Pix Pro from a subscription or the trial reaches it at its first check-in; an Event Pass stays with the computer it was used on. Replacing a booth's computer always works, even on Pix Starter.
+The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Pix Pro from a subscription or the trial reaches it at its first check-in; an Event Pass stays with the computer it was used on. Replacing a booth PC always works, even on Pix Starter.
 
 ## One Computer per Booth
 

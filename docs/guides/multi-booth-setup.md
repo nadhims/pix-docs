@@ -47,7 +47,7 @@ On the **Cashier** tab, **How guests pay** has two options.
 ## Step 4: Pair one computer per booth
 
 1. Open each booth from the group's **Photo Booths** tab and go to its **Device** tab.
-2. Tap **Generate code**, then enter the code in the Pixture Photobooth app on that booth's computer.
+2. Tap **Generate code**, then enter the code in the Pixture Photobooth app on that booth PC.
 3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Devices > Buy license**, or use an Event Pass on it.
 
 ## Regions for many locations

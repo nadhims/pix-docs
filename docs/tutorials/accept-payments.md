@@ -11,7 +11,7 @@ In this tutorial you will connect a payment gateway to your Pixture account, set
 
 ## Before You Start
 
-- **Pix Pro on the booth's computer.** A Pix Starter computer is watermarked and skips the Payment screen, so it never charges.
+- **Pix Pro on the booth PC.** A Pix Starter computer is watermarked and skips the Payment screen, so it never charges.
 - **A merchant account with a supported gateway** and its API keys. In Indonesia that is Midtrans, Xendit or DOKU (QRIS). Everywhere else it is Stripe (card).
 - **The booth paired and online**, with at least one template assigned.
 - Owner or admin access to the Pixture dashboard.

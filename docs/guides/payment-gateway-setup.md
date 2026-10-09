@@ -12,7 +12,7 @@ A payment gateway lets guests pay for a photo session by scanning a QR code on t
 ## Before you start
 
 - A verified merchant account with one of the providers below.
-- Pix Pro on the booth's computer. On Pix Starter the booth skips the Payment screen.
+- Pix Pro on the booth PC. On Pix Starter the booth skips the Payment screen.
 - A price on the booth's **Pricing** tab, with **Payment on this booth** switched on.
 
 ## Providers

@@ -16,7 +16,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 - **Pix Pro.** Saving a UI project needs Pix Pro.
 - **Pixture Photobooth 1.1.98 or newer** on the booth. Use 1.1.100 or newer if you want a live photo for every shot and every shot shared as a single; the current version is 1.1.115.
 - **A print template assigned to the booth.** Its slot count sets the minimum number of shots.
-- Optional: a remote shutter, foot switch or clicker plugged into the booth's computer.
+- Optional: a remote shutter, foot switch or clicker plugged into the booth PC.
 
 ## Step 1: Create a Studio UI Project
 

@@ -1,18 +1,18 @@
 ---
 sidebar_position: 1
 title: Set Up a Booth From Scratch
-description: Create a booth in the Pixture dashboard, give it templates, a screen design, filters and pricing, pair the booth computer and run a test photo session.
+description: Create a booth in the Pixture dashboard, give it templates, a screen design, filters and pricing, pair the booth PC and run a test photo session.
 tags: [tutorials, booths, setup, pairing]
 ---
 
 # Set Up a Booth From Scratch
 
-In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the booth's screen design and filters, set a price or make photo sessions free, check the outputs, pair the booth computer and run a test session. Allow about 30 minutes, plus the time to install the Pixture Photobooth app.
+In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the booth's screen design and filters, set a price or make photo sessions free, check the outputs, pair the booth PC and run a test session. Allow about 30 minutes, plus the time to install the Pixture Photobooth app.
 
 ## Before You Start
 
 - A Pixture account, with the dashboard open at pixture.io.
-- The [Pixture Photobooth app](../getting-started/download-desktop-app.md) installed on the booth computer, with the camera and printer connected.
+- The [Pixture Photobooth app](../getting-started/download-desktop-app.md) installed on the booth PC, with the camera and printer connected.
 - On Pix Starter, one computer can be paired and every photo, print and GIF carries the Pixture watermark. Pix Pro removes the watermark and unlocks payments at the booth. See [Plans & Pricing](../pricing/plans.md).
 
 ## Step 1: Create the booth
@@ -46,7 +46,7 @@ A new account comes with two ready-made 4x6 templates, Classic Black and Classic
 
 ![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
-Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth computer.
+Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth PC.
 
 ## Step 4: Choose filters
 
@@ -83,7 +83,7 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 
 ![Pair Pixture Photobooth modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
 
-3. On the booth computer, open the Pixture Photobooth app and enter the code on its pairing screen.
+3. On the booth PC, open the Pixture Photobooth app and enter the code on its pairing screen.
 4. Back in the dashboard, click **Done**.
 
 If the modal shows "Device limit reached" instead of a code, every place on your subscription is taken. See [Add a Second Computer or Move Pix Pro](./add-or-move-a-computer.md).

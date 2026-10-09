@@ -7,14 +7,14 @@ tags: [getting-started, quickstart]
 
 # Getting Started
 
-By the end of this section you have a Pixture account, the Pixture Photobooth app running on a booth computer that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
+By the end of this section you have a Pixture account, the Pixture Photobooth app running on a booth PC that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
 
 New to words like booth, template, UI project or microsite? Read [How Pixture Works](./how-pixture-works.md) first; it takes five minutes.
 
 ## The Fifteen-Minute Path
 
 1. [Create your account](./create-account.md). Sign up at pixture.io, complete your profile and answer the Quick setup, which also creates your first booth.
-2. [Choose your plan](./choose-plan.md). Stay on the free Pix Starter plan, claim the 3-day Pix Pro trial, or put Pix Pro or an Event Pass on the booth computer. You can come back to this at any time.
+2. [Choose your plan](./choose-plan.md). Stay on the free Pix Starter plan, claim the 3-day Pix Pro trial, or put Pix Pro or an Event Pass on the booth PC. You can come back to this at any time.
 3. [Install the Pixture Photobooth app](./download-desktop-app.md) on the Mac or Windows computer that will run the booth.
 4. [Pair your first booth](./pair-your-first-booth.md). Generate a 6-digit code in the dashboard and type it into the app.
 5. [Know your way around the dashboard](./access-dashboard.md). A short tour of the sidebar, so you know where prices, templates, health and devices live.
