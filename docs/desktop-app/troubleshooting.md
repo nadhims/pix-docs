@@ -19,7 +19,7 @@ This page is the first stop when a booth misbehaves. Each table lists a symptom,
 | "Hmm, the camera didn't respond — let's try again" during a session | No frame arrived within 15 seconds of the shot; the booth retries the slot on its own | If it repeats, shorten the USB run or use a powered hub; check the camera is on mains power |
 | Photos come out sideways | The camera is mounted on its side | Update to 1.1.107 or newer; if still turned, set **CAMERA ROTATION** on Camera Settings |
 | Booth uses the laptop webcam instead of the Canon | Auto-detect could not find the Canon at launch | Check the cable, then pick the Canon under **CAMERA DEVICE** and tap **Set as Default** |
-| No camera permission on macOS | Pix is not allowed to use the camera | **System Settings > Privacy & Security > Camera**, allow Pix |
+| No camera permission on macOS | Pixture Photobooth is not allowed to use the camera | **System Settings > Privacy & Security > Camera**, allow Pixture Photobooth |
 | Camera drops out during the day | A long USB cable or a sleeping camera | Keep the cable under about 2 metres, use a powered hub, turn off auto power-off on the body |
 
 ## Printer

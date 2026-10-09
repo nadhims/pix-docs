@@ -53,7 +53,7 @@ If the camera is not detected:
 2. Quit any other software that could be holding the camera.
 3. Try a different USB port, preferably one on the computer rather than a hub.
 4. Restart the app.
-5. On macOS, check **System Settings > Privacy & Security > Camera** and make sure Pix is allowed.
+5. On macOS, check **System Settings > Privacy & Security > Camera** and make sure Pixture Photobooth is allowed.
 
 The **CAMERA LOG** at the bottom of the Camera Settings page shows what the app sees. See [Troubleshooting](../troubleshooting.md) for more.
 
