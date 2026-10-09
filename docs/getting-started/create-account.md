@@ -7,7 +7,7 @@ tags: [getting-started, account, signup]
 
 # Create Your Account
 
-By the end of this page you have a Pixture account, an organisation named after your business, your first booth, and a dashboard that is waiting for the Pix Desktop App to be installed. Signing up takes about five minutes and asks for no card.
+By the end of this page you have a Pixture account, an organisation named after your business, your first booth, and a dashboard that is waiting for the Pixture Photobooth app to be installed. Signing up takes about five minutes and asks for no card.
 
 ## Before You Start
 
@@ -72,6 +72,6 @@ A few things worth knowing on day one:
 ## Related
 
 - [Choose Your Plan](./choose-plan.md)
-- [Install the Pix Desktop App](./download-desktop-app.md)
+- [Install the Pixture Photobooth app](./download-desktop-app.md)
 - [Settings](../dashboard/settings.md)
 - [Plans & Pricing](../pricing/plans.md)

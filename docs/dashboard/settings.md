@@ -89,7 +89,7 @@ Titled **Billing & Payment**, in three blocks: the subscription state ("Subscrip
 
 ## Download App
 
-Links to the Pix Desktop App installers. See [Download the Desktop App](../getting-started/download-desktop-app.md).
+Links to the Pixture Photobooth app installers. See [Install the Pixture Photobooth app](../getting-started/download-desktop-app.md).
 
 ## Danger Zone
 

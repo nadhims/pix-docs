@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
 title: System Requirements
-description: Minimum and recommended system requirements for the Pix Desktop App and the Pixture dashboard.
+description: Minimum and recommended system requirements for the Pixture Photobooth app and the Pixture dashboard.
 tags: [reference, requirements, hardware]
 ---
 
 # System Requirements
 
-## Pix Desktop App
+## Pixture Photobooth app
 
-The Pix Desktop App is the booth application. It runs on macOS and Windows. The current version is 1.1.115.
+The Pixture Photobooth app is the booth application. It runs on macOS and Windows. The current version is 1.1.115.
 
 ### Operating system
 
@@ -31,7 +31,7 @@ The Pix Desktop App is the booth application. It runs on macOS and Windows. The 
 | USB | USB 2.0 port for the camera | USB 3.0 for faster tethering |
 
 :::tip
-For booth use, a touchscreen is strongly recommended. The Pix Desktop App is designed as a booth where guests interact directly with the screen.
+For booth use, a touchscreen is strongly recommended. The Pixture Photobooth app is designed as a booth where guests interact directly with the screen.
 :::
 
 Apple Silicon Macs run the app natively from version 1.1.115, which bundles its own video tools for live photos, filters and GIFs. Rosetta is not needed.
@@ -64,7 +64,7 @@ The Pixture dashboard at pixture.io is where you set up booths, design templates
 | Devices | Any desktop, laptop, tablet, or phone |
 | Network | Internet connection required |
 
-The dashboard is a management tool, not a capture app. You still need the Pix Desktop App to run a booth.
+The dashboard is a management tool, not a capture app. You still need the Pixture Photobooth app to run a booth.
 
 ## Related
 

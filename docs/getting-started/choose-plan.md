@@ -11,7 +11,7 @@ By the end of this page you know what Pix Starter gives you for free, what Pix P
 
 ## The Plans
 
-Pixture is priced per computer, not per account or per booth. Booths are free profiles. What you pay for is Pix Pro on each computer that runs the Pix Desktop App.
+Pixture is priced per computer, not per account or per booth. Booths are free profiles. What you pay for is Pix Pro on each computer that runs the Pixture Photobooth app.
 
 | Plan | Dashboard name | Price | Best for |
 |---|---|---|---|
@@ -26,7 +26,7 @@ Several Pix Pro devices in one purchase get a volume discount; the checkout show
 
 Your account is **Pix Starter** while no computer has Pix Pro. On Pix Starter:
 
-- The Pix Desktop App runs on **one computer**. Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
+- The Pixture Photobooth app runs on **one computer**. Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
 - Every photo, print, GIF and video carries the **Pixture watermark**.
 - You get two ready-made 4x6 print templates and the default screen design. Pix Design is open to try every tool; creating a new project or saving needs Pix Pro, and the button reads **Upgrade to Create**.
 - The booth **skips the Payment screen**. Every photo session is free.

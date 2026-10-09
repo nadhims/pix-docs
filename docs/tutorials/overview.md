@@ -38,5 +38,5 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 
 - [Getting Started](../getting-started/overview.md)
 - [Dashboard Overview](../dashboard/overview.md)
-- [Desktop App Overview](../desktop-app/overview.md)
+- [Pixture Photobooth Overview](../desktop-app/overview.md)
 - [Booth Operations Checklist](../guides/booth-operations-checklist.md)

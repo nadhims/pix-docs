@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Pair Your First Booth
-description: Create a booth in the Pixture dashboard, generate a 6-digit pairing code on its Device tab, and type it into the Pix Desktop App to bring the booth online.
+description: Create a booth in the Pixture dashboard, generate a 6-digit pairing code on its Device tab, and type it into the Pixture Photobooth app to bring the booth online.
 tags: [getting-started, booths, pairing, device]
 ---
 
@@ -11,7 +11,7 @@ By the end of this page the booth computer is linked to a booth in your dashboar
 
 ## Before You Start
 
-- The [Pix Desktop App is installed](./download-desktop-app.md) and open on its pairing screen on the booth computer.
+- The [Pixture Photobooth app is installed](./download-desktop-app.md) and open on its pairing screen on the booth computer.
 - You are logged in to the dashboard on any other device, for example your phone.
 - A booth to pair. Quick setup already created one; you can also create a new one below.
 
@@ -31,9 +31,9 @@ By the end of this page the booth computer is linked to a booth in your dashboar
 
    If you clicked **Maybe later** earlier, open the booth's **Device** tab and click **Generate code** under **Pairing & access** instead. Both open the same modal.
 
-3. The **Pair Pixture App** modal shows a 6-digit code and the line "Enter this code in the Pixture App to link it to" your booth. The code expires in 10 minutes; the countdown is on the modal. **Copy Code** copies it, **Regenerate** makes a fresh one.
+3. The **Pair Pixture Photobooth** modal shows a 6-digit code and the line "Enter this code in the Pixture Photobooth app to link it to" your booth. The code expires in 10 minutes; the countdown is on the modal. **Copy Code** copies it, **Regenerate** makes a fresh one.
 
-   ![The Pair Pixture App modal with a 6-digit code, the Expires in countdown, and the Copy Code, Regenerate and Done buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-pairing-code.webp)
+   ![The Pair Pixture Photobooth modal with a 6-digit code, the Expires in countdown, and the Copy Code, Regenerate and Done buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-pairing-code.webp)
 
 4. On the booth computer, type the 6 digits on the app's pairing screen.
 5. The booth downloads its templates, screen design and pricing and shows the start screen. Click **Done** on the modal. Back in the dashboard, the booth's status turns **Online** and the **Device** tab shows the computer's name, its fingerprint and when it was last seen.

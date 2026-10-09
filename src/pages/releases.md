@@ -1,11 +1,11 @@
 ---
 title: Release Notes
-description: What changed in recent versions of the Pix Desktop App.
+description: What changed in recent versions of the Pixture Photobooth app.
 ---
 
-# Pix Desktop App Release Notes
+# Pixture Photobooth app Release Notes
 
-The Pix Desktop App updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
+The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
 ## 1.1.115 (22 September 2026)
 

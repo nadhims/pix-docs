@@ -23,7 +23,7 @@ Photos stay available until you delete them in the dashboard's **Gallery**. Dele
 
 **`pixture.io/s/{code}/ai`**, available to beta accounts.
 
-What the guest sees: a shop on their share page where they buy an AI portrait made from their session photos, as a digital file or as a print picked up at the booth. A print purchase gives a 7-character pickup code that the guest types into the voucher box on the booth's Payment screen (Pix Desktop App 1.1.110 or newer).
+What the guest sees: a shop on their share page where they buy an AI portrait made from their session photos, as a digital file or as a print picked up at the booth. A print purchase gives a 7-character pickup code that the guest types into the voucher box on the booth's Payment screen (Pixture Photobooth 1.1.110 or newer).
 
 Where it is turned on: open the booth, go to the **Pricing** tab and, under **AI portrait on the share page**, switch on **Sell AI portraits on the share page** and set the price. **Offer a print at this booth** adds the print option.
 
@@ -41,7 +41,7 @@ Where it is turned on: open the event in **Events** and switch **Link Sharing** 
 
 What the customer sees: the booth's packages (Single, Double, Group, additional sessions) at the prices from its Pricing tab, paid on their phone. They receive a 7-character code that the booth redeems even when it is offline.
 
-Where it comes from: the **Sell online** button on any row of the **Booths** list (link and a QR PNG), the **Sell sessions online** card on the booth's **Pricing** tab, or **Online shop link** on the **Vouchers** page. Needs Pix Desktop App 1.1.101 or newer on the booth.
+Where it comes from: the **Sell online** button on any row of the **Booths** list (link and a QR PNG), the **Sell sessions online** card on the booth's **Pricing** tab, or **Online shop link** on the **Vouchers** page. Needs Pixture Photobooth 1.1.101 or newer on the booth.
 
 ## Frame Lab guest upload page
 
@@ -56,7 +56,7 @@ Where it comes from: **Marketing Studio > Frame Lab** shows the shared **Guest u
 | Pixture dashboard | `pixture.io` | Sign in to set up booths, design, watch health and manage billing |
 | Devices shortcut | `pixture.io/licenses` | Opens your Devices page. The booth shows it as a QR code under **Manage devices** when Pix Pro or an Event Pass ends on that computer |
 | Documentation | `docs.pixture.io` | These pages |
-| Download | The **Download** link on pixture.io | The Pix Desktop App for macOS and Windows |
+| Download | The **Download** link on pixture.io | The Pixture Photobooth app for macOS and Windows |
 
 ## Related
 

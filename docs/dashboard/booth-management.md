@@ -62,7 +62,7 @@ The header shows the status pill (**Online** when the computer has checked in wi
 
 ### UI Project
 
-The screen design this booth runs, grouped by **Photobooth mode**, **Studio mode** and **Simple mode**. Pick one and click **Save**; the tab then shows "Booth mode". Studio mode needs Pix Desktop App 1.1.98 or newer. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
+The screen design this booth runs, grouped by **Photobooth mode**, **Studio mode** and **Simple mode**. Pick one and click **Save**; the tab then shows "Booth mode". Studio mode needs Pixture Photobooth 1.1.98 or newer. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
 
 ![Kiosk UI Project tab: dropdown grouped by Photobooth, Studio and Simple mode, Save](/img/docs/booth-ui-project-tab.webp)
 

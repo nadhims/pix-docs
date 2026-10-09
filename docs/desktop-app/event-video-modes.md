@@ -7,7 +7,7 @@ tags: [desktop-app, events, video, slow-mo]
 
 # Event Video Modes
 
-An event can turn every booth in it into a video booth for the day. The mode is chosen once on the event, synced to each booth, and the booth records short clips with the event's overlay, intro and outro instead of taking photos. This page explains where the mode is set, what the booth's Capture Settings page mirrors, how a video session runs, and where the original clip is kept. Video modes need the Pixture desktop app 1.1.102 or newer.
+An event can turn every booth in it into a video booth for the day. The mode is chosen once on the event, synced to each booth, and the booth records short clips with the event's overlay, intro and outro instead of taking photos. This page explains where the mode is set, what the booth's Capture Settings page mirrors, how a video session runs, and where the original clip is kept. Video modes need the Pixture Photobooth 1.1.102 or newer.
 
 ## Where the Mode Is Chosen
 

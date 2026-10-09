@@ -67,17 +67,17 @@ Paste this once you are connected and the assistant will walk you through going 
 You're connected to my Pixture photobooth business through the Pixture connector.
 Call pix_tenant_setup_status first, then walk me through going live one short
 message at a time: confirm my brand name, currency and timezone with
-pix_tenant_apply_setup; help me install the Pix app on the booth computer; give
+pix_tenant_apply_setup; help me install the Pixture Photobooth app on the booth computer; give
 me a pairing code with pix_tenant_pairing_code and check setup status until the
 booth is paired; then a first test session. If I ask how anything works, use
 pix_tenant_help.
 ```
 
-The three steps it will take you through are the same three the dashboard shows until your booth is live: install the Pix app on the booth computer, pair it with a code, run a first test session. A laptop webcam is enough for the test.
+The three steps it will take you through are the same three the dashboard shows until your booth is live: install the Pixture Photobooth app on the booth computer, pair it with a code, run a first test session. A laptop webcam is enough for the test.
 
 ## Things an assistant cannot do
 
-- Install the Pix app or sign in to it. That happens on the booth computer.
+- Install the Pixture Photobooth app or sign in to it. That happens on the booth computer.
 - Upload a logo or design templates and booth screens. Those need the browser.
 - Buy Pix Pro or an Event Pass. Payments stay on the Devices page.
 - See any other Pixture business, or create accounts.

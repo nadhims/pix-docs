@@ -71,7 +71,7 @@ On the booth's Payment screen the guest opens the voucher box and types the code
 | Length | Comes from |
 |---|---|
 | 6 characters | A voucher or batch code made on this page |
-| 7 characters | The online shop (Pix Desktop App 1.1.101 or newer) |
+| 7 characters | The online shop (Pixture Photobooth 1.1.101 or newer) |
 | 8 characters | A group session code from a Multi-Booth cashier |
 
 A code bought online or from a Multi-Booth cashier carries its package inside the code, so the booth accepts it even when the venue's internet is down. The redemption is reported once the booth reconnects.

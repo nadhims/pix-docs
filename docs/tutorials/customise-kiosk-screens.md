@@ -34,7 +34,7 @@ Booth mode sets the flow the design follows:
 | Studio | Start, Pay, Template, Timed shoot, Pick photos, Filter, Share |
 | Simple | Start, Pay, B&W or colour, Shoot, Share |
 
-Studio mode needs Pix Desktop App 1.1.98 or newer on the booth. See [Studio Sessions](../desktop-app/studio-sessions.md).
+Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth. See [Studio Sessions](../desktop-app/studio-sessions.md).
 
 ## Step 2: Find your way around the editor
 
@@ -115,7 +115,7 @@ If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** 
 | **Save** opens the Pix Pro modal | The account is on Pix Starter | Start the free trial or buy Pix Pro |
 | A screen never appears on the booth | **Enabled in session flow** is off for that page; for the Payment Screen, **Payment on this booth** is off or the computer is on Pix Starter | Turn the page on; check the booth's Pricing tab |
 | The booth still shows the old design | The project is not assigned to that booth | Booth > **UI Project** tab, pick the project, **Save** |
-| A Studio project cannot be chosen for a booth | The booth's Pix Desktop App is older than 1.1.98 | Update the app from the operator menu (**Check for Updates**) |
+| A Studio project cannot be chosen for a booth | The booth's Pixture Photobooth app is older than 1.1.98 | Update the app from the operator menu (**Check for Updates**) |
 | Guests cannot start a session | No session trigger ticked and no Start Button on the canvas | Tick **Touch Screen** or add a **Start Button** |
 
 ## Related

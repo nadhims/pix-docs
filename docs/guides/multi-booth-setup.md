@@ -13,7 +13,7 @@ One Pixture account can run any number of booths. Each booth is a free profile w
 
 - One computer per booth. A booth can only be paired to one computer, and a computer to one booth.
 - Pix Pro is per computer. Each computer in the group needs its own place on your subscription or an Event Pass. See [Plans & Pricing](../pricing/plans.md).
-- Group codes for a central cashier need the Pix Desktop App 1.1.102 or newer on every booth.
+- Group codes for a central cashier need the Pixture Photobooth 1.1.102 or newer on every booth.
 
 ## Step 1: Create the group
 
@@ -47,7 +47,7 @@ On the **Cashier** tab, **How guests pay** has two options.
 ## Step 4: Pair one computer per booth
 
 1. Open each booth from the group's **Photo Booths** tab and go to its **Device** tab.
-2. Tap **Generate code**, then enter the code in the Pix Desktop App on that booth's computer.
+2. Tap **Generate code**, then enter the code in the Pixture Photobooth app on that booth's computer.
 3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add devices under **Devices > Buy license**, or use an Event Pass on it.
 
 ## Regions for many locations

@@ -14,7 +14,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 - **A license for every computer on the event**: Pix Pro, or an **Event Pass** (24 hours of Pix Pro on one computer, starting when you use it at the booth). You can buy one before the day, or from the event page when you pair.
 - **Templates for the event**, either your own in Pix Design or one of Pixture's free template packs (when packs are available).
 - **A payment gateway connected** (**Settings > Payment Gateway**) if guests pay per photo session at the event.
-- **The Pixture desktop app 1.1.127 or newer** on each computer, installed now or at the venue.
+- **The Pixture Photobooth 1.1.127 or newer** on each computer, installed now or at the venue.
 
 ## Step 1: Create the Event
 
@@ -49,7 +49,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 
-3. At the venue, open the Pixture desktop app. On a fresh computer, enter the code on the login screen. On a computer that is already set up, open the operator menu and tap **Pair with a code**; it does not log you out. Repeat for every computer at the event.
+3. At the venue, open the Pixture Photobooth app. On a fresh computer, enter the code on the login screen. On a computer that is already set up, open the operator menu and tap **Pair with a code**; it does not log you out. Repeat for every computer at the event.
 4. Each paired computer appears in the **Computers** card. **Needs license** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.
 
 :::tip Bringing a computer that already runs Pix Pro

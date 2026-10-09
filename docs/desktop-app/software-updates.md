@@ -1,13 +1,13 @@
 ---
 sidebar_position: 12
 title: Software Updates
-description: How the Pix Desktop App updates itself, how to check for an update from the operator menu, and where to see which version a booth runs.
+description: How the Pixture Photobooth app updates itself, how to check for an update from the operator menu, and where to see which version a booth runs.
 tags: [desktop-app, updates, auto-updater]
 ---
 
 # Software Updates
 
-The Pix Desktop App keeps itself current without you touching the booth. This page explains how the background update works, how to check for one by hand from the operator menu, where the version is shown, and where to read what changed. The current version is 1.1.115.
+The Pixture Photobooth app keeps itself current without you touching the booth. This page explains how the background update works, how to check for one by hand from the operator menu, where the version is shown, and where to read what changed. The current version is 1.1.115.
 
 ## How Updates Happen
 

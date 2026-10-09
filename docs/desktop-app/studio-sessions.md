@@ -7,7 +7,7 @@ tags: [desktop-app, studio-mode, photo-session]
 
 # Studio Sessions
 
-Studio mode turns the booth into a small photo studio: instead of one shot per slot, the guest takes a pool of shots for as long as the session allows, then picks which ones go into the print. This page describes the guest's journey in a Studio session, how a session ends, how remotes and keys work, and what the guest gets at the end. Studio mode needs Pix Desktop App 1.1.98 or newer.
+Studio mode turns the booth into a small photo studio: instead of one shot per slot, the guest takes a pool of shots for as long as the session allows, then picks which ones go into the print. This page describes the guest's journey in a Studio session, how a session ends, how remotes and keys work, and what the guest gets at the end. Studio mode needs Pixture Photobooth 1.1.98 or newer.
 
 ## What Studio Mode Is
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 0
 title: How Pixture Works
-description: The words and pieces of Pixture in one page, the booth, the Pix Desktop App, the dashboard, templates, UI projects and the share page, and how they fit together.
+description: The words and pieces of Pixture in one page, the booth, the Pixture Photobooth app, the dashboard, templates, UI projects and the share page, and how they fit together.
 tags: [getting-started, concepts, glossary]
 ---
 
@@ -9,7 +9,7 @@ tags: [getting-started, concepts, glossary]
 
 Pixture is software for running a photobooth business. Before you set anything up, it helps to know the handful of words the rest of these docs use and how the pieces connect. This page covers them in the order you meet them. For any other word, see the [Glossary](../reference/glossary.md).
 
-![How Pixture fits together. At your venue, the booth: a computer running the Pix Desktop App, with a camera, a printer and a touchscreen, where a guest runs a photo session and leaves with a print and a QR code. Online at pixture.io, the dashboard: booths, Pix Design (templates, UI projects, microsite), events, payments and devices, and the gallery, transactions and health. The dashboard sends designs and prices to the booth, the booth sends back photos, sessions and status, and the guest scans the QR code to open their share page on their phone.](/img/docs/how-pixture-works.svg)
+![How Pixture fits together. At your venue, the booth: a computer running the Pixture Photobooth app, with a camera, a printer and a touchscreen, where a guest runs a photo session and leaves with a print and a QR code. Online at pixture.io, the dashboard: booths, Pix Design (templates, UI projects, microsite), events, payments and devices, and the gallery, transactions and health. The dashboard sends designs and prices to the booth, the booth sends back photos, sessions and status, and the guest scans the QR code to open their share page on their phone.](/img/docs/how-pixture-works.svg)
 
 ## The Three Places
 
@@ -27,7 +27,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 
 **Computer.** The Mac or Windows PC inside the booth. One computer runs one booth. Pixture's paid plan, Pix Pro, is bought per computer; the dashboard also calls a computer a **device**.
 
-**Pix Desktop App.** The Pixture app you install on the booth computer. It runs the screens guests touch, drives the camera and printer, and talks to the dashboard. See [Install the Pix Desktop App](./download-desktop-app.md).
+**Pixture Photobooth.** The Pixture Photobooth app you install on the booth computer. It runs the screens guests touch, drives the camera and printer, and talks to the dashboard. See [Install the Pixture Photobooth app](./download-desktop-app.md).
 
 **Camera and printer.** A camera body on USB, or a webcam, and a photo printer. See [Supported Cameras](../reference/supported-cameras.md) and [Supported Printers](../reference/supported-printers.md).
 
@@ -68,7 +68,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 | Computer, device | The same thing: the PC inside a booth. The Devices page calls it a device |
 | Template, UI project | A **template** is what gets printed; a **UI project** is what the screen shows |
 | Share page, microsite, album | The **share page** is one guest's photos; the **microsite** is how every share page looks; the **album** is every photo of an event |
-| Pixture, Pix | **Pixture** is the company and the dashboard; **Pix** names its products: Pix Desktop App, Pix Design, Pix Pro, Pix Starter, Pix AI |
+| Pixture, Pix | **Pixture** is the company and the dashboard; the booth app is **Pixture Photobooth**; **Pix** names the other products: Pix Design, Pix Pro, Pix Starter, Pix AI |
 
 ## Where Things Are Set
 

@@ -12,7 +12,7 @@ In this tutorial you will add a device to your subscription so a second booth co
 ## Before You Start
 
 - Owner or billing access to the Pixture dashboard.
-- The new computer with the Pix Desktop App installed, and a booth created for it (see [Set Up a Booth From Scratch](./set-up-a-booth.md)).
+- The new computer with the Pixture Photobooth app installed, and a booth created for it (see [Set Up a Booth From Scratch](./set-up-a-booth.md)).
 - A card for checkout; in Indonesia, QRIS, bank transfer or a card.
 
 ## How Devices Work
@@ -46,7 +46,7 @@ From Indonesia the same modal shows rupiah prices, prepaid: Pix Pro (1 Month) Rp
 ## Step 2: Pair the new computer
 
 1. Open **Booths**, click **Configure** on the new booth, open the **Device** tab and click **Generate code**.
-2. Enter the 6-digit code in the Pix Desktop App on the new computer within 10 minutes.
+2. Enter the 6-digit code in the Pixture Photobooth app on the new computer within 10 minutes.
 3. The computer takes the free place on its first check-in and appears under **Active devices** with **Pix Pro** in the **PLAN** column.
 
 Buy first, then pair: when every place is taken and there are no unused Event Passes, the pairing code is refused with "Device limit reached".
@@ -60,12 +60,12 @@ You are retiring a booth computer and want its Pix Pro on the replacement. Nothi
 
 ![Deactivate this computer modal with Keep Pix Pro and Deactivate](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-deactivate-modal.webp)
 
-3. Pair the new computer (Step 2). If it is already paired and Blocked, just leave the Pix Desktop App running: the next computer that checks in takes the place.
+3. Pair the new computer (Step 2). If it is already paired and Blocked, just leave the Pixture Photobooth app running: the next computer that checks in takes the place.
 
 Two other actions free the place as well: logging the booth out (operator menu > **Logout**) and **Unlink** on the booth's **Device** tab. Both return Pix Pro, or the free trial, to your account, and the next computer to check in takes it. An Event Pass does not move; see Step 4.
 
 :::caution The place goes to whoever checks in first
-If several Blocked computers are online, the first one to connect after you deactivate takes the freed place. Deactivate while only the intended computer is running the Pix Desktop App.
+If several Blocked computers are online, the first one to connect after you deactivate takes the freed place. Deactivate while only the intended computer is running the Pixture Photobooth app.
 :::
 
 ## Step 4: Use an Event Pass for one event day
@@ -110,7 +110,7 @@ Pix Starter has no subscription. **Devices** reads "No devices yet", one compute
 |---|---|---|
 | Pairing shows "Device limit reached" | Every place is taken and there is no unused Event Pass, or this is a second computer on Pix Starter | Deactivate a computer, add a device or buy an Event Pass. Pix Starter runs one computer |
 | The new computer is paired but Blocked | No free place, or you hold unused Event Passes and none is used on it yet | Deactivate another computer or add a device; or **Use an Event Pass on this computer** |
-| Deactivate freed a place but the new computer is still Blocked | It has not checked in yet, or another computer took the place | Make sure the Pix Desktop App is running and online; check **Active devices** |
+| Deactivate freed a place but the new computer is still Blocked | It has not checked in yet, or another computer took the place | Make sure the Pixture Photobooth app is running and online; check **Active devices** |
 | An Event Pass disappeared after Deactivate | Deactivate ends a running Event Pass | Buy another Event Pass; deactivate only subscription computers you mean to move |
 | **PLAN** reads **Pix Pro, payment failed** | The renewal charge failed | Update the card under **Settings > Pixture billing** within 3 days |
 | Booth badge reads "Pix Pro ended, reconnect to check" | The computer was offline when its period ended | Reconnect it; the booth checks again |

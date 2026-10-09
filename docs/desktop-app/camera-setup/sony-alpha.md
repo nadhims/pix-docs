@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 title: Sony Alpha Setup
-description: Connect a Sony Alpha or ZV camera to the Pix Desktop App over USB, on Mac or Windows, and set it up for a booth.
+description: Connect a Sony Alpha or ZV camera to the Pixture Photobooth app over USB, on Mac or Windows, and set it up for a booth.
 tags: [desktop-app, camera, sony]
 ---
 
 # Sony Alpha Camera Setup
 
-The Pix Desktop App drives Sony Alpha and ZV bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page, the same as with a Canon. By the end of this page your Sony is connected and ready for a full day.
+The Pixture Photobooth app drives Sony Alpha and ZV bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page, the same as with a Canon. By the end of this page your Sony is connected and ready for a full day.
 
 ## Supported Models
 
@@ -34,7 +34,7 @@ These are the Sony bodies the app supports:
 1. On the camera, turn on **PC Remote** for USB. The menu name varies by model: look for **USB Connection Mode** or **PC Remote Function** in the Setup or Network menu.
 2. Set the mode dial to **M**, **A** or **S**. The app can only drive exposure in one of these modes; the Camera Settings page reminds you with "Set camera to M / A / S mode for manual control".
 3. Connect the camera to the computer with the USB cable and turn it on.
-4. Open the Pix Desktop App. The camera is detected within a few seconds and its live view appears.
+4. Open the Pixture Photobooth app. The camera is detected within a few seconds and its live view appears.
 5. Open the operator menu (two taps on the top-right corner), tap **Camera Settings**, and check the **STATUS** block: **Camera** and **Live View** should both read as connected. If more than one camera is plugged in, pick the Sony under **CAMERA DEVICE** and tap **Set as Default**.
 
 ### Windows: install the Sony driver

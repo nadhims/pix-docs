@@ -7,7 +7,7 @@ tags: [dashboard, devices, billing, subscription]
 
 # Devices
 
-Pix Pro is per computer. A computer running the Pix Desktop App is a **device**, and it is active while it holds Pix Pro from your subscription, an Event Pass, or the free trial. **Devices** shows the computers that are active right now, how many your subscription allows, your unused Event Passes, and the buttons to buy more.
+Pix Pro is per computer. A computer running the Pixture Photobooth app is a **device**, and it is active while it holds Pix Pro from your subscription, an Event Pass, or the free trial. **Devices** shows the computers that are active right now, how many your subscription allows, your unused Event Passes, and the buttons to buy more.
 
 ![Devices page of a Pix Pro account: Devices 21 of 42, Subscription, Next renewal, Event Passes, Pix AI credits, and the Active devices table with Deactivate](/img/docs/licenses-devices.webp)
 
@@ -31,7 +31,7 @@ Under the cards, "N of M allowed devices active, N devices remaining" and **Buy 
 | BOOTH | The booth it is paired to |
 | DEVICE ID | Its hardware id |
 | FIRST SEEN, LAST SEEN | When it was paired and when it last checked in |
-| VERSION | The Pix Desktop App version it runs |
+| VERSION | The Pixture Photobooth app version it runs |
 | PLAN | **Pix Pro**, **Event Pass**, **Trial**, "Pix Pro, payment failed", **Blocked** or **Watermarked** |
 | ACTIONS | **Deactivate**, with a chevron showing the renewal date and **Manage billing** |
 

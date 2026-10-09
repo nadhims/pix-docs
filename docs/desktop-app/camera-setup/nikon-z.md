@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: Nikon Z Setup
-description: Connect a Nikon Z mirrorless camera to the Pix Desktop App over USB, on Mac or Windows, and set it up for a booth.
+description: Connect a Nikon Z mirrorless camera to the Pixture Photobooth app over USB, on Mac or Windows, and set it up for a booth.
 tags: [desktop-app, camera, nikon]
 ---
 
 # Nikon Z Camera Setup
 
-The Pix Desktop App drives Nikon Z mirrorless bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page. By the end of this page your Nikon is connected and ready for a full day.
+The Pixture Photobooth app drives Nikon Z mirrorless bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page. By the end of this page your Nikon is connected and ready for a full day.
 
 ## Supported Models
 
@@ -29,7 +29,7 @@ The computer needs **Windows 11 (64-bit)** or **macOS 13 or newer**.
 
 1. Set the mode dial (or the photo mode) to **M**, **A** or **S**. The app can only drive exposure in one of these modes; the Camera Settings page reminds you with "Set camera to M / A / S mode for manual control".
 2. Connect the camera to the computer with the USB cable and turn it on.
-3. Open the Pix Desktop App. The camera is detected and its live view appears.
+3. Open the Pixture Photobooth app. The camera is detected and its live view appears.
 4. Open the operator menu (two taps on the top-right corner), tap **Camera Settings**, and check the **STATUS** block: **Camera** and **Live View** should both read as connected. If more than one camera is plugged in, pick the Nikon under **CAMERA DEVICE** and tap **Set as Default**.
 
 The app only loads Nikon's software when a Nikon camera is plugged in, so a booth with a Canon or Sony is not affected by it.

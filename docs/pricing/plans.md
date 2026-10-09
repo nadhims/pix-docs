@@ -7,7 +7,7 @@ tags: [pricing, plans, starter, event-pass, pix-pro]
 
 # Plans & Pricing
 
-Pixture is priced per computer, not per account. Booths are free profiles: create as many as you like in the Pixture dashboard. What you pay for is Pix Pro on each computer that runs the Pix Desktop App.
+Pixture is priced per computer, not per account. Booths are free profiles: create as many as you like in the Pixture dashboard. What you pay for is Pix Pro on each computer that runs the Pixture Photobooth app.
 
 Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** the moment one does, whether through a subscription, a running Event Pass or the free trial. You buy and manage everything on the **Devices** page of the dashboard.
 
@@ -21,7 +21,7 @@ Pix Starter is for trying Pixture and for booths that do not charge guests.
 - **Pix Design is open to try.** Creating or saving your own designs needs Pix Pro; the dashboard offers **Start free trial** or **Buy Pix Pro** when you try. Marketing Studio needs Pix Pro.
 - **No payment screen.** Every photo session is free and the booth skips the Payment screen.
 
-You do not even need an account to try the booth: install the Pix Desktop App and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.
+You do not even need an account to try the booth: install the Pixture Photobooth app and tap **Try it without an account** on the login screen. It runs with built-in frames and screens, watermarked, without cloud sharing.
 
 ## Event Pass
 

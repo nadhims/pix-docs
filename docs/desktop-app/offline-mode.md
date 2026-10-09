@@ -7,7 +7,7 @@ tags: [desktop-app, offline, queue, resilience]
 
 # Offline Mode
 
-Venue internet is the least reliable part of a booth, so the Pix Desktop App is built to keep taking, printing and sharing photos through it. This page explains what happens during a session when the line drops, how the upload queue retries and when it gives up, what the Admin Panel shows, how storage is kept under control, and how vouchers and Pix Pro behave without internet.
+Venue internet is the least reliable part of a booth, so the Pixture Photobooth app is built to keep taking, printing and sharing photos through it. This page explains what happens during a session when the line drops, how the upload queue retries and when it gives up, what the Admin Panel shows, how storage is kept under control, and how vouchers and Pix Pro behave without internet.
 
 ## During a Session
 

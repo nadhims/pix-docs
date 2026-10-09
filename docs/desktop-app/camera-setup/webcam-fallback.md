@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Webcam Fallback
-description: Using a built-in camera, a USB webcam or a virtual camera as the capture source in the Pix Desktop App.
+description: Using a built-in camera, a USB webcam or a virtual camera as the capture source in the Pixture Photobooth app.
 tags: [desktop-app, camera, webcam]
 ---
 

@@ -38,7 +38,7 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
    | **Studio** | Start > Pay > Template > Timed shoot > Pick photos > Filter > Share |
    | **Simple** | Start > Pay > B&W or colour > Shoot > Share |
 
-   Photobooth is the classic booth: one photo per template slot. Studio lets the guest take free shots for a set time, then place the ones they like into the template; it needs Pix Desktop App 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Simple is a colour choice and a shot.
+   Photobooth is the classic booth: one photo per template slot. Studio lets the guest take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Simple is a colour choice and a shot.
 
 5. Create the project. It opens in the editor.
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: Troubleshooting
-description: Symptom, likely cause and fix for the common camera, printer, network, payment, Pix Pro, clock and storage problems on the Pix Desktop App, and where the logs are.
+description: Symptom, likely cause and fix for the common camera, printer, network, payment, Pix Pro, clock and storage problems on the Pixture Photobooth app, and where the logs are.
 tags: [desktop-app, troubleshooting, support]
 ---
 

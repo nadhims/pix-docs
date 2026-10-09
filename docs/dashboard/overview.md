@@ -7,7 +7,7 @@ tags: [dashboard, overview, web]
 
 # Dashboard Overview
 
-The Pixture dashboard is a web app at pixture.io. Nothing to install: it works in any modern browser, on a laptop, a tablet or a phone. Your booths run the [Pix Desktop App](../desktop-app/overview.md); the dashboard is where you set them up, price them, watch them and get paid.
+The Pixture dashboard is a web app at pixture.io. Nothing to install: it works in any modern browser, on a laptop, a tablet or a phone. Your booths run the [Pixture Photobooth app](../desktop-app/overview.md); the dashboard is where you set them up, price them, watch them and get paid.
 
 ![Dashboard home of a Pix Pro account, with the sidebar on the left and the Revenue, Sessions and Session Completion cards](/img/docs/dashboard-home.webp)
 

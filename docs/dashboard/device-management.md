@@ -7,7 +7,7 @@ tags: [dashboard, devices, pairing]
 
 # Devices and Pairing
 
-A **device** is the computer running the Pix Desktop App. Each computer is paired to exactly one booth with a code from the dashboard. Everything about the computer lives on the booth's **Device** tab.
+A **device** is the computer running the Pixture Photobooth app. Each computer is paired to exactly one booth with a code from the dashboard. Everything about the computer lives on the booth's **Device** tab.
 
 ![Booth Device tab before pairing: Device card with Bind existing device, and Pairing & access with Generate code](/img/docs/booth-device-tab-unpaired.webp)
 
@@ -19,12 +19,12 @@ A booth with no computer shows the status **Unknown**, a dash for the plan and "
 
 ## Pairing a Computer
 
-1. Install the Pix Desktop App on the booth computer. See [Download the Desktop App](../getting-started/download-desktop-app.md).
-2. On the booth's **Device** tab, under **Pairing & access**, click **Generate code**. The Pair Pixture App modal shows a 6-digit code with "Enter this code in the Pixture App to link it to [booth name]." and a countdown from 10 minutes. Use **Copy Code**, or **Regenerate** if it expires.
+1. Install the Pixture Photobooth app on the booth computer. See [Install the Pixture Photobooth app](../getting-started/download-desktop-app.md).
+2. On the booth's **Device** tab, under **Pairing & access**, click **Generate code**. The Pair Pixture Photobooth modal shows a 6-digit code with "Enter this code in the Pixture Photobooth app to link it to [booth name]." and a countdown from 10 minutes. Use **Copy Code**, or **Regenerate** if it expires.
 3. Type the code on the booth's pairing screen.
 4. Click **Done**. The computer downloads the booth's templates, screen design, filters and prices and goes to the start screen.
 
-![Pair Pixture App modal showing the 6-digit code, Expires in, Copy Code, Regenerate, Done](/img/docs/booth-pairing-code.webp)
+![Pair Pixture Photobooth modal showing the 6-digit code, Expires in, Copy Code, Regenerate, Done](/img/docs/booth-pairing-code.webp)
 
 On a Pix Pro account, a spare place on your subscription attaches itself at this first check-in, so the computer runs Pix Pro straight away. An Event Pass is never started automatically: use one at the booth when the day starts.
 

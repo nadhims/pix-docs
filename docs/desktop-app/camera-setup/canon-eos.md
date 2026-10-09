@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Canon EOS Setup
-description: How to connect a Canon EOS DSLR or mirrorless camera to the Pix Desktop App and set it up for a booth.
+description: How to connect a Canon EOS DSLR or mirrorless camera to the Pixture Photobooth app and set it up for a booth.
 tags: [desktop-app, camera, canon]
 ---
 
@@ -28,7 +28,7 @@ If your model is not listed it will most likely still work. Connect it and the a
 1. Turn the camera on and set the mode dial to **M**, **Av** or **Tv**. The app can only drive exposure in one of these modes; the Camera Settings page reminds you with "Set camera to M / Av / Tv mode for manual control".
 2. Set focus on the camera body. Focus mode is not controlled from the app, so switch the lens to manual focus (MF) if the shooting distance is fixed.
 3. Connect the camera to the computer with the USB cable.
-4. Open the Pix Desktop App. The camera is detected automatically and the live view appears on the Start screen preview or the Capture screen.
+4. Open the Pixture Photobooth app. The camera is detected automatically and the live view appears on the Start screen preview or the Capture screen.
 5. Open the operator menu (two taps on the top-right corner) and tap **Camera Settings** to check the **STATUS** block: **Camera** and **Live View** should both read as connected.
 
 If the camera drops out during the day the app reconnects on its own. See [Camera Settings](./camera-settings.md) for the exposure controls and live view aids.

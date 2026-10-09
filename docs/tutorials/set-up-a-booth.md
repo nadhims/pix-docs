@@ -7,12 +7,12 @@ tags: [tutorials, booths, setup, pairing]
 
 # Set Up a Booth From Scratch
 
-In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the booth's screen design and filters, set a price or make photo sessions free, check the outputs, pair the booth computer and run a test session. Allow about 30 minutes, plus the time to install the Pix Desktop App.
+In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the booth's screen design and filters, set a price or make photo sessions free, check the outputs, pair the booth computer and run a test session. Allow about 30 minutes, plus the time to install the Pixture Photobooth app.
 
 ## Before You Start
 
 - A Pixture account, with the dashboard open at pixture.io.
-- The [Pix Desktop App](../getting-started/download-desktop-app.md) installed on the booth computer, with the camera and printer connected.
+- The [Pixture Photobooth app](../getting-started/download-desktop-app.md) installed on the booth computer, with the camera and printer connected.
 - On Pix Starter, one computer can be paired and every photo, print and GIF carries the Pixture watermark. Pix Pro removes the watermark and unlocks payments at the booth. See [Plans & Pricing](../pricing/plans.md).
 
 ## Step 1: Create the booth
@@ -46,7 +46,7 @@ A new account comes with two ready-made 4x6 templates, Classic Black and Classic
 
 ![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
-Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pix Desktop App 1.1.98 or newer on the booth computer.
+Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth computer.
 
 ## Step 4: Choose filters
 
@@ -79,11 +79,11 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 ## Step 7: Pair the computer
 
 1. Open the **Device** tab and, under **Pairing & access**, click **Generate code**.
-2. The **Pair Pixture App** modal shows a 6-digit code that expires in 10 minutes. **Copy Code** puts it on the clipboard; **Regenerate** issues a fresh one.
+2. The **Pair Pixture Photobooth** modal shows a 6-digit code that expires in 10 minutes. **Copy Code** puts it on the clipboard; **Regenerate** issues a fresh one.
 
-![Pair Pixture App modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
+![Pair Pixture Photobooth modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
 
-3. On the booth computer, open the Pix Desktop App and enter the code on its pairing screen.
+3. On the booth computer, open the Pixture Photobooth app and enter the code on its pairing screen.
 4. Back in the dashboard, click **Done**.
 
 If the modal shows "Device limit reached" instead of a code, every place on your subscription is taken. See [Add a Second Computer or Move Pix Pro](./add-or-move-a-computer.md).
@@ -113,7 +113,7 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 |---|---|---|
 | The pairing code is refused | Codes expire after 10 minutes | Click **Regenerate** and enter the new code |
 | "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Devices page, add a device, or use an Event Pass. Pix Starter runs one computer |
-| The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pix Desktop App is running |
+| The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pixture Photobooth app is running |
 | Guests see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |
 | Every session is free | **Payment on this booth** is off, or the computer is on Pix Starter | Turn the switch on and connect a gateway; Pix Starter skips the Payment screen |
 | Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Devices page |

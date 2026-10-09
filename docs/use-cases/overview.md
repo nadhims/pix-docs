@@ -22,7 +22,7 @@ Many operators mix them: a studio that also takes wedding bookings, or a mall bo
 
 Whichever model you run, the first steps are the same:
 
-1. [Create your account](../getting-started/create-account.md) and [install the Pix Desktop App](../getting-started/download-desktop-app.md) on the booth computer.
+1. [Create your account](../getting-started/create-account.md) and [install the Pixture Photobooth app](../getting-started/download-desktop-app.md) on the booth computer.
 2. [Pair the booth](../getting-started/pair-your-first-booth.md) and [set it up](../tutorials/set-up-a-booth.md): templates, screen design, filters and pricing.
 3. Decide how the computer gets Pix Pro: by the month or year for a booth that works most days, an Event Pass per day for a booth that works some days. See [Plans & Pricing](../pricing/plans.md).
 4. Connect a way to get paid, unless your client pays you directly. See [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md).
