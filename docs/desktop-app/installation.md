@@ -23,8 +23,8 @@ By the end of this page the Pixture Photobooth app is installed on your booth co
 ## Install on macOS
 
 1. Open the downloaded `.dmg` file.
-2. Drag the **Pix** icon into your **Applications** folder.
-3. Open Pix from Applications. The first time, macOS may ask you to confirm because the app came from the internet. Click **Open**.
+2. Drag the **Pixture Photobooth** icon into your **Applications** folder.
+3. Open Pixture Photobooth from Applications. The first time, macOS may ask you to confirm because the app came from the internet. Click **Open**.
 
 The macOS build is signed and notarised, so Gatekeeper lets it run without extra steps.
 
@@ -32,7 +32,7 @@ The macOS build is signed and notarised, so Gatekeeper lets it run without extra
 
 1. Run the downloaded `.exe` installer.
 2. Follow the prompts. The default install location is fine.
-3. Open **Pix** from the Start menu or the desktop shortcut.
+3. Open **Pixture Photobooth** from the Start menu or the desktop shortcut.
 
 :::info Windows SmartScreen
 The Windows installer is not code-signed yet, so SmartScreen shows a warning the first time you run it. Click **More info**, then **Run anyway**. The app itself is not affected.
@@ -64,8 +64,8 @@ The app checks for updates on its own, downloads them in the background and rest
 
 ## Uninstalling
 
-- **macOS**: drag Pix from Applications to the Trash.
-- **Windows**: open **Settings > Apps > Installed apps**, find Pix and click **Uninstall**.
+- **macOS**: drag Pixture Photobooth from Applications to the Trash (on a Mac set up before version 1.1.131 it may still be named Pix).
+- **Windows**: open **Settings > Apps > Installed apps**, find Pixture Photobooth (Pix on versions before 1.1.131) and click **Uninstall**.
 
 Uninstalling does not free the computer's place on your subscription. Log out from the operator menu first, or deactivate the computer on the dashboard's **Devices** page. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 

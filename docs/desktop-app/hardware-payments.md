@@ -17,7 +17,7 @@ Besides QR payments through your gateway, the booth can take money from hardware
 
 ## Keyboard Coin Input
 
-Many acceptors act as a USB keyboard and send one keystroke per coin, note or credit pulse. Pix counts those keystrokes on its Insert Coins and Tap to Pay screens.
+Many acceptors act as a USB keyboard and send one keystroke per coin, note or credit pulse. Pixture Photobooth counts those keystrokes on its Insert Coins and Tap to Pay screens.
 
 1. Set the acceptor to send a single key (for example F1) per unit of value.
 2. Open **Menu > Hardware API** on the booth.
@@ -71,7 +71,7 @@ The page lists the endpoints:
 | A bridge, PLC or terminal that can call a URL | The local Hardware API |
 
 :::caution What the reader charges is up to the reader
-Pix records what the hardware reports. It cannot tell a card reader to charge a particular package; set the price on the reader to match Booth Pricing, and offer packages only with a reader that can charge a variable amount.
+Pixture Photobooth records what the hardware reports. It cannot tell a card reader to charge a particular package; set the price on the reader to match Booth Pricing, and offer packages only with a reader that can charge a variable amount.
 :::
 
 ## Related

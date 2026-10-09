@@ -37,7 +37,7 @@ The buttons, top to bottom:
 
 ### Footer and badge
 
-The footer shows the booth name, the account email, the plan badge (**Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pix v…". Support will ask for that version.
+The footer shows the booth name, the account email, the plan badge (**Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pixture Photobooth v…". Support will ask for that version.
 
 ### Notices
 

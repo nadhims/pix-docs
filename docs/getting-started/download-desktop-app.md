@@ -26,8 +26,8 @@ By the end of this page the Pixture Photobooth app, the booth software that runs
 ## Install on macOS
 
 1. Open the downloaded `.dmg` file.
-2. Drag **Pix** into your **Applications** folder.
-3. Open Pix from Applications. The first time, macOS may ask you to confirm because the app came from the internet. Click **Open**.
+2. Drag **Pixture Photobooth** into your **Applications** folder.
+3. Open Pixture Photobooth from Applications. The first time, macOS may ask you to confirm because the app came from the internet. Click **Open**.
 
 The macOS build is signed and notarised, so there are no further prompts.
 
@@ -35,7 +35,7 @@ The macOS build is signed and notarised, so there are no further prompts.
 
 1. Run the downloaded `.exe` installer.
 2. Follow the prompts. The default install location is fine.
-3. Open **Pix** from the Start menu or the desktop shortcut.
+3. Open **Pixture Photobooth** from the Start menu or the desktop shortcut.
 
 :::caution Windows SmartScreen
 The Windows installer is not code-signed yet, so SmartScreen shows a warning the first time you run it. Click **More info**, then **Run anyway**.
