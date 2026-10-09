@@ -13,7 +13,7 @@ A pop-up booth is a knockdown box that packs into a car and sets up in under an 
 
 ### 1. Pay for the days you work
 
-Use an **Event Pass** on the booth computer for each event day, or Pix Pro if you go out most weekends. Buy Event Passes ahead on the **Devices** page. See [Plans & Pricing](../pricing/plans.md).
+Use an **Event Pass** on the booth PC for each event day, or Pix Pro if you go out most weekends. Buy Event Passes ahead on the **Devices** page. See [Plans & Pricing](../pricing/plans.md).
 
 ### 2. Take payment at the stall
 

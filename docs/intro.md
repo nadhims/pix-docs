@@ -29,7 +29,7 @@ Five steps take a new account to its first photo session. Most operators finish 
 
 1. [Create your account](./getting-started/create-account.md) at pixture.io and answer the short Quick setup.
 2. [Choose your plan](./getting-started/choose-plan.md), or stay on the free Pix Starter plan for now.
-3. [Install the Pixture Photobooth app](./getting-started/download-desktop-app.md) on the booth computer.
+3. [Install the Pixture Photobooth app](./getting-started/download-desktop-app.md) on the booth PC.
 4. [Pair your first booth](./getting-started/pair-your-first-booth.md) with a 6-digit code from the dashboard.
 5. [Run your first photo session](./getting-started/your-first-session.md) and check the result in the dashboard.
 

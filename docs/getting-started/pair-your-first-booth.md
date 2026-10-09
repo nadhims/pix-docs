@@ -7,11 +7,11 @@ tags: [getting-started, booths, pairing, device]
 
 # Pair Your First Booth
 
-By the end of this page the booth computer is linked to a booth in your dashboard, has downloaded that booth's templates and screen design, and is showing its start screen. The dashboard shows the booth as Online with the computer's name. Pairing takes two minutes.
+By the end of this page the booth PC is linked to a booth in your dashboard, has downloaded that booth's templates and screen design, and is showing its start screen. The dashboard shows the booth as Online with the computer's name. Pairing takes two minutes.
 
 ## Before You Start
 
-- The [Pixture Photobooth app is installed](./download-desktop-app.md) and open on its pairing screen on the booth computer.
+- The [Pixture Photobooth app is installed](./download-desktop-app.md) and open on its pairing screen on the booth PC.
 - You are logged in to the dashboard on any other device, for example your phone.
 - A booth to pair. Quick setup already created one; you can also create a new one below.
 
@@ -35,7 +35,7 @@ By the end of this page the booth computer is linked to a booth in your dashboar
 
    ![The Pair Pixture Photobooth modal with a 6-digit code, the Expires in countdown, and the Copy Code, Regenerate and Done buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-pairing-code.webp)
 
-4. On the booth computer, type the 6 digits on the app's pairing screen.
+4. On the booth PC, type the 6 digits on the app's pairing screen.
 5. The booth downloads its templates, screen design and pricing and shows the start screen. Click **Done** on the modal. Back in the dashboard, the booth's status turns **Online** and the **Device** tab shows the computer's name, its fingerprint and when it was last seen.
 
    ![The booth Device tab with a paired computer showing its name, fingerprint, last seen time, and the Rename device, Unlink and Remove actions](/img/docs/steps/getting-started-pair-your-first-booth--booth-device-tab-paired.webp)

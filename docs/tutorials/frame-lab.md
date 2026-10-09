@@ -7,13 +7,13 @@ tags: [tutorials, frame-lab, marketing-studio, vouchers]
 
 # Let Guests Design Their Own Frame (Frame Lab)
 
-In this tutorial you will switch on Frame Lab for a booth, set its price, share the guest link, and follow a guest all the way from designing a frame on their phone to paying, receiving a voucher code and using it at the booth. Allow about 20 minutes. Frame Lab needs Pix Pro on the booth's computer.
+In this tutorial you will switch on Frame Lab for a booth, set its price, share the guest link, and follow a guest all the way from designing a frame on their phone to paying, receiving a voucher code and using it at the booth. Allow about 20 minutes. Frame Lab needs Pix Pro on the booth PC.
 
 Frame Lab is a page guests open on their phone. They build a frame in a small studio (colours, layout, stickers and a caption) or upload a print-ready PNG, pay for it, and get a single-use voucher code. At the booth they type the code on the Payment screen, the booth loads their frame as the only template, and the session prints and shares on their own design.
 
 ## Before You Start
 
-- Pix Pro on the booth's computer. On Pix Starter the switch is locked with a **Pix Pro** badge.
+- Pix Pro on the booth PC. On Pix Starter the switch is locked with a **Pix Pro** badge.
 - A payment gateway connected under **Settings > Payment Gateway**. Frame Lab charges the guest by QR code payment through your gateway (QRIS in Indonesia), and the gateway must charge in the booth's currency. See [Accept Payments at the Booth](./accept-payments.md).
 - At least one print template assigned to the booth. The guest's frame is built at that template's print size.
 - A session price on the booth and **Payment on this booth** switched on. The voucher is redeemed on the booth's Payment screen, so a booth that runs free sessions cannot accept it.

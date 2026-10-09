@@ -13,7 +13,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 ## Before You Start
 
-- **Pix Pro on the booth's computer.**
+- **Pix Pro on the booth PC.**
 - **A payment gateway connected** (**Settings > Payment Gateway**). Indonesian gateways sell by QRIS; Stripe sells by card.
 - **Prices saved on the booth's Pricing tab**, with **Payment on this booth** ON. The shop sells exactly what the booth sells.
 - **Pixture Photobooth 1.1.101 or newer** on the booth. Older versions can only accept a code for a single session.

@@ -81,7 +81,7 @@ Stop a card subscription from **Settings > Pixture billing > Manage subscription
 
 ## The Free Trial
 
-Every organization can claim one free 3-day Pix Pro trial on one computer, with no card. Claim it from the "Try Pix Pro free for 3 days" popup, or later from the Updates bell, and pick which booth's computer gets it. While it runs your account is Pix Pro with one device. After 3 days that computer goes back to watermarked unless you buy Pix Pro.
+Every organization can claim one free 3-day Pix Pro trial on one computer, with no card. Claim it from the "Try Pix Pro free for 3 days" popup, or later from the Updates bell, and pick which booth PC gets it. While it runs your account is Pix Pro with one device. After 3 days that computer goes back to watermarked unless you buy Pix Pro.
 
 ## Pix Starter
 

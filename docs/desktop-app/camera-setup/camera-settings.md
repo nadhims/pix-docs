@@ -7,7 +7,7 @@ tags: [desktop-app, camera, settings, exposure]
 
 # Camera Settings
 
-This page walks through the Camera Settings page on the booth, section by section, so you can dial the camera in once and leave it. Open it from the operator menu: tap the top-right corner twice, enter the PIN if one is set, then tap **Camera Settings**. Everything here is saved on the booth computer and survives re-pairing and updates.
+This page walks through the Camera Settings page on the booth, section by section, so you can dial the camera in once and leave it. Open it from the operator menu: tap the top-right corner twice, enter the PIN if one is set, then tap **Camera Settings**. Everything here is saved on the booth PC and survives re-pairing and updates.
 
 ## Live Preview Aids
 

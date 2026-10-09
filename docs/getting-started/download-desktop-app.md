@@ -7,7 +7,7 @@ tags: [getting-started, desktop-app, install]
 
 # Install the Pixture Photobooth app
 
-By the end of this page the Pixture Photobooth app, the booth software that runs your photobooth, is installed on the booth computer and open on its pairing screen. The current version is 1.1.115.
+By the end of this page the Pixture Photobooth app, the booth software that runs your photobooth, is installed on the booth PC and open on its pairing screen. The current version is 1.1.115.
 
 ## Before You Start
 

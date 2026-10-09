@@ -13,10 +13,10 @@ Allow about 30 minutes for a keystroke setup once the hardware is wired, longer 
 
 ## Before You Start
 
-- **Pix Pro on the booth computer.** On Pix Starter the booth skips the Payment screen, so nothing can be charged.
+- **Pix Pro on the booth PC.** On Pix Starter the booth skips the Payment screen, so nothing can be charged.
 - **Pixture Photobooth 1.1.87 or newer**, so that hardware payments are recorded as revenue.
 - **The booth's Pricing tab set:** **Payment on this booth** on and a **Session price** (see [Booth Pricing](../dashboard/booth-pricing.md)). A cash system that starts the session records it at this price.
-- **The hardware wired to the booth computer and configured on its own side:** coin values, the price, pulse or keystroke output. The CASH-Interface2 board needs its own 12 V supply; always unplug it before you connect an acceptor.
+- **The hardware wired to the booth PC and configured on its own side:** coin values, the price, pulse or keystroke output. The CASH-Interface2 board needs its own 12 V supply; always unplug it before you connect an acceptor.
 - **A Stripe gateway** if you use a Stripe Terminal reader; see [Create a Payment Gateway](./create-a-payment-gateway.md).
 - The booth pages in this tutorial have no screenshots; they are described in words.
 
@@ -198,7 +198,7 @@ If your hardware can make an HTTP request (a PLC, a bridge box, a card terminal 
 
 1. On the booth, open the operator menu > **Hardware API**.
 2. Turn on **Enable local API**. It listens on **Port** 14500 by default; change it if that port is taken.
-3. Leave **Allow LAN access** off if the bridge runs on the booth computer itself; turn it on if the bridge sits elsewhere on the same network. The page shows this PC's address.
+3. Leave **Allow LAN access** off if the bridge runs on the booth PC itself; turn it on if the bridge sits elsewhere on the same network. The page shows this PC's address.
 4. Read the **Access token** off the screen and put it in your bridge. **Regenerate** issues a new token and invalidates the old one.
 
 Every request must carry the token. The page lists the endpoints:

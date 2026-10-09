@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Choose Your Plan
-description: Start free and watermarked on Pix Starter, claim the 3-day Pix Pro trial, then put Pix Pro or an Event Pass on the booth computer when it has a paid job.
+description: Start free and watermarked on Pix Starter, claim the 3-day Pix Pro trial, then put Pix Pro or an Event Pass on the booth PC when it has a paid job.
 tags: [getting-started, plans, pricing]
 ---
 
@@ -39,7 +39,7 @@ The moment one computer holds Pix Pro, through a subscription, a running Event P
 Every account can claim one free trial: 3 days of Pix Pro on one computer, no card needed.
 
 1. In the dashboard, wait for the **Try Pix Pro free for 3 days** popup, or open it later from the bell (**Updates**) at the top of the sidebar.
-2. Under **Which booth's computer?**, pick the booth. The trial goes on the computer paired to that booth.
+2. Under **Which booth PC?**, pick the booth. The trial goes on the computer paired to that booth.
 3. Click **Claim free trial**. **Save for later** closes the popup without using the trial.
 
    ![The Try Pix Pro free for 3 days popup with the benefits list, the booth picker and the Claim free trial button](/img/docs/trial-popup.webp)

@@ -52,7 +52,7 @@ In the preview, tap × to dismiss the promo popup the way a guest would. **Show 
 
 ## Pix Starter and Pix Pro
 
-The Microsite page opens on Pix Starter and you can try every setting, but saving the design for a booth needs Pix Pro on that booth's computer, the same rule as the watermark. When you save to a mix of booths, the ones without Pix Pro are skipped and the toast tells you how many. On a Pix Starter computer the shared files also carry the Pixture watermark; Pix Pro removes it. See [Pix Design Overview](./overview.md).
+The Microsite page opens on Pix Starter and you can try every setting, but saving the design for a booth needs Pix Pro on that booth PC, the same rule as the watermark. When you save to a mix of booths, the ones without Pix Pro are skipped and the toast tells you how many. On a Pix Starter computer the shared files also carry the Pixture watermark; Pix Pro removes it. See [Pix Design Overview](./overview.md).
 
 :::info
 Microsite visits are counted in **Marketing Studio > Performance**, and the promo banner can be rolled out as part of a campaign there. See [Marketing Studio](../marketing-studio.md).

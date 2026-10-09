@@ -20,7 +20,7 @@ Pix Pro is per computer. A computer on an Event Pass has exactly the same featur
 | **Frame Lab** (guests design their own frame) | No | Yes |
 | **Payments at the booth and vouchers** | No, the Payment screen is skipped and every session is free | Payment gateway, hardware payments, packages, extra prints, tax and fees, vouchers |
 | **Online session shop** | No | Yes |
-| **Events** | Set up on any plan; each booth's computer needs Pix Pro or an Event Pass for the event | Yes |
+| **Events** | Set up on any plan; each booth PC needs Pix Pro or an Event Pass for the event | Yes |
 | **Studio mode** | Needs a UI project in Studio mode, so Pix Pro | Yes, on booth 1.1.98 or newer |
 | **Video and 360 event modes** | No | Video; 360 slow-mo is marked "Soon" |
 | **Filters** | 14 built-in | 14 built-in plus up to 50 custom .cube files |
