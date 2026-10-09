@@ -14,7 +14,7 @@ Allow about 30 minutes for a keystroke setup once the hardware is wired, longer 
 ## Before You Start
 
 - **Pix Pro on the booth computer.** On Pix Starter the booth skips the Payment screen, so nothing can be charged.
-- **Pix Desktop App 1.1.87 or newer**, so that hardware payments are recorded as revenue.
+- **Pixture Photobooth 1.1.87 or newer**, so that hardware payments are recorded as revenue.
 - **The booth's Pricing tab set:** **Payment on this booth** on and a **Session price** (see [Booth Pricing](../dashboard/booth-pricing.md)). A cash system that starts the session records it at this price.
 - **The hardware wired to the booth computer and configured on its own side:** coin values, the price, pulse or keystroke output. The CASH-Interface2 board needs its own 12 V supply; always unplug it before you connect an acceptor.
 - **A Stripe gateway** if you use a Stripe Terminal reader; see [Create a Payment Gateway](./create-a-payment-gateway.md).
@@ -73,7 +73,7 @@ The booth confirms a card payment by asking Stripe while its payment screen is o
 
 A CASH-Interface2 (CI2) kit is a board plus its keystroke software. The board takes coin validators (NRI G13, RM5, EMP800 and pin-compatible), note validators (NV9, NV10) and, through its PULSE input or a PULSE adapter, cashless readers such as the Nayax ONYX, VPOS Touch and AMIT 3, Ingenico and ePort. Coins, notes and a card reader can all be on at once.
 
-The software cannot call URLs. It presses a hotkey into the window whose title matches its "receiver name". The Pix Desktop App changes its window title per screen: **Pix - START** on the Start screen and **Pix - PAYMENT** on the Payment screen, so the cash system always knows where the booth is.
+The software cannot call URLs. It presses a hotkey into the window whose title matches its "receiver name". The Pixture Photobooth app changes its window title per screen: **Pix - START** on the Start screen and **Pix - PAYMENT** on the Payment screen, so the cash system always knows where the booth is.
 
 All three CI2 setups use the booth's **Hardware API** page: open the operator menu (tap the top-right corner twice within 3 seconds and enter the PIN if one is set), then **Hardware API**. Its **CASH-Interface2 keystroke edition** section shows the same setup tables as below, so you can copy values while you stand at the booth.
 

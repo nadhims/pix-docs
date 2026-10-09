@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 title: Overview
-description: What the Pix Desktop App is, what is new in version 1.1.115, what it needs to run, and how it works with the Pixture dashboard.
+description: What the Pixture Photobooth app is, what is new in version 1.1.115, what it needs to run, and how it works with the Pixture dashboard.
 tags: [desktop-app, overview, getting-started]
 ---
 
-# Pix Desktop App Overview
+# Pixture Photobooth Overview
 
-The Pix Desktop App is the booth software that turns a Mac or Windows computer into a photobooth. It runs full screen, drives your camera and printer, walks the guest through a photo session and hands over the result as a print and a QR code. This page tells you what the app does, what has changed recently, what it needs to run, and how it fits together with the Pixture dashboard.
+The Pixture Photobooth app is the booth software that turns a Mac or Windows computer into a photobooth. It runs full screen, drives your camera and printer, walks the guest through a photo session and hands over the result as a print and a QR code. This page tells you what the app does, what has changed recently, what it needs to run, and how it fits together with the Pixture dashboard.
 
 ## What It Does
 

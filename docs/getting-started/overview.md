@@ -7,7 +7,7 @@ tags: [getting-started, quickstart]
 
 # Getting Started
 
-By the end of this section you have a Pixture account, the Pix Desktop App running on a booth computer that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
+By the end of this section you have a Pixture account, the Pixture Photobooth app running on a booth computer that is paired to a booth in your dashboard, and one finished photo session to look at. Nothing here needs a payment.
 
 New to words like booth, template, UI project or microsite? Read [How Pixture Works](./how-pixture-works.md) first; it takes five minutes.
 
@@ -15,7 +15,7 @@ New to words like booth, template, UI project or microsite? Read [How Pixture Wo
 
 1. [Create your account](./create-account.md). Sign up at pixture.io, complete your profile and answer the Quick setup, which also creates your first booth.
 2. [Choose your plan](./choose-plan.md). Stay on the free Pix Starter plan, claim the 3-day Pix Pro trial, or put Pix Pro or an Event Pass on the booth computer. You can come back to this at any time.
-3. [Install the Pix Desktop App](./download-desktop-app.md) on the Mac or Windows computer that will run the booth.
+3. [Install the Pixture Photobooth app](./download-desktop-app.md) on the Mac or Windows computer that will run the booth.
 4. [Pair your first booth](./pair-your-first-booth.md). Generate a 6-digit code in the dashboard and type it into the app.
 5. [Know your way around the dashboard](./access-dashboard.md). A short tour of the sidebar, so you know where prices, templates, health and devices live.
 6. [Run your first photo session](./your-first-session.md). Walk through the guest flow once, then find the photos in the Gallery.
@@ -31,7 +31,7 @@ Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same
 
 ## What Is Free
 
-**Pix Starter** costs nothing and has no time limit. It runs the Pix Desktop App on **one computer**, with the Pixture watermark on every photo, print, GIF and video, and a new account comes with two ready-made print templates and the default screen design, so a booth works minutes after pairing. What else Pix Starter includes, and what Pix Pro adds, is on [Choose Your Plan](./choose-plan.md).
+**Pix Starter** costs nothing and has no time limit. It runs the Pixture Photobooth app on **one computer**, with the Pixture watermark on every photo, print, GIF and video, and a new account comes with two ready-made print templates and the default screen design, so a booth works minutes after pairing. What else Pix Starter includes, and what Pix Pro adds, is on [Choose Your Plan](./choose-plan.md).
 
 Every account can also claim one free **3-day Pix Pro trial** on one computer, with no card. See [Choose Your Plan](./choose-plan.md).
 

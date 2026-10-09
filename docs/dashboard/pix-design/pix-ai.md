@@ -77,7 +77,7 @@ Generations need credits in the balance. Top up before an event rather than duri
 The booth's [Pricing](../booth-pricing.md) tab has a card, **AI portrait on the share page**, for beta accounts:
 
 1. Turn on **Sell AI portraits on the share page** and set the **Price per portrait**.
-2. Optionally turn on **Offer a print at this booth** and set the **Digital + print price**. The guest gets a 7-character pickup code and types it into the voucher box on the booth's Payment screen; the booth prints the portrait and returns to Start. Keep payment on at that booth so the voucher box is there, and run Pix Desktop App 1.1.110 or newer.
+2. Optionally turn on **Offer a print at this booth** and set the **Digital + print price**. The guest gets a 7-character pickup code and types it into the voucher box on the booth's Payment screen; the booth prints the portrait and returns to Start. Keep payment on at that booth so the voucher box is there, and run Pixture Photobooth 1.1.110 or newer.
 3. Click **Save**.
 
 The booth also needs at least one preset ticked for it on the Pix AI page and an active payment gateway that covers the booth's currency. Sales show on the Transactions page as "AI portrait" or "AI portrait + print". The step-by-step version is in [Sell AI portraits](../../tutorials/sell-ai-portraits.md).

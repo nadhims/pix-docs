@@ -25,7 +25,7 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 - **A beta account** with Pix AI turned on.
 - **Pix Pro on the booth's computer**, with **Singles Upload** ON under **Booths > [booth] > Settings > Output Settings**. The shop works from the guest's single photos.
 - **A payment gateway** that charges in the booth's currency (**Settings > Payment Gateway**).
-- **Pix Desktop App 1.1.110 or newer** on the booth if you want to offer prints.
+- **Pixture Photobooth 1.1.110 or newer** on the booth if you want to offer prints.
 
 ## Step 1: Buy AI Credits
 

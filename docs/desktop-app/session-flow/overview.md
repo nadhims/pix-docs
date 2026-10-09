@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Photo Session Flow Overview
-description: The nine screens a guest can see during a photo session on the Pix Desktop App, which ones are optional, and where each is switched on.
+description: The nine screens a guest can see during a photo session on the Pixture Photobooth app, which ones are optional, and where each is switched on.
 tags: [desktop-app, photo-session, flow]
 ---
 

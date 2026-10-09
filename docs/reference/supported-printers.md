@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Supported Printers
-description: Photo printers tested with the Pix Desktop App, including dye-sublimation and common inkjet alternatives, print sizes and setup tips.
+description: Photo printers tested with the Pixture Photobooth app, including dye-sublimation and common inkjet alternatives, print sizes and setup tips.
 tags: [reference, printers, hardware, printing]
 ---
 

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 title: Installation
-description: How to download and install the Pix Desktop App on macOS and Windows, and what happens on the first launch.
+description: How to download and install the Pixture Photobooth app on macOS and Windows, and what happens on the first launch.
 tags: [desktop-app, installation, setup]
 ---
 
 # Installation
 
-By the end of this page the Pix Desktop App is installed on your booth computer, it has either been paired to your Pixture account or is running in the unpaired try-out mode, and you know how to reach the operator menu. Installing takes a few minutes on either platform.
+By the end of this page the Pixture Photobooth app is installed on your booth computer, it has either been paired to your Pixture account or is running in the unpaired try-out mode, and you know how to reach the operator menu. Installing takes a few minutes on either platform.
 
 ## Before You Start
 

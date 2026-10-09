@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Glossary
-description: Definitions of the terms used across the Pixture dashboard, the Pix Desktop App and this documentation.
+description: Definitions of the terms used across the Pixture dashboard, the Pixture Photobooth app and this documentation.
 tags: [reference, glossary, terminology]
 ---
 
@@ -35,7 +35,7 @@ A free second photo session offered right after a paid one, optionally in exchan
 
 ### Booth
 
-The photobooth guests use at your venue: a computer running the Pix Desktop App, with a touchscreen, a camera and usually a printer. Each booth has its own page in the dashboard, under **Booths**, with its templates, screen design, pricing, settings and history, connected to its computer once with a **pairing code**. Booths are free, so create one for every photobooth you run. See [How Pixture Works](../getting-started/how-pixture-works.md).
+The photobooth guests use at your venue: a computer running the Pixture Photobooth app, with a touchscreen, a camera and usually a printer. Each booth has its own page in the dashboard, under **Booths**, with its templates, screen design, pricing, settings and history, connected to its computer once with a **pairing code**. Booths are free, so create one for every photobooth you run. See [How Pixture Works](../getting-started/how-pixture-works.md).
 
 ### Camera
 
@@ -67,7 +67,7 @@ The one action on a computer in the Devices table. It frees that computer's plac
 
 ### Device
 
-A computer running the Pix Desktop App, paired to a booth. Pix Pro is bought per device. The Devices page lists your active devices with their booth, first and last seen, version and plan.
+A computer running the Pixture Photobooth app, paired to a booth. Pix Pro is bought per device. The Devices page lists your active devices with their booth, first and last seen, version and plan.
 
 ### Devices page
 
@@ -147,7 +147,7 @@ What a guest buys at the Payment screen: **Single**, **Double** or **Group** (fo
 
 ### Pairing code
 
-A 6-digit code generated on a booth's **Device** tab in the dashboard and typed into the Pix Desktop App, which connects that computer to that booth. It lasts 10 minutes.
+A 6-digit code generated on a booth's **Device** tab in the dashboard and typed into the Pixture Photobooth app, which connects that computer to that booth. It lasts 10 minutes.
 
 ### Payment gateway
 
@@ -169,9 +169,9 @@ A Pix AI preset is a saved look chosen under **Pix Design > Pix AI** and assigne
 
 The design studio in the dashboard: the Template Editor for prints, the UI Editor for booth screens, filters and overlays, the Microsite for the share page, and Pix AI looks. Open to try on Pix Starter; saving your own designs needs Pix Pro.
 
-### Pix Desktop App
+### Pixture Photobooth
 
-The Pixture app installed on the booth computer, for Mac and Windows. It runs the guest's screens, drives the camera and printer, takes payments and syncs with the dashboard. Download it from pixture.io/download.
+The Pixture Photobooth app installed on the booth computer, for Mac and Windows. It runs the guest's screens, drives the camera and printer, takes payments and syncs with the dashboard. Download it from pixture.io/download.
 
 ### Pix Pro
 
@@ -183,7 +183,7 @@ The free tier. One computer, watermarked photos and prints, no Payment screen. I
 
 ### Pixture
 
-The company and its dashboard at pixture.io. Its products carry the Pix name: Pix Desktop App, Pix Design, Pix Pro, Pix Starter and Pix AI.
+The company and its dashboard at pixture.io. The booth app is Pixture Photobooth; the other products carry the Pix name: Pix Design, Pix Pro, Pix Starter and Pix AI.
 
 ### Pool
 
@@ -219,7 +219,7 @@ A Stripe card reader at the booth so guests tap or insert a card. Recommended re
 
 ### Studio mode
 
-A booth mode where the guest takes free shots, then assigns them to the template's slots. Chosen when creating a UI project; needs Pix Desktop App 1.1.98 or newer.
+A booth mode where the guest takes free shots, then assigns them to the template's slots. Chosen when creating a UI project; needs Pixture Photobooth 1.1.98 or newer.
 
 ### Template
 

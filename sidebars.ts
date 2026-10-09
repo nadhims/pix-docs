@@ -85,7 +85,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Desktop App',
+      label: 'Pixture Photobooth',
       link: {type: 'doc', id: 'desktop-app/overview'},
       items: [
         'desktop-app/installation',

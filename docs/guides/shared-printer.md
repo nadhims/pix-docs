@@ -1,22 +1,22 @@
 ---
 sidebar_position: 5
 title: Sharing One Printer Between Booths
-description: Run two or more Pixture booths on a single photo printer using your operating system's printer sharing. The computer holding the printer does not need the Pix Desktop App.
+description: Run two or more Pixture booths on a single photo printer using your operating system's printer sharing. The computer holding the printer does not need the Pixture Photobooth app.
 tags: [guides, printer, multi-booth, network]
 ---
 
 # Sharing One Printer Between Booths
 
-The Pix Desktop App prints through your operating system, not directly to the printer. Any printer that Windows or macOS can see, the booth can print to, including a printer plugged into a **different computer** and shared over your local network. That makes a common setup possible: two or more booths, one dye-sub printer. At the end of this guide every booth prints to the same printer and you know what to watch on a busy day.
+The Pixture Photobooth app prints through your operating system, not directly to the printer. Any printer that Windows or macOS can see, the booth can print to, including a printer plugged into a **different computer** and shared over your local network. That makes a common setup possible: two or more booths, one dye-sub printer. At the end of this guide every booth prints to the same printer and you know what to watch on a busy day.
 
-:::tip The host does not need the Pix Desktop App
+:::tip The host does not need the Pixture Photobooth app
 The computer the printer is plugged into only needs the printer driver and sharing switched on. It can be a spare laptop or a PC running something else entirely.
 :::
 
 ## How it works
 
 1. **Host**: the computer physically connected to the printer shares it over the network.
-2. **Booths**: each booth adds that shared printer as a network printer and selects it in the Pix Desktop App.
+2. **Booths**: each booth adds that shared printer as a network printer and selects it in the Pixture Photobooth app.
 3. Every booth sends its print jobs to the host, whose print queue prints them in the order they arrive.
 
 ## Step 1: Share the printer on the host
@@ -40,9 +40,9 @@ The computer the printer is plugged into only needs the printer driver and shari
 2. Add the printer:
    - **Windows**: **Printers & scanners > Add device**, or type the share path directly, e.g. `\\HOST-PC\DNP-DS-RX1`.
    - **macOS**: **Printers & Scanners > Add Printer**; the shared printer appears under the host's name.
-3. Print a test page from the booth's operating system before opening the Pix Desktop App.
+3. Print a test page from the booth's operating system before opening the Pixture Photobooth app.
 
-## Step 3: Select it in the Pix Desktop App
+## Step 3: Select it in the Pixture Photobooth app
 
 1. On the booth, open the operator menu (tap the top-right corner twice) and tap **Printer Settings**.
 2. Under **PRINTER DEVICE**, pick the shared printer. It appears with the same name as any local printer.

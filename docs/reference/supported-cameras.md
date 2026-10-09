@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 title: Supported Cameras
-description: The Canon, Sony, Nikon and Fujifilm cameras the Pix Desktop App supports over USB, USB connection requirements, sideways mounts, and the webcam fallback.
+description: The Canon, Sony, Nikon and Fujifilm cameras the Pixture Photobooth app supports over USB, USB connection requirements, sideways mounts, and the webcam fallback.
 tags: [reference, cameras, hardware]
 ---
 
 # Supported Cameras
 
-The Pix Desktop App captures photos with a camera body connected by USB, on Mac and Windows. It controls the camera directly, so the live view appears on the booth screen and exposure settings such as aperture, shutter speed and ISO are controlled from the booth's **Camera Settings** page.
+The Pixture Photobooth app captures photos with a camera body connected by USB, on Mac and Windows. It controls the camera directly, so the live view appears on the booth screen and exposure settings such as aperture, shutter speed and ISO are controlled from the booth's **Camera Settings** page.
 
 | Brand | Supported bodies | Setup |
 |---|---|---|
@@ -60,7 +60,7 @@ These are approximate, point-in-time market prices (especially the secondhand 12
 | 250D / Rebel SL3 | Compact, great starter camera |
 
 :::tip
-Most Canon EOS models with USB tethering should work, even if not listed above. If your camera supports Canon's EOS Utility for remote shooting, it will likely work with the Pix Desktop App.
+Most Canon EOS models with USB tethering should work, even if not listed above. If your camera supports Canon's EOS Utility for remote shooting, it will likely work with the Pixture Photobooth app.
 :::
 
 ## USB connection

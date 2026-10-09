@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
 title: Fujifilm Setup
-description: Connect a Fujifilm X or GFX camera to the Pix Desktop App over USB, on Mac or Windows, and set it up for a booth.
+description: Connect a Fujifilm X or GFX camera to the Pixture Photobooth app over USB, on Mac or Windows, and set it up for a booth.
 tags: [desktop-app, camera, fujifilm]
 ---
 
 # Fujifilm Camera Setup
 
-The Pix Desktop App drives Fujifilm X and GFX bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page. By the end of this page your Fujifilm is connected and ready for a full day.
+The Pixture Photobooth app drives Fujifilm X and GFX bodies over USB, on both Mac and Windows. You get the camera's live view on the booth screen, full-resolution stills, and exposure control from the booth's **Camera Settings** page. By the end of this page your Fujifilm is connected and ready for a full day.
 
 ## Supported Models
 
@@ -28,7 +28,7 @@ No driver install is needed on either Mac or Windows.
 
 1. On the camera, set the connection mode to **USB TETHER SHOOTING AUTO** ("PC SHOOT AUTO" on older bodies). It is under **NETWORK/USB SETTING > SELECT CONNECTION SETTING**, or **CONNECTION MODE**, depending on the model. Other USB modes, such as webcam or RAW conversion, do not work with the booth.
 2. Connect the camera to the computer with the USB cable and turn it on.
-3. Open the Pix Desktop App. The camera is detected and its live view appears.
+3. Open the Pixture Photobooth app. The camera is detected and its live view appears.
 4. Open the operator menu (two taps on the top-right corner), tap **Camera Settings**, and check the **STATUS** block: **Camera** and **Live View** should both read as connected. If more than one camera is plugged in, pick the Fujifilm under **CAMERA DEVICE** and tap **Set as Default**.
 
 On connect, the app sets the camera's focus priority to **Release**, so a shot still fires if focus is not perfect. A booth photo beats no photo.

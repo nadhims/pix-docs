@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
-title: Install the Pix Desktop App
-description: Download the Pix Desktop App from pixture.io/download and install it on a Mac (Apple Silicon or Intel) or a Windows PC, ready for pairing.
+title: Install the Pixture Photobooth app
+description: Download the Pixture Photobooth app from pixture.io/download and install it on a Mac (Apple Silicon or Intel) or a Windows PC, ready for pairing.
 tags: [getting-started, desktop-app, install]
 ---
 
-# Install the Pix Desktop App
+# Install the Pixture Photobooth app
 
-By the end of this page the Pix Desktop App, the booth software that runs your photobooth, is installed on the booth computer and open on its pairing screen. The current version is 1.1.115.
+By the end of this page the Pixture Photobooth app, the booth software that runs your photobooth, is installed on the booth computer and open on its pairing screen. The current version is 1.1.115.
 
 ## Before You Start
 

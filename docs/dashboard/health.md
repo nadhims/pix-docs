@@ -41,7 +41,7 @@ Offline does not always mean something is wrong. A booth switched off outside op
 | Paper | Media is low or out | Reload; the count comes from the printer driver |
 | Uploads | Photo sessions are waiting to upload, usually on slow venue Wi-Fi | Nothing is lost; guests' QR links open once the queue clears. See [Offline Mode](../desktop-app/offline-mode.md) |
 | Disk | The computer is running out of space | Clear old files on the booth computer |
-| Memory | The computer is short of memory | Restart the Pix Desktop App |
+| Memory | The computer is short of memory | Restart the Pixture Photobooth app |
 
 ## Booth Detail Panel
 
@@ -55,7 +55,7 @@ At the bottom of the page, **Error records** lists the errors your booths report
 
 ## App Version and Updates
 
-The version of the Pix Desktop App each computer runs is listed on the [Devices](./billing.md) page, in the Version column. The current version is 1.1.115. The booth updates itself; see [Software Updates](../desktop-app/software-updates.md).
+The version of the Pixture Photobooth app each computer runs is listed on the [Devices](./billing.md) page, in the Version column. The current version is 1.1.115. The booth updates itself; see [Software Updates](../desktop-app/software-updates.md).
 
 :::tip Name your booths by place
 Health lists booths by booth name. A name like "Grand Mall L2" makes this page readable at a glance; rename from the chevron menu on the Booths page.

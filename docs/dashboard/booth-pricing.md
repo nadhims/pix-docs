@@ -13,7 +13,7 @@ Every booth has its own prices, set on **Booths > [booth] > Pricing**. The tab s
 
 ## Sell Sessions Online
 
-The card at the top is this booth's online shop. Guests open the link on their phone, pick a package at the prices below, pay, and get a code the booth accepts even while offline. Print the QR at the booth or share the link ahead of an event. Online payment uses QRIS in Indonesia and card through Stripe elsewhere. **Copy** and **Open** are next to the link. The booth needs Pix Desktop App 1.1.101 or newer to accept the 7-character codes. See [Sell Sessions Online](../tutorials/sell-sessions-online.md).
+The card at the top is this booth's online shop. Guests open the link on their phone, pick a package at the prices below, pay, and get a code the booth accepts even while offline. Print the QR at the booth or share the link ahead of an event. Online payment uses QRIS in Indonesia and card through Stripe elsewhere. **Copy** and **Open** are next to the link. The booth needs Pixture Photobooth 1.1.101 or newer to accept the 7-character codes. See [Sell Sessions Online](../tutorials/sell-sessions-online.md).
 
 ## Payment on This Booth
 
