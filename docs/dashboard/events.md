@@ -42,6 +42,8 @@ Each event has **one booth mode**, picked in the wizard and changed later with *
 | Video | **Video** | Record a short clip with your overlay, for a video guest book. See [Event Video Modes](../desktop-app/event-video-modes.md) |
 | Video | **360 Slow-mo** | Marked **Soon** |
 
+New events use the [event start screen](./event-start-screen.md): guests pick the mode on the booth every session.
+
 Changing the mode keeps the paired computers paired. Each booth picks the new mode up the next time it shows its Start screen. If the event's screen design does not fit the new mode, the event switches to one that does (a Studio design for Studio, the Default Layout for Photobooth and Video) and says so.
 
 ### Output
@@ -128,5 +130,6 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 - [Run an Event](../tutorials/run-an-event.md)
 - [Devices](./billing.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
+- [Event Start Screen](./event-start-screen.md)
 - [Event Video Modes](../desktop-app/event-video-modes.md)
 - [Public Links](../reference/public-links.md)
