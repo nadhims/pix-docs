@@ -57,6 +57,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'dashboard/dashboard-home',
         'dashboard/events',
+        'dashboard/event-start-screen',
         'dashboard/booth-management',
         'dashboard/booth-pricing',
         'dashboard/device-management',
