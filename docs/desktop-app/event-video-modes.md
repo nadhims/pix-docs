@@ -17,7 +17,7 @@ Video is one of the event's booth modes, set per **event**, not per booth:
 2. In the **Booth mode** box, click **Change** and choose **Video** from the Video group. **360 Slow-mo** is marked **Soon** and cannot be chosen unless the event already had it.
 3. Fill in the video settings that appear: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, the **Overlay** (or an orientation when there is none) and an optional **Intro video** and **Outro video**. Changes save as you go. The Timeline **Preset**, clip speeds and **Soundtrack** belong to 360 Slow-mo.
 
-An event has one booth mode, and every computer paired to it uses it. Switching the mode keeps the computers paired; each booth picks it up on its next Start screen. The event's output becomes the video itself, and its screen design runs the Start and Payment screens before recording. Outside an event a booth runs its own mode. See [Events](../dashboard/events.md) and [Run an Event](../tutorials/run-an-event.md).
+An event without a [start screen](../dashboard/event-start-screen.md) has one booth mode, and every computer paired to it uses it. Switching the mode keeps the computers paired; each booth picks it up on its next Start screen. The event's output becomes the video itself, and its screen design runs the Start and Payment screens before recording. Outside an event a booth runs its own mode. See [Events](../dashboard/events.md) and [Run an Event](../tutorials/run-an-event.md).
 
 ## The Booth's Capture Settings Page
 

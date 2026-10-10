@@ -7,7 +7,7 @@ tags: [dashboard, events, start-screen, booth-modes]
 
 # Event Start Screen
 
-New events get a **start screen**. It is the first screen guests see on the booth, and the only one you design: every other screen uses the Pixture event design in your colours. Your own custom UI projects, set on a booth, still work as before.
+When the start screen is turned on for your account, new events get a **start screen**. It is the first screen guests see on the booth, and the only one you design: every other screen uses the Pixture event design in your colours. Your own custom UI projects, set on a booth, still work as before.
 
 ## Where to Set It Up
 
@@ -49,11 +49,11 @@ Turn the words under the buttons on or off for a picture-only look.
 
 ### Gallery
 
-Turn on a button that lets guests reopen the photos from this event on the booth, to scan or print again.
+Turn the Gallery button on or off. Guests can reopen photos taken on this booth during this event, to scan or print again.
 
 ## Printing
 
-**Auto print** and **Max prints** per session, counted in sheets, are not part of the start screen design. Set them on the event page, in the **Output** window or on the **Printing** line under Start screen.
+**Auto print** and **Max prints** per session, counted in sheets, are not part of the start screen design. Set them on the event page, in the **Output** window, or on the **Printing** line under Start screen when the event page has no Output window.
 
 ## Payment and Staff
 
