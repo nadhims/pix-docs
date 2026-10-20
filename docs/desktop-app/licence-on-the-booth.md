@@ -33,7 +33,7 @@ A watermarked computer keeps working: guests take photos, print and share. The P
 On a Pix Pro account, a computer without Pix Pro is blocked rather than watermarked: it refuses to start sessions and shows "Computer limit reached". Guests see "Please call the operator." To free it:
 
 1. On the dashboard, open **Computers**.
-2. Either click **Deactivate** on a computer you no longer use, which frees its place, or click **Buy license** to buy another place.
+2. Either click **Deactivate** on a computer you no longer use, which frees its place, or click **Add computer** to buy another place.
 3. The blocked computer picks up Pix Pro on its next check-in.
 
 Only the dashboard moves Pix Pro between computers. There is nothing on the booth that takes Pix Pro from another computer.
@@ -42,7 +42,7 @@ Only the dashboard moves Pix Pro between computers. There is nothing on the boot
 
 When the computer is watermarked or blocked, the operator menu shows **Use an Event Pass on this computer**. Tap it to start one of your unused Event Passes on this computer for the next 24 hours. The button sits behind the menu PIN, so a guest cannot use up your Event Passes; the prompt on the Home screen is information only.
 
-Event Passes are bought on the Computers page: **Buy license**, then **Event Pass**.
+Event Passes are bought on the Computers page: **Add computer**, then **Event Pass**.
 
 ## On an Event
 
@@ -52,7 +52,7 @@ A computer paired to an [event](../dashboard/events.md) never runs watermarked: 
 - **Use Pix Pro** when a Pix Pro in your account is on no computer ("Use Pix Pro for this event?"). The computer runs on it for as long as it is paired.
 - **"No Event Passes left"** when there is nothing to use. Scan the QR code to **Buy Event Passes on your phone**, then tap **Recheck**.
 
-Both buttons sit behind the menu PIN. Once the computer has its license, the booth goes to Home and the event page on the dashboard shows the computer as **Event Pass** with a countdown, or **Pix Pro**. A running Event Pass can be given 24 more hours from the dashboard with **Extend 24h** on the computer's row.
+Both buttons sit behind the menu PIN. Once the computer has Pix Pro or an Event Pass, the booth goes to Home and the event page on the dashboard shows the computer as **Event Pass** with a countdown, or **Pix Pro**. A running Event Pass can be given 24 more hours from the dashboard with **Extend 24h** on the computer's row.
 
 ## Pair With a Code
 

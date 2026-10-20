@@ -50,7 +50,7 @@ Weddings, markets, brand activations and school events, where you pass the cost 
 
 ## Several computers at once
 
-Adding several computers in one purchase gives a volume discount. Open **Computers > Buy license > Pix Pro**, set **How many computers?** and tap **See volume pricing** to see the per-computer price for Monthly and Yearly before you pay.
+Adding several computers in one purchase gives a volume discount. Open **Computers > Add computer > Pix Pro**, set **How many computers?** and tap **See volume pricing** to see the per-computer price for Monthly and Yearly before you pay.
 
 ## Free 3-Day Trial
 

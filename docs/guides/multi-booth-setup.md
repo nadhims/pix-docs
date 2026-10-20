@@ -48,7 +48,7 @@ On the **Cashier** tab, **How guests pay** has two options.
 
 1. Open each booth from the group's **Photo Booths** tab and go to its **Computer** tab.
 2. Tap **Generate code**, then enter the code in the Pixture Photobooth app on that booth PC.
-3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add computers under **Computers > Buy license**, or use an Event Pass on it.
+3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add computers under **Computers > Add computer**, or use an Event Pass on it.
 
 ## Regions for many locations
 

@@ -10,7 +10,7 @@ tags: [pricing, billing, faq]
 ## How do I add a computer?
 
 1. Open **Computers** in the Pixture dashboard.
-2. Tap **Buy license** and pick **Event Pass** or **Pix Pro**.
+2. Tap **Add computer** and pick **Event Pass** or **Pix Pro**.
 3. For Pix Pro, set **How many computers?** and pick **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**. For Event Passes, set how many.
 4. Pay at checkout. When you add computers to a card subscription you already have, the dashboard shows **Confirm this charge** first.
 
@@ -80,11 +80,11 @@ No. Pix Starter runs one computer, and a second computer is refused at the pairi
 
 ## The booth says "Computer limit reached". What now?
 
-Every place on your subscription is already active. On **Computers**, deactivate a computer you are not using, or tap **Buy license**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
+Every place on your subscription is already active. On **Computers**, deactivate a computer you are not using, or tap **Add computer**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
 
 ## Can I buy Event Passes ahead of an event?
 
-Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Computers** page, or pick **Event Pass** under **Buy license**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
+Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Computers** page, or pick **Event Pass** under **Add computer**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
 
 ## Is there volume pricing?
 

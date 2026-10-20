@@ -52,9 +52,9 @@ Buying is done on the **Computers** page. A computer that is paired and waiting 
 
 1. Open **Computers** in the sidebar. On a Pix Starter account the **Computers** card says there are no computers yet, and the **Event Passes** card shows 0 unused with a **Buy Event Passes** button.
 
-   ![The Computers page of a Pix Starter account with the Computers, Subscription, Next renewal and Event Passes cards and a Buy license button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
+   ![The Computers page of a Pix Starter account with the Computers, Subscription, Next renewal and Event Passes cards and a Add computer button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
 
-2. Click **Buy license**, then pick **Pix Pro** (or **Event Pass** for a single event). The Pix Pro checkout explains: "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
+2. Click **Add computer**, then pick **Pix Pro** (or **Event Pass** for a single event). The Pix Pro checkout explains: "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
 3. Set **How many computers?** with the stepper. Click **See volume pricing** to compare the per-computer price of Monthly and Yearly at that quantity.
 4. Click **Select** on **Event Pass**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)**.
 

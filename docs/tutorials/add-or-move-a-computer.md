@@ -27,7 +27,7 @@ A spare place attaches itself. The next computer that connects takes it, so you 
 
 ![Computers page of a Pix Pro account with the Computers, Subscription, Next renewal and Event Passes cards and the Active computers table](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-devices.webp)
 
-2. Click **Buy license**, then **Pix Pro**. The checkout reads "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
+2. Click **Add computer**, then **Pix Pro**. The checkout reads "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
 
 ![Pix Pro checkout with the How many computers stepper, See volume pricing and the Pix Pro plan cards](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices.webp)
 
@@ -72,7 +72,7 @@ If several Blocked computers are online, the first one to connect after you deac
 
 An Event Pass is 24 hours of Pix Pro on one computer, starting from the moment you use it at the booth: $5 (Rp 85.000).
 
-1. On **Computers**, click **Buy Event Passes** on the **Event Passes** card (or **Buy license** and pick **Event Pass**), choose how many and pay. The card shows how many are unused.
+1. On **Computers**, click **Buy Event Passes** on the **Event Passes** card (or **Add computer** and pick **Event Pass**), choose how many and pay. The card shows how many are unused.
 
 ![Buy Event Passes flow opened from the Event Passes card](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-buy-passes.webp)
 
@@ -87,9 +87,9 @@ Rules that only apply to Event Passes:
 
 ## Step 5: On Pix Starter
 
-Pix Starter has no subscription. **Computers** reads "No computers yet", one computer is paired, and every photo, print and GIF carries the Pixture watermark. A second computer is refused at the pairing code. To run more computers, start the 3-day free trial (one computer) or click **Buy license**.
+Pix Starter has no subscription. **Computers** reads "No computers yet", one computer is paired, and every photo, print and GIF carries the Pixture watermark. A second computer is refused at the pairing code. To run more computers, start the 3-day free trial (one computer) or click **Add computer**.
 
-![Computers page of a Pix Starter account with No computers yet, Subscription, Event Passes and Buy license](/img/docs/licenses-starter.webp)
+![Computers page of a Pix Starter account with No computers yet, Subscription, Event Passes and Add computer](/img/docs/licenses-starter.webp)
 
 ## Before Pix Pro Ends
 
