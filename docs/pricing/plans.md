@@ -9,7 +9,7 @@ tags: [pricing, plans, starter, event-pass, pix-pro]
 
 Pixture is priced per computer, not per account. Booths are free profiles: create as many as you like in the Pixture dashboard. What you pay for is Pix Pro on each computer that runs the Pixture Photobooth app.
 
-Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** the moment one does, whether through a subscription, a running Event Pass or the free trial. You buy and manage everything on the **Devices** page of the dashboard.
+Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** the moment one does, whether through a subscription, a running Event Pass or the free trial. You buy and manage everything on the **Computers** page of the dashboard.
 
 ## Pix Starter (free)
 
@@ -27,7 +27,7 @@ You do not even need an account to try the booth: install the Pixture Photobooth
 
 **$5 or Rp 85.000.** 24 hours of Pix Pro on one computer. The 24 hours start only when you use the Event Pass at the booth.
 
-- Buy any time, in any quantity, at a flat price. Unused Event Passes wait in your account; the **Event Passes** card on the Devices page shows "N unused".
+- Buy any time, in any quantity, at a flat price. Unused Event Passes wait in your account; the **Event Passes** card on the Computers page shows "N unused".
 - Use one at the booth: on an event, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?". Any other time, open the operator menu and tap **Use an Event Pass on this computer**. A computer paired while you hold unused Event Passes stays blocked until you use one on it.
 - While it runs, the booth shows a badge "Event Pass until HH:mm".
 - An Event Pass ends when the computer is deactivated. It cannot be moved to another computer or used again.
@@ -50,7 +50,7 @@ Weddings, markets, brand activations and school events, where you pass the cost 
 
 ## Several computers at once
 
-Adding several devices in one purchase gives a volume discount. Open **Devices > Buy license > Pix Pro**, set **How many devices?** and tap **See volume pricing** to see the per-device price for Monthly and Yearly before you pay.
+Adding several computers in one purchase gives a volume discount. Open **Computers > Buy license > Pix Pro**, set **How many computers?** and tap **See volume pricing** to see the per-computer price for Monthly and Yearly before you pay.
 
 ## Free 3-Day Trial
 
@@ -59,11 +59,11 @@ Every account can claim one free trial: 3 days of Pix Pro on one computer, no ca
 1. In the dashboard, tap **Claim free trial** on the "Try Pix Pro free for 3 days" popup, or open it from the bell menu. On the booth, the operator menu offers the same.
 2. Pick the booth. The trial goes on the computer paired to it.
 
-While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Devices page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.
+While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Computers page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.
 
 ## Pix AI credits
 
-Pix AI is in beta and available to beta accounts. Every generated image costs 1 credit. Credits are shared by every booth in the account and work on any plan. Buy them under **Devices > Pix AI credits > Manage credits**, as packs of 100, 400 or 1000 credits, or as a monthly plan.
+Pix AI is in beta and available to beta accounts. Every generated image costs 1 credit. Credits are shared by every booth in the account and work on any plan. Buy them under **Computers > Pix AI credits > Manage credits**, as packs of 100, 400 or 1000 credits, or as a monthly plan.
 
 ## How you pay
 
@@ -76,5 +76,5 @@ Prices above are list prices. Promotions running right now are shown on [pixture
 
 - [Feature Comparison](./feature-comparison.md)
 - [Billing FAQ](./billing-faq.md)
-- [Devices](../dashboard/billing.md)
+- [Computers](../dashboard/billing.md)
 - [Choose Your Plan](../getting-started/choose-plan.md)
