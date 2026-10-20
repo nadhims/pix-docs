@@ -26,13 +26,13 @@ Every page of the dashboard is one click away in the left sidebar. Owners and ad
 |---|---|
 | **Dashboard** | Revenue, photo sessions, session completion, peak day, prints, vouchers, template usage, top booth revenue and a health summary, for the period you pick |
 | **Events** | Dated setups such as weddings and expos, each with its own booths, pricing, template pack and public album |
-| **Booths** | One entry per booth. Open a booth for its Templates, Filters, UI Project, Pricing, Activity Log, Device and Settings tabs |
+| **Booths** | One entry per booth. Open a booth for its Templates, Filters, UI Project, Pricing, Activity Log, Computer and Settings tabs |
 | **Transactions** | Every paid photo session, with search, booth and date filters, an Excel export and a sync with your payment gateway |
 | **Vouchers** | Free, percentage or fixed-amount codes, single or in batches, plus the **Online shop link** |
 | **Marketing Studio** | Pix Pro only: marketing consent, audience, bonus sessions, Frame Lab, campaigns and performance |
 | **Gallery** | Browse, download and delete the photos your booths produced |
 | **Health** | Live booth status, issues, today's sessions, paper level, last seen, and error records to download |
-| **Devices** | Your devices, subscription, next renewal and Event Passes. **Buy license** and **Deactivate** live here |
+| **Computers** | Your computers, subscription, next renewal and Event Passes. **Buy license** and **Deactivate** live here |
 | **Pix Design** | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | **Help** | Opens a chat with Lucy, the in-dashboard assistant |
 | **Settings** | Organisation, preferences, members, payment gateway, profile, Pixture billing, security and data |

@@ -23,7 +23,7 @@ In this tutorial you will create a booth in the Pixture dashboard, assign print 
 
 ![Create Booth modal on the Single booth tab with Booth Name and Location filled in](/img/docs/steps/tutorials-set-up-a-booth--booths-create-modal.webp)
 
-The new booth appears in the list with a dash under **DEVICE** and **PLAN**, because no computer is paired yet. Click **Configure** to open it. The first time it opens, the popup "Pair your booth first" offers **Generate pairing code**. Click **Maybe later** for now; you pair the computer in Step 7, once the booth is ready for guests.
+The new booth appears in the list with a dash under **COMPUTER** and **PLAN**, because no computer is paired yet. Click **Configure** to open it. The first time it opens, the popup "Pair your booth first" offers **Generate pairing code**. Click **Maybe later** for now; you pair the computer in Step 7, once the booth is ready for guests.
 
 ## Step 2: Assign print templates
 
@@ -78,7 +78,7 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 
 ## Step 7: Pair the computer
 
-1. Open the **Device** tab and, under **Pairing & access**, click **Generate code**.
+1. Open the **Computer** tab and, under **Pairing & access**, click **Generate code**.
 2. The **Pair Pixture Photobooth** modal shows a 6-digit code that expires in 10 minutes. **Copy Code** puts it on the clipboard; **Regenerate** issues a fresh one.
 
 ![Pair Pixture Photobooth modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
@@ -86,7 +86,7 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 3. On the booth PC, open the Pixture Photobooth app and enter the code on its pairing screen.
 4. Back in the dashboard, click **Done**.
 
-If the modal shows "Device limit reached" instead of a code, every place on your subscription is taken. See [Add a Second Computer or Move Pix Pro](./add-or-move-a-computer.md).
+If the modal shows "Computer limit reached" instead of a code, every place on your subscription is taken. See [Add a Second Computer or Move Pix Pro](./add-or-move-a-computer.md).
 
 ## Step 8: Run a test photo session
 
@@ -101,7 +101,7 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 ## Check It Worked
 
 - The booth page header shows **Online** and the plan for the computer: **Pix Pro until** a date, **Trial until** a date, or Watermarked on Pix Starter.
-- **Booths** lists the computer under **DEVICE** and the plan under **PLAN**.
+- **Booths** lists the computer under **COMPUTER** and the plan under **PLAN**.
 - **Gallery** shows the test photos, and the dashboard home shows a banner saying your booth is live, with **View gallery**.
 - **Health** lists the booth as Healthy, with its paper level and last seen time.
 
@@ -112,11 +112,11 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 | Symptom | Cause | Fix |
 |---|---|---|
 | The pairing code is refused | Codes expire after 10 minutes | Click **Regenerate** and enter the new code |
-| "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Devices page, add a device, or use an Event Pass. Pix Starter runs one computer |
+| "Computer limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Computers page, add a computer, or use an Event Pass. Pix Starter runs one computer |
 | The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pixture Photobooth app is running |
 | Guests see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |
 | Every session is free | **Payment on this booth** is off, or the computer is on Pix Starter | Turn the switch on and connect a gateway; Pix Starter skips the Payment screen |
-| Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Devices page |
+| Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Computers page |
 
 ## Related
 

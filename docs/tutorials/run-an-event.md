@@ -119,5 +119,5 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 - [Events](../dashboard/events.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
 - [Event video modes on the booth](../desktop-app/event-video-modes.md)
-- [Device management](../dashboard/device-management.md)
+- [Computers and Pairing](../dashboard/device-management.md)
 - [Public links](../reference/public-links.md)
