@@ -91,17 +91,17 @@ Everything captured during the event, newest first, with a filter by computer, *
   |---|---|
   | **Pix Pro** | The computer runs on Pix Pro |
   | **Event Pass** with a countdown | An Event Pass is running; the countdown shows the hours left, and the info icon shows when it ends |
-  | **Needs license** | Paired, but it has no Event Pass or Pix Pro yet. The booth will not start sessions until it has one |
+  | **Needs Pix Pro or Event Pass** | Paired, but it has no Event Pass or Pix Pro yet. The booth will not start sessions until it has one |
   | **Not paired** | A pairing code was made but no computer used it yet |
 
-  Each row has **Extend 24h** (for a running Event Pass; with no unused pass it opens the Event Pass checkout), **Use Pix Pro** (on a **Needs license** row, when a Pix Pro is free in your account) and **Unlink**. A **Not paired** row, named "Waiting for a computer", has **Show code**. Once a computer is paired, a line above the list says "This computer has an Event Pass or Pix Pro." (or "All N computers have an Event Pass or Pix Pro."), or "N computers need an Event Pass or Pix Pro." with **Buy license**. On a multi-day event it counts an Event Pass per computer for each day left, so a computer with a running pass can still be counted as short.
+  Each row has **Extend 24h** (for a running Event Pass; with no unused pass it opens the Event Pass checkout), **Use Pix Pro** (on a **Needs Pix Pro or Event Pass** row, when a Pix Pro is free in your account) and **Unlink**. A **Not paired** row, named "Waiting for a computer", has **Show code**. Once a computer is paired, a line above the list says "This computer has an Event Pass or Pix Pro." (or "All N computers have an Event Pass or Pix Pro."), or "N computers need an Event Pass or Pix Pro." with **Add computer**. On a multi-day event it counts an Event Pass per computer for each day left, so a computer with a running pass can still be counted as short.
 
   Before any computer is paired the card reads "No computers paired yet": "Pair the computers you'll run at this event. Each one needs an Event Pass or Pix Pro."
-- **+ Pair a computer.** Opens the **Pair a computer** popup with a 6-digit code: "Enter this code in the Pixture Photobooth app to link it to" your event, with **Copy code**, **Regenerate** and **Pair later**. A line under the code names the license waiting for it, for example "You have 1 Event Pass ready." A code is only given when a license is available for the computer: an unused Event Pass, or a Pix Pro that is on no computer. Otherwise the popup says "Get a license first": "Each computer needs an Event Pass or Pix Pro. Buy one, then pair here.", with **Buy license** and **Later**. After you pay, the dashboard brings you back to the event and the popup shows "Finishing your payment" until the license lands, then the code.
+- **+ Pair a computer.** Opens the **Pair a computer** popup with a 6-digit code: "Enter this code in the Pixture Photobooth app to link it to" your event, with **Copy code**, **Regenerate** and **Pair later**. A line under the code names the Pix Pro or Event Pass waiting for it, for example "You have 1 Event Pass ready." A code is only given when a Pix Pro or Event Pass is available for the computer: an unused Event Pass, or a Pix Pro that is on no computer. Otherwise the popup says "Get Pix Pro or an Event Pass first": "Each computer needs an Event Pass or Pix Pro. Buy one, then pair here.", with **Add computer** and **Later**. After you pay, the dashboard brings you back to the event and the popup shows "Finishing your payment" until it lands, then the code.
 
   ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 
-  ![Pair a computer popup saying "Get a license first" with Buy license and Later](/img/docs/event-pair-needs-license.webp)
+  ![Pair a computer popup saying "Get Pix Pro or an Event Pass first" with Add computer and Later](/img/docs/event-pair-needs-license.webp)
 - **Booth mode**, **Output** and **Appearance.** Each is a box showing the current choice, with **Change**. Appearance lists only screen designs made for the event's booth mode.
 - **Template**, **Countdown**, **Mirror** and **Overlay** (photo modes). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Countdown** is a slider from 1 to 10 seconds before each shot. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie. **Overlay** is **None** or one of your GIF/Video overlay designs.
 
@@ -115,10 +115,10 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 
 **Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers are unlinked (an Event Pass or Pix Pro stays on them) and the photos stay in your Gallery; only the event and its album go away.
 
-## Licenses, Pricing and Transactions
+## Pix Pro, Pricing and Transactions
 
-- **Each computer on an event needs a license**: Pix Pro, or an **Event Pass**, which is 24 hours of Pix Pro on one computer, starting when you use it at the booth. **Buy license** opens a choice between **Event Pass** (for an event) and **Pix Pro** (for regular use), each with its own checkout on the [Devices](./billing.md) page. A computer without a license stays paired but does not start sessions; there is no watermarked mode on an event.
-- **At the booth**, a computer that needs a license shows "Use an Event Pass for today?" with **Use Event Pass**, or **Use Pix Pro** if a Pix Pro is free in your account. See [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md).
+- **Each computer on an event needs Pix Pro or an Event Pass**. An **Event Pass** is 24 hours of Pix Pro on one computer, starting when you use it at the booth. **Add computer** opens a choice between **Event Pass** (for an event) and **Pix Pro** (for regular use), each with its own checkout on the [Computers](./billing.md) page. A computer with neither stays paired but does not start sessions; there is no watermarked mode on an event.
+- **At the booth**, a computer that needs Pix Pro or an Event Pass shows "Use an Event Pass for today?" with **Use Event Pass**, or **Use Pix Pro** if a Pix Pro is free in your account. See [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md).
 - **Longer events.** When an Event Pass is running, **Extend 24h** on its row adds 24 hours from one of your unused Event Passes, or opens the Event Pass checkout if you have none.
 - **Bringing a computer that already has Pix Pro**: unlink it from its booth on the dashboard first. That puts its Pix Pro back in your account, so the event shows a pairing code and the computer pairs in on its own Pix Pro.
 - While the event runs, its session price, packages and gateway replace the booth's own. Tax, fees and currency stay the booth's. The booth shows the Payment screen when the event charges and skips it when the event is free.
@@ -128,7 +128,7 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 ## Related
 
 - [Run an Event](../tutorials/run-an-event.md)
-- [Devices](./billing.md)
+- [Computers](./billing.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
 - [Event Start Screen](./event-start-screen.md)
 - [Event Video Modes](../desktop-app/event-video-modes.md)

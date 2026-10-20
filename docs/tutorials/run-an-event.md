@@ -11,7 +11,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
 ## Before You Start
 
-- **A license for every computer on the event**: Pix Pro, or an **Event Pass** (24 hours of Pix Pro on one computer, starting when you use it at the booth). You can buy one before the day, or from the event page when you pair.
+- **Pix Pro or an Event Pass for every computer on the event**. An **Event Pass** is 24 hours of Pix Pro on one computer, starting when you use it at the booth. You can buy one before the day, or from the event page when you pair.
 - **Templates for the event**, either your own in Pix Design or one of Pixture's free template packs (when packs are available).
 - **A payment gateway connected** (**Settings > Payment Gateway**) if guests pay per photo session at the event.
 - **The Pixture Photobooth 1.1.127 or newer** on each computer, installed now or at the venue.
@@ -45,12 +45,12 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Event Setup tab with setup progress, the Computers card, Booth mode, Output and Appearance](/img/docs/event-setup-computers.webp)
 
-2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **Regenerate**, when a license is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get a license first": click **Buy license**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
+2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **Regenerate**, when a Pix Pro or Event Pass is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get Pix Pro or an Event Pass first": click **Add computer**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
 
    ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 
 3. At the venue, open the Pixture Photobooth app. On a fresh computer, enter the code on the login screen. On a computer that is already set up, open the operator menu and tap **Pair with a code**; it does not log you out. Repeat for every computer at the event.
-4. Each paired computer appears in the **Computers** card. **Needs license** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.
+4. Each paired computer appears in the **Computers** card. **Needs Pix Pro or Event Pass** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.
 
 :::tip Bringing a computer that already runs Pix Pro
 Unlink it from its everyday booth on the dashboard first. That puts its Pix Pro back in your account, the event shows a pairing code, and the computer pairs in on its own Pix Pro.
@@ -106,9 +106,9 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 
 | What you see | What to check |
 |---|---|
-| **Pair a computer** says "Get a license first" | No unused Event Pass and no Pix Pro on no computer. Click **Buy license**, or unlink a Pix Pro computer from its booth to free its Pix Pro. |
-| A computer shows **Needs license** | Tap **Use Event Pass** (or **Use Pix Pro**) on the booth, or click **Use Pix Pro** on its row if a Pix Pro is free. |
-| The booth says it needs an Event Pass or Pix Pro "before it can start sessions" | The same: it has no license yet. Buy Event Passes on your phone from the QR on that screen, then tap **Recheck**. |
+| **Pair a computer** says "Get Pix Pro or an Event Pass first" | No unused Event Pass and no Pix Pro on no computer. Click **Add computer**, or unlink a Pix Pro computer from its booth to free its Pix Pro. |
+| A computer shows **Needs Pix Pro or Event Pass** | Tap **Use Event Pass** (or **Use Pix Pro**) on the booth, or click **Use Pix Pro** on its row if a Pix Pro is free. |
+| The booth says it needs an Event Pass or Pix Pro "before it can start sessions" | The same: it has no Pix Pro or Event Pass yet. Buy Event Passes on your phone from the QR on that screen, then tap **Recheck**. |
 | The booth still shows its everyday templates | The computer is not paired to the event, or the event's dates do not include today. Check the **Computers** card and the dates under **Edit**. |
 | Guests see nothing on the template screen | No template is assigned to the event. Add one on the **Setup** tab. |
 | The album link does not open | **Link Sharing** is OFF. Turn it on again. |
@@ -119,5 +119,5 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 - [Events](../dashboard/events.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
 - [Event video modes on the booth](../desktop-app/event-video-modes.md)
-- [Device management](../dashboard/device-management.md)
+- [Computers and Pairing](../dashboard/device-management.md)
 - [Public links](../reference/public-links.md)

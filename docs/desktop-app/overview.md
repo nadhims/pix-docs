@@ -53,7 +53,7 @@ The app is the booth. The Pixture dashboard at pixture.io is where you design an
 - **Pix Design** holds your print templates, the booth screens (UI projects), photo filters and GIF overlays. Save there and the booth picks the change up on its next check-in, usually within seconds.
 - **Booths** holds each booth's pricing, assigned templates and filters, output switches (singles, GIF, live photo, print) and the operator menu PIN.
 - **Events** switches booths into video or 360 slow-mo capture and gives them event templates for the day.
-- **Devices** is where Pix Pro, Event Passes and the free trial are put on computers and moved between them.
+- **Computers** is where Pix Pro, Event Passes and the free trial are put on computers and moved between them.
 
 The booth itself keeps only what belongs to the hardware: camera, printer, hardware payment settings and the upload queue. All of that sits behind the operator menu, which opens with two taps on the top-right corner of the screen. See [Operator Menu](./admin-panel.md).
 

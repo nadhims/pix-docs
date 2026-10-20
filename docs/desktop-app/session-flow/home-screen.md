@@ -40,9 +40,9 @@ The top-right corner of every guest screen hides a 120 by 120 pixel zone with a 
 The Home screen is also where the booth tells you about Pix Pro, without letting a guest change anything:
 
 - **60 minutes and 15 minutes before an Event Pass or the free trial ends**, a notice appears on the idle screen so you can use a new Event Pass on the computer in time.
-- **When Pix Pro has ended**, a popup names what ended (for example "Your Event Pass has ended") and offers a **Manage devices** QR code to the Devices page. Guests see "Please call the operator."
+- **When Pix Pro has ended**, a popup names what ended (for example "Your Event Pass has ended") and offers a **Manage computers** QR code to the Computers page. Guests see "Please call the operator."
 - **When a card payment for Pix Pro failed**, a payment-failed banner appears.
-- **When the computer is blocked** (a Pix Pro account with all its device places in use), the booth refuses to start sessions and shows a notice instead.
+- **When the computer is blocked** (a Pix Pro account with every place on its subscription in use), the booth refuses to start sessions and shows a notice instead.
 
 These prompts are information only. Every action, including **Use an Event Pass on this computer**, sits behind the operator menu and its PIN. See [Pix Pro on the Booth](../licence-on-the-booth.md).
 

@@ -7,9 +7,9 @@ tags: [dashboard, booths, management]
 
 # Booths
 
-A **booth** is one photobooth station: a place, a computer and the templates, design and prices it runs. Booths are free profiles, so create one per station or venue. What a booth can do depends on the computer paired to it: Pix Pro, watermarked on Pix Starter, or blocked when a Pix Pro account has more computers than devices.
+A **booth** is one photobooth station: a place, a computer and the templates, design and prices it runs. Booths are free profiles, so create one per station or venue. What a booth can do depends on the computer paired to it: Pix Pro, watermarked on Pix Starter, or blocked when a Pix Pro account has more computers than its subscription covers.
 
-![Booths page of a Pix Pro account: Booth, Type, Region, Device, Plan, Templates columns and Configure buttons](/img/docs/booths-list.webp)
+![Booths page of a Pix Pro account: Booth, Type, Region, Computer, Plan, Templates columns and Configure buttons](/img/docs/booths-list.webp)
 
 ## The Booths List
 
@@ -18,15 +18,15 @@ A **booth** is one photobooth station: a place, a computer and the templates, de
 | BOOTH | Name and location |
 | TYPE | Single or Multi-Booth |
 | REGION | The region set on the booth's Settings tab |
-| DEVICE | The paired computer, or nothing |
+| COMPUTER | The paired computer, or nothing |
 | PLAN | **Pix Pro**, **Blocked**, **Watermarked**, or a dash when no computer is linked |
 | TEMPLATES | How many templates are assigned |
 
-Search by name, region, device or plan. **Filter** narrows by region, status (Online or Offline) and plan. Each row has **Configure**, which opens the booth page, and a chevron with **Rename**, **Unlink device** and **Delete booth**.
+Search by name, region, computer or plan. **Filter** narrows by region, status (Online or Offline) and plan. Each row has **Configure**, which opens the booth page, and a chevron with **Rename**, **Unlink computer** and **Delete booth**.
 
-![Booths row chevron menu: Rename, Unlink device, Delete booth](/img/docs/booths-row-menu.webp)
+![Booths row chevron menu: Rename, Unlink computer, Delete booth](/img/docs/booths-row-menu.webp)
 
-**Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Devices page first.
+**Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Computers page first.
 
 ## Creating a Booth
 
@@ -44,7 +44,7 @@ The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo
 
 ![Booth page of a paired Pix Pro booth: Online status, Pix Pro until, property grid and tabs](/img/docs/booth-overview.webp)
 
-The header shows the status pill (**Online** when the computer has checked in within the last 12 minutes, **Offline** when it has not, **Unknown** when no computer is paired), the plan badge ("Pix Pro until", "Event Pass until", "Trial until", Watermarked, Blocked, or a dash), "Last seen", and a menu with **Rename Booth**. The property grid below jumps to each part of the setup: Templates, Filters, UI Project, Frame Lab, Session Price, Payment Gateway, Device, Booth Settings and Output Settings.
+The header shows the status pill (**Online** when the computer has checked in within the last 12 minutes, **Offline** when it has not, **Unknown** when no computer is paired), the plan badge ("Pix Pro until", "Event Pass until", "Trial until", Watermarked, Blocked, or a dash), "Last seen", and a menu with **Rename Booth**. The property grid below jumps to each part of the setup: Templates, Filters, UI Project, Frame Lab, Session Price, Payment Gateway, Computer, Booth Settings and Output Settings.
 
 ### Templates
 
@@ -76,9 +76,9 @@ Time, Event and Description for everything that happened on this booth: pairing,
 
 ![Booth Activity Log tab](/img/docs/booth-activity-log-tab.webp)
 
-### Device
+### Computer
 
-Pair, rename, unlink or remove the computer. See [Devices and Pairing](./device-management.md).
+Pair, rename, unlink or remove the computer. See [Computers and Pairing](./device-management.md).
 
 ### Settings
 
@@ -103,6 +103,6 @@ Click the **Frame Lab** cell in the property grid. The page explains the guest f
 ## Related
 
 - [Booth Pricing](./booth-pricing.md)
-- [Devices and Pairing](./device-management.md)
+- [Computers and Pairing](./device-management.md)
 - [Set Up a Booth](../tutorials/set-up-a-booth.md)
 - [Multi-Booth Setup](../guides/multi-booth-setup.md)

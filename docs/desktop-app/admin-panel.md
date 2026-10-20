@@ -37,7 +37,7 @@ The buttons, top to bottom:
 
 ### Footer and badge
 
-The footer shows the booth name, the account email, the plan badge (**Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pixture Photobooth v…". Support will ask for that version.
+The footer shows the booth name, the account email, the plan badge (**Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N computers active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pixture Photobooth v…". Support will ask for that version.
 
 ### Notices
 
@@ -54,7 +54,7 @@ The Menu page surfaces anything that needs you:
 
 The header reads **Admin Settings**. From the top:
 
-- **Info strip**: the booth, organisation and device IDs. Support may ask for the device ID; it is also on the booth's Device tab in the dashboard.
+- **Info strip**: the booth, organisation and computer IDs. Support may ask for the computer ID; it is also on the booth's Computer tab in the dashboard.
 - **Start on boot**: launches the app when the computer starts, so a booth recovers from a power cut on its own.
 - **UPLOAD QUEUE**: every upload waiting to reach Pixture. Filter with the pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying**. **Process Now** runs the queue immediately. **Clean Storage** removes local copies that have uploaded. **Retry Failed** and **Clear Failed** appear when anything has failed. A line underneath shows cache and disk use. See [Offline Mode](./offline-mode.md).
 - **PRINT HISTORY**: recent sessions, each with a **Print** button to reprint. Use it after "Print issue — photo saved." or when a guest asks for another copy.

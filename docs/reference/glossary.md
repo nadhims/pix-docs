@@ -27,7 +27,7 @@ The screen in Studio mode where the guest places the shots from their pool into 
 
 ### Blocked
 
-A computer on a Pix Pro account that has no place on the subscription and no Event Pass. It stays paired but cannot start a session until you deactivate another computer on the Devices page, use an Event Pass on it or add a device.
+A computer on a Pix Pro account that has no place on the subscription and no Event Pass. It stays paired but cannot start a session until you deactivate another computer on the Computers page, use an Event Pass on it or add a computer.
 
 ### Bonus Session
 
@@ -55,7 +55,11 @@ The final image of a photo session: the guest's photos placed into the template 
 
 ### Computer
 
-See **Device**.
+The laptop or PC at the booth that runs the Pixture Photobooth app, paired to one booth. Pix Pro is bought per computer. The Computers page lists your active computers with their booth, first and last seen, version and plan.
+
+### Computers page
+
+The dashboard page where you see your active computers, add computers, buy Event Passes, deactivate a computer and manage AI credits. It used to be called Licenses.
 
 ### Dashboard
 
@@ -63,15 +67,7 @@ Pixture's web app at pixture.io, where you set up booths, design with Pix Design
 
 ### Deactivate
 
-The one action on a computer in the Devices table. It frees that computer's place on your subscription for the next computer that checks in, returns a free trial to your account, and ends an Event Pass.
-
-### Device
-
-A computer running the Pixture Photobooth app, paired to a booth. Pix Pro is bought per device. The Devices page lists your active devices with their booth, first and last seen, version and plan.
-
-### Devices page
-
-The dashboard page where you see your active devices, add devices, buy Event Passes, deactivate a computer and manage AI credits. It used to be called Licenses.
+The one action on a computer in the Computers table. It frees that computer's place on your subscription for the next computer that checks in, returns a free trial to your account, and ends an Event Pass.
 
 ### Event
 
@@ -79,7 +75,7 @@ A dated job in **Events** with its own booths, templates, screen design, capture
 
 ### Event Pass
 
-24 hours of Pix Pro on one computer, $5 or Rp 85.000. Buy any number at any time, at a flat price. Unused Event Passes wait in your account, shown as "N unused" on the **Event Passes** card of the Devices page. One starts only when you use it at the booth: tap **Use Event Pass** on the event start screen, or **Use an Event Pass on this computer** in the operator menu. It ends when the computer is deactivated and cannot be moved.
+24 hours of Pix Pro on one computer, $5 or Rp 85.000. Buy any number at any time, at a flat price. Unused Event Passes wait in your account, shown as "N unused" on the **Event Passes** card of the Computers page. One starts only when you use it at the booth: tap **Use Event Pass** on the event start screen, or **Use an Event Pass on this computer** in the operator menu. It ends when the computer is deactivated and cannot be moved.
 
 ### Extra prints
 
@@ -147,7 +143,7 @@ What a guest buys at the Payment screen: **Single**, **Double** or **Group** (fo
 
 ### Pairing code
 
-A 6-digit code generated on a booth's **Device** tab in the dashboard and typed into the Pixture Photobooth app, which connects that computer to that booth. It lasts 10 minutes.
+A 6-digit code generated on a booth's **Computer** tab in the dashboard and typed into the Pixture Photobooth app, which connects that computer to that booth. It lasts 10 minutes.
 
 ### Payment gateway
 
@@ -187,7 +183,7 @@ The company and its dashboard at pixture.io. The booth app is Pixture Photobooth
 
 ### Pool
 
-Two meanings. On the Devices page, the unused Event Passes and free subscription places waiting for a computer. In Studio mode, the shots a guest has taken before assigning them to slots.
+Two meanings. On the Computers page, the unused Event Passes and free subscription places waiting for a computer. In Studio mode, the shots a guest has taken before assigning them to slots.
 
 ### Print format, sheet
 
@@ -261,6 +257,6 @@ A computer with no Pix Pro on an account that has none. It keeps running its boo
 
 
 - [Plans & Pricing](../pricing/plans.md)
-- [Devices](../dashboard/billing.md)
+- [Computers](../dashboard/billing.md)
 - [Public Links](./public-links.md)
 - [How Pixture Works](../getting-started/how-pixture-works.md)

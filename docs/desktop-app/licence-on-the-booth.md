@@ -7,7 +7,7 @@ tags: [desktop-app, pix-pro, event-pass]
 
 # Pix Pro on the Booth
 
-Pix Pro lives on the computer, not the booth profile, and the booth shows you its state in the operator menu. This page explains each badge value, what a watermarked or blocked computer does, how to use an Event Pass at the venue, the warnings before an Event Pass or trial ends, what happens offline, and what Logout does to Pix Pro. Buying and moving Pix Pro happens on the dashboard's **Devices** page; see [Device Management](../dashboard/device-management.md).
+Pix Pro lives on the computer, not the booth profile, and the booth shows you its state in the operator menu. This page explains each badge value, what a watermarked or blocked computer does, how to use an Event Pass at the venue, the warnings before an Event Pass or trial ends, what happens offline, and what Logout does to Pix Pro. Buying and moving Pix Pro happens on the dashboard's **Computers** page; see [Computers and Pairing](../dashboard/device-management.md).
 
 ## The Badge
 
@@ -19,10 +19,10 @@ Open the operator menu (two taps on the top-right corner). The footer shows the 
 | **Trial until …** | The free 3-day trial is running on this computer. Clean output. |
 | **Event Pass until HH:mm** | An Event Pass is running on this computer until that time. Clean output. |
 | **Watermarked** | Pix Starter, or Pix Pro that ran out. The booth runs, everything carries the Pixture watermark. |
-| **Blocked, all N devices active** | A Pix Pro account whose device places are all in use. This computer cannot start sessions. |
+| **Blocked, all N computers active** | A Pix Pro account whose subscription places are all in use. This computer cannot start sessions. |
 | **Pix Pro ended, reconnect to check** | Pix Pro expired while the booth was offline. Watermarked until it can check in. |
 
-The same states appear as the Plan badge on the dashboard's Booths list and in the Plan column of the Devices table.
+The same states appear as the Plan badge on the dashboard's Booths list and in the Plan column of the Computers table.
 
 ## Watermarked
 
@@ -30,10 +30,10 @@ A watermarked computer keeps working: guests take photos, print and share. The P
 
 ## Blocked
 
-On a Pix Pro account, a computer without Pix Pro is blocked rather than watermarked: it refuses to start sessions and shows "Device limit reached". Guests see "Please call the operator." To free it:
+On a Pix Pro account, a computer without Pix Pro is blocked rather than watermarked: it refuses to start sessions and shows "Computer limit reached". Guests see "Please call the operator." To free it:
 
-1. On the dashboard, open **Devices**.
-2. Either click **Deactivate** on a computer you no longer use, which frees its place, or click **Buy license** to buy another place.
+1. On the dashboard, open **Computers**.
+2. Either click **Deactivate** on a computer you no longer use, which frees its place, or click **Add computer** to buy another place.
 3. The blocked computer picks up Pix Pro on its next check-in.
 
 Only the dashboard moves Pix Pro between computers. There is nothing on the booth that takes Pix Pro from another computer.
@@ -42,7 +42,7 @@ Only the dashboard moves Pix Pro between computers. There is nothing on the boot
 
 When the computer is watermarked or blocked, the operator menu shows **Use an Event Pass on this computer**. Tap it to start one of your unused Event Passes on this computer for the next 24 hours. The button sits behind the menu PIN, so a guest cannot use up your Event Passes; the prompt on the Home screen is information only.
 
-Event Passes are bought on the Devices page: **Buy license**, then **Event Pass**.
+Event Passes are bought on the Computers page: **Add computer**, then **Event Pass**.
 
 ## On an Event
 
@@ -52,7 +52,7 @@ A computer paired to an [event](../dashboard/events.md) never runs watermarked: 
 - **Use Pix Pro** when a Pix Pro in your account is on no computer ("Use Pix Pro for this event?"). The computer runs on it for as long as it is paired.
 - **"No Event Passes left"** when there is nothing to use. Scan the QR code to **Buy Event Passes on your phone**, then tap **Recheck**.
 
-Both buttons sit behind the menu PIN. Once the computer has its license, the booth goes to Home and the event page on the dashboard shows the computer as **Event Pass** with a countdown, or **Pix Pro**. A running Event Pass can be given 24 more hours from the dashboard with **Extend 24h** on the computer's row.
+Both buttons sit behind the menu PIN. Once the computer has Pix Pro or an Event Pass, the booth goes to Home and the event page on the dashboard shows the computer as **Event Pass** with a countdown, or **Pix Pro**. A running Event Pass can be given 24 more hours from the dashboard with **Extend 24h** on the computer's row.
 
 ## Pair With a Code
 
@@ -60,7 +60,7 @@ The operator menu has **Pair with a code**. Enter the 6-digit code from the dash
 
 ## Warnings Before It Ends
 
-Sixty minutes and fifteen minutes before an Event Pass or the free trial ends, the booth shows a notice on the idle Home screen. When the time comes, a popup names exactly what ended, for example "Your Event Pass has ended", the free trial, or Pix Pro on this computer. Its **Manage devices** button shows a QR code to your Devices page so you can sort it out from your phone while standing at the booth.
+Sixty minutes and fifteen minutes before an Event Pass or the free trial ends, the booth shows a notice on the idle Home screen. When the time comes, a popup names exactly what ended, for example "Your Event Pass has ended", the free trial, or Pix Pro on this computer. Its **Manage computers** button shows a QR code to your Computers page so you can sort it out from your phone while standing at the booth.
 
 Two things never happen mid-session: a running photo session is never downgraded or stopped because Pix Pro changed, and a session that started clean finishes clean.
 
@@ -75,15 +75,15 @@ The booth does not need the internet to keep Pix Pro. If Pix Pro expires while t
 - **Pix Pro** and the **free trial** return to your account, so the place is free for the next computer that pairs.
 - **A running Event Pass stays on the computer.** It cannot go back to your account or move, and it keeps running until its 24 hours are up. Do not log out a computer with a running Event Pass unless you mean to leave it there.
 
-The same rule applies to **Unlink** on the booth's Device tab in the dashboard, and to a replacement computer pairing with a new code: Pix Pro follows to the new computer. See [Add or Move a Computer](../tutorials/add-or-move-a-computer.md).
+The same rule applies to **Unlink** on the booth's Computer tab in the dashboard, and to a replacement computer pairing with a new code: Pix Pro follows to the new computer. See [Add or Move a Computer](../tutorials/add-or-move-a-computer.md).
 
 :::info
-Say "device" or "computer" when talking to support: Pix Pro belongs to the computer, and a booth profile with no computer linked shows a dash instead of a badge.
+Say "computer" when talking to support: Pix Pro belongs to the computer, and a booth profile with no computer linked shows a dash instead of a badge.
 :::
 
 ## Related
 
-- [Device Management](../dashboard/device-management.md)
+- [Computers and Pairing](../dashboard/device-management.md)
 - [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
 - [Plans](../pricing/plans.md)
 - [Operator Menu](./admin-panel.md)
