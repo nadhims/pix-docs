@@ -117,7 +117,7 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 
 ## Licenses, Pricing and Transactions
 
-- **Each computer on an event needs a license**: Pix Pro, or an **Event Pass**, which is 24 hours of Pix Pro on one computer, starting when you use it at the booth. **Buy license** opens a choice between **Event Pass** (for an event) and **Pix Pro** (for regular use), each with its own checkout on the [Devices](./billing.md) page. A computer without a license stays paired but does not start sessions; there is no watermarked mode on an event.
+- **Each computer on an event needs a license**: Pix Pro, or an **Event Pass**, which is 24 hours of Pix Pro on one computer, starting when you use it at the booth. **Buy license** opens a choice between **Event Pass** (for an event) and **Pix Pro** (for regular use), each with its own checkout on the [Computers](./billing.md) page. A computer without a license stays paired but does not start sessions; there is no watermarked mode on an event.
 - **At the booth**, a computer that needs a license shows "Use an Event Pass for today?" with **Use Event Pass**, or **Use Pix Pro** if a Pix Pro is free in your account. See [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md).
 - **Longer events.** When an Event Pass is running, **Extend 24h** on its row adds 24 hours from one of your unused Event Passes, or opens the Event Pass checkout if you have none.
 - **Bringing a computer that already has Pix Pro**: unlink it from its booth on the dashboard first. That puts its Pix Pro back in your account, so the event shows a pairing code and the computer pairs in on its own Pix Pro.
@@ -128,7 +128,7 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 ## Related
 
 - [Run an Event](../tutorials/run-an-event.md)
-- [Devices](./billing.md)
+- [Computers](./billing.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
 - [Event Start Screen](./event-start-screen.md)
 - [Event Video Modes](../desktop-app/event-video-modes.md)

@@ -19,13 +19,13 @@ The sidebar lists the pages in this order. Your role decides which ones you see.
 |---|---|
 | [Dashboard](./dashboard-home.md) | Revenue, photo sessions, prints, vouchers, top booths and health for a day, week or month |
 | [Events](./events.md) | A booking pointed at your booths for a set of dates, with its own pricing, templates and a public album |
-| [Booths](./booth-management.md) | One page per booth: templates, filters, screen design, pricing, activity log, device and settings |
+| [Booths](./booth-management.md) | One page per booth: templates, filters, screen design, pricing, activity log, computer and settings |
 | [Transactions](./transactions.md) | Every payment, searchable, filterable and exportable to Excel |
 | [Vouchers](./vouchers.md) | Free, fixed-amount or percentage codes, one at a time or in batches |
 | [Marketing Studio](./marketing-studio.md) | Consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance. Pix Pro only |
 | [Gallery](./gallery.md) | Browse, download and delete what your booths captured |
 | [Health](./health.md) | Which booths are online, their camera, printer, paper and error records |
-| [Devices](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Buy license** |
+| [Computers](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Buy license** |
 | [Pix Design](./pix-design/overview.md) | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | Help | Opens a chat with Lucy, the dashboard assistant |
 | [Settings](./settings.md) | Organization, preferences, members, payment gateway, profile, billing, security and data |
@@ -68,5 +68,5 @@ The dashboard is available in English and Bahasa Indonesia. Switch from the acco
 
 - [Dashboard Home](./dashboard-home.md)
 - [Booths](./booth-management.md)
-- [Devices](./billing.md)
+- [Computers](./billing.md)
 - [Settings](./settings.md)
