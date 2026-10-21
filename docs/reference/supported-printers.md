@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Supported Printers
-description: Photo printers tested with the Pixture Photobooth app, including dye-sublimation and common inkjet alternatives, print sizes and setup tips.
+description: Any printer that prints from Windows or macOS works with the Pixture app. Recommended dye-sublimation and inkjet printers, print sizes and setup tips.
 tags: [reference, printers, hardware, printing]
 ---
 
@@ -11,7 +11,15 @@ tags: [reference, printers, hardware, printing]
 Indonesian street prices below are approximate as of August 2026 and drift over time.
 :::
 
-Prints go through the operating system's standard print driver, so any printer with a working driver should work. Dye-sublimation printers (DNP, HiTi, Mitsubishi, Kodak) are the fastest and most durable option and are what most professional photobooth operators use. Epson's minilab and consumer inkjet printers are also common, especially for budget setups in Indonesia. The sections below cover both.
+## Will my printer work?
+
+Yes, if Windows or macOS can print on it. The Pixture app prints through the operating system's standard print driver, so any printer that prints a test page from Windows or macOS works with Pixture: every Epson EcoTank (L3210, L5210, L805, L8050 and the rest), Canon, HP and Brother inkjets, and every dye-sublimation printer. Install the maker's driver, check it prints from the operating system, then select it on the booth under **Printer Settings**.
+
+The printers on this page are recommendations for photo quality and speed, not a compatibility list. A 4-colour document EcoTank such as the L3210 or L5210 works, but prints more slowly and with less vivid photos than a 6-colour photo model (L805, L8050) or a dye-sub.
+
+## Which kind of printer?
+
+Dye-sublimation printers (DNP, HiTi, Mitsubishi, Kodak) are the fastest and most durable option and are what most professional photobooth operators use. Epson's minilab and consumer inkjet printers are also common, especially for budget setups in Indonesia. The sections below cover both.
 
 ## Which printer should you buy?
 
@@ -26,7 +34,7 @@ Prints go through the operating system's standard print driver, so any printer w
 
 These are approximate, point-in-time market prices. Treat them as a starting reference, not a quote, and check current prices with a retailer before buying.
 
-## Tested dye-sublimation printers
+## Recommended dye-sublimation printers
 
 Dye-sub prints emerge dry in seconds with a protective overcoat, so they resist fading, smudging and water far better than inkjet.
 

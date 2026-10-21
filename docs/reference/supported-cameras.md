@@ -11,7 +11,7 @@ The Pixture Photobooth app captures photos with a camera body connected by USB, 
 
 | Brand | Supported bodies | Setup |
 |---|---|---|
-| **Canon** | EOS DSLRs and EOS R mirrorless (tested models below) | [Canon EOS Setup](../desktop-app/camera-setup/canon-eos.md) |
+| **Canon** | Every model on Canon's EDSDK supported list: practically all EOS DSLRs from the 40D / 1000D on, the EOS R line, the newer EOS M bodies and some PowerShots ([full list below](#supported-canon-models)). Not the older EOS M bodies (M, M2, M3, M5, M6, M10, M100). | [Canon EOS Setup](../desktop-app/camera-setup/canon-eos.md) |
 | **Sony** | A7 IV/V, A7C/C II/CR, A7R IV to VI, A7S III, A9 II/III, A1/A1 II, A6700, ZV-E10 II, ZV-E1, FX series | [Sony Alpha Setup](../desktop-app/camera-setup/sony-alpha.md) |
 | **Nikon** | Z9, Z8, Z6III, Z7II, Z6II, Z7, Z6, Z5II, Z5, Zf, ZR, Z50II, Z50, Z30, Zfc (Z mirrorless only) | [Nikon Z Setup](../desktop-app/camera-setup/nikon-z.md) |
 | **Fujifilm** | X-H2S, X-H2, X-T5, X-S20, X-M5, GFX100 II, GFX100S II, GFX100RF, plus X-T3, X-T4, X-Pro3, X-S10, GFX 50S, GFX 50R, GFX100, GFX100S, GFX50S II | [Fujifilm Setup](../desktop-app/camera-setup/fujifilm.md) |
@@ -26,8 +26,8 @@ If you are not sure where to start, here is a rough guide by budget. Prices are 
 
 | Tier | Model | Approx. price (IDR) | Why |
 |---|---|---|---|
-| **Low budget** | EOS 1200D (secondhand) | ~1.2 to 2.2 juta | Cheapest realistic USB-tetherable Canon EOS on the used market. Not on Canon's current lineup and not on the tested list below, but USB tethering support means it should work. A reasonable way to test the waters before investing more. |
-| **Mid budget** | EOS R100 (new) | ~8.5 to 10 juta | Canon's current cheapest mirrorless. New with warranty, RF mount, a current product rather than a used-market gamble. Not on the tested list, but the same USB tethering logic applies. |
+| **Low budget** | EOS 1200D (secondhand) | ~1.2 to 2.2 juta | Cheapest realistic USB-tetherable Canon EOS on the used market. Not on Canon's current lineup, but on Canon's supported list, so it works. A reasonable way to test the waters before investing more. |
+| **Mid budget** | EOS R100 (new) | ~8.5 to 10 juta | Canon's current cheapest mirrorless. New with warranty, RF mount, a current product rather than a used-market gamble. On Canon's supported list. |
 | **Upper-mid** | EOS R10 or EOS R8 (tested) | R10 ~18 juta, R8 ~21 juta | Both tested. R10 is APS-C; R8 steps up to full-frame for a relatively small jump in price. |
 | **High budget** | EOS R6 Mark II (tested) | ~28 to 30 juta | Full-frame image quality and fast autofocus at roughly half the price of the EOS R5, whose resolution a photobooth does not need. The sensible top of the range. |
 
@@ -35,33 +35,25 @@ If you are not sure where to start, here is a rough guide by budget. Prices are 
 These are approximate, point-in-time market prices (especially the secondhand 1200D). Treat them as a starting reference, not a quote.
 :::
 
-## Tested Canon EOS models
+## Supported Canon models
 
-### Mirrorless (EOS R system)
+Canon cameras are controlled through Canon's own SDK (EDSDK 13.19.10, the version the Pixture app ships). Every model Canon lists as supported works, including older bodies such as the EOS 1100D, 1200D and 600D. Canon's list, as of May 2025:
 
-| Model | Notes |
-|---|---|
-| EOS R | Full-frame, excellent image quality |
-| EOS R5 | High resolution, fast autofocus |
-| EOS R6 | Great low-light performance |
-| EOS R6 Mark II | Updated autofocus, recommended |
-| EOS R8 | Compact full-frame, good value |
-| EOS R10 | APS-C, lightweight and affordable |
+**EOS R mirrorless:** EOS R1, R3, R5, R5 Mark II, R6, R6 Mark II, R7, R8, R10, R50, R50 V, R100, R, RP, Ra.
 
-### DSLR
+**EOS DSLRs:**
 
-| Model | Notes |
-|---|---|
-| 5D Mark IV | Professional full-frame workhorse |
-| 6D Mark II | Full-frame, budget-friendly |
-| 90D | APS-C, fast and versatile |
-| 80D | APS-C, reliable |
-| 77D | APS-C, entry-level |
-| 250D / Rebel SL3 | Compact, great starter camera |
+- Full frame: EOS-1D X Mark III, 1D X Mark II, 1D X, 1D C, 1D Mark IV, 1D Mark III, 1Ds Mark III, 5D Mark IV, 5DS, 5DS R, 5D Mark III, 5D Mark II, 6D Mark II, 6D
+- APS-C: EOS 90D, 80D, 70D, 60D, 50D, 40D, 7D Mark II, 7D, 77D (9000D), 850D (Rebel T8i / Kiss X10i), 800D (T7i / X9i), 760D (T6s / 8000D), 750D (T6i / X8i), 700D (T5i / X7i), 650D (T4i / X6i), 600D (T3i / X5), 550D (T2i / X4), 500D (T1i / X3), 450D (XSi / X2)
+- Compact and entry: EOS 250D / 200D II (SL3 / X10), 200D (SL2 / X9), 100D (SL1 / X7), 2000D / 1500D (T7 / X90), 4000D / 3000D (T100), 1300D (T6 / X80), 1200D (T5 / X70 / Hi), 1100D (T3 / X50), 1000D (XS / Kiss F)
 
-:::tip
-Most Canon EOS models with USB tethering should work, even if not listed above. If your camera supports Canon's EOS Utility for remote shooting, it will likely work with the Pixture Photobooth app.
-:::
+**EOS M mirrorless:** EOS M50, M50 Mark II (Kiss M / Kiss M2), M200, M6 Mark II.
+
+**PowerShot:** V10 (firmware 1.1.0 or later), ZOOM (firmware 1.1.2 or later), G7 X Mark III, G5 X Mark II, SX70 HS.
+
+**Not supported:** the older EOS M bodies (EOS M, M2, M3, M5, M6, M10, M100). Canon's SDK connects to them but does not offer remote capture, so the booth cannot shoot with them; use the [webcam fallback](#webcam-fallback) instead.
+
+Models we have also run on our own booths: EOS R, R5, R6, R6 Mark II, R8, R10, 5D Mark IV, 6D Mark II, 90D, 80D, 77D and 250D.
 
 ## USB connection
 
