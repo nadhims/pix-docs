@@ -20,11 +20,11 @@ A booth with no computer shows the status **Unknown**, a dash for the plan and "
 ## Pairing a Computer
 
 1. Install the Pixture Photobooth app on the booth PC. See [Install the Pixture Photobooth app](../getting-started/download-desktop-app.md).
-2. On the booth's **Device** tab, under **Pairing & access**, click **Generate code**. The Pair Pixture Photobooth modal shows a 6-digit code with "Enter this code in the Pixture Photobooth app to link it to [booth name]." and a countdown from 10 minutes. Use **Copy Code**, or **Regenerate** if it expires.
+2. On the booth's **Device** tab, under **Pairing & access**, click **Generate code**. The **Pair a computer** popup shows a 6-digit code with "Open Pixture Photobooth on the booth computer and enter this Pairing Code." and a countdown from 10 minutes. Use **Copy code**, or **New code** if it expires. If your free trial is unused and no Pix Pro or Event Pass is free for the computer, the popup first offers **Start free trial** or **Pair without the trial**.
 3. Type the code on the booth's pairing screen.
 4. Click **Done**. The computer downloads the booth's templates, screen design, filters and prices and goes to the start screen.
 
-![Pair Pixture Photobooth modal showing the 6-digit code, Expires in, Copy Code, Regenerate, Done](/img/docs/booth-pairing-code.webp)
+![Pair a computer popup showing the 6-digit code, Code expires in, Copy code, New code, Done](/img/docs/booth-pairing-code.webp)
 
 On a Pix Pro account, a spare place on your subscription attaches itself at this first check-in, so the computer runs Pix Pro straight away. An Event Pass is never started automatically: use one at the booth when the day starts.
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Choose Your Plan
-description: Start free and watermarked on Pix Starter, claim the 3-day Pix Pro trial, then put Pix Pro or an Event Pass on the booth PC when it has a paid job.
+description: Start free and watermarked on Pix Starter, start the free 3-day Pix Pro trial, then put Pix Pro or an Event Pass on the booth PC when it has a paid job.
 tags: [getting-started, plans, pricing]
 ---
 
@@ -36,15 +36,15 @@ The moment one computer holds Pix Pro, through a subscription, a running Event P
 
 ## Try Pix Pro Free for 3 Days
 
-Every account can claim one free trial: 3 days of Pix Pro on one computer, no card needed.
+Every account can start one free trial: 3 days of Pix Pro on one computer, no card needed, and nothing is charged when it ends. It unlocks no Pixture watermark on prints and soft files, unlimited templates, Pix Design, and Frame Lab, Marketing Studio and every Pro feature.
 
-1. In the dashboard, wait for the **Try Pix Pro free for 3 days** popup, or open it later from the bell (**Updates**) at the top of the sidebar.
-2. Under **Which booth PC?**, pick the booth. The trial goes on the computer paired to that booth.
-3. Click **Claim free trial**. **Save for later** closes the popup without using the trial.
+1. When the trial is still unused and no Pix Pro or Event Pass is waiting for the computer, the **Pair a computer** popup can offer it first, on a card that reads **You have a 3-day free trial**. Click **Start free trial** and the code that follows carries a **Free trial ready for this computer** chip. **Later** closes the card without using the trial, and **Pair without the trial** (on a booth) gives a plain code.
+2. You can also start it from the bell (**Updates**) at the top of the sidebar. Under **Which booth's computer?**, pick the booth. The trial goes on the computer paired to that booth.
+3. Click **Start free trial**. **Later** closes the popup without using the trial.
 
-   ![The Try Pix Pro free for 3 days popup with the benefits list, the booth picker and the Claim free trial button](/img/docs/trial-popup.webp)
+   ![The free trial popup with the unlocks list, the booth picker and the Start free trial button](/img/docs/trial-popup.webp)
 
-The popup's footer tells you what happens at the end: "No credit card required. After 3 days that computer goes back to watermarked." Everything you built during the trial stays in your account. The trial can be moved to another computer from the Devices page before it ends.
+The trial starts when the booth computer connects. If the booth already has a computer it starts at once; if not, the popup walks you through installing the app and pairing, and your 3 days begin when the computer connects. After 3 days that computer goes back to watermarked. Everything you built during the trial stays in your account. The trial can be moved to another computer from the Devices page before it ends.
 
 ## Activate a Computer
 

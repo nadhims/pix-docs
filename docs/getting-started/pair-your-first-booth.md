@@ -31,12 +31,14 @@ By the end of this page the booth PC is linked to a booth in your dashboard, has
 
    If you clicked **Maybe later** earlier, open the booth's **Device** tab and click **Generate code** under **Pairing & access** instead. Both open the same modal.
 
-3. The **Pair Pixture Photobooth** modal shows a 6-digit code and the line "Enter this code in the Pixture Photobooth app to link it to" your booth. The code expires in 10 minutes; the countdown is on the modal. **Copy Code** copies it, **Regenerate** makes a fresh one.
+3. The **Pair a computer** popup shows a 6-digit code and the line "Open Pixture Photobooth on the booth computer and enter this Pairing Code." The code expires in 10 minutes; the "Code expires in" countdown is on the popup. **Copy code** copies it, **New code** makes a fresh one.
 
-   ![The Pair Pixture Photobooth modal with a 6-digit code, the Expires in countdown, and the Copy Code, Regenerate and Done buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-pairing-code.webp)
+   If your free trial is still unused and no Pix Pro or Event Pass is free for the computer, the popup first shows the **You have a 3-day free trial** card. **Start free trial** shows the code with a **Free trial ready for this computer** chip, and your 3 days start when the computer connects. **Pair without the trial** shows a plain code, and **Later** closes the popup.
+
+   ![The Pair a computer popup with a 6-digit code, the Code expires in countdown, and the Copy code, New code and Done buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-pairing-code.webp)
 
 4. On the booth PC, type the 6 digits on the app's pairing screen.
-5. The booth downloads its templates, screen design and pricing and shows the start screen. Click **Done** on the modal. Back in the dashboard, the booth's status turns **Online** and the **Device** tab shows the computer's name, its fingerprint and when it was last seen.
+5. The booth downloads its templates, screen design and pricing and shows the start screen. Click **Done** on the popup. Back in the dashboard, the booth's status turns **Online** and the **Device** tab shows the computer's name, its fingerprint and when it was last seen.
 
    ![The booth Device tab with a paired computer showing its name, fingerprint, last seen time, and the Rename device, Unlink and Remove actions](/img/docs/steps/getting-started-pair-your-first-booth--booth-device-tab-paired.webp)
 

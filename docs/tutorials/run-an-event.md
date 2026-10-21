@@ -45,7 +45,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Event Setup tab with setup progress, the Computers card, Booth mode, Output and Appearance](/img/docs/event-setup-computers.webp)
 
-2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **Regenerate**, when a license is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get a license first": click **Buy license**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
+2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **New code**, when a license is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get a license first": click **Buy license**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
 
    ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 

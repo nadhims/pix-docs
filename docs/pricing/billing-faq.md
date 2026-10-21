@@ -72,7 +72,7 @@ US dollars internationally, rupiah in Indonesia. The currency follows your locat
 
 ## How does the free trial work?
 
-Once per account: 3 days of Pix Pro on one computer, no card. Claim it from the "Try Pix Pro free for 3 days" popup or the bell menu in the dashboard, or from the booth's operator menu. While it runs your account is Pix Pro. If you deactivate the computer, the trial returns to your pool and the next computer that checks in takes it. It ends for good 3 days after you claimed it, and the account goes back to Pix Starter unless you have bought Pix Pro.
+Once per account: 3 days of Pix Pro on one computer, no card. Start it with **Start free trial** on the **You have a 3-day free trial** card in the **Pair a computer** popup, from the bell menu in the dashboard, or from the booth's operator menu. Your 3 days start when the booth computer connects. While it runs your account is Pix Pro. If you deactivate the computer, the trial returns to your pool and the next computer that checks in takes it. It ends for good 3 days after it started, and the account goes back to Pix Starter unless you have bought Pix Pro.
 
 ## Can I pair a second computer on Pix Starter?
 

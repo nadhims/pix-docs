@@ -79,9 +79,9 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 ## Step 7: Pair the computer
 
 1. Open the **Device** tab and, under **Pairing & access**, click **Generate code**.
-2. The **Pair Pixture Photobooth** modal shows a 6-digit code that expires in 10 minutes. **Copy Code** puts it on the clipboard; **Regenerate** issues a fresh one.
+2. The **Pair a computer** popup shows a 6-digit code that expires in 10 minutes. **Copy code** puts it on the clipboard; **New code** issues a fresh one. If your free trial is unused and no Pix Pro or Event Pass is free for the computer, the popup first offers **Start free trial** (your 3 days start when the computer connects) or **Pair without the trial**.
 
-![Pair Pixture Photobooth modal with the 6-digit code, the expiry countdown, Copy Code, Regenerate and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
+![Pair a computer popup with the 6-digit code, the expiry countdown, Copy code, New code and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
 
 3. On the booth PC, open the Pixture Photobooth app and enter the code on its pairing screen.
 4. Back in the dashboard, click **Done**.
@@ -111,7 +111,7 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 
 | Symptom | Cause | Fix |
 |---|---|---|
-| The pairing code is refused | Codes expire after 10 minutes | Click **Regenerate** and enter the new code |
+| The pairing code is refused | Codes expire after 10 minutes | Click **New code** and enter the new code |
 | "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Devices page, add a device, or use an Event Pass. Pix Starter runs one computer |
 | The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pixture Photobooth app is running |
 | Guests see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |

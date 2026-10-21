@@ -54,12 +54,12 @@ Adding several devices in one purchase gives a volume discount. Open **Devices >
 
 ## Free 3-Day Trial
 
-Every account can claim one free trial: 3 days of Pix Pro on one computer, no card needed.
+Every account can start one free trial: 3 days of Pix Pro on one computer, no card needed. It starts when the booth computer connects.
 
-1. In the dashboard, tap **Claim free trial** on the "Try Pix Pro free for 3 days" popup, or open it from the bell menu. On the booth, the operator menu offers the same.
+1. In the dashboard, tap **Start free trial** on the **You have a 3-day free trial** card in the **Pair a computer** popup, or open the trial popup from the bell menu. On the booth, the operator menu offers the same.
 2. Pick the booth. The trial goes on the computer paired to it.
 
-While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Devices page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after you claimed it.
+While the trial runs your account is Pix Pro. If you **Deactivate** that computer on the Devices page, the trial returns to your pool and the next computer that checks in takes it. It still ends for good 3 days after it started.
 
 ## Pix AI credits
 
