@@ -39,7 +39,7 @@ The moment one computer holds Pix Pro, through a subscription, a running Event P
 Every account can start one free trial: 3 days of Pix Pro on one computer, no card needed, and nothing is charged when it ends. It unlocks no Pixture watermark on prints and soft files, unlimited templates, Pix Design, and Frame Lab, Marketing Studio and every Pro feature.
 
 1. When the trial is still unused and no Pix Pro or Event Pass is waiting for the computer, the **Pair a computer** popup can offer it first, on a card that reads **You have a 3-day free trial**. Click **Start free trial** and the code that follows carries a **Free trial ready for this computer** chip. **Later** closes the card without using the trial, and **Pair without the trial** (on a booth) gives a plain code.
-2. You can also start it from the bell (**Updates**) at the top of the sidebar. Under **Which booth's computer?**, pick the booth. The trial goes on the computer paired to that booth.
+2. You can also start it from the bell (**Updates**) at the top of the sidebar. In the popup's booth list, pick your booth. The trial goes on the computer paired to that booth.
 3. Click **Start free trial**. **Later** closes the popup without using the trial.
 
    ![The free trial popup with the unlocks list, the booth picker and the Start free trial button](/img/docs/trial-popup.webp)
