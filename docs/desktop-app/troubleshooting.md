@@ -39,10 +39,25 @@ This page is the first stop when a booth misbehaves. Each table lists a symptom,
 | Symptom | Likely cause | Fix |
 |---|---|---|
 | Guests see "No connection — your photos will appear at this link once the booth reconnects." | The venue internet is down or cannot reach Pixture | Photos are queued; fix the connection and the queue drains on its own. The link still works |
-| Menu footer reads "Uploads: N waiting" for a long time | Network failures retrying; they never give up | Check the venue line. Tap **Admin Panel > Process Now** once it is back |
+| Menu footer reads "Uploads: N waiting" for a long time | Network failures retrying; they never give up | Check the venue line. Tap **Admin Panel > Uploads > Upload now** once it is back |
+| Booth is online, but photos never upload and the guest link stays on "Uploading Photo" | The venue network blocks Pixture's photo storage (common on office, government, school and hotel networks) | Switch the booth to a phone hotspot and tap **Upload now**. See [Booth online but photos never upload](#booth-online-but-photos-never-upload) |
 | Items show **Failed** in the Upload Queue | The server rejected the upload repeatedly | **Retry Failed** on a stable connection. If they fail again, contact support with the booth name and time |
 | Dashboard shows the booth Offline although it is running | No heartbeat for 12 minutes | The booth beats every 5 minutes; check its internet. A booth marked Offline has been out of touch for a while |
 | Booth is slow to load templates | Thumbnails are still downloading | Cards fill in progressively; give it a moment, or run a test session before opening so assets are cached |
+
+### Booth online but photos never upload
+
+The booth talks to Pixture through two addresses: the Pixture server (sign-in, sessions, templates) and Pixture's photo storage, where the photo files go. Some networks let the first through and block the second. The booth then looks fine: it shows Online on the dashboard and runs sessions, but no photo ever arrives, and guests scanning the QR code see **Uploading Photo** for hours.
+
+This happens most on office, government, school and hotel networks, whose firewalls block cloud storage sites. The photos are safe: they stay on the booth computer and keep retrying.
+
+1. Connect the booth computer to a phone hotspot or another internet connection.
+2. Open **Admin Panel > Uploads** and tap **Upload now**.
+3. The waiting photos upload within a minute or two, and the QR links guests already have start working. Nobody needs to retake a photo.
+
+If the photos upload on the hotspot, the venue network was the cause. For later events there, either run the booth on a hotspot or 4G router, or ask the venue's IT team to allow `*.r2.cloudflarestorage.com`. On a home or small shop router, changing the computer's DNS to 1.1.1.1 and 8.8.8.8 can also fix it, but on an office or government network the firewall usually blocks the site whatever the DNS, so the hotspot is the reliable fix.
+
+If the photos still don't upload on a hotspot, contact support with the booth name and the time of the session.
 
 ## Payment
 
