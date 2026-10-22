@@ -26,12 +26,12 @@ Completed items are pruned after 7 days, failed items after 30. Photos that have
 
 ## Watching the Queue
 
-The operator menu footer shows a status line: "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date". For detail, open **Admin Panel** and scroll to **UPLOAD QUEUE**:
+The operator menu footer shows a status line: "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date". For detail, open **Admin Panel** and scroll to **Uploads**:
 
-- The filter pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying** narrow the list.
-- **Process Now** runs the queue immediately instead of waiting for the next retry.
-- **Retry Failed** puts every Failed item back in the queue; **Clear Failed** discards them. Both appear only when something has failed.
-- **Clean Storage** removes local copies of items that have already uploaded.
+- One row per session shows whether its photos reached Pixture; filter by **Today**, **Yesterday** or **All**.
+- **Upload now** runs the queue immediately instead of waiting for the next retry.
+- **Retry failed** puts every Failed item back in the queue; **Clear failed** discards them. Both appear only when something has failed.
+- **Clean storage** removes local copies of items that have already uploaded.
 
 A cache and disk line underneath shows how much space the booth is using. See [Operator Menu](./admin-panel.md).
 

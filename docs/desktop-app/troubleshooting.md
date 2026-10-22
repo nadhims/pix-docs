@@ -41,7 +41,7 @@ This page is the first stop when a booth misbehaves. Each table lists a symptom,
 | Guests see "No connection — your photos will appear at this link once the booth reconnects." | The venue internet is down or cannot reach Pixture | Photos are queued; fix the connection and the queue drains on its own. The link still works |
 | Menu footer reads "Uploads: N waiting" for a long time | Network failures retrying; they never give up | Check the venue line. Tap **Admin Panel > Uploads > Upload now** once it is back |
 | Booth is online, but photos never upload and the guest link stays on "Uploading Photo" | The venue network blocks Pixture's photo storage (common on office, government, school and hotel networks) | Switch the booth to a phone hotspot and tap **Upload now**. See [Booth online but photos never upload](#booth-online-but-photos-never-upload) |
-| Items show **Failed** in the Upload Queue | The server rejected the upload repeatedly | **Retry Failed** on a stable connection. If they fail again, contact support with the booth name and time |
+| Items show **Failed** in **Admin Panel > Uploads** | The server rejected the upload repeatedly | **Retry failed** on a stable connection. If they fail again, contact support with the booth name and time |
 | Dashboard shows the booth Offline although it is running | No heartbeat for 12 minutes | The booth beats every 5 minutes; check its internet. A booth marked Offline has been out of touch for a while |
 | Booth is slow to load templates | Thumbnails are still downloading | Cards fill in progressively; give it a moment, or run a test session before opening so assets are cached |
 
