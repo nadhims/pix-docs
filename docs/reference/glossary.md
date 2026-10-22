@@ -135,7 +135,7 @@ Several booths set up together from **Booths > + New Booth > Multi-Booth**, shar
 
 ### Offline queue
 
-Photos and session records waiting on the booth to upload. Shown as **Uploads: N waiting** in the operator menu footer and in detail under **Admin Panel > UPLOAD QUEUE**. Network failures retry on their own.
+Photos and session records waiting on the booth to upload. Shown as **Uploads: N waiting** in the operator menu footer and in detail under **Admin Panel > Uploads**. Network failures retry on their own.
 
 ### Operator menu
 

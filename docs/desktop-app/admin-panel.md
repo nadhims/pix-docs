@@ -56,7 +56,7 @@ The header reads **Admin Settings**. From the top:
 
 - **Info strip**: the booth, organisation and device IDs. Support may ask for the device ID; it is also on the booth's Device tab in the dashboard.
 - **Start on boot**: launches the app when the computer starts, so a booth recovers from a power cut on its own.
-- **UPLOAD QUEUE**: every upload waiting to reach Pixture. Filter with the pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying**. **Process Now** runs the queue immediately. **Clean Storage** removes local copies that have uploaded. **Retry Failed** and **Clear Failed** appear when anything has failed. A line underneath shows cache and disk use. See [Offline Mode](./offline-mode.md).
+- **Uploads**: one row per session showing whether its photos reached Pixture, filtered by **Today**, **Yesterday** or **All**. **Upload now** runs the queue immediately. **Clean storage** removes local copies that have uploaded. **Retry failed** and **Clear failed** appear when anything has failed. A line underneath shows cache and disk use. See [Offline Mode](./offline-mode.md).
 - **PRINT HISTORY**: recent sessions, each with a **Print** button to reprint. Use it after "Print issue — photo saved." or when a guest asks for another copy.
 - **Preflight Check**: runs the booth's own checks (camera, printer, connection) and reports what is not ready. Run it before opening.
 - **Back to Menu**.
