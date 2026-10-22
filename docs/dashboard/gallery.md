@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Gallery
-description: Browse every photo your booths captured, filter by booth and period, download or delete, and what the 30-day deletion window means.
+description: Browse every photo your booths captured, filter by booth and period, download or delete, how long photos are kept (60 days) and what the 30-day deletion window means.
 tags: [gallery, photos, sessions]
 ---
 
@@ -41,6 +41,10 @@ Opening a photo session shows its composite and each single capture, with the bo
 3. Click **Delete Selected**.
 
 Use a booth and period filter first so **Select All** takes only what you mean it to.
+
+## Photos Are Kept for 60 Days
+
+Every photo, GIF, live photo and video from a session is deleted automatically **60 days** after the session. After that its tile shows **Expired** in the Gallery and in the event's Album, and the guest's sharing page and the event album no longer show it. Download anything you want to keep before then. Your templates, screens and other designs are not affected.
 
 ## Deleting and the 30-Day Window
 

@@ -17,7 +17,7 @@ What the guest sees: their photos, GIF and live photo from that session, with yo
 
 Where it comes from: the QR code on the booth's **Sharing** screen, and the QR printed on the sheet if the template has a QR code slot. The page fills as the booth uploads; during a network drop the QR still shows and the photos appear at the link once the booth reconnects.
 
-Photos stay available until you delete them in the dashboard's **Gallery**. Deleted photos are removed for good after 30 days.
+Photos stay available for **60 days** after the session, then they are deleted automatically. The page shows the guest the last day, so they can download in time. Deleting a photo in the dashboard's **Gallery** takes it off the page at once.
 
 ## AI portrait shop
 
@@ -34,6 +34,8 @@ Where it is turned on: open the booth, go to the **Pricing** tab and, under **AI
 What the guest sees: every photo from the event, from all its booths, as a public album with a slideshow.
 
 Where it is turned on: open the event in **Events** and switch **Link Sharing** on. **Copy** gives you the link, **Slideshow** opens the full-screen view for a venue screen, and **Embed** gives code for the client's website. Switch Link Sharing off to take the album down.
+
+Each photo leaves the album 60 days after it was taken, when its files are deleted.
 
 ## Online session shop
 
