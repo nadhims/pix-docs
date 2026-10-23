@@ -11,7 +11,7 @@ By the end of this page your Canon EOS camera is connected over USB, the booth s
 
 ## Supported Models
 
-Most Canon EOS bodies with USB remote shooting work. The models we have tested are listed in [Supported Cameras](../../reference/supported-cameras.md). Among them:
+Every Canon model on Canon's EDSDK supported list works, which covers practically every EOS DSLR from the 40D and 1000D on (including the 1100D, 1200D and 600D) and the EOS R line. The exception is the older EOS M bodies (M, M2, M3, M5, M6, M10, M100), which Canon's SDK cannot remote-capture. The full list is in [Supported Cameras](../../reference/supported-cameras.md#supported-canon-models). Among them:
 
 - **DSLR**: EOS 6D Mark II, 5D Mark IV, 90D, 80D, 77D, Rebel T7/T8i
 - **Mirrorless**: EOS R, R5, R6, R6 Mark II, R8, R50, R100, RP
