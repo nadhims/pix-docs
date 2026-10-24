@@ -58,7 +58,7 @@ Pixture ships 14 built-in filters. **Pix Design > Photo Filters** lets you uploa
 ## Step 5: Set the price, or make sessions free
 
 1. Open the **Pricing** tab.
-2. Set the **Payment on this booth** switch. On, guests pay the prices below at the booth. Off, every session is free and the booth skips the Payment screen; your prices are kept for later.
+2. Set the **Payment on this booth** switch. On, guests pay the prices below at the booth. Off, every session is free and your prices are kept for later. The booth skips the Payment screen unless the Voucher method is on for the Payment page of its UI project; for free sessions with no screen at all, also turn the Payment page off in [Pix Design > UI Editor](../dashboard/pix-design/ui-editor.md).
 3. On **Price & packages**, enter the **Session price**. Pick the **Print format** that matches your paper (Standard, 2 inch cut or Triple strip), and turn on **Double session price**, **Group session price** or **Additional session price** if you offer packages.
 4. Click **Save changes** in the save bar.
 
