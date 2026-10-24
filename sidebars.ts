@@ -130,6 +130,19 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Troubleshooting',
+      items: [
+        'troubleshooting/camera',
+        'troubleshooting/pairing-and-licence',
+        'troubleshooting/uploads-and-sharing',
+        'troubleshooting/templates-and-screens',
+        'troubleshooting/printer',
+        'troubleshooting/payments',
+        'troubleshooting/app-and-computer',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Plans & Billing',
       items: [
         'pricing/plans',
