@@ -1,101 +1,67 @@
 ---
 sidebar_position: 13
 title: Troubleshooting
-description: Symptom, likely cause and fix for the common camera, printer, network, payment, Pix Pro, clock and storage problems on the Pixture Photobooth app, and where the logs are.
+description: Where to start when a booth misbehaves. A symptom table that points to the detailed troubleshooting page for the camera, pairing and Pix Pro, uploads and sharing, templates and screens, the printer, payments and the computer, the quick checks that solve most cases, when to contact support at once, and where the logs are.
 tags: [desktop-app, troubleshooting, support]
 ---
 
 # Troubleshooting
 
-This page is the first stop when a booth misbehaves. Each table lists a symptom, the most likely cause and the fix, grouped by camera, printer, network and uploads, payment, Pix Pro, and the computer itself. At the end you will find where the logs live and how to get them to support.
+This page is the first stop when a booth misbehaves. Find the symptom in the table and open its page: every problem there lists the on-screen text, what to check first, the fix in order, and what to send support. If nothing matches, run the quick checks below.
 
-## Camera
+## Find Your Problem
 
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| Live view is blank, STATUS shows no camera | USB cable or port, or another program holds the camera | Unplug and replug, quit EOS Utility or Lightroom, try a port on the computer rather than a hub, restart the app |
-| Camera detected but exposure controls do nothing | The mode dial is not on M, Av or Tv | Set the dial to M, Av or Tv; focus mode is set on the body |
-| "Camera is warming up" stays on screen, then "Camera not responding / Returning to home..." | The camera did not come up within 30 seconds | Check power and cable, then open **Camera Settings** and read the **STATUS** block and **CAMERA LOG** |
-| "Hmm, the camera didn't respond — let's try again" during a session | No frame arrived within 15 seconds of the shot; the booth retries the slot on its own | If it repeats, shorten the USB run or use a powered hub; check the camera is on mains power |
-| Photos come out sideways | The camera is mounted on its side | Update to 1.1.107 or newer; if still turned, set **CAMERA ROTATION** on Camera Settings |
-| Booth uses the laptop webcam instead of the Canon | Auto-detect could not find the Canon at launch | Check the cable, then pick the Canon under **CAMERA DEVICE** and tap **Set as Default** |
-| No camera permission on macOS | Pixture Photobooth is not allowed to use the camera | **System Settings > Privacy & Security > Camera**, allow Pixture Photobooth |
-| Camera drops out during the day | A long USB cable or a sleeping camera | Keep the cable under about 2 metres, use a powered hub, turn off auto power-off on the body |
+| Symptom | Page |
+|---|---|
+| "⚠ Camera Disconnected", "No camera detected", camera not found | [Camera: not detected](../troubleshooting/camera.md#the-camera-is-not-detected) |
+| Camera model does not work (Sony A6400, Nikon D-series, other brands) | [Camera: model does not work](../troubleshooting/camera.md#my-camera-model-does-not-work) |
+| "Capture command failed", "the camera didn't respond" | [Camera: capture fails](../troubleshooting/camera.md#capture-fails-although-live-view-works) |
+| "Camera Not Responding", "Booth Temporarily Unavailable", "Camera Cooling Down", "Camera is warming up" | [Camera Problems](../troubleshooting/camera.md) |
+| Generate code greyed out, "Pix Starter runs on one computer", "All N computers are in use" | [Pairing: no code](../troubleshooting/pairing-and-licence.md#i-cannot-get-a-pairing-code) |
+| "Invalid pairing code", code expired or already used | [Pairing: code refused](../troubleshooting/pairing-and-licence.md#the-booth-says-the-code-is-invalid-used-or-expired) |
+| Old computer still on the booth after Logout | [Pairing: old computer](../troubleshooting/pairing-and-licence.md#the-old-computer-is-still-on-the-booth-after-logout) |
+| Event Pass bought but still **Watermarked**, "Device limit reached", Pix Pro ended | [Pairing and Pix Pro Problems](../troubleshooting/pairing-and-licence.md) |
+| "Uploads: N waiting" for a long time, upload retrying, guest link stuck on **Uploading Photo** | [Uploads: never upload](../troubleshooting/uploads-and-sharing.md#photos-never-upload-although-the-booth-is-online) |
+| "No connection — your photos will appear at this link once the booth reconnects.", QR page keeps loading | [Uploads: QR keeps loading](../troubleshooting/uploads-and-sharing.md#the-guests-qr-page-keeps-loading) |
+| Photos missing after a reset, reinstall or unlink; Failed uploads; a guest lost the QR | [Upload and Sharing Problems](../troubleshooting/uploads-and-sharing.md) |
+| "No Templates Assigned", new template not on the booth | [Screens: template missing](../troubleshooting/templates-and-screens.md#my-template-is-not-on-the-booth) |
+| The operator menu will not open, Esc does nothing | [Screens: menu](../troubleshooting/templates-and-screens.md#the-operator-menu-will-not-open) |
+| Photo not inside the frame, photos sideways, photos mirrored | [Templates and Screens Problems](../troubleshooting/templates-and-screens.md) |
+| Voucher or payment screen at a free booth | [Screens: voucher at a free booth](../troubleshooting/templates-and-screens.md#a-voucher-or-payment-screen-shows-at-a-free-booth) |
+| Design cut off, bands at the edges, app not full screen | [Screens: cut off](../troubleshooting/templates-and-screens.md#the-booth-screen-looks-cut-off-or-is-not-full-screen) |
+| Printer settings, printer "Not Found", paper size missing, 2 strips per sheet | [Printer Problems](../troubleshooting/printer.md) |
+| "Print issue, photo saved", no print, stuck Windows queue, off-centre print | [Printer Problems](../troubleshooting/printer.md) |
+| Test charge "declined by the provider", no Payment screen, empty QR, "merchant not found" | [Payment Problems](../troubleshooting/payments.md) |
+| Coins or card reader not counted, voucher code refused | [Payment Problems](../troubleshooting/payments.md) |
+| Install warning, **Clock** warning, **Storage running low**, app freezes, no restart after a power cut | [App and Computer Problems](../troubleshooting/app-and-computer.md) |
 
-## Printer
+## Quick Checks
 
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| The printer is not in the **PRINTER DEVICE** list | Not installed at the operating system level | Add it under **Printers & Scanners** (macOS) or **Printers & scanners** (Windows), print a test page there, then reopen **Printer Settings** |
-| Guests never get a print, STATUS reads "Guest printing is disabled until a printer is selected." | No printer chosen on the booth | Pick the printer under **PRINTER DEVICE** |
-| Guests never get a print, printer is selected | **Print Output** is off for the booth | Turn it on under **Booths > booth > Settings > Output Settings** |
-| Guest saw "Print issue — photo saved. Staff: reprint from Admin Panel → Print History" | The printer refused the job 3 times (out of media, offline, paper jam) | Fix the printer, then **Admin Panel > PRINT HISTORY > Print** to reprint. The photo was still uploaded |
-| Print is off-centre or has a white edge | Alignment or orientation | Adjust **PRINT ALIGNMENT** (Scale, Horizontal Offset, Vertical Offset); use **Landscape** for a dye-sub printer such as DNP |
-| Job sits in the Windows print queue and never prints | Windows accepted the job, so the booth will not retry it | Clear the Windows queue, check the printer, reprint from Print History |
-| Wrong number of prints | Copies are counted in sheets | Set **COPIES PER SESSION** in sheets; a 2 inch cut prints two strips per sheet |
+These solve most cases. Do them in order.
 
-## Network and Uploads
+1. **Read the operator menu.** Double-tap the lock corner (top right unless moved in Pix Design) and read **Before you start**: Camera, Printer, Licence, Storage and Clock each say what is wrong.
+2. **Read the footer.** "Internet: Online/Offline", "Uploads: N waiting / up to date" and the version, "Pixture Photobooth v…".
+3. **Replug the camera** straight into a port on the computer, and close EOS Utility, Lightroom or any other camera program.
+4. **Restart the app completely**: operator menu, **Exit**, **Exit App**, then open Pixture Photobooth again.
+5. **Check the dashboard.** On **Booths**, is the booth Online, and what does its Plan say? On the booth's **Computer** tab, is the right computer linked?
+6. **Uploads waiting while online?** Switch the booth to a phone hotspot and tap **Admin Panel > Uploads > Upload now**.
+7. **Update the app** with **Check for Updates** in the menu footer.
+8. **Never reset, reinstall, unlink or switch off** a computer whose footer reads "Uploads: N waiting".
 
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| Guests see "No connection — your photos will appear at this link once the booth reconnects." | The venue internet is down or cannot reach Pixture | Photos are queued; fix the connection and the queue drains on its own. The link still works |
-| Menu footer reads "Uploads: N waiting" for a long time | Network failures retrying; they never give up | Check the venue line. Tap **Admin Panel > Uploads > Upload now** once it is back |
-| Booth is online, but photos never upload and the guest link stays on "Uploading Photo" | The venue network blocks Pixture's photo storage (common on office, government, school and hotel networks) | Switch the booth to a phone hotspot and tap **Upload now**. See [Booth online but photos never upload](#booth-online-but-photos-never-upload) |
-| Items show **Failed** in the Upload Queue | The server rejected the upload repeatedly | **Retry Failed** on a stable connection. If they fail again, contact support with the booth name and time |
-| Dashboard shows the booth Offline although it is running | No heartbeat for 12 minutes | The booth beats every 5 minutes; check its internet. A booth marked Offline has been out of touch for a while |
-| Booth is slow to load templates | Thumbnails are still downloading | Cards fill in progressively; give it a moment, or run a test session before opening so assets are cached |
+## Contact Support at Once
 
-### Booth online but photos never upload
+Do not troubleshoot these yourself; contact support straight away with the booth name and the time:
 
-The booth talks to Pixture through two addresses: the Pixture server (sign-in, sessions, templates) and Pixture's photo storage, where the photo files go. Some networks let the first through and block the second. The booth then looks fine: it shows Online on the dashboard and runs sessions, but no photo ever arrives, and guests scanning the QR code see **Uploading Photo** for hours.
-
-This happens most on office, government, school and hotel networks, whose firewalls block cloud storage sites. The photos are safe: they stay on the booth computer and keep retrying.
-
-1. Connect the booth computer to a phone hotspot or another internet connection.
-2. Open **Admin Panel > Uploads** and tap **Upload now**.
-3. The waiting photos upload within a minute or two, and the QR links guests already have start working. Nobody needs to retake a photo.
-
-If the photos upload on the hotspot, the venue network was the cause. For later events there, either run the booth on a hotspot or 4G router, or ask the venue's IT team to allow `*.r2.cloudflarestorage.com`. On a home or small shop router, changing the computer's DNS to 1.1.1.1 and 8.8.8.8 can also fix it, but on an office or government network the firewall usually blocks the site whatever the DNS, so the hotspot is the reliable fix.
-
-If the photos still don't upload on a hotspot, contact support with the booth name and the time of the session.
-
-## Payment
-
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| The QR tile stays empty but the timer runs | The QR image could not be loaded | The image is served through Pixture, so check the booth's internet first, then the gateway's status under **Settings > Payment Gateway** |
-| Guest's wallet says "merchant not found" (or "merchant tidak ditemukan") | The wallet on the guest's phone could not resolve the QR: poor mobile data, or a QR that expired after the payment timeout | Ask the guest to try again on a fresh QR, or use a voucher. This is not the booth's connection |
-| Payment screen never appears | **Payment on this booth** is off, or the computer is watermarked | Turn the switch on under **Booths > booth > Pricing**; put Pix Pro or an Event Pass on the computer |
-| Coins are not counted | Keyboard coin input is off or the key is wrong | **Menu > Hardware API > Enable keyboard coin input**, match **Coin key** to what the acceptor sends |
-| Cash system sessions show as free | F13 is not treated as paid | Turn on **Treat F13 as the cash system's paid signal** under **Menu > Hardware API** |
-| Nayax reader says "Cash only" | The reader's inhibit is active | Check the Nayax portal's inhibit setting and that the CASH-Interface2 software is active |
-| Voucher code refused | Wrong length or a spent code | Codes are 6, 7 or 8 characters; check remaining uses on the Vouchers page |
-
-## Pix Pro
-
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| Every photo carries the Pixture watermark | Pix Starter, or an Event Pass, trial or subscription that ended | Put Pix Pro or an Event Pass on the computer: **Use an Event Pass on this computer** in the menu, or **Devices** in the dashboard |
-| Booth shows "Device limit reached", guests see "Please call the operator." | All device places on a Pix Pro account are in use | **Devices > Deactivate** a computer you no longer use, or **Buy license** |
-| A popup says the Event Pass, trial or Pix Pro ended | Pix Pro ran out on this computer | Scan the **Manage devices** QR or open **Devices**; a running session finishes clean |
-| Badge reads "Pix Pro ended, reconnect to check" | Pix Pro expired while the booth was offline | Reconnect; the booth checks in and clears the watermark if the account has a place for it |
-| Cannot re-pair after Logout | On an old version Pix Pro was left on the computer | Update the app; Logout now returns Pix Pro or the trial to your account. A running Event Pass stays on the computer by design |
-
-## The Computer
-
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| A clock banner in the operator menu | The computer's clock is more than 2 minutes off | Set the clock to automatic in the operating system; payments and Pix Pro checks depend on it |
-| "Storage low" in the menu | Less than 3 GB free | Tap **Free Up Space**, or **Admin Panel > Clean Storage**; below 1 GB the booth cleans up on its own |
-| The app is unresponsive or closed on its own | A transient fault or the computer under load | Restart the app, close other programs, check disk space, update to the current version |
-| The app did not come back after a power cut | **Start on boot** is off | Turn it on in **Admin Panel** |
+- A guest's money was taken but no photo session ran, or a guest was charged twice.
+- Photos are missing after the computer was reset, reinstalled or unlinked.
+- Photos are missing from the Gallery although the footer read "Uploads: up to date".
 
 ## Where the Logs Are
 
 - **macOS**: `~/Library/Application Support/pix-desktopapp/logs`
 - **Windows**: `%APPDATA%\pix-desktopapp\logs`
 
-The camera's own log is on the Camera Settings page under **CAMERA LOG**. Support can also request a booth's logs from the dashboard, so you do not need to copy files off a booth that is online.
+The camera's own log is on the Camera Settings page: **Show Diagnostics**, then **CAMERA LOG** and **Copy Today's Logs**. Support can also request a booth's logs from the dashboard, so you do not need to copy files off a booth that is online.
 
 ## Getting Help
 
