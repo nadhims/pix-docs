@@ -11,7 +11,7 @@ The Payment screen is where the guest pays for the photo session before choosing
 
 ## When the Screen Shows
 
-- The screen shows when **Payment on this booth** is on under **Booths > booth > Pricing**. With the switch off, every session is free and the booth skips Payment. Do not price a session at 0 to make it free: 0 is not a price, and the booth refuses it.
+- The screen shows when **Payment on this booth** is on under **Booths > booth > Pricing**. With the switch off, every session is free and the booth skips Payment, unless the Voucher method is on for the Payment page of the booth's UI project: then the screen still shows at every start so guests can type a code. To skip it, untick **Enabled in session flow** on the Payment page in [Pix Design > UI Editor](../../dashboard/pix-design/ui-editor.md). Do not price a session at 0 to make it free: 0 is not a price, and the booth refuses it.
 - A Pix Starter (watermarked) computer always skips Payment.
 - Before skipping, the booth confirms the session really is free with a fresh price check of up to 1.5 seconds, so an old cached price never lets a paid booth run free.
 - While an event with **Pay Per Session** runs, the event's price and gateway replace the booth's.
