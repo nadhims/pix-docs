@@ -24,6 +24,8 @@ The switch under the Pricing heading decides whether guests pay at all.
 | On | "Guests pay the prices below at the kiosk." |
 | Off | Every photo session is free and the booth skips the Payment screen. Your prices are kept, so switching back on restores them |
 
+One exception: when the Voucher method is on for the Payment page of the booth's UI project, the booth still shows the Payment screen at every start so guests can type a code, even with payment off. For free sessions with no screen at all, also turn the Payment page off in [Pix Design > UI Editor](./pix-design/ui-editor.md). A booth running an [event](./events.md) follows the event's own payment setting instead of this switch.
+
 Free sessions are a switch, never a price of 0. The form refuses 0 and tells you to switch payment off instead. Booths on Pix Starter always run free, with the watermark.
 
 ## Price & Packages
