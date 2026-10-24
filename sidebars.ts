@@ -118,6 +118,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'desktop-app/studio-sessions',
+        'desktop-app/event-mode',
         'desktop-app/event-video-modes',
         'desktop-app/licence-on-the-booth',
         'desktop-app/offline-mode',

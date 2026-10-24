@@ -54,6 +54,8 @@ A computer paired to an [event](../dashboard/events.md) never runs watermarked: 
 
 Both buttons sit behind the menu PIN. Once the computer has its license, the booth goes to Home and the event page on the dashboard shows the computer as **Event Pass** with a countdown, or **Pix Pro**. A running Event Pass can be given 24 more hours from the dashboard with **Extend 24h** on the computer's row.
 
+A computer in Event mode, which runs your events from its own event list, starts its license with **Start Booth** in the operator menu instead. See [Event Mode](./event-mode.md).
+
 ## Pair With a Code
 
 The operator menu has **Pair with a code**. Enter the 6-digit code from the dashboard (an event's **Pair a computer**, or a booth's pairing code) to move this computer there **without logging out**, so its Pix Pro stays with it. The app reloads on the new booth or event.
@@ -73,7 +75,7 @@ The booth does not need the internet to keep Pix Pro. If Pix Pro expires while t
 **Logout** in the operator menu (a double-click, plus the PIN if one is set) unlinks the computer from its booth:
 
 - **Pix Pro** and the **free trial** return to your account, so the place is free for the next computer that pairs.
-- **A running Event Pass stays on the computer.** It cannot go back to your account or move, and it keeps running until its 24 hours are up. Do not log out a computer with a running Event Pass unless you mean to leave it there.
+- **A running Event Pass leaves the computer but keeps running.** It waits in your account with its end time unchanged, and the next [Event mode](./event-mode.md) computer continues it when you press **Start Booth** (instead of spending a new pass). A computer in Kiosk mode cannot pick it up. Its 24 hours keep counting while it waits.
 
 The same rule applies to **Unlink** on the booth's Device tab in the dashboard, and to a replacement computer pairing with a new code: Pix Pro follows to the new computer. See [Add or Move a Computer](../tutorials/add-or-move-a-computer.md).
 
@@ -87,3 +89,4 @@ Say "device" or "computer" when talking to support: Pix Pro belongs to the compu
 - [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
 - [Plans](../pricing/plans.md)
 - [Operator Menu](./admin-panel.md)
+- [Event Mode](./event-mode.md)
