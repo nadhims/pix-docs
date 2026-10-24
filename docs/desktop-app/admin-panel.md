@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Operator Menu
-description: How to open the booth's hidden operator menu, protect it with a PIN, read its status footer and notices, and use each of its pages including the Admin Panel.
+description: How to open the booth's hidden operator menu, protect it with a PIN, read its status bar and readiness checklist, and use each of its pages including the Admin Panel.
 tags: [desktop-app, admin, settings, operator]
 ---
 
@@ -20,35 +20,68 @@ On the Login screen, before pairing, five taps within two seconds on a hidden ar
 
 ## The Menu Page
 
-The buttons, top to bottom:
+The Menu page has a top bar, a card that tells you whether the booth is ready, a **Settings** column on the right and a footer.
+
+### Top bar
+
+Left to right after **Menu**:
+
+- **Internet: Online** or **Internet: Offline**.
+- **API:** the server's response time, for example "API: 120ms", or "API: Offline". The dot turns amber at 500 ms.
+- **Uploads:** "N waiting" while photos are still queued, or "up to date". See [Offline Mode](./offline-mode.md).
+- The plan badge: **Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**. Shortly before a license ends it reads **Event Pass ends at HH:mm**, **Trial ends at HH:mm** or **Pix Pro ends …**; the last one also shows when the card payment for Pix Pro did not go through. See [Pix Pro on the Booth](./licence-on-the-booth.md).
+- **Start Booth**, in the corner: back to the guest screens.
+
+The API and Uploads readings are hidden on an unpaired booth.
+
+### The ready card
+
+The card names the booth, with "Kiosk mode" under it, and is headed "Ready to start", or "Before you start" when something below needs you. Each thing to check is a row with a green, amber, red or grey mark:
+
+| Row | What it says |
+|---|---|
+| **Camera** | "… connected", or "Not connected" with a **Camera Settings** link |
+| **Printer** | The selected printer, or "Not selected, so sessions won't print." with **Choose printer**. Only when the booth prints |
+| **Session price** | "No price set, so sessions run free." |
+| **Payments** | "No payment gateway is connected, so paid sessions cannot charge." |
+| **Storage running low** / **Storage almost full** | "N GB free. Photos and printing can fail when the disk is full.", with **Free Up Space**. Shows below 3 GB free, and turns red below 1 GB |
+| **Clock** | "This computer's clock is … behind" (or ahead). "Fix the date and time in the system settings. Photos and payments are timed by it." Shows when the clock is more than 2 minutes off |
+| **Menu PIN** | "Your admin menu is not PIN-protected. Set a PIN in Dashboard > Booths > Settings to prevent unauthorized access." Can be dismissed |
+| **Layout** | "You're using the default Pix Starter layout. Customize your booth's appearance in Pix Studio." On Pix Pro, until dismissed |
+| **Unpaired** | "Pair to use your own frames, screens and sharing." |
+
+On an iPhone or iPad, the card also lists the steps to turn on Guided Access while it is off.
+
+Under the rows, two previews: **Start screen**, a small picture of what guests see first, and **Templates · N** with the first six templates.
+
+### Settings column
 
 | Button | What it opens |
 |---|---|
-| **Start Booth** | Back to the guest screens |
 | **Camera Settings** | Camera device, live view aids, camera exposure, zoom, rotation, hand sign detection. See [Camera Settings](./camera-setup/camera-settings.md) |
 | **Printer Settings** | Printer, media size, orientation, copies, alignment, test print. See [Printer Setup](./printer-setup.md) |
 | **Capture Settings** | Video and 360 slow-mo settings for a running event. See [Event Video Modes](./event-video-modes.md) |
 | **Hardware API** | Local API, CASH-Interface2 F13, keyboard coin input. See [Hardware Payments](./hardware-payments.md) |
 | **Admin Panel** | IDs, start on boot, upload queue, print history, preflight check. See below |
 | **Use an Event Pass on this computer** | Only when the computer is watermarked or blocked. See [Pix Pro on the Booth](./licence-on-the-booth.md) |
-| **Logout** | Unlinks the computer from the booth. Needs a double-click, plus the PIN if one is set. On an unpaired booth this reads **Pair to your Pixture account** instead |
-| **Exit App** | Closes the app |
-| **Check for Updates** / **Restart & Update** | See [Software Updates](./software-updates.md) |
+| **Pair with a code** | Moves this computer to another booth or event without logging out, so its Pix Pro moves with it. After the PIN, if one is set, type the 6-digit code on **Enter pairing code**. A wrong code shows "That code didn't work. Check it, or make a new one on the dashboard." The app then reloads on the new booth or event. On an unpaired booth this reads **Pair to your Pixture account** |
+| **Exit** | The Exit card, below |
 
-### Footer and badge
+On a phone or tablet the column is shorter: camera, printer once printing is available, **Send logs to Pixture**, the Event Pass button, pairing and **Exit** with **Logout** only.
 
-The footer shows the booth name, the account email, the plan badge (**Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**), a status line "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date", and the app version as "Pixture Photobooth v…". Support will ask for that version.
+### The Exit card
 
-### Notices
+**Exit** opens a card with:
 
-The Menu page surfaces anything that needs you:
+- **Exit App**: closes the app. Not on phones and tablets.
+- **Logout**: unlinks the computer from the booth. Double-tap it, then enter the PIN if one is set ("Double-tap Logout, then enter the PIN."). Not on an unpaired booth. What Logout does to Pix Pro and an Event Pass is on [Pix Pro on the Booth](./licence-on-the-booth.md#logout-and-pix-pro).
+- **Cancel**.
 
-- "Unpaired. Pair to use your own frames, screens and sharing." on a booth running without an account.
-- The missing-PIN notice above.
-- A notice that the booth is running the default layout rather than one of your UI projects.
-- **Storage low** with a **Free Up Space** button when free disk drops below 3 GB.
-- A clock banner when the computer's clock is more than 2 minutes off. Fix the clock; payments and Pix Pro checks depend on it.
-- A payment-failed banner when the card payment for Pix Pro did not go through.
+### Footer
+
+The footer shows the account email and the app version as "Pixture Photobooth v…". Support will ask for that version. Next to it is **Check for Updates**, which turns into "Checking for updates…", "Downloading v…", "v… ready to install" with **Restart & Update**, "You're up to date" or "Update check failed". See [Software Updates](./software-updates.md).
+
+On a computer in Event mode the menu also has **Back to events** and **Extend Event Pass 24h**, and **Start Booth** checks the license first. See [Event Mode](./event-mode.md).
 
 ## The Admin Panel
 
@@ -75,3 +108,4 @@ Two taps top-right, PIN, **Admin Panel**, **Print** is the fastest reprint. Teac
 - [Offline Mode](./offline-mode.md)
 - [Booth Management](../dashboard/booth-management.md)
 - [Software Updates](./software-updates.md)
+- [Event Mode](./event-mode.md)

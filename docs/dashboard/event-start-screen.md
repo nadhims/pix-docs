@@ -11,19 +11,19 @@ When the start screen is turned on for your account, new events get a **start sc
 
 ## Where to Set It Up
 
-Create the event first. When the start screen is on for your business, the create form asks which modes to offer and leaves the design for later. Then open the event page and click **Edit start screen** on the Start screen row.
+Create the event first. When the start screen is on for your business, the create form asks which modes to offer and leaves the design for later. Then open the event page and, on the **Appearance** tab under Booth mode, click **Edit appearance**. **Try it full screen** previews it.
 
 Existing events keep working as they are. Only newly created events get a start screen.
 
 ## Modes
 
-The modes are **Photo strip**, **Video**, **Slow-mo**, **Studio** and **Note booth**. Each one you turn on becomes a round button, and guests pick one every session. The event page shows the modes you picked as chips on the Start screen row, with a small preview.
+The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes** and **Roaming**, plus **AI** for accounts in the Pix AI beta. Each one you turn on becomes a round button, and guests pick one every session, except **Roaming**: a roaming computer skips the start screen (see [Roaming](./events.md#roaming)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
 
-**Photo strip**, **Studio** and **Note booth** need at least one template on the event.
+**Photo**, **Studio** and **Notes** need at least one template on the event.
 
 ### Pictures on the buttons
 
-Choose **Illustration**, **Black and white** or **Simple icon**, or click a mode's picture to use your own.
+Choose **Illustration**, **Mono** or **Icon**, or click a mode's picture to use your own.
 
 ## Look
 

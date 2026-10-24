@@ -7,7 +7,7 @@ tags: [dashboard, events, album, event-pass]
 
 # Events
 
-An **event** is a booking: a set of dates, a client and a venue, with its own booth mode, outputs, pricing, templates, screen design and a public album of everything captured. You **pair the computers** that run it, straight from the event page. The event runs itself. It is **ONGOING** from the moment you create it, it ends by itself the day after its last date, and its computers follow the dates plus one night of grace, so a party that runs past midnight still counts. There is no Start or End button.
+An **event** is a booking: a set of dates, a client and a venue, with its own booth mode, outputs, pricing, templates, screen design and a public album of everything captured. You **pair the computers** that run it, straight from the event page. The event runs itself. It is **ONGOING** from the moment you create it and shows **ENDED** the day after its last date. There is no Start or End button: an ended event can still be edited and paired until you archive it with **Archive event**.
 
 ![Events page with one ongoing event card](/img/docs/events-list.webp)
 
@@ -23,7 +23,7 @@ Each event is a card with its cover photo, name, client, venue, dates, status, a
 
 | Step | What you set |
 |---|---|
-| **Details** | **Event Name**, **Client**, **Booth mode**, **Output**, **Event date** (prefilled with today), **Start Time** and **End Time** (both optional) and **Venue** |
+| **Details** | **Event Name**, **Client**, **Booth mode** (**Modes** when the start screen is on), **Output**, **Event date** (prefilled with today), **Start Time** and **End Time** (both optional) and **Venue** |
 | **Templates** | The print templates guests can pick at this event |
 | **Screens** | The **Appearance**: the screen design the booth shows during the event. Click **Configure** to pick one; a Landscape / Portrait switch filters the list, which shows only designs made for the event's booth mode |
 | **Payment** | **Pay Per Session**: on, guests pay at the booth with the **Session price**, plus **Double session price**, **Group session price** and **Additional session price**, each behind its own switch and on only if you sell it; off, every session is free, for a hosted wedding or a sponsored booth. **Payment gateway**: leave it on the organization default unless the client needs another. Without a connected gateway, turning on Pay Per Session tells you to connect one first in **Settings > Payment Gateway** |
@@ -42,7 +42,23 @@ An event without a start screen (an older event, or any event when the start scr
 | Video | **Video** | Record a short clip with your overlay, for a video guest book. See [Event Video Modes](../desktop-app/event-video-modes.md) |
 | Video | **360 Slow-mo** | Marked **Soon** |
 
-When the start screen is turned on for your account, new events use the [event start screen](./event-start-screen.md) instead: guests pick the mode on the booth every session.
+When the start screen is turned on for your account, new events use the [event start screen](./event-start-screen.md) instead: guests pick the mode on the booth every session. The wizard's **Modes** offers **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes** and **Roaming** ("Each mode except Roaming becomes a button on the start screen. Guests pick one every session."); **AI** is added from the event page, for accounts in the Pix AI beta.
+
+### Roaming
+
+**Roaming** is for a photographer who walks around the venue: "A photographer walks around and shoots; each photo gets its own QR." A roaming computer skips the start screen and opens straight into shooting. Each photo is saved as its own session and shown with its own QR code, so guests scan it on the spot. With a DSLR the photographer shoots with the camera's own shutter; with a webcam the booth shows the live view and an on-screen shutter.
+
+Turn it on in the wizard's **Modes** or with **Edit modes** on the event page, then set it on the **Roaming** tab:
+
+| Setting | What it does |
+|---|---|
+| **QR time** | How long each photo shows with its QR before the next shot: **Skip**, or 5 to 30 seconds (8 by default) |
+| **Review** | A look at each shot with Retake before it is saved: **Off**, **3 s**, **5 s** (default), **10 s** or **Until I tap** |
+| **Auto print** | "Prints each photo as it is taken, one sheet" |
+| **Frame** | A GIF template laid over each photo, or **None** |
+| **Roaming computers** | Only when the event also has guest modes: the computers that go round with the photographer. The others show the start screen to guests. The tab shows a "!" until at least one is picked |
+
+When Roaming is the event's only mode, every computer roams. A roaming computer carries a **Roaming** badge in the Computers list. Roaming needs Pixture Photobooth 1.2.2 or newer.
 
 Changing the mode keeps the paired computers paired. Each booth picks the new mode up the next time it shows its Start screen. If the event's screen design does not fit the new mode, the event switches to one that does (a Studio design for Studio, the Default Layout for Photobooth and Video) and says so.
 
@@ -63,13 +79,13 @@ For Video the output is the video itself. Every computer paired to the event fol
 
 ![Event page: name, date, ONGOING chip, FREE FOR GUESTS badge, Link Sharing switch, overview cards, Album, Setup and Report tabs](/img/docs/event-detail.webp)
 
-The header shows the name, dates and times, the status chip (**ONGOING** from creation, **ENDED** after the last date), a **PAID SESSIONS** or **FREE FOR GUESTS** badge, "for" followed by the client's name, the venue and **Edit**.
+The header shows the name, dates and times, the status chip (**ONGOING** from creation, **ENDED** after the last date, **ARCHIVED** once archived), a **PAID SESSIONS** or **FREE FOR GUESTS** badge, "for" followed by the client's name, the venue and **Edit**.
 
 The overview cards count **Sessions**, **Prints**, **Revenue** (paid events only) and **Booths** (the event's computers), with an **Analytics** link to an activity chart; show the upload queue (**Uploaded**, **Uploading**, then "All photos uploaded"); and hold the **Link Sharing** switch with the album URL and **Copy**.
 
 Link Sharing is on by default. The public album lives at `pixture.io/album/<slug>`; share the link or the QR with the client and their guests. Switch it off to make the album private. The booth always shows the album's QR code on the share screen.
 
-The toolbar has **Download all** (every photo as one zip), **Embed** (an iframe snippet for the client's website), **Analytics** (sessions and prints by hour), **Slideshow** (a full-screen loop of the album, shown while sharing is on) and **Delete Event**.
+The toolbar has **Download all** (every photo as one zip), **Embed** (an iframe snippet for the client's website), **Analytics** (sessions and prints by hour), **Slideshow** (a full-screen loop of the album, shown while sharing is on), **Archive event** and **Delete Event**. **Archive event** is how you finish with an event: "Archived events leave every computer's list. Computers running it go back to their list."
 
 ![Embed modal for the public event album](/img/docs/event-embed-modal.webp)
 
@@ -77,7 +93,7 @@ The toolbar has **Download all** (every photo as one zip), **Embed** (an iframe 
 
 ### Album
 
-Everything captured during the event, newest first, with a filter by computer, **Select** and **Delete**.
+Everything captured during the event, newest first, with a filter by computer, **Select** and **Delete**. "Photos are kept for 60 days." After that a session's files are deleted: its tile shows **Expired** (it can still be selected and deleted), and it leaves the public album and the guest's page. See [Gallery](./gallery.md).
 
 ### Setup
 
@@ -91,10 +107,11 @@ Everything captured during the event, newest first, with a filter by computer, *
   |---|---|
   | **Pix Pro** | The computer runs on Pix Pro |
   | **Event Pass** with a countdown | An Event Pass is running; the countdown shows the hours left, and the info icon shows when it ends |
-  | **Needs license** | Paired, but it has no Event Pass or Pix Pro yet. The booth will not start sessions until it has one |
+  | **Needs Pix Pro or Event Pass** | Paired, but it has no Event Pass or Pix Pro yet. The booth will not start sessions until it has one |
+  | **On its event list** | The computer ran this event and is back on its event list, on no booth |
   | **Not paired** | A pairing code was made but no computer used it yet |
 
-  Each row has **Extend 24h** (for a running Event Pass; with no unused pass it opens the Event Pass checkout), **Use Pix Pro** (on a **Needs license** row, when a Pix Pro is free in your account) and **Unlink**. A **Not paired** row, named "Waiting for a computer", has **Show code**. Once a computer is paired, a line above the list says "This computer has an Event Pass or Pix Pro." (or "All N computers have an Event Pass or Pix Pro."), or "N computers need an Event Pass or Pix Pro." with **Buy license**. On a multi-day event it counts an Event Pass per computer for each day left, so a computer with a running pass can still be counted as short.
+  Each row has **Extend 24h** (for a running Event Pass; with no unused pass it opens the Event Pass checkout), **Use Pix Pro** (on a **Needs Pix Pro or Event Pass** row, when a Pix Pro is free in your account) and **Unlink** (except on an **On its event list** row). A **Not paired** row, named "Waiting for a computer", has **Show code**. Once a computer is paired, a line above the list says "This computer has an Event Pass or Pix Pro." (or "All N computers have an Event Pass or Pix Pro."), or "N computers need an Event Pass or Pix Pro." with **Add computer**. On a multi-day event it counts an Event Pass per computer for each day left, so a computer with a running pass can still be counted as short.
 
   Before any computer is paired the card reads "No computers paired yet": "Pair the computers you'll run at this event. Each one needs an Event Pass or Pix Pro."
 - **+ Pair a computer.** Opens the **Pair a computer** popup with a 6-digit code and the line "Open Pixture Photobooth on the booth computer and enter this Pairing Code.", with **Copy code**, **New code** and **Pair later**. If your free trial is unused and no Pix Pro or Event Pass is free for the computer, the popup first shows the **You have a 3-day free trial** card with **Start free trial**, **Get Pix Pro or an Event Pass** and **Later**; on your event day, an Event Pass or Pix Pro keeps the computer running. A line under the code names the license waiting for it, for example "You have 1 Event Pass ready." A code is only given when a license is available for the computer: an unused Event Pass, or a Pix Pro that is on no computer. Otherwise the popup says "Get a license first": "Each computer needs an Event Pass or Pix Pro. Buy one, then pair here.", with **Buy license** and **Later**. After you pay, the dashboard brings you back to the event and the popup shows "Finishing your payment" until the license lands, then the code.
@@ -102,8 +119,25 @@ Everything captured during the event, newest first, with a filter by computer, *
   ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 
   ![Pair a computer popup saying "Get a license first" with Buy license and Later](/img/docs/event-pair-needs-license.webp)
-- **Booth mode**, **Output** and **Appearance.** Each is a box showing the current choice, with **Change**. Appearance lists only screen designs made for the event's booth mode.
-- **Template**, **Countdown**, **Mirror** and **Overlay** (photo modes). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Countdown** is a slider from 1 to 10 seconds before each shot. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie. **Overlay** is **None** or one of your GIF/Video overlay designs.
+
+  A computer paired with an event's code goes into Event mode: it keeps a list of your events and runs whichever one you launch, until you archive it. See [Event Mode](../desktop-app/event-mode.md).
+- **Booth mode**, **Output** and **Appearance** (events without a start screen). Each is a box showing the current choice, with **Change**. Appearance lists only screen designs made for the event's booth mode.
+- **Booth mode** (events with a start screen). The event's modes are cards with their picture and name; hover one for its one-line description. Clicking a card opens its settings tab and brings the tab bar to the top: **Photo** and **Studio** open **Template**, **Video** opens **Video**, **360/Slow-mo** opens **360/Slow-mo**, and **Roaming**, **AI** and **Notes** open their own tabs. **Edit modes** opens the **Booth mode** popup ("The modes guests pick from on this event's start screen."), where you tick modes on or off, choose how Notes prints (**Print with the note**, **No print, QR only** or **Notes after Photo**) and **Save**. One mode always stays on. The tabs under the cards:
+
+  | Tab | What it holds |
+  |---|---|
+  | **Appearance** | The start screen, with **Edit appearance** and **Try it full screen**. See [Event Start Screen](./event-start-screen.md) |
+  | **Template**, **Mirror**, **GIF template** | Photo modes: the templates, mirroring and the GIF frame (below) |
+  | **Video**, **360/Slow-mo** | The video settings and each mode's Overlays list. See [Event Video Modes](../desktop-app/event-video-modes.md) |
+  | **Roaming** | See [Roaming](#roaming) |
+  | **AI** | The AI styles guests pick from (Pix AI beta) |
+  | **Notes** | The **Note template** guests write on |
+  | **Output** | The outputs, with **Change** when the event has a photo mode |
+  | **Slideshow** | How the album slideshow looks on a venue screen (while Link Sharing is on) |
+
+  A tab that needs something shows a "!": **Template** until a template is added, **GIF template** while GIF is an output and no frame is picked, **Output** when no output is on, **Roaming** until a computer is picked to roam, **AI** until a style is picked. The **Preview** card beside the tabs shows what the open tab sets.
+- **Template**, **Countdown**, **Mirror** and **GIF template** (photo modes; with a start screen, the countdown is set in **Edit appearance**). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Templates a pack adds from the event belong to that event: they are not in your library and are left out of template usage rankings. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Countdown** is a slider from 1 to 10 seconds before each shot. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie.
+- **GIF template.** The frame over every GIF guests get. With no GIF templates yet, the tab shows "No GIF templates yet" and **Add a GIF template**; otherwise it is a picker with **No frame**, your frames (a check marks the picked one) and an **Add GIF template** tile. **Add a GIF template** opens a popup ("For this event only"): choose a transparent PNG (1280×720 or 720×1280, up to 10 MB), whose shape sets the orientation and whose file name fills **Name**, then **Add**. The frame belongs to this event: Pix Design and your other events never list it, and it is picked for the event's GIF at once. A frame that belongs to the event has a trash button: "Delete this GIF template? This event goes back to No frame if it was picked." Deleting it also takes it out of the event's video Overlays lists and the Roaming frame. Frames from Pix Design are deleted in Pix Design.
 
 ### Report
 
@@ -113,7 +147,7 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 
 ## Editing and Deleting
 
-**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers are unlinked (an Event Pass or Pix Pro stays on them) and the photos stay in your Gallery; only the event and its album go away.
+**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab, which stays editable after the event ends, until you archive it. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers leave it (an Event Pass or Pix Pro stays on them; an Event mode computer goes back to its event list) and the photos stay in your Gallery; only the event and its album go away.
 
 ## Licenses, Pricing and Transactions
 
@@ -123,7 +157,7 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 - **Bringing a computer that already has Pix Pro**: unlink it from its booth on the dashboard first. That puts its Pix Pro back in your account, so the event shows a pairing code and the computer pairs in on its own Pix Pro.
 - While the event runs, its session price, packages and gateway replace the booth's own. Tax, fees and currency stay the booth's. The booth shows the Payment screen when the event charges and skips it when the event is free.
 - Photo sessions captured during the event carry an event chip on [Transactions](./transactions.md), so the client's takings are easy to pull out.
-- **After the event.** The night after its last date, the event's computers are unlinked and the booth app returns to its pairing screen. Their Event Pass or Pix Pro stays on them; pair each one to its next booth or event with a code.
+- **After the event.** The event shows **ENDED** the day after its last date, but the dates never stop an Event mode computer: it stays signed in and keeps running the event it launched, and you can still pair computers to it, until you click **Archive event**. When the event is archived or deleted, or the computer is unlinked from the event page, the computer goes back to its event list, still signed in. A computer paired to an event before Event mode (an older station) still follows the dates: the night after the last date it is unlinked and returns to its pairing screen. Each computer's Event Pass or Pix Pro stays on it.
 
 ## Related
 
