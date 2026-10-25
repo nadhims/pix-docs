@@ -44,7 +44,7 @@ By default the booth draws a fixed Review layout that matches the Capture page b
 
 1. Open the UI project in the Pix Design UI Editor and go to the **Review** tab.
 2. In the right rail, under **Review Settings**, turn on **Advanced mode**.
-3. The tab becomes a real canvas. Place a **Review Photo** block (with a **Camera Frame** ratio so the shot fits without cropping), a **Retake Button**, a **Next Button** and a **Photo Counter**. You can add text, images and click areas whose action is Next or Retake.
+3. The tab becomes a real canvas. Place a **Review Photo** block (with a **Camera Frame** ratio so the shot fits without cropping), a **Retake Button**, a **Next Button** and a **Photo Counter**. You can add text, images and click areas whose action is Next or Retake. A new button or click area on this page starts as **Next**: keep at least one element set to **Retake**, or guests cannot take a photo again.
 4. Give the page its own background if you want one; it inherits the Capture background until you change it.
 5. Click **Save Changes**.
 
