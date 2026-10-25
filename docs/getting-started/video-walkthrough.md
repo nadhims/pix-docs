@@ -34,7 +34,7 @@ Each link opens the video at that chapter, so you can watch only the part you ne
 | 07:15 | Capture, filters & sharing screens | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=435s |
 | 08:25 | Assign the UI to your booth | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=505s |
 | 08:35 | Create a print template | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=515s |
-| 09:50 | Connect a payment gateway (the video shows an older gateway; the dashboard now offers Midtrans, Xendit, DOKU and Stripe) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
+| 09:50 | Connect a payment gateway (the video shows an older gateway; the dashboard now offers Midtrans, Xendit, DOKU, Stripe, Razorpay and Kashier) | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=590s |
 | 10:30 | Photo session pricing & packages | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=630s |
 | 11:00 | Assign templates, filters & import data | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=660s |
 | 11:25 | Full demo: pay, shoot, print | https://www.youtube.com/watch?v=GFzLVmP7ny4&t=685s |

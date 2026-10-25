@@ -98,6 +98,23 @@ Start here when the problem is the app or the computer rather than the camera, p
 
 **Still stuck:** Send support the app version and the operating system.
 
+### The app opens by itself every time the computer starts
+
+**On screen:** Pixture Photobooth opens on its own after every restart, also on a computer you use for other work.
+
+**Also described as:** "setiap restart komputer langsung otomatis terbuka photoboothnya", "sudah dinonaktifkan di startup tapi tetap terbuka", "how do I stop the app from starting automatically".
+
+**Check first:** **Admin Panel > Start on boot**. It is on by default.
+
+**Fix:**
+1. Open the operator menu (two taps top-right, then the PIN if one is set) and tap **Admin Panel**.
+2. Turn **Start on boot** off.
+3. Restart the computer to check. The app no longer opens by itself.
+
+Turning it off only in the Windows Startup list (Task Manager > Startup apps) or in macOS Login Items does not last: the app re-applies the **Start on boot** setting every time it opens, and adds itself back.
+
+**Still stuck:** Send support the app version and the operating system.
+
 ### The computer sleeps during an event
 
 **On screen:** The screen goes dark, or the camera disconnects after the booth has been idle.
