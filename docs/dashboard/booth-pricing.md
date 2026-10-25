@@ -73,7 +73,7 @@ Any change shows the save bar: "Unsaved changes" with **Cancel** and **Save chan
 
 ## Currency
 
-Prices are in the booth's currency, set under **Settings > Currency** on the booth page: the organization default, or a different one for this booth. Reports keep each currency apart and never convert. Fixed-amount vouchers work only at booths in their own currency. A currency other than rupiah needs Stripe as the gateway.
+Prices are in the booth's currency, set under **Settings > Currency** on the booth page: the organization default, or a different one for this booth. Reports keep each currency apart and never convert. Fixed-amount vouchers work only at booths in their own currency. The gateway must charge that currency: rupiah works with every Indonesian gateway, INR needs Razorpay, EGP needs Kashier, PHP, THB and SGD work with Xendit, and any other currency needs Stripe.
 
 ## AI Portraits
 

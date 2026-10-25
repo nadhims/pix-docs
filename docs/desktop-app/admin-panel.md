@@ -88,7 +88,7 @@ On a computer in Event mode the menu also has **Back to events** and **Extend Ev
 The header reads **Admin Settings**. From the top:
 
 - **Info strip**: the booth, organisation and device IDs. Support may ask for the device ID; it is also on the booth's Device tab in the dashboard.
-- **Start on boot**: launches the app when the computer starts, so a booth recovers from a power cut on its own.
+- **Start on boot**: launches the app when the computer starts, so a booth recovers from a power cut on its own. It is on by default. Turn it off here to stop the app opening at startup: the app writes this choice into the Windows Startup list or macOS Login Items every time it opens, so removing it there alone does not last.
 - **UPLOAD QUEUE**: every upload waiting to reach Pixture. Filter with the pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying**. **Process Now** runs the queue immediately. **Clean Storage** removes local copies that have uploaded. **Retry Failed** and **Clear Failed** appear when anything has failed. A line underneath shows cache and disk use. See [Offline Mode](./offline-mode.md).
 - **PRINT HISTORY**: recent sessions, each with a **Print** button to reprint. Use it after "Print issue — photo saved." or when a guest asks for another copy.
 - **Preflight Check**: runs the booth's own checks (camera, printer, connection) and reports what is not ready. Run it before opening.

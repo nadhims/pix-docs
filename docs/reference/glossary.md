@@ -151,7 +151,7 @@ A 6-digit code generated on a booth's **Device** tab in the dashboard and typed 
 
 ### Payment gateway
 
-Your own merchant account (Midtrans, Xendit, DOKU or Stripe) connected under **Settings > Payment Gateway** so guests can pay by QR at the booth. Pixture takes no share of these payments.
+Your own merchant account (Midtrans, Xendit, DOKU, Stripe, Razorpay or Kashier) connected under **Settings > Payment Gateway** so guests can pay by QR at the booth. Pixture takes no share of these payments.
 
 ### Photo session
 

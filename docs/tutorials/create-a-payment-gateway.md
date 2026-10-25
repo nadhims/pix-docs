@@ -22,10 +22,13 @@ In this tutorial you will open a merchant account with a gateway, collect the ke
 | You are in | Use | Guests pay with |
 |---|---|---|
 | Indonesia | **DOKU** | QRIS from any wallet or banking app |
+| India | **Razorpay** | UPI QR from any UPI app (Google Pay, PhonePe, Paytm, BHIM) |
+| Egypt | **Kashier** | Card, mobile wallet or InstaPay on Kashier's payment page, opened from a QR |
+| Philippines, Thailand, Singapore | **Xendit** | QR Ph, PromptPay or PayNow QR, from any local banking or wallet app |
 | Malaysia | **Stripe** | A card on their phone through a QR code, or a tap on a Stripe Terminal reader. For DuitNow QR, add a Transpire QR terminal at the booth, see [Setup B4](./connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr) |
 | Anywhere else | **Stripe** | A card on their phone through a QR code, or a tap on a Stripe Terminal reader at the booth |
 
-Midtrans and Xendit are also on the provider list for merchants who already have an account there; both are QRIS in Indonesia only. Midtrans, Xendit and DOKU charge in rupiah only, so a booth priced in any other currency needs Stripe.
+Midtrans and Xendit are also on the provider list for Indonesian merchants who already have an account there. Midtrans and DOKU charge in rupiah only; Xendit charges IDR, PHP, THB and SGD, Razorpay INR and Kashier EGP. A booth priced in any other currency needs Stripe. Setup fields for each provider are in the [Payment Gateway Reference](../guides/payment-gateway-setup.md#connecting-a-gateway).
 
 ## Step 2: Open the Merchant Account
 
