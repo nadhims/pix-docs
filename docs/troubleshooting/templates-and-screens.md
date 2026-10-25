@@ -102,6 +102,37 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 
 **Still stuck:** Send support the booth name and the name of its UI project.
 
+### The countdown did not change
+
+**On screen:** The booth still counts down from 3 (or the old number) after the countdown was changed.
+
+**Also described as:** "sudah diubah countdown ke 5, tapi masih mulai dari 3 detik", "countdown setting not working".
+
+**Check first:** Which mode is the booth in? The booth's **Capture Settings** page (Photo, Video and 360/Slow-mo cards, "No ongoing event — this booth shoots photos") and the event's **Video** and **360/Slow-mo** tabs apply only in **Event mode**. In **Kiosk mode** the countdown comes from the booth's UI project.
+
+**Fix:**
+1. **Kiosk mode:** open **Pix Design > UI Editor**, open the UI project the booth uses, go to the **Capture** page and set the **countdown** in its page settings. **Session Time** and the **Camera trigger** are set there too.
+2. Save the UI project, then start a new session on the booth to check.
+3. **Event mode:** set the countdown on the event (**Events**, the event, **Setup**, the mode's tab). See [Event Video Modes](../desktop-app/event-video-modes.md).
+
+**Still stuck:** Send support the booth name and the name of its UI project.
+
+### Guests cannot retake
+
+**On screen:** The Review screen after each shot has no way to take the photo again, or every tap moves on to the next shot, although session time is left.
+
+**Also described as:** "tidak bisa retake padahal waktu masih ada", "foto ulang tidak bisa", "retake button missing".
+
+**Check first:** The booth's UI project in **Pix Design > UI Editor > Review** tab. With **Advanced mode** on, the booth shows only what the design has: a guest can retake only if a **Retake Button** or a click area with the action **Retake** is on the page.
+
+**Fix:**
+1. On the **Review** tab, select each button and click area and check its action. A new button or click area on this page starts as **Next**, so a design built from click areas easily ends up with Next everywhere.
+2. Set one of them to **Retake**, or add a **Retake Button**. Or turn **Advanced mode** off: the fixed Review layout always has Retake.
+3. Check **Review Settings**: Retake shows only while the hide-Retake switch is off.
+4. Save the UI project and start a new session to check. Retake still disappears on its own when the **Session Time** runs out.
+
+**Still stuck:** Send support the booth name and the name of its UI project.
+
 ### The booth screen looks cut off or is not full screen
 
 **On screen:** No error. The design looks different on the booth than in the editor, has bands at the edges, or the app sits in a window.
