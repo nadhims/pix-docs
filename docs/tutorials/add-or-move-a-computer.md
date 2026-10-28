@@ -25,19 +25,19 @@ A spare place attaches itself. The next computer that connects takes it, so you 
 
 1. Click **Computers** in the sidebar and check the **Computers** card.
 
-![Devices page of a Pix Pro account with the Devices, Subscription, Next renewal and Event Passes cards and the Active devices table](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-devices.webp)
+![Computers page of a Pix Pro account with the Computers, Pix Pro and Event Passes cards, the Add computer button and the computers table](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-devices.webp)
 
 2. Click **Add computer**. If places are still free, a popup says how many computers are available; click **Buy more**. Then pick **Pix Pro**. The **Get Pix Pro** checkout reads "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
 
-![Pix Pro checkout with the How many devices stepper, See volume pricing and the Pix Pro plan cards](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices.webp)
+![Get Pix Pro checkout with the Monthly and Yearly cards, the How many computers? stepper and the Order summary](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices.webp)
 
 3. Set **How many computers?** with the stepper.
 
-![Pix Pro checkout with the quantity stepper set to 3 devices](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices-quantity.webp)
+![Get Pix Pro checkout with How many computers? set to 3 and the volume discount in the Order summary](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-add-devices-quantity.webp)
 
 4. Open **Volume pricing** to see how the price per computer changes with quantity; several computers bought together cost less each. The table ends with "After this purchase your plan covers N computers (X now + Y new)."
 
-![Volume pricing table with Pix Pro Monthly and Yearly prices per quantity](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-volume-pricing.webp)
+![Volume pricing open in the Get Pix Pro checkout: price per computer for 1, 2 to 4, and 5 or more, and the line After this purchase your plan covers 4 computers](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-volume-pricing.webp)
 
 5. Pick **Monthly** ($39.99 per computer per month, cancel anytime) or **Yearly** ($299.99 per computer per year, about $25 per month, marked **Best value**), check the **Order summary** and click **Pay**. If you already pay by card, a **Confirm this charge** step shows the amount and **Add and pay**.
 
@@ -58,7 +58,7 @@ You are retiring a booth PC and want its Pix Pro on the replacement. Nothing is 
 1. On **Computers**, find the old computer in the table, open its **Manage** menu and click **Deactivate**.
 2. In **Deactivate this computer**, read the note: a place on your subscription frees up. Click **Deactivate**, or **Keep Pix Pro** to back out.
 
-![Deactivate this computer modal with Keep Pix Pro and Deactivate](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-deactivate-modal.webp)
+![Deactivate this computer popup with Keep Pix Pro and Deactivate](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-deactivate-modal.webp)
 
 3. Pair the new computer (Step 2). If it is already paired and Blocked, just leave the Pixture Photobooth app running: the next computer that checks in takes the place.
 
@@ -74,7 +74,7 @@ An Event Pass is 24 hours of Pix Pro on one computer, starting from the moment y
 
 1. On **Computers**, click **Buy Event Passes** on the **Event Passes** card (or **Add computer** and pick **Event Pass**), choose how many and pay. The card shows how many are unused.
 
-![Buy Event Passes flow opened from the Event Passes card](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-buy-passes.webp)
+![Buy Event Pass checkout: Event Pass $5 one-time, How many computers? and Pay](/img/docs/steps/tutorials-add-or-move-a-computer--licenses-buy-passes.webp)
 
 2. On the day, at the booth: on an event, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?". Otherwise open the operator menu (tap the top-right corner twice within 3 seconds and enter the PIN if one is set) and tap **Use an Event Pass on this computer**. The button appears only while the computer has no Pix Pro. The booth must be online at that moment.
 3. The operator menu badge now reads **Event Pass until** a time. The booth warns on its idle screen 60 and 15 minutes before the Event Pass ends; when it ends, a popup says "Your Event Pass has ended" and guests see "Please call the operator."
@@ -89,7 +89,7 @@ Rules that only apply to Event Passes:
 
 Pix Starter has no subscription. The **Computers** card reads "No computers yet", one computer is paired, and every photo, print and GIF carries the Pixture watermark. A second computer is refused at the pairing code. To run more computers, start the 3-day free trial (one computer) or click **Add computer**.
 
-![Devices page of a Pix Starter account with No devices yet, Subscription, Event Passes and Buy license](/img/docs/licenses-starter.webp)
+![Computers page of a Pix Starter account: No computers yet, Pix Pro None, Event Passes 0 unused, and the Add computer button](/img/docs/licenses-starter.webp)
 
 ## Before Pix Pro Ends
 

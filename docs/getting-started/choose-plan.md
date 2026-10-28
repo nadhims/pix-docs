@@ -52,13 +52,13 @@ Buying is done on the **Computers** page. A computer that is paired and waiting 
 
 1. Open **Computers** in the sidebar. On a Pix Starter account the **Computers** card says "No computers yet", and the **Event Passes** card shows 0 unused with a **Buy Event Passes** button.
 
-   ![The Devices page of a Pix Starter account with the Devices, Subscription, Next renewal and Event Passes cards and a Buy license button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
+   ![Computers page of a Pix Starter account: No computers yet, Pix Pro None, Event Passes 0 unused, and the Add computer button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
 
 2. Click **Add computer**, then pick **Pix Pro** (or **Event Pass** for a single event). The **Get Pix Pro** checkout explains: "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
 3. Pick **Monthly** or **Yearly** and set **How many computers?** with the stepper. Open **Volume pricing** to see the price per computer at each quantity.
 4. Check the **Order summary** and **Total today**, then click **Pay**.
 
-   ![The Pix Pro checkout with the How many devices stepper, See volume pricing, and the Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 cards](/img/docs/steps/getting-started-choose-plan--licenses-add-devices.webp)
+   ![The Get Pix Pro checkout with Monthly and Yearly, the How many computers? stepper, Volume pricing, and the Order summary with Pay](/img/docs/steps/getting-started-choose-plan--licenses-add-devices.webp)
 
 5. Complete the checkout. Internationally you pay by card, Apple Pay or PayPal through Lemon Squeezy, and the subscription renews until you cancel. In Indonesia you pay through DOKU with QRIS, virtual account or e-wallet, and the purchase is prepaid with no auto-renewal. The Indonesian checkout also takes a **Promo code**, once per account.
 

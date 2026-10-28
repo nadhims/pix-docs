@@ -47,7 +47,7 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
 
 ## Editor Anatomy
 
-![UI Editor on the Start Screen with page tabs, the canvas, Page Background, Session Trigger checkboxes, Home Page Settings and Layers](/img/docs/pix-design-ui-editor-start.webp)
+![UI Editor on the Start Screen of a Photo and Notes project: page tabs, the canvas with the Mode buttons, Page Background, Modes with Edit modes, Session Trigger checkboxes and Home Page Settings](/img/docs/pix-design-ui-editor-start.webp)
 
 - **Header.** The project name and where it is used ("Unused" or "N booths").
 - **Page tabs.** Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter, Sharing. Studio projects add Assign photos and Notes projects add Notes. Adjust is there for Photo and Notes projects; Simple projects have no Custom Screen, Templates or Adjust.
@@ -165,7 +165,7 @@ Three places:
 1. **Assign to booths** on the project's card menu: tick booths or **All booths**, then **Apply**.
 2. **Booths > booth > UI Project** tab: the dropdown groups projects under **Several modes** (each with its modes after the name), **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**. Pick one and click **Save**. The tab warns when the booth's app is too old: Studio needs 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer."
 
-   ![Booth UI Project tab with the grouped project dropdown and Save](/img/docs/booth-ui-project-tab.webp)
+   ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and Save](/img/docs/booth-ui-project-tab.webp)
 
 3. **Events > event > Setup > Appearance > Change**: pin a UI project to the event. The list shows only projects made for the event's booth mode. While the event runs, its choice wins.
 

@@ -24,7 +24,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
 2. Fill in **Event Name** and **Client**. Under **Modes**, tick the modes guests can pick on the booth: **Photo** (on by default), **Video**, **360/Slow-mo**, **Studio**, **Notes** or **Roaming**. Under **Output**, untick anything guests should not get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
 
-   ![Create Event wizard, Details step with Booth mode and Output](/img/docs/event-create-wizard.webp)
+   ![Create Event wizard, Details step with Event Name, Client and the Modes tiles](/img/docs/event-create-wizard.webp)
 
 3. **Templates**: click **Configure** and tick the templates guests can choose from, or skip this and add them on the Setup tab later. **Next**.
 4. **Screens**: "You set up the start screen on the event page, after you create the event." **Next**.
@@ -41,13 +41,13 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
 ## Step 3: Pair the Computers
 
-1. Open the **Setup** tab. The progress bar at the top shows what is left; click a step to jump to it.
+1. Open the **Setup** tab. Until every step is done, a progress bar at the top shows what is left; click a step to jump to it.
 
-   ![Event Setup tab with setup progress, the Computers card, Booth mode, Output and Appearance](/img/docs/event-setup-computers.webp)
+   ![Event Setup tab with the Computers card, Booth mode with its mode cards and Edit modes, and the Appearance tab with Edit appearance](/img/docs/event-setup-computers.webp)
 
 2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **New code**, when an Event Pass or a spare Pix Pro is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get Pix Pro or an Event Pass first": click **Add computer**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
 
-   ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
+   ![Pair a computer popup with a 6-digit code, "You have 1 Event Pass ready.", Copy code, New code and Pair later](/img/docs/event-pair-popup.webp)
 
 3. At the venue, open the Pixture Photobooth app. On a fresh computer, enter the code on the login screen. On a computer that is already set up, open the operator menu and tap **Pair with a code**; it does not log you out. Repeat for every computer at the event.
 4. Each paired computer appears in the **Computers** card. **Needs Pix Pro or Event Pass** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.

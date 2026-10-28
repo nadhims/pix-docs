@@ -63,7 +63,7 @@ Stripe shows a secret key only once. If yours is gone, click **Create secret key
 1. Open **Settings > Payment Gateway** and click **Add Payment Gateway**.
 2. Under **Choose your payment provider**, pick the provider and click **Continue**.
 
-![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-providers.webp)
+![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe, Razorpay (India), Kashier (Egypt)](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-providers.webp)
 
 3. Paste the values from Step 3. Each field has a **How to find this?** expander with the same path as the table above.
    - **DOKU:** Secret Key, Brand ID, QRIS Client ID and the Merchant Private Key (click **Generate for me**, then copy the public key it shows into the DOKU Dashboard before you continue). Turn **Sandbox Mode** on while you use sandbox keys, and off with the live keys.

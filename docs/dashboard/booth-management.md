@@ -64,7 +64,7 @@ The header shows the status pill (**Online** when the computer has checked in wi
 
 The screen design this booth runs, grouped by **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**. Pick one and click **Save**; the tab then shows "Booth mode" with the project's modes. Studio mode needs Pixture Photobooth 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer." Until the booth updates, every session runs the project's first mode. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
 
-![Booth UI Project tab: the grouped project dropdown and Save](/img/docs/booth-ui-project-tab.webp)
+![Booth UI Project tab: the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and Save](/img/docs/booth-ui-project-tab.webp)
 
 ### Pricing
 

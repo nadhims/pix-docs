@@ -52,7 +52,7 @@ Each mode sets the flow its sessions follow:
 2. Under **SESSION TRIGGER**, tick how a session starts: **Touch Screen** (tap anywhere), **Start Button** (adds a button block you can style), **F13** (for a cash system or a remote button) and **Space, S, Page Up, Page Down Keys**.
 3. Under **Home Page Settings**, keep **Enabled in session flow** on and set the **Idle Timeout**, the number of seconds before the booth returns to the start.
 
-![UI Editor on the Start Screen with the page tabs, the canvas with a Start button, Page Background, Session Trigger checkboxes, Home Page Settings and Layers](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-start.webp)
+![UI Editor on the Start Screen with the page tabs, the canvas with a Start button, Page Background, Modes, Session Trigger checkboxes and Home Page Settings](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-start.webp)
 
 **CAPTURE SETTINGS > Show live view** puts the camera feed on the Start Screen, so passers-by see themselves. Every page has **Enabled in session flow**; when it is off, the booth skips that screen.
 
@@ -95,7 +95,7 @@ The success screen also shows when a voucher covers the whole price; free sessio
 1. Click **Preview** to walk through the screens as a guest would, then **Save**.
 2. Assign the design: on **UI Projects**, open the card's menu and choose **Assign to booths**; or open the booth's **UI Project** tab, pick the project from the dropdown and click **Save**.
 
-![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
+![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
 
 The card menu also offers **Duplicate** (start a variant for another client), **Rename**, **Add frame template to this project** and **Delete**.
 

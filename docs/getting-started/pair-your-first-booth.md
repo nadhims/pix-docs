@@ -42,7 +42,7 @@ By the end of this page the booth PC is linked to a booth in your dashboard, has
 4. On the booth PC, type the 6 digits on the app's pairing screen.
 5. The booth downloads its templates, screen design and pricing and shows the start screen. Click **Done** on the popup. Back in the dashboard, the booth's status turns **Online** and the **Computer** tab shows the computer's name, its fingerprint and when it was last seen.
 
-   ![The booth Device tab with a paired computer showing its name, fingerprint, last seen time, and the Rename device, Unlink and Remove actions](/img/docs/steps/getting-started-pair-your-first-booth--booth-device-tab-paired.webp)
+   ![The booth Computer tab with a paired computer showing its name, fingerprint, registered and last seen times, and the Rename computer and Unlink buttons](/img/docs/steps/getting-started-pair-your-first-booth--booth-device-tab-paired.webp)
 
 ## What Happens Next
 
