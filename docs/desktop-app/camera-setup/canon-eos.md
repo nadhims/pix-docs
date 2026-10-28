@@ -40,7 +40,7 @@ Portrait booths often mount the camera on its side. Since version 1.1.107 a vert
 ## Tips for a Full Day
 
 - **Power the camera from the mains** with a Canon AC adapter or a dummy battery. A battery will not last a day of live view.
-- **Turn off auto power-off** on the camera body so it stays awake between guests.
+- **Turn off auto power-off** on the camera body so it stays awake between customers.
 - **Set image quality to JPEG Large** on the body. The app captures at the quality the camera is set to.
 - **Keep the USB run short.** Use a powered USB hub if the cable is longer than about 2 metres; long cables are the most common cause of intermittent disconnects.
 - **Lock focus to manual** once the framing is set, so the lens does not hunt between shots.

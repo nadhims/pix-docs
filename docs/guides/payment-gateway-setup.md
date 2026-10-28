@@ -7,7 +7,7 @@ tags: [guides, payment, gateway, doku, stripe, qris, razorpay, kashier, upi, ins
 
 # Payment Gateway Reference
 
-A payment gateway lets guests pay for a photo session by scanning a QR code on the booth. The money goes to your own gateway account; Pixture takes no share of it. This page is the reference for the gateway settings. For the step-by-step walk-through from opening the merchant account to the test charge, follow [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md); for prices and the first paid session, [Accept Payments](../tutorials/accept-payments.md).
+A payment gateway lets customers pay for a photo session by scanning a QR code on the booth. The money goes to your own gateway account; Pixture takes no share of it. This page is the reference for the gateway settings. For the step-by-step walk-through from opening the merchant account to the test charge, follow [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md); for prices and the first paid session, [Accept Payments](../tutorials/accept-payments.md).
 
 ## Before you start
 
@@ -17,7 +17,7 @@ A payment gateway lets guests pay for a photo session by scanning a QR code on t
 
 ## Providers
 
-| Provider | Where it works | What guests use |
+| Provider | Where it works | What customers use |
 |---|---|---|
 | **Midtrans** | Indonesia | QRIS |
 | **Xendit** | Indonesia, Philippines, Thailand, Singapore | QRIS (IDR), QR Ph (PHP), PromptPay (THB), PayNow QR (SGD) |
@@ -26,7 +26,7 @@ A payment gateway lets guests pay for a photo session by scanning a QR code on t
 | **Kashier** | Egypt | A QR that opens Kashier's payment page: card (incl. Meeza), mobile wallet (Vodafone Cash and others) or InstaPay |
 | **Stripe** | Worldwide | QR code payment on their phone, or a Stripe Terminal card reader |
 
-QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI QR through Razorpay, in Egypt a Kashier QR, and in the Philippines, Thailand and Singapore the local QR through Xendit. Everywhere else, Stripe shows a QR code that opens a card payment on the guest's phone. Malaysia's DuitNow QR is not available through a gateway yet; see [Setup B4](../tutorials/connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr) for a DuitNow QR terminal.
+QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI QR through Razorpay, in Egypt a Kashier QR, and in the Philippines, Thailand and Singapore the local QR through Xendit. Everywhere else, Stripe shows a QR code that opens a card payment on the customer's phone. Malaysia's DuitNow QR is not available through a gateway yet; see [Setup B4](../tutorials/connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr) for a DuitNow QR terminal.
 
 ## Connecting a gateway
 
@@ -48,7 +48,7 @@ The gateway card now shows **Edit** and **Test**.
 ## Sandbox and live
 
 - **Midtrans and DOKU:** **Sandbox Mode** is real. On, the booth talks to the provider's sandbox and test apps pay; off, real money moves.
-- **Stripe:** there is no sandbox switch. The key decides: an `sk_test_` key charges Stripe's test mode and those payments **never pay out**, even though they look successful in the dashboard. Paste the live key before opening to guests.
+- **Stripe:** there is no sandbox switch. The key decides: an `sk_test_` key charges Stripe's test mode and those payments **never pay out**, even though they look successful in the dashboard. Paste the live key before opening to customers.
 
 ## The test charge
 
@@ -83,8 +83,8 @@ The booth's currency picks the QR, so a Xendit booth priced in PHP shows QR Ph. 
 
 Both are set up from the same Stripe gateway.
 
-- **QR payment:** no hardware. The booth shows a Stripe QR code on its Payment screen; the guest scans it and pays on their phone.
-- **Stripe Terminal:** a card reader at the booth, so guests tap or insert a card. Readers are assigned per booth in Settings. Recommended reader: **UX700**.
+- **QR payment:** no hardware. The booth shows a Stripe QR code on its Payment screen; the customer scans it and pays on their phone.
+- **Stripe Terminal:** a card reader at the booth, so customers tap or insert a card. Readers are assigned per booth in Settings. Recommended reader: **UX700**.
 
 ## Cash, coins and other card terminals
 
@@ -96,7 +96,7 @@ Coin acceptors, bill validators and keystroke card readers do not go through a g
 |---|---|---|
 | The booth skips the Payment screen | Payment is off on the booth, or the computer is watermarked | Switch on **Payment on this booth** on the Pricing tab; check the plan badge in the operator menu |
 | Payment unavailable on the booth | No gateway connected, or wrong keys | Re-check **Settings > Payment Gateway**, then run **Test** |
-| QR shown but the payment never confirms | Sandbox and the guest's app do not match, or the webhook is missing | Match **Sandbox Mode** to the app the guest paid with; paste the webhook URL into the provider's dashboard |
+| QR shown but the payment never confirms | Sandbox and the customer's app do not match, or the webhook is missing | Match **Sandbox Mode** to the app the customer paid with; paste the webhook URL into the provider's dashboard |
 | Stripe payments succeed but no money arrives | An `sk_test_` key | **Edit** the gateway and paste the live key |
 | Payment confirmed but no session recorded | The booth was offline at that moment | Wait a few minutes, then check **Transactions**; **Sync with payment gateway** pulls missing payments for a date range |
 | Amount differs from the package price | Tax or fees applied | See **Tax & fees** on the booth's Pricing tab |

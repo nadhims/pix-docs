@@ -7,13 +7,13 @@ tags: [dashboard, pix-design, filters, overlays, gif]
 
 # Photo Filters and Overlays
 
-Two pages in Pix Design change the look of the photos themselves rather than the layout around them. **Photo Filters** holds the colour grades a guest can pick on the Filter screen. **GIF/Video overlay** holds transparent frames drawn on animated GIFs and event videos. By the end of this page you will have a custom filter on a booth and an overlay ready for its GIFs.
+Two pages in Pix Design change the look of the photos themselves rather than the layout around them. **Photo Filters** holds the colour grades a customer can pick on the Filter screen. **GIF/Video overlay** holds transparent frames drawn on animated GIFs and event videos. By the end of this page you will have a custom filter on a booth and an overlay ready for its GIFs.
 
 ## Photo Filters
 
 ![Photo Filters page with the built-in filters and Upload Filter](/img/docs/pix-design-filters.webp)
 
-Pixture ships 14 built-in filters. You can add up to 50 of your own as .cube LUT files, the colour-grading format most photo and video tools export. A filter is applied to everything the guest takes home: the print, the animated GIF and the live photo all get the same grade.
+Pixture ships 14 built-in filters. You can add up to 50 of your own as .cube LUT files, the colour-grading format most photo and video tools export. A filter is applied to everything the customer takes home: the print, the animated GIF and the live photo all get the same grade.
 
 ### Upload a filter
 
@@ -42,9 +42,9 @@ By default a booth offers every filter, built-in and custom. To narrow it:
 3. Tick the filters this booth should show. **Select all** ticks everything; **Assigned** / **Not Assigned** and **All Types** / **Custom** narrow the list.
 4. Click **Save Filter Assignments**.
 
-### What the guest sees
+### What the customer sees {#what-the-guest-sees}
 
-The Filter screen comes after capture. The **Filter Strip** block lists the booth's filters as cards, in the grid you shaped in the UI Editor, and the **Filter Preview** block shows the guest's photo with the chosen filter applied. The screen can be turned off with **Enabled in session flow**, in which case photos go out unfiltered. See [UI Editor](./ui-editor.md#filter) and [Filters on the booth](../../desktop-app/session-flow/filters.md).
+The Filter screen comes after capture. The **Filter Strip** block lists the booth's filters as cards, in the grid you shaped in the UI Editor, and the **Filter Preview** block shows the customer's photo with the chosen filter applied. The screen can be turned off with **Enabled in session flow**, in which case photos go out unfiltered. See [UI Editor](./ui-editor.md#filter) and [Filters on the booth](../../desktop-app/session-flow/filters.md).
 
 :::tip
 A brand look usually needs one or two filters, not fourteen. Assign a short set per booth so the Filter screen stays quick to use.

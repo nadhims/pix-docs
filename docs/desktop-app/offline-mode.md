@@ -11,7 +11,7 @@ Venue internet is the least reliable part of a booth, so the Pixture Photobooth 
 
 ## During a Session
 
-Nothing stops. Capture, review, filters and printing run entirely on the booth, and the booth's screen design, templates and branding are cached on the computer, so the booth runs with its last synced setup. Every photo is saved locally first and placed in the upload queue. On the Sharing screen the QR code still appears; if nothing has uploaded after 15 seconds the guest reads "No connection — your photos will appear at this link once the booth reconnects." The link works as soon as the booth catches up.
+Nothing stops. Capture, review, filters and printing run entirely on the booth, and the booth's screen design, templates and branding are cached on the computer, so the booth runs with its last synced setup. Every photo is saved locally first and placed in the upload queue. On the Sharing screen the QR code still appears; if nothing has uploaded after 15 seconds the customer reads "No connection — your photos will appear at this link once the booth reconnects." The link works as soon as the booth catches up.
 
 ## The Upload Queue
 
@@ -42,7 +42,7 @@ The booth cleans up on its own when free disk space drops below 1 GB, and warns 
 ## Payments Offline
 
 - **Vouchers** keep working. Offline voucher codes (6, 7 or 8 characters) are checked on the booth itself, so a code from the online shop or a central cashier redeems without internet.
-- **QR payments** need the gateway, so they need internet. A guest cannot pay by QRIS or Stripe QR while the line is down.
+- **QR payments** need the gateway, so they need internet. A customer cannot pay by QRIS or Stripe QR while the line is down.
 - **Coin and card readers** attached to the computer talk to the booth locally and keep working; the session is recorded as paid and uploaded when the line returns.
 
 ## Pix Pro Offline

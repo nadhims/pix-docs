@@ -31,7 +31,7 @@ The Pixture Photobooth app is the booth application. It runs on macOS and Window
 | USB | USB 2.0 port for the camera | USB 3.0 for faster tethering |
 
 :::tip
-For booth use, a touchscreen is strongly recommended. The Pixture Photobooth app is designed as a booth where guests interact directly with the screen.
+For booth use, a touchscreen is strongly recommended. The Pixture Photobooth app is designed as a booth where customers interact directly with the screen.
 :::
 
 Apple Silicon Macs run the app natively from version 1.1.115, which bundles its own video tools for live photos, filters and GIFs. Rosetta is not needed.

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 8
 title: Vouchers
-description: Single vouchers and batches of up to 1000 codes, free, fixed-amount or percentage, plus the online shop link and how guests redeem codes at the booth.
+description: Single vouchers and batches of up to 1000 codes, free, fixed-amount or percentage, plus the online shop link and how customers redeem codes at the booth.
 tags: [dashboard, vouchers, promotions]
 ---
 
 # Vouchers
 
-A voucher is a code a guest types into the voucher box on the booth's Payment screen. It can make the photo session free, take a fixed amount off, or take a percentage off. Make them one at a time for a partner or an influencer, or in a batch of up to 1000 for a corporate order or a flyer campaign.
+A voucher is a code a customer types into the voucher box on the booth's Payment screen. It can make the photo session free, take a fixed amount off, or take a percentage off. Make them one at a time for a partner or an influencer, or in a batch of up to 1000 for a corporate order or a flyer campaign.
 
 ![Vouchers page with existing vouchers: Vouchers and Batches tabs, Refill and Delete on each row](/img/docs/vouchers-list.webp)
 
@@ -27,7 +27,7 @@ Two tabs, **Vouchers** and **Batches**, each with its count. The buttons at the 
 
 | Field | What it is |
 |---|---|
-| **Voucher Code** | The code the guest types |
+| **Voucher Code** | The code the customer types |
 | **Discount Type** | **Free Session**, **Fixed Amount** or **Percentage** |
 | **Discount Value** | The amount or percentage. Not shown for Free Session |
 | **Value** | Optional. What you sold the voucher for. It is counted as revenue when the code is redeemed, so leave it empty for free promo codes |
@@ -60,13 +60,13 @@ Each voucher or batch row has two actions.
 
 ## The Online Shop Link
 
-**Online shop link** copies the link to your online shop, where guests pick a package, pay, and receive a code the booth accepts. Each booth's own link, with a QR to print, is at the top of its [Pricing](./booth-pricing.md) tab.
+**Online shop link** copies the link to your online shop, where customers pick a package, pay, and receive a code the booth accepts. Each booth's own link, with a QR to print, is at the top of its [Pricing](./booth-pricing.md) tab.
 
 ![Online shop link popup on the Vouchers page](/img/docs/vouchers-online-shop-link.webp)
 
-## How Guests Redeem
+## How Customers Redeem {#how-guests-redeem}
 
-On the booth's Payment screen the guest opens the voucher box and types the code on the on-screen keyboard. Codes are not case sensitive. The length tells the booth what it is looking at:
+On the booth's Payment screen the customer opens the voucher box and types the code on the on-screen keyboard. Codes are not case sensitive. The length tells the booth what it is looking at:
 
 | Length | Comes from |
 |---|---|
@@ -81,7 +81,7 @@ A code bought online or from a Multi-Booth cashier carries its package inside th
 Every redemption appears in [Transactions](./transactions.md) with the voucher code, and the **Vouchers** card on the [Dashboard](./dashboard-home.md) counts redemptions for the selected period. Marketing Studio > Performance keeps a running total.
 
 :::tip A voucher is the cheapest test session
-Before a launch, make a Free Session voucher with one redemption and run the whole flow at the booth. You see the Payment screen, the print and the sharing page exactly as a guest would.
+Before a launch, make a Free Session voucher with one redemption and run the whole flow at the booth. You see the Payment screen, the print and the sharing page exactly as a customer would.
 :::
 
 ## Related

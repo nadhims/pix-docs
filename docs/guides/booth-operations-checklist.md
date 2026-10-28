@@ -36,7 +36,7 @@ Venue Wi-Fi is the most common failure on launch day. Bring a phone hotspot as a
 | Problem | What to do |
 |---|---|
 | Camera disconnects | Unplug and reconnect the USB cable. The booth reconnects on its own. If capture waits on "Camera is warming up" for more than 30 seconds, the session ends and returns to the start screen by itself. |
-| A print did not come out | The booth retries a print 3 times, 5 seconds apart. If it still fails, the guest sees a print issue notice and the photo is saved. Reprint from the operator menu: **Admin Panel > PRINT HISTORY > Print**. |
+| A print did not come out | The booth retries a print 3 times, 5 seconds apart. If it still fails, the customer sees a print issue notice and the photo is saved. Reprint from the operator menu: **Admin Panel > PRINT HISTORY > Print**. |
 | Uploads waiting for a long time | Check the internet. Network failures retry on their own and never give up. Items marked **Failed** in **Admin Panel > UPLOAD QUEUE** can be sent again with **Retry Failed**. |
 | Storage low notice in the operator menu | The booth warns below 3 GB free and cleans up below 1 GB. Tap **Free Up Space**, or use **Admin Panel > Clean Storage**. |
 
@@ -55,7 +55,7 @@ Never power off while the footer still says **Uploads: N waiting**. Those photos
 
 1. In the operator menu, tap **Check for Updates** so the booth is on the current version. The version is shown in the footer and on the dashboard's **Health** page.
 2. Open **Gallery** in the dashboard and look through the week's photos for focus, exposure and alignment problems.
-3. If you charge guests, open **Transactions** and use **Export Excel** to keep a copy of the week.
+3. If you charge customers, open **Transactions** and use **Export Excel** to keep a copy of the week.
 4. Store spare paper and ribbon dry and flat.
 
 ## Related

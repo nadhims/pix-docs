@@ -79,10 +79,10 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 **Check first:** **Camera Settings > MIRROR LIVE VIEW**. It is the same switch as **Pix Design > UI Editor > Capture > Live View > Mirror live view**, and it is on by default.
 
 **Fix:**
-1. With **Mirror live view** on, guests see themselves like a mirror and the saved photo is mirrored the same way, like a selfie. Turn it off for photos that read the right way round, as the camera sees them.
+1. With **Mirror live view** on, customers see themselves like a mirror and the saved photo is mirrored the same way, like a selfie. Turn it off for photos that read the right way round, as the camera sees them.
 2. Change it on Camera Settings or in Pix Design. It is a UI project setting, so every booth on that UI project follows.
 3. On an event, the event's **Mirror** setting ("Mirror captured photos") decides instead. See [Events](../dashboard/events.md).
-4. Only one photo flipped? The guest tapped **Mirror** on the Review screen for that photo. See [Review and Adjust](../desktop-app/session-flow/review-and-adjust.md).
+4. Only one photo flipped? The customer tapped **Mirror** on the Review screen for that photo. See [Review and Adjust](../desktop-app/session-flow/review-and-adjust.md).
 
 **Still stuck:** Send support the booth name and a sample print.
 
@@ -117,13 +117,13 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 
 **Still stuck:** Send support the booth name and the name of its UI project.
 
-### Guests cannot retake
+### Customers cannot retake {#guests-cannot-retake}
 
 **On screen:** The Review screen after each shot has no way to take the photo again, or every tap moves on to the next shot, although session time is left.
 
 **Also described as:** "tidak bisa retake padahal waktu masih ada", "foto ulang tidak bisa", "retake button missing".
 
-**Check first:** The booth's UI project in **Pix Design > UI Editor > Review** tab. With **Advanced mode** on, the booth shows only what the design has: a guest can retake only if a **Retake Button** or a click area with the action **Retake** is on the page.
+**Check first:** The booth's UI project in **Pix Design > UI Editor > Review** tab. With **Advanced mode** on, the booth shows only what the design has: a customer can retake only if a **Retake Button** or a click area with the action **Retake** is on the page.
 
 **Fix:**
 1. On the **Review** tab, select each button and click area and check its action. A new button or click area on this page starts as **Next**, so a design built from click areas easily ends up with Next everywhere.

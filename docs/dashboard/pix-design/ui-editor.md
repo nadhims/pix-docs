@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, ui-editor, booth]
 
 # UI Editor
 
-The **UI Editor** is where you design what guests see on the booth. A design is a **UI project**: every screen of the photo session, the blocks on each screen (buttons, text, live view, template cards, QR code) and the page settings that drive the booth, such as what starts a session and how long it lasts. Each booth runs one UI project, and events can pin their own. By the end of this page you will know the editor's layout, what each page does on the booth, and how to save and assign a project.
+The **UI Editor** is where you design what customers see on the booth. A design is a **UI project**: every screen of the photo session, the blocks on each screen (buttons, text, live view, template cards, QR code) and the page settings that drive the booth, such as what starts a session and how long it lasts. Each booth runs one UI project, and events can pin their own. By the end of this page you will know the editor's layout, what each page does on the booth, and how to save and assign a project.
 
 ## The UI Projects List
 
@@ -39,9 +39,9 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
    | **Notes** | "Guests write or draw on their photos." | Start > Pay > Template > Shoot > Filter > Draw > Share |
    | **Simple** | "No layout. Guests pick black and white or colour." | Start > Pay > B&W or colour > Shoot > Share |
 
-   The modal reads "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." Photo is the classic booth: one photo per template slot. Studio lets the guest take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Notes lets the guest draw on the print. Simple is a colour choice and a shot.
+   The modal reads "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." Photo is the classic booth: one photo per template slot. Studio lets the customer take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Notes lets the customer draw on the print. Simple is a colour choice and a shot.
 
-   With two or more modes ticked, the Start Screen gets a **Mode buttons** block: one button per mode, and the guest's tap picks the mode and starts the session. A choice of modes needs Pixture Photobooth 1.2.4 or newer.
+   With two or more modes ticked, the Start Screen gets a **Mode buttons** block: one button per mode, and the customer's tap picks the mode and starts the session. A choice of modes needs Pixture Photobooth 1.2.4 or newer.
 
 5. Click **Create Project**. It opens in the editor.
 
@@ -63,7 +63,7 @@ Pages have an **Enabled in session flow** checkbox in their settings: "When off,
 
 ### Start Screen
 
-The idle screen guests walk up to. Its settings:
+The idle screen customers walk up to. Its settings:
 
 - **Show live view** under Capture Settings puts the camera feed on the idle screen.
 - **Session Trigger** checkboxes decide what starts a session: **Touch Screen**, **F13** (a coin or card system's paid signal), **Space, S, Page Up, Page Down Keys** (a clicker or foot switch) and **Start Button** (the on-screen button block).
@@ -80,10 +80,10 @@ An optional tutorial or intro screen between Start and Payment. Turn on **Enable
 
 ![UI Editor on the Payment Screen](/img/docs/pix-design-ui-editor-payment.webp)
 
-Where guests pay before choosing a template. Prices come from the booth's [Pricing](../booth-pricing.md) tab; the editor decides how the screen looks and behaves.
+Where customers pay before choosing a template. Prices come from the booth's [Pricing](../booth-pricing.md) tab; the editor decides how the screen looks and behaves.
 
 - The main page shows the packages and the payment methods. Each method has its own sub-screen: **voucher**, **coins**, **card** and **success**. Turn a method on and its sub-screen tab appears; a click area wired to a method counts as turning it on.
-- Payment blocks: **Payment method** (one tile per method: **QR / QRIS payment**, **Voucher code**, **Card**, **Cash** or **Staff access**; a method the booth can't take is hidden there and the tiles close up), **Payment QR** (the QR code the guest scans; its popup takes your colours, fonts and buttons), **Voucher Input** (a ready-made card with an editable title, subtitle and button), **Voucher Field** (only the code box, for your own artwork; Enter or your own button redeems) and **Payment Status**.
+- Payment blocks: **Payment method** (one tile per method: **QR / QRIS payment**, **Voucher code**, **Card**, **Cash** or **Staff access**; a method the booth can't take is hidden there and the tiles close up), **Payment QR** (the QR code the customer scans; its popup takes your colours, fonts and buttons), **Voucher Input** (a ready-made card with an editable title, subtitle and button), **Voucher Field** (only the code box, for your own artwork; Enter or your own button redeems) and **Payment Status**.
 - **Timeout**: after 120 s idle on Payment the booth returns to Start (0 = never); on the voucher, coin or card step it returns to the methods after 60 s; the success screen dwells 3 s (0 = wait for a tap), and tapping any empty area continues.
 - Every paid route ends on the success screen, including a voucher that covers the whole price. A free session skips Payment entirely.
 
@@ -93,7 +93,7 @@ On a Pix Starter computer the Payment screen is forced off. Turning **Payment on
 
 ![UI Editor on the Templates screen](/img/docs/pix-design-ui-editor-templates.webp)
 
-The template picker. The **Template Cards** block is a grid you shape with a card scale, rows and columns, a scroll direction, and an optional scrollbar with its own width, padding and colours; dragging a corner of the block scales the cards. Category buttons above the grid come from your templates' categories (see [Folders and Categories](./folders-and-collections.md)), and each card shows the thumbnail rendered by the template editor. An **Arrow** block is a round button that picks the previous or next layout; set its **Direction** to **Previous** or **Next**. A page timer can send an undecided guest back to Start.
+The template picker. The **Template Cards** block is a grid you shape with a card scale, rows and columns, a scroll direction, and an optional scrollbar with its own width, padding and colours; dragging a corner of the block scales the cards. Category buttons above the grid come from your templates' categories (see [Folders and Categories](./folders-and-collections.md)), and each card shows the thumbnail rendered by the template editor. An **Arrow** block is a round button that picks the previous or next layout; set its **Direction** to **Previous** or **Next**. A page timer can send an undecided customer back to Start.
 
 ### Capture
 
@@ -102,7 +102,7 @@ The template picker. The **Template Cards** block is a grid you shape with a car
 The shooting screen, and the page whose settings change the booth's behaviour most.
 
 - **Live View** shows the camera. Pick a **Camera Frame** ratio (16:9, 9:16, 4:3, 3:4, 3:2, 2:3 or 1:1) and the booth fits the whole camera frame inside the block without cropping. Its text overlay can run to several lines, each with its own font, size, weight and colour.
-- **Camera trigger**: **Tap** (the guest taps the screen), **Shutter button** (an on-screen button), **Camera shutter** (the photographer presses the camera's own shutter) or **Auto** (Photobooth projects only; every slot shoots on the countdown). With Tap or Shutter button the guest triggers the first photo and the booth runs the remaining slots by itself.
+- **Camera trigger**: **Tap** (the customer taps the screen), **Shutter button** (an on-screen button), **Camera shutter** (the photographer presses the camera's own shutter) or **Auto** (Photobooth projects only; every slot shoots on the countdown). With Tap or Shutter button the customer triggers the first photo and the booth runs the remaining slots by itself.
 - The **countdown** before each shot.
 - **Session Time**: the length of the session from the first capture, and what happens when it runs out. It runs whether or not you place a **Session Timer** block; the block only displays it. A **Photo Counter** block shows "n of N".
 - **Preview Cards**: one square card per template slot, numbered while empty, filled as shots land, the current slot ringed; the row scrolls on templates with many slots.
@@ -111,27 +111,27 @@ A remote plugged into the booth follows the Start Screen's session triggers: Spa
 
 ### Review
 
-After each shot the guest checks the photo with **Retake** and **Next**; with nothing tapped the booth advances by itself. Switches let you hide the Retake button and the photo counter, and Retake disappears once the session time is up.
+After each shot the customer checks the photo with **Retake** and **Next**; with nothing tapped the booth advances by itself. Switches let you hide the Retake button and the photo counter, and Retake disappears once the session time is up.
 
 **Review Settings > Advanced mode** turns the fixed layout into a full canvas of your own: a **Review Photo** block, Retake and Next buttons or click areas, a counter, images and text, on a background of its own.
 
 ### Adjust
 
-"Adjust your photos": after the last shot of a Photo or Notes session, the guest sees the strip with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them, and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer after 60 seconds. Studio sessions skip it (they arrange photos on Assign photos).
+"Adjust your photos": after the last shot of a Photo or Notes session, the customer sees the strip with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them, and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer after 60 seconds. Studio sessions skip it (they arrange photos on Assign photos).
 
 The page is on by default in new projects. A project that booths already run keeps it off until you turn on **Enabled in session flow** on the Adjust tab and save, so their sessions don't change without you. The booth shows this screen from Pixture Photobooth 1.2.6.
 
 ### Assign photos (Studio only)
 
-The screen where a Studio guest places pool shots into the template: a **Template Slots** block and a **Photo Pool** block that shares the Filter Strip's grid options. Highlight options set the ring on the selected slot, the outline on the selected photo, how used photos dim, and the slot-number badges. The guest taps a slot, then a photo; **Take more** returns to Capture with the pool kept. A Studio session ends on its session length, its photo limit (up to 40 shots) or **Done**, which appears once every slot can be filled.
+The screen where a Studio customer places pool shots into the template: a **Template Slots** block and a **Photo Pool** block that shares the Filter Strip's grid options. Highlight options set the ring on the selected slot, the outline on the selected photo, how used photos dim, and the slot-number badges. The customer taps a slot, then a photo; **Take more** returns to Capture with the pool kept. A Studio session ends on its session length, its photo limit (up to 40 shots) or **Done**, which appears once every slot can be filled.
 
 ### Filter
 
-The **Filter Strip** block lists the booth's filters with the same grid options as Template Cards, plus a **card ratio** from 16:9 to 1:1 (square by default). The **Filter Preview** block shows the guest's photo with the chosen filter and has its own Camera Frame ratio. Which filters appear is set on the booth's Filters tab; see [Photo Filters and Overlays](./filters-and-overlays.md).
+The **Filter Strip** block lists the booth's filters with the same grid options as Template Cards, plus a **card ratio** from 16:9 to 1:1 (square by default). The **Filter Preview** block shows the customer's photo with the chosen filter and has its own Camera Frame ratio. Which filters appear is set on the booth's Filters tab; see [Photo Filters and Overlays](./filters-and-overlays.md).
 
 ### Notes (Notes only)
 
-Where the guest writes or draws on their photos. The **Note Canvas** block is the drawing area (it shows the template's note area) and the **Note Palette** block holds the pens: the **Colors**, the **Min size** and **Max size** of the pen, a **Show colour disc** switch and a **Stabilizer** that smooths guests' lines. The page has a timer and no other settings. Where the drawing lands on the print is set in the template editor with **Note area**; see [Template Editor](./creating-templates.md).
+Where the customer writes or draws on their photos. The **Note Canvas** block is the drawing area (it shows the template's note area) and the **Note Palette** block holds the pens: the **Colors**, the **Min size** and **Max size** of the pen, a **Show colour disc** switch and a **Stabilizer** that smooths customers' lines. The page has a timer and no other settings. Where the drawing lands on the print is set in the template editor with **Note area**; see [Template Editor](./creating-templates.md).
 
 ### Sharing
 
@@ -140,9 +140,9 @@ Where the guest writes or draws on their photos. The **Note Canvas** block is th
 The last screen: QR code, print, and back to Start.
 
 - The composite preview has a **Showcase loop** switch. On, it loops through the session's outputs; off, it shows the composite and then the live photo once ready.
-- The **QR Code** block links to the guest's share page. See [Microsite (Share Page)](./microsite.md).
+- The **QR Code** block links to the customer's share page. See [Microsite (Share Page)](./microsite.md).
 - The **Share buttons (QR, AirDrop, Print)** block puts round buttons on the screen: **Scan QR** (opens a big QR code, or tick **Show the QR code** to show it right on the screen), **AirDrop or Share** (AirDrop on a Mac booth, the share sheet on a phone or tablet, left out on Windows) and **Print**, which reads **Extra print** when the page prints by itself. **Free extra prints** sets how many extra prints are free per session.
-- **Finish** ends the session; the page timer returns to Start if the guest walks away.
+- **Finish** ends the session; the page timer returns to Start if the customer walks away.
 - Extra prints are sold here when **Extra print price (sharing screen)** is on in Booth Pricing; the print mockup follows the booth's print format.
 - The GIF and live photo previews show the real files once encoded.
 

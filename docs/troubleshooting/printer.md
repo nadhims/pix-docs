@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Printer Problems
-description: "Fixes for printer problems on the booth: finding the printer settings, a printer missing from the list or \"Not Found\", a paper size missing from MEDIA SIZE, two strips per sheet, guests getting no print, \"Print issue, photo saved\", a job stuck in the Windows queue, off-centre prints, the wrong number of prints and a dye-sub printer that stops."
+description: "Fixes for printer problems on the booth: finding the printer settings, a printer missing from the list or \"Not Found\", a paper size missing from MEDIA SIZE, two strips per sheet, customers getting no print, \"Print issue, photo saved\", a job stuck in the Windows queue, off-centre prints, the wrong number of prints and a dye-sub printer that stops."
 tags: [troubleshooting, printer, printing]
 ---
 
@@ -55,7 +55,7 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **Still stuck:** See [Booth Pricing](../dashboard/booth-pricing.md).
 
-### Guests never get a print
+### Customers never get a print {#guests-never-get-a-print}
 
 **On screen:** No error. Sessions finish, but nothing comes out.
 
@@ -70,7 +70,7 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **Still stuck:** Send support the booth name and the printer model.
 
-### The guest saw "Print issue, photo saved"
+### The customer saw "Print issue, photo saved" {#the-guest-saw-print-issue-photo-saved}
 
 **On screen:** "Print issue, photo saved. Staff: reprint from Admin Panel → Print History".
 
@@ -121,7 +121,7 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **Also described as:** "print kebanyakan", "print cuma satu".
 
-**Check first:** **Printer Settings > COPIES PER SESSION**, and the prints included in the guest's package on the booth's **Pricing** tab.
+**Check first:** **Printer Settings > COPIES PER SESSION**, and the prints included in the customer's package on the booth's **Pricing** tab.
 
 **Fix:**
 1. Copies are counted in sheets. A 2 inch cut prints two strips on each sheet.
@@ -131,7 +131,7 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 ### A dye-sub printer stops in the middle of the day
 
-**On screen:** The printer shows an error light, and guests see "Print issue, photo saved".
+**On screen:** The printer shows an error light, and customers see "Print issue, photo saved".
 
 **Also described as:** "printer berhenti", "ribbon habis".
 

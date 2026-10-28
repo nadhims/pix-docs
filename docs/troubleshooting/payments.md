@@ -1,13 +1,13 @@
 ---
 sidebar_position: 6
 title: Payment Problems
-description: "Fixes for payment problems at the booth: a voucher or payment screen at a free booth, a live test charge \"declined by the provider\", the Payment screen never appearing, an empty QR tile, \"merchant not found\" on the guest's phone, a guest charged with no photo or charged twice, coins or card readers not counted, and a refused voucher code."
+description: "Fixes for payment problems at the booth: a voucher or payment screen at a free booth, a live test charge \"declined by the provider\", the Payment screen never appearing, an empty QR tile, \"merchant not found\" on the customer's phone, a customer charged with no photo or charged twice, coins or card readers not counted, and a refused voucher code."
 tags: [troubleshooting, payments, vouchers]
 ---
 
 # Payment Problems
 
-Start here when guests cannot pay, pay but the booth does not react, or the booth asks for payment when it should not. Problems are ordered by how often operators report them. Gateway setup is on [Payment Gateway Reference](../guides/payment-gateway-setup.md).
+Start here when customers cannot pay, pay but the booth does not react, or the booth asks for payment when it should not. Problems are ordered by how often operators report them. Gateway setup is on [Payment Gateway Reference](../guides/payment-gateway-setup.md).
 
 ### A voucher or payment screen shows at a free booth
 
@@ -67,23 +67,23 @@ Start here when guests cannot pay, pay but the booth does not react, or the boot
 
 **Still stuck:** Send support the booth name and the time.
 
-### The guest's wallet says "merchant not found"
+### The customer's wallet says "merchant not found" {#the-guests-wallet-says-merchant-not-found}
 
-**On screen:** On the guest's phone: "merchant not found" (or "merchant tidak ditemukan").
+**On screen:** On the customer's phone: "merchant not found" (or "merchant tidak ditemukan").
 
 **Also described as:** "merchant tidak ditemukan", "QRIS tidak bisa discan".
 
-**Check first:** This is the guest's phone, not the booth's connection.
+**Check first:** This is the customer's phone, not the booth's connection.
 
 **Fix:**
 1. The wallet could not resolve the QR: poor mobile data, or a QR that expired after the payment timeout.
-2. Ask the guest to try again on a fresh QR, or use a voucher.
+2. Ask the customer to try again on a fresh QR, or use a voucher.
 
-**Still stuck:** If every guest gets it, send support the gateway name and the time.
+**Still stuck:** If every customer gets it, send support the gateway name and the time.
 
-### A guest paid but got no photo, or was charged twice
+### A customer paid but got no photo, or was charged twice {#a-guest-paid-but-got-no-photo-or-was-charged-twice}
 
-**On screen:** Anything. The guest shows a payment on their phone.
+**On screen:** Anything. The customer shows a payment on their phone.
 
 **Also described as:** "sudah bayar tapi tidak bisa foto", "saldo terpotong dua kali", "charged twice".
 
@@ -97,7 +97,7 @@ Start here when guests cannot pay, pay but the booth does not react, or the boot
 
 ### Coins or the card reader are not counted
 
-**On screen:** The coin or card popup does not move on after the guest pays. A Nayax reader shows "Cash only".
+**On screen:** The coin or card popup does not move on after the customer pays. A Nayax reader shows "Cash only".
 
 **Also described as:** "koin tidak terbaca", "card reader not working".
 

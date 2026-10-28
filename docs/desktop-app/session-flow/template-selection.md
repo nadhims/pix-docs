@@ -1,22 +1,22 @@
 ---
 sidebar_position: 4
 title: Template Selection
-description: How guests choose a print design on the booth, where the templates come from, and how events, template packs and plan limits change the set.
+description: How customers choose a print design on the booth, where the templates come from, and how events, template packs and plan limits change the set.
 tags: [desktop-app, photo-session, templates]
 ---
 
 # Template Selection
 
-After Home, the optional Tutorial and Payment, the guest picks the design their photos will go into. This page explains what the guest sees, where the booth gets its templates, and what changes the set: your booth assignments, plan limits, and a running event.
+After Home, the optional Tutorial and Payment, the customer picks the design their photos will go into. This page explains what the customer sees, where the booth gets its templates, and what changes the set: your booth assignments, plan limits, and a running event.
 
-## What the Guest Sees
+## What the Customer Sees {#what-the-guest-sees}
 
-The screen shows a **Template Cards** block with one card per assigned template. Each card is the thumbnail rendered by the Pix Design template editor, so it looks exactly like the finished print. The first template is preselected so the large preview is never empty; the guest taps a card to choose it and taps Next (or the card, depending on your design) to move on to Capture.
+The screen shows a **Template Cards** block with one card per assigned template. Each card is the thumbnail rendered by the Pix Design template editor, so it looks exactly like the finished print. The first template is preselected so the large preview is never empty; the customer taps a card to choose it and taps Next (or the card, depending on your design) to move on to Capture.
 
 Two details make the screen feel quick on a booth with many designs:
 
 - A **category rail** runs alongside the cards. Templates with a category get their own button; the rail scrolls when there are more categories than fit. Uncategorised templates show under All.
-- Cards **load progressively** and fade in as their thumbnails arrive, so the guest can start choosing while the rest are still coming.
+- Cards **load progressively** and fade in as their thumbnails arrive, so the customer can start choosing while the rest are still coming.
 
 The card layout, spacing, corner radius, selection ring and shadow are all set on the Template Cards block in the UI Editor's **Templates** tab.
 

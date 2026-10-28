@@ -73,7 +73,7 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 
 ### "Device limit reached"
 
-**On screen:** On the booth, "Device limit reached". Guests see "Please call the operator." The menu badge reads "Blocked, all N devices active".
+**On screen:** On the booth, "Device limit reached". Customers see "Please call the operator." The menu badge reads "Blocked, all N devices active".
 
 **Also described as:** "what does device limit mean", "booth blocked", "tidak bisa mulai sesi".
 

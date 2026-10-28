@@ -53,14 +53,14 @@ Repeat on every booth that should print to the same printer. The **STATUS** sect
 
 ## What to expect
 
-- **Jobs print in arrival order.** If two booths finish sessions at the same time, the second guest waits one print cycle (roughly 10 to 20 seconds on a dye-sub).
+- **Jobs print in arrival order.** If two booths finish sessions at the same time, the second customer waits one print cycle (roughly 10 to 20 seconds on a dye-sub).
 - **Each booth only knows about its own job.** The booth shows "printing" while the job is sent; it cannot see how many jobs from other booths are queued ahead.
 - **Paper size and cut mode** (for example a 2-inch cut on 4x6 media) are driver settings on the host. Set them there once; every booth inherits them.
 - **Media counts and printer status** shown in the booth and on the Health page come from the booth's own driver, so they may be blank or approximate for a shared printer. Watch the physical printer.
 
 ## Keep the host reliable
 
-The booth retries a failed print up to 3 times, 5 seconds apart. It does not retry a job that the host's queue accepted and then left stuck. When that happens the guest sees a print issue notice, the photo is saved, and staff can reprint it from the operator menu under **Admin Panel > PRINT HISTORY**. To avoid silent misses on a busy day:
+The booth retries a failed print up to 3 times, 5 seconds apart. It does not retry a job that the host's queue accepted and then left stuck. When that happens the customer sees a print issue notice, the photo is saved, and staff can reprint it from the operator menu under **Admin Panel > PRINT HISTORY**. To avoid silent misses on a busy day:
 
 - Use **wired Ethernet** between the host and the booths. Wi-Fi drops are the most common cause of lost prints.
 - Disable **sleep** and **automatic restarts** on the host for the day.

@@ -47,7 +47,7 @@ Start here when the booth cannot see, control or fire the camera. Problems are o
 
 ### Capture fails although live view works
 
-**On screen:** For the guest, "Hmm, the camera didn't respond — let's try again". On Camera Settings, the **Error** line ends in "Capture command failed", after a code such as `TAKE_PICTURE_NO_CARD_NG`, `TAKE_PICTURE_CARD_PROTECT_NG`, `TAKE_PICTURE_NO_LENS_NG` or `LOW_BATTERY`.
+**On screen:** For the customer, "Hmm, the camera didn't respond — let's try again". On Camera Settings, the **Error** line ends in "Capture command failed", after a code such as `TAKE_PICTURE_NO_CARD_NG`, `TAKE_PICTURE_CARD_PROTECT_NG`, `TAKE_PICTURE_NO_LENS_NG` or `LOW_BATTERY`.
 
 **Also described as:** "error capture command failed", "live view jalan tapi tidak bisa foto", "camera doesn't take the picture".
 

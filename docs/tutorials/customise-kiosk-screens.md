@@ -35,7 +35,7 @@ Each mode sets the flow its sessions follow:
 | Notes | Start, Pay, Template, Shoot, Filter, Draw, Share |
 | Simple | Start, Pay, B&W or colour, Shoot, Share |
 
-"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." With two or more modes, guests pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
+"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
 
 ## Step 2: Find your way around the editor
 
@@ -58,7 +58,7 @@ Each mode sets the flow its sessions follow:
 
 ## Step 4: Design the Payment Screen
 
-1. Open the **Payment Screen** tab. Besides the main screen with the QR payment, it has sub-screens for **voucher**, **coins**, **card** and **success**. Design the ones your guests will meet; a sub-screen with only a background counts as designed.
+1. Open the **Payment Screen** tab. Besides the main screen with the QR payment, it has sub-screens for **voucher**, **coins**, **card** and **success**. Design the ones your customers will meet; a sub-screen with only a background counts as designed.
 2. Add the blocks the screen needs: **Payment QR** shows the gateway's QR code; **Voucher Input** has an editable title, subtitle and button colours (an empty title hides the line), or use the plain **Voucher Field** code box for your own artwork; **Payment Status** shows where the payment stands.
 3. Under **Timeout**, keep or adjust the defaults: the screen returns to the start after 120 seconds idle (0 = never), a voucher, coin or card step returns to the methods after 60 seconds, and the success screen stays 3 seconds (0 = wait for a tap).
 
@@ -75,24 +75,24 @@ The success screen also shows when a voucher covers the whole price; free sessio
 
 ## Step 6: Design the Capture and Review screens
 
-1. On the **Capture** tab, place the **Live View** block where guests see themselves while they pose, and set its camera frame ratio to match your template's slots. The countdown to each shot runs on this screen.
+1. On the **Capture** tab, place the **Live View** block where customers see themselves while they pose, and set its camera frame ratio to match your template's slots. The countdown to each shot runs on this screen.
 2. Set **Session Time** in the page settings. The countdown starts at the first capture; a **Session Timer** block only displays it, always as MM:SS.
 3. Add the **Preview Cards** block: one square card per template slot, numbered while empty, filled as the shots land, with the current slot ringed. A **Photo Counter** block shows how many shots are done.
 
 ![UI Editor on the Capture screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-capture.webp)
 
-4. On the **Review** tab, place the **Review Photo** block and the **Retake Button** and **Next Button**; the built-in buttons size to their blocks. Under **Review Settings**, turn on **Advanced mode** if guests should adjust each photo: tapping a slot on the composed preview lets them scale, move and mirror that one photo.
+4. On the **Review** tab, place the **Review Photo** block and the **Retake Button** and **Next Button**; the built-in buttons size to their blocks. Under **Review Settings**, turn on **Advanced mode** if customers should adjust each photo: tapping a slot on the composed preview lets them scale, move and mirror that one photo.
 
 ## Step 7: Design the Filter and Sharing screens
 
-1. On the **Filter** tab, add the **Filter Strip** block, a grid of filter cards, and choose its card ratio (16:9 to square; square is the default). Filter cards take their corner radius from the strip. Add a **Filter Preview** block so guests see the chosen filter on their photo.
-2. On the **Sharing** tab, add the **QR Code** block (the link to the guest's photos), the **Composed Preview** block (the finished print) and a **Finish Button**. With the showcase loop off, the preview shows the live photo once it is ready; GIF previews show the real GIF. If you sell extra prints, the price comes from the booth's **Pricing > Extra prints** tab and the extra prints control appears on this screen.
+1. On the **Filter** tab, add the **Filter Strip** block, a grid of filter cards, and choose its card ratio (16:9 to square; square is the default). Filter cards take their corner radius from the strip. Add a **Filter Preview** block so customers see the chosen filter on their photo.
+2. On the **Sharing** tab, add the **QR Code** block (the link to the customer's photos), the **Composed Preview** block (the finished print) and a **Finish Button**. With the showcase loop off, the preview shows the live photo once it is ready; GIF previews show the real GIF. If you sell extra prints, the price comes from the booth's **Pricing > Extra prints** tab and the extra prints control appears on this screen.
 
 ![UI Editor on the Sharing screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-sharing.webp)
 
 ## Step 8: Preview, save and assign
 
-1. Click **Preview** to walk through the screens as a guest would, then **Save**.
+1. Click **Preview** to walk through the screens as a customer would, then **Save**.
 2. Assign the design: on **UI Projects**, open the card's menu and choose **Assign to booths**; or open the booth's **UI Project** tab, pick the project from the dropdown and click **Save**.
 
 ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
@@ -100,7 +100,7 @@ The success screen also shows when a voucher covers the whole price; free sessio
 The card menu also offers **Duplicate** (start a variant for another client), **Rename**, **Add frame template to this project** and **Delete**.
 
 :::caution A cash system needs F13 alone
-If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** as the only session trigger and turn the Payment Screen off. Any other trigger lets guests start without paying. See [Connect a Coin Acceptor or Card Reader](./connect-a-coin-or-card-reader.md).
+If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** as the only session trigger and turn the Payment Screen off. Any other trigger lets customers start without paying. See [Connect a Coin Acceptor or Card Reader](./connect-a-coin-or-card-reader.md).
 :::
 
 ## Check It Worked
@@ -117,7 +117,7 @@ If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** 
 | A screen never appears on the booth | **Enabled in session flow** is off for that page; for the Payment Screen, **Payment on this booth** is off or the computer is on Pix Starter | Turn the page on; check the booth's Pricing tab |
 | The booth still shows the old design | The project is not assigned to that booth | Booth > **UI Project** tab, pick the project, **Save** |
 | A Studio project cannot be chosen for a booth | The booth's Pixture Photobooth app is older than 1.1.98 | Update the app from the operator menu (**Check for Updates**) |
-| Guests cannot start a session | No session trigger ticked and no Start Button on the canvas | Tick **Touch Screen** or add a **Start Button** |
+| Customers cannot start a session | No session trigger ticked and no Start Button on the canvas | Tick **Touch Screen** or add a **Start Button** |
 
 ## Related
 

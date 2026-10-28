@@ -7,7 +7,7 @@ tags: [desktop-app, overview, getting-started]
 
 # Pixture Photobooth Overview
 
-The Pixture Photobooth app is the booth software that turns a Mac or Windows computer into a photobooth. It runs full screen, drives your camera and printer, walks the guest through a photo session and hands over the result as a print and a QR code. This page tells you what the app does, what has changed recently, what it needs to run, and how it fits together with the Pixture dashboard.
+The Pixture Photobooth app is the booth software that turns a Mac or Windows computer into a photobooth. It runs full screen, drives your camera and printer, walks the customer through a photo session and hands over the result as a print and a QR code. This page tells you what the app does, what has changed recently, what it needs to run, and how it fits together with the Pixture dashboard.
 
 ## What It Does
 
@@ -15,7 +15,7 @@ The Pixture Photobooth app is the booth software that turns a Mac or Windows com
 - Works with Canon EOS, Sony Alpha, Nikon Z and Fujifilm X and GFX cameras over USB, and with any webcam or virtual camera the operating system can see.
 - Prints to any printer the computer can print to, including shared and network printers.
 - Makes up to four outputs from one session: the printed composite, the single photos, an animated GIF and a live photo clip.
-- Shares through a QR code that opens the guest's own share page.
+- Shares through a QR code that opens the customer's own share page.
 - Keeps working when the venue internet drops: photos are saved on the computer and uploaded when the line comes back.
 - Updates itself in the background.
 
@@ -23,14 +23,14 @@ The Pixture Photobooth app is the booth software that turns a Mac or Windows com
 
 The booth app updates itself. The main changes since 1.1.82:
 
-- **Studio mode.** A timed pool session: the guest takes as many shots as they like, then assigns their favourites to the template slots. See [Studio Sessions](./studio-sessions.md).
-- **Per-photo adjust.** Tap a photo on the Review screen to scale it, mirror it or move the crop before it goes into the layout. From 1.2.6, Photo and Notes sessions can also show an "Adjust your photos" screen after the last shot, where guests move, zoom and swap their photos. See [Review and Adjust](./session-flow/review-and-adjust.md).
-- **Several modes on one booth.** A UI project can offer Photo, Studio and Notes side by side; guests pick one on the Start screen (1.2.4 or newer). See [UI Editor](../dashboard/pix-design/ui-editor.md).
+- **Studio mode.** A timed pool session: the customer takes as many shots as they like, then assigns their favourites to the template slots. See [Studio Sessions](./studio-sessions.md).
+- **Per-photo adjust.** Tap a photo on the Review screen to scale it, mirror it or move the crop before it goes into the layout. From 1.2.6, Photo and Notes sessions can also show an "Adjust your photos" screen after the last shot, where customers move, zoom and swap their photos. See [Review and Adjust](./session-flow/review-and-adjust.md).
+- **Several modes on one booth.** A UI project can offer Photo, Studio and Notes side by side; customers pick one on the Start screen (1.2.4 or newer). See [UI Editor](../dashboard/pix-design/ui-editor.md).
 - **Video and 360 slow-mo for events.** An event can switch every booth in it to video capture, with an intro, outro, soundtrack and overlay. See [Event Video Modes](./event-video-modes.md).
 - **Pix Pro per computer and "Try it without an account".** Pix Pro now lives on the computer, the operator menu shows a plan badge, and a fresh install can run watermarked with built-in frames before it is paired. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 - **Every currency.** Prices show the way the dashboard shows them, in any currency, with a tax label that follows the currency.
 - **An upload queue that survives bad venue internet.** Network failures retry on a short schedule and never count against a photo. See [Offline Mode](./offline-mode.md).
-- **AI portrait print pickup.** A guest who bought an AI portrait on their phone types a pickup code into the booth and takes the print from the tray (available to beta accounts).
+- **AI portrait print pickup.** A customer who bought an AI portrait on their phone types a pickup code into the booth and takes the print from the tray (available to beta accounts).
 - **Native FFmpeg on Apple Silicon.** Live photo, filter and GIF encoding run natively on Apple Silicon Macs; Rosetta is no longer needed.
 
 ## Requirements
@@ -45,7 +45,7 @@ The booth app updates itself. The main changes since 1.1.82:
 | **Display** | 1280 x 720 | 1080p touchscreen |
 | **USB** | USB 2.0 (for camera) | USB 3.0 |
 
-A touchscreen is not required, but guests tap the screen all the way through a session, so it is strongly recommended for a booth that runs unattended. The app warns you when free disk space drops under 3 GB, so plan for more than the minimum on a busy booth.
+A touchscreen is not required, but customers tap the screen all the way through a session, so it is strongly recommended for a booth that runs unattended. The app warns you when free disk space drops under 3 GB, so plan for more than the minimum on a busy booth.
 
 ## How It Works With the Dashboard
 

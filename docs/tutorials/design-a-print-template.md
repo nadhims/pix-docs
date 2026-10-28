@@ -88,7 +88,7 @@ Every tool in the editor is described in [Template Editor](../dashboard/pix-desi
 ## Step 4: Save and name the template
 
 1. Click **Save**.
-2. Under **Name Your Template**, type the name your team and your guests will see.
+2. Under **Name Your Template**, type the name your team and your customers will see.
 3. Under **Assign to booths**, tick the booths that should offer it now, or leave it for later.
 
 ## Step 5: Organise and assign later

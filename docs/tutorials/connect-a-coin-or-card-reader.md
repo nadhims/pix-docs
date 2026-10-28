@@ -22,7 +22,7 @@ Allow about 30 minutes for a keystroke setup once the hardware is wired, longer 
 
 ## Pick Your Setup
 
-| You have | Setup | What the guest does |
+| You have | Setup | What the customer does |
 |---|---|---|
 | A Stripe account and a Stripe Terminal reader | **A: Stripe Terminal** | Taps or inserts a card on the reader at the booth |
 | A coin or note acceptor, or a Nayax, Ingenico or ePort reader, on a CASH-Interface2 board, at one fixed price | **B1: Start-gate** (recommended) | Pays on the reader first; the booth starts by itself and never shows a price |
@@ -47,7 +47,7 @@ Every setup except the start-gate goes through the booth's Payment screen, and w
 
 ## Setup A: A Stripe Terminal Card Reader
 
-Guests tap or insert a card on a reader at the booth. The payment goes through your Stripe account, the same gateway that otherwise shows a Stripe QR code. Stripe works worldwide, so this is the card option outside Indonesia.
+Customers tap or insert a card on a reader at the booth. The payment goes through your Stripe account, the same gateway that otherwise shows a Stripe QR code. Stripe works worldwide, so this is the card option outside Indonesia.
 
 1. Connect Stripe as in [Create a Payment Gateway](./create-a-payment-gateway.md) and run the test charge.
 2. Register the reader in the Stripe Dashboard under **Terminal** and connect it to the booth's Wi-Fi.
@@ -55,18 +55,18 @@ Guests tap or insert a card on a reader at the booth. The payment goes through y
 4. In the UI Editor, turn on **Debit/Credit Card** under Payment Methods and **Save**.
 5. Start a session on the booth, tap the card method, and tap a card on the reader. The booth shows **Payment Success** once Stripe confirms.
 
-Packages work with this setup: the reader charges whatever amount the guest picked on screen.
+Packages work with this setup: the reader charges whatever amount the customer picked on screen.
 
 **Before you buy a reader.** Stripe sells its readers in the Stripe Dashboard under **Terminal > Shop**, and which models you can order depends on the country of your Stripe account. A reader charges only in that account's own currency: a Malaysian Stripe account charges MYR, a US account USD. A booth priced in another currency gets "Card reader payment could not be started" instead of the tap screen, so set the booth's currency to match the account.
 
-**What the guest sees.**
+**What the customer sees.**
 
 - **Approved card:** the booth shows **Payment Success** a moment after the tap and the session starts.
-- **Declined card:** the reader shows the decline and the booth keeps waiting. To retry, the guest cancels and chooses the card method again, which sends a fresh charge to the reader.
-- **Guest cancels:** cancelling the payment on the booth clears the reader's tap screen and cancels the charge, so nothing can go through later.
+- **Declined card:** the reader shows the decline and the booth keeps waiting. To retry, the customer cancels and chooses the card method again, which sends a fresh charge to the reader.
+- **Customer cancels:** cancelling the payment on the booth clears the reader's tap screen and cancels the charge, so nothing can go through later.
 
 :::caution Keep the booth running until Payment Success
-The booth confirms a card payment by asking Stripe while its payment screen is open. If the booth is closed, restarted or loses power right after the tap, Stripe keeps the charge but no session is recorded. Find the payment in the Stripe Dashboard under **Payments** and refund it, or give the guest a voucher code.
+The booth confirms a card payment by asking Stripe while its payment screen is open. If the booth is closed, restarted or loses power right after the tap, Stripe keeps the charge but no session is recorded. Find the payment in the Stripe Dashboard under **Payments** and refund it, or give the customer a voucher code.
 :::
 
 ## Setup B: A CASH-Interface2 Cash System
@@ -79,7 +79,7 @@ All three CI2 setups use the booth's **Hardware API** page: open the operator me
 
 ### Setup B1: Start-gate (recommended)
 
-The guest pays the cash system first. When the credit reaches the price, the system presses **F13** and the session starts. The booth never shows a price, and the session is recorded as paid at the booth's session price.
+The customer pays the cash system first. When the credit reaches the price, the system presses **F13** and the session starts. The booth never shows a price, and the session is recorded as paid at the booth's session price.
 
 | Where | Setting | Value |
 |---|---|---|
@@ -104,12 +104,12 @@ The guest pays the cash system first. When the credit reaches the price, the sys
 5. Tap **Start Booth** and feed the acceptor. The session starts by itself once the price is reached, and **Transactions** shows it with the session price.
 
 :::caution Never add a second trigger to a paid start
-F13 must stay the only session trigger. A Start Button or Touch Screen trigger next to it lets guests start for free, and the Hardware API page warns you while one is on.
+F13 must stay the only session trigger. A Start Button or Touch Screen trigger next to it lets customers start for free, and the Hardware API page warns you while one is on.
 :::
 
 ### Setup B2: Pay on the Payment screen
 
-The guest picks a package on the booth's Payment screen and pays on the reader or coin box from the Card or Coin popup. The booth puts the amount due in its window title, the cash system counts the money and presses **F13** once the amount is covered, and the booth records the session as paid at the amount on screen. This is the setup for packages and for a running total on screen.
+The customer picks a package on the booth's Payment screen and pays on the reader or coin box from the Card or Coin popup. The booth puts the amount due in its window title, the cash system counts the money and presses **F13** once the amount is covered, and the booth records the session as paid at the amount on screen. This is the setup for packages and for a running total on screen.
 
 | Where | Setting | Value |
 |---|---|---|
@@ -117,12 +117,12 @@ The guest picks a package on the booth's Payment screen and pays on the reader o
 | | Detect partial | On (the title also carries the amount) |
 | | Variable price | On, so it reads the `#amount#` from the title |
 | | Hotkey | `F13` |
-| Nayax portal | Interface | PULSE, single price or a menu the guest picks |
+| Nayax portal | Interface | PULSE, single price or a menu the customer picks |
 | Pix Design | Payment screen | **On** |
 | | Payment methods | **Debit/Credit Card** and/or **Coin Acceptor** on |
 | Hardware API page | Treat F13 as the cash system's paid signal | **On** |
 
-1. In the CI2 software, set the receiver name to **Pix - PAYMENT**, turn **Detect partial** and **Use variable price** on, and set the hotkey to **F13**. While the booth waits for a hardware payment its title reads `Pix - PAYMENT #<amount>#` in the currency's smallest unit, so the variable price follows whatever the guest picked.
+1. In the CI2 software, set the receiver name to **Pix - PAYMENT**, turn **Detect partial** and **Use variable price** on, and set the hotkey to **F13**. While the booth waits for a hardware payment its title reads `Pix - PAYMENT #<amount>#` in the currency's smallest unit, so the variable price follows whatever the customer picked.
 2. In the UI Editor, keep the Payment Screen enabled and turn on **Debit/Credit Card** and/or **Coin Acceptor**. **Save**.
 3. On the booth, turn on **Treat F13 as the cash system's paid signal** on the Hardware API page. With the Payment screen on, the page shows the receiver as **Pix - PAYMENT** and reminds you to enable the Card or Coin method.
 4. Test: start a session, pick a package, tap the card or coin method and pay. The popup closes on the F13 and the booth shows **Payment Success**.
@@ -135,7 +135,7 @@ Pulse and keystroke setups are often one fixed price. The booth trusts the amoun
 
 ### Setup B3: Coins by keystroke (no F13)
 
-For a coin or note box with a USB keyboard adapter, or a CI2 set to type one key per coin or pulse. The booth counts the keystrokes itself while its **Insert Coins** or **Tap to Pay** popup is open, and the guest watches the total climb.
+For a coin or note box with a USB keyboard adapter, or a CI2 set to type one key per coin or pulse. The booth counts the keystrokes itself while its **Insert Coins** or **Tap to Pay** popup is open, and the customer watches the total climb.
 
 1. Set the acceptor to send one key (F1, for example) per unit of value; on a CI2 board, one keystroke per pulse.
 2. In the UI Editor, turn on **Coin Acceptor** (and **Debit/Credit Card** for a pulse-per-credit reader) under Payment Methods. **Save**.
@@ -145,7 +145,7 @@ For a coin or note box with a USB keyboard adapter, or a CI2 set to type one key
 Keyboard coin input and the F13 paid signal do not mix: turning one on greys the other out, because in the start-gate the cash system does the counting.
 
 :::caution Every price must be a whole number of pulses
-The booth counts keystrokes, not money, and settles on the first one that covers the price. With **Value per keystroke** at Rp10.000 and a Rp25.000 package, the guest pays Rp30.000 (three pulses) and the booth records Rp25.000. The same goes for a Nayax reader's **Credit per Pulse** and a coin box's smallest coin. Pick a value that divides every price you sell, for example Rp5.000 for Rp25.000 and Rp30.000.
+The booth counts keystrokes, not money, and settles on the first one that covers the price. With **Value per keystroke** at Rp10.000 and a Rp25.000 package, the customer pays Rp30.000 (three pulses) and the booth records Rp25.000. The same goes for a Nayax reader's **Credit per Pulse** and a coin box's smallest coin. Pick a value that divides every price you sell, for example Rp5.000 for Rp25.000 and Rp30.000.
 :::
 
 :::note Notes, change and extra prints
@@ -154,7 +154,7 @@ Note validators work like coin validators; the CI2 board has a separate BILL plu
 
 ### Setup B4: A DuitNow QR Terminal in Malaysia (Transpire QR)
 
-DuitNow QR is Malaysia's national QR standard, so almost every Malaysian bank and e-wallet app can pay it. Your payment gateway in Pixture cannot show a DuitNow QR yet (Stripe in Malaysia takes cards, not DuitNow). A **Transpire QR** terminal fills that gap: a small screen next to the booth shows a dynamic DuitNow QR, the guest scans and pays with their own app, and the terminal then sends coin-style pulses, the same signal a Nayax reader sends. On a CASH-Interface2 board those pulses drive setup B1 or B3 above, so nothing new is needed in Pixture.
+DuitNow QR is Malaysia's national QR standard, so almost every Malaysian bank and e-wallet app can pay it. Your payment gateway in Pixture cannot show a DuitNow QR yet (Stripe in Malaysia takes cards, not DuitNow). A **Transpire QR** terminal fills that gap: a small screen next to the booth shows a dynamic DuitNow QR, the customer scans and pays with their own app, and the terminal then sends coin-style pulses, the same signal a Nayax reader sends. On a CASH-Interface2 board those pulses drive setup B1 or B3 above, so nothing new is needed in Pixture.
 
 Transpire QR (transpire.com.my) is a Malaysian company that builds these terminals for laundromats and vending machines. It is not part of Pixture: you buy the terminal and open the merchant account with Transpire, and the money settles to you through them. Pixture records the amount the booth counted, so **Transactions** shows the session as paid at that amount.
 
@@ -172,7 +172,7 @@ Transpire QR (transpire.com.my) is a Malaysian company that builds these termina
 
 | Where | Setting | B1 start-gate (one price) | B3 counting (any amount) |
 |---|---|---|---|
-| Transpire terminal | Price | Your session price, in RM | The amounts guests may pay |
+| Transpire terminal | Price | Your session price, in RM | The amounts customers may pay |
 | | Credit per pulse | The whole session price (one pulse per session) | A small unit that divides every price, for example RM1 |
 | CI2 board | Channel value | Same as credit per pulse | Same as credit per pulse |
 | CI2 software | Receiver name | `Pix - START` | One keystroke per pulse, no receiver needed |
@@ -189,7 +189,7 @@ Transpire QR (transpire.com.my) is a Malaysian company that builds these termina
 5. Pay a real, small amount with a Malaysian bank app. Check that the session starts, that **Transactions** in the Pixture dashboard shows it at the price, and that the same payment appears in Transpire's own sales report.
 
 :::caution Keep every price a whole number of pulses
-The booth counts pulses, not ringgit. With RM10 per pulse and a RM15 package, the guest has to pay RM20 and the booth records RM15. Pick a pulse value that divides every price you sell, or sell one price with B1.
+The booth counts pulses, not ringgit. With RM10 per pulse and a RM15 package, the customer has to pay RM20 and the booth records RM15. Pick a pulse value that divides every price you sell, or sell one price with B1.
 :::
 
 ## Setup C: Your Own Bridge on the Local Hardware API
@@ -206,7 +206,7 @@ Every request must carry the token. The page lists the endpoints:
 | Endpoint | Use it to |
 |---|---|
 | `GET /api/v1/status` | Read the current screen, the payment state, and the amount due with its currency, so the bridge takes the price from the booth instead of holding its own copy |
-| `GET /api/v1/start` | Start a session, with the same guards as a guest tap. Refused (409) when the booth is not on the Start screen |
+| `GET /api/v1/start` | Start a session, with the same guards as a customer tap. Refused (409) when the booth is not on the Start screen |
 | `GET /api/v1/payment-complete` | Mark the amount on the Payment screen as paid. Accepted only while the booth is waiting for a hardware payment; otherwise 409 |
 
 A typical bridge polls `/api/v1/status`, waits until the booth is on the Payment screen, charges the amount it reads there, and calls `/api/v1/payment-complete` once the reader confirms. A start-gate bridge charges a fixed price first and calls `/api/v1/start`. Check the status before taking money: a blocked computer refuses to start sessions.
@@ -222,9 +222,9 @@ For an attended booth where a person takes the cash, a batch of single-use vouch
 
 ![Generate Batch modal with Batch Name, Number of Codes, Discount Type, Value per Code, Max Redemptions per Code, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--vouchers-create-batch.webp)
 
-5. The cashier takes the money and hands over one code. On the booth's Payment screen the guest taps **Voucher** and types it; the booth shows **Payment Success** and continues.
+5. The cashier takes the money and hands over one code. On the booth's Payment screen the customer taps **Voucher** and types it; the booth shows **Payment Success** and continues.
 
-Keep **QR Pay** on as well, so guests who would rather pay on their phone still can. For customers who want to pay before they arrive, [Sell Sessions Online](./sell-sessions-online.md) does the same with a link instead of a cashier.
+Keep **QR Pay** on as well, so customers who would rather pay on their phone still can. For customers who want to pay before they arrive, [Sell Sessions Online](./sell-sessions-online.md) does the same with a link instead of a cashier.
 
 ## Check It Worked
 
@@ -243,9 +243,9 @@ Keep **QR Pay** on as well, so guests who would rather pay on their phone still 
 | The total on the Coin popup climbs by the wrong amount (B3) | **Value per keystroke** does not match the acceptor's unit | Correct one of them |
 | The F13 toggle is greyed out on the Hardware API page | **Enable keyboard coin input** is on | Turn keyboard coin input off; the two setups do not mix |
 | A Nayax reader shows "Cash only" | Its inhibit is active: the portal inhibit is on without the wire, or the CI2 software is not active (the board's yellow LED is off) | Fix it on the Nayax side first; for a test, disable the inhibit in the Nayax portal and restart the reader |
-| A guest paid on the DuitNow terminal but the booth did not react (B4) | The terminal's pulse output is not reaching the CI2 board, or its pulse value does not match the channel value | Check the wiring to the PULSE input, then compare Transpire's credit per pulse with the CI2 channel value and **Value per keystroke** |
+| A customer paid on the DuitNow terminal but the booth did not react (B4) | The terminal's pulse output is not reaching the CI2 board, or its pulse value does not match the channel value | Check the wiring to the PULSE input, then compare Transpire's credit per pulse with the CI2 channel value and **Value per keystroke** |
 | The booth says "Card reader payment could not be started" (A) | The booth's currency is not your Stripe account's currency, or the reader is offline | Set the booth's currency to the account's currency; check the reader is online under **Terminal** in Stripe |
-| A guest was charged on the reader but no session was recorded (A) | The booth closed or lost power after the tap, before it saw the payment | Find the payment under **Payments** in Stripe, then refund it or give the guest a voucher code |
+| A customer was charged on the reader but no session was recorded (A) | The booth closed or lost power after the tap, before it saw the payment | Find the payment under **Payments** in Stripe, then refund it or give the customer a voucher code |
 | The Stripe reader is not in the dropdown | It is not registered on this Stripe account, or is offline | Register it under Terminal in Stripe and connect it to Wi-Fi |
 | The bridge gets 409 | Wrong screen for that call | Poll `/api/v1/status`; call `/start` only on the Start screen and `/payment-complete` only while a payment is awaited |
 | The bridge's requests are rejected | Missing or old token | Copy the current **Access token**; **Regenerate** invalidates the old one |

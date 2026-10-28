@@ -7,7 +7,7 @@ tags: [gallery, photos, sessions]
 
 # Gallery
 
-**Gallery** holds every photo your booths uploaded: the finished composite of each photo session and the single shots behind it. Use it to pull a photo for a guest who lost their link, collect consented photos for social media, or clear out a test day.
+**Gallery** holds every photo your booths uploaded: the finished composite of each photo session and the single shots behind it. Use it to pull a photo for a customer who lost their link, collect consented photos for social media, or clear out a test day.
 
 ![Gallery page: search, booth filter, period pills, Select](/img/docs/gallery.webp)
 
@@ -44,22 +44,22 @@ Use a booth and period filter first so **Select All** takes only what you mean i
 
 ## Photos Are Kept for 60 Days
 
-Every photo, GIF, live photo and video from a session is deleted automatically **60 days** after the session. After that its tile shows **Expired** in the Gallery and in the event's Album, and the guest's sharing page and the event album no longer show it. Download anything you want to keep before then. Your templates, screens and other designs are not affected.
+Every photo, GIF, live photo and video from a session is deleted automatically **60 days** after the session. After that its tile shows **Expired** in the Gallery and in the event's Album, and the customer's sharing page and the event album no longer show it. Download anything you want to keep before then. Your templates, screens and other designs are not affected.
 
 ## Deleting and the 30-Day Window
 
-Deleting does not erase a photo at once. It disappears from the Gallery and from the guest's sharing page immediately, but the files stay in storage for **30 days** before they are removed for good. There is no restore button in the dashboard: if you delete something by mistake, contact Pixture support within those 30 days with the booth and roughly when the photo was taken. After 30 days nothing can be recovered.
+Deleting does not erase a photo at once. It disappears from the Gallery and from the customer's sharing page immediately, but the files stay in storage for **30 days** before they are removed for good. There is no restore button in the dashboard: if you delete something by mistake, contact Pixture support within those 30 days with the booth and roughly when the photo was taken. After 30 days nothing can be recovered.
 
 ## Consented Photos
 
-When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-studio.md), the photos of guests who tap **Yes, I agree** are collected in the gallery below the consent settings on the Content tab, so you can find photos you are allowed to reuse without asking twice. Performance counts them as Consented photos.
+When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-studio.md), the photos of customers who tap **Yes, I agree** are collected in the gallery below the consent settings on the Content tab, so you can find photos you are allowed to reuse without asking twice. Performance counts them as Consented photos.
 
 ## Photos of an Event
 
 Photos captured during an [event](./events.md) also appear on the event's own Album tab and, while Link Sharing is on, in its public album. Deleting from either place removes the photo from both.
 
 :::caution Test days pile up
-A rehearsal produces real uploads. Filter the Gallery to the booth and the day, then **Select All** and **Delete Selected**, so the Dashboard's Templates Usage and Session counts reflect guests rather than staff.
+A rehearsal produces real uploads. Filter the Gallery to the booth and the day, then **Select All** and **Delete Selected**, so the Dashboard's Templates Usage and Session counts reflect customers rather than staff.
 :::
 
 ## Related

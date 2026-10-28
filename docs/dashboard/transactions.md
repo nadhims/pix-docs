@@ -7,7 +7,7 @@ tags: [transactions, payments, export, excel]
 
 # Transactions
 
-**Transactions** lists every paid photo session and every payment your booths and online shops took. Use it to reconcile a day against your payment gateway, find one guest's payment, or hand a client the takings from their event.
+**Transactions** lists every paid photo session and every payment your booths and online shops took. Use it to reconcile a day against your payment gateway, find one customer's payment, or hand a client the takings from their event.
 
 ![Transactions page: search, booth filter, Day, Week and Month pills, Sync with payment gateway and Export Excel icons, stat cards Total Transactions, Total Revenue, Payment Success and Session Completion](/img/docs/transactions.webp)
 
@@ -46,8 +46,8 @@ Some rows carry a type label:
 |---|---|
 | Bonus | A free session granted by [Bonus Session](./marketing-studio.md) after a paid one |
 | Package | A Double, Group or Additional-session purchase |
-| Frame Lab | A guest paid online for their own frame |
-| Orphan Payment | A payment your gateway confirmed that no photo session claimed, for example when the guest paid and walked away before the session started |
+| Frame Lab | A customer paid online for their own frame |
+| Orphan Payment | A payment your gateway confirmed that no photo session claimed, for example when the customer paid and walked away before the session started |
 | Imported | A row you uploaded from a spreadsheet |
 | AI portrait, AI portrait + print | A portrait sold from the share page. Beta accounts only |
 

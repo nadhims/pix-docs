@@ -55,7 +55,7 @@ With a Sony connected, **CAMERA SETTINGS** on the Camera Settings page shows ISO
 ## Tips for a Full Day
 
 - **Power the camera from the mains** with Sony's AC adapter or a dummy battery. A battery will not last a day of live view.
-- **Turn off auto power-off** and set the power-save start time to the longest option, so the camera stays awake between guests.
+- **Turn off auto power-off** and set the power-save start time to the longest option, so the camera stays awake between customers.
 - **Set image quality to JPEG** (Fine or Extra Fine) on the body.
 - **Keep the USB run short.** Use a powered USB hub if the cable is longer than about 2 metres.
 - **Lock focus to manual** once the framing is set, so the lens does not hunt between shots.

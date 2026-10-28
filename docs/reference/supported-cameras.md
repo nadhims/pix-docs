@@ -77,7 +77,7 @@ The live view, the crop guide and the captured photo all follow the rotation.
 
 ## Webcam fallback
 
-Without a supported camera body, the booth can use any built-in or external webcam, or a virtual camera such as OBS Virtual Camera on macOS. This is useful for testing your booth layout and flow before opening to guests, or for a lower-cost setup where DSLR quality is not required.
+Without a supported camera body, the booth can use any built-in or external webcam, or a virtual camera such as OBS Virtual Camera on macOS. This is useful for testing your booth layout and flow before opening to customers, or for a lower-cost setup where DSLR quality is not required.
 
 1. Open the operator menu and tap **Camera Settings**.
 2. Under **CAMERA DEVICE**, pick the webcam instead of **Auto-detect**, and tap **Set as Default**.

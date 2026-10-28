@@ -23,7 +23,7 @@ In this tutorial you will create a booth in the Pixture dashboard, assign print 
 
 ![Create Booth modal on the Single booth tab with Booth Name and Location filled in](/img/docs/steps/tutorials-set-up-a-booth--booths-create-modal.webp)
 
-The new booth appears in the list with a dash under **DEVICE** and **PLAN**, because no computer is paired yet. Click **Configure** to open it. The first time it opens, the popup "Pair your booth first" offers **Generate pairing code**. Click **Maybe later** for now; you pair the computer in Step 7, once the booth is ready for guests.
+The new booth appears in the list with a dash under **DEVICE** and **PLAN**, because no computer is paired yet. Click **Configure** to open it. The first time it opens, the popup "Pair your booth first" offers **Generate pairing code**. Click **Maybe later** for now; you pair the computer in Step 7, once the booth is ready for customers.
 
 ## Step 2: Assign print templates
 
@@ -36,7 +36,7 @@ The new booth appears in the list with a dash under **DEVICE** and **PLAN**, bec
 
 ![Manage Templates modal listing templates with their size and media type and the Save Templates button](/img/docs/steps/tutorials-set-up-a-booth--booth-manage-templates-modal.webp)
 
-A new account comes with two ready-made 4x6 templates, Classic Black and Classic White. On Pix Starter these are the two templates you can use; Pix Pro lets you design as many as you like in Pix Design (see [Design a Print Template](./design-a-print-template.md)). Assign at least one template, or guests have nothing to pick.
+A new account comes with two ready-made 4x6 templates, Classic Black and Classic White. On Pix Starter these are the two templates you can use; Pix Pro lets you design as many as you like in Pix Design (see [Design a Print Template](./design-a-print-template.md)). Assign at least one template, or customers have nothing to pick.
 
 ## Step 3: Choose the booth's screen design
 
@@ -58,7 +58,7 @@ Pixture ships 14 built-in filters. **Pix Design > Photo Filters** lets you uploa
 ## Step 5: Set the price, or make sessions free
 
 1. Open the **Pricing** tab.
-2. Set the **Payment on this booth** switch. On, guests pay the prices below at the booth. Off, every session is free and your prices are kept for later. The booth skips the Payment screen unless the Voucher method is on for the Payment page of its UI project; for free sessions with no screen at all, also turn the Payment page off in [Pix Design > UI Editor](../dashboard/pix-design/ui-editor.md).
+2. Set the **Payment on this booth** switch. On, customers pay the prices below at the booth. Off, every session is free and your prices are kept for later. The booth skips the Payment screen unless the Voucher method is on for the Payment page of its UI project; for free sessions with no screen at all, also turn the Payment page off in [Pix Design > UI Editor](../dashboard/pix-design/ui-editor.md).
 3. On **Price & packages**, enter the **Session price**. Pick the **Print format** that matches your paper (Standard, 2 inch cut or Triple strip), and turn on **Double session price**, **Group session price** or **Additional session price** if you offer packages.
 4. Click **Save changes** in the save bar.
 
@@ -70,7 +70,7 @@ Taking payments at the booth needs a payment gateway under **Settings > Payment 
 
 1. Open the **Settings** tab.
 2. Under **Output Settings**, switch on what the booth should produce: **Singles Upload**, **GIF Upload**, **Live Photo Upload** and **Print Output**. Click **Save Output Settings**.
-3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so guests cannot open the operator menu on the booth.
+3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so customers cannot open the operator menu on the booth.
 
 ![Booth Settings tab with Output Settings switches, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/steps/tutorials-set-up-a-booth--booth-settings-tab.webp)
 
@@ -114,7 +114,7 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 | The pairing code is refused | Codes expire after 10 minutes | Click **New code** and enter the new code |
 | "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Computers page, add a computer, or use an Event Pass. Pix Starter runs one computer |
 | The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pixture Photobooth app is running |
-| Guests see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |
+| Customers see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |
 | Every session is free | **Payment on this booth** is off, or the computer is on Pix Starter | Turn the switch on and connect a gateway; Pix Starter skips the Payment screen |
 | Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Computers page |
 

@@ -17,7 +17,7 @@ Pix Pro is per computer. A computer on an Event Pass has exactly the same featur
 | **UI projects** (screen designs) | The default screen design | Unlimited, plus your own designs |
 | **Pix Design** | Open to try; creating and saving needs Pix Pro | Full |
 | **Marketing Studio** | No | Yes |
-| **Frame Lab** (guests design their own frame) | No | Yes |
+| **Frame Lab** (customers design their own frame) | No | Yes |
 | **Payments at the booth and vouchers** | No, the Payment screen is skipped and every session is free | Payment gateway, hardware payments, packages, extra prints, tax and fees, vouchers |
 | **Online session shop** | No | Yes |
 | **Events** | Set up on any plan; each booth PC needs Pix Pro or an Event Pass for the event | Yes |

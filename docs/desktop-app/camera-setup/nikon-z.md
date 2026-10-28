@@ -41,7 +41,7 @@ With a Nikon connected, **CAMERA SETTINGS** on the Camera Settings page shows IS
 ## Tips for a Full Day
 
 - **Power the camera from the mains** with Nikon's power adapter (or a dummy battery with a power supply). A battery will not last a day of live view.
-- **Set the standby timer to its longest setting**, so the camera stays awake between guests.
+- **Set the standby timer to its longest setting**, so the camera stays awake between customers.
 - **Set image quality to JPEG** (Fine) on the body.
 - **Keep the USB run short.** Use a powered USB hub if the cable is longer than about 2 metres.
 - **Lock focus to manual** once the framing is set, so the lens does not hunt between shots.

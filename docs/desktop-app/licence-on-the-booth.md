@@ -26,11 +26,11 @@ The same states appear as the Plan badge on the dashboard's Booths list and in t
 
 ## Watermarked
 
-A watermarked computer keeps working: guests take photos, print and share. The Pixture watermark is placed on the photos, the prints, the GIFs and the videos. The Payment screen is skipped, so a watermarked booth cannot charge. Pix Starter is always watermarked; a computer on Pix Pro or an Event Pass becomes watermarked when that ends and the account has no free place to give it.
+A watermarked computer keeps working: customers take photos, print and share. The Pixture watermark is placed on the photos, the prints, the GIFs and the videos. The Payment screen is skipped, so a watermarked booth cannot charge. Pix Starter is always watermarked; a computer on Pix Pro or an Event Pass becomes watermarked when that ends and the account has no free place to give it.
 
 ## Blocked
 
-On a Pix Pro account, a computer without Pix Pro is blocked rather than watermarked: it refuses to start sessions and shows "Device limit reached". Guests see "Please call the operator." To free it:
+On a Pix Pro account, a computer without Pix Pro is blocked rather than watermarked: it refuses to start sessions and shows "Device limit reached". Customers see "Please call the operator." To free it:
 
 1. On the dashboard, open **Computers**.
 2. Either open **Manage** on a computer you no longer use and click **Deactivate**, which frees its place, or click **Add computer** to buy another place.
@@ -40,7 +40,7 @@ Only the dashboard moves Pix Pro between computers. There is nothing on the boot
 
 ## Use an Event Pass on This Computer
 
-When the computer is watermarked or blocked, the operator menu shows **Use an Event Pass on this computer**. Tap it to start one of your unused Event Passes on this computer for the next 24 hours. The button sits behind the menu PIN, so a guest cannot use up your Event Passes; the prompt on the Home screen is information only.
+When the computer is watermarked or blocked, the operator menu shows **Use an Event Pass on this computer**. Tap it to start one of your unused Event Passes on this computer for the next 24 hours. The button sits behind the menu PIN, so a customer cannot use up your Event Passes; the prompt on the Home screen is information only.
 
 Event Passes are bought on the Computers page: **Add computer**, then **Event Pass**, or **Buy Event Passes** on the **Event Passes** card.
 
