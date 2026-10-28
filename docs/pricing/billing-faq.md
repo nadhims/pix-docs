@@ -1,54 +1,54 @@
 ---
 sidebar_position: 3
 title: Billing FAQ
-description: Answers on adding and moving devices, what happens when Pix Pro ends, cancelling, invoices, the free trial, Event Passes and AI credits.
+description: Answers on adding and moving computers, what happens when Pix Pro ends, cancelling, invoices, the free trial, Event Passes and AI credits.
 tags: [pricing, billing, faq]
 ---
 
 # Billing FAQ
 
-## How do I add a device?
+## How do I add a computer?
 
-1. Open **Devices** in the Pixture dashboard.
-2. Tap **Buy license** and pick **Event Pass** or **Pix Pro**.
-3. For Pix Pro, set **How many devices?** and pick **Pix Pro (1 Month)** or **Pix Pro (1 Year)** with **Select**. For Event Passes, set how many.
-4. Pay at checkout. When you add devices to a card subscription you already have, the dashboard shows **Confirm this charge** first.
+1. Open **Computers** in the Pixture dashboard.
+2. Tap **Add computer** and pick **Event Pass** or **Pix Pro**. If your subscription still has places free, a popup first says how many computers are available; tap **Buy more** to go on.
+3. For Pix Pro, pick **Monthly** or **Yearly** and set **How many computers?**. For Event Passes, set how many.
+4. Tap **Pay**. When you add computers to a card subscription you already have, the dashboard shows **Confirm this charge** first.
 
 A spare subscription attaches itself to the next computer that checks in without Pix Pro. Event Passes wait in your account until you use one at the booth.
 
 ## How do I move Pix Pro to another computer?
 
-1. On **Devices**, find the computer in the **Devices** table and tap **Deactivate**.
+1. On **Computers**, find the computer in the table, open its **Manage** menu and tap **Deactivate**.
 2. Confirm with **Deactivate** (or keep it with **Keep Pix Pro**).
 3. Pair the new computer, or let a computer that is already paired check in. The next computer without Pix Pro takes the free place, usually within a few seconds when it is online.
 
-The free trial moves the same way. An Event Pass does not: see the next question.
+The free trial moves the same way. An Event Pass works differently: see the next question.
 
 ## What does Deactivate do to an Event Pass?
 
-It ends the Event Pass. The dashboard warns you first: it ends there and cannot be moved or used again. Only deactivate a computer on an Event Pass when you are done with it for the day.
+The Event Pass keeps running. It is set aside with the same end time, and the next event computer that starts its booth continues it. The same happens when you unlink or remove the computer, or it signs out. A computer in Kiosk mode cannot pick it up, and the 24 hours keep counting while it waits.
 
 ## What happens when Pix Pro ends on a computer?
 
 You are warned first. An Event Pass shows a notice on the booth idle screen 60 and 15 minutes before it ends. A subscription that will not renew warns 7 days and 1 day ahead by email and with a banner in the dashboard.
 
-When it ends, the booth shows a popup naming what ended (for example "Your Event Pass has ended", or the free trial, or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Devices page. Guests see "Please call the operator."
+When it ends, the booth shows a popup naming what ended (for example "Your Event Pass has ended", or the free trial, or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Computers page. Guests see "Please call the operator."
 
 What the computer does next depends on your account:
 
-- If another computer still has Pix Pro, this one is **Blocked**: it stays paired but cannot start a session until you deactivate another computer, use an Event Pass on it or add a device.
+- If another computer still has Pix Pro, this one is **Blocked**: it stays paired but cannot start a session until you deactivate another computer, use an Event Pass on it or add a computer.
 - If it was the last Pix Pro in the account, the account drops back to Pix Starter and the computer runs **Watermarked**.
 
 Nothing is deleted. Templates, screen designs, photos and transactions stay.
 
 ## My payment failed. How long do I have?
 
-You get an email at once and the Devices table shows "Pix Pro, payment failed". The computer keeps running Pix Pro for a 3-day grace period. Update the card under **Settings > Pixture billing > Update card** within those days; after that the computer is blocked until the payment goes through.
+You get an email at once and the Computers page shows "Pix Pro, payment failed" in the **Plan** column. The computer keeps running Pix Pro for a 3-day grace period. Update the card under **Settings > Pixture billing > Update card** within those days; after that the computer is blocked until the payment goes through.
 
 ## How do I cancel?
 
 - **Card subscription:** open **Settings > Pixture billing** and tap **Manage subscription**. The computer keeps Pix Pro until the end of the period you paid for.
-- **QRIS purchase in Indonesia:** there is nothing to cancel. It is prepaid and simply ends when the period is over.
+- **Rupiah purchase in Indonesia:** there is nothing to cancel. It is prepaid and simply ends when the period is over.
 
 ## Where are my invoices?
 
@@ -56,11 +56,11 @@ You get an email at once and the Devices table shows "Pix Pro, payment failed". 
 
 ## How do I change the card?
 
-**Settings > Pixture billing > Update card**. This applies to card subscriptions. QRIS purchases are paid at checkout and nothing is stored.
+**Settings > Pixture billing > Update card**. This applies to card subscriptions. Rupiah purchases are paid at checkout and nothing is stored.
 
 ## Do you take promo codes?
 
-Yes. The Indonesian checkout has a **Have a promo code?** field. When a personal offer is live, the **Devices** entry in the sidebar shows a "% OFF" pill. Current promotions are listed on [pixture.io](https://pixture.io).
+Yes. The Indonesian checkout has a **Promo code** field with **Apply**. Each code works once per account: an applied code shows "Applied. One use per account.", and a code you have used before shows "You've already used this promo code." When a personal offer is live, the **Computers** entry in the sidebar shows a "% OFF" pill. Current promotions are listed on [pixture.io](https://pixture.io).
 
 ## Can I get a refund?
 
@@ -76,19 +76,19 @@ Once per account: 3 days of Pix Pro on one computer, no card. Start it with **St
 
 ## Can I pair a second computer on Pix Starter?
 
-No. Pix Starter runs one computer, and a second computer is refused at the pairing code. Replacing the computer on a booth that already has one works. Add a device, use an Event Pass or start the free trial to run more than one computer.
+No. Pix Starter runs one computer, and a second computer is refused at the pairing code. Replacing the computer on a booth that already has one works. Add Pix Pro, use an Event Pass or start the free trial to run more than one computer.
 
 ## The booth says "Device limit reached". What now?
 
-Every device on your subscription is already active. On **Devices**, deactivate a computer you are not using, or tap **Buy license**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
+Every computer on your subscription is already active. On **Computers**, deactivate a computer you are not using, or tap **Add computer**. This computer picks up Pix Pro on its next check-in. Or open the booth's operator menu and tap **Use an Event Pass on this computer**.
 
 ## Can I buy Event Passes ahead of an event?
 
-Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Devices** page, or pick **Event Pass** under **Buy license**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
+Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Computers** page, or pick **Event Pass** under **Add computer**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
 
 ## Is there volume pricing?
 
-Yes, for Pix Pro, when you add several devices in one purchase. Tap **See volume pricing** in the Pix Pro checkout to see the per-device price for Monthly and Yearly before you pay. Event Passes are a flat price.
+Yes, for Pix Pro, when you add several computers in one purchase. Open **Volume pricing** in the Pix Pro checkout to see the price per computer before you pay. Running a large fleet? Use **Contact sales** on the **Enterprise** tab of [pixture.io/pricing](https://pixture.io/pricing). Event Passes are a flat price.
 
 ## Do AI credits expire?
 
@@ -101,6 +101,6 @@ No. Guest payments at the booth go through your own payment gateway account or y
 ## Related
 
 - [Plans & Pricing](./plans.md)
-- [Devices](../dashboard/billing.md)
+- [Computers](../dashboard/billing.md)
 - [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)

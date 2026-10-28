@@ -53,7 +53,7 @@ To invite someone:
 
 ## Payment Gateway
 
-Connect the gateway that takes QR payments at your booths. Click **Add Payment Gateway** and pick a provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Stripe** everywhere else and for any currency other than rupiah. The next step asks for that provider's keys (for DOKU: Secret Key, Client ID, Merchant ID and a Merchant Private Key you can create with **Generate for me**), an optional webhook and the currency, with a **Sandbox Mode** switch for test credentials (not shown for Stripe). Click **Continue**, then **Connect Gateway**. A connected gateway shows **Edit**, a **Test** charge and its webhook URL. A booth or an event can pick a different gateway from the organization's. The step by step is in [Payment Gateway Setup](../guides/payment-gateway-setup.md).
+Connect the gateway that takes QR payments at your booths. Click **Add Payment Gateway** and pick a provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Stripe** everywhere else and for any currency other than rupiah. The next step asks for that provider's keys (for DOKU: Secret Key, Brand ID, QRIS Client ID and a Merchant Private Key you can create with **Generate for me**), an optional webhook and the currency, with a **Sandbox Mode** switch for test credentials (not shown for Stripe). Click **Continue**, then **Connect Gateway**. A connected gateway shows **Edit**, a **Test** charge and its webhook URL. A booth or an event can pick a different gateway from the organization's. The step by step is in [Payment Gateway Setup](../guides/payment-gateway-setup.md).
 
 ![Add Payment Gateway modal, step 1 Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/settings-gateway-providers.webp)
 
@@ -67,7 +67,7 @@ Your photo (**Upload Photo**, **Remove Photo**), **Display name** with **Save**,
 
 ![Settings > Pixture billing: subscription state, payment method, invoice history](/img/docs/settings-pixture-billing.webp)
 
-Titled **Billing & Payment**, in three blocks: the subscription state ("Subscription active", "Subscription ends", "Event Pass running" or "No subscription") with **Manage subscription** or **Add devices**; the payment method, **Update card** for card subscriptions or "Paid at checkout with QRIS, bank transfer or a card. Nothing is stored." for rupiah purchases; and **Invoice history** with **View** and **Download**. Cancelling a card subscription happens behind **Manage subscription**. See [Devices](./billing.md).
+Titled **Billing & Payment**, in three blocks: the subscription state ("Subscription active", "Subscription ends", "Event Pass running" or "No subscription") with **Manage subscription** or **Add computers**; the payment method, **Update card** for card subscriptions or "Paid at checkout with QRIS, bank transfer or a card. Nothing is stored." for rupiah purchases; and **Invoice history** with **View** and **Download**. Cancelling a card subscription happens behind **Manage subscription**. See [Computers](./billing.md).
 
 ## Security
 
@@ -104,6 +104,6 @@ Add a second owner or admin so the business is not locked out if one phone or pa
 ## Related
 
 - [Dashboard Overview](./overview.md)
-- [Devices](./billing.md)
+- [Computers](./billing.md)
 - [Payment Gateway Setup](../guides/payment-gateway-setup.md)
 - [Admin Panel on the booth](../desktop-app/admin-panel.md)

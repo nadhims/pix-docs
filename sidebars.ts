@@ -79,6 +79,7 @@ const sidebars: SidebarsConfig = {
             'dashboard/pix-design/filters-and-overlays',
             'dashboard/pix-design/microsite',
             'dashboard/pix-design/pix-ai',
+            'dashboard/pix-design/brand',
           ],
         },
         'dashboard/settings',

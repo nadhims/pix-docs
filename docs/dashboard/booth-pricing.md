@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Booth Pricing
-description: The Pricing tab of a booth, from the online shop link and the Payment on this booth switch to packages, print format, timeout, extra prints, tax and fees.
+description: The Pricing tab of a booth, from the online shop link and the Payment on this booth switch to packages, prices per mode, print format, timeout, extra prints, tax and fees.
 tags: [dashboard, pricing, payments]
 ---
 
@@ -44,6 +44,12 @@ Free sessions are a switch, never a price of 0. The form refuses 0 and tells you
 Every print count on this tab is a number of **sheets**. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the guest, so keep Prints included at 1 and set Print format to 2 inch cut; the payment screen then shows two prints. Setting the count to 2 would print two sheets.
 
 Packages need a payment method that can charge a variable amount. A QR gateway or Stripe can; a fixed-price coin box cannot. See [Hardware Payments](../desktop-app/hardware-payments.md).
+
+### Price per Mode
+
+When the booth's UI project has two or more modes (see [UI Editor](./pix-design/ui-editor.md)), a **Price per mode** grid appears: one row per mode, with **Single**, **Double** and **Group** columns. "Each mode of this booth's Pix Design project can have its own price. Leave a box empty to use the booth's price." An empty box shows the booth's own price as a hint ("Booth price" when none is set); an empty Double or Group box on a booth that doesn't sell that package reads "Not sold". A mode without packages shows "Single only".
+
+On a Multi-Booth, Price per mode shows when every booth in it runs the same Pix Design project with more than one mode; until then, set it on each booth's own Pricing tab.
 
 ## Time
 

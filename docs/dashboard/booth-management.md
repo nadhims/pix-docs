@@ -26,7 +26,7 @@ Search by name, region, device or plan. **Filter** narrows by region, status (On
 
 ![Booths row chevron menu: Rename, Unlink device, Delete booth](/img/docs/booths-row-menu.webp)
 
-**Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Devices page first.
+**Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Computers page first.
 
 ## Creating a Booth
 
@@ -62,9 +62,9 @@ The header shows the status pill (**Online** when the computer has checked in wi
 
 ### UI Project
 
-The screen design this booth runs, grouped by **Photobooth mode**, **Studio mode** and **Simple mode**. Pick one and click **Save**; the tab then shows "Booth mode". Studio mode needs Pixture Photobooth 1.1.98 or newer. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
+The screen design this booth runs, grouped by **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**. Pick one and click **Save**; the tab then shows "Booth mode" with the project's modes. Studio mode needs Pixture Photobooth 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer." Until the booth updates, every session runs the project's first mode. See [UI Editor](./pix-design/ui-editor.md) and [Studio Sessions](../desktop-app/studio-sessions.md).
 
-![Kiosk UI Project tab: dropdown grouped by Photobooth, Studio and Simple mode, Save](/img/docs/booth-ui-project-tab.webp)
+![Booth UI Project tab: the grouped project dropdown and Save](/img/docs/booth-ui-project-tab.webp)
 
 ### Pricing
 
@@ -78,7 +78,7 @@ Time, Event and Description for everything that happened on this booth: pairing,
 
 ### Device
 
-Pair, rename, unlink or remove the computer. See [Devices and Pairing](./device-management.md).
+Pair, rename, unlink or remove the computer. See [Computers and Pairing](./device-management.md).
 
 ### Settings
 
@@ -103,6 +103,6 @@ Click the **Frame Lab** cell in the property grid. The page explains the guest f
 ## Related
 
 - [Booth Pricing](./booth-pricing.md)
-- [Devices and Pairing](./device-management.md)
+- [Computers and Pairing](./device-management.md)
 - [Set Up a Booth](../tutorials/set-up-a-booth.md)
 - [Multi-Booth Setup](../guides/multi-booth-setup.md)

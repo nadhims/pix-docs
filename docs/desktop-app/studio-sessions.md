@@ -11,7 +11,7 @@ Studio mode turns the booth into a small photo studio: instead of one shot per s
 
 ## What Studio Mode Is
 
-Studio is a booth mode of a UI project. You choose it when you create the project in Pix Design (**Pix Design > UI Editor > New UI Project > Booth mode > Studio**) and assign that project to the booth on its **UI Project** tab. The dashboard shows "Booth mode: Studio" and warns if the booth's app is older than 1.1.98. The step-by-step setup is in [Studio Mode](../tutorials/studio-mode.md).
+Studio is one of a UI project's modes. You tick it when you create the project in Pix Design (**Pix Design > UI Editor > New Project > Modes > Studio**), or add it later with **Edit modes** on the Start Screen, and assign that project to the booth on its **UI Project** tab. A project can offer Studio next to Photo or Notes; guests then pick the mode on the Start Screen. The dashboard shows "Booth mode: Studio" and warns if the booth's app is older than 1.1.98. The step-by-step setup is in [Studio Mode](../tutorials/studio-mode.md).
 
 The session order is **Templates > Capture (timed pool) > Assign photos > Filter > Sharing**. Choosing the template first tells the booth how many photos the guest needs at minimum.
 

@@ -14,18 +14,18 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 ## Before You Start
 
 - **Pix Pro.** Saving a UI project needs Pix Pro.
-- **Pixture Photobooth 1.1.98 or newer** on the booth. Use 1.1.100 or newer if you want a live photo for every shot and every shot shared as a single; the current version is 1.1.115.
+- **Pixture Photobooth 1.1.98 or newer** on the booth. Use 1.1.100 or newer if you want a live photo for every shot and every shot shared as a single.
 - **A print template assigned to the booth.** Its slot count sets the minimum number of shots.
 - Optional: a remote shutter, foot switch or clicker plugged into the booth PC.
 
 ## Step 1: Create a Studio UI Project
 
 1. Go to **Pix Design > UI Editor** and click **New Project**.
-2. Enter a **Project Name**, choose the **Orientation** (Landscape 1920×1080 or Portrait 1080×1920) and pick the **Studio** booth mode card (Start, Pay, Template, Timed shoot, Pick photos, Filter, Share).
+2. Enter a **Project Name**, choose the **Orientation** (Landscape 1920×1080 or Portrait 1080×1920) and tick the **Studio** mode tile (Start, Pay, Template, Timed shoot, Pick photos, Filter, Share). Untick **Photo** for a Studio-only booth, or keep it to let guests choose on the Start Screen (Pixture Photobooth 1.2.4 or newer).
 
-   ![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/steps/tutorials-studio-mode--pix-design-new-ui-project-modal.webp)
+   ![New UI Project modal with Project Name, Orientation and the mode tiles](/img/docs/steps/tutorials-studio-mode--pix-design-new-ui-project-modal.webp)
 
-3. Create the project. The editor opens with the usual page tabs plus **Assign photos**.
+3. Click **Create Project**. The editor opens with the usual page tabs plus **Assign photos**.
 
 ## Step 2: Design the Capture Page
 
@@ -45,9 +45,9 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 
 ## Step 4: Assign the Project to the Booth
 
-1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Photobooth mode**, **Studio mode** and **Simple mode**; pick your project under Studio mode. The page then reads "Booth mode: Studio".
+1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**; pick your project under Studio mode (or under Several modes if you kept Photo too). The page then reads "Booth mode: Studio".
 
-   ![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode, and Save](/img/docs/steps/tutorials-studio-mode--booth-ui-project-tab.webp)
+   ![Booth UI Project tab with the grouped project dropdown and Save](/img/docs/steps/tutorials-studio-mode--booth-ui-project-tab.webp)
 
 2. Click **Save**. A warning appears if the booth's app is older than 1.1.98.
 3. To put the same design on several booths at once, use the card menu on **Pix Design > UI Editor** and choose **Assign to booths**.

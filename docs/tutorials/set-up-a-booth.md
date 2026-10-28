@@ -41,12 +41,12 @@ A new account comes with two ready-made 4x6 templates, Classic Black and Classic
 ## Step 3: Choose the booth's screen design
 
 1. Open the **UI Project** tab.
-2. Pick a design from the dropdown. It is grouped by **Photobooth mode**, **Studio mode** and **Simple mode**, and the tab shows the resulting **Booth mode**.
+2. Pick a design from the dropdown. It is grouped by **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**, and the tab shows the resulting **Booth mode**.
 3. Click **Save**.
 
-![Kiosk UI Project tab with the dropdown grouped by Photobooth, Studio and Simple mode and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
+![Booth UI Project tab with the grouped project dropdown and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
-Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth PC.
+Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth PC, and a project with several modes needs 1.2.4 or newer.
 
 ## Step 4: Choose filters
 
@@ -78,7 +78,7 @@ The same tab sets the booth's **Active Gateway** (**Organization Default** unles
 
 ## Step 7: Pair the computer
 
-1. Open the **Device** tab and, under **Pairing & access**, click **Generate code**.
+1. Open the **Computer** tab and, under **Pairing & access**, click **Generate code**.
 2. The **Pair a computer** popup shows a 6-digit code that expires in 10 minutes. **Copy code** puts it on the clipboard; **New code** issues a fresh one. If your free trial is unused and no Pix Pro or Event Pass is free for the computer, the popup first offers **Start free trial** (your 3 days start when the computer connects) or **Pair without the trial**.
 
 ![Pair a computer popup with the 6-digit code, the expiry countdown, Copy code, New code and Done](/img/docs/steps/tutorials-set-up-a-booth--booth-pairing-code.webp)
@@ -112,11 +112,11 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 | Symptom | Cause | Fix |
 |---|---|---|
 | The pairing code is refused | Codes expire after 10 minutes | Click **New code** and enter the new code |
-| "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Devices page, add a device, or use an Event Pass. Pix Starter runs one computer |
+| "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Computers page, add a computer, or use an Event Pass. Pix Starter runs one computer |
 | The booth shows Offline or Unknown | No contact from the computer in the last 12 minutes | Check the computer's internet connection and that the Pixture Photobooth app is running |
 | Guests see no templates | Nothing is assigned on the Templates tab | Assign at least one template and click **Save Templates** |
 | Every session is free | **Payment on this booth** is off, or the computer is on Pix Starter | Turn the switch on and connect a gateway; Pix Starter skips the Payment screen |
-| Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Devices page |
+| Photos carry a Pixture watermark | The computer is on Pix Starter | Start the free trial or buy Pix Pro on the Computers page |
 
 ## Related
 

@@ -38,6 +38,8 @@ tags: [transactions, payments, export, excel]
 
 Each row shows when the payment happened, the booth, the template, the package, the amount and how it was paid: your QR gateway, a voucher, coin or card hardware, or free. Rows captured during an event carry an event chip, so the client's takings are easy to pick out.
 
+The **Payment** column shows the payment status: **Success**, **Pending**, **Failed**, **Refunded**, **Voucher**, **Staff** or **Free**. "Staff = started with the booth PIN, not a sale." Staff sessions are never counted as a sale.
+
 Some rows carry a type label:
 
 | Label | What it means |

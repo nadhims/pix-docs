@@ -73,6 +73,7 @@ The project opens in the editor. If no PNG is loaded yet, the canvas reads "Drop
 - The toolbar has **Undo**, **Redo**, zoom, **Preview** (the layout with sample photos), **Remove BG**, **Re-upload** (swap the artwork and keep the project) and **Save**.
 - The side panel lists **Photo Slots (n)**, detected from the transparent areas. Use **Add slot manually** for a slot the detection missed, or for a slot over an opaque area.
 - **Add QR code** places a QR block on the print. The booth fills it with the guest's share link, so a printed strip leads back to the digital copies.
+- **+ Add note area** places the **Note area** for Notes sessions: "where the guest's drawing from the Notes screen is printed." One per template; without it the guest draws on the whole print. Drag and resize it on the canvas; select it and press its **x** (or Delete) to remove it.
 - **Media Type** can be changed here as well.
 - The canvas shows white under the artwork, because the booth prints on white. If the artwork takes a while to arrive, a **Loading artwork...** bar shows the progress; if it stalls, click **Retry**.
 
@@ -92,7 +93,7 @@ The project opens in the editor. If no PNG is loaded yet, the canvas reads "Drop
    - **Smooth edge** softens the cut by 0 to 3 px, so no hard white fringe is left around the photo.
 5. Click **Remove** (or press Enter). The editor makes the area transparent, saves the new artwork and adds a photo slot for each new transparent area. **Clear** starts the selection over, **Done** closes the tool.
 
-One **Undo** reverts a removal together with the slots it added. Running **Remove BG** again never adds a second slot over an area your slots already cover.
+When a removal widens the hole around one existing slot, that slot grows to fill the cleared area, so no white gap prints around the photo; the editor says "A slot now fills the cleared area". One **Undo** reverts a removal together with the slots it added. Running **Remove BG** again never adds a second slot over an area your slots already cover.
 
 ### Photo Slot Options
 

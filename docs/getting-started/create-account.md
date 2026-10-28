@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Create Your Account
-description: Sign up at pixture.io with email, Google or Apple, complete your profile with a WhatsApp code, answer the Quick setup and land in your new dashboard.
+description: Sign up at pixture.io with email, Google or Apple, complete your profile with a WhatsApp code, set up with Lucy and land in your new dashboard.
 tags: [getting-started, account, signup]
 ---
 
@@ -35,32 +35,45 @@ By the end of this page you have a Pixture account, an organisation named after 
 
 If you signed up with Google or Apple, you see a shorter **Set up your account** page instead: enter your **Business name**, verify your phone number the same way, and click **Get started**.
 
-## Quick Setup
+## Set Up With Lucy
 
-The first thing the dashboard shows is onboarding. It has two steps.
+The first thing the dashboard shows is a short chat with Lucy, the dashboard assistant. It takes a minute. **Skip setup** in the top bar leaves it at any time.
 
-1. On **1 · Quick setup**, check the fields:
+1. Lucy says hello and asks "Which one sounds like you?" Pick a card:
+
+   | Card | For |
+   |---|---|
+   | **I run events** | Weddings, parties |
+   | **I run a kiosk** | A self-service photobooth |
+   | **I do both** | Events and a kiosk |
+   | **I'm just starting** | No booth yet |
+
+   Lucy answers with the words you'll see a lot (or, if you are just starting, what a photobooth business needs). **Change** under your answer picks again.
+
+2. "Quick check of your details. Change anything that's wrong." Check the fields:
 
    | Field | What to enter |
    |---|---|
-   | **Organization Name** | Your business name, already filled in from sign-up |
-   | **Timezone** | Detected from your browser and shown as "Detected: …". Change it if the booth lives somewhere else |
-   | **Currency** | The currency your booths charge in. Any ISO currency |
-   | **Booth Name** | The name of your first booth. The hint says: "Give it a name that helps you identify this booth's purpose or location." |
-   | **Location** | Optional, for example the mall or venue |
+   | **Business name** | Already filled in from sign-up |
+   | **Timezone** | Picked from your browser. Change it if the booth lives somewhere else |
+   | **Currency** | The currency your booths charge in |
+   | **Booth name** | The name of your first booth. Kiosk and both only |
+   | **Location** | Optional, for example a mall, cafe or city. Kiosk and both only |
 
-   ![Onboarding step 1, Quick setup, with Organization Name, Timezone, Currency, Booth Name and Location filled and a Continue button](/img/docs/onboarding-quick-setup.webp)
+3. Click **Looks good**. The details fold into one line with an **Edit** link. You can change them later under **Settings**.
+4. Lucy suggests the next step, with a few quick questions you can tap to ask her:
+   - **I run events**: **Create my first event**.
+   - **I run a kiosk**: **Set up my kiosk**.
+   - **I do both**: **Create my first event** or **Set up my kiosk**.
+   - **I'm just starting**: **Try it on this computer**. This opens an install card: download the Pixture Photobooth app, then pair it with the code shown. If your account has no Pix Pro yet, the card offers **Start free trial** (3 days of Pix Pro on that computer) or **Pair without the trial**, and **Go to Dashboard** when you are done.
 
-2. Click **Continue**. **Skip for now** also works; you can rename the organisation later under **Settings > General** and set the timezone and currency under **Settings > Preferences**.
-3. On **2 · You're ready**, the dashboard lists what comes next: install the app, pair your booth, run a test session. Click **Go to Dashboard**.
-
-   ![Onboarding step 2, You're ready, listing Install the app, Pair your booth and Run a test session with a Go to Dashboard button](/img/docs/onboarding-ready.webp)
+   ![Onboarding chat with Lucy](/img/docs/onboarding-quick-setup.webp)
 
 ## Your New Dashboard
 
-You land on the dashboard home. Until the booth is paired and has run a session, every page shows a setup banner: "Your photobooth isn't fully working yet. Complete your setup to start taking photos (2 of 4 steps done)." with **Watch the setup video** and **Install the app**. The banner goes away on its own once setup is complete.
+You land on the dashboard. Until the booth is paired and has run a session, every page shows a setup banner: "Your photobooth isn't live yet. N of 3 done: install the app, pair it, run a test session." Its button is the next step (**Install the app**, **Pair your photobooth** or **Run a test session**), and **Watch the setup video** may show next to it. The banner goes away on its own once setup is complete.
 
-![The dashboard of a brand new account with the setup banner showing 2 of 4 steps done and an Install the app button](/img/docs/dashboard-new-account.webp)
+![The dashboard of a brand new account with the setup banner](/img/docs/dashboard-new-account.webp)
 
 A few things worth knowing on day one:
 

@@ -12,23 +12,24 @@ Guests meet your brand on the booth screen, on the print, on the GIF and on the 
 ## Before you start
 
 - Pix Pro on the account. On Pix Starter every tool below is open to browse and try, but saving needs Pix Pro.
-- Your logo as a square PNG, 200 x 200 px, under 2 MB.
+- Your logo as a PNG or SVG, up to 2 MB. A transparent background looks cleanest.
 - Template artwork as a PNG with transparent areas where photos go, under 15 MB.
 
-## Step 1: Upload your logo
+## Step 1: Set your brand
 
-1. Open **Settings > General**.
-2. Under **Organization**, tap **Upload Logo** and pick the PNG.
+1. Open **Pix Design > Brand**.
+2. Under **Logo**, tap **Add your logo** and pick the file. If it is dark, tap **Make a white version** (or **Upload a light version**) so it shows on dark booth screens.
+3. Set the **Brand palette** (**Accent**, **Dark**, **Light**), the **Buttons** style (**Gradient** or **Flat**) and the **Fonts** (**Heading** and **Body**).
 
-The logo appears on the share page and wherever the dashboard shows your organization.
+Your brand becomes the default look of your events, share pages and UI projects, and it turns on with Pix Pro or an Event Pass. The logo also shows wherever the dashboard shows your organization. See [Brand](../dashboard/pix-design/brand.md).
 
 ## Step 2: Design the booth screens
 
-1. Open **Pix Design > UI Editor** and open a UI project, or tap **New Project** (name, **Orientation** and **Booth mode**).
-2. Pick a page tab: **Start Screen**, **Payment Screen**, **Templates**, **Capture**, **Review**, **Filter** or **Sharing**.
+1. Open **Pix Design > UI Editor** and open a UI project, or tap **New Project** (name, **Orientation** and one or more **Modes**: **Photo**, **Studio**, **Notes** or **Simple**).
+2. Pick a page tab: **Start Screen**, **Payment Screen**, **Templates**, **Capture**, **Review**, **Adjust**, **Filter** or **Sharing**.
 3. Set the **Page Background** to a **Solid Color**, **Image**, **Gradient** or, on the start screen, a **Video**.
 4. Add blocks such as **Text**, **Image**, **Start Button** and **Template Cards**, and set their fonts and colours.
-5. Tap **Save Changes**.
+5. Tap **Save**.
 6. Assign the project on each booth's **UI Project** tab and tap **Save**.
 
 Keep one project for all booths that should look the same; make a copy with **Duplicate** when a venue needs its own look.
@@ -78,6 +79,7 @@ Set the language guests see on the booth under **Settings > Preferences > Booth 
 ## Related
 
 - [Pix Design Overview](../dashboard/pix-design/overview.md)
+- [Brand](../dashboard/pix-design/brand.md)
 - [Microsite](../dashboard/pix-design/microsite.md)
 - [Events](../dashboard/events.md)
 - [Settings](../dashboard/settings.md)

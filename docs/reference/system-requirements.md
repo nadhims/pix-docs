@@ -9,7 +9,7 @@ tags: [reference, requirements, hardware]
 
 ## Pixture Photobooth app
 
-The Pixture Photobooth app is the booth application. It runs on macOS and Windows. The current version is 1.1.115.
+The Pixture Photobooth app is the booth application. It runs on macOS and Windows.
 
 ### Operating system
 

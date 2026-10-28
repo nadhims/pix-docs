@@ -28,7 +28,7 @@ If your booths trade in more than one currency, a row of "Showing" pills appears
 
 ### Revenue
 
-Paid photo sessions in the period, with a "vs previous period" chip and the month-to-date total. Click the eye icon to hide the figure when someone is looking over your shoulder; click it again to show it.
+Paid photo sessions in the period, with a chip that compares it with the same stretch of the previous period, labelled with those dates (for example "vs Sep 1–8"), and the month-to-date total. Click the eye icon to hide the figure when someone is looking over your shoulder; click it again to show it.
 
 ### Sessions
 

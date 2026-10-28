@@ -30,9 +30,9 @@ No merchant account yet, or unsure where each key lives on the provider's dashbo
    ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/steps/tutorials-accept-payments--settings-gateway-providers.webp)
 
 3. Fill in the keys from your gateway's merchant dashboard.
-   - **DOKU:** Secret Key, Client ID, Merchant ID, and a Merchant Private Key (RSA 2048), each with a **How to find this?** expander. Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.
+   - **DOKU:** **Secret Key**, **Brand ID** (the `BRN-` number under your business name in the DOKU Dashboard), **QRIS Client ID** (numbers only, from DOKU's **QRIS Credential Settings** tab), and a **Merchant Private Key (RSA 2048)**, each with a **How to find this?** expander. Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.
 
-     ![Add Payment Gateway modal, DOKU form with Secret Key, Client ID, Merchant ID, Merchant Private Key and Sandbox Mode](/img/docs/steps/tutorials-accept-payments--settings-gateway-doku.webp)
+     ![Add Payment Gateway modal, DOKU form with Secret Key, Brand ID, QRIS Client ID, Merchant Private Key and Sandbox Mode](/img/docs/steps/tutorials-accept-payments--settings-gateway-doku.webp)
 
    - **Midtrans:** Server Key and Client Key.
    - **Stripe:** the Secret key. It must start with `sk_` or `rk_`; Pixture checks the key when you save. There is no Sandbox switch for Stripe: the key itself decides test or live, and an `sk_test_` key creates charges that never pay out.

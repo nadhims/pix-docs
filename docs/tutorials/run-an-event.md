@@ -1,20 +1,20 @@
 ---
 sidebar_position: 7
 title: Run an Event
-description: Create an event with the wizard, pair the computers that run it, give it a booth mode, outputs, templates and a booth look, share the online album with the client, and read the report when it ends.
+description: Create an event with the wizard, pair the computers that run it, give it modes, outputs, templates and a start screen, share the online album with the client, and read the report when it ends.
 tags: [tutorials, events, album, event-pass]
 ---
 
 # Run an Event
 
-In this tutorial you will create an event with the wizard, pair the computers that run it, set its booth mode, outputs, templates and booth look, share the online album with your client and read the report afterwards. The dashboard work takes about 15 minutes; the event then runs itself on its dates.
+In this tutorial you will create an event with the wizard, pair the computers that run it, set its modes, outputs, templates and start screen, share the online album with your client and read the report afterwards. The dashboard work takes about 15 minutes; the event then runs itself on its dates.
 
 ## Before You Start
 
 - **A license for every computer on the event**: Pix Pro, or an **Event Pass** (24 hours of Pix Pro on one computer, starting when you use it at the booth). You can buy one before the day, or from the event page when you pair.
 - **Templates for the event**, either your own in Pix Design or one of Pixture's free template packs (when packs are available).
 - **A payment gateway connected** (**Settings > Payment Gateway**) if guests pay per photo session at the event.
-- **The Pixture Photobooth 1.1.127 or newer** on each computer, installed now or at the venue.
+- **Pixture Photobooth 1.2.1 or newer** on each computer (1.2.2 or newer for Roaming or a price per mode), installed now or at the venue.
 
 ## Step 1: Create the Event
 
@@ -22,22 +22,22 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Events page with one ongoing event card and the + Create Event button](/img/docs/steps/tutorials-run-an-event--events-list.webp)
 
-2. Fill in **Event Name** and **Client**. Under **Booth mode** the event starts as **Photobooth**; click **Change** to pick **Studio** or **Video** instead. Under **Output**, untick anything guests should not get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
+2. Fill in **Event Name** and **Client**. Under **Modes**, tick the modes guests can pick on the booth: **Photo** (on by default), **Video**, **360/Slow-mo**, **Studio**, **Notes** or **Roaming**. Under **Output**, untick anything guests should not get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
 
    ![Create Event wizard, Details step with Booth mode and Output](/img/docs/event-create-wizard.webp)
 
 3. **Templates**: click **Configure** and tick the templates guests can choose from, or skip this and add them on the Setup tab later. **Next**.
-4. **Screens**: the **Appearance** is the screen design the booth shows. Click **Configure** to pick one; the list holds only designs made for the booth mode you picked, and a Landscape / Portrait switch filters it. Leave the Default Layout or choose your own. **Next**.
+4. **Screens**: "You set up the start screen on the event page, after you create the event." **Next**.
 5. **Payment**: turn on **Pay Per Session** and enter the **Session price** if guests pay at this event, then switch on **Double session price**, **Group session price** or **Additional session price** only for the packages you sell; leave it off for a client-paid event. Pick a **Payment gateway** or keep the organization default.
 6. Click **Create event**. The event page opens on the **Setup** tab with the **Pair a computer** popup already open.
 
 ## Step 2: Understand the Event Status
 
-1. The event page opens with the name, dates, a status chip and a badge that reads **FREE FOR GUESTS** or **Paid sessions**. The chip says **ONGOING** from the moment you create the event; there is no Start button. If the dates are still ahead, the computers switch to the event's templates, screen design and prices on the first date.
+1. The event page opens with the name, dates, a status chip and a badge that reads **FREE FOR GUESTS** or **Paid sessions**. The chip says **ONGOING** from the moment you create the event; there is no Start button. If the dates are still ahead, the computers switch to the event's templates, start screen and prices on the first date.
 
    ![Event page with name, date, ONGOING chip, FREE FOR GUESTS badge, Link Sharing switch, overview cards and the Album, Setup and Report tabs](/img/docs/steps/tutorials-run-an-event--event-detail.webp)
 
-2. The event ends by itself the day after its last date, and its computers follow the event dates plus one night of grace. While the event runs, each computer on it uses the event's templates, booth look, prices and gateway instead of its booth's own.
+2. The event ends by itself at 06:00 the morning after its last date (your organization's time), so a party past midnight keeps running. Computers paired with the event's code are never stopped by the dates: they keep the event until you archive it. While the event runs, each computer on it uses the event's templates, start screen, prices and gateway instead of its booth's own.
 
 ## Step 3: Pair the Computers
 
@@ -45,26 +45,27 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Event Setup tab with setup progress, the Computers card, Booth mode, Output and Appearance](/img/docs/event-setup-computers.webp)
 
-2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **New code**, when a license is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get a license first": click **Buy license**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
+2. In the **Computers** card, click **+ Pair a computer** (or use the popup that opened after you created the event). You get a 6-digit code, with **Copy code** and **New code**, when an Event Pass or a spare Pix Pro is available for it: an unused Event Pass, or a Pix Pro that is on no computer. If not, the popup says "Get Pix Pro or an Event Pass first": click **Add computer**, choose **Event Pass** (for an event) or **Pix Pro** (for regular use), pay, and the dashboard brings you back here with the code. **Pair later** closes the popup; a waiting row then has **Show code**.
 
    ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
 
 3. At the venue, open the Pixture Photobooth app. On a fresh computer, enter the code on the login screen. On a computer that is already set up, open the operator menu and tap **Pair with a code**; it does not log you out. Repeat for every computer at the event.
-4. Each paired computer appears in the **Computers** card. **Needs license** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.
+4. Each paired computer appears in the **Computers** card. **Needs Pix Pro or Event Pass** means it has no Event Pass or Pix Pro yet. On the day, the booth asks "Use an Event Pass for today?": tap **Use Event Pass** (or **Use Pix Pro** if one is free). Its row then shows **Event Pass** with a countdown.
 
 :::tip Bringing a computer that already runs Pix Pro
 Unlink it from its everyday booth on the dashboard first. That puts its Pix Pro back in your account, the event shows a pairing code, and the computer pairs in on its own Pix Pro.
 :::
 
-## Step 4: Booth Mode, Output and Appearance
+## Step 4: Modes, Output and Start Screen
 
-1. Under **Booth mode**, the box shows the event's mode. **Change** opens the picker: **Photobooth**, **Studio** or **Video** (**AI Photobooth** and **360 Slow-mo** are marked **Soon**). An event has one mode, and every computer on it uses it; changing it keeps the computers paired, and each booth picks it up on its next Start screen.
+1. Under **Booth mode**, the event's modes are cards. **Edit modes** turns modes on or off; every computer on the event offers them, and each booth picks up a change on its next Start screen.
+2. On the **Appearance** tab, click **Edit appearance** to design the start screen: background, text, logo, colours, the countdown and the session timer. **Save**, then **Try it full screen** to try it as a guest. See [Event Start Screen](../dashboard/event-start-screen.md).
+3. The **Output** tab lists what guests get. **Change** opens the four options with a picture and a line each; tick the ones you want and **Save**. With **Prints** ticked, the same window sets **Auto print**, **Max prints per session** and **Show a Print button on Share**. Every computer on the event follows it.
+4. On an event created before the start screen, the Setup tab shows **Booth mode**, **Output** and **Appearance** boxes instead, each with **Change**: one booth mode for the whole event, and a screen design made for it.
 
    ![Booth mode picker with Photo and Video groups](/img/docs/event-booth-mode-picker.webp)
 
-2. The **Output** box lists what guests get. **Change** opens the four options with a picture and a line each; tick the ones you want and **Save**. Every computer on the event follows it.
-3. The **Appearance** box shows the screen design. **Change** lists the designs made for the event's booth mode, by screen orientation.
-4. With **Video**, the video settings appear below: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, an **Overlay** (or an orientation when there is none) and optional **Intro video** and **Outro video**. They save as you go. See [Event Video Modes](../desktop-app/event-video-modes.md).
+5. With **Video**, the **Video** tab holds the video settings: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, an **Overlay** (or an orientation when there is none) and optional **Intro video** and **Outro video**. They save as you go. See [Event Video Modes](../desktop-app/event-video-modes.md).
 
 ## Step 5: Assign Templates
 
@@ -72,16 +73,16 @@ Unlink it from its everyday booth on the dashboard first. That puts its Pix Pro 
 
    ![Manage Templates modal on an event](/img/docs/steps/tutorials-run-an-event--event-manage-templates-modal.webp)
 
-2. **Countdown**, **Mirror** and **Overlay** sit next to it: the countdown before each shot (1 to 10 seconds), mirroring the live view and the saved photo like a selfie, and the overlay drawn over GIFs and videos.
+2. **Mirror** and **GIF template** sit next to it: mirroring the live view and the saved photo like a selfie, and the frame drawn over GIFs. The countdown before each shot (1 to 10 seconds) is set in **Edit appearance**.
 
-:::note
+:::info
 An event's template set is exclusive. While the event runs, the booth offers only the templates assigned here, not its everyday set. Assign at least one before the doors open.
 :::
 
 ## Step 6: Share the Album
 
 1. **Link Sharing** is ON from the moment the event is created. Click **Copy** next to the album link and send it to the client. Guests and the client see every photo at that link as it uploads, and the booth shows the album's QR code on its share screen.
-2. Use the toolbar above the tabs: **Embed** gives an iframe snippet for the client's website, **Slideshow** opens a full-screen slideshow for a venue screen (only while sharing is on), **Download all** zips every photo, and **Analytics** charts sessions and prints over the day.
+2. Use the toolbar above the tabs: **Embed** gives an iframe snippet for the client's website, **Slideshow** opens a full-screen slideshow for a venue screen (only while sharing is on; its look is set on the **Slideshow** tab), **Download all** zips every photo, and **Analytics** charts sessions and prints over the day.
 
    ![Embed modal for the public event album](/img/docs/steps/tutorials-run-an-event--event-embed-modal.webp)
 
@@ -95,21 +96,22 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 
    ![Event Report tab with per-booth health and incidents](/img/docs/steps/tutorials-run-an-event--event-report.webp)
 
-4. **Edit** changes the dates, prices or gateway at any time until the event ends, even while it is live. **Delete Event** in the toolbar removes it. The day after the last date the event ends by itself, and the computers are released the night after.
+4. **Edit** changes the dates, prices or gateway at any time until the event ends, even while it is live. **Delete Event** in the toolbar removes it. At 06:00 the morning after the last date the event ends by itself. Older computers paired before Event mode are released then; Event mode computers keep the event until you archive it.
 
 ## Check It Worked
 
-- Start a session on one of the event's computers. The template screen shows only the event's templates and the screen design you picked.
+- Open the booth on one of the event's computers. It shows your start screen with a button for each mode, and the template screen shows only the event's templates.
 - Finish the session. The **Sessions** card on the event page counts it, the photo appears on the **Album** tab and at the album link, and the row on **Transactions** shows the event chip.
 
 ## Troubleshooting
 
 | What you see | What to check |
 |---|---|
-| **Pair a computer** says "Get a license first" | No unused Event Pass and no Pix Pro on no computer. Click **Buy license**, or unlink a Pix Pro computer from its booth to free its Pix Pro. |
-| A computer shows **Needs license** | Tap **Use Event Pass** (or **Use Pix Pro**) on the booth, or click **Use Pix Pro** on its row if a Pix Pro is free. |
-| The booth says it needs an Event Pass or Pix Pro "before it can start sessions" | The same: it has no license yet. Buy Event Passes on your phone from the QR on that screen, then tap **Recheck**. |
+| **Pair a computer** says "Get Pix Pro or an Event Pass first" | No unused Event Pass and no Pix Pro on no computer. Click **Add computer**, or unlink a Pix Pro computer from its booth to free its Pix Pro. |
+| A computer shows **Needs Pix Pro or Event Pass** | Tap **Use Event Pass** (or **Use Pix Pro**) on the booth, or click **Use Pix Pro** on its row if a Pix Pro is free. |
+| The booth says it needs an Event Pass or Pix Pro "before it can start sessions" | The same: it has no Event Pass or Pix Pro yet. Buy Event Passes on your phone from the QR on that screen, then tap **Recheck**. |
 | The booth still shows its everyday templates | The computer is not paired to the event, or the event's dates do not include today. Check the **Computers** card and the dates under **Edit**. |
+| The booth shows Photo strip instead of the mode buttons | It runs an older Pixture Photobooth. The event page names it; update the app. |
 | Guests see nothing on the template screen | No template is assigned to the event. Add one on the **Setup** tab. |
 | The album link does not open | **Link Sharing** is OFF. Turn it on again. |
 | A mode change does not reach the booth | The booth picks it up on its Start screen; finish the current session first. |

@@ -44,8 +44,8 @@ While you wait for verification, everything below works with the provider's test
 | Field in Pixture | Where to find it | Looks like |
 |---|---|---|
 | **Secret Key** | DOKU Dashboard > Settings > Account > API Keys > **Active Secret Key**. Click Reveal Key, pass the OTP, copy | `SK-RG...` |
-| **Client ID** | DOKU Dashboard > Settings > Account > API Keys > **Client ID** | `BRN-0216-1770968840103` |
-| **Merchant ID** | DOKU Dashboard > Settings > Checkout Appearance > **QRIS Credential Settings** tab. A number, not your Client ID | `18545` |
+| **Brand ID** | DOKU Dashboard, top left, under your business name | `BRN-0216-1770968840103` |
+| **QRIS Client ID** | DOKU Dashboard > Settings > Checkout Appearance > **QRIS Credential Settings** tab > **Client ID**. Numbers only | `114621` |
 | **Merchant Private Key (RSA 2048)** | In the Pixture form, click **Generate for me**. Pixture creates the key pair in your browser and shows the public key; paste that public key in DOKU Dashboard > Settings > Account > API Keys > **Edit Merchant Public Key** | `-----BEGIN PRIVATE KEY-----` |
 
 **Stripe** needs one value.
@@ -66,9 +66,9 @@ Stripe shows a secret key only once. If yours is gone, click **Create secret key
 ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-providers.webp)
 
 3. Paste the values from Step 3. Each field has a **How to find this?** expander with the same path as the table above.
-   - **DOKU:** Secret Key, Client ID, Merchant ID and the Merchant Private Key (click **Generate for me**, then copy the public key it shows into the DOKU Dashboard before you continue). Turn **Sandbox Mode** on while you use sandbox keys, and off with the live keys.
+   - **DOKU:** Secret Key, Brand ID, QRIS Client ID and the Merchant Private Key (click **Generate for me**, then copy the public key it shows into the DOKU Dashboard before you continue). Turn **Sandbox Mode** on while you use sandbox keys, and off with the live keys.
 
-![Add Payment Gateway modal, DOKU form with Secret Key, Client ID, Merchant ID, Merchant Private Key, Generate for me and Sandbox Mode](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-doku.webp)
+![Add Payment Gateway modal, DOKU form with Secret Key, Brand ID, QRIS Client ID, Merchant Private Key, Generate for me and Sandbox Mode](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-doku.webp)
 
    - **Stripe:** the Secret Key. **Currency** stays on Organization default unless this gateway charges in a different currency from your account. There is no Sandbox switch for Stripe: the key decides test or live. Leave the **Webhook** section alone for now; it is not needed to take payments.
 

@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, microsite, sharing]
 
 # Microsite (Share Page)
 
-Every photo session gets its own page on pixture.io. The guest scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo, each with a download button, under your organization's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
+Every photo session gets its own page on pixture.io. The guest scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo (and, for a Notes session with a note template, the guest's **Note**), each with a download button and a **Download All** that counts every file, under your organization's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
 
 ![Microsite page with the Page, Header, Buttons, Promo banner and Menu links tabs, the colour, font, background and photo settings, and the live preview of the guest download page](/img/docs/pix-design-microsite.webp)
 
@@ -15,8 +15,8 @@ Every photo session gets its own page on pixture.io. The guest scans the QR code
 
 The link looks like `pixture.io/s/…` and is unique per session. It shows:
 
-- The composite (the print layout with the guest's photos), the single photos, the GIF and the live photo, as far as the booth's [Output Settings](../booth-management.md) allow.
-- Your organization logo from **Settings > General**, and the header, colours, buttons and links you set here.
+- The composite (the print layout with the guest's photos), the single photos, the GIF and the live photo, as far as the booth's [Output Settings](../booth-management.md) allow. A Notes session with a note template adds a **Note** button for the guest's note, and **Download All** includes it.
+- Your logo from **Pix Design > Brand** (see [Brand](./brand.md)), and the header, colours, buttons and links you set here.
 - The promo popup, if you turned it on.
 - On beta accounts with an AI portrait price set, a banner that leads to the AI portrait shop. See [Pix AI (Beta)](./pix-ai.md).
 
@@ -28,7 +28,7 @@ Open **Pix Design > Microsite**. The settings are grouped in five sections, with
 
 | Section | What it controls |
 |---|---|
-| **Page** | The page's background and text colours, with a **Background image** to replace the flat colour |
+| **Page** | The page's background and text colours, with a **Background image** to replace the flat colour, and **Show first**: which file the page opens on (**Live Photo** by default, **Prints**, **GIF** or **Singles**). A session without that file opens on **Prints**; a video session always opens on its video |
 | **Header** | The banner at the top of the page, with an optional link |
 | **Buttons** | The look of the download buttons guests tap |
 | **Promo banner** | An image popup shown when the page opens, with an optional link |

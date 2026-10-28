@@ -22,23 +22,24 @@ In this tutorial you will create a UI project in Pix Design, design the Start, P
 
 ![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-projects.webp)
 
-3. Type a **Project Name**, pick the **Orientation** (**Landscape 1920×1080** or **Portrait 1080×1920**) and a **Booth mode**, then create the project.
+3. Type a **Project Name**, pick the **Orientation** (**Landscape 1920×1080** or **Portrait 1080×1920**), tick one or more **Modes** and click **Create Project**.
 
-![New UI Project modal with Project Name, Orientation and the Photobooth, Studio and Simple booth mode cards](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-new-ui-project-modal.webp)
+![New UI Project modal with Project Name, Orientation and the mode tiles](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-new-ui-project-modal.webp)
 
-Booth mode sets the flow the design follows:
+Each mode sets the flow its sessions follow:
 
-| Booth mode | Flow |
+| Mode | Flow |
 |---|---|
-| Photobooth | Start, Pay, Template, Shoot per slot, Filter, Share |
+| Photo | Start, Pay, Template, Shoot per slot, Filter, Share |
 | Studio | Start, Pay, Template, Timed shoot, Pick photos, Filter, Share |
+| Notes | Start, Pay, Template, Shoot, Filter, Draw, Share |
 | Simple | Start, Pay, B&W or colour, Shoot, Share |
 
-Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth. See [Studio Sessions](../desktop-app/studio-sessions.md).
+"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." With two or more modes, guests pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
 
 ## Step 2: Find your way around the editor
 
-- **Page tabs** across the top: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Filter and Sharing (a Studio project adds Assign photos). Each tab is one booth screen. Custom Screen is an optional extra page; include it with **Enabled in session flow**.
+- **Page tabs** across the top: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter and Sharing (a Studio project adds Assign photos, a Notes project adds Notes). Each tab is one booth screen. Custom Screen is an optional extra page; include it with **Enabled in session flow**.
 - **Canvas** in the middle, with **Fit**, zoom and **1:1** controls, **Snap** for alignment, undo and redo.
 - **Floating palette** at the bottom of the canvas adds blocks: Text, Image, Start Button, Next Button, Live View, Template Cards, Preview Cards, QR Code, Session Timer, Filter Strip and more.
 - **Right rail**: **PAGE BACKGROUND** first (Type: **Solid Color**, **Image**, **Gradient**, or **Video** on the Start Screen), then the page's own settings, then the settings of the selected block.
