@@ -151,7 +151,38 @@ Start here when the booth cannot see, control or fire the camera. Problems are o
 1. Allow Pixture Photobooth there.
 2. Restart the app.
 
+This permission only covers webcams. A Canon, Sony, Nikon or Fujifilm connected over USB does not use it.
+
 **Still stuck:** Send support the app version and the macOS version.
+
+### "BRIDGE_NOT_CONNECTED" on a Mac
+
+**On screen:** "BRIDGE_NOT_CONNECTED: Camera sidecar not connected", and no camera of any kind connects, not even the built-in webcam.
+
+**Also described as:** "camera sidecar not connected", "kamera tidak terdeteksi di Mac".
+
+**Check first:** The app version at the bottom of the operator menu.
+
+**Fix:**
+1. Update to Pixture Photobooth 1.2.18 or later from [pixture.io/download](https://pixture.io/download). Versions before 1.2.18 could not start the camera helper on macOS 13 to 15.
+2. Open the app again and check **Camera Settings > STATUS**.
+
+**Still stuck:** Send support the app version, the macOS version and the camera log (**Camera Settings > Show Diagnostics > Copy Today's Logs**).
+
+### A Sony works on Windows but not on a Mac
+
+**On screen:** On the Mac, the Sony is listed but never connects; the **Error** line or CAMERA LOG shows "Sony connect failed (0x8208)". The same camera and cable work on a Windows computer.
+
+**Also described as:** "sony bisa di windows tapi tidak di mac", "PC Remote not detected on MacBook".
+
+**Check first:** The camera's USB mode is **PC Remote**, and the app is 1.2.18 or later.
+
+**Fix:**
+1. This is a known issue on some Macs: macOS takes hold of the camera before the app can. A fix is coming in the next app update.
+2. Until then, run the booth on a Windows computer with the same camera.
+3. The Mac needs no Sony driver and no camera permission for this, so do not change those.
+
+**Still stuck:** Send support the macOS version and the camera log.
 
 ## Related
 
