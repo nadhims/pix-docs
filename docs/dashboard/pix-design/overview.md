@@ -9,7 +9,7 @@ tags: [dashboard, pix-design, templates, booth]
 
 **Pix Design** is the design area of the Pixture dashboard. Everything a guest sees or takes home from a photo session comes from here: your brand's logo, colours and fonts, the print template their photos land in, every screen on the booth, the colour filters they can pick, the frame drawn on animated GIFs and event videos, the share page they open on their phone, and (for beta accounts) the AI looks they can choose. Open it from **Pix Design** in the sidebar.
 
-![Pix Design hub with the Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/pix-design-hub.webp)
+![Pix Design hub with the Brand, Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/pix-design-hub.webp)
 
 ## The Seven Areas
 
@@ -33,7 +33,7 @@ The hub is a set of cards. Each opens one editor.
 
 A new account starts with two ready-made 4x6" print templates, Classic Black and Classic White, and one screen design called Default Layout. That is enough to run a booth on day one.
 
-![Pix Design hub on Pix Starter with the banner You are on Pix Starter](/img/docs/pix-design-starter.webp)
+![Pix Design hub on Pix Starter with the banner You are on Pix Starter, its Computers button, and the Brand, Template Editor, UI Editor, Photo Filters, GIF/Video overlay and Microsite cards](/img/docs/pix-design-starter.webp)
 
 On Pix Starter the hub shows the banner "You are on Pix Starter. Try everything here; saving needs Pix Pro." In practice:
 

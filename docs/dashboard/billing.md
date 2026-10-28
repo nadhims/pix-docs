@@ -9,7 +9,7 @@ tags: [dashboard, computers, billing, subscription]
 
 Pix Pro is per computer. A computer running the Pixture Photobooth app is active while it holds Pix Pro from your subscription, an Event Pass, or the free trial. The **Computers** page shows the computers that are active right now, how many your subscription allows, your unused Event Passes, and the buttons to buy more.
 
-![Devices page of a Pix Pro account: Devices 21 of 42, Subscription, Next renewal, Event Passes, Pix AI credits, and the Active devices table with Deactivate](/img/docs/licenses-devices.webp)
+![Computers page of a Pix Pro account: Computers 21 of 21, Pix Pro Monthly, Event Passes, Pix AI credits, and the table with Computer, Booth, Last seen, Version, Plan and Manage](/img/docs/licenses-devices.webp)
 
 ## The Cards
 
@@ -32,13 +32,13 @@ Search by computer or booth name at the top of the page. The table lists each co
 | **Last seen** | When it last checked in |
 | **Version** | The Pixture Photobooth app version it runs |
 | **Plan** | **Pix Pro**, **Event Pass**, **Trial**, "Pix Pro, payment failed", **Needs a pass**, **Blocked** or **Watermarked** |
-| **Manage** | A menu with **Rename**, **Copy computer ID**, the renewal date ("Renews …"), **Manage billing**, **Deactivate**, and **Remove** for an event computer |
+| **Manage** (last column) | A button opening **Rename**, **Copy computer ID**, the renewal date ("Renews …"), **Manage billing**, **Deactivate**, and **Remove** for an event computer |
 
 A computer does not need activating by hand. When your subscription has a place to spare, the next computer that checks in takes it. An Event Pass is used at the booth, on the computer that needs it: on the event start screen or from the operator menu.
 
 ## Deactivate
 
-![Deactivate this computer modal: Keep Pix Pro or Deactivate](/img/docs/licenses-deactivate-modal.webp)
+![Deactivate this computer popup: a place on your subscription frees up, with Keep Pix Pro or Deactivate](/img/docs/licenses-deactivate-modal.webp)
 
 **Deactivate** (in the **Manage** menu) takes Pix Pro off a computer: "This computer stops running Pix Pro right away. It stays paired, and its place on the subscription is free for another computer." The next computer that checks in claims the place. An Event Pass on the computer is not lost: it keeps running with the same end time, and the next event computer that starts its booth continues it. A computer in Kiosk mode cannot pick it up. The modal offers **Keep Pix Pro** or **Deactivate**.
 
@@ -48,7 +48,7 @@ A computer does not need activating by hand. When your subscription has a place 
 
 ## Add a Computer
 
-![Pix Pro checkout: How many devices, See volume pricing, Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 with Save 38%](/img/docs/licenses-add-devices.webp)
+![Get Pix Pro checkout with Monthly $39.99 selected, Yearly $299.99 billed yearly with Best value, How many computers?, Volume pricing and the Order summary with Pay](/img/docs/licenses-add-devices.webp)
 
 1. Click **Add computer** at the top of the page. If your subscription still has places free, a popup says "N computers available" and "Pair a computer to use one.", with the two ways to pair: **At a booth** and **At an event**. Click **Buy more** to go on, or **Got it** to pair instead.
 2. In the **Add computer** popup, pick **Event Pass** (for an event) or **Pix Pro** (for regular use). Each has its own checkout.
@@ -61,11 +61,11 @@ A computer does not need activating by hand. When your subscription has a place 
 | **Monthly** | $39.99 per month, Rp 850.000 in Indonesia | "Per computer, cancel anytime" ("Per computer, prepaid month" in Indonesia) |
 | **Yearly** | $299.99 per year (about $25 per month), Rp 6.500.000 in Indonesia | **Best value**, "Per computer, cancel anytime" ("Per computer, prepaid year" in Indonesia) |
 
-![Volume pricing table: Pix Pro Monthly and Yearly per quantity](/img/docs/licenses-volume-pricing.webp)
+![Get Pix Pro checkout with Volume pricing open: price per computer and discount for 1, 2 to 4, and 5 or more computers](/img/docs/licenses-volume-pricing.webp)
 
 Outside Indonesia you pay with "Card, Apple Pay or PayPal via Lemon Squeezy", and Monthly and Yearly renew until you cancel. In Indonesia the checkout shows rupiah and "QRIS, virtual account or e-wallet via DOKU"; a rupiah purchase is prepaid and simply ends when its period ends. The Indonesian checkout also has a **Promo code** field with **Apply**. A code works once per account: an applied code shows "Applied. One use per account.", and a code you have used before shows "You've already used this promo code." A limited-time sale may also show, for example "Limited-time sale: 20% off Pix Pro", with the list price struck through.
 
-![Pix Pro checkout as seen from Indonesia: rupiah prices, prepaid notes, promo code](/img/docs/licenses-add-devices-idr.webp)
+![Get Pix Pro checkout as seen from Indonesia: Limited-time sale strip, rupiah prices with the list price struck through, prepaid notes and the Promo code field](/img/docs/licenses-add-devices-idr.webp)
 
 Adding computers to a card subscription you already have shows **Confirm this charge** before anything is billed.
 
@@ -89,7 +89,7 @@ Every organization can start one free 3-day Pix Pro trial on one computer, with 
 
 ## Pix Starter
 
-![Devices page of a Pix Starter account: No devices yet, Subscription, Event Passes, Buy license](/img/docs/licenses-starter.webp)
+![Computers page of a Pix Starter account: No computers yet, Pix Pro None, Event Passes 0 unused, and the Add computer button](/img/docs/licenses-starter.webp)
 
 With no active computer the account is Pix Starter: the **Computers** card reads "No computers yet" and "Pix Starter runs one computer, watermarked." Every photo and print carries the Pixture watermark, and a second computer is refused at the pairing code. Booths, templates and screen designs are still yours to prepare. See [Plans](../pricing/plans.md).
 

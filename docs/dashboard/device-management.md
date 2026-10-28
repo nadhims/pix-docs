@@ -9,7 +9,7 @@ tags: [dashboard, computers, pairing]
 
 Each computer running the Pixture Photobooth app is paired to exactly one booth with a code from the dashboard. Everything about the computer lives on the booth's **Computer** tab.
 
-![Booth Device tab before pairing: Device card with Bind existing device, and Pairing & access with Generate code](/img/docs/booth-device-tab-unpaired.webp)
+![Booth Computer tab before pairing: Computer card with Bind existing computer, and Pairing & access with Generate code](/img/docs/booth-device-tab-unpaired.webp)
 
 ## Pair Your Booth First
 
@@ -30,7 +30,7 @@ On a Pix Pro account, a spare place on your subscription attaches itself at this
 
 ## The Computer Card
 
-![Booth Device tab with a paired computer: name, fingerprint, last seen, Rename device, Unlink, Remove](/img/docs/booth-device-tab-paired.webp)
+![Booth Computer tab with a paired computer: name, fingerprint, registered, last seen, Rename computer, Generate code greyed out and Unlink](/img/docs/booth-device-tab-paired.webp)
 
 | Field or button | What it is |
 |---|---|

@@ -44,7 +44,7 @@ A new account comes with two ready-made 4x6 templates, Classic Black and Classic
 2. Pick a design from the dropdown. It is grouped by **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**, and the tab shows the resulting **Booth mode**.
 3. Click **Save**.
 
-![Booth UI Project tab with the grouped project dropdown and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
+![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
 Every account starts with the default screen design, so you can leave this as it is and come back once you have built your own (see [Customise the Booth Screens](./customise-kiosk-screens.md)). Studio mode needs Pixture Photobooth 1.1.98 or newer on the booth PC, and a project with several modes needs 1.2.4 or newer.
 

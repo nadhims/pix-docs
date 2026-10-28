@@ -12,7 +12,7 @@ In this tutorial you will connect a payment gateway to your Pixture account, set
 ## Before You Start
 
 - **Pix Pro on the booth PC.** A Pix Starter computer is watermarked and skips the Payment screen, so it never charges.
-- **A merchant account with a supported gateway** and its API keys. In Indonesia that is Midtrans, Xendit or DOKU (QRIS). Everywhere else it is Stripe (card).
+- **A merchant account with a supported gateway** and its API keys. In Indonesia that is Midtrans, Xendit or DOKU (QRIS); in India Razorpay; in Egypt Kashier. Everywhere else it is Stripe (card).
 - **The booth paired and online**, with at least one template assigned.
 - Owner or admin access to the Pixture dashboard.
 
@@ -25,9 +25,9 @@ Payments go straight from the guest to your own gateway account. Pixture never h
 No merchant account yet, or unsure where each key lives on the provider's dashboard? [Create a Payment Gateway](./create-a-payment-gateway.md) walks through that first; come back here once the gateway card shows on your Settings page.
 
 1. Go to **Settings > Payment Gateway** and click **Add Payment Gateway**.
-2. Choose your provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Stripe** for card payments everywhere else.
+2. Choose your provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Razorpay** in India, **Kashier** in Egypt, **Stripe** for card payments everywhere else.
 
-   ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe](/img/docs/steps/tutorials-accept-payments--settings-gateway-providers.webp)
+   ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe, Razorpay (India), Kashier (Egypt)](/img/docs/steps/tutorials-accept-payments--settings-gateway-providers.webp)
 
 3. Fill in the keys from your gateway's merchant dashboard.
    - **DOKU:** **Secret Key**, **Brand ID** (the `BRN-` number under your business name in the DOKU Dashboard), **QRIS Client ID** (numbers only, from DOKU's **QRIS Credential Settings** tab), and a **Merchant Private Key (RSA 2048)**, each with a **How to find this?** expander. Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.

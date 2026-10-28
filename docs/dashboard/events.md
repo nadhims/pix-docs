@@ -19,7 +19,7 @@ Each event is a card with its cover photo, name, client, venue, dates, status, a
 
 **+ Create Event** opens a short wizard. A progress bar across the top shows where you are: **Details**, **Templates**, **Screens**, **Payment**, then **Pair**, which happens on the event page once it exists.
 
-![Create Event wizard, Details step with Booth mode and Output](/img/docs/event-create-wizard.webp)
+![Create Event wizard, Details step with Event Name, Client and the Modes tiles](/img/docs/event-create-wizard.webp)
 
 | Step | What you set |
 |---|---|
@@ -99,7 +99,7 @@ Everything captured during the event, newest first, with a filter by computer, *
 
 ### Setup
 
-![Event Setup tab: setup progress, Computers card, Booth mode, Output and Appearance](/img/docs/event-setup-computers.webp)
+![Event Setup tab: the Computers card with a computer on an Event Pass, Booth mode with the Photo and Studio cards and Edit modes, the Appearance tab with Edit appearance, and the Preview](/img/docs/event-setup-computers.webp)
 
 - Everything on this tab saves as you go; a small "Saving…" then "Saved" confirms it.
 - **Setup progress.** The same five steps as the wizard. Click a step to jump to the part of the page where it is done. The bar disappears once every step is done.
@@ -118,9 +118,9 @@ Everything captured during the event, newest first, with a filter by computer, *
   Before any computer is paired the card reads "No computers paired yet": "Pair the computers you'll run at this event. Each one needs an Event Pass or Pix Pro."
 - **+ Pair a computer.** Opens the **Pair a computer** popup with a 6-digit code and the line "Open Pixture Photobooth on the booth computer and enter this Pairing Code.", with **Copy code**, **New code** and **Pair later**. If your free trial is unused and no Pix Pro or Event Pass is free for the computer, the popup first shows the **You have a 3-day free trial** card with **Start free trial**, **Get Pix Pro or an Event Pass** and **Later**; on your event day, an Event Pass or Pix Pro keeps the computer running. A line under the code names the Event Pass or Pix Pro waiting for it, for example "You have 1 Event Pass ready." A code is only given when an Event Pass or a spare Pix Pro is available for the computer: an unused Event Pass, or a Pix Pro that is on no computer. Otherwise the popup says "Get Pix Pro or an Event Pass first": "To run this event, each computer needs an Event Pass or Pix Pro. Buy one, then pair here.", with **Add computer** and **Later**. After you pay, the dashboard brings you back to the event and the popup shows "Finishing your payment" until the license lands, then the code.
 
-  ![Pair a computer popup with a 6-digit code and "You have 1 Event Pass ready."](/img/docs/event-pair-popup.webp)
+  ![Pair a computer popup with a 6-digit code, "You have 1 Event Pass ready.", Copy code, New code and Pair later](/img/docs/event-pair-popup.webp)
 
-  ![Pair a computer popup saying "Get a license first" with Buy license and Later](/img/docs/event-pair-needs-license.webp)
+  ![Pair a computer popup saying "Get Pix Pro or an Event Pass first" with Add computer and Later](/img/docs/event-pair-needs-license.webp)
 
   A computer paired with an event's code goes into Event mode: it keeps a list of your events and runs whichever one you launch, until you archive it. See [Event Mode](../desktop-app/event-mode.md).
 - **Booth mode** (every new event). The event's modes are cards with their picture and name; hover one for its one-line description. Clicking a card opens its settings tab and brings the tab bar to the top: **Photo** and **Studio** open **Template**, **Video** opens **Video**, **360/Slow-mo** opens **360/Slow-mo**, and **Roaming** and **Notes** open their own tabs. **Edit modes** opens the **Booth mode** popup ("The modes guests pick from on this event's start screen."), where you tick modes on or off, choose how Notes prints (**Print with the note**, **No print, QR only** or **Notes after Photo**) and **Save**. One mode always stays on. The tabs under the cards:
