@@ -7,6 +7,15 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.18 (27 October 2026, Mac)
+
+- Cameras work again on Macs running macOS 13 to 15. Since late September the app's camera helper failed to start on those versions, so no camera (Canon, Sony, Nikon, Fujifilm or webcam) could connect, and the booth showed `BRIDGE_NOT_CONNECTED`. Download the update from [pixture.io/download](https://pixture.io/download).
+- Windows stays on 1.2.17; this fix only affects Macs.
+
+## 1.2.17 (26 October 2026, Windows)
+
+- Fixes "Camera Disconnected" on Windows booths where the camera helper could not unpack its files. Install it from [pixture.io/download](https://pixture.io/download); the booth stays paired.
+
 ## 1.1.115 (22 September 2026)
 
 - Apple Silicon Macs run live photos, filters and GIFs natively again. The app now bundles its own arm64 video tools, so Rosetta is no longer needed. Encoding had failed on Apple Silicon without Rosetta since 1.1.111.

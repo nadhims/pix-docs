@@ -31,7 +31,7 @@ These are the Sony bodies the app supports:
 
 ## Connecting the Camera
 
-1. On the camera, turn on **PC Remote** for USB. The menu name varies by model: look for **USB Connection Mode** or **PC Remote Function** in the Setup or Network menu.
+1. On the camera, turn on **PC Remote** for USB. The menu name varies by model: look for **USB Connection Mode** or **PC Remote Function** in the Setup or Network menu. Do not use **USB Streaming** (also called Livestream): in that mode the camera only sends video, so the app sees it as a webcam and cannot take full-resolution photos.
 2. Set the mode dial to **M**, **A** or **S**. The app can only drive exposure in one of these modes; the Camera Settings page reminds you with "Set camera to M / A / S mode for manual control".
 3. Connect the camera to the computer with the USB cable and turn it on.
 4. Open the Pixture Photobooth app. The camera is detected within a few seconds and its live view appears.
@@ -66,6 +66,9 @@ With a Sony connected, **CAMERA SETTINGS** on the Camera Settings page shows ISO
 |---|---|
 | The camera is not detected on Windows | Install the Sony driver (above), then replug the camera |
 | The camera is not detected on any computer | Check the USB mode is **PC Remote**, the firmware is current, and no other camera software is open. The app looks for a Sony every 5 seconds, so give it a moment after plugging in |
+| On a Mac, no camera connects at all and the booth shows `BRIDGE_NOT_CONNECTED` | Update the app to 1.2.18 or later from [pixture.io/download](https://pixture.io/download). Earlier versions could not start the camera on macOS 13 to 15 |
+| The Sony works on a Windows computer but not on a Mac (the CAMERA LOG shows "Sony connect failed (0x8208)") | A known issue on some Macs: macOS takes hold of the camera before the app can. A fix is coming in the next app update. Until then, run the booth on a Windows computer. The Mac needs no driver and no camera permission for a Sony over USB |
+| The camera shows up as a webcam | The camera is in **USB Streaming** mode. Switch the USB mode to **PC Remote** |
 | Exposure controls are greyed out | Set the mode dial to **M**, **A** or **S** |
 | Your model is not in the list above | Sony does not offer remote control for it. Use [Webcam Fallback](./webcam-fallback.md) |
 
