@@ -11,7 +11,7 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 
 ### I cannot get a pairing code
 
-**On screen:** In the dashboard, **Generate code** is greyed out with "Unlink the current computer before pairing a new one." Or the **Pair a computer** popup says "Pix Starter runs on one computer" ("Add Pix Pro to pair a second computer."), "All N computers are in use" ("Deactivate one to free it up, or add another computer to your subscription.") or, on an event, "Get a license first".
+**On screen:** In the dashboard, **Generate code** is greyed out with "Unlink the current computer before pairing a new one." Or the **Pair a computer** popup says "Pix Starter runs on one computer" ("Add Pix Pro to pair a second computer."), "All N computers are in use" ("Deactivate one to free it up, or add another computer to your subscription.") or, on an event, "Get Pix Pro or an Event Pass first".
 
 **Also described as:** "code isn't generating", "generate code tidak mau diklik", "kode pairing belum muncul", "where is the pairing code".
 
@@ -22,7 +22,7 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 2. **Greyed out:** the booth already has a computer. One booth holds one computer. Click **Unlink** on the same tab, then **Generate code**. Replacing a booth's computer this way always works, even on Pix Starter.
 3. **"Pix Starter runs on one computer":** another booth already has your one Pix Starter computer. Unlink it from that booth, or add Pix Pro or an Event Pass on the **Computers** page.
 4. **"All N computers are in use":** every Pix Pro place on your subscription is on a computer. On **Computers**, **Deactivate** one you no longer use, or **Add computer**.
-5. **On an event, "Get a license first":** each event computer needs an Event Pass or Pix Pro. Buy one, then pair from the event's **+ Pair a computer**. See [Events](../dashboard/events.md).
+5. **On an event, "Get Pix Pro or an Event Pass first":** each event computer needs an Event Pass or Pix Pro. Buy one, then pair from the event's **+ Pair a computer**. See [Events](../dashboard/events.md).
 
 **Still stuck:** Send support the booth name and a screenshot of the Computer tab or the popup.
 
@@ -124,13 +124,13 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 
 **Fix:**
 1. Update the app. Older versions left Pix Pro on the computer at Logout; current versions return Pix Pro and the trial to your account.
-2. A running Event Pass stays on its computer by design and cannot move.
+2. A running Event Pass leaves the computer at Logout but keeps running with the same end time. The next event computer that starts its booth continues it; a computer in Kiosk mode cannot.
 
 **Still stuck:** Send support the app version and the booth name.
 
 ## Related
 
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
-- [Devices and Pairing](../dashboard/device-management.md)
+- [Computers and Pairing](../dashboard/device-management.md)
 - [Add or Move a Computer](../tutorials/add-or-move-a-computer.md)
 - [Troubleshooting](../desktop-app/troubleshooting.md)

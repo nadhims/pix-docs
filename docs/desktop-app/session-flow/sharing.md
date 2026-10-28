@@ -12,7 +12,7 @@ After the filter step the booth composes the final image, sends it to the printe
 ## What the Guest Gets
 
 - **A print.** The composite goes to the printer as soon as the screen opens. Copies follow **COPIES PER SESSION** in the booth's Printer Settings and the prints included in the package. If the printer fails after 3 attempts the guest sees "Print issue — photo saved. Staff: reprint from Admin Panel → Print History". See [Printer Setup](../printer-setup.md).
-- **A QR code.** Scanning it opens the guest's own share page with everything the booth is set to make: the composite, the **singles**, the animated **GIF** and the **live photo** clip. Which outputs are made is set under **Booths > booth > Settings > Output Settings**.
+- **A QR code.** Scanning it opens the guest's own share page with everything the booth is set to make: the composite, the **singles**, the animated **GIF** and the **live photo** clip, plus the guest's **Note** after a Notes session with a note template. **Download All** saves every file, the note included. Which outputs are made is set under **Booths > booth > Settings > Output Settings**.
 - **Extra prints.** If an **Extra print price** is set under Booth Pricing, a button lets the guest buy more copies on the spot, paid the same way as the session.
 
 ## What the Screen Shows

@@ -115,7 +115,7 @@ A computer started this way comes back to the start screen after a restart or po
 
 ## The License on an Event Computer
 
-An Event computer runs on an Event Pass or Pix Pro and never watermarked. The badges, the warnings before a pass ends and the Devices page are the same as on any computer; see [Pix Pro on the Booth](./licence-on-the-booth.md).
+An Event computer runs on an Event Pass or Pix Pro and never watermarked. The badges, the warnings before a pass ends and the Computers page are the same as on any computer; see [Pix Pro on the Booth](./licence-on-the-booth.md).
 
 - **When a pass runs out mid-event**, the next guest who taps start keeps the booth going: the booth puts a free Pix Pro on the computer, or else starts one of your unused Event Passes, with no question asked. When it next sits idle, a notice tells the operator, for example **New Event Pass started** with "Runs until … · 1 left". It does this only at a guest's tap, after checking that templates and the camera are ready, never on the idle screen.
 - **When there is nothing to use**, or the booth is offline, the guest's tap opens the license screen instead ("Use an Event Pass for today?", **Use Pix Pro**, or "No Event Passes left" with **Buy Event Passes** and **Recheck**). Its buttons sit behind the menu PIN. See [On an Event](./licence-on-the-booth.md#on-an-event).
@@ -128,11 +128,11 @@ An Event computer is never stopped by the event's dates: an ended event keeps ru
 | On the dashboard | What the Event computer does |
 |---|---|
 | **Archive event**, **Unlink** on the computer's row on the event page, or the event deleted | Stops taking new guests, then goes back to the event list, still signed in. **Start Booth** in the menu reads "This event was closed on the dashboard." |
-| **Remove** on the computer's menu on the **Devices** page | Signs out to the login screen |
+| **Remove** on the computer's menu on the **Computers** page | Signs out to the login screen |
 
 ## Payment
 
-On an Event computer guests pay as the event says. With **Pay Per Session** on, the booth asks for the event's session price, with its packages and payment gateway, in a payment popup on the start screen. With it off, every session is free. A booth's **Pricing** tab and the **Payment Screen** page of a UI project do not apply. See [Events](../dashboard/events.md) for the event's payment settings.
+On an Event computer guests pay as the event says. With **Pay Per Session** on, the booth asks for the event's session price (or the mode's own price, when the event sets one per mode), with its packages and payment gateway, in a payment popup on the start screen. With it off, every session is free. A booth's **Pricing** tab and the **Payment Screen** page of a UI project do not apply. See [Events](../dashboard/events.md) for the event's payment settings.
 
 ## Related
 

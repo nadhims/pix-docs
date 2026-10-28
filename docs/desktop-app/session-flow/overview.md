@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Photo Session Flow Overview
-description: The nine screens a guest can see during a photo session on the Pixture Photobooth app, which ones are optional, and where each is switched on.
+description: The eleven screens a guest can see during a photo session on the Pixture Photobooth app, which ones are optional, and where each is switched on.
 tags: [desktop-app, photo-session, flow]
 ---
 
@@ -11,7 +11,7 @@ A photo session is the guest's whole journey through the booth, from the Start s
 
 ## The Screens in Order
 
-1. **Home (Start screen).** The idle screen with your branding. A tap anywhere, a start button, a remote key or a coin system starts the session. See [Home Screen](./home-screen.md).
+1. **Home (Start screen).** The idle screen with your branding. A tap anywhere, a start button, a remote key or a coin system starts the session. A UI project with several modes shows one button per mode instead, and the guest's tap picks the mode (Pixture Photobooth 1.2.4 or newer). See [Home Screen](./home-screen.md).
 
 2. **Tutorial.** Optional. A short how-it-works screen with Next and Skip. Turn it on with the **Enabled in session flow** checkbox on the tutorial page in the UI Editor.
 
@@ -23,13 +23,17 @@ A photo session is the guest's whole journey through the booth, from the Start s
 
 6. **Pool Assignment.** Studio sessions only. The guest takes a pool of shots first and then drops their favourites into the template slots. See [Studio Sessions](../studio-sessions.md).
 
-7. **AI.** Only on accounts with Pix AI (available to beta accounts). The guest picks an AI style for a portrait.
+7. **Adjust your photos.** Photo and Notes sessions, when the UI project's Adjust page is on (on by default in new projects). The guest moves, zooms and swaps their photos and taps **Mirror** to flip them all. See [Review and Adjust](./review-and-adjust.md).
 
-8. **Filter.** Optional. A strip of filter previews; the chosen look goes onto the print, the GIF and the live photo. Turn it on with **Enabled in session flow** on the Filter page. See [Filters](./filters.md).
+8. **AI.** Only on accounts with Pix AI (available to beta accounts). The guest picks an AI style for a portrait.
 
-9. **Sharing.** The QR code to the share page, the print, the GIF and live photo previews, and extra prints. **Done** or the page timer returns the booth to Home. See [Sharing](./sharing.md).
+9. **Filter.** Optional. A strip of filter previews; the chosen look goes onto the print, the GIF and the live photo. Turn it on with **Enabled in session flow** on the Filter page. See [Filters](./filters.md).
 
-There is no separate "Thank you" screen and no separate "Adjust" screen. Sharing is the last screen, and adjusting happens on Review.
+10. **Notes.** Notes sessions only. The guest writes or draws on their photos before sharing.
+
+11. **Sharing.** The QR code to the share page, the print, the GIF and live photo previews, and extra prints. **Done** or the page timer returns the booth to Home. See [Sharing](./sharing.md).
+
+There is no separate "Thank you" screen. Sharing is the last screen.
 
 ## Where Each Screen Is Configured
 
@@ -41,7 +45,9 @@ There is no separate "Thank you" screen and no separate "Adjust" screen. Sharing
 | Template Selection | Always on for photo sessions | UI Editor, **Templates** tab |
 | Capture and Review | Always on | UI Editor, **Capture** and **Review** tabs |
 | Pool Assignment | Studio mode UI project | UI Editor, **Assign photos** tab |
+| Adjust your photos | **Enabled in session flow** on the page (Photo and Notes) | UI Editor, **Adjust** tab |
 | Filter | **Enabled in session flow** on the page | UI Editor, **Filter** tab |
+| Notes | Notes mode UI project | UI Editor, **Notes** tab |
 | Sharing | Always on | UI Editor, **Sharing** tab |
 
 Page settings such as the Capture **Session Time**, the Payment **Timeout** values, the Review **Advanced mode** and each page's idle timer sit in the right-hand rail of the UI Editor, under the page background. Nothing about the flow is set on the booth itself; the booth's own pages cover only camera, printer, hardware payments and the upload queue. See [UI Editor](../../dashboard/pix-design/ui-editor.md).

@@ -7,13 +7,15 @@ tags: [dashboard, pix-design, templates, booth]
 
 # Pix Design Overview
 
-**Pix Design** is the design area of the Pixture dashboard. Everything a guest sees or takes home from a photo session comes from here: the print template their photos land in, every screen on the booth, the colour filters they can pick, the frame drawn on animated GIFs and event videos, the share page they open on their phone, and (for beta accounts) the AI looks they can choose. Open it from **Pix Design** in the sidebar.
+**Pix Design** is the design area of the Pixture dashboard. Everything a guest sees or takes home from a photo session comes from here: your brand's logo, colours and fonts, the print template their photos land in, every screen on the booth, the colour filters they can pick, the frame drawn on animated GIFs and event videos, the share page they open on their phone, and (for beta accounts) the AI looks they can choose. Open it from **Pix Design** in the sidebar.
 
 ![Pix Design hub with the Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/pix-design-hub.webp)
 
-## The Six Areas
+## The Seven Areas
 
 The hub is a set of cards. Each opens one editor.
+
+**Brand.** Your logo, colours and fonts for events, microsites and UI projects. Set them once and they become the default look everywhere else. See [Brand](./brand.md).
 
 **Template Editor.** Design photo layouts with backgrounds, frames, and overlay elements. You upload a PNG with transparent windows, the editor turns the windows into photo slots, and the booth composites the guest's photos into it for printing and sharing. See [Template Editor](./creating-templates.md).
 
@@ -56,6 +58,7 @@ Designing something does not put it on a booth by itself. Each kind of design is
 | Photo filters | **Booths > booth > Filters** tab (every filter by default) |
 | GIF/Video overlay | **Booths > booth > Settings > GIF overlay** |
 | Microsite | **Save to booths** on the Microsite page |
+| Brand | Nothing to attach: it is the default for every event, share page and UI project |
 | AI presets | The booth picker on each saved preset |
 
 Events carry their own template set, screen design and overlay, chosen on the event's **Setup** tab. While an event runs, the booths in it use the event's choices instead of their own, and return to their usual set when it ends. See [Events](../events.md).

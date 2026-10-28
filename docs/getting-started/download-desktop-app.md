@@ -7,7 +7,7 @@ tags: [getting-started, desktop-app, install]
 
 # Install the Pixture Photobooth app
 
-By the end of this page the Pixture Photobooth app, the booth software that runs your photobooth, is installed on the booth PC and open on its pairing screen. The current version is 1.1.115.
+By the end of this page the Pixture Photobooth app, the booth software that runs your photobooth, is installed on the booth PC and open on its pairing screen.
 
 ## Before You Start
 
@@ -45,7 +45,7 @@ The Windows installer is not code-signed yet, so SmartScreen shows a warning the
 
 The app opens full screen on the pairing screen. There are two ways in:
 
-- Pair the booth: type the 6-digit code from the booth's **Device** tab in the dashboard. This is the normal path; the full steps are in [Pair Your First Booth](./pair-your-first-booth.md).
+- Pair the booth: type the 6-digit code from the booth's **Computer** tab in the dashboard. This is the normal path; the full steps are in [Pair Your First Booth](./pair-your-first-booth.md).
 - **Try it without an account.** Tap this to run the booth unpaired with the built-in frames and screens. It prints if a printer is set up and puts the Pixture watermark on everything. There is no cloud upload and no QR code sharing in this mode. When you are ready, open the operator menu and tap **Pair to your Pixture account**.
 
 The app updates itself: it checks for updates on its own, downloads them in the background and restarts when the booth is idle. See [Software Updates](../desktop-app/software-updates.md).

@@ -44,7 +44,7 @@ The app opens full screen on the login screen. You have two ways in:
 
 ### Pair to your Pixture account
 
-1. In the dashboard, open **Booths**, pick the booth, open its **Device** tab and click **Generate code**.
+1. In the dashboard, open **Booths**, pick the booth, open its **Computer** tab and click **Generate code**.
 2. Type the 6-digit code into the pairing screen on the booth.
 3. The booth downloads its screen design, templates and pricing, and shows the Start screen.
 
@@ -67,7 +67,7 @@ The app checks for updates on its own, downloads them in the background and rest
 - **macOS**: drag Pixture Photobooth from Applications to the Trash (on a Mac set up before version 1.1.131 it may still be named Pix).
 - **Windows**: open **Settings > Apps > Installed apps**, find Pixture Photobooth (Pix on versions before 1.1.131) and click **Uninstall**.
 
-Uninstalling does not free the computer's place on your subscription. Log out from the operator menu first, or deactivate the computer on the dashboard's **Devices** page. See [Pix Pro on the Booth](./licence-on-the-booth.md).
+Uninstalling does not free the computer's place on your subscription. Log out from the operator menu first, or deactivate the computer on the dashboard's **Computers** page. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 
 ## Related
 

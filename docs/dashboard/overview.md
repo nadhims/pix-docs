@@ -25,8 +25,8 @@ The sidebar lists the pages in this order. Your role decides which ones you see.
 | [Marketing Studio](./marketing-studio.md) | Consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance. Pix Pro only |
 | [Gallery](./gallery.md) | Browse, download and delete what your booths captured |
 | [Health](./health.md) | Which booths are online, their camera, printer, paper and error records |
-| [Devices](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Buy license** |
-| [Pix Design](./pix-design/overview.md) | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
+| [Computers](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Add computer** |
+| [Pix Design](./pix-design/overview.md) | Brand, Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | Help | Opens a chat with Lucy, the dashboard assistant |
 | [Settings](./settings.md) | Organization, preferences, members, payment gateway, profile, billing, security and data |
 
@@ -42,11 +42,11 @@ Marketing Studio is not in the sidebar on Pix Starter. It appears once your acco
 
 ## The Setup Banner
 
-A new account sees a banner on every page until setup is done: "Your photobooth isn't fully working yet. Complete your setup to start taking photos (2 of 4 steps done)." It offers **Watch the setup video** and **Install the app**. Follow [Pair your first booth](../getting-started/pair-your-first-booth.md) to finish the steps.
+A new account sees a banner on every page until setup is done: "Your photobooth isn't live yet. N of 3 done: install the app, pair it, run a test session." Its button opens the next step: **Install the app**, **Pair your photobooth** or **Run a test session**. Follow [Pair your first booth](../getting-started/pair-your-first-booth.md) to finish the steps.
 
 ## Help and Lucy
 
-**Help** in the sidebar opens a chat panel with Lucy, the dashboard assistant. Ask how something works or where a setting lives, in plain words.
+**Help** in the sidebar opens a chat panel with Lucy, the dashboard assistant. Ask how something works or where a setting lives, in plain words. When the answer is a place on the page, tap **Show me**: the page darkens and that spot lights up.
 
 ## Currency Switcher
 
@@ -68,5 +68,5 @@ The dashboard is available in English and Bahasa Indonesia. Switch from the acco
 
 - [Dashboard Home](./dashboard-home.md)
 - [Booths](./booth-management.md)
-- [Devices](./billing.md)
+- [Computers](./billing.md)
 - [Settings](./settings.md)

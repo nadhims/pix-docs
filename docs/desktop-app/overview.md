@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Overview
-description: What the Pixture Photobooth app is, what is new in version 1.1.115, what it needs to run, and how it works with the Pixture dashboard.
+description: What the Pixture Photobooth app is, what changed recently, what it needs to run, and how it works with the Pixture dashboard.
 tags: [desktop-app, overview, getting-started]
 ---
 
@@ -21,10 +21,11 @@ The Pixture Photobooth app is the booth software that turns a Mac or Windows com
 
 ## What's New Since Summer 2026
 
-The current version is **1.1.115**. The main changes since 1.1.82:
+The booth app updates itself. The main changes since 1.1.82:
 
 - **Studio mode.** A timed pool session: the guest takes as many shots as they like, then assigns their favourites to the template slots. See [Studio Sessions](./studio-sessions.md).
-- **Per-photo adjust on the Review screen.** Tap a photo to scale it, mirror it or move the crop before it goes into the layout. The separate Adjust screen is gone. See [Review and Adjust](./session-flow/review-and-adjust.md).
+- **Per-photo adjust.** Tap a photo on the Review screen to scale it, mirror it or move the crop before it goes into the layout. From 1.2.6, Photo and Notes sessions can also show an "Adjust your photos" screen after the last shot, where guests move, zoom and swap their photos. See [Review and Adjust](./session-flow/review-and-adjust.md).
+- **Several modes on one booth.** A UI project can offer Photo, Studio and Notes side by side; guests pick one on the Start screen (1.2.4 or newer). See [UI Editor](../dashboard/pix-design/ui-editor.md).
 - **Video and 360 slow-mo for events.** An event can switch every booth in it to video capture, with an intro, outro, soundtrack and overlay. See [Event Video Modes](./event-video-modes.md).
 - **Pix Pro per computer and "Try it without an account".** Pix Pro now lives on the computer, the operator menu shows a plan badge, and a fresh install can run watermarked with built-in frames before it is paired. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 - **Every currency.** Prices show the way the dashboard shows them, in any currency, with a tax label that follows the currency.
@@ -53,7 +54,7 @@ The app is the booth. The Pixture dashboard at pixture.io is where you design an
 - **Pix Design** holds your print templates, the booth screens (UI projects), photo filters and GIF overlays. Save there and the booth picks the change up on its next check-in, usually within seconds.
 - **Booths** holds each booth's pricing, assigned templates and filters, output switches (singles, GIF, live photo, print) and the operator menu PIN.
 - **Events** switches booths into video or 360 slow-mo capture and gives them event templates for the day.
-- **Devices** is where Pix Pro, Event Passes and the free trial are put on computers and moved between them.
+- **Computers** is where Pix Pro, Event Passes and the free trial are put on computers and moved between them.
 
 The booth itself keeps only what belongs to the hardware: camera, printer, hardware payment settings and the upload queue. All of that sits behind the operator menu, which opens with two taps on the top-right corner of the screen. See [Operator Menu](./admin-panel.md).
 
@@ -61,7 +62,7 @@ The booth itself keeps only what belongs to the hardware: camera, printer, hardw
 
 - **Pix Starter** (free): one computer, and every photo, print, GIF and video carries the Pixture watermark.
 - **Event Pass**: 24 hours of Pix Pro on one computer, $5 or Rp 85.000. The 24 hours start when you use it at the booth.
-- **Pix Pro** Monthly ($40 or Rp 850.000) or Yearly ($300 per year): clean output, unlimited templates and screen designs, per computer.
+- **Pix Pro** $39.99/month or $299.99/year (about $25/month), or Rp 850.000/month: clean output, unlimited templates and screen designs, per computer.
 
 See [Plans](../pricing/plans.md) for the full comparison.
 

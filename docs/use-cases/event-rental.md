@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Event Rental
-description: Rent your photo booth to weddings, corporate dinners and launches with Pixture, with a branded look per event, free sessions for guests, the online album for your client and an Event Pass for each event day.
+description: Rent your photo booth to weddings, corporate dinners and launches with Pixture, with a branded start screen per event, free sessions for guests, the online album for your client and an Event Pass for each event day.
 tags: [use-cases, events, weddings, corporate]
 ---
 
@@ -17,17 +17,17 @@ The client pays a fixed fee per event, usually agreed before the day. Weddings a
 
 ### 1. Create the event
 
-Create an **Event** for each booking with the wizard: its dates, client and venue, its **Booth mode** (Photobooth, Studio or Video) and its **Output** (prints, GIF, live photo, raw singles). Then pair the computers you bring straight from the event page. An event runs itself: it is active from the moment you create it, its computers follow its dates, and it ends by itself the day after its last date. See [Run an Event](../tutorials/run-an-event.md).
+Create an **Event** for each booking with the wizard: its dates, client and venue, its **Modes** (Photo, Video, 360/Slow-mo, Studio, Notes or Roaming), which guests pick from on the start screen, and its **Output** (prints, GIF, live photo, raw singles). Then pair the computers you bring straight from the event page. An event runs itself: it is active from the moment you create it and ends by itself at 06:00 the morning after its last date. Its computers keep it until you archive it. See [Run an Event](../tutorials/run-an-event.md).
 
 ### 2. Cover the event days
 
-Every computer on an event needs Pix Pro or an **Event Pass**: 24 hours of Pix Pro on one computer, starting when you use it at the booth. If you only work weekends, Event Passes for the event days usually cost less than a subscription; for a two-day wedding, **Extend 24h** adds a second day to the same computer. The event page's **Computers** card says when every computer has an Event Pass or Pix Pro, or how many computers still need an Event Pass or Pix Pro, with **Buy license**. See [Events](../dashboard/events.md#licenses-pricing-and-transactions).
+Every computer on an event needs Pix Pro or an **Event Pass**: 24 hours of Pix Pro on one computer, starting when you use it at the booth. If you only work weekends, Event Passes for the event days usually cost less than a subscription; for a two-day wedding, **Extend 24h** adds a second day to the same computer. The event page's **Computers** card says when every computer has an Event Pass or Pix Pro, or how many computers still need an Event Pass or Pix Pro, with **Add computer**. See [Events](../dashboard/events.md#licenses-pricing-and-transactions).
 
 ### 3. Make it look like their event
 
 - Give the event its own templates, from your own designs in Pix Design or one of Pixture's free template packs. See [Assigning Templates](../dashboard/pix-design/assigning-templates.md).
-- Give it a booth look with the couple's names or the brand's colours. See [Customise the Booth Screens](../tutorials/customise-kiosk-screens.md).
-- Switch the event's booth mode to video if the client booked a video guest book. See [Event Video Modes](../desktop-app/event-video-modes.md).
+- Design its start screen with the couple's names, their date and the brand's colours. See [Event Start Screen](../dashboard/event-start-screen.md).
+- Turn on **Video** in the event's modes if the client booked a video guest book. See [Event Video Modes](../desktop-app/event-video-modes.md).
 
 ### 4. Free for guests, or paid
 

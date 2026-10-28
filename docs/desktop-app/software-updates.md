@@ -7,7 +7,7 @@ tags: [desktop-app, updates, auto-updater]
 
 # Software Updates
 
-The Pixture Photobooth app keeps itself current without you touching the booth. This page explains how the background update works, how to check for one by hand from the operator menu, where the version is shown, and where to read what changed. The current version is 1.1.115.
+The Pixture Photobooth app keeps itself current without you touching the booth. This page explains how the background update works, how to check for one by hand from the operator menu, where the version is shown, and where to read what changed.
 
 ## How Updates Happen
 
@@ -31,7 +31,7 @@ Do this before opening, not during a busy hour; the restart takes the booth off 
 ## Which Version a Booth Runs
 
 - **On the booth**: the operator menu footer shows "Pixture Photobooth v…" ("Pix v…" before version 1.1.131).
-- **In the dashboard**: the **Health** page and the **Devices** table (its **Version** column) show the version each booth last reported, so you can see from anywhere which booths are behind.
+- **In the dashboard**: the **Health** page and the **Computers** table (its **Version** column) show the version each booth last reported, so you can see from anywhere which booths are behind.
 
 Some features need a minimum version: Studio mode needs 1.1.98 or newer, online voucher packages 1.1.101 or newer, event video modes 1.1.102 or newer, and every currency 1.1.106 or newer. The dashboard warns you on the booth's UI Project tab when Studio mode needs an update.
 

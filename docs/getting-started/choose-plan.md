@@ -7,7 +7,7 @@ tags: [getting-started, plans, pricing]
 
 # Choose Your Plan
 
-By the end of this page you know what Pix Starter gives you for free, what Pix Pro adds, and how to put Pix Pro on a computer from the Devices page. You do not have to decide on day one: the app is free to install, and a computer activates the moment you buy something for it.
+By the end of this page you know what Pix Starter gives you for free, what Pix Pro adds, and how to put Pix Pro on a computer from the Computers page. You do not have to decide on day one: the app is free to install, and a computer activates the moment you buy something for it.
 
 ## The Plans
 
@@ -17,10 +17,10 @@ Pixture is priced per computer, not per account or per booth. Booths are free pr
 |---|---|---|---|
 | **Pix Starter** | Pix Starter | Free | Setting up, rehearsing, and booths that do not charge guests |
 | **Event Pass** | Event Pass | $5 for 24 hours on one computer (Rp 85.000 in Indonesia). The 24 hours start when you use it at the booth | Weddings, markets, pop-ups: a computer that works a few days a month |
-| **Pix Pro Monthly** | Pix Pro (1 Month) | $40 per computer per month (Rp 850.000 in Indonesia). Cancel anytime | A computer that runs most days |
-| **Pix Pro Yearly** | Pix Pro (1 Year) | $300 per computer per year, which is $25 per month (Rp 6.500.000 in Indonesia). The dashboard marks it Best Value, Save 38% | The same computer, paying yearly |
+| **Pix Pro Monthly** | Monthly | $39.99 per computer per month (Rp 850.000 in Indonesia). Cancel anytime | A computer that runs most days |
+| **Pix Pro Yearly** | Yearly | $299.99 per computer per year, about $25 per month (Rp 6.500.000 in Indonesia). The checkout marks it **Best value** | The same computer, paying yearly |
 
-Several Pix Pro devices in one purchase get a volume discount; the checkout shows the per-device price before you pay. Visitors from Indonesia see rupiah prices and prepaid notes instead of the card subscription. Full detail in [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
+Several Pix Pro computers in one purchase get a volume discount; the checkout shows the price per computer before you pay. Visitors from Indonesia see rupiah prices and prepaid plans instead of the card subscription, and sometimes a limited-time sale. Full detail in [Plans & Pricing](../pricing/plans.md) and [Feature Comparison](../pricing/feature-comparison.md).
 
 ## Pix Starter: One Computer, Watermarked
 
@@ -32,7 +32,7 @@ Your account is **Pix Starter** while no computer has Pix Pro. On Pix Starter:
 - The booth **skips the Payment screen**. Every photo session is free.
 - **Marketing Studio** is not shown in the sidebar.
 
-The moment one computer holds Pix Pro, through a subscription, a running Event Pass or the free trial, the whole account is **Pix Pro**: unlimited templates and screen designs, no watermark, payments, Marketing Studio. A computer beyond what your subscription covers stays paired but is blocked from starting sessions until you deactivate another computer or add a device.
+The moment one computer holds Pix Pro, through a subscription, a running Event Pass or the free trial, the whole account is **Pix Pro**: unlimited templates and screen designs, no watermark, payments, Marketing Studio. A computer beyond what your subscription covers stays paired but is blocked from starting sessions until you deactivate another computer or add a computer.
 
 ## Try Pix Pro Free for 3 Days
 
@@ -44,43 +44,43 @@ Every account can start one free trial: 3 days of Pix Pro on one computer, no ca
 
    ![The free trial popup with the unlocks list, the booth picker and the Start free trial button](/img/docs/trial-popup.webp)
 
-The trial starts when the booth computer connects. If the booth already has a computer it starts at once; if not, the popup walks you through installing the app and pairing, and your 3 days begin when the computer connects. After 3 days that computer goes back to watermarked. Everything you built during the trial stays in your account. The trial can be moved to another computer from the Devices page before it ends.
+The trial starts when the booth computer connects. If the booth already has a computer it starts at once; if not, the popup walks you through installing the app and pairing, and your 3 days begin when the computer connects. After 3 days that computer goes back to watermarked. Everything you built during the trial stays in your account. The trial can be moved to another computer from the Computers page before it ends.
 
 ## Activate a Computer
 
-Buying is done on the **Devices** page. A computer that is paired and waiting picks Pix Pro up on its own the next time it connects.
+Buying is done on the **Computers** page. A computer that is paired and waiting picks Pix Pro up on its own the next time it connects.
 
-1. Open **Devices** in the sidebar. On a Pix Starter account the **Devices** card says there are no devices yet, and the **Event Passes** card shows 0 unused with a **Buy Event Passes** button.
+1. Open **Computers** in the sidebar. On a Pix Starter account the **Computers** card says "No computers yet", and the **Event Passes** card shows 0 unused with a **Buy Event Passes** button.
 
    ![The Devices page of a Pix Starter account with the Devices, Subscription, Next renewal and Event Passes cards and a Buy license button](/img/docs/steps/getting-started-choose-plan--licenses-starter.webp)
 
-2. Click **Buy license**, then pick **Pix Pro** (or **Event Pass** for a single event). The Pix Pro checkout explains: "One device runs one computer. Pick monthly or yearly, and how many."
-3. Set **How many devices?** with the stepper. Click **See volume pricing** to compare the per-device price of Monthly and Yearly at that quantity.
-4. Click **Select** on **Event Pass**, **Pix Pro (1 Month)** or **Pix Pro (1 Year)**.
+2. Click **Add computer**, then pick **Pix Pro** (or **Event Pass** for a single event). The **Get Pix Pro** checkout explains: "One Pix Pro covers one computer. Pick monthly or yearly, and how many."
+3. Pick **Monthly** or **Yearly** and set **How many computers?** with the stepper. Open **Volume pricing** to see the price per computer at each quantity.
+4. Check the **Order summary** and **Total today**, then click **Pay**.
 
    ![The Pix Pro checkout with the How many devices stepper, See volume pricing, and the Pix Pro (1 Month) $40 and Pix Pro (1 Year) $300 cards](/img/docs/steps/getting-started-choose-plan--licenses-add-devices.webp)
 
-5. Complete the checkout. Internationally you pay by card and the subscription renews until you cancel. In Indonesia you pay at checkout with QRIS, bank transfer or a card, and the purchase is prepaid with no auto-renewal.
+5. Complete the checkout. Internationally you pay by card, Apple Pay or PayPal through Lemon Squeezy, and the subscription renews until you cancel. In Indonesia you pay through DOKU with QRIS, virtual account or e-wallet, and the purchase is prepaid with no auto-renewal. The Indonesian checkout also takes a **Promo code**, once per account.
 
 What happens next depends on what you bought:
 
 - **Monthly or Yearly:** the next computer to check in takes the place. If you already have a paired computer waiting, it activates itself within minutes.
-- **Event Pass:** unused Event Passes wait in your account. Use one at the booth: tap **Use Event Pass** on the event start screen, or open the operator menu and tap **Use an Event Pass on this computer**. It runs for 24 hours on that computer and cannot be moved afterwards.
+- **Event Pass:** unused Event Passes wait in your account. Use one at the booth: tap **Use Event Pass** on the event start screen, or open the operator menu and tap **Use an Event Pass on this computer**. It runs for 24 hours. If that computer is unlinked, deactivated or signs out, the Event Pass keeps its end time and the next event computer that starts its booth continues it.
 
 :::info
-The Pix Pro checkout ends with the rule that matters most: "One device runs one computer. A computer past your subscription stays paired, it just will not start a session until you deactivate one or add another." Freeing a place is one click, **Deactivate**, on the Devices page.
+The rule that matters most: one Pix Pro covers one computer. A computer past your subscription stays paired, but it will not start a session until you deactivate another computer or add one. Freeing a place takes one click: **Deactivate**, in the computer's **Manage** menu on the Computers page.
 :::
 
 ## Which One?
 
 - Shooting a few days a month: **Event Passes**, bought in any quantity.
-- Running most days: **Pix Pro Monthly**. Eight Event Passes cost the same as a month.
-- Committed for the year: **Pix Pro Yearly** at $25 per month.
-- Several computers at once: the volume discount applies to all three.
+- Running most days: **Pix Pro Monthly**. Eight Event Passes cost about the same as a month.
+- Committed for the year: **Pix Pro Yearly** at about $25 per month.
+- Several computers at once: Pix Pro Monthly and Yearly get a volume discount. For a large fleet, use **Contact sales** on the **Enterprise** tab of [pixture.io/pricing](https://pixture.io/pricing).
 
 ## Related
 
 - [Plans & Pricing](../pricing/plans.md)
-- [Device Management](../dashboard/device-management.md)
+- [Computers and Pairing](../dashboard/device-management.md)
 - [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md)
 - [Billing FAQ](../pricing/billing-faq.md)

@@ -34,7 +34,7 @@ QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI
 2. Under **Choose your payment provider**, pick **Midtrans**, **Xendit**, **DOKU**, **Stripe**, **Razorpay (India)** or **Kashier (Egypt)**, then **Continue**.
 3. Fill in the provider's fields:
    - **Midtrans:** **Server Key** and **Client Key**.
-   - **DOKU:** **Merchant ID** and a **Private key**. Tap **Generate for me** if you do not have one yet.
+   - **DOKU:** **Secret Key**, **Brand ID** (DOKU Dashboard, top left, under your business name, starts with `BRN-`), **QRIS Client ID** (numbers only, from **QRIS Credential Settings > Client ID**) and a **Merchant Private Key (RSA 2048)**. Tap **Generate for me** if you do not have one yet.
    - **Stripe:** your **Secret key**. It must start with `sk_` or `rk_` and is verified when you save.
    - **Xendit:** the credentials the form asks for, from your Xendit dashboard. For PHP, THB or SGD booths the Xendit account must be registered in that country, and the Pix webhook URL also goes into Xendit's **Payments API** webhook (`payment.capture`).
    - **Razorpay:** the **Key ID** (`rzp_live_`, or `rzp_test_` to try it without real money) and the **Key Secret**, from Razorpay **Account & Settings > API Keys**. Razorpay switches UPI QR codes on by request: ask Razorpay support to enable **QR Codes (UPI)** and **QR image content** on your account. For instant confirmations, add the Pix webhook URL (shown under **Edit**) in Razorpay **Account & Settings > Webhooks** with a secret of your own and the `qr_code.credited` and `qr_code.closed` events, then paste the same secret in **Edit**. Without it, payments are still confirmed by polling.
