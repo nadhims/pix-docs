@@ -36,7 +36,7 @@ With **Auto-detect** on, the app normally picks a connected camera body first an
 
 ## What Works the Same
 
-Everything in the photo session runs the same way on a webcam: countdown, per-photo adjust, filters, prints, GIF and live photo. Live photos taken on a webcam are mirrored the same way as the print, so the clip matches what the guest saw. **DIGITAL ZOOM**, **CAMERA ROTATION** and the live view aids on the Camera Settings page all apply to webcams too.
+Everything in the photo session runs the same way on a webcam: countdown, per-photo adjust, filters, prints, GIF and live photo. Live photos taken on a webcam are mirrored the same way as the print, so the clip matches what the customer saw. **DIGITAL ZOOM**, **CAMERA ROTATION** and the live view aids on the Camera Settings page all apply to webcams too.
 
 ## Limitations
 

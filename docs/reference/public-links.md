@@ -1,29 +1,29 @@
 ---
 sidebar_position: 4
 title: Public Links
-description: Every public web address a guest or customer can see from Pixture, what it shows, and where you turn each one on.
+description: Every public web address a customer, event guest or client can see from Pixture, what it shows, and where you turn each one on.
 tags: [reference, links, share-page, album, online-shop]
 ---
 
 # Public Links
 
-Pixture puts a few pages on the open web for your guests and clients. This page lists each one, what it shows and where it is switched on. Pages you use yourself (the dashboard, the docs, the download page) are at the end.
+Pixture puts a few pages on the open web for your customers, event guests and clients. This page lists each one, what it shows and where it is switched on. Pages you use yourself (the dashboard, the docs, the download page) are at the end.
 
 ## Share page
 
 **`pixture.io/s/{code}`**, one per photo session.
 
-What the guest sees: their photos, GIF and live photo from that session, with your branding from **Pix Design > Microsite**. On Pix Starter the photos carry the Pixture watermark.
+What the customer sees: their photos, GIF and live photo from that session, with your branding from **Pix Design > Microsite**. On Pix Starter the photos carry the Pixture watermark.
 
 Where it comes from: the QR code on the booth's **Sharing** screen, and the QR printed on the sheet if the template has a QR code slot. The page fills as the booth uploads; during a network drop the QR still shows and the photos appear at the link once the booth reconnects.
 
-Photos stay available for **60 days** after the session, then they are deleted automatically. The page shows the guest the last day, so they can download in time. Deleting a photo in the dashboard's **Gallery** takes it off the page at once.
+Photos stay available for **60 days** after the session, then they are deleted automatically. The page shows the customer the last day, so they can download in time. Deleting a photo in the dashboard's **Gallery** takes it off the page at once.
 
 ## AI portrait shop
 
 **`pixture.io/s/{code}/ai`**, available to beta accounts.
 
-What the guest sees: a shop on their share page where they buy an AI portrait made from their session photos, as a digital file or as a print picked up at the booth. A print purchase gives a 7-character pickup code that the guest types into the voucher box on the booth's Payment screen (Pixture Photobooth 1.1.110 or newer).
+What the customer sees: a shop on their share page where they buy an AI portrait made from their session photos, as a digital file or as a print picked up at the booth. A print purchase gives a 7-character pickup code that the customer types into the voucher box on the booth's Payment screen (Pixture Photobooth 1.1.110 or newer).
 
 Where it is turned on: open the booth, go to the **Pricing** tab and, under **AI portrait on the share page**, switch on **Sell AI portraits on the share page** and set the price. **Offer a print at this booth** adds the print option.
 
@@ -47,7 +47,7 @@ Where it comes from: the **Sell online** button on any row of the **Booths** lis
 
 ## Frame Lab guest upload page
 
-A page where guests design and pay for their own frame before their session, then use the code at the booth.
+A page where customers design and pay for their own frame before their session, then use the code at the booth.
 
 Where it comes from: **Marketing Studio > Frame Lab** shows the shared **Guest upload page** QR and lets you set the **Page banner**, and each booth's Frame Lab settings have **Share with your customers** with the link and **Download QR**. Frame Lab needs Pix Pro.
 

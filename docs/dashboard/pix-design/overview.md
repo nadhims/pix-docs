@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 title: Pix Design Overview
-description: Pix Design is where you design everything guests see, from print templates and booth screens to filters, overlays, the share page and AI presets.
+description: Pix Design is where you design everything customers see, from print templates and booth screens to filters, overlays, the share page and AI presets.
 tags: [dashboard, pix-design, templates, booth]
 ---
 
 # Pix Design Overview
 
-**Pix Design** is the design area of the Pixture dashboard. Everything a guest sees or takes home from a photo session comes from here: your brand's logo, colours and fonts, the print template their photos land in, every screen on the booth, the colour filters they can pick, the frame drawn on animated GIFs and event videos, the share page they open on their phone, and (for beta accounts) the AI looks they can choose. Open it from **Pix Design** in the sidebar.
+**Pix Design** is the design area of the Pixture dashboard. Everything a customer sees or takes home from a photo session comes from here: your brand's logo, colours and fonts, the print template their photos land in, every screen on the booth, the colour filters they can pick, the frame drawn on animated GIFs and event videos, the share page they open on their phone, and (for beta accounts) the AI looks they can choose. Open it from **Pix Design** in the sidebar.
 
 ![Pix Design hub with the Brand, Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/pix-design-hub.webp)
 
@@ -17,7 +17,7 @@ The hub is a set of cards. Each opens one editor.
 
 **Brand.** Your logo, colours and fonts for events, microsites and UI projects. Set them once and they become the default look everywhere else. See [Brand](./brand.md).
 
-**Template Editor.** Design photo layouts with backgrounds, frames, and overlay elements. You upload a PNG with transparent windows, the editor turns the windows into photo slots, and the booth composites the guest's photos into it for printing and sharing. See [Template Editor](./creating-templates.md).
+**Template Editor.** Design photo layouts with backgrounds, frames, and overlay elements. You upload a PNG with transparent windows, the editor turns the windows into photo slots, and the booth composites the customer's photos into it for printing and sharing. See [Template Editor](./creating-templates.md).
 
 **UI Editor.** Customize the booth UI/UX including buttons, backgrounds, and screen layouts for each page. A UI project holds every booth screen, from the Start Screen to Sharing, together with the session settings that go with them: what starts a session, how long it lasts, how the Payment screen behaves. See [UI Editor](./ui-editor.md).
 
@@ -25,9 +25,9 @@ The hub is a set of cards. Each opens one editor.
 
 **GIF/Video overlay.** Transparent frames burned into animated GIFs and event videos, landscape or portrait. Covered on the same page as the filters.
 
-**Microsite.** Brand the guest photo page: colors, buttons, header banner, promo popup, and menu links. This is the page guests open from the QR code on the Sharing screen. See [Microsite (Share Page)](./microsite.md).
+**Microsite.** Brand the customer photo page: colors, buttons, header banner, promo popup, and menu links. This is the page customers open from the QR code on the Sharing screen. See [Microsite (Share Page)](./microsite.md).
 
-**Pix AI (Beta).** Manage AI styles for your booths. Guests choose a style and get AI-transformed photos. Available to beta accounts; the card appears once Pix AI is on for your account. See [Pix AI (Beta)](./pix-ai.md).
+**Pix AI (Beta).** Manage AI styles for your booths. Customers choose a style and get AI-transformed photos. Available to beta accounts; the card appears once Pix AI is on for your account. See [Pix AI (Beta)](./pix-ai.md).
 
 ## Pix Starter and Pix Pro
 
@@ -66,7 +66,7 @@ Events carry their own template set, screen design and overlay, chosen on the ev
 Booths pick up a saved design on their next idle refresh, usually within seconds, without a restart. A photo session already in progress finishes on the old design.
 
 :::tip
-Duplicate before you experiment. **Duplicate** on a UI project's card menu gives you a copy to try ideas on without touching what guests see; assign the copy when it is ready.
+Duplicate before you experiment. **Duplicate** on a UI project's card menu gives you a copy to try ideas on without touching what customers see; assign the copy when it is ready.
 :::
 
 ## Related

@@ -13,7 +13,7 @@ Your account is **Pix Starter** while no computer has Pix Pro, and **Pix Pro** t
 
 ## Pix Starter (free)
 
-Pix Starter is for trying Pixture and for booths that do not charge guests.
+Pix Starter is for trying Pixture and for booths that do not charge customers.
 
 - **One computer.** Pairing a second computer is refused at the pairing code. Replacing the computer on a booth that already has one still works.
 - **Watermarked output.** Every photo and every print carries the Pixture watermark.

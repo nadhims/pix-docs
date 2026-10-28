@@ -60,11 +60,11 @@ Epson SureLab (SL-D530, D700, D1070 and similar) is a professional dry minilab s
 
 ### Epson EcoTank (consumer photo printers)
 
-Consumer EcoTank printers (L805, L810, L8050 and similar) with 4R (4x6") paper are a common budget setup. Refillable ink tanks make the per-print cost very low (roughly Rp 75 to Rp 390 per 4x6 print). Trade-offs versus dye-sub or SureLab: slower per print (roughly 12 to 25 seconds), and prints need a short drying time since wet inkjet output can smudge. For low-to-moderate traffic where upfront cost matters most, this is a real, working option. Tell guests to handle fresh prints carefully.
+Consumer EcoTank printers (L805, L810, L8050 and similar) with 4R (4x6") paper are a common budget setup. Refillable ink tanks make the per-print cost very low (roughly Rp 75 to Rp 390 per 4x6 print). Trade-offs versus dye-sub or SureLab: slower per print (roughly 12 to 25 seconds), and prints need a short drying time since wet inkjet output can smudge. For low-to-moderate traffic where upfront cost matters most, this is a real, working option. Tell customers to handle fresh prints carefully.
 
 ## Newspaper photobooth printing
 
-Some operators run a "newspaper photobooth": the guest's photo is composited into a mock vintage newspaper front page instead of a standard photo layout. This is a different hardware category.
+Some operators run a "newspaper photobooth": the customer's photo is composited into a mock vintage newspaper front page instead of a standard photo layout. This is a different hardware category.
 
 **Paper size:** A4 is standard; A3 is a common step-up for a bigger result, well beyond the 6x8" ceiling of the dye-sub printers above.
 
@@ -74,7 +74,7 @@ Some operators run a "newspaper photobooth": the guest's photo is composited int
 |---|---|---|---|
 | Epson EcoTank L18050 | A3+ | ~8.6 to 9.2 juta | 6-colour dye-based ink tank, borderless A3 photo printing |
 
-Print speed is much slower at this size: Epson's own spec lists about 65 seconds for a full A4 print against about 27 seconds for a standard 4R. Set guest expectations accordingly.
+Print speed is much slower at this size: Epson's own spec lists about 65 seconds for a full A4 print against about 27 seconds for a standard 4R. Set customer expectations accordingly.
 
 **Paper type:** skip glossy photo paper; it looks wrong for the format. In order of preference: HVS 70 to 100 gsm plain paper (cheapest, closest to a real newspaper), book paper (smoother, slightly more polished), matte photo paper (premium option for weddings and corporate events).
 
@@ -104,9 +104,9 @@ On the booth, choose the loaded paper under **Printer Settings > MEDIA SIZE (LOA
 
 **Select it on the booth.** Open the operator menu, tap **Printer Settings**, pick the printer under **PRINTER DEVICE**, set **MEDIA SIZE (LOADED PAPER)** and **ORIENTATION**, and press the test print button. Guest printing is disabled until a printer is selected. **COPIES PER SESSION** and **PRINT ALIGNMENT** (scale and offsets) are on the same page.
 
-**Test before opening to guests.** Print a sample composite to confirm colours, alignment and paper feed. Dye-sub printers need a short warm-up, so the first print may take longer. With an inkjet, print a couple of test photos and let them dry fully to check for smudging.
+**Test before opening to customers.** Print a sample composite to confirm colours, alignment and paper feed. Dye-sub printers need a short warm-up, so the first print may take longer. With an inkjet, print a couple of test photos and let them dry fully to check for smudging.
 
-**If a print fails**, the booth retries up to 3 times, 5 seconds apart. If it still fails, the guest sees a print issue notice and the photo is saved; reprint it from the operator menu under **Admin Panel > PRINT HISTORY**.
+**If a print fails**, the booth retries up to 3 times, 5 seconds apart. If it still fails, the customer sees a print issue notice and the photo is saved; reprint it from the operator menu under **Admin Panel > PRINT HISTORY**.
 
 **Avoid laser printers** for photo prints; they are not designed for photo output. Inkjet is a different story: dye-sub is faster and more durable, but a well-chosen Epson SureLab or EcoTank is a working option for budget setups. Plan for slower prints and a short drying time.
 

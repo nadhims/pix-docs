@@ -37,12 +37,12 @@ Open the group from the Booths list. It has six tabs.
 
 Tap **Save for all booths** to push the tabs' settings to every booth in the group.
 
-## Step 3: Choose how guests pay
+## Step 3: Choose how customers pay {#step-3-choose-how-guests-pay}
 
 On the **Cashier** tab, **How guests pay** has two options.
 
 - **Pay at the booth**: each booth shows its own Payment screen, as a single booth does.
-- **Central cashier**: guests pay one person at a counter and receive a code. Add what the cashier sells under **Products** with **Add product**. Each sale produces an 8-character group code that works at any booth in the group. On a Central Cashier booth the booth opens the Payment screen straight on the code step, and the code box accepts codes of 6 to 8 characters.
+- **Central cashier**: customers pay one person at a counter and receive a code. Add what the cashier sells under **Products** with **Add product**. Each sale produces an 8-character group code that works at any booth in the group. On a Central Cashier booth the booth opens the Payment screen straight on the code step, and the code box accepts codes of 6 to 8 characters.
 
 ## Step 4: Pair one computer per booth
 

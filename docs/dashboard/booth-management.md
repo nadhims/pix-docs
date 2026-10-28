@@ -96,7 +96,7 @@ Pair, rename, unlink or remove the computer. See [Computers and Pairing](./devic
 
 ## Frame Lab
 
-Click the **Frame Lab** cell in the property grid. The page explains the guest flow (Upload, Pay, Get Voucher, Use at Booth, See Result), has the enable switch (Pix Pro), the guest link with **Download QR**, page branding with a live preview, and the configuration: **Price**, **Canvas size** and **Voucher expiry** in hours, then **Save changes**. Recent uploads are listed below. The same settings for every booth at once live in [Marketing Studio](./marketing-studio.md).
+Click the **Frame Lab** cell in the property grid. The page explains the customer flow (Upload, Pay, Get Voucher, Use at Booth, See Result), has the enable switch (Pix Pro), the customer link with **Download QR**, page branding with a live preview, and the configuration: **Price**, **Canvas size** and **Voucher expiry** in hours, then **Save changes**. Recent uploads are listed below. The same settings for every booth at once live in [Marketing Studio](./marketing-studio.md).
 
 ![Booth Frame Lab page: How Frame Lab Works, share link and QR, configuration](/img/docs/booth-frame-lab.webp)
 

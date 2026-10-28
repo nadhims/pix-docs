@@ -22,7 +22,7 @@ The **Organization** card: the name with **Save**, the logo (**Upload Logo** or 
 | Setting | What it does |
 |---|---|
 | Dashboard language | English or Bahasa Indonesia, for you only |
-| **Booth language** | The language of the guest-facing prompts on every booth, such as the consent question. One setting for the whole organization |
+| **Booth language** | The language of the customer-facing prompts on every booth, such as the consent question. One setting for the whole organization |
 | **Timezone** | Any timezone. Reports, daily limits and event dates follow it |
 | **Default currency** | Any currency. Booths inherit it unless they set their own |
 | **Tour & Onboarding** | **Replay Tour** and **Show Checklist** bring back the first-run guidance |

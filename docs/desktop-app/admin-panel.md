@@ -7,7 +7,7 @@ tags: [desktop-app, admin, settings, operator]
 
 # Operator Menu
 
-Every booth-side setting sits behind a hidden operator menu so guests never see it. This page shows how to open it, what the Menu page itself tells you, and what each of its sub-pages does, with a link to the page that covers each in depth. The Admin Panel, the upload queue, print history and app controls are described in full here.
+Every booth-side setting sits behind a hidden operator menu so customers never see it. This page shows how to open it, what the Menu page itself tells you, and what each of its sub-pages does, with a link to the page that covers each in depth. The Admin Panel, the upload queue, print history and app controls are described in full here.
 
 ## Opening the Menu
 
@@ -30,7 +30,7 @@ Left to right after **Menu**:
 - **API:** the server's response time, for example "API: 120ms", or "API: Offline". The dot turns amber at 500 ms.
 - **Uploads:** "N waiting" while photos are still queued, or "up to date". See [Offline Mode](./offline-mode.md).
 - The plan badge: **Pix Pro**, **Trial until …**, **Event Pass until HH:mm**, **Watermarked**, **Blocked, all N devices active** or **Pix Pro ended, reconnect to check**. Shortly before a license ends it reads **Event Pass ends at HH:mm**, **Trial ends at HH:mm** or **Pix Pro ends …**; the last one also shows when the card payment for Pix Pro did not go through. See [Pix Pro on the Booth](./licence-on-the-booth.md).
-- **Start Booth**, in the corner: back to the guest screens.
+- **Start Booth**, in the corner: back to the customer screens.
 
 The API and Uploads readings are hidden on an unpaired booth.
 
@@ -52,7 +52,7 @@ The card names the booth, with "Kiosk mode" under it, and is headed "Ready to st
 
 On an iPhone or iPad, the card also lists the steps to turn on Guided Access while it is off.
 
-Under the rows, two previews: **Start screen**, a small picture of what guests see first, and **Templates · N** with the first six templates.
+Under the rows, two previews: **Start screen**, a small picture of what customers see first, and **Templates · N** with the first six templates.
 
 ### Settings column
 
@@ -90,13 +90,13 @@ The header reads **Admin Settings**. From the top:
 - **Info strip**: the booth, organisation and device IDs. Support may ask for the device ID; it is also on the booth's Device tab in the dashboard.
 - **Start on boot**: launches the app when the computer starts, so a booth recovers from a power cut on its own. It is on by default. Turn it off here to stop the app opening at startup: the app writes this choice into the Windows Startup list or macOS Login Items every time it opens, so removing it there alone does not last.
 - **UPLOAD QUEUE**: every upload waiting to reach Pixture. Filter with the pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying**. **Process Now** runs the queue immediately. **Clean Storage** removes local copies that have uploaded. **Retry Failed** and **Clear Failed** appear when anything has failed. A line underneath shows cache and disk use. See [Offline Mode](./offline-mode.md).
-- **PRINT HISTORY**: recent sessions, each with a **Print** button to reprint. Use it after "Print issue — photo saved." or when a guest asks for another copy.
+- **PRINT HISTORY**: recent sessions, each with a **Print** button to reprint. Use it after "Print issue — photo saved." or when a customer asks for another copy.
 - **Preflight Check**: runs the booth's own checks (camera, printer, connection) and reports what is not ready. Run it before opening.
 - **Back to Menu**.
 
 ## Leaving the Menu
 
-Tap **Start Booth**. The booth returns to the Home screen and nothing from the menu is visible to guests. A session that was running when you opened the menu is not affected by anything you changed; changes apply from the next session.
+Tap **Start Booth**. The booth returns to the Home screen and nothing from the menu is visible to customers. A session that was running when you opened the menu is not affected by anything you changed; changes apply from the next session.
 
 :::tip
 Two taps top-right, PIN, **Admin Panel**, **Print** is the fastest reprint. Teach it to whoever staffs the booth.

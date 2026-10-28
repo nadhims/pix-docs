@@ -18,7 +18,7 @@ New to words like booth, template, UI project or microsite? Read [How Pixture Wo
 3. [Install the Pixture Photobooth app](./download-desktop-app.md) on the Mac or Windows computer that will run the booth.
 4. [Pair your first booth](./pair-your-first-booth.md). Generate a 6-digit code in the dashboard and type it into the app.
 5. [Know your way around the dashboard](./access-dashboard.md). A short tour of the sidebar, so you know where prices, templates, health and devices live.
-6. [Run your first photo session](./your-first-session.md). Walk through the guest flow once, then find the photos in the Gallery.
+6. [Run your first photo session](./your-first-session.md). Walk through the customer flow once, then find the photos in the Gallery.
 
 Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same ground in about fifteen minutes, with chapter links.
 
@@ -27,7 +27,7 @@ Prefer to watch? The [video walkthrough](./video-walkthrough.md) covers the same
 - A **Mac** on macOS 13 or later, or a **Windows** 10 or 11 (64-bit) PC. Full details in [System Requirements](../reference/system-requirements.md).
 - A **camera**: a Canon, Sony, Nikon or Fujifilm camera on USB (see [Supported Cameras](../reference/supported-cameras.md)), or a built-in or USB webcam to get going.
 - An **internet connection** for sign-up, pairing, template sync and QR code sharing. The booth keeps shooting and printing if the connection drops later.
-- Optional: a **photo printer** so guests leave with a print, and a **touchscreen** so guests can run the booth on their own.
+- Optional: a **photo printer** so customers leave with a print, and a **touchscreen** so customers can run the booth on their own.
 
 ## What Is Free
 

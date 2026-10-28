@@ -32,7 +32,7 @@ The Event Pass keeps running. It is set aside with the same end time, and the ne
 
 You are warned first. An Event Pass shows a notice on the booth idle screen 60 and 15 minutes before it ends. A subscription that will not renew warns 7 days and 1 day ahead by email and with a banner in the dashboard.
 
-When it ends, the booth shows a popup naming what ended (for example "Your Event Pass has ended", or the free trial, or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Computers page. Guests see "Please call the operator."
+When it ends, the booth shows a popup naming what ended (for example "Your Event Pass has ended", or the free trial, or Pix Pro on this computer), with a **Manage devices** button that shows a QR code to your Computers page. Customers see "Please call the operator."
 
 What the computer does next depends on your account:
 
@@ -96,7 +96,7 @@ Credits bought as a pack never expire. Credits from the monthly plan reset each 
 
 ## Do you take a share of my photo session sales?
 
-No. Guest payments at the booth go through your own payment gateway account or your own hardware. Pixture takes no share of them; your gateway's own fees apply.
+No. Customer payments at the booth go through your own payment gateway account or your own hardware. Pixture takes no share of them; your gateway's own fees apply.
 
 ## Related
 

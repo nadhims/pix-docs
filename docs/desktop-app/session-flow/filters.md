@@ -1,23 +1,23 @@
 ---
 sidebar_position: 7
 title: Filters
-description: The filter strip guests choose from, the 14 built-in looks and custom .cube filters, per-booth assignment, and how the chosen filter reaches every output.
+description: The filter strip customers choose from, the 14 built-in looks and custom .cube filters, per-booth assignment, and how the chosen filter reaches every output.
 tags: [desktop-app, photo-session, filters, effects, lut]
 ---
 
 # Filters
 
-The Filter screen lets the guest pick a colour look for their photos before sharing. This page covers what the guest sees, the built-in and custom filters, how to choose which filters a booth offers, how to turn the screen on or off, and where the chosen look ends up. Filtering happens on the booth, so it needs no internet.
+The Filter screen lets the customer pick a colour look for their photos before sharing. This page covers what the customer sees, the built-in and custom filters, how to choose which filters a booth offers, how to turn the screen on or off, and where the chosen look ends up. Filtering happens on the booth, so it needs no internet.
 
-## What the Guest Sees
+## What the Customer Sees {#what-the-guest-sees}
 
-The screen shows a **Filter Preview** block with the guest's photos and a **Filter Strip** below or beside it. The strip is a grid of cards, each showing one of the photos with that filter applied, so the guest sees the real result before choosing. Tapping a card applies it to the preview; the guest then taps Next. **Original** is always in the strip and applies nothing.
+The screen shows a **Filter Preview** block with the customer's photos and a **Filter Strip** below or beside it. The strip is a grid of cards, each showing one of the photos with that filter applied, so the customer sees the real result before choosing. Tapping a card applies it to the preview; the customer then taps Next. **Original** is always in the strip and applies nothing.
 
 The strip's grid, card size and card ratio (from 16:9 to 1:1, square by default) are set on the Filter Strip block in the UI Editor. The cards take their corner radius from the strip.
 
 ## Where the Filter Goes
 
-The chosen filter is applied to the print, the GIF and the live photo alike, so the animation and the clip on the share page match the print in the guest's hand. Only the photos are graded; the template's background and borders stay as designed.
+The chosen filter is applied to the print, the GIF and the live photo alike, so the animation and the clip on the share page match the print in the customer's hand. Only the photos are graded; the template's background and borders stay as designed.
 
 ## Built-in Filters
 
@@ -51,7 +51,7 @@ A beachside booth can offer warm looks only, a corporate activation only monochr
 The Filter screen is a page of the booth's UI project. In the UI Editor, open the **Filter** tab and tick or untick **Enabled in session flow** in the page settings. With it off, the session goes from Capture straight to Sharing, which shaves a few seconds off every session at a high-traffic booth.
 
 :::tip
-Previews render on the booth and appear in the background while the guest looks, so a long strip of custom filters does not slow the screen down.
+Previews render on the booth and appear in the background while the customer looks, so a long strip of custom filters does not slow the screen down.
 :::
 
 ## Related

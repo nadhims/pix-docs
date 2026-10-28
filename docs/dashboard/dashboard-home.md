@@ -7,7 +7,7 @@ tags: [dashboard, analytics, revenue]
 
 # Dashboard Home
 
-**Dashboard** is the first page after you log in. It shows how your booths did over a day, a week or a month: revenue, photo sessions, prints, vouchers, the templates guests picked, the booths that earned most, and whether anything needs attention.
+**Dashboard** is the first page after you log in. It shows how your booths did over a day, a week or a month: revenue, photo sessions, prints, vouchers, the templates customers picked, the booths that earned most, and whether anything needs attention.
 
 ![Dashboard home of a Pix Pro account: Revenue, Sessions, Session Completion, Peak Day, Prints, Vouchers and Templates Usage cards](/img/docs/dashboard-home.webp)
 
@@ -36,7 +36,7 @@ How many photo sessions started in the period.
 
 ### Session Completion
 
-The share of started sessions that reached the end of the flow. A low figure means guests are starting sessions but not finishing them.
+The share of started sessions that reached the end of the flow. A low figure means customers are starting sessions but not finishing them.
 
 ### Peak Day and Peak Hour
 
@@ -52,7 +52,7 @@ Voucher redemptions in the period. See [Vouchers](./vouchers.md).
 
 ### Templates Usage
 
-Which templates guests picked, most used first, with a search box for accounts with many templates.
+Which templates customers picked, most used first, with a search box for accounts with many templates.
 
 ![Dashboard home, full page, with Top Booth Revenue and Health below the first row of cards](/img/docs/dashboard-home-full.webp)
 

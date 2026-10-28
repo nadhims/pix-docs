@@ -21,9 +21,9 @@ This page is the first stop when a booth misbehaves. Find the symptom in the tab
 | "Invalid pairing code", code expired or already used | [Pairing: code refused](../troubleshooting/pairing-and-licence.md#the-booth-says-the-code-is-invalid-used-or-expired) |
 | Old computer still on the booth after Logout | [Pairing: old computer](../troubleshooting/pairing-and-licence.md#the-old-computer-is-still-on-the-booth-after-logout) |
 | Event Pass bought but still **Watermarked**, "Device limit reached", Pix Pro ended | [Pairing and Pix Pro Problems](../troubleshooting/pairing-and-licence.md) |
-| "Uploads: N waiting" for a long time, upload retrying, guest link stuck on **Uploading Photo** | [Uploads: never upload](../troubleshooting/uploads-and-sharing.md#photos-never-upload-although-the-booth-is-online) |
+| "Uploads: N waiting" for a long time, upload retrying, customer link stuck on **Uploading Photo** | [Uploads: never upload](../troubleshooting/uploads-and-sharing.md#photos-never-upload-although-the-booth-is-online) |
 | "No connection — your photos will appear at this link once the booth reconnects.", QR page keeps loading | [Uploads: QR keeps loading](../troubleshooting/uploads-and-sharing.md#the-guests-qr-page-keeps-loading) |
-| Photos missing after a reset, reinstall or unlink; Failed uploads; a guest lost the QR | [Upload and Sharing Problems](../troubleshooting/uploads-and-sharing.md) |
+| Photos missing after a reset, reinstall or unlink; Failed uploads; a customer lost the QR | [Upload and Sharing Problems](../troubleshooting/uploads-and-sharing.md) |
 | "No Templates Assigned", new template not on the booth | [Screens: template missing](../troubleshooting/templates-and-screens.md#my-template-is-not-on-the-booth) |
 | The operator menu will not open, Esc does nothing | [Screens: menu](../troubleshooting/templates-and-screens.md#the-operator-menu-will-not-open) |
 | Photo not inside the frame, photos sideways, photos mirrored | [Templates and Screens Problems](../troubleshooting/templates-and-screens.md) |
@@ -52,7 +52,7 @@ These solve most cases. Do them in order.
 
 Do not troubleshoot these yourself; contact support straight away with the booth name and the time:
 
-- A guest's money was taken but no photo session ran, or a guest was charged twice.
+- A customer's money was taken but no photo session ran, or a customer was charged twice.
 - Photos are missing after the computer was reset, reinstalled or unlinked.
 - Photos are missing from the Gallery although the footer read "Uploads: up to date".
 

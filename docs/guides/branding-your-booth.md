@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
 title: Branding Your Booth
-description: Put your brand on every surface a guest sees, from the booth screens and print templates to the share page, GIF overlays and event looks.
+description: Put your brand on every surface a customer sees, from the booth screens and print templates to the share page, GIF overlays and event looks.
 tags: [guides, branding, templates, pix-design, customization]
 ---
 
 # Branding Your Booth
 
-Guests meet your brand on the booth screen, on the print, on the GIF and on the share page they open from the QR code. All of it is designed in the Pixture dashboard, nothing on the booth itself. At the end of this guide your logo, booth screens, templates, share page and overlays all carry the same look.
+Customers (or guests at an event) meet your brand on the booth screen, on the print, on the GIF and on the share page they open from the QR code. All of it is designed in the Pixture dashboard, nothing on the booth itself. At the end of this guide your logo, booth screens, templates, share page and overlays all carry the same look.
 
 ## Before you start
 
@@ -45,14 +45,14 @@ Design the artwork in your usual design tool first; the editor places the photos
 
 ## Step 4: Brand the share page
 
-The share page is what a guest opens from the QR code on the Sharing screen.
+The share page is what a customer opens from the QR code on the Sharing screen.
 
 1. Open **Pix Design > Microsite**.
 2. Work through the sections: **Page**, **Header**, **Buttons**, **Promo banner** and **Menu links**.
 3. Pick a font from the font picker or upload one under **Custom font (optional)**, and set a **Background image**.
 4. Tap **Save changes**, then **Save to booths** to apply it.
 
-**Show promo popup again** re-arms the promo banner for guests who already dismissed it.
+**Show promo popup again** re-arms the promo banner for customers who already dismissed it.
 
 ## Step 5: Add a GIF or video overlay
 
@@ -74,7 +74,7 @@ When the event ends, the booths return to their own templates and design.
 
 ## Booth language
 
-Set the language guests see on the booth under **Settings > Preferences > Booth language** and tap **Save**. The dashboard language is set separately on the same page.
+Set the language customers see on the booth under **Settings > Preferences > Booth language** and tap **Save**. The dashboard language is set separately on the same page.
 
 ## Related
 

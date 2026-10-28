@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, templates, booths, events]
 
 # Assigning Templates
 
-A template only reaches guests once it is assigned. Assignment is the link between a template project and a booth: the booth's Templates screen shows exactly the templates assigned to it, and nothing else. One template can sit on many booths, and one booth can carry many templates. By the end of this page you will know the three ways to assign in the dashboard and how events change the picture.
+A template only reaches customers once it is assigned. Assignment is the link between a template project and a booth: the booth's Templates screen shows exactly the templates assigned to it, and nothing else. One template can sit on many booths, and one booth can carry many templates. By the end of this page you will know the three ways to assign in the dashboard and how events change the picture.
 
 ## Three Ways to Assign
 
@@ -56,12 +56,12 @@ One template on the tab carries a **Default** badge, marking the booth's default
 
 ## What Happens Next
 
-The booth picks up the change on its next idle refresh, usually within seconds, without a restart. A photo session already in progress finishes with the template the guest chose; the next session sees the new set.
+The booth picks up the change on its next idle refresh, usually within seconds, without a restart. A photo session already in progress finishes with the template the customer chose; the next session sees the new set.
 
-On the booth, guests see the assigned templates as cards on the Templates screen, grouped by the category buttons if your templates carry categories. See [Template Selection](../../desktop-app/session-flow/template-selection.md) for the guest side.
+On the booth, customers see the assigned templates as cards on the Templates screen, grouped by the category buttons if your templates carry categories. See [Template Selection](../../desktop-app/session-flow/template-selection.md) for the customer side.
 
 :::caution
-A booth with no templates assigned has nothing for guests to pick. Keep at least one template on every booth that runs sessions, and match the paper: a 4x6" Normal template on a strip printer will not print as intended.
+A booth with no templates assigned has nothing for customers to pick. Keep at least one template on every booth that runs sessions, and match the paper: a 4x6" Normal template on a strip printer will not print as intended.
 :::
 
 ## Events Use Their Own Set

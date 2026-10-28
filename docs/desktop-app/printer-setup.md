@@ -31,9 +31,9 @@ The **STATUS** block at the bottom shows **Printer**, **Name** and **Available**
 
 ## Printing During a Photo Session
 
-The print is sent when the guest reaches the Sharing screen. Whether the booth prints at all is the **Print Output** switch on the booth's **Settings** tab in the dashboard (**Booths > booth > Settings > Output Settings**). Copies follow **COPIES PER SESSION** here and the prints included in the package the guest bought under Booth Pricing.
+The print is sent when the customer reaches the Sharing screen. Whether the booth prints at all is the **Print Output** switch on the booth's **Settings** tab in the dashboard (**Booths > booth > Settings > Output Settings**). Copies follow **COPIES PER SESSION** here and the prints included in the package the customer bought under Booth Pricing.
 
-If the printer does not accept the job, the booth retries up to 3 times, 5 seconds apart. A job that is stuck in the Windows print queue is not retried, because the operating system has already accepted it. When every attempt fails the guest sees "Print issue — photo saved. Staff: reprint from Admin Panel → Print History", and the photo is still uploaded and shared as normal.
+If the printer does not accept the job, the booth retries up to 3 times, 5 seconds apart. A job that is stuck in the Windows print queue is not retried, because the operating system has already accepted it. When every attempt fails the customer sees "Print issue — photo saved. Staff: reprint from Admin Panel → Print History", and the photo is still uploaded and shared as normal.
 
 To reprint:
 
@@ -43,7 +43,7 @@ To reprint:
 
 ## Print Counts Are Sheets
 
-Everything the booth counts, and everything Booth Pricing prices, is a sheet of paper. If Booth Pricing's **Print format** is set to **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet), the Payment screen shows the number of strips the guest takes home, but the printer still receives one sheet per print. Set **COPIES PER SESSION** in sheets. See [Booth Pricing](../dashboard/booth-pricing.md).
+Everything the booth counts, and everything Booth Pricing prices, is a sheet of paper. If Booth Pricing's **Print format** is set to **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet), the Payment screen shows the number of strips the customer takes home, but the printer still receives one sheet per print. Set **COPIES PER SESSION** in sheets. See [Booth Pricing](../dashboard/booth-pricing.md).
 
 :::caution
 Keep spare media and ribbon at the booth. A dye-sub printer can run out at any point in the day, and a partly used ribbon roll cannot be resumed.

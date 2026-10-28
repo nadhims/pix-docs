@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: Upload and Sharing Problems
-description: "Fixes for upload and QR sharing problems: photos stuck on \"Uploads: N waiting\" while the booth is online, the guest's QR page loading forever or showing \"No connection\", photos missing after a computer was reset or unlinked, uploads marked Failed, the dashboard showing a running booth as Offline, a guest who lost their link, and a photo deleted by mistake."
+description: "Fixes for upload and QR sharing problems: photos stuck on \"Uploads: N waiting\" while the booth is online, the customer's QR page loading forever or showing \"No connection\", photos missing after a computer was reset or unlinked, uploads marked Failed, the dashboard showing a running booth as Offline, a customer who lost their link, and a photo deleted by mistake."
 tags: [troubleshooting, uploads, sharing, offline]
 ---
 
 # Upload and Sharing Problems
 
-Start here when photos do not reach the Gallery or the guest's QR link. Every photo is saved on the booth computer first and uploads from a queue, so a photo that has not uploaded yet is almost always still on that computer. Problems are ordered by how often operators report them.
+Start here when photos do not reach the Gallery or the customer's QR link. Every photo is saved on the booth computer first and uploads from a queue, so a photo that has not uploaded yet is almost always still on that computer. Problems are ordered by how often operators report them.
 
 :::caution
 Never reset, reinstall, unlink or switch off a booth computer while the operator menu footer reads **Uploads: N waiting**. Those photos exist only on that computer until they upload.
@@ -15,7 +15,7 @@ Never reset, reinstall, unlink or switch off a booth computer while the operator
 
 ### Photos never upload although the booth is online
 
-**On screen:** The operator menu footer reads "Internet: Online" but "Uploads: N waiting" for a long time. The guest link stays on **Uploading Photo**. The logs show `getaddrinfo ENOTFOUND`.
+**On screen:** The operator menu footer reads "Internet: Online" but "Uploads: N waiting" for a long time. The customer link stays on **Uploading Photo**. The logs show `getaddrinfo ENOTFOUND`.
 
 **Also described as:** "foto yang sedang diupload retrying terus", "upload stuck", "QR loading lama sekali", "photos not in the gallery".
 
@@ -24,12 +24,12 @@ Never reset, reinstall, unlink or switch off a booth computer while the operator
 **Fix:**
 1. Connect the booth computer to a phone hotspot or another internet connection.
 2. Open **Admin Panel > Uploads** and tap **Upload now**.
-3. If the waiting photos upload within a minute or two, the venue network was blocking Pixture's photo storage. The QR links guests already have start working; nobody needs to retake a photo.
+3. If the waiting photos upload within a minute or two, the venue network was blocking Pixture's photo storage. The QR links customers already have start working; nobody needs to retake a photo.
 4. For later events at that venue, run the booth on a hotspot or 4G router, or ask the venue's IT team to allow `*.r2.cloudflarestorage.com`. On a home or small shop router, setting the computer's DNS to 1.1.1.1 and 8.8.8.8 can also fix it.
 
 **Still stuck:** If the photos do not upload on a hotspot either, send support the booth name, the time of the session and the logs. See [Where the Logs Are](../desktop-app/troubleshooting.md#where-the-logs-are).
 
-### The guest's QR page keeps loading
+### The customer's QR page keeps loading {#the-guests-qr-page-keeps-loading}
 
 **On screen:** On the booth's Sharing screen, "No connection — your photos will appear at this link once the booth reconnects." The menu footer reads "Internet: Offline".
 
@@ -39,7 +39,7 @@ Never reset, reinstall, unlink or switch off a booth computer while the operator
 
 **Fix:**
 1. Get the booth online: switch the computer on, open the app, fix the internet.
-2. Wait. The queue retries network failures for as long as it takes and drains on its own; the guest's link fills in as soon as the photos arrive.
+2. Wait. The queue retries network failures for as long as it takes and drains on its own; the customer's link fills in as soon as the photos arrive.
 3. To push it straight away, tap **Admin Panel > Uploads > Upload now**.
 4. For a venue without internet, see [Offline Mode](../desktop-app/offline-mode.md).
 
@@ -87,7 +87,7 @@ Never reset, reinstall, unlink or switch off a booth computer while the operator
 
 **Still stuck:** Send support the booth name and the app version.
 
-### A guest lost their QR code or link
+### A customer lost their QR code or link {#a-guest-lost-their-qr-code-or-link}
 
 **On screen:** Nothing. The QR code only shows on the Sharing screen at the end of the session.
 
@@ -97,7 +97,7 @@ Never reset, reinstall, unlink or switch off a booth computer while the operator
 
 **Fix:**
 1. Open **Gallery**, filter by the booth and the day, and find the session.
-2. Download the photo and send it to the guest. See [Gallery](../dashboard/gallery.md).
+2. Download the photo and send it to the customer. See [Gallery](../dashboard/gallery.md).
 
 **Still stuck:** Session not in the Gallery? See [Photos are missing although uploads are up to date](#photos-are-missing-although-uploads-are-up-to-date).
 

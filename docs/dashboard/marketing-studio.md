@@ -1,29 +1,29 @@
 ---
 sidebar_position: 9
 title: Marketing Studio
-description: The Pix Pro tools that turn a photo session into a repeat guest, including the consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance.
+description: The Pix Pro tools that turn a photo session into a repeat customer, including the consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance.
 tags: [dashboard, marketing, bonus, frame-lab]
 ---
 
 # Marketing Studio
 
-**Marketing Studio** groups the tools that bring guests back: permission to reuse their photos, a contact list, a buy-one-get-one bonus, guest-designed frames, and campaigns that switch all of it on for a season. It is Pix Pro only and does not appear in the sidebar on Pix Starter.
+**Marketing Studio** groups the tools that bring customers back: permission to reuse their photos, a contact list, a buy-one-get-one bonus, customer-designed frames, and campaigns that switch all of it on for a season. It is Pix Pro only and does not appear in the sidebar on Pix Starter.
 
 ![Marketing Studio Content tab: Marketing consent switch, Consent text, live booth consent prompt preview](/img/docs/marketing-content.webp)
 
 ## Content
 
-Ask guests whether you may feature their photos. Pick a booth at the top, then:
+Ask customers whether you may feature their photos. Pick a booth at the top, then:
 
 | Control | What it does |
 |---|---|
 | **Marketing consent** | "Ask guests if you may reuse their photos for marketing. Opt-ins appear in the gallery below. Off by default." |
 | **Consent text** | Your own wording. "Blank = built-in default in the booth's language." |
-| Live preview | The booth prompt as guests see it: "May we feature your photos?" with **Yes, I agree** and **No thanks** |
+| Live preview | The booth prompt as customers see it: "May we feature your photos?" with **Yes, I agree** and **No thanks** |
 | **Apply to all booths** | Copies this booth's consent settings to every booth |
 | **Save changes** | Saves the selected booth |
 
-Photos from guests who agreed appear in the gallery below these settings, so you can find them for social media.
+Photos from customers who agreed appear in the gallery below these settings, so you can find them for social media.
 
 ## Audience
 
@@ -35,7 +35,7 @@ The contacts captured at your booths, with **Contact**, **Visits** and **Last se
 
 ![Marketing Studio Bonus Session tab: Buy 1 get 1 free, Daily limit, Active days, Active hours, Contact capture](/img/docs/marketing-bonus.webp)
 
-**Buy 1, get 1 free.** A guest who pays for a photo session gets a second one free, right after the first, with a popup on the booth and a countdown into the next session. It fires only after a genuinely paid session: a free, voucher or bonus session never earns another bonus.
+**Buy 1, get 1 free.** A customer who pays for a photo session gets a second one free, right after the first, with a popup on the booth and a countdown into the next session. It fires only after a genuinely paid session: a free, voucher or bonus session never earns another bonus.
 
 | Setting | What it does |
 |---|---|
@@ -50,10 +50,10 @@ Bonus sessions show a Bonus label on [Transactions](./transactions.md).
 
 ![Marketing Studio Frame Lab tab: per-booth price, canvas, voucher expiry, guest upload page QR](/img/docs/marketing-frame-lab.webp)
 
-Frame Lab lets a guest design their own frame on their phone, pay for it, and use it at the booth. The guest either builds the frame in a small studio (layout, colours, stickers, caption) or uploads a finished PNG, pays by QR code through your gateway, and gets a single-use voucher code that loads their frame on the booth. Each booth has its own **Frame Lab** switch, **Price**, **Canvas (px)** and **Voucher expiry** (hours). Below them are the shared **Guest upload page** QR and link, the **Page banner**, the **Studio assets** (textures and graphics guests can use in the studio) and **Recent Frame Lab uploads** with each order's voucher code and status. Frame Lab sales show as **CT** rows on Transactions. The per-booth page with the same settings is reached from the **Frame Lab** cell of the booth's property grid; see [Booths](./booth-management.md). The whole journey, from switching it on to the guest redeeming the code at the booth, is in [Let Guests Design Their Own Frame](../tutorials/frame-lab.md).
+Frame Lab lets a customer design their own frame on their phone, pay for it, and use it at the booth. The customer either builds the frame in a small studio (layout, colours, stickers, caption) or uploads a finished PNG, pays by QR code through your gateway, and gets a single-use voucher code that loads their frame on the booth. Each booth has its own **Frame Lab** switch, **Price**, **Canvas (px)** and **Voucher expiry** (hours). Below them are the shared **Guest upload page** QR and link, the **Page banner**, the **Studio assets** (textures and graphics customers can use in the studio) and **Recent Frame Lab uploads** with each order's voucher code and status. Frame Lab sales show as **CT** rows on Transactions. The per-booth page with the same settings is reached from the **Frame Lab** cell of the booth's property grid; see [Booths](./booth-management.md). The whole journey, from switching it on to the customer redeeming the code at the booth, is in [Let Customers Design Their Own Frame](../tutorials/frame-lab.md).
 
 <div className="phone-row">
-  <figure><img src="/img/docs/framelab-studio-format.webp" alt="The guest studio on a phone: a four-photo 4x6 frame with the Format, Upload, BG, Deco and Text tools" /><figcaption>What the guest sees: the Frame Lab studio.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-studio-format.webp" alt="The customer studio on a phone: a four-photo 4x6 frame with the Format, Upload, BG, Deco and Text tools" /><figcaption>What the customer sees: the Frame Lab studio.</figcaption></figure>
   <figure><img src="/img/docs/framelab-voucher.webp" alt="Your voucher is ready screen with the six-character code" /><figcaption>After payment: the single-use voucher code.</figcaption></figure>
 </div>
 

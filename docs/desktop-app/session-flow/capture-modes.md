@@ -11,13 +11,13 @@ The Capture screen is where the photos are taken: a countdown, a shot for each s
 
 ## The Countdown
 
-When a shot is triggered, the booth counts down on the live view and fires the camera. The countdown length and how it looks are set on the Capture page in the UI Editor. If the camera is still starting, the booth waits on "Camera is warming up" rather than firing blind; after 30 seconds without a camera it shows "Camera not responding / Returning to home..." and ends the session. If no frame arrives within 15 seconds of a shot, the guest sees "Hmm, the camera didn't respond — let's try again" and the booth retries that slot.
+When a shot is triggered, the booth counts down on the live view and fires the camera. The countdown length and how it looks are set on the Capture page in the UI Editor. If the camera is still starting, the booth waits on "Camera is warming up" rather than firing blind; after 30 seconds without a camera it shows "Camera not responding / Returning to home..." and ends the session. If no frame arrives within 15 seconds of a shot, the customer sees "Hmm, the camera didn't respond — let's try again" and the booth retries that slot.
 
 ## What Triggers a Shot
 
 The **Camera trigger** dropdown on the Capture page (also on the Live View block panel) decides how the first shot starts:
 
-- **Tap**: the guest taps the screen. The default for a photobooth.
+- **Tap**: the customer taps the screen. The default for a photobooth.
 - **Shutter button**: an on-screen shutter button in your design.
 - **Camera shutter**: the physical shutter button on a Canon body, for a photographer-run booth.
 - **Auto**: every slot starts on its own. Photobooth mode only.
@@ -26,15 +26,15 @@ The **Camera trigger** dropdown on the Capture page (also on the Live View block
 
 ## Session Time
 
-The Capture page has a **Session Time** setting: a countdown for the whole session that starts at the first shot, with or without a timer on screen. When it runs out the booth does what the setting says, for instance moving on with the photos it has. Add a **Session Timer** block if you want the guest to see it; the block only displays the time, always as MM:SS, and never changes the limit. When the time reaches zero the Retake button disappears from Review.
+The Capture page has a **Session Time** setting: a countdown for the whole session that starts at the first shot, with or without a timer on screen. When it runs out the booth does what the setting says, for instance moving on with the photos it has. Add a **Session Timer** block if you want the customer to see it; the block only displays the time, always as MM:SS, and never changes the limit. When the time reaches zero the Retake button disappears from Review.
 
 ## Preview Cards
 
-The **Preview Cards** block (version 1.1.114 or newer) shows one square card per template slot, numbered while empty and filled as each shot lands, with the current slot ringed. It scrolls when a design has many slots. Guests can see at a glance how many shots are left.
+The **Preview Cards** block (version 1.1.114 or newer) shows one square card per template slot, numbered while empty and filled as each shot lands, with the current slot ringed. It scrolls when a design has many slots. Customers can see at a glance how many shots are left.
 
 ## Per-shot Review
 
-After each shot the booth shows the photo with **Next** and **Retake**. This is also where the guest scales, mirrors or moves the photo within its slot. See [Review and Adjust](./review-and-adjust.md).
+After each shot the booth shows the photo with **Next** and **Retake**. This is also where the customer scales, mirrors or moves the photo within its slot. See [Review and Adjust](./review-and-adjust.md).
 
 ## What a Session Produces
 

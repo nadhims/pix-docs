@@ -39,7 +39,7 @@ Offline does not always mean something is wrong. A booth switched off outside op
 | Camera | The booth cannot see or talk to the camera | Cable and power, then the setup page for your camera in [Supported Cameras](../reference/supported-cameras.md) |
 | Printer | The printer is missing, paused or in error | The printer itself, then [Printer Setup](../desktop-app/printer-setup.md) |
 | Paper | Media is low or out | Reload; the count comes from the printer driver |
-| Uploads | Photo sessions are waiting to upload, usually on slow venue Wi-Fi | Nothing is lost; guests' QR links open once the queue clears. See [Offline Mode](../desktop-app/offline-mode.md) |
+| Uploads | Photo sessions are waiting to upload, usually on slow venue Wi-Fi | Nothing is lost; customers' QR links open once the queue clears. See [Offline Mode](../desktop-app/offline-mode.md) |
 | Disk | The computer is running out of space | Clear old files on the booth PC |
 | Memory | The computer is short of memory | Restart the Pixture Photobooth app |
 

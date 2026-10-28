@@ -42,13 +42,13 @@ Every change saves on its own; the page shows "Saved".
 
 ## Preview
 
-The preview beside the settings shows your brand on four screens: **Start screen**, **Capture**, **Share** and **Guest page** (the share page guests open on their phone).
+The preview beside the settings shows your brand on four screens: **Start screen**, **Capture**, **Share** and **Guest page** (the share page customers open on their phone).
 
 ## Where Your Brand Shows Up
 
 - **Events**: the booth screens of your events.
 - **UI projects**: the booth screens you design in the [UI Editor](./ui-editor.md).
-- **Share page and album**: the page guests open from the QR code, and the event album. See [Microsite (Share Page)](./microsite.md).
+- **Share page and album**: the page customers open from the QR code, and the event album. See [Microsite (Share Page)](./microsite.md).
 
 Your brand is the default. For one client with its own look, change that event, UI project or microsite on its own page; the rest keep your brand.
 

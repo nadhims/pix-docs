@@ -7,7 +7,7 @@ tags: [tutorials, payments, payment-gateway, doku, stripe, qris]
 
 # Create a Payment Gateway
 
-A payment gateway is the service that sits between your booth and your bank. It shows the QR code or card request, checks that the guest actually paid, tells the booth to unlock the photo session, and settles the money into your business account a day or three later. Without one, a self-service booth still needs a person to collect cash. Pixture never holds the money: it goes from the guest to your own gateway account, and Pixture only asks the gateway whether the payment went through.
+A payment gateway is the service that sits between your booth and your bank. It shows the QR code or card request, checks that the customer actually paid, tells the booth to unlock the photo session, and settles the money into your business account a day or three later. Without one, a self-service booth still needs a person to collect cash. Pixture never holds the money: it goes from the customer to your own gateway account, and Pixture only asks the gateway whether the payment went through.
 
 In this tutorial you will open a merchant account with a gateway, collect the keys Pixture needs, connect the gateway, run the test charge and, for Stripe, add the optional webhook and card readers. The Pixture side takes about 30 minutes. The provider's own business verification takes anywhere from a day to two weeks, so start with that.
 
@@ -19,7 +19,7 @@ In this tutorial you will open a merchant account with a gateway, collect the ke
 
 ## Step 1: Pick the Provider
 
-| You are in | Use | Guests pay with |
+| You are in | Use | Customers pay with |
 |---|---|---|
 | Indonesia | **DOKU** | QRIS from any wallet or banking app |
 | India | **Razorpay** | UPI QR from any UPI app (Google Pay, PhonePe, Paytm, BHIM) |
@@ -35,7 +35,7 @@ Midtrans and Xendit are also on the provider list for Indonesian merchants who a
 1. **DOKU:** register as a business at doku.com, complete the verification with your business registration, the owner's ID and the bank account, and ask for QRIS to be activated. You start in the sandbox and receive live keys once verification is done.
 2. **Stripe:** create an account at stripe.com and complete **Activate your account** with the business details and the payout bank account. Test keys are available at once; live keys appear when the account is activated.
 
-While you wait for verification, everything below works with the provider's test keys. Just remember to swap them for the live keys before opening to guests.
+While you wait for verification, everything below works with the provider's test keys. Just remember to swap them for the live keys before opening to customers.
 
 ## Step 3: Collect the Keys
 
@@ -99,7 +99,7 @@ Payments are confirmed without a webhook: the booth polls Stripe until the payme
 
 ## Step 7: Add Stripe Terminal Card Readers (Optional)
 
-With a Stripe Terminal reader at the booth, guests tap or insert a card instead of scanning a QR code. The reader belongs to your Stripe account and is assigned to a booth in Pixture.
+With a Stripe Terminal reader at the booth, customers tap or insert a card instead of scanning a QR code. The reader belongs to your Stripe account and is assigned to a booth in Pixture.
 
 1. Register the reader in the Stripe Dashboard under **Terminal**, at the location of the booth, and connect it to the booth's Wi-Fi.
 2. On the Stripe gateway card in Pixture, open **Card readers (Stripe Terminal)**. Every booth has a dropdown that reads **No reader (QR payment)** until you pick a reader. Readers that are not connected show their status in brackets.

@@ -11,11 +11,11 @@ Terms used in Pixture, explained for photobooth operators, A to Z. New to Pixtur
 
 ### Additional session
 
-An extra photo session a guest adds to a package at the Payment screen, priced under **Additional session price** on the booth's Pricing tab.
+An extra photo session a customer adds to a package at the Payment screen, priced under **Additional session price** on the booth's Pricing tab.
 
 ### AI portrait pickup code
 
-A 7-character code a guest receives after buying an AI portrait print from their share page. Typed into the voucher box on the booth's Payment screen, it prints the portrait. Available to beta accounts.
+A 7-character code a customer receives after buying an AI portrait print from their share page. Typed into the voucher box on the booth's Payment screen, it prints the portrait. Available to beta accounts.
 
 ### Album
 
@@ -23,7 +23,7 @@ The public page for an event at `pixture.io/album/{slug}`, showing every photo f
 
 ### Assign photos
 
-The screen in Studio mode where the guest places the shots from their pool into the template's slots: tap a slot, then a photo.
+The screen in Studio mode where the customer places the shots from their pool into the template's slots: tap a slot, then a photo.
 
 ### Blocked
 
@@ -35,7 +35,7 @@ A free second photo session offered right after a paid one, optionally in exchan
 
 ### Booth
 
-The photobooth guests use at your venue: a computer running the Pixture Photobooth app, with a touchscreen, a camera and usually a printer. Each booth has its own page in the dashboard, under **Booths**, with its templates, screen design, pricing, settings and history, connected to its computer once with a **pairing code**. Booths are free, so create one for every photobooth you run. See [How Pixture Works](../getting-started/how-pixture-works.md).
+The photobooth people use at your venue: a computer running the Pixture Photobooth app, with a touchscreen, a camera and usually a printer. Each booth has its own page in the dashboard, under **Booths**, with its templates, screen design, pricing, settings and history, connected to its computer once with a **pairing code**. Booths are free, so create one for every photobooth you run. See [How Pixture Works](../getting-started/how-pixture-works.md).
 
 ### Camera
 
@@ -47,11 +47,11 @@ How a booth captures during an event: **Photo**, **Video** or **360 Slow-mo** (m
 
 ### Central cashier
 
-A Multi-Booth setting where guests pay one person at a counter and receive an 8-character group code that works at any booth in the group.
+A Multi-Booth setting where customers pay one person at a counter and receive an 8-character group code that works at any booth in the group.
 
 ### Composite
 
-The final image of a photo session: the guest's photos placed into the template with its artwork. It is what prints and what the share page shows first.
+The final image of a photo session: the customer's photos placed into the template with its artwork. It is what prints and what the share page shows first.
 
 ### Computer
 
@@ -60,6 +60,10 @@ A computer running the Pixture Photobooth app, paired to a booth. Pix Pro is bou
 ### Computers page
 
 The dashboard page where you see your active computers, add computers, buy Event Passes, deactivate a computer and manage AI credits. It used to be called Devices, and before that Licenses.
+
+### Customer
+
+A person using a booth in Kiosk mode: someone who walks up, pays for a photo session and takes their photos home. At an event the people at the booth are **guests**.
 
 ### Dashboard
 
@@ -87,19 +91,23 @@ A dated job in **Events** with its own booths, templates, screen design, capture
 
 ### Extra prints
 
-Additional sheets a guest buys on the Sharing screen, priced under **Extra print price** on the booth's Pricing tab.
+Additional sheets a customer buys on the Sharing screen, priced under **Extra print price** on the booth's Pricing tab.
 
 ### Filter
 
-A colour look the guest picks on the Filter screen. 14 are built in; Pix Pro accounts can upload up to 50 custom `.cube` files under **Pix Design > Photo Filters**. The filter is applied to the print, the GIF and the live photo.
+A colour look the customer picks on the Filter screen. 14 are built in; Pix Pro accounts can upload up to 50 custom `.cube` files under **Pix Design > Photo Filters**. The filter is applied to the print, the GIF and the live photo.
 
 ### Frame Lab
 
-A Marketing Studio feature where guests design and pay for their own frame from a link or QR before their session, then use the code at the booth. Priced per booth. Needs Pix Pro.
+A Marketing Studio feature where customers design and pay for their own frame from a link or QR before their session, then use the code at the booth. Priced per booth. Needs Pix Pro.
 
 ### GIF overlay
 
 A transparent PNG drawn over every GIF and video a booth makes. Uploaded under **Pix Design > GIF/Video overlay** and chosen on the booth's Settings tab.
+
+### Guest
+
+A person at a booth in Event mode, invited to a hosted event such as a wedding or a corporate party. Everywhere else the people at the booth are **customers**.
 
 ### Hardware API
 
@@ -111,7 +119,7 @@ The booth checks in with Pixture every few minutes. A booth shows as **Online** 
 
 ### Kiosk
 
-Another word for a **booth**, the machine guests use. These docs say booth; you may still see "kiosk" in a few dashboard hints and on the event **Kiosk UI** card.
+Another word for a **booth**, the machine people use. These docs say booth; you may still see "kiosk" in a few dashboard hints and on the event **Kiosk UI** card.
 
 ### Live photo
 
@@ -119,11 +127,11 @@ A short video clip recorded around the shot, shared on the share page next to th
 
 ### Live view
 
-The moving camera picture on the booth screen that guests see while posing, before each photo is taken.
+The moving camera picture on the booth screen that customers see while posing, before each photo is taken.
 
 ### Marketing Studio
 
-The Pix Pro tools in the dashboard that turn a photo session into a repeat guest: the consent prompt, Bonus Session, Frame Lab, campaigns and results.
+The Pix Pro tools in the dashboard that turn a photo session into a repeat customer: the consent prompt, Bonus Session, Frame Lab, campaigns and results.
 
 ### Menu PIN
 
@@ -131,7 +139,7 @@ A 4 to 8 digit PIN that locks the booth's operator menu. Set on the booth's Sett
 
 ### Microsite
 
-The design of the guest's share page: your logo, colours, fonts, buttons and promo banner. Set under **Pix Design > Microsite** and applied to every share page from your booths.
+The design of the customer's share page: your logo, colours, fonts, buttons and promo banner. Set under **Pix Design > Microsite** and applied to every share page from your booths.
 
 ### Multi-Booth group
 
@@ -147,7 +155,7 @@ The booth's staff menu, opened by tapping the top-right corner of the screen twi
 
 ### Package
 
-What a guest buys at the Payment screen: **Single**, **Double** or **Group** (four sessions), each with its prints included, priced on the booth's Pricing tab.
+What a customer buys at the Payment screen: **Single**, **Double** or **Group** (four sessions), each with its prints included, priced on the booth's Pricing tab.
 
 ### Pairing code
 
@@ -155,11 +163,11 @@ A 6-digit code generated on a booth's **Computer** tab in the dashboard and type
 
 ### Payment gateway
 
-Your own merchant account (Midtrans, Xendit, DOKU, Stripe, Razorpay or Kashier) connected under **Settings > Payment Gateway** so guests can pay by QR at the booth. Pixture takes no share of these payments.
+Your own merchant account (Midtrans, Xendit, DOKU, Stripe, Razorpay or Kashier) connected under **Settings > Payment Gateway** so customers can pay by QR at the booth. Pixture takes no share of these payments.
 
 ### Photo session
 
-One guest's run through the booth: start, payment, template, capture, filter and sharing. The Dashboard, Gallery and Transactions count them.
+One customer's run through the booth: start, payment, template, capture, filter and sharing. The Dashboard, Gallery and Transactions count them.
 
 ### Photobooth
 
@@ -175,7 +183,7 @@ The design studio in the dashboard: the Template Editor for prints, the UI Edito
 
 ### Pixture Photobooth
 
-The Pixture Photobooth app installed on the booth PC, for Mac and Windows. It runs the guest's screens, drives the camera and printer, takes payments and syncs with the dashboard. Download it from pixture.io/download.
+The Pixture Photobooth app installed on the booth PC, for Mac and Windows. It runs the customer's screens, drives the camera and printer, takes payments and syncs with the dashboard. Download it from pixture.io/download.
 
 ### Pix Pro
 
@@ -191,7 +199,7 @@ The company and its dashboard at pixture.io. The booth app is Pixture Photobooth
 
 ### Pool
 
-Two meanings. On the Computers page, the unused Event Passes and free subscription places waiting for a computer. In Studio mode, the shots a guest has taken before assigning them to slots.
+Two meanings. On the Computers page, the unused Event Passes and free subscription places waiting for a computer. In Studio mode, the shots a customer has taken before assigning them to slots.
 
 ### Print format, sheet
 
@@ -199,7 +207,7 @@ Print counts in Booth Pricing are always sheets. **Print format** (Standard, 2 i
 
 ### QRIS
 
-Indonesia's national QR payment standard. Guests pay by scanning the booth's QR with any Indonesian bank or wallet app. Available through Midtrans, Xendit and DOKU, in rupiah only.
+Indonesia's national QR payment standard. Customers pay by scanning the booth's QR with any Indonesian bank or wallet app. Available through Midtrans, Xendit and DOKU, in rupiah only.
 
 ### Region
 
@@ -211,7 +219,7 @@ What starts a photo session on the Start screen: a tap on the screen, a Start bu
 
 ### Share page
 
-The guest's page at `pixture.io/s/{code}`, opened from the QR code on the booth's Sharing screen, with their finished photo, single shots, GIF and live photo to download. Its look is set by the **Microsite**.
+The customer's page at `pixture.io/s/{code}`, opened from the QR code on the booth's Sharing screen, with their finished photo, single shots, GIF and live photo to download. Its look is set by the **Microsite**.
 
 ### Sharing screen
 
@@ -219,15 +227,15 @@ The last screen of a photo session on the booth, with the QR code to the share p
 
 ### Stripe Terminal
 
-A Stripe card reader at the booth so guests tap or insert a card. Recommended reader: UX700.
+A Stripe card reader at the booth so customers tap or insert a card. Recommended reader: UX700.
 
 ### Studio mode
 
-A booth mode where the guest takes free shots, then assigns them to the template's slots. Chosen when creating a UI project; needs Pixture Photobooth 1.1.98 or newer.
+A booth mode where the customer takes free shots, then assigns them to the template's slots. Chosen when creating a UI project; needs Pixture Photobooth 1.1.98 or newer.
 
 ### Template
 
-A print template: artwork with photo slots that the guest's photos are placed into, which becomes the printed photo and the composite. Made in **Pix Design > Template Editor** and assigned to booths or events.
+A print template: artwork with photo slots that the customer's photos are placed into, which becomes the printed photo and the composite. Made in **Pix Design > Template Editor** and assigned to booths or events.
 
 ### Template Editor
 
@@ -247,7 +255,7 @@ The part of Pix Design where you build a **UI project**, every booth screen from
 
 ### UI project
 
-The screen design: every screen a guest touches, from the Start screen to Sharing, with its buttons, backgrounds and session settings. Made in **Pix Design > UI Editor**; each booth runs one.
+The screen design: every screen a customer touches, from the Start screen to Sharing, with its buttons, backgrounds and session settings. Made in **Pix Design > UI Editor**; each booth runs one.
 
 ### Unpaired mode
 
@@ -255,7 +263,7 @@ The booth running without an account, from **Try it without an account** on the 
 
 ### Voucher
 
-A code a guest enters on the booth's Payment screen. Four kinds: a **single** voucher created by hand (free session, fixed amount or percentage), a **batch** of up to 1000 6-character codes, an **online** 7-character code bought in the online session shop, and a **group code** of 8 characters from a central cashier. All verify even when the booth is offline.
+A code a customer enters on the booth's Payment screen. Four kinds: a **single** voucher created by hand (free session, fixed amount or percentage), a **batch** of up to 1000 6-character codes, an **online** 7-character code bought in the online session shop, and a **group code** of 8 characters from a central cashier. All verify even when the booth is offline.
 
 ### Watermarked
 

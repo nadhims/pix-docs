@@ -7,11 +7,11 @@ tags: [use-cases, multi-booth, studio, cashier]
 
 # Multi-Booth Studio
 
-A multi-booth studio puts four to eight booths side by side in one unit, each with its own theme or background, with one attendant for all of them. Guests pick a booth the way they would pick a filter. Revenue grows with every booth while rent and staff stay the same, but so does the work: every booth has its own computer, printer and templates to keep in sync. This page shows how Pixture keeps several booths working as one.
+A multi-booth studio puts four to eight booths side by side in one unit, each with its own theme or background, with one attendant for all of them. Customers pick a booth the way they would pick a filter. Revenue grows with every booth while rent and staff stay the same, but so does the work: every booth has its own computer, printer and templates to keep in sync. This page shows how Pixture keeps several booths working as one.
 
 ## How It Makes Money
 
-Guests pay per session, at a counter or at the booth. Packages, extra prints and themed booths priced above the plain one protect the ticket size once other studios open nearby.
+Customers pay per session, at a counter or at the booth. Packages, extra prints and themed booths priced above the plain one protect the ticket size once other studios open nearby.
 
 ## The Setup
 
@@ -26,11 +26,11 @@ Each booth is paired to its own computer, and each computer needs its own Pix Pr
 ### 3. One queue, one cashier
 
 - **Queue**: set up a shared queue for the group and show it on a screen at the venue with **Open TV view**.
-- **Cashier**: choose **Pay at the booth**, where each booth shows its own Payment screen, or **Central cashier**, where guests pay the attendant and get an 8-character code that works at any booth in the group. See [Multi-Booth Setup](../guides/multi-booth-setup.md#step-3-choose-how-guests-pay).
+- **Cashier**: choose **Pay at the booth**, where each booth shows its own Payment screen, or **Central cashier**, where customers pay the attendant and get an 8-character code that works at any booth in the group. See [Multi-Booth Setup](../guides/multi-booth-setup.md#step-3-choose-how-guests-pay).
 
 ### 4. Studio sessions
 
-Studios often sell time rather than a fixed number of shots: guests get a timed session, take as many photos as they like and pick their favourites for the print. See [Run a Studio Mode Session](../tutorials/studio-mode.md).
+Studios often sell time rather than a fixed number of shots: customers get a timed session, take as many photos as they like and pick their favourites for the print. See [Run a Studio Mode Session](../tutorials/studio-mode.md).
 
 ### 5. Share printers and manage the team
 

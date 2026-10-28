@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, templates, printing]
 
 # Template Editor
 
-A print template is the layout a guest's photos land in: the 4x6" print, the 2x6" strip, the sticker sheet. In Pix Design you build one from a single PNG. Wherever the PNG is transparent, the editor places a photo slot; everything opaque (frames, logos, text) prints on top of the photos. By the end of this page you will have a template project saved and assigned to at least one booth.
+A print template is the layout a customer's photos land in: the 4x6" print, the 2x6" strip, the sticker sheet. In Pix Design you build one from a single PNG. Wherever the PNG is transparent, the editor places a photo slot; everything opaque (frames, logos, text) prints on top of the photos. By the end of this page you will have a template project saved and assigned to at least one booth.
 
 ## Before You Start
 
@@ -54,10 +54,10 @@ No transparency in your design? A JPG, or a PNG with solid white boxes where the
    ![Create Template Project modal with Print Size, Media Type and Template PNG](/img/docs/pix-design-create-template-modal.webp)
 
 2. Pick a **Print Size** card: **2x6"**, **4x6"**, **6x8"**, **A4**, **A3** or **Custom** (**Set pixels**).
-3. Pick a **Media Type** card. This tells the booth what the printed sheet becomes for the guest:
+3. Pick a **Media Type** card. This tells the booth what the printed sheet becomes for the customer:
    - **Normal** (Photo paper): one print per sheet.
-   - **2" Cut** (4R paper): a 4x6" sheet the printer cuts into two 2x6" strips, so the guest gets two strips.
-   - **Perforated** (Tear-off strips): perforated media the guest tears apart.
+   - **2" Cut** (4R paper): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips.
+   - **Perforated** (Tear-off strips): perforated media the customer tears apart.
    - **Triple Strip** (3-strip media): a sheet that becomes three strips.
    - **Sticker** (Adhesive media): sticker paper.
    - **Custom** (**Set name**): any other stock, named by you.
@@ -72,8 +72,8 @@ The project opens in the editor. If no PNG is loaded yet, the canvas reads "Drop
 
 - The toolbar has **Undo**, **Redo**, zoom, **Preview** (the layout with sample photos), **Remove BG**, **Re-upload** (swap the artwork and keep the project) and **Save**.
 - The side panel lists **Photo Slots (n)**, detected from the transparent areas. Use **Add slot manually** for a slot the detection missed, or for a slot over an opaque area.
-- **Add QR code** places a QR block on the print. The booth fills it with the guest's share link, so a printed strip leads back to the digital copies.
-- **+ Add note area** places the **Note area** for Notes sessions: "where the guest's drawing from the Notes screen is printed." One per template; without it the guest draws on the whole print. Drag and resize it on the canvas; select it and press its **x** (or Delete) to remove it.
+- **Add QR code** places a QR block on the print. The booth fills it with the customer's share link, so a printed strip leads back to the digital copies.
+- **+ Add note area** places the **Note area** for Notes sessions: "where the guest's drawing from the Notes screen is printed." One per template; without it the customer draws on the whole print. Drag and resize it on the canvas; select it and press its **x** (or Delete) to remove it.
 - **Media Type** can be changed here as well.
 - The canvas shows white under the artwork, because the booth prints on white. If the artwork takes a while to arrive, a **Loading artwork...** bar shows the progress; if it stalls, click **Retry**.
 
@@ -100,7 +100,7 @@ When a removal widens the hole around one existing slot, that slot grows to fill
 Select one slot to see its extra rows in the side panel:
 
 - **Cut out artwork** appears when a slot sits over part of your design. With it ticked, the editor clears that rectangle from the artwork when you save, so the photo shows. A slot you draw over artwork is ticked by default.
-- **Copy of** makes the slot repeat another slot's photo, so the guest takes fewer photos than the template has slots, for example a strip with the same photo printed twice.
+- **Copy of** makes the slot repeat another slot's photo, so the customer takes fewer photos than the template has slots, for example a strip with the same photo printed twice.
 - **Layer** buttons appear when slots overlap: **Send to back**, **Send backward**, **Bring forward** and **Bring to front**, with a "Layer 2/3" readout. Slot numbers, and so the order photos are taken in, never change.
 
 ### Selecting and Moving Slots
@@ -127,12 +127,12 @@ On the first **Save** the editor asks you to **Name Your Template** and offers *
 ## Tips
 
 - **Slot order is capture order.** Slot 1 gets the first photo. Check the numbering under **Photo Slots** before you save.
-- **Prints per sheet is a pricing setting.** With 2" Cut or Triple Strip media, set **Print format** on the booth's [Pricing](../booth-pricing.md) tab so the booth shows the guest the right number of prints. It changes what is shown, not what is printed.
+- **Prints per sheet is a pricing setting.** With 2" Cut or Triple Strip media, set **Print format** on the booth's [Pricing](../booth-pricing.md) tab so the booth shows the customer the right number of prints. It changes what is shown, not what is printed.
 - **Many PNGs at once?** **Settings > Data > Import Templates** takes a ZIP of up to 50 PNGs at one print size.
 - **Categories** on templates become buttons on the booth's Templates screen. See [Folders and Categories](./folders-and-collections.md).
 
 :::tip
-The booth shows each template card using the thumbnail rendered by this editor, so what you see in **Preview** is what guests pick from.
+The booth shows each template card using the thumbnail rendered by this editor, so what you see in **Preview** is what customers pick from.
 :::
 
 ## Related

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Run a Studio Mode Session
-description: Build a Studio screen design where guests take a pool of shots and then place them into the template, assign it to a booth and run a timed session.
+description: Build a Studio screen design where customers take a pool of shots and then place them into the template, assign it to a booth and run a timed session.
 tags: [tutorials, studio-mode, pix-design, ui-editor]
 ---
 
@@ -9,7 +9,7 @@ tags: [tutorials, studio-mode, pix-design, ui-editor]
 
 In this tutorial you will create a Studio UI project in Pix Design, design its Capture and Assign photos pages, assign it to a booth and run a timed photo session. It takes about 30 minutes.
 
-In Studio mode the booth does not shoot one photo per template slot. Guests, or a photographer with a remote shutter, take a pool of shots inside a time limit, review each one, then choose which shot goes into each slot of the template. The flow is Start, Payment, Templates, a timed Capture, Assign photos, Filter and Sharing.
+In Studio mode the booth does not shoot one photo per template slot. Customers, or a photographer with a remote shutter, take a pool of shots inside a time limit, review each one, then choose which shot goes into each slot of the template. The flow is Start, Payment, Templates, a timed Capture, Assign photos, Filter and Sharing.
 
 ## Before You Start
 
@@ -21,7 +21,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 ## Step 1: Create a Studio UI Project
 
 1. Go to **Pix Design > UI Editor** and click **New Project**.
-2. Enter a **Project Name**, choose the **Orientation** (Landscape 1920×1080 or Portrait 1080×1920) and tick the **Studio** mode tile (Start, Pay, Template, Timed shoot, Pick photos, Filter, Share). Untick **Photo** for a Studio-only booth, or keep it to let guests choose on the Start Screen (Pixture Photobooth 1.2.4 or newer).
+2. Enter a **Project Name**, choose the **Orientation** (Landscape 1920×1080 or Portrait 1080×1920) and tick the **Studio** mode tile (Start, Pay, Template, Timed shoot, Pick photos, Filter, Share). Untick **Photo** for a Studio-only booth, or keep it to let customers choose on the Start Screen (Pixture Photobooth 1.2.4 or newer).
 
    ![New UI Project modal with Project Name, Orientation and the mode tiles](/img/docs/steps/tutorials-studio-mode--pix-design-new-ui-project-modal.webp)
 
@@ -39,7 +39,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 
 ## Step 3: Design the Assign Photos Page
 
-1. Open the **Assign photos** tab. It shows the template with its slots and a grid of the pool. Guests tap a slot, then a photo; used photos dim and show their slot number.
+1. Open the **Assign photos** tab. It shows the template with its slots and a grid of the pool. Customers tap a slot, then a photo; used photos dim and show their slot number.
 2. Keep the three buttons: **Replace** swaps the photo in a slot, **Take more** returns to Capture with the pool and the timer intact, and **Next** continues to Filter. A placed photo can be scaled, moved and mirrored inside its slot.
 3. Adjust the highlight options in the right rail (selection ring, slot ring, badges, dimming of used photos), then click **Save**.
 
@@ -56,9 +56,9 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 
 ## Step 5: Run a Session
 
-1. On the booth, start a session and pay (or skip payment if the booth is free). On the template screen the guest picks a template; its slot count becomes the minimum number of shots.
-2. On Capture, each tap, shutter press or remote click takes a shot, followed by **Next** or **Retake**. The session ends when the timer runs out, when **Max photos** is reached, or when the guest taps **Done**. The hard cap is 40 shots, and the pool can never end below the template's slot count.
-3. On Assign photos, the guest fills every slot, replaces or takes more, then taps **Next**.
+1. On the booth, start a session and pay (or skip payment if the booth is free). On the template screen the customer picks a template; its slot count becomes the minimum number of shots.
+2. On Capture, each tap, shutter press or remote click takes a shot, followed by **Next** or **Retake**. The session ends when the timer runs out, when **Max photos** is reached, or when the customer taps **Done**. The hard cap is 40 shots, and the pool can never end below the template's slot count.
+3. On Assign photos, the customer fills every slot, replaces or takes more, then taps **Next**.
 4. Filter and Sharing work as usual. Every kept shot in the pool is shared as a single, and each shot has its own live photo.
 
 ## Check It Worked
@@ -78,7 +78,7 @@ In Studio mode the booth does not shoot one photo per template slot. Guests, or 
 | What you see | What to check |
 |---|---|
 | The booth still shoots one photo per slot | The project was not saved or not assigned, the app is older than 1.1.98, or the booth is on a live event with its own Kiosk UI. |
-| **Done** never appears | The guest is below the template's slot count. Keep shooting. |
+| **Done** never appears | The customer is below the template's slot count. Keep shooting. |
 | The remote clicker does nothing | Tick the matching key under **SESSION TRIGGER** on the Start Screen tab and save the project. |
 | Shares have no live photo per shot | Update the booth to 1.1.100 or newer. |
 

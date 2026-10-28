@@ -11,7 +11,7 @@ This page walks through the Camera Settings page on the booth, section by sectio
 
 ## Live Preview Aids
 
-Toggles at the top of the page overlay helpers on the live preview while you set up. They are for you, not the guest:
+Toggles at the top of the page overlay helpers on the live preview while you set up. They are for you, not the customer:
 
 - **Grid Lines** for framing.
 - **Center Marker** to line up the subject.
@@ -33,7 +33,7 @@ Starting points that work for most booths:
 
 - **ISO** 100 to 400 with studio flash or strong continuous light; 800 to 1600 in ambient venue light.
 - **Aperture** f/5.6 to f/8 keeps a group sharp; f/2.8 to f/4 gives a softer background for single portraits.
-- **Shutter speed** 1/125 or faster so moving guests are not blurred.
+- **Shutter speed** 1/125 or faster so moving customers are not blurred.
 - **White balance** Auto for mixed lighting, Flash with strobes, or K when you want it fixed.
 
 Sliders on this page (and on the Printer and Capture pages) accept a typed value, and a double-click resets one to its default.
@@ -43,7 +43,7 @@ Sliders on this page (and on the Printer and Capture pages) accept a typed value
 - **DIGITAL ZOOM** crops into the frame when you cannot move the camera closer. It applies to the live view, the stills and the live photo.
 - **CAMERA ROTATION** (0, 90, 180 or 270) turns the picture when the camera is mounted sideways or upside down. The page says it plainly: "Rotate the picture when the camera is mounted sideways or upside down."
 - **HAND SIGN DETECTION** watches the live view for hand gestures. The page describes it as detecting hand gestures on the live view to trigger capture and visual effects. It has two sub-options:
-  - **PEACE SIGN TRIGGER**: holding a peace sign for about 1.5 seconds starts the capture countdown, so guests can shoot without touching the screen.
+  - **PEACE SIGN TRIGGER**: holding a peace sign for about 1.5 seconds starts the capture countdown, so customers can shoot without touching the screen.
   - **RETRO PORTAL EFFECT**: adds a visual effect on the live view when a sign is detected. Off by default.
 - **RECORDED MOTION (EXPERIMENTAL)** builds live photos from a recording of the live view, including the hand effects. With it off, live photos are still made from the live view frames around each shot, just without the effects.
 

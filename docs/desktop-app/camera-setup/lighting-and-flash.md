@@ -43,19 +43,19 @@ Put the camera in **M** mode and set exposure on the booth's [Camera Settings](.
 
 **Recharge time:** a flash needs a moment to recharge between shots. If a burst of photos comes out with some shots dark, lengthen the countdown between shots in the Pix Design UI Editor, or lower the flash power. Speedlites on AA batteries slow down over a long event; studio strobes, or a speedlite with an external battery, recharge faster.
 
-**Focus:** the booth fires the shutter without refocusing. Focus once on where guests stand, then switch the lens to **MF**.
+**Focus:** the booth fires the shutter without refocusing. Focus once on where customers stand, then switch the lens to **MF**.
 
 ## Live view looks dark with flash
 
-At flash settings (low ISO, fast shutter) the scene is dark until the flash fires, and many cameras show that darkness in live view, so guests see a dark preview. Two fixes:
+At flash settings (low ISO, fast shutter) the scene is dark until the flash fires, and many cameras show that darkness in live view, so customers see a dark preview. Two fixes:
 
 - Add a **modelling light** or a small continuous light so the preview is bright. Many studio strobes have a built-in modelling lamp.
 - Or turn off exposure preview in the camera's menu, so live view stays bright regardless of the settings: **Exposure simulation** off on a Canon, **Live View Display: Setting Effect OFF** on a Sony, **Apply settings to live view** off on a Nikon Z, **Preview Exp./WB in Manual Mode** off on a Fujifilm.
 
 ## Placing the light
 
-- One large soft light (softbox or umbrella) in front of the guests, slightly above eye level, is enough for most booths. Two lights at about 45° on each side give even light for groups.
-- Keep bright windows and lamps behind the camera, not behind the guests.
+- One large soft light (softbox or umbrella) in front of the customers, slightly above eye level, is enough for most booths. Two lights at about 45° on each side give even light for groups.
+- Keep bright windows and lamps behind the camera, not behind the customers.
 - Light the backdrop evenly if it should look clean in the photo.
 
 ## Related

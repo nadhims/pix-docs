@@ -15,7 +15,7 @@ Pixture is priced per computer, not per account or per booth. Booths are free pr
 
 | Plan | Dashboard name | Price | Best for |
 |---|---|---|---|
-| **Pix Starter** | Pix Starter | Free | Setting up, rehearsing, and booths that do not charge guests |
+| **Pix Starter** | Pix Starter | Free | Setting up, rehearsing, and booths that do not charge customers |
 | **Event Pass** | Event Pass | $5 for 24 hours on one computer (Rp 85.000 in Indonesia). The 24 hours start when you use it at the booth | Weddings, markets, pop-ups: a computer that works a few days a month |
 | **Pix Pro Monthly** | Monthly | $39.99 per computer per month (Rp 850.000 in Indonesia). Cancel anytime | A computer that runs most days |
 | **Pix Pro Yearly** | Yearly | $299.99 per computer per year, about $25 per month (Rp 6.500.000 in Indonesia). The checkout marks it **Best value** | The same computer, paying yearly |
