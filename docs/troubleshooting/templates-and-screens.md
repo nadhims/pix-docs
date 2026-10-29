@@ -92,13 +92,14 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 
 **Also described as:** "voucher code masih muncul setiap mau foto", "kenapa ada halaman bayar", "payment screen at a free event".
 
-**Check first:** Is the booth on an event? Then the event decides. If not, open the booth's UI project in **Pix Design > UI Editor > Payment Screen**: is **Voucher** on under **Payment Methods**? It is on by default.
+**Check first:** Is the booth on an event? Then the event decides. If not, check **Payment on this booth** on the booth's Pricing tab, and the app version at the bottom of the operator menu.
 
 **Fix:**
-1. On a booth (not an event), the Payment screen shows at every start while its **Voucher** method is on, even when the price is 0 and **Payment on this booth** is off. That is how a booth gated by voucher codes works.
-2. To run free, open **Pix Design > UI Editor > Payment Screen** and, under **Payment Page Settings**, untick **Enabled in session flow**. Or keep the page and turn off **Voucher** under **Payment Methods**, and remove any voucher button you added to the design.
-3. Save the UI project, then restart the booth app: operator menu, **Exit**, **Exit App**, and open it again.
-4. On an event, the event's **Pay Per Session** switch decides: off, every session is free. Run a one-off free event from the **Events** page. See [Events](../dashboard/events.md) and [Run an Event](../tutorials/run-an-event.md).
+1. On a booth (no**Fix:**
+1. On a booth (not an event), switch **Payment on this booth** off on the Pricing tab. From app 1.2.21 the booth then skips the Payment screen, whatever payment methods its UI project has.
+2. On app 1.2.20 or older, the Payment screen still shows while the Payment page has the **Voucher** method on (it is on by default). Update the app from [pixture.io/download](https://pixture.io/download). If you can't update right now, open **Pix Design > UI Editor > Payment Screen** and untick **Enabled in session flow** under **Payment Page Settings**.
+3. Save any change, then restart the booth app: operator menu, **Exit**, **Exit App**, and open it again.
+s **Pay Per Session** switch decides: off, every session is free. Run a one-off free event from the **Events** page. See [Events](../dashboard/events.md) and [Run an Event](../tutorials/run-an-event.md).
 
 **Still stuck:** Send support the booth name and the name of its UI project.
 
