@@ -50,11 +50,32 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **Fix:**
 1. Set **Print format** to **2 inch cut** (2 prints per sheet) or **Triple strip** (3 per sheet). Use a template designed for the strip layout.
-2. On a dye-sub printer, turn on the 2-inch cut in the printer driver as well.
+2. On a dye-sub printer, turn on the 2-inch cut in the printer driver as well, as the printer's **default**, so the booth's prints use it. On a DNP DS620 or DS-RX1: on Windows, open the printer's **Printing preferences** and tick **2inch cut**; on a Mac, set **2-INCH CUT** to **On** in the booth's **Printer Settings** (app 1.2.22 or later), or see [My 2-inch cut template prints as one full 4x6](#my-2-inch-cut-template-prints-as-one-full-4x6).
 3. Counts stay in sheets: **COPIES PER SESSION** and every price are per sheet of paper.
 
 **Still stuck:** See [Booth Pricing](../dashboard/booth-pricing.md).
 
+
+### My 2-inch cut template prints as one full 4x6
+
+**On screen:** No error. The template is a 2-inch cut layout, but the printer gives one uncut 4x6 (4R) sheet. Printing the same photo by hand from the Mac's print dialog with the cut chosen does cut it.
+
+**Also described as:** "keluar 4R bukan 2 strip", "2 cut not cutting", "DS620 tidak memotong".
+
+**Check first:** The booth prints with the printer's **default** settings and never opens the print dialog, so the cut must be the printer's default. On a Mac, the DNP driver's 2-inch cut is not a paper size: it is the **Cut Operation** option (DNP Printer Features > Image), so it never shows under Print Size.
+
+**Fix (Mac, app 1.2.22 or later):** On the booth, open **Printer Settings**, pick the DNP printer and set **2-INCH CUT** to **On**, then press the test print. The switch only appears for printers that can cut 2-inch strips (DNP DS620, DS-RX1, DS820, DS40).
+
+**Fix (Mac, older app versions, DNP DS620 or DS-RX1):**
+1. Open **Terminal** and run `cupsctl WebInterface=yes`. This turns on the Mac's own printer settings page.
+2. In a browser, go to **http://localhost:631/printers** and click the DNP printer.
+3. In the **Administration** menu, choose **Set Default Options**.
+4. Set **Cut Operation** to **2 inch cut** and the paper size to **4x6 (6x4)**, then click **Set Default Options**. Enter the Mac's password if asked.
+5. On the booth, open **Printer Settings**, keep **MEDIA SIZE (LOADED PAPER)** on 4x6 and **ORIENTATION** on **Landscape**, and press the test print. It should come out as two 2x6 strips.
+
+**Fix (Windows):** Open **Settings > Printers & scanners**, choose the DNP printer, open **Printing preferences**, tick **2inch cut**, and click **OK**. Then run the booth's test print.
+
+**Still stuck:** Send support a photo of the printer's options page and the test print.
 ### Customers never get a print {#guests-never-get-a-print}
 
 **On screen:** No error. Sessions finish, but nothing comes out.
