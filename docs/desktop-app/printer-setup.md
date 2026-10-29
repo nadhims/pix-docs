@@ -21,11 +21,12 @@ Dye-sublimation printers (DNP, HiTi, Mitsubishi and similar) are the usual choic
 1. Open the operator menu with two taps on the top-right corner and tap **Printer Settings**.
 2. Under **PRINTER DEVICE**, pick your printer. The list is every printer the operating system knows.
 3. Under **MEDIA SIZE (LOADED PAPER)**, pick the paper that is actually loaded. The sizes come from the printer driver, so only what the printer supports is listed. 4x6" (10x15 cm) is the photobooth standard and is also cut into two 2x6" strips.
-4. Under **ORIENTATION**, choose **Portrait** or **Landscape**. The page hints "Use Landscape for dye-sub printers (e.g. DNP)", because their drivers expect the long edge across.
-5. Set **COPIES PER SESSION** to the number of sheets each photo session should print.
-6. Use the preview at the top of the page: pick a template (the default is **Test Card (default)**) and tap the test print button. Check colour, alignment and paper feed on the print that comes out.
-7. If the print sits off-centre, adjust **PRINT ALIGNMENT**: **Scale**, **Horizontal Offset** and **Vertical Offset**. Print again until the borders match.
-8. For driver-level options such as colour density or borderless printing, open **ADVANCED SETTINGS > Open Printer Properties**.
+4. On a Mac with a DNP printer that can cut 2-inch strips (DS620, DS-RX1, DS820, DS40), set **2-INCH CUT** to **On** to cut every 4x6 into two 2x6 strips. On Windows, tick **2inch cut** in the printer's Printing preferences instead.
+5. Under **ORIENTATION**, choose **Portrait** or **Landscape**. The page hints "Use Landscape for dye-sub printers (e.g. DNP)", because their drivers expect the long edge across.
+6. Set **COPIES PER SESSION** to the number of sheets each photo session should print.
+7. Use the preview at the top of the page: pick a template (the default is **Test Card (default)**) and tap the test print button. Check colour, alignment and paper feed on the print that comes out.
+8. If the print sits off-centre, adjust **PRINT ALIGNMENT**: **Scale**, **Horizontal Offset** and **Vertical Offset**. Print again until the borders match.
+9. For driver-level options such as colour density or borderless printing, open **ADVANCED SETTINGS > Open Printer Properties**.
 
 The **STATUS** block at the bottom shows **Printer**, **Name** and **Available**. Until a printer is selected it reads "Guest printing is disabled until a printer is selected.", and no session prints.
 

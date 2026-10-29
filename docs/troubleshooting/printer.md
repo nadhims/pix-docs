@@ -50,7 +50,7 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **Fix:**
 1. Set **Print format** to **2 inch cut** (2 prints per sheet) or **Triple strip** (3 per sheet). Use a template designed for the strip layout.
-2. On a dye-sub printer, turn on the 2-inch cut in the printer driver as well, as the printer's **default**, so the booth's prints use it. On a DNP DS620 or DS-RX1: on Windows, open the printer's **Printing preferences** and tick **2inch cut**; on a Mac, follow [My 2-inch cut template prints as one full 4x6](#my-2-inch-cut-template-prints-as-one-full-4x6).
+2. On a dye-sub printer, turn on the 2-inch cut in the printer driver as well, as the printer's **default**, so the booth's prints use it. On a DNP DS620 or DS-RX1: on Windows, open the printer's **Printing preferences** and tick **2inch cut**; on a Mac, set **2-INCH CUT** to **On** in the booth's **Printer Settings** (app 1.2.22 or later), or see [My 2-inch cut template prints as one full 4x6](#my-2-inch-cut-template-prints-as-one-full-4x6).
 3. Counts stay in sheets: **COPIES PER SESSION** and every price are per sheet of paper.
 
 **Still stuck:** See [Booth Pricing](../dashboard/booth-pricing.md).
@@ -64,7 +64,9 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **Check first:** The booth prints with the printer's **default** settings and never opens the print dialog, so the cut must be the printer's default. On a Mac, the DNP driver's 2-inch cut is not a paper size: it is the **Cut Operation** option (DNP Printer Features > Image), so it never shows under Print Size.
 
-**Fix (Mac, DNP DS620 or DS-RX1):**
+**Fix (Mac, app 1.2.22 or later):** On the booth, open **Printer Settings**, pick the DNP printer and set **2-INCH CUT** to **On**, then press the test print. The switch only appears for printers that can cut 2-inch strips (DNP DS620, DS-RX1, DS820, DS40).
+
+**Fix (Mac, older app versions, DNP DS620 or DS-RX1):**
 1. Open **Terminal** and run `cupsctl WebInterface=yes`. This turns on the Mac's own printer settings page.
 2. In a browser, go to **http://localhost:631/printers** and click the DNP printer.
 3. In the **Administration** menu, choose **Set Default Options**.
