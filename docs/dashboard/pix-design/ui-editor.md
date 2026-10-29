@@ -87,7 +87,7 @@ Where customers pay before choosing a template. Prices come from the booth's [Pr
 - **Timeout**: after 120 s idle on Payment the booth returns to Start (0 = never); on the voucher, coin or card step it returns to the methods after 60 s; the success screen dwells 3 s (0 = wait for a tap), and tapping any empty area continues.
 - Every paid route ends on the success screen, including a voucher that covers the whole price. A free session skips Payment entirely.
 
-On a Pix Starter computer the Payment screen is forced off. Turning **Payment on this booth** off on the Pricing tab skips it too, unless the Voucher method is on for the Payment page (Payment Methods > Voucher, or a click area wired to the voucher): then the Payment screen still shows at every start, so the code box stays reachable. To run free sessions with no Payment screen, untick **Enabled in session flow** on the Payment page and save.
+On a Pix Starter computer the Payment screen is forced off. Turning **Payment on this booth** off on the Pricing tab skips it too, whatever payment methods the page has. Booths on app 1.2.20 or older still show a voucher screen when the Payment page has the Voucher method on: update the app from [pixture.io/download](https://pixture.io/download).
 
 ### Templates
 

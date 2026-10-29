@@ -17,7 +17,7 @@ Start here when customers cannot pay, pay but the booth does not react, or the b
 
 **Check first:** The booth's UI project, **Payment Screen** tab, **Voucher** under **Payment Methods**.
 
-**Fix:** The Voucher method keeps the Payment screen on even at price 0. Follow [A voucher or payment screen shows at a free booth](./templates-and-screens.md#a-voucher-or-payment-screen-shows-at-a-free-booth).
+**Fix:** Switch **Payment on this booth** off and update the app to 1.2.21 or later; older versions keep the voucher screen while the Payment page has the Voucher method on. Follow [A voucher or payment screen shows at a free booth](./templates-and-screens.md#a-voucher-or-payment-screen-shows-at-a-free-booth).
 
 **Still stuck:** Send support the booth name and its UI project name.
 
