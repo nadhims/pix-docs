@@ -11,7 +11,7 @@ The Capture screen is where the photos are taken: a countdown, a shot for each s
 
 ## The Countdown
 
-When a shot is triggered, the booth counts down on the live view and fires the camera. The countdown length and how it looks are set on the Capture page in the UI Editor. If the camera is still starting, the booth waits on "Camera is warming up" rather than firing blind; after 30 seconds without a camera it shows "Camera not responding / Returning to home..." and ends the session. If no frame arrives within 15 seconds of a shot, the customer sees "Hmm, the camera didn't respond — let's try again" and the booth retries that slot.
+When a shot is triggered, the booth counts down on the live view and fires the camera. The countdown length and how it looks are set on the Capture page in the UI Editor. At an event, the event's own Countdown is used instead: on the event page, **Edit appearance** > **Countdown**. If the camera is still starting, the booth waits on "Camera is warming up" rather than firing blind; after 30 seconds without a camera it shows "Camera not responding / Returning to home..." and ends the session. If no frame arrives within 15 seconds of a shot, the customer sees "Hmm, the camera didn't respond — let's try again" and the booth retries that slot.
 
 ## What Triggers a Shot
 

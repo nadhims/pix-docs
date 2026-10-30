@@ -55,7 +55,7 @@ For a fixed booth, set exposure once, switch the lens to manual focus and leave 
 
 The **STATUS** block shows **Sidecar** (the camera helper process), **Camera**, **Camera Name**, **Live View** and the last **Error**. When a camera is not behaving, this is the first place to look, followed by the **CAMERA LOG** at the bottom of the page, which lists what the app has seen from the camera. Support may ask you for this log.
 
-Tap **Back to Menu** to leave the page. Camera settings only cover the camera itself; countdown length, session time and capture triggers are page settings in the Pix Design UI Editor, and video recording settings live on the booth's Capture Settings page during an event. See [Capture Modes](../session-flow/capture-modes.md).
+Tap **Back to Menu** to leave the page. Camera settings only cover the camera itself; countdown length, session time and capture triggers are page settings in the Pix Design UI Editor (at an event, the countdown and session time are set on the event page, in **Edit appearance**), and video recording settings live on the booth's Capture Settings page during an event. See [Capture Modes](../session-flow/capture-modes.md).
 
 ## Related
 

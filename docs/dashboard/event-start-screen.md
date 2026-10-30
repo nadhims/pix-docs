@@ -17,11 +17,11 @@ Events created before the start screen keep working as they are, with one booth 
 
 ## The Editor
 
-**Edit appearance** opens the editor: a live preview of the booth with **Landscape** and **Portrait** switches, and a rail of settings on the side: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown** and **Timer**. Click a part of the preview, like the title or the logo, to open its settings. **Preview** at the top tries the whole event full screen with your changes, saved or not. **Save** saves it, and booths pick it up right away.
+**Edit appearance** opens the editor: a live preview of the booth with **Landscape** and **Portrait** switches, and a rail of settings on the side: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown** and **Timer**. Click a part of the preview, like the title or the logo, to open its settings. **Preview** at the top tries the whole event full screen with your changes, saved or not. **Save** saves it. Booths pick it up for their next session: a booth waiting on its start screen right away, a booth in the middle of a session when that session ends.
 
 ## Modes
 
-The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes** and **Roaming**. Each one you turn on becomes a round button, and guests pick one every session, except **Roaming**: a roaming computer skips the start screen (see [Roaming](./events.md#roaming)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
+The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes** and **Roaming**, plus **AI** for accounts in the Pix AI beta. Each one you turn on becomes a round button, and guests pick one every session, except **Roaming**: a roaming computer skips the start screen (see [Roaming](./events.md#roaming)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
 
 **Photo**, **Studio** and **Notes** need at least one template on the event.
 
@@ -58,7 +58,7 @@ Pick a theme: **Your brand** (when your brand is set up), **Pixture**, **Forest*
 
 ### Countdown
 
-The seconds the booth counts down before each photo, from 1 to 10. 3 seconds by default.
+The seconds the booth counts down before each photo, from 1 to 10. 3 seconds by default. Every booth running the event uses it, in place of the countdown in the booth's own UI Editor design. It is not in the booth's own menu.
 
 ### Timer
 
@@ -75,7 +75,7 @@ When the event takes payment, guests pay after tapping a mode, and turning payme
 
 ## Booths and Versions
 
-Booths in the event pick up your changes when you save. A booth needs Pixture Photobooth 1.2.1 or newer to show the start screen as designed, and 1.2.2 or newer to charge each mode its own price (an older one sells every mode at the event price). The event page names each booth that needs an update, for example "Booth 1 runs an older Pixture Photobooth. Update it to show this start screen as designed." A booth older than 1.2.0 keeps running Photo strip from the event's default UI project. Update the app on any booth that should show the mode buttons.
+Booths in the event pick up your changes for their next session. A booth needs Pixture Photobooth 1.2.1 or newer to show the start screen as designed, and 1.2.2 or newer to charge each mode its own price (an older one sells every mode at the event price). The event page names each booth that needs an update, for example "Booth 1 runs an older Pixture Photobooth. Update it to show this start screen as designed." A booth older than 1.2.0 keeps running Photo strip from the event's default UI project. Update the app on any booth that should show the mode buttons.
 
 ## Related
 
