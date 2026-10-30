@@ -41,7 +41,7 @@ Put the camera in **M** mode and set exposure on the booth's [Camera Settings](.
 - **White balance** Flash.
 - Set the flash to **manual power** rather than TTL for consistent results shot after shot, then adjust power until the test photo looks right.
 
-**Recharge time:** a flash needs a moment to recharge between shots. If a burst of photos comes out with some shots dark, lengthen the countdown between shots in the Pix Design UI Editor, or lower the flash power. Speedlites on AA batteries slow down over a long event; studio strobes, or a speedlite with an external battery, recharge faster.
+**Recharge time:** a flash needs a moment to recharge between shots. If a burst of photos comes out with some shots dark, lengthen the countdown between shots in the Pix Design UI Editor (at an event, in the event's **Edit appearance** > **Countdown**), or lower the flash power. Speedlites on AA batteries slow down over a long event; studio strobes, or a speedlite with an external battery, recharge faster.
 
 **Focus:** the booth fires the shutter without refocusing. Focus once on where customers stand, then switch the lens to **MF**.
 

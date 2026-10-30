@@ -103,7 +103,7 @@ The shooting screen, and the page whose settings change the booth's behaviour mo
 
 - **Live View** shows the camera. Pick a **Camera Frame** ratio (16:9, 9:16, 4:3, 3:4, 3:2, 2:3 or 1:1) and the booth fits the whole camera frame inside the block without cropping. Its text overlay can run to several lines, each with its own font, size, weight and colour.
 - **Camera trigger**: **Tap** (the customer taps the screen), **Shutter button** (an on-screen button), **Camera shutter** (the photographer presses the camera's own shutter) or **Auto** (Photobooth projects only; every slot shoots on the countdown). With Tap or Shutter button the customer triggers the first photo and the booth runs the remaining slots by itself.
-- The **countdown** before each shot.
+- The **countdown** before each shot. At an event, the event's own Countdown is used instead: on the event page, **Edit appearance** > **Countdown**.
 - **Session Time**: the length of the session from the first capture, and what happens when it runs out. It runs whether or not you place a **Session Timer** block; the block only displays it. A **Photo Counter** block shows "n of N".
 - **Preview Cards**: one square card per template slot, numbered while empty, filled as shots land, the current slot ringed; the row scrolls on templates with many slots.
 

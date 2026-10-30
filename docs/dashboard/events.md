@@ -91,6 +91,33 @@ The toolbar has **Download all** (every photo as one zip), **Embed** (an iframe 
 
 ![Embed modal for the public event album](/img/docs/event-embed-modal.webp)
 
+## Where Each Setting Lives
+
+Everything about an event is set on its event page: **Events**, then open the event. The booth's own menu only covers the camera, the printer and its Capture Settings page.
+
+| To change | Go to |
+|---|---|
+| The modes guests can pick | **Setup** tab > **Booth mode** > **Edit modes** |
+| How Notes prints | **Edit modes**, under Notes |
+| The start screen: background, text, logo, Gallery and lock buttons, colours | **Appearance** tab > **Edit appearance** |
+| The countdown before each photo (1 to 10 seconds) | **Edit appearance** > **Countdown** |
+| Session time and note time | **Edit appearance** > **Timer** |
+| The templates guests pick from | **Template** tab |
+| The GIF frame | **GIF template** tab |
+| Video settings and overlays | **Video** tab |
+| 360/Slow-mo settings and overlays | **360/Slow-mo** tab |
+| A roaming photographer | **Roaming** tab |
+| AI styles (Pix AI beta) | **AI** tab |
+| The note template | **Notes** tab |
+| What guests get: prints, GIF, live photo, singles | **Output** tab > **Change** |
+| Auto print, max prints per session, the Print button on Share | The **Output** window, with **Prints** ticked |
+| The album slideshow | **Slideshow** tab |
+| Session prices, price per mode, payment gateway | **Edit** at the top of the event page |
+| The public album link | The **Link Sharing** switch |
+| The computers running the event | **Computers** card > **+ Pair a computer** |
+
+On the booth, **Capture Settings** shows the running event's Video and 360/Slow-mo settings, and a save there changes them on the event too. It has no photo countdown, session time or print settings: those are only on the event page.
+
 ## Tabs
 
 ### Album
@@ -131,13 +158,14 @@ Everything captured during the event, newest first, with a filter by computer, *
   | **Template**, **Mirror**, **GIF template** | Photo modes: the templates, mirroring and the GIF frame (below) |
   | **Video**, **360/Slow-mo** | The video settings and each mode's Overlays list. See [Event Video Modes](../desktop-app/event-video-modes.md) |
   | **Roaming** | See [Roaming](#roaming) |
+  | **AI** | The AI styles guests pick from (accounts in the Pix AI beta) |
   | **Notes** | The **Note template** guests write on |
-  | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** and **Show a Print button on Share** |
+  | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** (1 to 10 sheets, 2 by default) and **Show a Print button on Share** |
   | **Slideshow** | How the album slideshow looks on a venue screen (while Link Sharing is on). See [Slideshow](#slideshow) |
 
   A tab that needs something shows a "!": **Template** until a template is added, **GIF template** while GIF is an output and no frame is picked, **Output** when no output is on and **Roaming** until a computer is picked to roam. The **Preview** card beside the tabs shows what the open tab sets.
 - **Booth mode**, **Output** and **Appearance** (older events, created before the start screen). Each is a box showing the current choice, with **Change**. Appearance lists only screen designs made for the event's booth mode.
-- **Template**, **Countdown**, **Mirror** and **GIF template** (photo modes; with a start screen, the countdown and the session and note timers are set in **Edit appearance**). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Templates a pack adds from the event belong to that event: they are not in your library and are left out of template usage rankings. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Countdown** is a slider from 1 to 10 seconds before each shot. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie.
+- **Template**, **Mirror** and **GIF template** (photo modes; the countdown before each photo and the session and note timers are set in **Edit appearance**, and on an older event the countdown is the one on the Capture page of the event's screen design in the UI Editor). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Templates a pack adds from the event belong to that event: they are not in your library and are left out of template usage rankings. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie.
 - **GIF template.** The frame over every GIF guests get. With no GIF templates yet, the tab shows "No GIF templates yet" and **Add a GIF template**; otherwise it is a picker with **No frame**, your frames (a check marks the picked one) and an **Add GIF template** tile. **Add a GIF template** opens a popup ("For this event only"): choose a transparent PNG (1280×720 or 720×1280, up to 10 MB), whose shape sets the orientation and whose file name fills **Name**, then **Add**. The frame belongs to this event: Pix Design and your other events never list it, and it is picked for the event's GIF at once. A frame that belongs to the event has a trash button: "Delete this GIF template? This event goes back to No frame if it was picked." Deleting it also takes it out of the event's video Overlays lists and the Roaming frame. Frames from Pix Design are deleted in Pix Design.
 
 #### Slideshow
@@ -164,7 +192,7 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 
 ## Editing and Deleting
 
-**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. On a paid event with a start screen, **Price per mode** gives each mode its own price: **Single**, **Double** and **Group** for Photo, Studio and Notes, and **Single only** for Video and 360/Slow-mo. "Leave empty to use the event price." A booth needs Pixture Photobooth 1.2.2 or newer for these prices; the event page warns about an older one, which sells every mode at the event price until you update it. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab, which stays editable after the event ends, until you archive it. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers leave it (an Event Pass or Pix Pro stays on them; an Event mode computer goes back to its event list) and the photos stay in your Gallery; only the event and its album go away.
+**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. On a paid event with a start screen, **Price per mode** gives each mode its own price: **Single**, **Double** and **Group** for Photo, Studio and Notes, and **Single only** for Video, 360/Slow-mo and AI. "Leave empty to use the event price." A booth needs Pixture Photobooth 1.2.2 or newer for these prices; the event page warns about an older one, which sells every mode at the event price until you update it. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab, which stays editable after the event ends, until you archive it. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers leave it (an Event Pass or Pix Pro stays on them; an Event mode computer goes back to its event list) and the photos stay in your Gallery; only the event and its album go away.
 
 ## Licenses, Pricing and Transactions
 
