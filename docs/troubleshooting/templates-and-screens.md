@@ -86,6 +86,18 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 
 **Still stuck:** Send support the booth name and a sample print.
 
+### The booth shows more photo slots than it takes
+
+**On screen:** The template has copies of its photo slots (for example 8 boxes for 4 photos, two strips side by side). The template preview shows 4, but while shooting and on retake the strip shows 8 boxes, some empty or with the wrong photo. The printed result is correct.
+
+**Also described as:** "di editor aku buat 8 slot tapi 4 nya copy", "waktu take dan retake selalu ada 8, tapi hasilnya 4".
+
+**Fix:**
+1. Update the booth to Pixture Photobooth 1.2.23 or later. The strip on the booth then shows each copy with its photo, like the print.
+2. Nothing to change in the template: copies made with **Copy of** in the template editor are right, and guests take one photo per original slot.
+
+**Still stuck:** Send support the booth name and the template name.
+
 ### A voucher or payment screen shows at a free booth
 
 **On screen:** At every start the Payment screen or the voucher box ("Enter Voucher Code", **Apply Voucher**) appears, although the booth should be free.
@@ -114,7 +126,7 @@ s **Pay Per Session** switch decides: off, every session is free. Run a one-off 
 **Fix:**
 1. **Kiosk mode:** open **Pix Design > UI Editor**, open the UI project the booth uses, go to the **Capture** page and set the **countdown** in its page settings. **Session Time** and the **Camera trigger** are set there too.
 2. Save the UI project, then start a new session on the booth to check.
-3. **Event mode:** set the countdown on the event (**Events**, the event, **Setup**, the mode's tab). See [Event Video Modes](../desktop-app/event-video-modes.md).
+3. **Event mode:** set the countdown on the event page (**Events**, then open the event). The photo countdown is **Edit appearance** > **Countdown**; Video and 360/Slow-mo each have a **Countdown** on their own tab. See [Where Each Setting Lives](../dashboard/events.md#where-each-setting-lives).
 
 **Still stuck:** Send support the booth name and the name of its UI project.
 
