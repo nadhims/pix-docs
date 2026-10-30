@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Gallery
-description: Browse every photo your booths captured, filter by booth and period, download or delete, how long photos are kept (60 days) and what the 30-day deletion window means.
+description: Browse every photo your booths captured, filter by booth and period, download one photo or several as a zip, delete, how long photos are kept (60 days) and what the 30-day deletion window means.
 tags: [gallery, photos, sessions]
 ---
 
@@ -38,7 +38,9 @@ Opening a photo session shows its composite and each single capture, with the bo
 
 1. Click **Select**.
 2. Tick the photos you want, or click **Select All** for everything in the current filter.
-3. Click **Delete Selected**.
+3. Click **Download Selected** to save them as one zip file (photo-001, photo-002 and so on, newest first), or **Delete Selected** to delete them.
+
+Photos older than 60 days have no file any more, so a zip leaves them out. For every photo of an event at once, use **Download all** on the event page instead.
 
 Use a booth and period filter first so **Select All** takes only what you mean it to.
 
