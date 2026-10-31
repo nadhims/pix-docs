@@ -17,7 +17,7 @@ Events created before the start screen keep working as they are, with one booth 
 
 ## The Editor
 
-**Edit appearance** opens the editor: a live preview of the booth with **Landscape** and **Portrait** switches, and a rail of settings on the side: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown** and **Timer**. Click a part of the preview, like the title or the logo, to open its settings. **Preview** at the top tries the whole event full screen with your changes, saved or not. **Save** saves it. Booths pick it up for their next session: a booth waiting on its start screen right away, a booth in the middle of a session when that session ends.
+**Edit appearance** opens the editor: a live preview of the booth with **Landscape** and **Portrait** switches, and a rail of settings on the side: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown**, **Timer** and **Steps**. Click a part of the preview, like the title or the logo, to open its settings. **Preview** at the top tries the whole event full screen with your changes, saved or not. **Save** saves it. Booths pick it up for their next session: a booth waiting on its start screen right away, a booth in the middle of a session when that session ends.
 
 ## Modes
 
@@ -64,6 +64,16 @@ The seconds the booth counts down before each photo, from 1 to 10. 3 seconds by 
 
 - **Session time**: how long guests have to take their photos: **Booth's own** (the session time from each booth's Pix Design layout), **No limit**, **60 s**, **90 s**, **2 min** or **3 min**. When time is up, the booth moves on with the photos taken.
 - **Note time** (with Notes on): how long guests have to write their note, from 30 seconds to 3 minutes. 90 seconds by default.
+
+### Steps
+
+Three switches for the Photo and Notes sessions, all on for a new event. Turn one off for quicker sessions:
+
+- **Adjust your photos**: after the last photo, guests move, zoom and swap their photos. Off goes straight to the next screen.
+- **Choose a filter**: guests pick a filter. Off keeps the photos as taken.
+- **Retake**: a Retake button after each photo and on Adjust your photos. Off keeps every photo as taken.
+
+Booths need Pixture Photobooth 1.2.24 or newer for these switches; an older booth keeps all three steps, and the event page names it.
 
 ## Printing
 

@@ -102,6 +102,7 @@ Everything about an event is set on its event page: **Events**, then open the ev
 | The start screen: background, text, logo, Gallery and lock buttons, colours | **Appearance** tab > **Edit appearance** |
 | The countdown before each photo (1 to 10 seconds) | **Edit appearance** > **Countdown** |
 | Session time and note time | **Edit appearance** > **Timer** |
+| Turning off Adjust your photos, Choose a filter or Retake | **Edit appearance** > **Steps** |
 | The templates guests pick from | **Template** tab |
 | The GIF frame | **GIF template** tab |
 | Mirroring photos, like a selfie | **Mirror** tab |

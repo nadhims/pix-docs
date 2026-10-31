@@ -86,6 +86,21 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 
 **Still stuck:** Send support the booth name and a sample print.
 
+### Guests should skip Adjust, the filter or Retake at an event
+
+**On screen:** After the photos, guests see **Adjust your photos** or **Choose a filter**, or a **Retake** button after each photo, and you want quicker sessions.
+
+**Also described as:** "remove the adjust step", "no retake", "skip the filter screen", "hapus layar adjust", "tanpa retake".
+
+**Fix:**
+1. On the event page (**Events**, then open the event), open **Edit appearance** > **Steps**.
+2. Turn off **Adjust your photos**, **Choose a filter** or **Retake**, then **Save**.
+3. Update the booth to Pixture Photobooth 1.2.24 or later. Older booths keep all three steps.
+
+In **Kiosk mode** these steps come from the booth's UI project instead: the Adjust and Filter pages in the UI Editor.
+
+**Still stuck:** Send support the booth name and the event name.
+
 ### The booth shows more photo slots than it takes
 
 **On screen:** The template has copies of its photo slots (for example 8 boxes for 4 photos, two strips side by side). The template preview shows 4, but while shooting and on retake the strip shows 8 boxes, some empty or with the wrong photo. The printed result is correct.
