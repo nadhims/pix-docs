@@ -29,7 +29,7 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 
 **On screen:** "Paper sizes reported by the printer driver." The size you need is not in the **MEDIA SIZE (LOADED PAPER)** list.
 
-**Also described as:** "ukuran kertasnya tidak ada", "cara buat ukuran kertas manual", "paper size missing".
+**Also described as:** "ukuran kertasnya tidak ada", "cara buat ukuran kertas manual", "paper size missing", "di mac gak ada setingan kertas 4r".
 
 **Check first:** The list comes from the printer driver, so the driver decides what is offered.
 
@@ -37,6 +37,9 @@ Start here when the booth does not print, or prints the wrong size or number. Pr
 1. Update the printer's driver from the maker, then reopen **Printer Settings**.
 2. Open **ADVANCED SETTINGS > Open Printer Properties** and check the driver's paper sizes and options there. Some sizes, such as a 2-inch cut on a dye-sub printer, must be enabled in the driver.
 3. Pick the closest size the driver offers that matches the paper actually loaded.
+4. **On a Mac**, update to Pixture Photobooth 1.2.25 or later: the list then shows the driver's own names with their sizes, and a 4x6" (10x15 cm) size is marked **4R**. Older versions show the driver's short codes only (an Epson 4x6 may not be called "4x6").
+
+A custom paper size made in the Mac or Windows print dialog belongs to that dialog only: the booth cannot use it. Use a size the printer driver offers, such as its 4x6.
 
 **Still stuck:** Send support the printer model, the driver version and the size you need.
 
