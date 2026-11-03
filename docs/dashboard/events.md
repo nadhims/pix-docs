@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Events
-description: Create an event for a wedding, expo or festival with its own dates, modes, start screen, outputs, pricing, templates and public album, pair the computers that run it, and let it run itself from creation to the day after its last date.
+description: Create an event for a wedding, expo or festival with its own dates, modes, start screen, outputs, pricing, templates, public album and a slideshow you can play on an iPad or TV, pair the computers that run it, and let it run itself from creation to the day after its last date.
 tags: [dashboard, events, album, event-pass]
 ---
 
@@ -185,6 +185,15 @@ Everything captured during the event, newest first, with a filter by computer, *
 | **On screen** | **Event name** and **QR to the album** |
 
 **Save slideshow** keeps the changes.
+
+##### Play it on an iPad, a TV or any screen
+
+The slideshow is a web page, so any device with a browser can play it: an iPad, a tablet, a laptop, or a TV with a browser. No app is needed, and it does not have to be the booth computer.
+
+1. On that device, open the event's album link (`pixture.io/album/<slug>`, the **Copy** button on the event page) and add `?slideshow=1` to the end. Or open the event on the device and tap **Slideshow** in the toolbar.
+2. The slideshow starts on its own. Tap the screen, or press Esc on a keyboard, to stop it.
+
+Link Sharing must be on, because the slideshow plays from the public album. On an iPad, set **Settings > Display & Brightness > Auto-Lock** to **Never** so the screen stays on, and turn on Guided Access to stop guests leaving the page.
 
 ### Report
 

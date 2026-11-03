@@ -82,7 +82,7 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 ## Step 6: Share the Album
 
 1. **Link Sharing** is ON from the moment the event is created. Click **Copy** next to the album link and send it to the client. Guests and the client see every photo at that link as it uploads, and the booth shows the album's QR code on its share screen.
-2. Use the toolbar above the tabs: **Embed** gives an iframe snippet for the client's website, **Slideshow** opens a full-screen slideshow for a venue screen (only while sharing is on; its look is set on the **Slideshow** tab), **Download all** zips every photo, and **Analytics** charts sessions and prints over the day.
+2. Use the toolbar above the tabs: **Embed** gives an iframe snippet for the client's website, **Slideshow** opens a full-screen slideshow for a venue screen, which any browser can play, including an iPad (only while sharing is on; its look is set on the **Slideshow** tab; [play it on an iPad or TV](../dashboard/events.md#play-it-on-an-ipad-a-tv-or-any-screen)), **Download all** zips every photo, and **Analytics** charts sessions and prints over the day.
 
    ![Embed modal for the public event album](/img/docs/steps/tutorials-run-an-event--event-embed-modal.webp)
 
