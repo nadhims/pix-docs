@@ -11,6 +11,10 @@ An **event** is a booking: a set of dates, a client and a venue, with its own mo
 
 ![Events page with one ongoing event card](/img/docs/events-list.webp)
 
+:::note Pixture Event
+Events lives in the **Pixture Event** view. Pick it with the switcher at the bottom of the sidebar; opening Events switches to it for you. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+:::
+
 ## The Events List
 
 Each event is a card with its cover photo, name, client, venue, dates, status, a **Landscape UI** or **Portrait UI** chip, its computers, the session count and, for paid events, the revenue. The bar above it has a search box ("Search name, client, venue..."), **Day / Week / Month** pills, **Select** for bulk actions, **Delete** for the selected events, and **+ Create Event**.

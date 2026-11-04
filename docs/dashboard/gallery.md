@@ -60,6 +60,10 @@ Deleting does not erase a photo at once. It disappears from the Gallery and from
 
 When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-studio.md), the photos of customers who tap **Yes, I agree** are collected in the gallery below the consent settings on the Content tab, so you can find photos you are allowed to reuse without asking twice. Performance counts them as Consented photos.
 
+## Event gallery
+
+On an account with events, the Gallery follows the view. In **Pixture Event** it is called **Event gallery** and shows only event photos, with an **All events** filter. The list of events follows the dates you picked, so you only see events that ran in that period. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+
 ## Photos of an Event
 
 Photos captured during an [event](./events.md) also appear on the event's own Album tab and, while Link Sharing is on, in its public album. Deleting from either place removes the photo from both.

@@ -11,9 +11,13 @@ tags: [dashboard, analytics, revenue]
 
 ![Dashboard home of a Pix Pro account: Revenue, Sessions, Session Completion, Peak Day, Prints, Vouchers and Templates Usage cards](/img/docs/dashboard-home.webp)
 
+:::note Which numbers you see
+On an account with events, the Dashboard follows the view you picked in the switcher. **Pixture Kiosk** shows self-service booths only, **Pixture Event** shows event money and event booths, and the **Overview** shows both with a split. Kiosk plus Event always equals Overview. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+:::
+
 ## Filters
 
-The header sets what every card below it shows.
+The header sets what every card below it shows. With the view switcher, these controls sit in the top bar.
 
 | Control | What it does |
 |---|---|

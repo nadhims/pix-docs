@@ -11,6 +11,8 @@ tags: [transactions, payments, export, excel]
 
 ![Transactions page: search, booth filter, Day, Week and Month pills, Sync with payment gateway and Export Excel icons, stat cards Total Transactions, Total Revenue, Payment Success and Session Completion](/img/docs/transactions.webp)
 
+On an account with events, Transactions follows the view. In **Pixture Event** it is called **Event sales** and lists only event money, and its totals match the Event dashboard. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+
 ## Filters and Search
 
 | Control | What it does |
