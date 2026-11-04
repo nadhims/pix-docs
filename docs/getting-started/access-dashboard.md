@@ -20,7 +20,7 @@ If you turned on two-factor authentication under **Settings > Security**, the pa
 
 Every page of the dashboard is one click away in the left sidebar. Owners and admins see all of it; team members see what their role allows.
 
-If your account has events, the bottom of the sidebar has a switcher between **Pixture Event**, **Pixture Kiosk** and an **Overview**, and the sidebar shows the pages of the dashboard you are in. See [Pixture Event, Pixture Kiosk and Overview](../dashboard/views.md).
+If your account has events, the bottom of the sidebar has a switcher between **Pixture Event**, **Pixture Kiosk** and an **Overview**, and the sidebar shows the pages of the workspace you are in. See [Pixture Event, Pixture Kiosk and Overview](../dashboard/views.md).
 
 ![The dashboard home with the sidebar on the left and the Revenue, Sessions, Session Completion, Peak Day, Prints, Vouchers and Templates Usage cards](/img/docs/dashboard-home.webp)
 
@@ -41,7 +41,7 @@ If your account has events, the bottom of the sidebar has a switcher between **P
 
 ## The Small Controls
 
-- **Account menu.** The button at the bottom of the sidebar shows your avatar initials and email. Click it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. With the dashboard switcher it moves to the top bar, next to a **Docs** link and the bell.
+- **Account menu.** The button at the bottom of the sidebar shows your avatar initials and email. Click it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. With the workspace switcher it moves to the top bar, next to a **Docs** link and the bell.
 
   ![The account menu at the bottom of the sidebar with Settings, Language and Log out](/img/docs/account-menu.webp)
 

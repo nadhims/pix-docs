@@ -12,7 +12,7 @@ An **event** is a booking: a set of dates, a client and a venue, with its own mo
 ![Events page with one ongoing event card](/img/docs/events-list.webp)
 
 :::note Pixture Event
-Events lives in the **Pixture Event** dashboard. Pick it with the switcher at the bottom of the sidebar; opening Events switches to it for you. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+Events lives in the **Pixture Event** workspace. Pick it with the switcher at the bottom of the sidebar; opening Events switches to it for you. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
 :::
 
 ## The Events List
@@ -37,7 +37,7 @@ Each event is a card with its cover photo, name, client, venue, dates, status, a
 ### Modes
 
 :::tip Looking for the Pixture Event / Pixture Kiosk switcher?
-That is a different thing. The switcher at the bottom of the sidebar changes which dashboard you see (see [Pixture Event, Pixture Kiosk and Overview](./views.md)). The modes below are how the booth takes photos.
+That is a different thing. The switcher at the bottom of the sidebar changes which workspace you see (see [Pixture Event, Pixture Kiosk and Overview](./views.md)). The modes below are how the booth takes photos.
 :::
 
 Every new event gets the [event start screen](./event-start-screen.md): guests pick the mode on the booth every session. The wizard's **Modes** offers **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes**, **Photographer** and **Mingle**. The **Modes** dropdown lets you pick one or more, grouped as "Guests pick" and "Carried to guests". Each mode in "Guests pick" becomes a button on the start screen, and guests pick one every session. **Photographer** and **Mingle** are carried to guests and are not buttons (see [Photographer](#photographer) and [Mingle](#mingle)).
