@@ -7,6 +7,17 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.29 (4 November 2026, Mac and Windows)
+
+- New **Photographer** mode, which replaces Roaming. A photographer shoots each group, and every group gets its print and QR. See [Photographer](/docs/dashboard/events#photographer).
+- New **Mingle** mode: carry the booth to your guests. It runs the Photo session on a computer you carry around. See [Mingle](/docs/dashboard/events#mingle).
+- A Kiosk computer gets its own video and slow-mo settings (clip length and so on) back after leaving an event.
+- The phone and tablet app's AI photobooth (pick a layout, every photo AI-styled) ships in this version for phones.
+
+## 1.2.28 (4 November 2026, Mac and Windows)
+
+- A computer used for both Kiosk and Event no longer keeps the event's GIF, video or slow-mo overlay in Kiosk sessions after leaving the event. It was applied even after the GIF template was deleted. A computer that already had a leftover overlay clears it on its next check-in.
+
 ## 1.2.18 (27 October 2026, Mac)
 
 - Cameras work again on Macs running macOS 13 to 15. Since late September the app's camera helper failed to start on those versions, so no camera (Canon, Sony, Nikon, Fujifilm or webcam) could connect, and the booth showed `BRIDGE_NOT_CONNECTED`. Download the update from [pixture.io/download](https://pixture.io/download).

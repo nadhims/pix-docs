@@ -17,7 +17,7 @@ The client pays a fixed fee per event, usually agreed before the day. Weddings a
 
 ### 1. Create the event
 
-Create an **Event** for each booking with the wizard: its dates, client and venue, its **Modes** (Photo, Video, 360/Slow-mo, Studio, Notes or Roaming), which guests pick from on the start screen, and its **Output** (prints, GIF, live photo, raw singles). Then pair the computers you bring straight from the event page. An event runs itself: it is active from the moment you create it and ends by itself at 06:00 the morning after its last date. Its computers keep it until you archive it. See [Run an Event](../tutorials/run-an-event.md).
+Create an **Event** for each booking with the wizard: its dates, client and venue, its **Modes** (Photo, Video, 360/Slow-mo, Studio, Notes, Photographer or Mingle), which guests pick from on the start screen (Photographer and Mingle are carried to guests instead), and its **Output** (prints, GIF, live photo, raw singles). Then pair the computers you bring straight from the event page. An event runs itself: it is active from the moment you create it and ends by itself at 06:00 the morning after its last date. Its computers keep it until you archive it. See [Run an Event](../tutorials/run-an-event.md).
 
 ### 2. Cover the event days
 

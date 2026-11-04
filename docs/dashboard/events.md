@@ -32,7 +32,7 @@ Each event is a card with its cover photo, name, client, venue, dates, status, a
 
 ### Modes
 
-Every new event gets the [event start screen](./event-start-screen.md): guests pick the mode on the booth every session. The wizard's **Modes** offers **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes** and **Roaming** ("Each mode except Roaming becomes a button on the start screen. Guests pick one every session.").
+Every new event gets the [event start screen](./event-start-screen.md): guests pick the mode on the booth every session. The wizard's **Modes** offers **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes**, **Photographer** and **Mingle**. The **Modes** dropdown lets you pick one or more, grouped as "Guests pick" and "Carried to guests". Each mode in "Guests pick" becomes a button on the start screen, and guests pick one every session. **Photographer** and **Mingle** are carried to guests and are not buttons (see [Photographer](#photographer) and [Mingle](#mingle)).
 
 ### Booth Mode (Older Events)
 
@@ -46,21 +46,57 @@ An event created before the start screen has **one booth mode**, changed with **
 | Video | **Video** | Record a short clip with your overlay, for a video guest book. See [Event Video Modes](../desktop-app/event-video-modes.md) |
 | Video | **360 Slow-mo** | Marked **Soon** |
 
-### Roaming
+### Photographer
 
-**Roaming** is for a photographer who walks around the venue: "A photographer walks around and shoots; each photo gets its own QR." A roaming computer skips the start screen and opens straight into shooting. Each photo is saved as its own session and shown with its own QR code, so guests scan it on the spot. With a DSLR the photographer shoots with the camera's own shutter; with a webcam the booth shows the live view and an on-screen shutter.
+**Photographer** is for a photographer who shoots each group: "A photographer shoots each group; every group gets its print and QR." It was called **Roaming** before. A Photographer computer skips the start screen and opens straight into shooting.
 
-Turn it on in the wizard's **Modes** or with **Edit modes** on the event page, then set it on the **Roaming** tab:
+Turn it on in the wizard's **Modes** (under "Carried to guests") or with **Edit modes** on the event page, then set it on the **Photographer** tab:
 
 | Setting | What it does |
 |---|---|
-| **QR time** | How long each photo shows with its QR before the next shot: **Skip**, or 5 to 30 seconds (8 by default) |
-| **Review** | A look at each shot with Retake before it is saved: **Off**, **3 s**, **5 s** (default), **10 s** or **Until I tap** |
-| **Auto print** | "Prints each photo as it is taken, one sheet" |
-| **Frame** | A GIF template laid over each photo, or **None** |
-| **Roaming computers** | Only when the event also has guest modes: the computers that go round with the photographer. The others show the start screen to guests. The tab shows a "!" until at least one is picked |
+| Print template | Pick ONE print template for the event. Only photo print templates already on the event, with at least one photo slot, can be picked. **+ Manage Templates** adds templates to the event right there |
+| **QR time** | How long the Share screen shows |
+| **Auto print** | Prints each group once when it is saved |
+| **Photographer computers** | Only when the event also has guest modes: the computers that go round with the photographer. Ticked computers go round with the photographer |
 
-When Roaming is the event's only mode, every computer roams. A roaming computer carries a **Roaming** badge in the Computers list. Roaming needs Pixture Photobooth 1.2.2 or newer.
+The tab shows a "!" with "Pick the template" when no template is picked, or "Pick which computers shoot" when guest modes are on and no computer is picked. When Photographer is the event's only mode, every computer is a Photographer computer. A Photographer computer carries a **Photographer** badge in the Computers list. Phones and tablets can be Photographer computers. Photographer needs Pixture Photobooth 1.2.29 or newer (the event page warns about older computers).
+
+On the booth:
+
+- With a real camera (Canon, Sony, Nikon or Fujifilm) there is no live view. The template shows large with the next slot lit and a chip such as "Photo 1 of 3". The photographer shoots with the camera's own shutter.
+- On a phone, tablet or webcam there is a live view, an on-screen shutter and a small template in the corner.
+- After each shot, **Check it** shows the photo cropped as it sits in its slot, with **Retake** and **Use photo**, and no timer. Pressing the camera's shutter on Check it counts as **Use photo**, and the new shot goes to the next slot. **Start over** clears the group so far.
+- After the last slot the group is composed into the template and saved as one session. Photographer sessions are free, with no payment. It is printed once if **Auto print** is on (this print counts toward the guest's print limit). Then the normal Share screen with the print animation and QR shows for the **QR time**.
+- Shots taken while a group is saving or on the Share screen become the next group's first shots.
+- Accepted shots survive a restart. After an app restart the group comes back at the next slot.
+
+Without a template picked, the booth keeps the old single-photo behaviour: each photo is its own session with its own QR.
+
+### Mingle
+
+**Mingle** is its own mode: "Carry the booth to your guests." It runs the Photo session (templates, filters, prints, share) on a computer you carry to your guests.
+
+Turn it on in the wizard's **Modes** (under "Carried to guests") or with **Edit modes** on the event page. With Mingle on, the event has a **Template** tab (pick the guest templates as for Photo) and its own **Mingle** row under **Price per mode**. A package that Mingle leaves empty uses Photo's price for that package, then the event price.
+
+Which computers mingle:
+
+- When Mingle is the event's only guest mode, every computer mingles, except Photographer computers. The **Mingle** tab says "Every computer mingles. Turn on another mode to pick."
+- When other guest modes are on, tick the computers under **Mingle computers** on the **Mingle** tab. Until you do, none mingle.
+- A computer is Mingle or Photographer, never both. Picking it on one tab takes it off the other.
+- Mingle computers carry a **Mingle** badge in the Computers list.
+
+On the booth:
+
+- A Mingle computer shows only Mingle, with no mode choice.
+- Tapping the screen always counts down.
+- The camera's own shutter always shoots right away, and cuts a running countdown short.
+- A remote clicker (a Bluetooth or USB presenter key) follows the **Remote clicker** setting on the **Mingle** tab: **Shoots right away** (the default) or **Starts the countdown**. The tab's hint reads: "Your camera's shutter always shoots right away. Tapping the screen always counts down."
+- A photo taken by a camera-shutter or clicker press has no Live photo clip for that slot. The still photo is fine. Live photo clips come from shots taken at the end of a countdown.
+- **Notes after Photo** does not run on Mingle computers.
+- Mingle works on phones and tablets too, with a tap and a countdown. The phone's volume key as a shutter is not supported yet.
+- Sessions are recorded as Mingle sessions.
+
+Mingle needs Pixture Photobooth 1.2.29 or newer. An older computer runs a Mingle event as plain Photo at Mingle's price.
 
 On an older event, changing the booth mode keeps the paired computers paired. Each booth picks the new mode up the next time it shows its Start screen. If the event's screen design does not fit the new mode, the event switches to one that does (a Studio design for Studio, the Default Layout for Photobooth and Video) and says so.
 
@@ -108,7 +144,8 @@ Everything about an event is set on its event page: **Events**, then open the ev
 | Mirroring photos, like a selfie | **Mirror** tab |
 | Video settings and overlays | **Video** tab |
 | 360/Slow-mo settings and overlays | **360/Slow-mo** tab |
-| A roaming photographer | **Roaming** tab |
+| A photographer who shoots each group | **Photographer** tab |
+| Carrying the booth to guests | **Mingle** tab |
 | AI styles (Pix AI beta) | **AI** tab |
 | The note template | **Notes** tab |
 | What guests get: prints, GIF, live photo, singles | **Output** tab > **Change** |
@@ -152,23 +189,24 @@ Everything captured during the event, newest first, with a filter by computer, *
   ![Pair a computer popup saying "Get Pix Pro or an Event Pass first" with Add computer and Later](/img/docs/event-pair-needs-license.webp)
 
   A computer paired with an event's code goes into Event mode: it keeps a list of your events and runs whichever one you launch, until you archive it. See [Event Mode](../desktop-app/event-mode.md).
-- **Booth mode** (every new event). The event's modes are cards with their picture and name; hover one for its one-line description. Clicking a card opens its settings tab and brings the tab bar to the top: **Photo** and **Studio** open **Template**, **Video** opens **Video**, **360/Slow-mo** opens **360/Slow-mo**, and **Roaming** and **Notes** open their own tabs. **Edit modes** opens the **Booth mode** popup ("The modes guests pick from on this event's start screen."), where you tick modes on or off, choose how Notes prints (**Print with the note**, **No print, QR only** or **Notes after Photo**) and **Save**. One mode always stays on. The tabs under the cards:
+- **Booth mode** (every new event). The event's modes are cards with their picture and name; hover one for its one-line description. Clicking a card opens its settings tab and brings the tab bar to the top: **Photo** and **Studio** open **Template**, **Video** opens **Video**, **360/Slow-mo** opens **360/Slow-mo**, and **Photographer**, **Mingle** and **Notes** open their own tabs. **Edit modes** opens the **Booth mode** popup ("The modes guests pick from on this event's start screen."), where you tick modes on or off, choose how Notes prints (**Print with the note**, **No print, QR only** or **Notes after Photo**) and **Save**. One mode always stays on. The tabs under the cards:
 
   | Tab | What it holds |
   |---|---|
   | **Appearance** | The start screen, with **Edit appearance** and **Try it full screen**. See [Event Start Screen](./event-start-screen.md) |
   | **Template**, **Mirror**, **GIF template** | Photo modes: the templates, mirroring and the GIF frame (below) |
   | **Video**, **360/Slow-mo** | The video settings and each mode's Overlays list. See [Event Video Modes](../desktop-app/event-video-modes.md) |
-  | **Roaming** | See [Roaming](#roaming) |
+  | **Photographer** | See [Photographer](#photographer) |
+  | **Mingle** | See [Mingle](#mingle) |
   | **AI** | The AI styles guests pick from (accounts in the Pix AI beta) |
   | **Notes** | The **Note template** guests write on |
   | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** (1 to 10 sheets, 2 by default) and **Show a Print button on Share** |
   | **Slideshow** | How the album slideshow looks on a venue screen (while Link Sharing is on). See [Slideshow](#slideshow) |
 
-  A tab that needs something shows a "!": **Template** until a template is added, **GIF template** while GIF is an output and no frame is picked, **Output** when no output is on and **Roaming** until a computer is picked to roam. The **Preview** card beside the tabs shows what the open tab sets.
+  A tab that needs something shows a "!": **Template** until a template is added, **GIF template** while GIF is an output and no frame is picked, **Output** when no output is on, **Photographer** until a template is picked (and, with guest modes on, a computer) and **Mingle** until a computer is picked to mingle (when other guest modes are on). The **Preview** card beside the tabs shows what the open tab sets.
 - **Booth mode**, **Output** and **Appearance** (older events, created before the start screen). Each is a box showing the current choice, with **Change**. Appearance lists only screen designs made for the event's booth mode.
 - **Template**, **Mirror** and **GIF template** (photo modes; the countdown before each photo and the session and note timers are set in **Edit appearance**, and on an older event the countdown is the one on the Capture page of the event's screen design in the UI Editor). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Templates a pack adds from the event belong to that event: they are not in your library and are left out of template usage rankings. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie. It shows on, like the booths. Until you change it, each booth keeps its own **Mirror live view** setting; once you change it, every booth on a new event follows it.
-- **GIF template.** The frame over every GIF guests get. With no GIF templates yet, the tab shows "No GIF templates yet" and **Add a GIF template**; otherwise it is a picker with **No frame**, your frames (a check marks the picked one) and an **Add GIF template** tile. **Add a GIF template** opens a popup ("For this event only"): choose a transparent PNG (1280×720 or 720×1280, up to 10 MB), whose shape sets the orientation and whose file name fills **Name**, then **Add**. The frame belongs to this event: Pix Design and your other events never list it, and it is picked for the event's GIF at once. A frame that belongs to the event has a trash button: "Delete this GIF template? This event goes back to No frame if it was picked." Deleting it also takes it out of the event's video Overlays lists and the Roaming frame. Frames from Pix Design are deleted in Pix Design.
+- **GIF template.** The frame over every GIF guests get. With no GIF templates yet, the tab shows "No GIF templates yet" and **Add a GIF template**; otherwise it is a picker with **No frame**, your frames (a check marks the picked one) and an **Add GIF template** tile. **Add a GIF template** opens a popup ("For this event only"): choose a transparent PNG (1280×720 or 720×1280, up to 10 MB), whose shape sets the orientation and whose file name fills **Name**, then **Add**. The frame belongs to this event: Pix Design and your other events never list it, and it is picked for the event's GIF at once. A frame that belongs to the event has a trash button: "Delete this GIF template? This event goes back to No frame if it was picked." Deleting it also takes it out of the event's video Overlays lists. Frames from Pix Design are deleted in Pix Design.
 
 #### Slideshow
 
