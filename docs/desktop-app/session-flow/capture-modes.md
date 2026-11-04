@@ -24,6 +24,8 @@ The **Camera trigger** dropdown on the Capture page (also on the Live View block
 
 **Tap once, the booth runs the rest.** On a multi-slot template only the first shot waits for the trigger; slots 2 onwards start their own countdown after each review, unless you turn that off in the trigger panel. A remote plugged into the booth (Space, S, Page Up, Page Down or F13) also takes a shot when the matching key trigger is on.
 
+**In Mingle sessions** (an event mode where the operator carries the booth to guests), tapping the screen counts down, the camera's own shutter shoots right away, and the remote keys follow the Mingle **Remote clicker** setting. See [Mingle](../../dashboard/events.md#mingle).
+
 ## Session Time
 
 The Capture page has a **Session Time** setting: a countdown for the whole session that starts at the first shot, with or without a timer on screen. When it runs out the booth does what the setting says, for instance moving on with the photos it has. Add a **Session Timer** block if you want the customer to see it; the block only displays the time, always as MM:SS, and never changes the limit. When the time reaches zero the Retake button disappears from Review.

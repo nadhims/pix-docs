@@ -21,7 +21,7 @@ Events created before the start screen keep working as they are, with one booth 
 
 ## Modes
 
-The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes** and **Roaming**, plus **AI** for accounts in the Pix AI beta. Each one you turn on becomes a round button, and guests pick one every session, except **Roaming**: a roaming computer skips the start screen (see [Roaming](./events.md#roaming)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
+The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes**, **Photographer** and **Mingle**, plus **AI** for accounts in the Pix AI beta. Each one you turn on becomes a round button, and guests pick one every session, except **Photographer** and **Mingle**. They do not show as buttons to guests: a Photographer computer skips the start screen and opens straight into shooting, and a Mingle computer goes straight into Mingle (see [Photographer](./events.md#photographer) and [Mingle](./events.md#mingle)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
 
 **Photo**, **Studio** and **Notes** need at least one template on the event.
 

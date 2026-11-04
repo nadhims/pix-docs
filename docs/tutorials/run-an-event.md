@@ -14,7 +14,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 - **A license for every computer on the event**: Pix Pro, or an **Event Pass** (24 hours of Pix Pro on one computer, starting when you use it at the booth). You can buy one before the day, or from the event page when you pair.
 - **Templates for the event**, either your own in Pix Design or one of Pixture's free template packs (when packs are available).
 - **A payment gateway connected** (**Settings > Payment Gateway**) if guests pay per photo session at the event.
-- **Pixture Photobooth 1.2.1 or newer** on each computer (1.2.2 or newer for Roaming or a price per mode), installed now or at the venue.
+- **Pixture Photobooth 1.2.1 or newer** on each computer (1.2.2 or newer for a price per mode, 1.2.29 or newer for Photographer with a template, or for Mingle), installed now or at the venue.
 
 ## Step 1: Create the Event
 
@@ -22,7 +22,7 @@ In this tutorial you will create an event with the wizard, pair the computers th
 
    ![Events page with one ongoing event card and the + Create Event button](/img/docs/steps/tutorials-run-an-event--events-list.webp)
 
-2. Fill in **Event Name** and **Client**. Under **Modes**, tick the modes guests can pick on the booth: **Photo** (on by default), **Video**, **360/Slow-mo**, **Studio**, **Notes** or **Roaming**. Under **Output**, untick anything guests should not get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
+2. Fill in **Event Name** and **Client**. Open the **Modes** dropdown and pick one or more. They are grouped as "Guests pick" (**Photo** is on by default, plus **Video**, **360/Slow-mo**, **Studio** and **Notes**) and "Carried to guests" (**Photographer** and **Mingle**). Open the **Output** dropdown and pick what guests get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
 
    ![Create Event wizard, Details step with Event Name, Client and the Modes tiles](/img/docs/event-create-wizard.webp)
 
