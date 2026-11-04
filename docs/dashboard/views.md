@@ -55,9 +55,25 @@ The Overview shows your total revenue with a chart that stacks Pixture Kiosk und
 
 ## Choosing your view
 
-The first time you open the dashboard, a window asks **How will you use Pixture?** with the three choices. Close it and you stay in Pixture Kiosk. If you told Lucy what you run when you signed up, you start in the matching view and are not asked again.
+The first time you open the dashboard, a window with a poster at the top asks **How will you use Pixture?** with the three choices. It opens once per browser, even if you already picked a view. Close it on a first visit and you stay in Pixture Kiosk.
+
+After you pick or close it, Lucy highlights the switcher at the bottom of the sidebar and tells you what it is for. Tap **Got it** to continue.
+
+If you told Lucy what you run when you signed up, you start in the matching view: events opens Pixture Event, kiosk opens Pixture Kiosk, and both opens the Overview.
+
+Closed it and want it back? The updates bell in the top bar has an item called **Pixture Event and Pixture Kiosk**. Tap **Open** to see the window again. Closing it from there changes nothing.
 
 Your choice is remembered in this browser. Switch any time from the sidebar.
+
+## Team members and roles
+
+Roles decide who gets the views.
+
+- **A role that can view events** gets the switcher and all three views.
+- **A role that cannot** sees Pixture Kiosk money only, and no switcher. Revenue, Transactions, Gallery and the booth list leave out event sessions and event sales, so nothing from an event shows up where they cannot open Events. To give someone the views, turn on **View events** for their role under **Settings > Members > Manage Roles**.
+- **Booth access still applies in every view.** A member limited to some booths only sees those booths' numbers, and their Pixture Kiosk plus Pixture Event still add up to their Overview.
+- **The Overview cards** (Pixture Kiosk and Pixture Event totals) need the dashboard's Revenue card permission, and **Event health** needs the Health permission.
+- **Finance reports** stay organization-wide for roles that can open them, since they are the books of the whole business.
 
 ## The top bar
 

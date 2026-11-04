@@ -47,6 +47,8 @@ To invite someone:
 
 **Manage Roles** opens the Roles page. **Create from Preset** starts from a ready-made role; **Create Role** starts blank with a **Role Name**, **Description**, **Booth Access** (All or None) and the permission groups, one per part of the dashboard. **Permission Reference** explains each one. A role decides which sidebar entries a member sees and what they may change.
 
+On an account with events, the **View events** permission also decides whether a member gets the Pixture Event and Pixture Kiosk views. Without it they see Pixture Kiosk money only. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+
 ![Roles page: Create from Preset, Create Role, Permission Reference](/img/docs/settings-roles.webp)
 
 ![Create Role modal: Role Name, Description, Booth Access, permission groups](/img/docs/settings-create-role-modal.webp)
