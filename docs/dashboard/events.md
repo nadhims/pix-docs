@@ -54,10 +54,10 @@ Turn it on in the wizard's **Modes** (under "Carried to guests") or with **Edit 
 
 | Setting | What it does |
 |---|---|
-| Print template | Pick ONE print template for the event. Only photo print templates already on the event, with at least one photo slot, can be picked. **+ Manage Templates** adds templates to the event right there |
+| Print template | Pick one print template for the event. Only photo print templates already on the event, with at least one photo slot, can be picked. **+ Manage Templates** adds templates to the event right there |
 | **QR time** | How long the Share screen shows |
 | **Auto print** | Prints each group once when it is saved |
-| **Photographer computers** | Only when the event also has guest modes: the computers that go round with the photographer. Ticked computers go round with the photographer |
+| **Photographer computers** | Only when the event also has guest modes: tick the computers that go round with the photographer |
 
 The tab shows a "!" with "Pick the template" when no template is picked, or "Pick which computers shoot" when guest modes are on and no computer is picked. When Photographer is the event's only mode, every computer is a Photographer computer. A Photographer computer carries a **Photographer** badge in the Computers list. Phones and tablets can be Photographer computers. Photographer needs Pixture Photobooth 1.2.29 or newer (the event page warns about older computers).
 
