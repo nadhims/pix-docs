@@ -13,13 +13,13 @@ If your account has events, you have three dashboards. Switch dashboard with the
 The switcher only changes which dashboard you are looking at. It does not change how a booth takes photos. **Booth modes** (Photo, 360/Slow-mo, Notes, Photographer, Mingle) are chosen for each event under **Setup > Booth mode > Edit modes**. See [Events](./events.md).
 :::
 
-![The dashboard switcher open at the bottom of the sidebar: Pixture Event, Pixture Kiosk and Overview, each with a short description](/img/docs/dashboard-views-switcher.webp)
+![The dashboard switcher open at the bottom of the sidebar: Overview, Pixture Kiosk and Pixture Event, each with a short description](/img/docs/dashboard-views-switcher.webp)
 
 | Dashboard | Use it for | Where you land |
 |---|---|---|
-| **Pixture Event** | A booth that runs for a set of dates, like a wedding, a party or a brand activation | Event dashboard |
-| **Pixture Kiosk** | A self-service photobooth in one place, like a mall photobox | Kiosk dashboard, the dashboard as it always was |
 | **Overview** | Both side by side | Overview |
+| **Pixture Kiosk** | A self-service photobooth in one place, like a mall photobox | Kiosk dashboard, the dashboard as it always was |
+| **Pixture Event** | A booth that runs for a set of dates, like a wedding, a party or a brand activation | Event dashboard |
 
 The switcher only shows on accounts that have events. If you do not see it, nothing is missing: your dashboard works as before.
 
@@ -27,14 +27,14 @@ The switcher only shows on accounts that have events. If you do not see it, noth
 
 The sidebar and the pages follow the dashboard you are in.
 
-| Page | Pixture Event | Pixture Kiosk | Overview |
+| Page | Overview | Pixture Kiosk | Pixture Event |
 |---|---|---|---|
-| Dashboard | Event numbers | Kiosk numbers | Both, split in two cards |
-| Events | Yes | No | No |
+| Dashboard | Both, split in two cards | Kiosk numbers | Event numbers |
+| Events | No | No | Yes |
 | Booths and Vouchers | No | Yes | No |
-| Transactions | **Event sales** | Transactions | Everything |
-| Gallery | **Event gallery**, filter by event | Gallery | Everything |
-| Health | **Event health** | Health | Every booth |
+| Transactions | Everything | Transactions | **Event sales** |
+| Gallery | Everything | Gallery | **Event gallery**, filter by event |
+| Health | Every booth | Health | **Event health** |
 | Marketing Studio, Computers, Pix Design, Settings | Yes | Yes | Yes |
 
 Opening a page that belongs to one dashboard takes you to that dashboard. Events always opens in Pixture Event, and Booths and Vouchers always open in Pixture Kiosk. So a link someone sends you still lands on the right page.
