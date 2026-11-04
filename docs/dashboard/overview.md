@@ -16,7 +16,7 @@ The Pixture dashboard is a web app at pixture.io. Nothing to install: it works i
 The sidebar lists the pages in this order. Your role decides which ones you see.
 
 :::note Pixture Event, Pixture Kiosk and Overview
-If your account has events, a switcher at the bottom of the sidebar picks a **dashboard**, and the sidebar follows it: Events shows only in Pixture Event, Booths and Vouchers only in Pixture Kiosk. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+If your account has events, a switcher at the bottom of the sidebar picks a **workspace**, and the sidebar follows it: Events shows only in Pixture Event, Booths and Vouchers only in Pixture Kiosk. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
 :::
 
 | Page | What it is for |
@@ -39,7 +39,7 @@ Marketing Studio is not in the sidebar on Pix Starter. It appears once your acco
 ## Around the Sidebar
 
 - **Updates bell.** At the top of the sidebar. Announcements from Pixture, and the place to open the free trial again if you chose **Later**.
-- **Account menu.** The button at the bottom shows your initials and email. Open it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. On accounts with the dashboard switcher this menu, the updates bell and a **Docs** link sit in the top bar instead.
+- **Account menu.** The button at the bottom shows your initials and email. Open it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. On accounts with the workspace switcher this menu, the updates bell and a **Docs** link sit in the top bar instead.
 - **Organization switcher.** Shown only when you belong to more than one organization. Everything in the dashboard is scoped to the organization you have selected.
 
 ![Account menu at the bottom of the sidebar: Settings, Language, Log out](/img/docs/account-menu.webp)

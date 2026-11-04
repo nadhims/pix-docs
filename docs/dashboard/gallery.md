@@ -62,7 +62,7 @@ When the **Marketing consent** prompt is on in [Marketing Studio](./marketing-st
 
 ## Event gallery
 
-On an account with events, the Gallery follows the dashboard you are in. In **Pixture Event** it is called **Event gallery** and shows only event photos, with an **All events** filter. The list of events follows the dates you picked, so you only see events that ran in that period. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+On an account with events, the Gallery follows the workspace you are in. In **Pixture Event** it is called **Event gallery** and shows only event photos, with an **All events** filter. The list of events follows the dates you picked, so you only see events that ran in that period. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
 
 ## Photos of an Event
 
