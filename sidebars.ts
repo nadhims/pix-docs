@@ -116,6 +116,7 @@ const sidebars: SidebarsConfig = {
             'desktop-app/session-flow/review-and-adjust',
             'desktop-app/session-flow/filters',
             'desktop-app/session-flow/sharing',
+            'desktop-app/session-flow/email-my-photos',
           ],
         },
         'desktop-app/studio-sessions',
