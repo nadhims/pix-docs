@@ -99,6 +99,8 @@ Never reset, reinstall, unlink or switch off a booth computer while the operator
 1. Open **Gallery**, filter by the booth and the day, and find the session.
 2. Download the photo and send it to the customer. See [Gallery](../dashboard/gallery.md).
 
+To prevent it, Pix Pro booths on 1.2.31 or newer can show an **Email** button so guests send the photos to themselves. See [Email My Photos](../desktop-app/session-flow/email-my-photos.md), which also lists what to check when the button is missing.
+
 **Still stuck:** Session not in the Gallery? See [Photos are missing although uploads are up to date](#photos-are-missing-although-uploads-are-up-to-date).
 
 ### Photos are missing although uploads are up to date
