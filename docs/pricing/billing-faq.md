@@ -86,6 +86,10 @@ Every computer on your subscription is already active. On **Computers**, deactiv
 
 Yes. Tap **Buy Event Passes** on the **Event Passes** card of the **Computers** page, or pick **Event Pass** under **Add computer**. Buy as many as you need. They wait in your account and the card shows how many are unused. On the day, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?", or open the operator menu on each computer and tap **Use an Event Pass on this computer**. The 24 hours start from that moment.
 
+## Is there a limit on how many sessions or photos I can take at an event?
+
+No. There is no limit on photo sessions, photos, GIFs or videos at an event, on any plan: the free trial, an Event Pass and Pix Pro all run as many sessions as your guests take, so 400 or 1,000 guests is fine. Plans limit time and computers (an Event Pass is 24 hours on one computer), never sessions. Pix Starter is not limited either, but every photo carries the Pixture watermark. The only thing counted is Pix AI: each AI look uses AI credits.
+
 ## Is there volume pricing?
 
 Yes, for Pix Pro, when you add several computers in one purchase. Open **Volume pricing** in the Pix Pro checkout to see the price per computer before you pay. Running a large fleet? Use **Contact sales** on the **Enterprise** tab of [pixture.io/pricing](https://pixture.io/pricing). Event Passes are a flat price.
