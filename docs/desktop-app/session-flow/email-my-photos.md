@@ -35,7 +35,7 @@ A guest can email up to 3 different addresses per session, for example themselve
 
 ## What the Email Looks Like
 
-- It comes from "{your business name} (via Pixture)", with the subject "Your photos from {business}".
+- It comes from "*your business name* (via Pixture)", with the subject "Your photos from *your business name*".
 - It shows your logo and a **See my photos** button. The button opens the same page as the QR code.
 - It tells the guest the date their photos stay available, which is 60 days after the session.
 - It is in English or Indonesian, following the booth's language.
