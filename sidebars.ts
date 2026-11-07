@@ -78,6 +78,7 @@ const sidebars: SidebarsConfig = {
             'dashboard/pix-design/ui-editor',
             'dashboard/pix-design/filters-and-overlays',
             'dashboard/pix-design/microsite',
+            'dashboard/pix-design/queue-display',
             'dashboard/pix-design/pix-ai',
             'dashboard/pix-design/brand',
           ],
@@ -158,6 +159,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'guides/booth-operations-checklist',
         'guides/multi-booth-setup',
+        'guides/queue-line',
         'guides/payment-gateway-setup',
         'guides/branding-your-booth',
         'guides/shared-printer',

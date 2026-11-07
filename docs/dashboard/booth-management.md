@@ -36,7 +36,7 @@ Search by name, region, device or plan. **Filter** narrows by region, status (On
 
 ![Create Booth modal, Single booth tab, with Booth Name and Location filled](/img/docs/booths-create-modal.webp)
 
-The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo booths?**. A group is several booths at one venue sharing a queue and, if you want, a central cashier. Its page has the tabs Photo Booths, Templates, UI Project, Queue (**Set up shared queue**, **Open TV view**), Cashier (**Pay at the booth** or **Central cashier**, with products) and Settings, plus **Save for all booths**. See [Multi-Booth Setup](../guides/multi-booth-setup.md).
+The **Multi-Booth** tab creates a group instead: a **Name** and **How many photo booths?**. A group is several booths at one venue sharing a queue line and, if you want, a central cashier. Its page has the tabs Photo Booths, Templates, UI Project, Queue (the [queue line](../guides/queue-line.md) and its display), Cashier (**Pay at the booth** or **Central cashier**, with products) and Settings, plus **Save for all booths**. See [Multi-Booth Setup](../guides/multi-booth-setup.md).
 
 ![Create Booth modal, Multi-Booth tab: Name and How many photo booths](/img/docs/booths-create-multibooth.webp)
 
