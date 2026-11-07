@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Lighting & Flash
-description: How to light a photobooth with the Pixture app, continuous light or flash. Built-in flash, speedlites and studio strobes on a wireless trigger all fire with the photo, with no setting in the app.
+description: How to light a photobooth with the Pixture app, continuous light or flash. Built-in flash, speedlites and studio strobes on a wireless trigger fire with the photo; on Canon DSLRs such as the EOS 600D, turn on EXTERNAL FLASH so a non-Canon flash or trigger fires.
 tags: [desktop-app, camera, lighting, flash, hardware]
 ---
 
@@ -11,13 +11,23 @@ Good light matters more than the camera. A booth can use **continuous light** (a
 
 ## Does my flash fire with the booth?
 
-Yes. With a camera body connected by USB (Canon, Sony, Nikon or Fujifilm), the Pixture app takes the photo by pressing the camera's shutter remotely, exactly like pressing the shutter button by hand. Whatever fires when you press the button fires from the booth too:
+Yes, almost always. With a camera body connected by USB (Canon, Sony, Nikon or Fujifilm), the Pixture app takes the photo by pressing the camera's shutter remotely, exactly like pressing the shutter button by hand. Whatever fires when you press the button fires from the booth too:
 
 - The camera's **built-in pop-up flash** (raise it and leave flash on).
 - A **speedlite** on the hot shoe.
 - **Studio strobes or off-camera speedlites** fired by a **wireless flash trigger** on the hot shoe, or by a sync cable.
 
-There is no flash setting in the app. Quick test: press the camera's shutter button by hand. If the flash fires, it fires from the booth.
+The one exception is a **Canon DSLR with a non-Canon flash or a wireless trigger**, see below.
+
+Quick test: turn on the camera's live view (the **LV** button on a Canon DSLR) and press the shutter button by hand. If the flash fires, it fires from the booth.
+
+### Canon DSLRs: turn on EXTERNAL FLASH
+
+The booth takes Canon photos with live view running, and many Canon DSLRs do not fire a non-Canon flash or a wireless trigger during live view. Canon's own EOS 600D manual says: "A non-Canon flash will not fire during Live View shooting." The sign: the flash fires when you shoot by hand with live view off, but never from the booth.
+
+On these cameras, open **Camera Settings** and, under **CAPTURE**, turn on **EXTERNAL FLASH** (app 1.2.37 or newer). The booth then pauses live view for each photo so the flash fires. Each photo takes about 0.6 seconds longer and the preview blinks once, so leave it off when the flash already fires.
+
+Canon mirrorless bodies (the EOS R series) fire a flash in live view and do not need it. Canon's manual also asks for a shutter speed of **1/200 or slower** with a non-Canon flash.
 
 A **webcam cannot fire a flash**. With a webcam, use continuous light.
 

@@ -27,6 +27,8 @@ Choose **Auto-detect** or a specific camera from the list, then tap **Set as Def
 
 With a Canon EOS, Sony Alpha, Nikon Z or Fujifilm camera connected, this section shows the camera's exposure properties: ISO, aperture, shutter speed and white balance (Fujifilm adds exposure compensation). The page reminds you to put the camera in a manual-capable mode: "Set camera to M / Av / Tv mode for manual control" on a Canon, "M / A / S" on the others. In other modes the camera ignores what the app sends. Focus mode is set on the camera body, not here. With a webcam, this section is called **CAMERA CONTROLS** and shows what the webcam allows.
 
+Each list shows only the values the camera allows right now, so the aperture list follows the lens, and it updates when you turn the mode dial or change lens (app 1.2.37 or newer). A setting the camera's current mode does not let the app change shows only its current value.
+
 When white balance is set to a colour temperature (**K**), a **COLOR TEMPERATURE** slider appears so you can match the venue lighting exactly.
 
 Starting points that work for most booths:
@@ -41,6 +43,7 @@ Sliders on this page (and on the Printer and Capture pages) accept a typed value
 ## CAPTURE
 
 - **DIGITAL ZOOM** crops into the frame when you cannot move the camera closer. It applies to the live view, the stills and the live photo.
+- **EXTERNAL FLASH** (Canon only, app 1.2.37 or newer) pauses the live view for each photo so a hot-shoe flash or a wireless trigger fires. The page says: "Pauses the live view for each photo so a flash or wireless trigger fires." Turn it on when the flash fires by hand but not from the booth, as on a Canon EOS 600D and other Canon DSLRs. Each photo takes about 0.6 seconds longer and the preview blinks once. See [Lighting & Flash](./lighting-and-flash.md).
 - **CAMERA ROTATION** (0, 90, 180 or 270) turns the picture when the camera is mounted sideways or upside down. The page says it plainly: "Rotate the picture when the camera is mounted sideways or upside down."
 - **HAND SIGN DETECTION** watches the live view for hand gestures. The page describes it as detecting hand gestures on the live view to trigger capture and visual effects. It has two sub-options:
   - **PEACE SIGN TRIGGER**: holding a peace sign for about 1.5 seconds starts the capture countdown, so customers can shoot without touching the screen.
