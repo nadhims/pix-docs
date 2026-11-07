@@ -1,8 +1,69 @@
 {
   "redirects": [
-    { "source": "/docs/ios-dashboard/pix-studio/:path*", "destination": "/docs/dashboard/pix-design/:path*", "permanent": true },
-    { "source": "/docs/ios-dashboard/:path*", "destination": "/docs/dashboard/:path*", "permanent": true },
-    { "source": "/id/docs/ios-dashboard/pix-studio/:path*", "destination": "/id/docs/dashboard/pix-design/:path*", "permanent": true },
-    { "source": "/id/docs/ios-dashboard/:path*", "destination": "/id/docs/dashboard/:path*", "permanent": true }
+    {
+      "source": "/dashboard/:path*",
+      "destination": "/docs/dashboard/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/desktop-app/:path*",
+      "destination": "/docs/desktop-app/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/getting-started/:path*",
+      "destination": "/docs/getting-started/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/guides/:path*",
+      "destination": "/docs/guides/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/pricing/:path*",
+      "destination": "/docs/pricing/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/reference/:path*",
+      "destination": "/docs/reference/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/troubleshooting/:path*",
+      "destination": "/docs/troubleshooting/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tutorials/:path*",
+      "destination": "/docs/tutorials/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases/:path*",
+      "destination": "/docs/use-cases/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ios-dashboard/pix-studio/:path*",
+      "destination": "/docs/dashboard/pix-design/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ios-dashboard/:path*",
+      "destination": "/docs/dashboard/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/id/docs/ios-dashboard/pix-studio/:path*",
+      "destination": "/id/docs/dashboard/pix-design/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/id/docs/ios-dashboard/:path*",
+      "destination": "/id/docs/dashboard/:path*",
+      "permanent": true
+    }
   ]
 }
