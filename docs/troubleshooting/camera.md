@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Camera Problems
-description: "Fixes for camera problems on the Pixture Photobooth app: camera not detected or \"Camera Disconnected\", a camera model that does not work, capture failing while live view works, the camera stopping during the day, \"Camera Cooling Down\", \"Camera is warming up\", the booth picking the webcam, exposure controls that do nothing and the macOS camera permission."
+description: "Fixes for camera problems on the Pixture Photobooth app: camera not detected or \"Camera Disconnected\", Canon EOS Utility or another program holding the camera, a camera model that does not work, capture failing while live view works, the camera stopping during the day, \"Camera Cooling Down\", \"Camera is warming up\", the booth picking the webcam, exposure controls that do nothing and the macOS camera permission."
 tags: [troubleshooting, camera, desktop-app]
 ---
 
@@ -19,7 +19,7 @@ Start here when the booth cannot see, control or fire the camera. Problems are o
 
 **Fix:**
 1. Unplug the USB cable and plug it straight into a port on the computer, not a hub or a front-panel port. If that does not help, try another cable. General tip: some USB cables only charge and carry no data, and they look identical.
-2. Close every other program that talks to the camera: EOS Utility, Lightroom, Sony Imaging Edge, Fujifilm X Acquire, NX Tether and similar. Only one program can hold the camera.
+2. Close every other program that talks to the camera: EOS Utility, Lightroom, Sony Imaging Edge, Fujifilm X Acquire, NX Tether and similar. Only one program can hold the camera. On a Canon, EOS Utility opens again by itself every time the camera is plugged in; see [EOS Utility or another program is holding a Canon](#eos-utility-or-another-program-is-holding-a-canon) to stop it.
 3. Set the camera's USB mode. A Sony needs **PC Remote**; a Fujifilm needs **USB TETHER SHOOTING AUTO** (**PC SHOOT AUTO** on older bodies). See [Sony Alpha Setup](../desktop-app/camera-setup/sony-alpha.md) and [Fujifilm Setup](../desktop-app/camera-setup/fujifilm.md).
 4. A Sony on Windows needs Sony's driver once: **Camera Settings > Show Diagnostics > Install Sony Driver**, approve the Windows prompt, then replug.
 5. Turn the camera off and on again. Check it has power: a flat battery or a sleeping camera looks exactly like a missing one.
@@ -29,6 +29,27 @@ Start here when the booth cannot see, control or fire the camera. Problems are o
 9. General tip, Windows: in the power plan, turn off **USB selective suspend**, and in Device Manager untick "Allow the computer to turn off this device to save power" on the USB hubs. Windows can otherwise cut the camera after it has been idle.
 
 **Still stuck:** Check the model is on [Supported Cameras](../reference/supported-cameras.md). Then send support the app version from the menu footer, the camera model, a photo of the **STATUS** block, and the camera log: **Camera Settings > Show Diagnostics > Copy Today's Logs**. See [Where the Logs Are](../desktop-app/troubleshooting.md#where-the-logs-are).
+
+### EOS Utility or another program is holding a Canon
+
+**On screen:** The Canon is not detected, or **Camera Settings > STATUS > Error** reads "INIT_FAILED: Camera initialization failed: Failed to open camera session: …", often ending in `DEVICE_BUSY` or `COMM_PORT_IS_IN_USE`. The **CAMERA LOG** shows "Init retry" lines and then "Initialization failed". On the computer, a Canon EOS Utility window or a photo import window may pop up the moment the camera is turned on.
+
+**Also described as:** "kamera Canon tidak terdeteksi", "cara mematikan EOS Utility", "how do I turn off EOS Utility", "EOS Utility opens by itself", "sudah tutup EOS Utility tapi kamera tetap tidak terdeteksi".
+
+**Check first:** Look for the EOS Utility icon: on Windows in the taskbar, in the icons next to the clock (click the ^ arrow to see hidden ones); on a Mac in the menu bar at the top of the screen. Only one program can control a Canon over USB at a time. Once EOS Utility is installed, it starts by itself every time the camera is connected and turned on, so closing its window once is not enough.
+
+**Fix:**
+1. With the camera connected and turned on, click the EOS Utility icon in the taskbar (Windows) or menu bar (Mac) and select **Do not launch EOS Utility automatically when camera is connected**. This stops it from coming back next time.
+2. Quit EOS Utility. On Windows, click the EOS Utility icon in the taskbar and select **Quit**. On a Mac, click **Quit** in the EOS Utility window, or press Command-Q while EOS Utility is the active app. Closing the window with the X is not enough.
+3. If EOS Utility still opens when the computer starts, turn it off there too. Windows: **Settings > Apps > Startup**, switch off every EOS Utility entry. Mac: **System Settings > General > Login Items & Extensions**, select EOS Utility and click the minus (–) button.
+4. Close the computer's own photo import, which can also take the camera when it is plugged in:
+   - Windows: close any AutoPlay or "Import photos" window and the Photos app. To stop it next time, go to **Settings > Bluetooth & devices > AutoPlay** and turn off **Use AutoPlay for all media and devices**.
+   - Mac: quit Photos and Image Capture. To stop them next time, open Image Capture, select the camera under **Devices**, click the Action button in the toolbar, and set **Connecting this camera opens** to **No application**. If Photos opens for the camera, untick **Open Photos** in its import view.
+5. Close every other program that can use the camera: Canon EOS Webcam Utility (and any video-call or streaming app using it), Lightroom, Capture One and any other tethering software.
+6. On cameras with Wi-Fi, turn the camera's Wi-Fi off. Canon notes that many bodies cannot talk to a computer over the USB cable while Wi-Fi is on. If the camera's menu has a setting for which app the USB connection is for and it is set to **Canon app(s) for iPhone**, unplug the cable, change it to **Photo Import/Remote Control**, and plug it back in.
+7. Turn the camera off, wait a few seconds and turn it on again. The booth tries to connect again when the camera comes back. If the **Error** line stays, restart the app: operator menu, **Exit**, **Exit App**, then open Pixture Photobooth again.
+
+**Still stuck:** Unplug the camera and restart the computer. After it starts, check the EOS Utility icon is not in the taskbar or menu bar, then plug the camera in, turn it on and open Pixture Photobooth. If it still fails, send support the camera model, a photo of the **STATUS** block and the camera log (**Camera Settings > Show Diagnostics > Copy Today's Logs**).
 
 ### My camera model does not work
 

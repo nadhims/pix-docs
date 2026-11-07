@@ -21,7 +21,8 @@ If your model is not listed it will most likely still work. Connect it and the a
 ## Before You Start
 
 - A USB cable that fits your body (USB-A to Mini-B, or USB-C).
-- No other camera software running. Canon's EOS Utility, Lightroom and similar tools claim the camera over USB, and only one program can hold it.
+- No other camera software running. Canon's EOS Utility, Lightroom and similar tools claim the camera over USB, and only one program can hold it. EOS Utility starts again by itself every time the camera is connected, so switch that off once: see [EOS Utility or another program is holding a Canon](../../troubleshooting/camera.md#eos-utility-or-another-program-is-holding-a-canon).
+- On a camera with Wi-Fi, Wi-Fi turned off. Many Canon bodies cannot be controlled over the USB cable while Wi-Fi is on.
 
 ## Connecting the Camera
 
@@ -50,7 +51,7 @@ Portrait booths often mount the camera on its side. Since version 1.1.107 a vert
 If the camera is not detected:
 
 1. Unplug the USB cable and plug it back in.
-2. Quit any other software that could be holding the camera.
+2. Quit any other software that could be holding the camera, and stop EOS Utility from opening by itself. See [EOS Utility or another program is holding a Canon](../../troubleshooting/camera.md#eos-utility-or-another-program-is-holding-a-canon).
 3. Try a different USB port, preferably one on the computer rather than a hub.
 4. Restart the app.
 5. On macOS, check **System Settings > Privacy & Security > Camera** and make sure Pixture Photobooth is allowed.
