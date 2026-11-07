@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Camera Problems
-description: "Fixes for camera problems on the Pixture Photobooth app: camera not detected or \"Camera Disconnected\", Canon EOS Utility or another program holding the camera, a camera model that does not work, capture failing while live view works, the camera stopping during the day, \"Camera Cooling Down\", \"Camera is warming up\", the booth picking the webcam, exposure controls that do nothing and the macOS camera permission."
+description: "Fixes for camera problems on the Pixture Photobooth app: camera not detected or \"Camera Disconnected\", Canon EOS Utility or another program holding the camera, a camera model that does not work, capture failing while live view works, an external flash that does not fire from the booth, the camera stopping during the day, \"Camera Cooling Down\", \"Camera is warming up\", the booth picking the webcam, exposure controls that do nothing and the macOS camera permission."
 tags: [troubleshooting, camera, desktop-app]
 ---
 
@@ -84,6 +84,23 @@ Start here when the booth cannot see, control or fire the camera. Problems are o
 7. A single "didn't respond" is retried by the booth on its own. If it repeats, shorten the USB run or use a powered hub.
 
 **Still stuck:** Send support the full **Error** line, the camera model and the camera log (**Show Diagnostics > Copy Today's Logs**).
+
+### The flash does not fire from the booth
+
+**On screen:** Nothing. The photos come out dark or lit only by the room. The flash fires when you shoot by hand with the USB cable unplugged, but not when the booth takes the photo.
+
+**Also described as:** "flash external tidak nyala", "flash tidak terpicu dari booth", "flash nyala kalau manual tapi tidak dari aplikasi", "trigger flash tidak jalan", "the flash doesn't fire", "Canon 600D bisa pakai flash external?".
+
+**Check first:** The camera. The booth takes Canon photos with live view running, and many Canon DSLRs (the EOS 600D and similar) do not fire a non-Canon flash or a wireless trigger during live view. Test it on the camera alone: turn on live view with the **LV** button and press the shutter by hand. If the flash stays dark only with live view on, this is the cause.
+
+**Fix:**
+
+1. Update the app to 1.2.37 or newer: in the operator menu, tap **Check for Updates**, then **Restart & Update**.
+2. Open **Camera Settings** and, under **CAPTURE**, turn on **EXTERNAL FLASH**. The booth pauses live view for each photo so the flash fires.
+3. Put the camera in **M** with a shutter speed of **1/200 or slower** (Canon's limit for non-Canon flashes) and the flash on manual power. See [Lighting & Flash](../desktop-app/camera-setup/lighting-and-flash.md).
+4. Check the flash or trigger itself: switched on, charged, pushed fully into the hot shoe, and on the same channel as its receivers.
+
+**Still stuck:** Send support the camera model, the flash and trigger model, and the camera log (**Camera Settings > Show Diagnostics > Copy Today's Logs**).
 
 ### The camera stops working during the day
 
