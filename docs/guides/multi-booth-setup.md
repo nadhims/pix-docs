@@ -31,7 +31,7 @@ Open the group from the Booths list. It has six tabs.
 1. **Photo Booths**: the booths in the group and their status.
 2. **Templates**: pick the templates every booth in the group offers.
 3. **UI Project**: pick the booth's screen design for the group.
-4. **Queue**: tap **Set up shared queue** to run one queue for the whole group, then **Open TV view** to show it on a screen at the venue.
+4. **Queue**: run a queue line with a number for each customer, and a display for a TV. See [Queue Line](./queue-line.md).
 5. **Cashier**: see the next step.
 6. **Settings**: the pricing form, the same as a single booth's Pricing tab.
 

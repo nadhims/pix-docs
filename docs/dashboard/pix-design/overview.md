@@ -29,6 +29,8 @@ The hub is a set of cards. Each opens one editor.
 
 **Pix AI (Beta).** Manage AI styles for your booths. Customers choose a style and get AI-transformed photos. Available to beta accounts; the card appears once Pix AI is on for your account. See [Pix AI (Beta)](./pix-ai.md).
 
+**Queue display.** On a Pix Pro account with a Multi-Booth group, a card for the TV screen that calls queue numbers. See [Queue Display](./queue-display.md).
+
 ## Pix Starter and Pix Pro
 
 A new account starts with two ready-made 4x6" print templates, Classic Black and Classic White, and one screen design called Default Layout. That is enough to run a booth on day one.
