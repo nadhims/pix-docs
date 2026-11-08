@@ -7,6 +7,10 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.38 (8 November 2026, Mac and Windows)
+
+- **Max prints per session** for an event now goes up to 99 (it was 10). Set it on the event page: **Output** › **Change** › **Max prints per session**. Booths on 1.2.37 or older still stop at 10.
+
 ## 1.2.37 (7 November 2026, Mac and Windows)
 
 - Canon: new **EXTERNAL FLASH** switch in **Camera Settings** › **CAPTURE**. Canon DSLRs such as the EOS 600D do not fire a non-Canon flash or a wireless trigger during live view, which the booth uses. With the switch on, the booth pauses live view for each photo so the flash fires. See [Lighting & Flash](/docs/desktop-app/camera-setup/lighting-and-flash).
