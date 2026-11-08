@@ -208,7 +208,7 @@ Everything captured during the event, newest first, with a filter by computer, *
   | **Mingle** | See [Mingle](#mingle) |
   | **AI** | The AI styles guests pick from (accounts in the Pix AI beta) |
   | **Notes** | The **Note template** guests write on |
-  | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** (1 to 10 sheets, 2 by default) and **Show a Print button on Share** |
+  | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** (1 to 99 sheets, 2 by default; booths on app 1.2.37 or older stop at 10) and **Show a Print button on Share** |
   | **Slideshow** | How the album slideshow looks on a venue screen (while Link Sharing is on). See [Slideshow](#slideshow) |
 
   A tab that needs something shows a "!": **Template** until a template is added, **GIF template** while GIF is an output and no frame is picked, **Output** when no output is on, **Photographer** until a template is picked (and, with guest modes on, a computer) and **Mingle** until a computer is picked to mingle (when other guest modes are on). The **Preview** card beside the tabs shows what the open tab sets.
