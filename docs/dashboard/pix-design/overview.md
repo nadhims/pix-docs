@@ -31,6 +31,8 @@ The hub is a set of cards. Each opens one editor.
 
 **Queue display.** On a Pix Pro account with a Multi-Booth group, a card for the TV screen that calls queue numbers. See [Queue Display](./queue-display.md).
 
+**Website.** On a Pix Pro account, your own page at `handle.pixture.io` with your booths, a shop, Frame Lab and photo lookup. See [Website](./website.md).
+
 ## Pix Starter and Pix Pro
 
 A new account starts with two ready-made 4x6" print templates, Classic Black and Classic White, and one screen design called Default Layout. That is enough to run a booth on day one.

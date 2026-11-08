@@ -81,6 +81,7 @@ const sidebars: SidebarsConfig = {
             'dashboard/pix-design/queue-display',
             'dashboard/pix-design/pix-ai',
             'dashboard/pix-design/brand',
+            'dashboard/pix-design/website',
           ],
         },
         'dashboard/settings',
