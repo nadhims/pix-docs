@@ -9,6 +9,10 @@ tags: [reference, links, share-page, album, online-shop]
 
 Pixture puts a few pages on the open web for your customers, event guests and clients. This page lists each one, what it shows and where it is switched on. Pages you use yourself (the dashboard, the docs, the download page) are at the end.
 
+## Website
+
+**`handle.pixture.io`**, one per Pix Pro account. Your own page with your booths, a shop where customers buy a session, Frame Lab and **Get my photos**. Set up and publish it in **Pix Design > Website**. See [Website](../dashboard/pix-design/website.md).
+
 ## Share page
 
 **`pixture.io/s/{code}`**, one per photo session.
@@ -65,4 +69,5 @@ Where it comes from: **Marketing Studio > Frame Lab** shows the shared **Guest u
 - [Events](../dashboard/events.md)
 - [Sell Sessions Online](../tutorials/sell-sessions-online.md)
 - [Marketing Studio](../dashboard/marketing-studio.md)
+- [Website](../dashboard/pix-design/website.md)
 - [Microsite](../dashboard/pix-design/microsite.md)
