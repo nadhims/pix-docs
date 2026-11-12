@@ -23,6 +23,10 @@ Toggles at the top of the page overlay helpers on the live preview while you set
 
 Choose **Auto-detect** or a specific camera from the list, then tap **Set as Default** so the booth uses the same one after every restart. With Auto-detect on, the app connects the first camera it finds, normally a connected camera body before a webcam. With more than one camera plugged in, pick the one you want and tap **Set as Default** so there is no guessing. See [Webcam Fallback](./webcam-fallback.md).
 
+## CAMERA ANGLES
+
+This list shows only on a booth with [Multi camera](./multi-camera.md) switched on. It has one row per camera from the dashboard: open **Choose a camera** on a row to pick the camera for that angle, and tap a row to see it in the preview. Zoom, rotation and exposure below are then saved for that camera on its own. The first row is the booth's default camera, so **Set as Default** is hidden while the list shows.
+
 ## CAMERA SETTINGS (Canon, Sony, Nikon, Fujifilm)
 
 With a Canon EOS, Sony Alpha, Nikon Z or Fujifilm camera connected, this section shows the camera's exposure properties: ISO, aperture, shutter speed and white balance (Fujifilm adds exposure compensation). The page reminds you to put the camera in a manual-capable mode: "Set camera to M / Av / Tv mode for manual control" on a Canon, "M / A / S" on the others. In other modes the camera ignores what the app sends. Focus mode is set on the camera body, not here. With a webcam, this section is called **CAMERA CONTROLS** and shows what the webcam allows.
@@ -67,5 +71,6 @@ Tap **Back to Menu** to leave the page. Camera settings only cover the camera it
 - [Nikon Z Setup](./nikon-z.md)
 - [Fujifilm Setup](./fujifilm.md)
 - [Webcam Fallback](./webcam-fallback.md)
+- [Multi Camera](./multi-camera.md)
 - [Capture Modes](../session-flow/capture-modes.md)
 - [Troubleshooting](../troubleshooting.md)
