@@ -85,13 +85,13 @@ The Pixture Photobooth app updates itself in the background and asks to restart 
 
 ## 1.1.105 (10 September 2026)
 
-- When Pix Pro, a Day Pass or the free trial ends on a computer, the popup names what ended and offers **Manage devices**, a QR code to your Licenses page on pixture.io. Guests see "Please call the operator."
+- When Pix Pro, an Event Pass or the free trial ends on a computer, the popup names what ended and offers **Manage devices**, a QR code to your Licenses page on pixture.io. Guests see "Please call the operator."
 
 ## 1.1.104 (9 September 2026)
 
 - **Pix Pro per computer.** Pix Starter accounts run watermarked with printing on. On a Pix Pro account, a computer beyond the devices you own is blocked: it refuses to start sessions and shows a notice.
 - New **Use a pass on this device** button and a licence badge in the operator menu. The start screen only informs; actions sit behind the PIN.
-- Notices on the idle screen 60 and 15 minutes before a Day Pass or trial ends, and a banner when a payment fails.
+- Notices on the idle screen 60 and 15 minutes before an Event Pass or trial ends, and a banner when a payment fails.
 - Output never downgrades in the middle of a session. If the computer is offline when Pix Pro ends, it turns watermarked rather than blocked.
 - **Try it without an account** on the login screen runs the booth with built-in frames and screens, watermarked, without cloud sharing.
 
