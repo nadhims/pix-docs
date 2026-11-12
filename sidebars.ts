@@ -102,6 +102,7 @@ const sidebars: SidebarsConfig = {
             'desktop-app/camera-setup/nikon-z',
             'desktop-app/camera-setup/fujifilm',
             'desktop-app/camera-setup/webcam-fallback',
+            'desktop-app/camera-setup/multi-camera',
             'desktop-app/camera-setup/camera-settings',
           ],
         },

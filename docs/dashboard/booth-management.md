@@ -87,6 +87,7 @@ Pair, rename, unlink or remove the computer. See [Computers and Pairing](./devic
 | Section | Controls |
 |---|---|
 | **Output Settings** | **Singles Upload**, **GIF Upload**, **Live Photo Upload**, **Print Output**, then **Save Output Settings**; a **GIF overlay** picker with its own **Save**. Marked Pix Pro on Starter |
+| **Multi camera** | A switch that lets the customer choose the camera before every photo on a booth with two or more cameras, and the list of cameras (name, picture, order), then **Save**. Pix Pro. See [Multi Camera](../desktop-app/camera-setup/multi-camera.md) |
 | **Payment Gateway** | **Active Gateway**: Organization Default or one gateway from Settings, then **Save** |
 | **Booth Info** | Booth Name with **Rename**; Region (**No Region**, or **+ New** to create one), then **Save Changes** |
 | **Currency** | **Same as organization** or **Different for this booth**, then **Save Currency**. See [Booth Pricing](./booth-pricing.md#currency) |
