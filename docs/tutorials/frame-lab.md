@@ -14,7 +14,7 @@ Frame Lab is a page customers open on their phone. They build a frame in a small
 ## Before You Start
 
 - Pix Pro on the booth PC. On Pix Starter the switch is locked with a **Pix Pro** badge.
-- A payment gateway connected under **Settings > Payment Gateway**. Frame Lab charges the customer by QR code payment through your gateway (QRIS in Indonesia), and the gateway must charge in the booth's currency. See [Accept Payments at the Booth](./accept-payments.md).
+- A payment gateway connected under **Settings > Payment Gateway**. Frame Lab charges the customer by QR code payment through your gateway (QRIS in Indonesia), and the gateway must charge in the booth's currency. With Stripe, the QR opens a Stripe payment page where the customer pays by card or wallet on their phone. See [Accept Payments at the Booth](./accept-payments.md).
 - At least one print template assigned to the booth. The customer's frame is built at that template's print size.
 - A session price on the booth and **Payment on this booth** switched on. The voucher is redeemed on the booth's Payment screen, so a booth that runs free sessions cannot accept it.
 
@@ -140,6 +140,20 @@ Rules to tell your staff:
 | "No transparent photo slots found" | The photo areas are painted, not transparent | Delete the photo areas so they are see-through, export as PNG with transparency |
 | The booth says the code is invalid | Typing error, a different booth, expired, or already used | Check the code on **Recent Frame Lab uploads**; a code is tied to one booth and one session |
 | The code is accepted but the frame does not appear | Extra prints or sessions were added before the code | Start again and enter the code with the standard session selected |
+
+## Common Questions
+
+### Can a booth offer my own templates and Frame Lab together?
+
+Yes. Frame Lab does not replace your templates. A customer who types a Frame Lab code gets their own frame as the only template for that one session. Every other customer sees the templates you assigned to the booth and pays as usual. The booth needs at least one of your templates before Frame Lab can be switched on.
+
+### Does Frame Lab work with a card reader (Stripe Terminal)?
+
+Frame Lab is always paid online, on the customer's phone, before they reach the booth. It never uses the card reader at the booth. With Stripe as your gateway, the same Stripe account covers both: the reader takes payment for normal sessions at the booth, and Frame Lab customers pay on a Stripe payment page on their phone. You do not need a separate QR gateway. At the booth the code pays for the session, so the reader is not charged.
+
+### Can I set a different Frame Lab price for each print format?
+
+No. Each booth has one Frame Lab **Price**, whatever print size the customer picks. Different booths can have different prices.
 
 ## Related
 
