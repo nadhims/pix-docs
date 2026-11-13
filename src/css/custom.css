@@ -379,6 +379,11 @@ table tr {
   box-shadow: 0 6px 24px rgba(24, 21, 20, 0.08);
 }
 
+/* iPhone app screenshots are tall portrait shots: keep them phone-sized */
+.theme-doc-markdown img[src*="iphone-"] {
+  max-width: min(300px, 100%);
+}
+
 .theme-doc-markdown p > img:only-child {
   margin-left: auto;
   margin-right: auto;

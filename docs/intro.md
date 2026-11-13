@@ -18,6 +18,7 @@ It is built for booth operators of every size, anywhere in the world: a single s
 |---|---|---|
 | **Pixture Photobooth** | A Mac or Windows computer at the booth | The booth your customers use: start screen, payment, template choice, capture, filters, sharing and printing. Works with Canon, Sony, Nikon and Fujifilm cameras or a webcam, and keeps shooting when the venue internet drops. |
 | **Pixture dashboard** | Any browser at [pixture.io](https://pixture.io) | Where you create booths, design print templates and booth screens, set prices, connect a payment gateway, run events, watch health and revenue, and manage your devices and billing. |
+| **Pixture Manager** | Your iPhone | The dashboard in your pocket: revenue, events, pairing, booth health alerts, the Gallery and the Template Editor. See [iPhone App](./iphone-app/overview.md). |
 
 One account covers both. Whatever you save in the dashboard reaches the booth the next time it checks in.
 
@@ -42,6 +43,7 @@ Five steps take a new account to its first photo session. Most operators finish 
 | [Use Cases](./use-cases/overview.md) | How to run a self-service booth, event rentals, a multi-booth studio or a pop-up box with Pixture |
 | [Tutorials](./tutorials/overview.md) | Step-by-step jobs: set up a booth, design a template, accept payments, run an event, and more |
 | [Dashboard](./dashboard/overview.md) | Every page of the Pixture dashboard, from Booths and Pricing to Computers and Settings |
+| [iPhone App](./iphone-app/overview.md) | Pixture Manager, the dashboard app for iPhone |
 | [Pixture Photobooth](./desktop-app/overview.md) | The booth: installation, cameras, printers, the session flow, the operator menu and troubleshooting |
 | [Plans & Billing](./pricing/plans.md) | Pix Starter, Pix Pro, the Event Pass, the free trial and billing questions |
 | [Guides](./guides/booth-operations-checklist.md) | Longer reads for running a booth well: operations checklist, multi-booth, payment gateways, branding |
@@ -50,8 +52,9 @@ Five steps take a new account to its first photo session. Most operators finish 
 
 ## What's New
 
+- **Pixture Manager for iPhone.** Run your account from your phone: revenue, events, pairing, health alerts, Gallery and the Template Editor. Free on the App Store. See [iPhone App](./iphone-app/overview.md).
 - **Studio mode.** A timed session where customers take free shots and then place their favourites into the template slots. Needs Pixture Photobooth 1.1.98 or newer. See [Studio Sessions](./desktop-app/studio-sessions.md).
-- **Events that run themselves.** Give an event its dates and it is ongoing right away, then ends on its own the day after the last date. Each event can shoot photos or video (360 slow-mo is marked Soon) and can start from a free template pack. See [Events](./dashboard/events.md).
+- **Events that run themselves.** Give an event its dates and it is ongoing right away, then ends on its own the day after the last date. Guests pick the booth mode on the start screen, from Photo, Video, 360/Slow-mo, Studio and Notes, and each event can start from a free template pack. See [Events](./dashboard/events.md).
 - **Pix Pro per computer.** Pix Pro lives on the computer, not the booth. Buy an Event Pass, 24 hours of Pix Pro for $5, on the Computers page, or claim the free 3-day trial from the popup in the dashboard. See [Plans & Pricing](./pricing/plans.md).
 - **Online session shop.** Every booth has a link where customers pick a package on their phone, pay, and receive a code the booth accepts even offline. Needs 1.1.101 or newer. See [Sell Sessions Online](./tutorials/sell-sessions-online.md).
 - **AI portraits on the share page.** Customers can buy an AI portrait from their share page, digital or with a print picked up at the booth. Available to beta accounts. See [Pix AI](./dashboard/pix-design/pix-ai.md).

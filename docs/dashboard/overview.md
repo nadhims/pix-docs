@@ -64,6 +64,8 @@ Owners and admins see every page. For everyone else, the role decides which side
 
 The dashboard works on a phone. Keep it open at an event to watch sessions arrive and check a booth's health without leaving the floor.
 
+On an iPhone, the [Pixture Manager app](../iphone-app/overview.md) does the same with booth alerts, Face ID and a layout made for the phone.
+
 :::tip Language
 The dashboard is available in English and Bahasa Indonesia. Switch from the account menu, or under **Settings > Preferences**. The booth's customer-facing language is a separate setting on the same page.
 :::
