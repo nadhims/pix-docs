@@ -45,6 +45,8 @@ QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI
 5. Switch **Sandbox Mode** on for a test account, off for live.
 6. Tap **Connect Gateway**.
 
+![Add Payment Gateway window listing Midtrans, Xendit, DOKU, Stripe, Razorpay, Kashier and HitPay, with Continue](/img/docs/steps/guides-payment-gateway-setup--settings-gateway-providers.webp)
+
 The gateway card now shows **Edit** and **Test**.
 
 ## Sandbox and live
@@ -57,6 +59,8 @@ The gateway card now shows **Edit** and **Test**.
 1. On the gateway card, tap **Test**.
 2. Scan the QR in the result modal with a payment app that matches the mode (a test app for sandbox, a real one for live).
 3. The modal confirms the payment or shows the provider's reason for the failure and offers **Edit gateway**.
+
+![Payment Gateway section with a connected gateway card and its Edit, Test and Delete buttons](/img/docs/steps/guides-payment-gateway-setup--settings-gateway-card.webp)
 
 Run the test charge again after any change to keys or mode.
 

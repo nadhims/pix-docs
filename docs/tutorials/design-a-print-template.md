@@ -48,7 +48,7 @@ The editor turns every transparent region into one slot, so give each slot a sin
 
 1. In the sidebar click **Pix Design**, then open **Template Editor**.
 
-![Pix Design hub with the Brand, Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/steps/tutorials-design-a-print-template--pix-design-hub.webp)
+![Pix Design hub with the Brand, Website, Queue display, Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI cards](/img/docs/steps/tutorials-design-a-print-template--pix-design-hub.webp)
 
 2. On **Template Projects**, click **New Project**. On Pix Starter the same button reads **Upgrade to Create**, because saving a template of your own needs Pix Pro; the two ready-made templates, Classic Black and Classic White, are already there to use.
 
@@ -90,6 +90,8 @@ Every tool in the editor is described in [Template Editor](../dashboard/pix-desi
 1. Click **Save**.
 2. Under **Name Your Template**, type the name your team and your customers will see.
 3. Under **Assign to booths**, tick the booths that should offer it now, or leave it for later.
+
+![Template editor with the Save button at the top right](/img/docs/steps/tutorials-design-a-print-template--pix-design-template-editor.webp)
 
 ## Step 5: Organise and assign later
 

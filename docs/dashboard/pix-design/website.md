@@ -75,6 +75,8 @@ Pick a ready-made theme (**Your Brand** uses your logo and colours from [Brand](
 1. In the address box at the top, type the handle you want. Pixture suggests one from your business name. It shows **Available** or the reason it cannot be used.
 2. Tap **Publish**.
 
+![Website editor with the handle box ending in .pixture.io, the publish button, the Content panel and the phone preview](/img/docs/steps/dashboard-pix-design-website--pix-design-website.webp)
+
 Your page is live at `handle.pixture.io`. The status changes to **Live**. **Copy link** copies the address, and the Share option on any button copies a link straight to that button.
 
 A handle is 3 to 30 letters, numbers and dashes. The error messages are **Too short**, **Letters, numbers and dashes only**, **Not available** and **Taken**. Some words are kept back for Pixture, such as `shop`, `support` and `docs`.

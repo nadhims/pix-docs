@@ -24,7 +24,7 @@ A **booth** is one photobooth station: a place, a computer and the templates, de
 
 Search by name, region, device or plan. **Filter** narrows by region, status (Online or Offline) and plan. Each row has **Configure**, which opens the booth page, and a chevron with **Rename**, **Unlink device** and **Delete booth**.
 
-![Booths row chevron menu: Rename, Unlink device, Delete booth](/img/docs/booths-row-menu.webp)
+![Booths row chevron menu: Rename, Unlink computer, Delete booth](/img/docs/booths-row-menu.webp)
 
 **Delete booth** takes two steps: **Send verification code**, then the 6-digit code from your email and **Delete**. Photo sessions already captured stay in Gallery and Transactions. A booth whose computer is running Pix Pro cannot be deleted; deactivate that computer on the Computers page first.
 

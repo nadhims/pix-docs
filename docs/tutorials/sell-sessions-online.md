@@ -26,7 +26,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 2. The same link is one click away on the **Vouchers** page: click **Online shop link**.
 
-   ![Online shop link popup on the Vouchers page](/img/docs/steps/tutorials-sell-sessions-online--vouchers-online-shop-link.webp)
+   ![The Vouchers page right after clicking Online shop link: the button reads Copied!](/img/docs/steps/tutorials-sell-sessions-online--vouchers-online-shop-link.webp)
 
 ## Step 2: Check the Prices the Shop Will Show
 
@@ -40,6 +40,8 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 1. Print the QR code from the card and place it at the booth or at the start of the queue. Customers scan it while they wait and arrive with a code.
 2. Share the link ahead of an event: in the invitation, on your social profile, or with a client who prepays for their guests.
+
+![Booth Pricing tab with the Sell sessions online card, its link, Copy, Open and the QR code](/img/docs/steps/tutorials-sell-sessions-online--booth-pricing-tab.webp)
 
 ## Step 4: What the Customer Sees
 

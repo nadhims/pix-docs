@@ -21,6 +21,8 @@ You can set your brand on any plan. It turns on once your account has Pix Pro or
 2. The logo shows twice: **On light** and **On dark**. A dark logo is hard to see on dark booth screens, so click **Make a white version** to get one made for you, or **Upload a light version** to use your own.
 3. **Change logo** and **Remove logo** replace or drop it later.
 
+![Brand page of a new account with the empty Logo box reading Add your logo, the Brand palette and the live preview](/img/docs/steps/dashboard-pix-design-brand--pix-design-brand-logo.webp)
+
 ## Brand Palette
 
 Three colours, each with a colour picker and a hex box:

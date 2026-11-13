@@ -42,7 +42,7 @@ Marketing Studio is not in the sidebar on Pix Starter. It appears once your acco
 - **Account menu.** The button at the bottom shows your initials and email. Open it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. On accounts with the workspace switcher this menu, the updates bell and a **Docs** link sit in the top bar instead.
 - **Organization switcher.** Shown only when you belong to more than one organization. Everything in the dashboard is scoped to the organization you have selected.
 
-![Account menu at the bottom of the sidebar: Settings, Language, Log out](/img/docs/account-menu.webp)
+![Account menu opened from the avatar at the top right: the email and role, Settings, Affiliate program, Language and Log out](/img/docs/account-menu.webp)
 
 ## The Setup Banner
 

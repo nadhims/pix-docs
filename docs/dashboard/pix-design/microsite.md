@@ -42,6 +42,8 @@ Below the sections sit the **font picker**, **Custom font (optional)** for a bra
 4. Turn on the **Promo banner** if you have an offer to push. Customers read it once, on a phone, so keep the image simple.
 5. Click **Save changes**.
 
+![Microsite page with the Page, Header, Buttons, Promo banner and Menu links tabs, the phone preview and Save changes](/img/docs/steps/dashboard-pix-design-microsite--pix-design-microsite.webp)
+
 ### Save to booths
 
 The share page design is held per booth. **Save to booths** opens a booth picker. Choose the booths and confirm. A venue with its own branding can have its own share page while the rest of your booths keep another design.

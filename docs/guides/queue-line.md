@@ -23,6 +23,8 @@ The queue line is a **Pix Pro** feature. It lives inside a **Multi-Booth** group
 2. Go to the **Queue** tab.
 3. Under **Queue line**, pick a mode.
 
+![The group's Queue tab with the Queue line modes Off, Hybrid and Online only, and the Queue display card](/img/docs/steps/guides-queue-line--booth-group-queue.webp)
+
 | Mode | What happens |
 |---|---|
 | **Off** | No line. Booths work as usual. |

@@ -27,7 +27,7 @@ No merchant account yet, or unsure where each key lives on the provider's dashbo
 1. Go to **Settings > Payment Gateway** and click **Add Payment Gateway**.
 2. Choose your provider: **Midtrans**, **Xendit** or **DOKU** for QRIS in Indonesia, **Razorpay** in India, **Kashier** in Egypt, **Stripe** for card payments everywhere else.
 
-   ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe, Razorpay (India), Kashier (Egypt)](/img/docs/steps/tutorials-accept-payments--settings-gateway-providers.webp)
+   ![Add Payment Gateway modal, step 1, Choose your payment provider: Midtrans, Xendit, DOKU, Stripe, Razorpay (India), Kashier (Egypt), HitPay (Malaysia, Singapore)](/img/docs/steps/tutorials-accept-payments--settings-gateway-providers.webp)
 
 3. Fill in the keys from your gateway's merchant dashboard.
    - **DOKU:** **Secret Key**, **Brand ID** (the `BRN-` number under your business name in the DOKU Dashboard), **QRIS Client ID** (numbers only, from DOKU's **QRIS Credential Settings** tab), and a **Merchant Private Key (RSA 2048)**, each with a **How to find this?** expander. Click **Generate for me** if you do not have one. Turn on **Sandbox Mode** only while testing with DOKU test credentials.
@@ -45,6 +45,8 @@ No merchant account yet, or unsure where each key lives on the provider's dashbo
 
 1. On the gateway card, click **Test**. A result window shows whether the gateway accepted a small charge and how to verify it on the gateway's side.
 2. If the test fails, click **Edit**, paste the keys again and test once more. With Stripe, a rejected key is usually something else copied from the Stripe dashboard (an API key ID or a publishable key) instead of the secret key.
+
+![Payment Gateway section with a connected gateway card and its Edit and Test buttons](/img/docs/steps/tutorials-accept-payments--settings-gateway-card.webp)
 
 ## Step 3: Set Prices on the Booth
 
@@ -90,7 +92,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 1. Open **Vouchers**, click **+ Create**, then **Single Voucher**. Enter a **Voucher Code**, set **Discount Type** to **Free Session**, a **Max Redemptions** count and, if you like, a **Booth Restriction** and an **Expiration Date**.
 
-   ![Create Voucher modal with Voucher Code, Discount Type, Discount Value, Max Redemptions, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-accept-payments--vouchers-create-single.webp)
+   ![Create voucher window with Voucher Code, What is it? (Sold session or Staff pass), Value, Max Redemptions, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-accept-payments--vouchers-create-single.webp)
 
 2. On the booth's Payment screen, tap **Voucher** and type the code. A voucher that covers the whole price shows the Payment Success screen and continues like a paid session, with no charge created.
 

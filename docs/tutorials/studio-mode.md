@@ -43,6 +43,8 @@ In Studio mode the booth does not shoot one photo per template slot. Customers, 
 2. Keep the three buttons: **Replace** swaps the photo in a slot, **Take more** returns to Capture with the pool and the timer intact, and **Next** continues to Filter. A placed photo can be scaled, moved and mirrored inside its slot.
 3. Adjust the highlight options in the right rail (selection ring, slot ring, badges, dimming of used photos), then click **Save**.
 
+![UI Editor on the Assign photos tab of a Studio project: the template with its slots, the photo pool and Next](/img/docs/steps/tutorials-studio-mode--pix-design-ui-editor-assign-photos.webp)
+
 ## Step 4: Assign the Project to the Booth
 
 1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** and **Notes**; pick your project under Studio mode (or under Several modes if you kept Photo too). The page then reads "Booth mode: Studio".

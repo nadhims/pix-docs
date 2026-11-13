@@ -63,6 +63,8 @@ An overlay is a transparent PNG drawn over every frame of a session's animated G
 3. Choose the **Transparent PNG**, give it a **Name**, and pick the **Orientation**: **Landscape** (1280 x 720) or **Portrait** (720 x 1280). Make the PNG that exact size; the transparent area is where the photos show through.
 4. Confirm. **Delete** removes an overlay you no longer need.
 
+![Add overlay window with Transparent PNG, Name, Orientation and the Add overlay button](/img/docs/steps/dashboard-pix-design-filters-and-overlays--pix-design-add-overlay-modal.webp)
+
 ### Choose where it is used
 
 - **Per booth:** **Booths > booth > Settings**, pick the overlay under **GIF overlay** and click **Save**. Every session GIF from that booth carries it.

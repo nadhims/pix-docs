@@ -52,8 +52,8 @@ The page opens with **Make your own frame** and a **Start Crafting** button. Tap
 <div className="phone-row">
   <figure><img src="/img/docs/framelab-guest-landing.webp" alt="Frame Lab landing page on a phone: Make your own frame, Start Crafting" /><figcaption>The landing page for the booth, with the language toggle top right.</figcaption></figure>
   <figure><img src="/img/docs/framelab-guest-choose.webp" alt="How do you want to start: Create new or Upload your own" /><figcaption>Start Crafting asks how the customer wants to begin.</figcaption></figure>
-  <figure><img src="/img/docs/framelab-studio-format.webp" alt="Frame Lab studio with a four-photo 4x6 layout and the Format, Upload, BG, Deco and Text tools" /><figcaption>The studio: a live preview of the frame and the tool bar.</figcaption></figure>
-  <figure><img src="/img/docs/framelab-studio-background.webp" alt="Frame Lab studio Background tool: paper colour, texture and accent line" /><figcaption>The Background tool with paper colour, textures and an accent line.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-studio-format.webp" alt="Frame Lab studio with a four-photo 4x6 frame and the Layout panel: Photos, the layout choices and Outline" /><figcaption>The studio: a live preview of the frame and the tool bar.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-studio-background.webp" alt="Frame Lab studio Background panel: Paper, Texture and Line colours" /><figcaption>The Background tool with paper colour, textures and an accent line.</figcaption></figure>
 </div>
 
 In the studio the customer works through the tools at the bottom of the screen. A short Lucy tour explains them the first time; **How it works** at the top replays it.
@@ -67,8 +67,8 @@ In the studio the customer works through the tools at the bottom of the screen. 
 | **Text** | A caption, its font and colour, and a date stamp. |
 
 <div className="phone-row">
-  <figure><img src="/img/docs/framelab-studio-graphics.webp" alt="Frame Lab studio Graphics tool: tap a motif to add it to the strip" /><figcaption>Graphics: stickers and a date motif.</figcaption></figure>
-  <figure><img src="/img/docs/framelab-studio-text.webp" alt="Frame Lab studio Text tool: caption, caption font, text colour, date stamp" /><figcaption>Text: caption, font, colour and date stamp.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-studio-graphics.webp" alt="Frame Lab studio Graphic panel with the Love, Sparkle, Party and Doodles sticker sets" /><figcaption>Graphics: stickers and a date motif.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-studio-text.webp" alt="Frame Lab studio Text panel with the Headline, Script and Retro text styles" /><figcaption>Text: caption, font, colour and date stamp.</figcaption></figure>
   <figure><img src="/img/docs/framelab-studio-check.webp" alt="Check your frame screen with the finished frame and the Looks good, pay button" /><figcaption>Use opens the final check before payment.</figcaption></figure>
   <figure><img src="/img/docs/framelab-voucher.webp" alt="Your voucher is ready screen with the six-character code, Copy code, Save voucher and Valid until" /><figcaption>After payment the customer gets a single-use code.</figcaption></figure>
 </div>
@@ -84,7 +84,7 @@ When the frame is ready the customer taps **Use →**:
 Customers who already have a design choose **Upload your own**.
 
 <div className="phone-row">
-  <figure><img src="/img/docs/framelab-upload-dropzone.webp" alt="Upload your own: Drop your design here, PNG at the booth's ratio, Upload and continue with the price" /><figcaption>The drop zone shows the required ratio and the price.</figcaption></figure>
+  <figure><img src="/img/docs/framelab-upload-dropzone.webp" alt="Upload your own: the drop zone, Canvas 2400x3600, the price per use and Pick a design" /><figcaption>The drop zone shows the required ratio and the price.</figcaption></figure>
   <figure><img src="/img/docs/framelab-upload-ready.webp" alt="Design attached and ready to check, with Swap and Upload and continue" /><figcaption>Ready to check, with Swap to pick another file.</figcaption></figure>
   <figure><img src="/img/docs/framelab-upload-slots.webp" alt="Photo slots detected: drag the numbers to set the photo order, optional email, Use button" /><figcaption>The detected slots, numbered in capture order.</figcaption></figure>
   <figure><img src="/img/docs/framelab-upload-voucher.webp" alt="Your voucher is ready after an uploaded design, with the code and Save voucher" /><figcaption>The same voucher screen after payment.</figcaption></figure>

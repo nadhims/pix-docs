@@ -220,7 +220,7 @@ For an attended booth where a person takes the cash, a batch of single-use vouch
 3. Enter the **Value per Code**: your session price. That amount is attributed to each redeemed session in **Transactions**, so cash sales count as revenue.
 4. Leave **Max Redemptions per Code** at 1, restrict the batch to the booth under **Booth Restriction** if you like, set an **Expiration Date** for the end of the day or the event, and click **Generate Codes**. The batch and its codes appear under the **Batches** tab.
 
-![Generate Batch modal with Batch Name, Number of Codes, Discount Type, Value per Code, Max Redemptions per Code, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--vouchers-create-batch.webp)
+![Generate Batch window with Batch Name, Number of Codes, What is it?, Value per Code, Max Redemptions per Code, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--vouchers-create-batch.webp)
 
 5. The cashier takes the money and hands over one code. On the booth's Payment screen the customer taps **Voucher** and types it; the booth shows **Payment Success** and continues.
 
@@ -231,6 +231,8 @@ Keep **QR Pay** on as well, so customers who would rather pay on their phone sti
 1. Run a paid test session with the hardware or a code.
 2. In the dashboard, open **Transactions**: the session is listed with the amount the hardware reported or the code's value, not as a free session, and it counts toward **Total Revenue**.
 3. The dashboard home **Revenue** card picks it up as well.
+
+![Transactions page with the Total Transactions, Total Revenue, Payment Success and Session Completion cards and the session rows](/img/docs/steps/tutorials-connect-a-coin-or-card-reader--transactions.webp)
 
 ## Troubleshooting
 

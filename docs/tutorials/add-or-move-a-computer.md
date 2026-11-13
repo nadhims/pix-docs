@@ -49,6 +49,8 @@ From Indonesia the same checkout shows rupiah prices, prepaid: **Monthly** Rp 85
 2. Enter the 6-digit code in the Pixture Photobooth app on the new computer within 10 minutes.
 3. The computer takes the free place on its first check-in and appears in the table on the **Computers** page with **Pix Pro** in the **Plan** column.
 
+![A booth Computer tab before pairing, with Generate code under Pairing & access](/img/docs/steps/tutorials-add-or-move-a-computer--booth-device-tab-unpaired.webp)
+
 Buy first, then pair: when every place is taken and there are no unused Event Passes, the pairing code is refused with "All N computers are in use".
 
 ## Step 3: Move Pix Pro to another computer

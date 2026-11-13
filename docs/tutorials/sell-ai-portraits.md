@@ -39,7 +39,7 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 1. Go to **Pix Design > Pix AI**. The page has your **Saved presets**, a **Browse catalogue** button (it opens the Browse AI presets window), a **Test a preset** panel and **Recent generations**.
 
-   ![Pix AI (Beta) page with Saved presets, Browse AI presets, Test a preset and Recent generations](/img/docs/steps/tutorials-sell-ai-portraits--pix-design-ai.webp)
+   ![Pix AI (Beta) page before any preset is saved: No presets yet with Browse catalogue, and the Test a preset panel](/img/docs/steps/tutorials-sell-ai-portraits--pix-design-ai.webp)
 
 2. Click **Browse catalogue**, tick the looks you want to sell and click **Add**.
 
@@ -62,6 +62,8 @@ Pix AI, the AI portrait shop and AI credits are available to beta accounts. If y
 
 1. On the booth's **Settings** tab, check the booth's **Currency** and the **Active Gateway**. The gateway that serves this booth must be able to charge in that currency, or the shop cannot take payment.
 2. Keep **Payment on this booth** ON at the top of the Pricing tab. Pickup codes are typed into the Payment screen's voucher box, so a booth with payment switched off cannot hand out prints.
+
+![Booth Settings tab with Payment Gateway and Active Gateway, Booth Info and Currency](/img/docs/steps/tutorials-sell-ai-portraits--booth-settings-tab.webp)
 
 ## Step 5: Try It as a Customer {#step-5-try-it-as-a-guest}
 

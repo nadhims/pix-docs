@@ -40,6 +40,8 @@ Opening a photo session shows its composite and each single capture, with the bo
 2. Tick the photos you want, or click **Select All** for everything in the current filter.
 3. Click **Download Selected** to save them as one zip file, or **Delete Selected** to delete them.
 
+![Gallery in Select mode with three photos ticked and the bar with Select All, Download Selected and Delete Selected](/img/docs/steps/dashboard-gallery--gallery-select.webp)
+
 In **Select** mode, clicking anywhere on a photo ticks or unticks it.
 
 The zip has one folder per photo session, named by its date, time and share code (for example `2026-10-30 1727 a1b2c3d4e5f6`). Each folder holds every file of that session: `print` (or `video` for a Video or 360 session), `gif`, `live-photo`, `note` and the single shots `single-01`, `single-02` and so on, as far as the session has them.

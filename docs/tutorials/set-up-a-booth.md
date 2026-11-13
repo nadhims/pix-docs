@@ -53,6 +53,8 @@ Every account starts with the default screen design, so you can leave this as it
 1. Open the **Filters** tab. With no explicit assignments, every filter is available on the booth by default, so you can skip this step.
 2. To offer only some filters, click **Manage Filters**, tick the ones you want (or **Select all**), and click **Save Filter Assignments**.
 
+![Booth Filters tab with the booth's filters and Manage Filters](/img/docs/steps/tutorials-set-up-a-booth--booth-filters-tab.webp)
+
 Pixture ships 14 built-in filters. **Pix Design > Photo Filters** lets you upload your own .cube files, which then appear here under **Custom**.
 
 ## Step 5: Set the price, or make sessions free

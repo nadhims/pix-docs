@@ -20,6 +20,8 @@ Best when one design should go to many booths.
 3. Tick **All booths**, or tick individual booths.
 4. Click **Apply**.
 
+![Assign to booths window for one selected template, with All booths and Apply](/img/docs/steps/dashboard-pix-design-assigning-templates--pix-design-templates-assign-modal.webp)
+
 The same modal appears on the first save of a new template, right after **Name Your Template**.
 
 ### From the Booth filter
