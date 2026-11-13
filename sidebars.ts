@@ -89,6 +89,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'iPhone App',
+      link: {type: 'doc', id: 'iphone-app/overview'},
+      items: [
+        'iphone-app/events-and-booths',
+        'iphone-app/money-gallery-and-design',
+        'iphone-app/notifications-lucy-and-settings',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Pixture Photobooth',
       link: {type: 'doc', id: 'desktop-app/overview'},
       items: [

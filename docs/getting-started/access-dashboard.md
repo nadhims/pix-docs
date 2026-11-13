@@ -7,7 +7,7 @@ tags: [getting-started, dashboard, mobile]
 
 # Know Your Way Around the Dashboard
 
-The Pixture dashboard is a website at [pixture.io](https://pixture.io). Nothing to install: it works in any desktop or mobile browser, so you can check revenue, swap templates or pair a booth from your phone while standing next to the booth. By the end of this page you know what each sidebar item is for and where the small controls live.
+The Pixture dashboard is a website at [pixture.io](https://pixture.io). Nothing to install: it works in any desktop or mobile browser, so you can check revenue, swap templates or pair a booth from your phone while standing next to the booth. On an iPhone you can also use the [Pixture Manager app](../iphone-app/overview.md). By the end of this page you know what each sidebar item is for and where the small controls live.
 
 ## Log In
 
