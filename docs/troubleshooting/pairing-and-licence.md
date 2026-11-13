@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Pairing and Pix Pro Problems
-description: "Fixes for pairing and licence problems: Generate code greyed out or refused, \"Invalid pairing code\", an expired or used code, the old computer still on the booth after Logout, an Event Pass bought but the booth still watermarked, \"Device limit reached\", a popup saying Pix Pro or the pass ended, and \"Pix Pro ended, reconnect to check\"."
+description: "Fixes for pairing and licence problems: Generate code greyed out or refused, \"Invalid pairing code\", an expired or used code, the old computer still on the booth after Logout, an Event Pass bought but the booth still watermarked, \"Device limit reached\", a popup saying Pix Pro or the pass ended, \"Pix Pro ended, reconnect to check\", and a Google or Apple account that has no password on the booth."
 tags: [troubleshooting, pairing, pix-pro, event-pass]
 ---
 
@@ -40,6 +40,16 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 3. Type the code on the booth computer, in Pixture Photobooth's **Pairing Code** tab, not on the computer you use for the dashboard.
 
 **Still stuck:** If a fresh code still fails, send support the booth name, the exact message and the time you tried.
+
+### Signing in with a Google or Apple account fails
+
+**On screen:** On the booth's sign-in screen: "This account signs in with Google or Apple, so it has no password. On a booth computer, use the Pairing Code tab instead, or set a password with Forgot password on pixture.io."
+
+**Check first:** How you signed up. An account made with Google or Apple has no password, so the email and password sign-in on the booth cannot work.
+
+**Fix:**
+1. Pair with a code instead: generate one on the booth's **Computer** tab and type it in Pixture Photobooth's **Pairing Code** tab.
+2. Or set a password: use **Forgot password** on pixture.io, then sign in on the booth with your email and the new password.
 
 ### The old computer is still on the booth after Logout
 

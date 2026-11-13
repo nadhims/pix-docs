@@ -31,7 +31,7 @@ A computer on a Pix Pro account that has no place on the subscription and no Eve
 
 ### Bonus Session
 
-A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. Set up in **Marketing Studio > Bonus Session**.
+A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. It is now a Pay 1 get 1 promo, set up in **Marketing Studio > Promo**. Transactions still label these sessions Bonus.
 
 ### Booth
 
@@ -131,7 +131,7 @@ The moving camera picture on the booth screen that customers see while posing, b
 
 ### Marketing Studio
 
-The Pix Pro tools in the dashboard that turn a photo session into a repeat customer: the consent prompt, Bonus Session, Frame Lab, campaigns and results.
+The Pix Pro tools in the dashboard that turn a photo session into a repeat customer: consent photos, audience, Promo, Frame Lab, campaigns and performance.
 
 ### Menu PIN
 

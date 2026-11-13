@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
 title: Payment Gateway Reference
-description: The payment gateways Pixture connects to (Midtrans, Xendit, DOKU, Stripe, Razorpay, Kashier), what each form asks for, sandbox rules, per-booth and per-event gateways, currencies and troubleshooting.
-tags: [guides, payment, gateway, doku, stripe, qris, razorpay, kashier, upi, instapay]
+description: The payment gateways Pixture connects to (Midtrans, Xendit, DOKU, Stripe, Razorpay, Kashier, HitPay), what each form asks for, sandbox rules, per-booth and per-event gateways, currencies and troubleshooting.
+tags: [guides, payment, gateway, doku, stripe, qris, razorpay, kashier, hitpay, upi, instapay, duitnow, paynow]
 ---
 
 # Payment Gateway Reference
@@ -24,14 +24,15 @@ A payment gateway lets customers pay for a photo session by scanning a QR code o
 | **DOKU** | Indonesia | QRIS |
 | **Razorpay** | India | UPI QR, scanned with any UPI app (Google Pay, PhonePe, Paytm, BHIM) |
 | **Kashier** | Egypt | A QR that opens Kashier's payment page: card (incl. Meeza), mobile wallet (Vodafone Cash and others) or InstaPay |
+| **HitPay** | Malaysia, Singapore | DuitNow QR (MYR), PayNow QR (SGD) |
 | **Stripe** | Worldwide | QR code payment on their phone, or a Stripe Terminal card reader |
 
-QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI QR through Razorpay, in Egypt a Kashier QR, and in the Philippines, Thailand and Singapore the local QR through Xendit. Everywhere else, Stripe shows a QR code that opens a card payment on the customer's phone. Malaysia's DuitNow QR is not available through a gateway yet; see [Setup B4](../tutorials/connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr) for a DuitNow QR terminal.
+QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI QR through Razorpay, in Egypt a Kashier QR, in Malaysia a DuitNow QR through HitPay, in Singapore a PayNow QR through HitPay or Xendit, and in the Philippines and Thailand the local QR through Xendit. Everywhere else, Stripe shows a QR code that opens a card payment on the customer's phone. For a DuitNow QR terminal at the booth instead, see [Setup B4](../tutorials/connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr).
 
 ## Connecting a gateway
 
 1. Open **Settings > Payment Gateway** and tap **Add Payment Gateway**.
-2. Under **Choose your payment provider**, pick **Midtrans**, **Xendit**, **DOKU**, **Stripe**, **Razorpay (India)** or **Kashier (Egypt)**, then **Continue**.
+2. Under **Choose your payment provider**, pick **Midtrans**, **Xendit**, **DOKU**, **Stripe**, **Razorpay (India)**, **Kashier (Egypt)** or **HitPay (Malaysia, Singapore)**, then **Continue**.
 3. Fill in the provider's fields:
    - **Midtrans:** **Server Key** and **Client Key**.
    - **DOKU:** **Secret Key**, **Brand ID** (DOKU Dashboard, top left, under your business name, starts with `BRN-`), **QRIS Client ID** (numbers only, from **QRIS Credential Settings > Client ID**) and a **Merchant Private Key (RSA 2048)**. Tap **Generate for me** if you do not have one yet.
@@ -39,6 +40,7 @@ QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI
    - **Xendit:** the credentials the form asks for, from your Xendit dashboard. For PHP, THB or SGD booths the Xendit account must be registered in that country, and the Pix webhook URL also goes into Xendit's **Payments API** webhook (`payment.capture`).
    - **Razorpay:** the **Key ID** (`rzp_live_`, or `rzp_test_` to try it without real money) and the **Key Secret**, from Razorpay **Account & Settings > API Keys**. Razorpay switches UPI QR codes on by request: ask Razorpay support to enable **QR Codes (UPI)** and **QR image content** on your account. For instant confirmations, add the Pix webhook URL (shown under **Edit**) in Razorpay **Account & Settings > Webhooks** with a secret of your own and the `qr_code.credited` and `qr_code.closed` events, then paste the same secret in **Edit**. Without it, payments are still confirmed by polling.
    - **Kashier:** the **Secret Key**, the **Payment API Key** (Kashier **Developers > API Integration**) and the **Merchant ID**, which starts with `MID-` and sits under your business name at the top left of the Kashier dashboard. Live payments need a completed Kashier application. Keys copied in Kashier's Test Mode need **Sandbox Mode** on.
+   - **HitPay:** the **API Key**, from HitPay **Developers > API Keys**. Turn on **Sandbox Mode** only for a key from sandbox.hit-pay.com. DuitNow needs a verified Malaysian business account. For instant confirmations, open **Edit** to copy the webhook URL, add it in HitPay **Developers > Webhook Endpoints > New Webhook** with the `payment_request.completed` and `charge.created` events, then paste the webhook's **Salt** in **Edit**. Without it, payments are still confirmed by polling. DuitNow payments can't be refunded through HitPay.
 4. Set the **Currency** and, if your provider needs it, the **Webhook** (optional). The gateway card shows the webhook URL to paste into the provider's dashboard.
 5. Switch **Sandbox Mode** on for a test account, off for live.
 6. Tap **Connect Gateway**.
@@ -75,6 +77,7 @@ Each gateway charges only certain currencies:
 | Xendit | IDR, PHP, THB, SGD |
 | Razorpay | INR |
 | Kashier | EGP |
+| HitPay | MYR, SGD |
 | Stripe | Any other currency |
 
 The booth's currency picks the QR, so a Xendit booth priced in PHP shows QR Ph. The dashboard refuses the combination when you set a booth's currency (booth **Settings > Booth Info > Currency**), assign a gateway or change the organization's default currency.

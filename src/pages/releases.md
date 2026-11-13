@@ -26,7 +26,6 @@ The Pixture Photobooth app updates itself in the background and asks to restart 
 - New **Photographer** mode, which replaces Roaming. A photographer shoots each group, and every group gets its print and QR. See [Photographer](/docs/dashboard/events#photographer).
 - New **Mingle** mode: carry the booth to your guests. It runs the Photo session on a computer you carry around. See [Mingle](/docs/dashboard/events#mingle).
 - A Kiosk computer gets its own video and slow-mo settings (clip length and so on) back after leaving an event.
-- The phone and tablet app's AI photobooth (pick a layout, every photo AI-styled) ships in this version for phones.
 
 ## 1.2.28 (4 November 2026, Mac and Windows)
 

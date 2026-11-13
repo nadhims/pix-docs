@@ -41,7 +41,7 @@ A booth that opens every day runs on **Pix Pro**, monthly or yearly, on its comp
 ### 5. Keep customers coming back {#5-keep-guests-coming-back}
 
 - Change templates from the dashboard whenever you like; the booth picks them up by itself. A stale frame set is the fastest way to lose repeat customers. See [Design a Print Template](../tutorials/design-a-print-template.md).
-- **Marketing Studio** (Pix Pro) asks customers for consent to hear from you, and can give them a **Bonus Session** or let them design their own frame with **Frame Lab**. See [Marketing Studio](../dashboard/marketing-studio.md) and [Frame Lab](../tutorials/frame-lab.md).
+- **Marketing Studio** (Pix Pro) asks customers for consent to hear from you, and can run a **Promo** such as a discount or Pay 1 get 1, or let them design their own frame with **Frame Lab**. See [Marketing Studio](../dashboard/marketing-studio.md) and [Frame Lab](../tutorials/frame-lab.md).
 - **Pix AI** portraits on the share page add a paid extra without any work at the booth. See [Sell AI Portraits](../tutorials/sell-ai-portraits.md).
 
 ## Daily Routine

@@ -45,9 +45,9 @@ All three are page settings in the UI Editor under **Payment > Timeout**:
 | Idle on the Voucher, Coin or Card step | 60 s | Back to the payment methods |
 | Success dwell | 3 s (0 = wait for a tap) | Continues to Template Selection |
 
-## Bonus Session
+## Pay 1 Get 1
 
-If Marketing Studio's Bonus Session is on for the booth, a customer who has just paid is offered a free second session, optionally after leaving an email or phone number.
+If a Pay 1 get 1 promo from **Marketing Studio > Promo** is live on the booth, a customer who has just paid is offered a free second session, optionally after leaving an email or phone number.
 
 :::tip Test with a free voucher
 A single-use free voucher lets you walk through the whole paid flow, prints and sharing included, without moving any money.

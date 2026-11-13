@@ -7,7 +7,7 @@ tags: [dashboard, pricing, payments]
 
 # Booth Pricing
 
-Every booth has its own prices, set on **Booths > [booth] > Pricing**. The tab shows a live preview of the booth's payment screen on the left, so you see what customers will see before you save. Bonus Session, Frame Lab and the consent prompt are not here: they live in [Marketing Studio](./marketing-studio.md).
+Every booth has its own prices, set on **Booths > [booth] > Pricing**. The tab shows a live preview of the booth's payment screen on the left, so you see what customers will see before you save. Promos (including Pay 1 get 1), Frame Lab and the consent prompt are not here: they live in [Marketing Studio](./marketing-studio.md). The tab keeps one Pay 1 get 1 setting, **Ask for contact after Pay 1 get 1**.
 
 ![Booth Pricing tab, top: Sell sessions online card with the link, Copy, Open and a QR code](/img/docs/booth-pricing-tab.webp)
 

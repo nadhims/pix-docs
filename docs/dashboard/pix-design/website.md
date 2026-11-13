@@ -114,7 +114,7 @@ Frame Lab prices and settings stay in **Marketing Studio > Frame Lab**.
 
 ## Who can publish
 
-You need **Pix Pro**, paid Monthly or Yearly. A trial, an Event Pass or Pix Pro Mobile does not count. Without Pix Pro the publish button says **Pix Pro to publish**.
+You need **Pix Pro**, paid Monthly or Yearly. A trial or an Event Pass does not count. Without Pix Pro the publish button says **Pix Pro to publish**.
 
 ## FAQ
 

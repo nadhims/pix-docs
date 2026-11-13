@@ -45,7 +45,7 @@ In Studio mode the booth does not shoot one photo per template slot. Customers, 
 
 ## Step 4: Assign the Project to the Booth
 
-1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**; pick your project under Studio mode (or under Several modes if you kept Photo too). The page then reads "Booth mode: Studio".
+1. Open **Booths**, click **Configure** on the booth, then the **UI Project** tab. The dropdown is grouped into **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** and **Notes**; pick your project under Studio mode (or under Several modes if you kept Photo too). The page then reads "Booth mode: Studio".
 
    ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and Save](/img/docs/steps/tutorials-studio-mode--booth-ui-project-tab.webp)
 
