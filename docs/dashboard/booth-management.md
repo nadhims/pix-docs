@@ -22,7 +22,7 @@ A **booth** is one photobooth station: a place, a computer and the templates, de
 | PLAN | **Pix Pro**, **Blocked**, **Watermarked**, or a dash when no computer is linked |
 | TEMPLATES | How many templates are assigned |
 
-Search by name, region, device or plan. **Filter** narrows by region, status (Online or Offline) and plan. Each row has **Configure**, which opens the booth page, and a chevron with **Rename**, **Unlink device** and **Delete booth**.
+Search by name, region, device or plan. **Filter** narrows by region, status (Online or Offline) and plan. Each row has **Configure**, which opens the booth page, and a chevron with **Rename**, **Unlink computer** and **Delete booth**.
 
 ![Booths row chevron menu: Rename, Unlink computer, Delete booth](/img/docs/booths-row-menu.webp)
 

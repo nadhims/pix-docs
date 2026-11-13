@@ -32,7 +32,7 @@ The online shop is a phone page for one booth. Customers pick a package at the b
 
 1. On the **Price & packages** sub-tab, review the **Session price**, the **Double** and **Group** packages, the **Additional session price**, the **Print format** and the prints included. The shop shows the same cards as the booth's package picker.
 
-   ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/steps/tutorials-sell-sessions-online--booth-pricing-packages.webp)
+   ![Pricing card with Payment on this booth on and the Price & packages sub-tab: Session price $8.00, Print format, Double $14.00, Group $20.00 and Additional session price](/img/docs/steps/tutorials-sell-sessions-online--booth-pricing-packages.webp)
 
 2. Tax and fees from the **Tax & fees** sub-tab apply to the shop too. Click **Save changes** if you edited anything.
 

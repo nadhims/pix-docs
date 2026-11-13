@@ -216,7 +216,7 @@ A typical bridge polls `/api/v1/status`, waits until the booth is on the Payment
 For an attended booth where a person takes the cash, a batch of single-use voucher codes turns each payment into a ticket the booth understands, and keeps the revenue in your reports.
 
 1. Open **Vouchers**, click **+ Create**, then **Generate Batch**.
-2. Give the batch a **Batch Name** (the venue and month, for example), the **Number of Codes** you need (6-character codes, up to 1000 per batch), and set **Discount Type** to **Free Session**.
+2. Give the batch a **Batch Name** (the venue and month, for example), the **Number of Codes** you need (6-character codes, up to 1000 per batch), and set **What is it?** to **Sold session**: each code is a session someone has already paid for.
 3. Enter the **Value per Code**: your session price. That amount is attributed to each redeemed session in **Transactions**, so cash sales count as revenue.
 4. Leave **Max Redemptions per Code** at 1, restrict the batch to the booth under **Booth Restriction** if you like, set an **Expiration Date** for the end of the day or the event, and click **Generate Codes**. The batch and its codes appear under the **Batches** tab.
 

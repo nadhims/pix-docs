@@ -97,7 +97,7 @@ If the modal shows "Device limit reached" instead of a code, every place on your
 3. Scan the QR code with your phone and check that the print comes out.
 
 :::tip Testing with payment on
-If **Payment on this booth** is on, either switch it off for the test or create a voucher under **Vouchers > + Create > Single Voucher** with the discount type **Free Session**, and enter its code on the Payment screen.
+If **Payment on this booth** is on, either switch it off for the test or create a voucher under **Vouchers > + Create > Single Voucher** with **What is it?** set to **Staff pass**, and enter its code on the Payment screen.
 :::
 
 ## Check It Worked

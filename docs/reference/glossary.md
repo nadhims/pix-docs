@@ -263,7 +263,7 @@ The booth running without an account, from **Try it without an account** on the 
 
 ### Voucher
 
-A code a customer enters on the booth's Payment screen. Four kinds: a **single** voucher created by hand (free session, fixed amount or percentage), a **batch** of up to 1000 6-character codes, an **online** 7-character code bought in the online session shop, and a **group code** of 8 characters from a central cashier. All verify even when the booth is offline.
+A code a customer enters on the booth's Payment screen. Four kinds: a **single** voucher created by hand (a **Sold session** ticket or a free **Staff pass**), a **batch** of up to 1000 6-character codes, an **online** 7-character code bought in the online session shop, and a **group code** of 8 characters from a central cashier. All verify even when the booth is offline. Discounts are not vouchers but promos, made in Marketing Studio.
 
 ### Watermarked
 

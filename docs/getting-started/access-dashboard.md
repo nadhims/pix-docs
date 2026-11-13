@@ -43,11 +43,11 @@ If your account has events, the bottom of the sidebar has a switcher between **P
 
 ## The Small Controls
 
-- **Account menu.** The button at the bottom of the sidebar shows your avatar initials and email. Click it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. With the workspace switcher it moves to the top bar, next to a **Docs** link and the bell.
+- **Account menu.** Your avatar initials at the top right of the top bar, next to a **Docs** link and the bell. Click it for your email and role, **Settings**, **Affiliate program**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here.
 
   ![The account menu opened from the avatar at the top right, with Settings, Affiliate program, Language and Log out](/img/docs/account-menu.webp)
 
-- **The bell (Updates).** Announcements from Pixture, next to the logo at the top. The free trial popup (**You have a 3-day free trial**) can be opened from here if you chose **Later**.
+- **The bell (Updates).** Announcements from Pixture, in the top bar next to your avatar. The free trial popup (**You have a 3-day free trial**) can be opened from here if you chose **Later**.
 - **The setup banner.** On a new account every page carries the setup banner with **Watch the setup video** and **Install the app** (see [Create Your Account](./create-account.md)). It disappears once the booth is paired and has run a session.
 - **Region, booth and period filters.** The Dashboard home has **All Regions** and **All Booths** pickers, **Day** / **Week** / **Month** pills and a month picker. Transactions, Gallery and Events use the same **Day** / **Week** / **Month** pills.
 - **Hide the revenue figure.** The eye icon on the **Revenue** card blanks the number, handy when a customer or a client is looking over your shoulder. The chip next to it compares with the previous period.
