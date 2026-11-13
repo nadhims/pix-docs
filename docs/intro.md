@@ -44,6 +44,8 @@ Five steps take a new account to its first photo session. Most operators finish 
 | [Tutorials](./tutorials/overview.md) | Step-by-step jobs: set up a booth, design a template, accept payments, run an event, and more |
 | [Dashboard](./dashboard/overview.md) | Every page of the Pixture dashboard, from Booths and Pricing to Computers and Settings |
 | [iPhone App](./iphone-app/overview.md) | Pixture Manager, the dashboard app for iPhone |
+| [Everything Pixture Does](./reference/feature-map.md) | Every feature on one page, each linked to its guide |
+| [Coming Soon](./reference/coming-soon.md) | Features on the way that are not available yet |
 | [Pixture Photobooth](./desktop-app/overview.md) | The booth: installation, cameras, printers, the session flow, the operator menu and troubleshooting |
 | [Plans & Billing](./pricing/plans.md) | Pix Starter, Pix Pro, the Event Pass, the free trial and billing questions |
 | [Guides](./guides/booth-operations-checklist.md) | Longer reads for running a booth well: operations checklist, multi-booth, payment gateways, branding |
