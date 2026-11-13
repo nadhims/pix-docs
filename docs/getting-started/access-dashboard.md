@@ -31,7 +31,7 @@ If your account has events, the bottom of the sidebar has a switcher between **P
 | **Booths** | One entry per booth. Open a booth for its Templates, Filters, UI Project, Pricing, Activity Log, Device and Settings tabs |
 | **Transactions** | Every paid photo session, with search, booth and date filters, an Excel export and a sync with your payment gateway |
 | **Vouchers** | Free, percentage or fixed-amount codes, single or in batches, plus the **Online shop link** |
-| **Marketing Studio** | Pix Pro only: marketing consent, audience, bonus sessions, Frame Lab, campaigns and performance |
+| **Marketing Studio** | Pix Pro only: consent photos, audience, Promo, Frame Lab, campaigns and performance |
 | **Gallery** | Browse, download and delete the photos your booths produced |
 | **Health** | Live booth status, issues, today's sessions, paper level, last seen, and error records to download |
 | **Computers** | Your computers, Pix Pro and Event Passes. **Add computer** and **Deactivate** (in each row's **Manage** menu) live here |

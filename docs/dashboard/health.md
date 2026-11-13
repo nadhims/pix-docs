@@ -11,7 +11,7 @@ tags: [dashboard, health, monitoring]
 
 ![Health page: booth rows with Status, Issues, Today, Paper and Last seen, Error records and Download CSV](/img/docs/health.webp)
 
-On an account with events, Health follows the workspace you are in. **Pixture Kiosk** lists your self-service booths, **Pixture Event** lists **Event health**: event booths and any booth attached to an event, and the **Overview** lists every booth. The Event dashboard also shows a Health card. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
+On an account with events, Health follows the workspace you are in. **Pixture Kiosk** lists your self-service booths, **Pixture Event** lists **Event health**: event booths and any booth attached to an event, and the **Overview** lists every booth. An event booth, or a booth attached to an event, shows only while its event is running or still to come. Once the event is past (from 06:00 the morning after its last date, or once it is ended or archived), its booths leave the list. The Event dashboard also shows a Health card. See [Pixture Event, Pixture Kiosk and Overview](./views.md).
 
 ## Filters
 

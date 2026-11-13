@@ -25,10 +25,10 @@ In this tutorial you will open a merchant account with a gateway, collect the ke
 | India | **Razorpay** | UPI QR from any UPI app (Google Pay, PhonePe, Paytm, BHIM) |
 | Egypt | **Kashier** | Card, mobile wallet or InstaPay on Kashier's payment page, opened from a QR |
 | Philippines, Thailand, Singapore | **Xendit** | QR Ph, PromptPay or PayNow QR, from any local banking or wallet app |
-| Malaysia | **Stripe** | A card on their phone through a QR code, or a tap on a Stripe Terminal reader. For DuitNow QR, add a Transpire QR terminal at the booth, see [Setup B4](./connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr) |
+| Malaysia, Singapore | **HitPay** | DuitNow QR (MYR) or PayNow QR (SGD), from any local banking or wallet app. DuitNow needs a verified Malaysian business account |
 | Anywhere else | **Stripe** | A card on their phone through a QR code, or a tap on a Stripe Terminal reader at the booth |
 
-Midtrans and Xendit are also on the provider list for Indonesian merchants who already have an account there. Midtrans and DOKU charge in rupiah only; Xendit charges IDR, PHP, THB and SGD, Razorpay INR and Kashier EGP. A booth priced in any other currency needs Stripe. Setup fields for each provider are in the [Payment Gateway Reference](../guides/payment-gateway-setup.md#connecting-a-gateway).
+Midtrans and Xendit are also on the provider list for Indonesian merchants who already have an account there. Midtrans and DOKU charge in rupiah only; Xendit charges IDR, PHP, THB and SGD, HitPay MYR and SGD, Razorpay INR and Kashier EGP. A booth priced in any other currency needs Stripe. Setup fields for each provider are in the [Payment Gateway Reference](../guides/payment-gateway-setup.md#connecting-a-gateway).
 
 ## Step 2: Open the Merchant Account
 
@@ -56,7 +56,7 @@ While you wait for verification, everything below works with the provider's test
 
 Stripe shows a secret key only once. If yours is gone, click **Create secret key** and copy the new one. Two things that look right but are not the key: the publishable key (`pk_...`) and the **Copy API key ID** entry in the key's menu, which gives an `mk_...` string. An `sk_test_...` key connects fine and looks fine in Transactions, but it charges Stripe's test mode and never pays out.
 
-**Midtrans** needs the **Server Key** and **Client Key** from its Settings > Access Keys page. **Xendit** needs the secret API key from its Settings > API Keys page.
+**Midtrans** needs the **Server Key** and **Client Key** from its Settings > Access Keys page. **Xendit** needs the secret API key from its Settings > API Keys page. **HitPay** needs the **API Key** from HitPay **Developers > API Keys**; turn on **Sandbox Mode** only for a key from sandbox.hit-pay.com.
 
 ## Step 4: Connect the Gateway in Pixture
 

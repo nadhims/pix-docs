@@ -26,7 +26,7 @@ If your account has events, a switcher at the bottom of the sidebar picks a **wo
 | [Booths](./booth-management.md) | One page per booth: templates, filters, screen design, pricing, activity log, device and settings |
 | [Transactions](./transactions.md) | Every payment, searchable, filterable and exportable to Excel |
 | [Vouchers](./vouchers.md) | Free, fixed-amount or percentage codes, one at a time or in batches |
-| [Marketing Studio](./marketing-studio.md) | Consent prompt, audience, Bonus Session, Frame Lab, campaigns and performance. Pix Pro only |
+| [Marketing Studio](./marketing-studio.md) | Consent photos, audience, Promo, Frame Lab, campaigns and performance. Pix Pro only |
 | [Gallery](./gallery.md) | Browse, download and delete what your booths captured |
 | [Health](./health.md) | Which booths are online, their camera, printer, paper and error records |
 | [Computers](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Add computer** |

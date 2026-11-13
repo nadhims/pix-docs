@@ -55,11 +55,12 @@ No transparency in your design? A JPG, or a PNG with solid white boxes where the
 
 2. Pick a **Print Size** card: **2x6"**, **4x6"**, **6x8"**, **A4**, **A3** or **Custom** (**Set pixels**).
 3. Pick a **Media Type** card. This tells the booth what the printed sheet becomes for the customer:
-   - **Normal** (Photo paper): one print per sheet.
-   - **2" Cut** (4R paper): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips.
+   - **Photo paper** (Standard prints): one print per sheet.
+   - **2 inch cut (4R)** (Cut in two): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips.
    - **Perforated** (Tear-off strips): perforated media the customer tears apart.
-   - **Triple Strip** (3-strip media): a sheet that becomes three strips.
+   - **Triple strip** (3-strip media): a sheet that becomes three strips.
    - **Sticker** (Adhesive media): sticker paper.
+   - **Newspaper** (Newspaper booths): a newspaper page for a [Newspaper mode](./ui-editor.md) booth. It "Shows only on Newspaper booths. A3 recommended, any size works." Picking it pre-picks A3.
    - **Custom** (**Set name**): any other stock, named by you.
 4. Drop your PNG or JPG on the **Template PNG** zone or click it to browse. A JPG is stored as PNG.
 5. Click **Create Project**. The button enables once a size and a file are chosen.
@@ -127,7 +128,7 @@ On the first **Save** the editor asks you to **Name Your Template** and offers *
 ## Tips
 
 - **Slot order is capture order.** Slot 1 gets the first photo. Check the numbering under **Photo Slots** before you save.
-- **Prints per sheet is a pricing setting.** With 2" Cut or Triple Strip media, set **Print format** on the booth's [Pricing](../booth-pricing.md) tab so the booth shows the customer the right number of prints. It changes what is shown, not what is printed.
+- **Prints per sheet is a pricing setting.** With 2 inch cut or Triple strip media, set **Print format** on the booth's [Pricing](../booth-pricing.md) tab so the booth shows the customer the right number of prints. It changes what is shown, not what is printed.
 - **Many PNGs at once?** **Settings > Data > Import Templates** takes a ZIP of up to 50 PNGs at one print size.
 - **Categories** on templates become buttons on the booth's Templates screen. See [Folders and Categories](./folders-and-collections.md).
 

@@ -63,6 +63,7 @@ The seconds the booth counts down before each photo, from 1 to 10. 3 seconds by 
 ### Timer
 
 - **Session time**: how long guests have to take their photos: **Booth's own** (the session time from each booth's Pix Design layout), **No limit**, **60 s**, **90 s**, **2 min** or **3 min**. When time is up, the booth moves on with the photos taken.
+- **Photo review** (with Photo, Notes or Mingle on): how long each photo stays on screen with Retake and Next before the booth moves on: **3 s**, **5 s**, **10 s**, **15 s** or **30 s**. 10 seconds by default.
 - **Note time** (with Notes on): how long guests have to write their note, from 30 seconds to 3 minutes. 90 seconds by default.
 
 ### Steps

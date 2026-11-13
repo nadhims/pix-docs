@@ -62,6 +62,12 @@ You get an email at once and the Computers page shows "Pix Pro, payment failed" 
 
 Yes. The Indonesian checkout has a **Promo code** field with **Apply**. Each code works once per account: an applied code shows "Applied. One use per account.", and a code you have used before shows "You've already used this promo code." When a personal offer is live, the **Computers** entry in the sidebar shows a "% OFF" pill. Current promotions are listed on [pixture.io](https://pixture.io).
 
+A referral code from a Pixture affiliate takes 10% off your first payment. It applies when you sign up through the affiliate's link, type the code in **Referral code (optional)** at signup, or type it in the **Promo code** box at the Indonesian checkout. If you signed up with the link or the code, the checkout outside Indonesia applies it by itself. The Indonesian checkout shows "**Referral:** 10% off your first purchase". A referral and a promo code never stack: the checkout takes whichever gives more off.
+
+## Can I earn by recommending Pixture?
+
+Yes, through the Pixture Affiliate Program. You get a code and a link the moment you join, and the businesses you refer save 10% on their first payment. Your dashboard shows every signup, every commission and when it unlocks. Rates and the earnings calculator are on [pixture.io/affiliate](https://pixture.io/affiliate).
+
 ## Can I get a refund?
 
 Contact support from the dashboard's **Help** chat, or on WhatsApp at +62 851-2135-5870, with the computer name and the date of the charge.

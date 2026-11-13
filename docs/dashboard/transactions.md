@@ -46,7 +46,7 @@ Some rows carry a type label:
 
 | Label | What it means |
 |---|---|
-| Bonus | A free session granted by [Bonus Session](./marketing-studio.md) after a paid one |
+| Bonus | A free session from a Pay 1 get 1 [promo](./marketing-studio.md#promo) after a paid one |
 | Package | A Double, Group or Additional-session purchase |
 | Frame Lab | A customer paid online for their own frame |
 | Orphan Payment | A payment your gateway confirmed that no photo session claimed, for example when the customer paid and walked away before the session started |

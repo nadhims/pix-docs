@@ -38,8 +38,9 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
    | **Studio** | "Free shots, then pick the best for the layout." | Start > Pay > Template > Timed shoot > Pick photos > Filter > Share |
    | **Notes** | "Guests write or draw on their photos." | Start > Pay > Template > Shoot > Filter > Draw > Share |
    | **Simple** | "No layout. Guests pick black and white or colour." | Start > Pay > B&W or colour > Shoot > Share |
+   | **Newspaper** | "Guests see themselves in the newspaper, pay, then shoot." | Start > Pay > Newspaper > Shoot > Share |
 
-   The modal reads "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." Photo is the classic booth: one photo per template slot. Studio lets the customer take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Notes lets the customer draw on the print. Simple is a colour choice and a shot.
+   The modal reads "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." Photo is the classic booth: one photo per template slot. Studio lets the customer take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Notes lets the customer draw on the print. Simple is a colour choice and a shot. Newspaper puts the customer's photo into a newspaper page: it is portrait only, so ticking it sets the project to portrait. It uses the templates whose **Media Type** is **Newspaper** (see [Creating Templates](./creating-templates.md)) and needs Pixture Photobooth 1.2.19 or newer; an older booth runs it as a normal photobooth.
 
    With two or more modes ticked, the Start Screen gets a **Mode buttons** block: one button per mode, and the customer's tap picks the mode and starts the session. A choice of modes needs Pixture Photobooth 1.2.4 or newer.
 
@@ -163,7 +164,7 @@ Every block has a position and size, a corner radius (0 by default), and, where 
 Three places:
 
 1. **Assign to booths** on the project's card menu: tick booths or **All booths**, then **Apply**.
-2. **Booths > booth > UI Project** tab: the dropdown groups projects under **Several modes** (each with its modes after the name), **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**. Pick one and click **Save**. The tab warns when the booth's app is too old: Studio needs 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer."
+2. **Booths > booth > UI Project** tab: the dropdown groups projects under **Several modes** (each with its modes after the name), **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** and **Notes**. Pick one and click **Save**. The tab warns when the booth's app is too old: Studio needs 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer."
 
    ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and Save](/img/docs/booth-ui-project-tab.webp)
 

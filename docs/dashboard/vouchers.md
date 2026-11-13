@@ -1,19 +1,26 @@
 ---
 sidebar_position: 8
 title: Vouchers
-description: Single vouchers and batches of up to 1000 codes, free, fixed-amount or percentage, plus the online shop link and how customers redeem codes at the booth.
+description: Session tickets, staff passes and promo codes, single vouchers and batches of up to 1000 codes, the online shop link and how customers redeem codes at the booth.
 tags: [dashboard, vouchers, promotions]
 ---
 
 # Vouchers
 
-A voucher is a code a customer types into the voucher box on the booth's Payment screen. It can make the photo session free, take a fixed amount off, or take a percentage off. Make them one at a time for a partner or an influencer, or in a batch of up to 1000 for a corporate order or a flyer campaign.
-
-![Vouchers page with existing vouchers: Vouchers and Batches tabs, Refill and Delete on each row](/img/docs/vouchers-list.webp)
+A voucher is a code a customer types into the voucher box on the booth's Payment screen. It is either a session someone already paid for, or a free staff session. Make them one at a time for a partner or an influencer, or in a batch of up to 1000 for a corporate order or a flyer campaign. Discounts are not vouchers: they are promos, made in [Marketing Studio > Promo](./marketing-studio.md#promo).
 
 ## The Vouchers Page
 
-Two tabs, **Vouchers** and **Batches**, each with its count. The buttons at the top are **Online shop link** and **+ Create**, which opens a menu with **Single Voucher** and **Generate Batch**.
+The buttons at the top are **Online shop link**, **Template shop link**, **Get-my-photos link** and **+ Create**, which opens a menu with **Single Voucher** and **Generate Batch**. The tabs, each with its count:
+
+| Tab | What it holds |
+|---|---|
+| **Session tickets** | "Sessions you sell ahead of time." Codes for a session that is already paid for |
+| **Staff passes** | "Free entry for troubleshooting or a reshoot." Free sessions that are not a sale |
+| **From promos** | Codes made by a promo in Marketing Studio. They are read-only here: **Open promo** takes you to the promo. Older discount codes show as **Discount code (older)** |
+| **Batches** | Codes generated together, with **View** for the codes |
+
+If older codes are not yet sorted, a banner lists the codes to sort with **Staff pass** and **Session ticket** buttons. One click sorts them all.
 
 ![+ Create menu on Vouchers: Single Voucher, Generate Batch](/img/docs/vouchers-create-menu.webp)
 
@@ -21,29 +28,22 @@ Two tabs, **Vouchers** and **Batches**, each with its count. The buttons at the 
 
 1. Click **+ Create** and choose **Single Voucher**.
 2. Fill in the form.
-3. Save.
-
-![Create Voucher modal: Voucher Code, Discount Type, Discount Value, Max Redemptions, Booth Restriction, Expiration Date](/img/docs/vouchers-create-single.webp)
+3. Click **Create Voucher**.
 
 | Field | What it is |
 |---|---|
 | **Voucher Code** | The code the customer types |
-| **Discount Type** | **Free Session**, **Fixed Amount** or **Percentage** |
-| **Discount Value** | The amount or percentage. Not shown for Free Session |
-| **Value** | Optional. What you sold the voucher for. It is counted as revenue when the code is redeemed, so leave it empty for free promo codes |
-| **Max Redemptions** | How many times the code works. 1 for single use |
-| **Booth Restriction** | All booths, or one booth only |
-| **Expiration Date** | Optional. The code stops working after this date |
-
-A Fixed Amount voucher carries a currency and works only at booths trading in that currency. Free Session and Percentage vouchers work everywhere.
+| **What is it?** | **Sold session** (a session ticket) or **Staff pass** (free) |
+| **Value** | Sold session only, optional. What you sold the voucher for. It "Counts as revenue when the voucher is redeemed" |
+| **Max Redemptions** | How many times the code works. "1 = single-use, higher = multi-use" |
+| **Booth Restriction** | **All Booths**, or one booth only |
+| **Expiration Date (optional)** | The code stops working after this date, in your organization's timezone |
 
 ## Generating a Batch
 
 1. Click **+ Create** and choose **Generate Batch**.
-2. Enter a **Batch Name**, the **Number of Codes** (up to 1000) and **Max Redemptions per Code**.
+2. Enter a **Batch Name** and the **Number of Codes** (up to 1000), pick **What is it?** (**Sold session** or **Staff pass**), and set **Value per Code**, **Max Redemptions per Code**, **Booth Restriction** and **Expiration Date (optional)**.
 3. Click **Generate Codes**.
-
-![Generate Batch modal: Batch Name, Number of Codes, Max Redemptions per Code, Generate Codes](/img/docs/vouchers-generate-batch.webp)
 
 Every code in a batch is 6 characters and unique. Open a batch on the **Batches** tab to see Total Codes, Redeemed, Remaining and Total Value Redeemed, and the codes themselves.
 
@@ -78,10 +78,10 @@ A code bought online or from a Multi-Booth cashier carries its package inside th
 
 ## Tracking
 
-Every redemption appears in [Transactions](./transactions.md) with the voucher code, and the **Vouchers** card on the [Dashboard](./dashboard-home.md) counts redemptions for the selected period. Marketing Studio > Performance keeps a running total.
+Every redemption appears in [Transactions](./transactions.md) with the voucher code, and the **Vouchers** card on the [Dashboard](./dashboard-home.md) counts redemptions for the selected period. **Marketing Studio > Performance** counts **Tickets used** and **Staff passes used**.
 
 :::tip A voucher is the cheapest test session
-Before a launch, make a Free Session voucher with one redemption and run the whole flow at the booth. You see the Payment screen, the print and the sharing page exactly as a customer would.
+Before a launch, make a **Staff pass** with one redemption and run the whole flow at the booth. You see the Payment screen, the print and the sharing page exactly as a customer would.
 :::
 
 ## Related

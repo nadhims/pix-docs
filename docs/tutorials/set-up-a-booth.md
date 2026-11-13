@@ -41,7 +41,7 @@ A new account comes with two ready-made 4x6 templates, Classic Black and Classic
 ## Step 3: Choose the booth's screen design
 
 1. Open the **UI Project** tab.
-2. Pick a design from the dropdown. It is grouped by **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode** and **Notes**, and the tab shows the resulting **Booth mode**.
+2. Pick a design from the dropdown. It is grouped by **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** and **Notes**, and the tab shows the resulting **Booth mode**.
 3. Click **Save**.
 
 ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and the Save button](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)

@@ -18,12 +18,16 @@ Pix Pro is per computer. A computer on an Event Pass has exactly the same featur
 | **Pix Design** | Open to try; creating and saving needs Pix Pro | Full |
 | **Marketing Studio** | No | Yes |
 | **Frame Lab** (customers design their own frame) | No | Yes |
+| **Promo** (discounts and Pay 1 get 1) | No | Yes |
 | **Payments at the booth and vouchers** | No, the Payment screen is skipped and every session is free | Payment gateway, hardware payments, packages, extra prints, tax and fees, vouchers |
 | **Online session shop** | No | Yes |
 | **Events** | Set up on any plan; each booth PC needs Pix Pro or an Event Pass for the event | Yes |
 | **Studio mode** | Needs a UI project in Studio mode, so Pix Pro | Yes, on booth 1.1.98 or newer |
 | **Video and 360 event modes** | No | Video; 360 slow-mo is marked "Soon" |
 | **Filters** | 14 built-in | 14 built-in plus up to 50 custom .cube files |
+| **Email my photos** | No | Yes |
+| **Queue line** | No | Yes, in a Multi-Booth group, on booth 1.2.37 or newer |
+| **Website** | No | Yes. Publishing needs Pix Pro paid Monthly or Yearly; a trial or an Event Pass does not count |
 | **Share page and microsite** | Yes, watermarked photos | Yes, clean photos with your branding |
 | **Gallery, Transactions and Health** | Yes | Yes |
 | **Team members and roles** | Yes | Yes |
