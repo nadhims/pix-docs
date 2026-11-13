@@ -59,6 +59,8 @@ Logging out of the booth does the same as **Unlink**. Unlink a computer before y
 1. Open the booth's **Computer** tab. If **Generate code** is greyed out because the old computer is still linked, click **Unlink** first.
 2. Click **Generate code** and pair the new computer.
 
+![The booth Computer tab with a paired computer, the Unlink button and Generate code under Pairing & access](/img/docs/steps/dashboard-device-management--booth-device-tab-paired.webp)
+
 The booth's settings live in the dashboard, not on the computer, so the new machine is identical after pairing. Pix Pro from a subscription or the trial reaches it at its first check-in. A running Event Pass waits for the next event computer that starts its booth. Replacing a booth PC always works, even on Pix Starter.
 
 ## One Computer per Booth

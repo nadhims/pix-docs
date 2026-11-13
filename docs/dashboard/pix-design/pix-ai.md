@@ -15,7 +15,7 @@ Each generated image costs 1 credit.
 
 ## The Pix AI Page
 
-![Pix AI page with Saved presets, Browse AI presets, Test a preset with Generate and Recent generations](/img/docs/pix-design-ai.webp)
+![Pix AI page before any preset is saved: No presets yet with Browse catalogue, and the Test a preset panel with Generate and the credits row](/img/docs/pix-design-ai.webp)
 
 Open **Pix Design > Pix AI**. The page has four parts.
 
@@ -44,6 +44,8 @@ Try a look before customers do:
 1. Pick a preset on the shelf.
 2. Click **Add photo** and choose one of your own, or click **Use the sample photo**.
 3. Click **Generate**. The coin pill next to it reads **1**: a test costs one credit, like a real generation. Adding a photo never generates by itself.
+
+![Pix AI page with the Test a preset panel: Add photo, Use the sample photo, Pick a preset and Generate with the 1-credit pill](/img/docs/steps/dashboard-pix-design-pix-ai--pix-design-ai.webp)
 
 The result appears in the frame after a short wait, usually under a minute, so you can compare looks on the same face.
 
@@ -79,6 +81,8 @@ The booth's [Pricing](../booth-pricing.md) tab has a card, **AI portrait on the 
 1. Turn on **Sell AI portraits on the share page** and set the **Price per portrait**.
 2. Optionally turn on **Offer a print at this booth** and set the **Digital + print price**. The customer gets a 7-character pickup code and types it into the voucher box on the booth's Payment screen; the booth prints the portrait and returns to Start. Keep payment on at that booth so the voucher box is there, and run Pixture Photobooth 1.1.110 or newer.
 3. Click **Save**.
+
+![Booth Pricing tab, full page, ending with the AI portrait on the share page card and its switches](/img/docs/steps/dashboard-pix-design-pix-ai--booth-pricing-full.webp)
 
 The booth also needs at least one preset ticked for it on the Pix AI page and an active payment gateway that covers the booth's currency. Sales show on the Transactions page as "AI portrait" or "AI portrait + print". The step-by-step version is in [Sell AI portraits](../../tutorials/sell-ai-portraits.md).
 

@@ -16,6 +16,8 @@ The queue display is the screen you put on a TV at your venue. It shows who is b
 3. Change the settings. The live preview shows the real display.
 4. Tap **Save**.
 
+![Queue display editor with the group picker, Colours, Font and Show settings, the live preview and the Layout cards](/img/docs/steps/dashboard-pix-design-queue-display--pix-design-queue-display.webp)
+
 Changes show on the TV within a minute after you save.
 
 ## Layout

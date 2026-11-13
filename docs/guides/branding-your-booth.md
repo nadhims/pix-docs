@@ -21,6 +21,8 @@ Customers (or guests at an event) meet your brand on the booth screen, on the pr
 2. Under **Logo**, tap **Add your logo** and pick the file. If it is dark, tap **Make a white version** (or **Upload a light version**) so it shows on dark booth screens.
 3. Set the **Brand palette** (**Accent**, **Dark**, **Light**), the **Buttons** style (**Gradient** or **Flat**) and the **Fonts** (**Heading** and **Body**).
 
+![Brand page with Add your logo, the Brand palette and the live preview](/img/docs/steps/guides-branding-your-booth--pix-design-brand-logo.webp)
+
 Your brand becomes the default look of your events, share pages and UI projects, and it turns on with Pix Pro or an Event Pass. The logo also shows wherever the dashboard shows your organization. See [Brand](../dashboard/pix-design/brand.md).
 
 ## Step 2: Design the booth screens
@@ -32,6 +34,8 @@ Your brand becomes the default look of your events, share pages and UI projects,
 5. Tap **Save**.
 6. Assign the project on each booth's **UI Project** tab and tap **Save**.
 
+![UI Editor on the Start Screen tab with the page tabs, Page Background and Save](/img/docs/steps/guides-branding-your-booth--pix-design-ui-editor-start.webp)
+
 Keep one project for all booths that should look the same; make a copy with **Duplicate** when a venue needs its own look.
 
 ## Step 3: Design the print templates
@@ -40,6 +44,8 @@ Keep one project for all booths that should look the same; make a copy with **Du
 2. Choose the **Print Size** and **Media Type**, upload the **Template PNG**, then **Create Project**.
 3. Check the **Photo Slots** the editor detected from the transparent areas. Use **Add slot manually** if one is missing, and **Add QR code** to print the share link on the sheet.
 4. Tap **Save**, name the template and pick the booths under **Assign to booths**.
+
+![Template editor with the Classic Black template, its two photo slots, Add slot manually, Add QR code and Save](/img/docs/steps/guides-branding-your-booth--pix-design-template-editor.webp)
 
 Design the artwork in your usual design tool first; the editor places the photos, it does not draw the artwork. Keep photo slots large and text high-contrast, and test on the real printer.
 
@@ -52,6 +58,8 @@ The share page is what a customer opens from the QR code on the Sharing screen.
 3. Pick a font from the font picker or upload one under **Custom font (optional)**, and set a **Background image**.
 4. Tap **Save changes**, then **Save to booths** to apply it.
 
+![Microsite page with its section tabs, the phone preview and Save changes](/img/docs/steps/guides-branding-your-booth--pix-design-microsite.webp)
+
 **Show promo popup again** re-arms the promo banner for customers who already dismissed it.
 
 ## Step 5: Add a GIF or video overlay
@@ -61,6 +69,8 @@ An overlay is a transparent PNG drawn over every GIF and video the booth makes.
 1. Open **Pix Design > GIF/Video overlay** and tap **+ Add overlay**.
 2. Upload the **Transparent PNG**, give it a **Name** and pick the **Orientation** (Landscape 1280 x 720 or Portrait 720 x 1280).
 3. On the booth, open **Settings > Output Settings**, choose it under **GIF overlay** and tap **Save**.
+
+![Add overlay window with Transparent PNG, Name and Orientation](/img/docs/steps/guides-branding-your-booth--pix-design-add-overlay-modal.webp)
 
 ## Event branding
 

@@ -14,6 +14,8 @@ The Pixture dashboard is a website at [pixture.io](https://pixture.io). Nothing 
 1. Go to [pixture.io](https://pixture.io) and open the login page. It is titled **Welcome back!**
 2. Enter your **Email** and **Password** and click **Sign in**, or use **Continue with Google** or **Continue with Apple**, whichever you signed up with. **Forgot password?** sends a reset link.
 
+![The Welcome back! login page with Email, Password, Sign in, Continue with Google and Continue with Apple](/img/docs/steps/getting-started-access-dashboard--login-page.webp)
+
 If you turned on two-factor authentication under **Settings > Security**, the page asks for the 6-digit code from your authenticator app. If you belong to more than one organisation, pick one under **Select an organization**.
 
 ## The Sidebar
@@ -43,7 +45,7 @@ If your account has events, the bottom of the sidebar has a switcher between **P
 
 - **Account menu.** The button at the bottom of the sidebar shows your avatar initials and email. Click it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. With the workspace switcher it moves to the top bar, next to a **Docs** link and the bell.
 
-  ![The account menu at the bottom of the sidebar with Settings, Language and Log out](/img/docs/account-menu.webp)
+  ![The account menu opened from the avatar at the top right, with Settings, Affiliate program, Language and Log out](/img/docs/account-menu.webp)
 
 - **The bell (Updates).** Announcements from Pixture, next to the logo at the top. The free trial popup (**You have a 3-day free trial**) can be opened from here if you chose **Later**.
 - **The setup banner.** On a new account every page carries the setup banner with **Watch the setup video** and **Install the app** (see [Create Your Account](./create-account.md)). It disappears once the booth is paired and has run a session.

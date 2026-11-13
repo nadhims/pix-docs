@@ -29,7 +29,7 @@ By the end of this page you have a Pixture account, an organisation named after 
 2. Enter your **Full Name** and your **Business Name**. The business name becomes the name of your organisation in the dashboard; you can change it later.
 3. Enter your phone number and click **Send code via WhatsApp**. Type the 6-digit code from WhatsApp and click **Verify**. If your number does not use WhatsApp, click **My number doesn't use WhatsApp** instead.
 
-   ![The Complete your account page with password, full name, business name and WhatsApp number fields](/img/docs/complete-profile.webp)
+   ![The Complete your account page with Email, Password, Confirm Password, Full Name, Business name and Phone number fields and Complete account](/img/docs/complete-profile.webp)
 
 4. Click **Complete account**.
 
@@ -67,7 +67,7 @@ The first thing the dashboard shows is a short chat with Lucy, the dashboard ass
    - **I do both**: **Create my first event** or **Set up my kiosk**.
    - **I'm just starting**: **Try it on this computer**. This opens an install card: download the Pixture Photobooth app, then pair it with the code shown. If your account has no Pix Pro yet, the card offers **Start free trial** (3 days of Pix Pro on that computer) or **Pair without the trial**, and **Go to Dashboard** when you are done.
 
-   ![Onboarding chat with Lucy](/img/docs/onboarding-quick-setup.webp)
+   ![Onboarding chat with Lucy after I run a kiosk: the words to know, the details folded into one line with Edit, and Set up my kiosk with two quick questions](/img/docs/onboarding-quick-setup.webp)
 
 ## Your New Dashboard
 

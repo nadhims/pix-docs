@@ -21,10 +21,14 @@ The folder column on the left of the list starts with **All Projects**, which sh
 2. Type a name that matches how you work, for example a venue ("City Mall kiosk"), a season ("Christmas 2026") or a client.
 3. Confirm. The folder appears in the column and stays empty until you move projects into it.
 
+![Create Folder window with the Folder Name field and Create Folder](/img/docs/steps/dashboard-pix-design-folders-and-collections--pix-design-new-folder-modal.webp)
+
 ### Move projects into a folder
 
 1. Tick the projects you want to move. **Select All** ticks every project in the current view, which is handy after filtering.
 2. Click **Move to** and choose the destination folder.
+
+![Template Projects with two projects ticked and the bar with Select All, Quick Assign, Move to and Delete](/img/docs/steps/dashboard-pix-design-folders-and-collections--pix-design-templates-move.webp)
 
 Moving a project never changes its booth assignments. A template in any folder can be assigned to any booth.
 

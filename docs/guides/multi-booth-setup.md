@@ -22,6 +22,8 @@ One Pixture account can run any number of booths. Each booth is a free profile w
 3. Enter a **Name** for the group and set **How many photo booths?**.
 4. Create the group. It appears in the Booths list with the type Multi-Booth, and each booth inside it is a normal booth.
 
+![Create Booth window on the Multi-Booth tab with Name, How many photo booths? and Create](/img/docs/steps/guides-multi-booth-setup--booths-create-multibooth.webp)
+
 To add booths later, open the group and tap **+ Add booths**. **Rename** changes the group name.
 
 ## Step 2: Set up the group once
@@ -34,6 +36,8 @@ Open the group from the Booths list. It has six tabs.
 4. **Queue**: run a queue line with a number for each customer, and a display for a TV. See [Queue Line](./queue-line.md).
 5. **Cashier**: see the next step.
 6. **Settings**: the pricing form, the same as a single booth's Pricing tab.
+
+![A Multi-Booth group page with the Photo Booths, Templates, UI Project, Queue, Cashier and Settings tabs and its two booths](/img/docs/steps/guides-multi-booth-setup--booth-group.webp)
 
 Tap **Save for all booths** to push the tabs' settings to every booth in the group.
 
@@ -49,6 +53,8 @@ On the **Cashier** tab, **How guests pay** has two options.
 1. Open each booth from the group's **Photo Booths** tab and go to its **Computer** tab.
 2. Tap **Generate code**, then enter the code in the Pixture Photobooth app on that booth PC.
 3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add computers under **Computers > Add computer**, or use an Event Pass on it.
+
+![A booth Computer tab before pairing, with Generate code under Pairing & access](/img/docs/steps/guides-multi-booth-setup--booth-device-tab-unpaired.webp)
 
 ## Regions for many locations
 

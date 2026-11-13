@@ -30,6 +30,8 @@ If older codes are not yet sorted, a banner lists the codes to sort with **Staff
 2. Fill in the form.
 3. Click **Create Voucher**.
 
+![Create voucher window with Voucher Code, What is it? (Sold session or Staff pass), Value, Max Redemptions, Booth Restriction and Expiration Date](/img/docs/steps/dashboard-vouchers--vouchers-create-single.webp)
+
 | Field | What it is |
 |---|---|
 | **Voucher Code** | The code the customer types |
@@ -62,7 +64,7 @@ Each voucher or batch row has two actions.
 
 **Online shop link** copies the link to your online shop, where customers pick a package, pay, and receive a code the booth accepts. Each booth's own link, with a QR to print, is at the top of its [Pricing](./booth-pricing.md) tab.
 
-![Online shop link popup on the Vouchers page](/img/docs/vouchers-online-shop-link.webp)
+![The Vouchers page right after clicking Online shop link: the button reads Copied! and the link is on the clipboard](/img/docs/vouchers-online-shop-link.webp)
 
 ## How Customers Redeem {#how-guests-redeem}
 
