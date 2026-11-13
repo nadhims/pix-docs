@@ -3,6 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   docsSidebar: [
     'intro',
+    'reference/feature-map',
     {type: 'link', label: 'Glossary', href: '/docs/reference/glossary'},
     {
       type: 'category',
@@ -186,6 +187,7 @@ const sidebars: SidebarsConfig = {
         'reference/supported-printers',
         'reference/public-links',
         'reference/glossary',
+        'reference/coming-soon',
       ],
     },
   ],
