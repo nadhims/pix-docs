@@ -68,7 +68,7 @@ Credits are shared by every booth in your account. Open **Computers > Pix AI cre
 - **How you pay**: pay as you go with credit packs, or a monthly plan. **Switch to monthly**, **Manage plan** and **Renew** live here.
 - **Credit packs** of 100, 400 and 1000 credits, priced in rupiah or dollars depending on where you are; the page shows the current prices.
 
-The account menu at the bottom of the sidebar shows how many credits are left and a **Top up credits** shortcut, so you notice a low balance without opening Computers.
+The account menu (your avatar at the top right) shows how many credits are left and a **Top up credits** shortcut, so you notice a low balance without opening Computers.
 
 :::caution
 Generations need credits in the balance. Top up before an event rather than during it.

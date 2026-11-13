@@ -56,12 +56,12 @@ No merchant account yet, or unsure where each key lives on the provider's dashbo
 
 2. On **Price & packages**, enter the **Session price** (it must be above 0). Pick the **Print format** that matches your paper: **Standard** (1 print per sheet), **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet). Turn on **Double session price**, **Group session price** (4 sessions) and **Additional session price** if you sell packages, each with its **Prints included**.
 
-   ![Pricing sub-tab Price & packages: Session price, Print format, Double, Group and Additional session price](/img/docs/steps/tutorials-accept-payments--booth-pricing-packages.webp)
+   ![Pricing card with Payment on this booth on and the Price & packages sub-tab: Session price $8.00, Print format, Double $14.00, Group $20.00 and Additional session price](/img/docs/steps/tutorials-accept-payments--booth-pricing-packages.webp)
 
 3. On **Time**, set the **Payment timeout** (30 to 1800 seconds), how long the customer has to pay. On **Extra prints**, turn on **Extra print price** if customers may buy more prints on the Sharing screen.
 4. On **Tax & fees**, enter the tax percentage and label, choose **Charge to**: **Guest** (added on top of the prices) or **Included in the prices** (shown as incl.), and add any fixed or percentage fees with **+ Add fee**. Click **Save changes** in the save bar.
 
-   ![Pricing sub-tab Tax & fees: Tax, Charge to, Fees and + Add fee](/img/docs/steps/tutorials-accept-payments--booth-pricing-tax-fees.webp)
+   ![Pricing card on the Tax & fees sub-tab: a 10% Sales tax, Charge to Guest, Fees and + Add fee](/img/docs/steps/tutorials-accept-payments--booth-pricing-tax-fees.webp)
 
 :::note
 Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to the printer and two prints to the customer. Set **Prints included** to 1 and **Print format** to **2 inch cut**; the booth then shows "2 prints". Setting the count to 2 prints two sheets.
@@ -90,7 +90,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 
 ## Step 7: Test Without Spending Money
 
-1. Open **Vouchers**, click **+ Create**, then **Single Voucher**. Enter a **Voucher Code**, set **Discount Type** to **Free Session**, a **Max Redemptions** count and, if you like, a **Booth Restriction** and an **Expiration Date**.
+1. Open **Vouchers**, click **+ Create**, then **Single Voucher**. Enter a **Voucher Code**, set **What is it?** to **Staff pass** (a free session that is not a sale), a **Max Redemptions** count and, if you like, a **Booth Restriction** and an **Expiration Date**, then click **Create Voucher**. Discounts are not vouchers: they are promos, made in **Marketing Studio > Promo**.
 
    ![Create voucher window with Voucher Code, What is it? (Sold session or Staff pass), Value, Max Redemptions, Booth Restriction and Expiration Date](/img/docs/steps/tutorials-accept-payments--vouchers-create-single.webp)
 
@@ -99,7 +99,7 @@ Print counts are sheets of paper. A 4x6 sheet with a 2 inch cut is one sheet to 
 ## Check It Worked
 
 - Start a session on the booth. The Payment screen shows your price and a QR code.
-- Pay with your own phone (or a Free Session voucher). The booth shows **Payment Success** and continues to templates.
+- Pay with your own phone (or a Staff pass voucher). The booth shows **Payment Success** and continues to templates.
 - The session appears as a row in **Transactions**, and the real payment appears in your gateway's own dashboard.
 
 ## Troubleshooting

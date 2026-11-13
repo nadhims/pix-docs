@@ -30,7 +30,7 @@ Free sessions are a switch, never a price of 0. The form refuses 0 and tells you
 
 ## Price & Packages
 
-![Pricing sub-tab Price & packages: Session price, Print format, Double, Group, Additional session price](/img/docs/booth-pricing-packages.webp)
+![Pricing card with Payment on this booth on, the live booth preview with Single $8, Double $14 and Group $20, and the Price & packages sub-tab: Session price, Print format, prints included, Double, Group and Additional session price, with Save changes](/img/docs/booth-pricing-packages.webp)
 
 | Field | What it sets |
 |---|---|
@@ -53,19 +53,19 @@ On a Multi-Booth, Price per mode shows when every booth in it runs the same Pix 
 
 ## Time
 
-![Pricing sub-tab Time: Payment timeout](/img/docs/booth-pricing-time.webp)
+![Pricing card on the Time sub-tab: Payment timeout of 300 seconds, with the live preview and Save changes](/img/docs/booth-pricing-time.webp)
 
 **Payment timeout** is how long the booth waits for a payment before returning to the start screen, from 30 to 1800 seconds.
 
 ## Extra Prints
 
-![Pricing sub-tab Extra prints: Extra print price on the sharing screen](/img/docs/booth-pricing-extra-prints.webp)
+![Pricing card on the Extra prints sub-tab: Extra print price on the sharing screen switched on at $3.00, with Save changes](/img/docs/booth-pricing-extra-prints.webp)
 
 Switch on **Extra print price (sharing screen)** to sell more copies after the session, on the sharing screen. Leave it off to hide the option.
 
 ## Tax & Fees
 
-![Pricing sub-tab Tax & fees: Tax, Charge to, Fees with Add fee](/img/docs/booth-pricing-tax-fees.webp)
+![Pricing card on the Tax & fees sub-tab: a 10% Sales tax, Charge to Guest, Fees with + Add fee, and Save changes](/img/docs/booth-pricing-tax-fees.webp)
 
 | Field | What it sets |
 |---|---|
@@ -86,7 +86,7 @@ Prices are in the booth's currency, set under **Settings > Currency** on the boo
 Beta accounts see one more card, **AI portrait on the share page**: switch on **Sell AI portraits on the share page** with a **Price per portrait**, and optionally **Offer a print at this booth** with a **Digital + print price**, then **Save**. See [Sell AI Portraits](../tutorials/sell-ai-portraits.md).
 
 :::tip Test with a voucher
-Create a Free Session voucher and run a real photo session to check the payment screen, the print count and the sharing screen before customers do.
+Create a **Staff pass** voucher and run a real photo session to check the payment screen, the print count and the sharing screen before customers do.
 :::
 
 ## Related

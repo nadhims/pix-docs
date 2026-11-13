@@ -38,8 +38,8 @@ Marketing Studio is not in the sidebar on Pix Starter. It appears once your acco
 
 ## Around the Sidebar
 
-- **Updates bell.** At the top of the sidebar. Announcements from Pixture, and the place to open the free trial again if you chose **Later**.
-- **Account menu.** The button at the bottom shows your initials and email. Open it for **Settings**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here. On accounts with the workspace switcher this menu, the updates bell and a **Docs** link sit in the top bar instead.
+- **Updates bell.** In the top bar, next to your avatar. Announcements from Pixture, and the place to open the free trial again if you chose **Later**.
+- **Account menu.** Your avatar initials at the top right of the top bar, next to the updates bell and a **Docs** link. Open it for your email and role, **Settings**, **Affiliate program**, **Language** and **Log out**. Beta accounts also see their Pix AI credits here.
 - **Organization switcher.** Shown only when you belong to more than one organization. Everything in the dashboard is scoped to the organization you have selected.
 
 ![Account menu opened from the avatar at the top right: the email and role, Settings, Affiliate program, Language and Log out](/img/docs/account-menu.webp)
