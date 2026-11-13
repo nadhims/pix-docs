@@ -32,7 +32,7 @@ Open **Pix Design > Microsite**. The settings are grouped in five sections, with
 | **Header** | The banner at the top of the page, with an optional link |
 | **Buttons** | The look of the download buttons customers tap |
 | **Promo banner** | An image popup shown when the page opens, with an optional link |
-| **Menu links** | Links behind the page's menu, for example your website, Instagram or a booking form |
+| **Menu links** | Links behind the page's menu, for example Instagram or a booking form. If you have published a [Website](./website.md), the menu starts with **Website** and your logo links to it |
 
 Below the sections sit the **font picker**, **Custom font (optional)** for a brand typeface, and the **Background image** upload.
 

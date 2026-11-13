@@ -11,6 +11,18 @@ Your Website is a page of your own at **`handle.pixture.io`**. Customers open it
 
 The Website is a **Pix Pro** feature. See [Who can publish](#who-can-publish).
 
+## What Your Website Does
+
+- **Sell photo sessions online.** Customers buy a session on their phone before they reach the booth. They pick a booth, a package and a frame, pay by QR code or card, and get a code by email to type at the booth. The money goes to your own payment gateway, and prices come from your booths, so there is nothing to set twice. See [The shop](#the-shop).
+- **Look like your business.** Use your logo, colours and fonts from Brand, or pick a ready-made theme. Open with a full-screen home poster, a photo or video with your headline and a button. Choose the header layout, wallpaper, button style and font. See [Set it up](#set-it-up).
+- **One link for everything.** Your shop, Frame Lab, photo lookup, branches, price list, event albums and upcoming events, plus WhatsApp, Call, Email, YouTube, image galleries and any other link. Put it in your Instagram bio, on a poster or on a QR code. See [Links](#links).
+- **Customers design their own frame.** Frame Lab opens in your colours. Customers build a frame on their phone, pay, and use it at the booth. See [Frame Lab](#frame-lab).
+- **Customers find their photos.** **Get my photos** lets a customer type their booth code and get their photos back, for 60 days. See [Get my photos](#get-my-photos).
+- **Help customers find a booth.** A booth picker with search, a map link, opening hours and WhatsApp for every branch. With the [queue line](../../guides/queue-line.md) on, each booth shows how many people are waiting. See [What customers see](#what-customers-see).
+- **Show your events.** Add event album cards and your upcoming events. Guest photos stay in the album, never on the page itself.
+- **Bring photo guests back.** On every guest photo page, your logo and the **Website** item in the menu lead to your Website. Someone who came for their photos lands on your shop and your booths.
+- **Safe by default.** Every link is checked for scams when you add it and again every day, and visitors can report a page. See [Safety and reports](#safety-and-reports).
+
 ## Set it up
 
 Open **Pix Design > Website**. The editor has a settings panel on the left and a phone-sized preview on the right that updates as you change things. Your changes save by themselves; the status next to the title shows **Saving**, **Saved**, **Draft** or **Live**.
