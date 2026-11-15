@@ -219,10 +219,10 @@ Everything captured during the event, newest first, with a filter by computer, *
 
 #### Notes
 
-The **Notes** tab holds two things, both saved as you pick them:
+The **Notes** tab holds two things:
 
-- **Note template.** The design guests write their note on. **Default** is a lined page with their photo on top.
-- **Text fonts.** Guests can type on their note as well as draw. Click a font to turn it on or off: up to 8 can be on, and at least one stays on. **Upload font** adds your own (WOFF2, WOFF, TTF or OTF, up to 4 MB); it is turned on straight away and saved for your other events too. An event where you change nothing offers four fonts: Caveat, Inter, Pacifico and Bebas Neue.
+- **Note template.** The design guests write their note on. **Default** is a lined page with their photo on top. It saves as you pick it.
+- **Text fonts.** Guests can type on their note as well as draw. The row lists the fonts they get; click **Change** to pick them. The popup shows every font in its own typeface, built-in ones first, then **Your fonts**. Tick up to 8, and at least one. **+ Upload font** adds your own (WOFF2, WOFF, TTF or OTF, up to 4 MB) and ticks it. Click **Save** to keep the changes; **Cancel** leaves them as they were. A font you upload and save is kept for your other events too. An event where you change nothing offers four fonts: Caveat, Inter, Pacifico and Bebas Neue.
 
 Typing on a note needs Pixture Photobooth 1.2.39 or newer. An older computer shows the pens only.
 
