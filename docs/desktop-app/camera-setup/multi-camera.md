@@ -11,7 +11,7 @@ By the end of this page one booth has two or more cameras, for example one in fr
 
 ## What You Need
 
-- A **Kiosk** booth running on a computer (Mac or Windows), with the Pixture Photobooth app 1.2.39 or newer.
+- A **Kiosk** booth running on a computer (Mac or Windows), with the Pixture Photobooth app 1.2.41 or newer.
 - **Pix Pro** on that computer.
 - Two or more cameras plugged into the same computer. Any mix works: camera bodies (Canon, Sony, Fujifilm), webcams and capture cards. A booth can use only one Nikon.
 

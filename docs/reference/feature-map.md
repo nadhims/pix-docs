@@ -14,6 +14,7 @@ Pixture is photobooth software in two parts: the **Pixture Photobooth** app runs
 - **Mac and Windows.** The booth app runs on macOS and Windows and updates itself. See [Installation](../desktop-app/installation.md) and [System Requirements](./system-requirements.md).
 - **Real cameras.** Canon EOS, Sony Alpha, Nikon Z and Fujifilm over USB, with live view and exposure control from the booth. See [Supported Cameras](./supported-cameras.md) and [Camera Settings](../desktop-app/camera-setup/camera-settings.md).
 - **Webcams too.** A built-in camera, a USB webcam or a virtual camera. See [Webcam Fallback](../desktop-app/camera-setup/webcam-fallback.md).
+- **Multi camera.** Two or more cameras on one booth, and the customer picks one before every photo (Kiosk, Pix Pro). See [Multi Camera](../desktop-app/camera-setup/multi-camera.md).
 - **Flash and lighting.** Built-in flash, speedlites and studio strobes on a wireless trigger. See [Lighting & Flash](../desktop-app/camera-setup/lighting-and-flash.md).
 - **Any printer your computer can print to.** Dye-sub and inkjet, with the paper size read from the driver and the DNP 2-inch cut. See [Supported Printers](./supported-printers.md) and [Printer Setup](../desktop-app/printer-setup.md).
 - **One printer for several booths.** Share a printer between booths with your computer's printer sharing. The computer holding the printer does not need Pixture. See [Sharing One Printer Between Booths](../guides/shared-printer.md).
@@ -69,7 +70,7 @@ Pixture is photobooth software in two parts: the **Pixture Photobooth** app runs
 
 - **One dashboard for every booth.** Revenue, sessions, prints and top templates for a day, week or month. See [Dashboard Home](../dashboard/dashboard-home.md).
 - **Kiosk and event money apart.** Pixture Kiosk, Pixture Event and an Overview of both. See [Pixture Event, Pixture Kiosk and Overview](../dashboard/views.md).
-- **Booth health.** Online status, camera, printer, paper and errors for every booth. See [Health](../dashboard/health.md).
+- **Booth health.** Online status, camera, printer faults, paper and errors for every booth, with alerts. See [Health](../dashboard/health.md).
 - **Gallery and transactions.** Every photo and every payment, searchable and exportable. See [Gallery](../dashboard/gallery.md) and [Transactions](../dashboard/transactions.md).
 - **Your team.** Members and roles, down to which booths each person can reach. See [Settings](../dashboard/settings.md).
 - **Any country, any currency.** Any timezone and ISO currency, a different currency per booth if you need it. The dashboard is in English and Bahasa Indonesia, and the booth's customer language is your choice. See [Settings](../dashboard/settings.md).

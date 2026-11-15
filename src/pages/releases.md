@@ -7,6 +7,14 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.41 (16 November 2026, Mac and Windows)
+
+- **Multi camera**: one booth with two or more cameras, and the customer picks the camera before every photo. Switch it on per booth on the dashboard (**Booths** › the booth › **Settings** › **Multi camera**), then match each camera in the booth's **Camera Settings**. Kiosk booths on Pix Pro. See [Multi Camera](/docs/desktop-app/camera-setup/multi-camera).
+- The dashboard's **Health** page now shows what the printer is really doing: out of paper, paper jam, cover open, off, paused or in error, or that the last print failed. Each one also sends you an alert. **Admin** › **Printer** on the booth shows the same.
+- On a Mac booth with DNP's own printer driver, **Health** shows the prints left on the loaded roll. It updates after each print.
+- A printer check that hangs twice in a row is reported, instead of reading as healthy.
+- Event sessions: the live view now shows exactly the part of the camera picture the print keeps, on screens shaped differently from the photo slot.
+
 ## 1.2.40 (15 November 2026, Mac and Windows)
 
 AI sessions, for accounts in the Pix AI beta:
