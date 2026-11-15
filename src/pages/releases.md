@@ -7,6 +7,11 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.39 (15 November 2026, Mac and Windows)
+
+- **Notes** sessions can now type on the note, not only draw. The customer taps **Aa**, taps the note and types on the booth's on-screen keyboard, then picks a font, colour and size. A text can be dragged, edited and removed. See [Session Flow](/docs/desktop-app/session-flow/overview).
+- You choose the fonts customers can type with, and can upload your own: in the UI Editor's **Note Palette** block (**Text fonts**), or on an event's **Notes** tab. Without a choice the booth offers Caveat, Inter, Pacifico and Bebas Neue. See [UI Editor](/docs/dashboard/pix-design/ui-editor#text-fonts) and [Events](/docs/dashboard/events#notes).
+
 ## 1.2.38 (8 November 2026, Mac and Windows)
 
 - **Max prints per session** for an event now goes up to 99 (it was 10). Set it on the event page: **Output** › **Change** › **Max prints per session**. Booths on 1.2.37 or older still stop at 10.
