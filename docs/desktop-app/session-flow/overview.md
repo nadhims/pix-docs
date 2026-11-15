@@ -29,7 +29,7 @@ A photo session is the customer's whole journey through the booth, from the Star
 
 9. **Filter.** Optional. A strip of filter previews; the chosen look goes onto the print, the GIF and the live photo. Turn it on with **Enabled in session flow** on the Filter page. See [Filters](./filters.md).
 
-10. **Notes.** Notes sessions only. The customer writes or draws on their photos before sharing.
+10. **Notes.** Notes sessions only. The customer writes, draws or types on their photos before sharing. The pens draw. **Aa** is for typing: the customer taps the note, types on the booth's on-screen keyboard (a phone or tablet shows its own keyboard) and picks a font from the row above the note. The colours and the size slider work on the text too. Dragging a text moves it, tapping it again edits it, and its cross removes it. One text holds up to 80 characters on 3 lines, and a note can have several. Which fonts are offered is set in the UI Editor's [Text fonts](../../dashboard/pix-design/ui-editor.md#text-fonts); on an event, in the event's [Notes tab](../../dashboard/events.md#notes). Typing needs Pixture Photobooth 1.2.39 or newer.
 
 11. **Sharing.** The QR code to the share page, the print, the GIF and live photo previews, and extra prints. **Done** or the page timer returns the booth to Home. See [Sharing](./sharing.md).
 

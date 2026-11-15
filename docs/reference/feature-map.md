@@ -22,7 +22,7 @@ Pixture is photobooth software in two parts: the **Pixture Photobooth** app runs
 
 ## Photo Sessions
 
-- **Booth modes.** Photo, Studio (a timed pool of shots, then pick the best), Notes (write or draw on the photo), Newspaper, Video, 360/Slow-mo, Photographer (a roaming photographer) and Mingle (carry the booth to the guests). See [UI Editor](../dashboard/pix-design/ui-editor.md), [Studio Sessions](../desktop-app/studio-sessions.md) and [Events](../dashboard/events.md).
+- **Booth modes.** Photo, Studio (a timed pool of shots, then pick the best), Notes (write, draw or type on the photo, in fonts you choose), Newspaper, Video, 360/Slow-mo, Photographer (a roaming photographer) and Mingle (carry the booth to the guests). See [UI Editor](../dashboard/pix-design/ui-editor.md), [Studio Sessions](../desktop-app/studio-sessions.md) and [Events](../dashboard/events.md).
 - **What customers take home.** Prints, single photos, an animated GIF, a live photo and video clips. See [Capture Modes](../desktop-app/session-flow/capture-modes.md) and [Event Video Modes](../desktop-app/event-video-modes.md).
 - **Every screen is yours.** Start screen, payment, template choice, capture, review, filters and sharing, each designed in the UI Editor. See [Photo Session Flow](../desktop-app/session-flow/overview.md).
 - **Filters.** 14 built-in looks plus your own .cube filters. See [Filters](../desktop-app/session-flow/filters.md).

@@ -132,7 +132,23 @@ The **Filter Strip** block lists the booth's filters with the same grid options 
 
 ### Notes (Notes only)
 
-Where the customer writes or draws on their photos. The **Note Canvas** block is the drawing area (it shows the template's note area) and the **Note Palette** block holds the pens: the **Colors**, the **Min size** and **Max size** of the pen, a **Show colour disc** switch and a **Stabilizer** that smooths customers' lines. The page has a timer and no other settings. Where the drawing lands on the print is set in the template editor with **Note area**; see [Template Editor](./creating-templates.md).
+Where the customer writes, draws or types on their photos. The **Note Canvas** block is the drawing area (it shows the template's note area) and the **Note Palette** block holds the pens and the text tool: the **Colors**, the **Min size** and **Max size** of the pen, a **Show colour disc** switch and a **Stabilizer** that smooths customers' lines. The page has a timer and no other settings. Where the note lands on the print is set in the template editor with **Note area**; a template without one lets the customer write over the whole strip. See [Template Editor](./creating-templates.md).
+
+#### Text fonts
+
+Customers can type on the note as well as draw: they tap **Aa**, tap the note and type. How that looks on the booth is in [Session Flow](../../desktop-app/session-flow/overview.md).
+
+You choose the fonts they can type with:
+
+1. On the **Notes** tab, click the **Note Palette** block.
+2. In its settings, find **Text fonts**, under **Palette**.
+3. Click a font to turn it on or off. Up to 8 can be on, and at least one stays on. The first one that is on is the font a new text starts with.
+4. To use your own font, click **+ Upload font…** and pick a WOFF2, WOFF, TTF or OTF file, up to 4 MB. It is added to the list and turned on.
+5. **Save** the project.
+
+A project where you never open **Text fonts** offers four: Caveat, Inter, Pacifico and Bebas Neue. A font you upload here belongs to this UI project and can also be picked for its text blocks.
+
+Typing on a note needs Pixture Photobooth 1.2.39 or newer. An older booth shows the pens only.
 
 ### Sharing
 
