@@ -7,6 +7,16 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.40 (15 November 2026, Mac and Windows)
+
+AI sessions, for accounts in the Pix AI beta:
+
+- The booth checks there are AI credits before an AI session starts, before any payment or photo. With none, the AI option is hidden and the guest reads "AI photos are not available right now."
+- When an AI picture fails, the booth first tries again by itself. If it still fails, the guest can pick another preset once, take another photo when the AI refused the photo, or use their own photo. One picture is never paid for twice.
+- A paid AI session that ends on the guest's own photo is marked **AI failed** on the dashboard's **Transactions** page, with the reason, so you can see who may need a refund.
+- Before the photo is sent, the guest sees: "Your photo is sent to our AI partner to create this picture." See the [Privacy Policy](https://pixture.io/Public/Privacy).
+- A Pix Design project in AI mode counts as an AI session at Capture and Share.
+
 ## 1.2.39 (15 November 2026, Mac and Windows)
 
 - **Notes** sessions can now type on the note, not only draw. The customer taps **Aa**, taps the note and types on the booth's on-screen keyboard, then picks a font, colour and size. A text can be dragged, edited and removed. See [Session Flow](/docs/desktop-app/session-flow/overview).
