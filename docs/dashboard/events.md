@@ -156,6 +156,7 @@ Everything about an event is set on its event page: **Events**, then open the ev
 | Carrying the booth to guests | **Mingle** tab |
 | AI styles (Pix AI beta) | **AI** tab |
 | The note template | **Notes** tab |
+| The fonts guests can type their note with | **Notes** tab > **Text fonts** |
 | What guests get: prints, GIF, live photo, singles | **Output** tab > **Change** |
 | Auto print, max prints per session, the Print button on Share | The **Output** window, with **Prints** ticked |
 | The album slideshow | **Slideshow** tab |
@@ -207,7 +208,7 @@ Everything captured during the event, newest first, with a filter by computer, *
   | **Photographer** | See [Photographer](#photographer) |
   | **Mingle** | See [Mingle](#mingle) |
   | **AI** | The AI styles guests pick from (accounts in the Pix AI beta) |
-  | **Notes** | The **Note template** guests write on |
+  | **Notes** | The **Note template** guests write on, and the **Text fonts** they can type with (below) |
   | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** (1 to 99 sheets, 2 by default; booths on app 1.2.37 or older stop at 10) and **Show a Print button on Share** |
   | **Slideshow** | How the album slideshow looks on a venue screen (while Link Sharing is on). See [Slideshow](#slideshow) |
 
@@ -215,6 +216,15 @@ Everything captured during the event, newest first, with a filter by computer, *
 - **Booth mode**, **Output** and **Appearance** (older events, created before the start screen). Each is a box showing the current choice, with **Change**. Appearance lists only screen designs made for the event's booth mode.
 - **Template**, **Mirror** and **GIF template** (photo modes; the countdown before each photo and the session and note timers are set in **Edit appearance**, and on an older event the countdown is the one on the Capture page of the event's screen design in the UI Editor). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Templates a pack adds from the event belong to that event: they are not in your library and are left out of template usage rankings. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie. It shows on, like the booths. Until you change it, each booth keeps its own **Mirror live view** setting; once you change it, every booth on a new event follows it.
 - **GIF template.** The frame over every GIF guests get. With no GIF templates yet, the tab shows "No GIF templates yet" and **Add a GIF template**; otherwise it is a picker with **No frame**, your frames (a check marks the picked one) and an **Add GIF template** tile. **Add a GIF template** opens a popup ("For this event only"): choose a transparent PNG (1280×720 or 720×1280, up to 10 MB), whose shape sets the orientation and whose file name fills **Name**, then **Add**. The frame belongs to this event: Pix Design and your other events never list it, and it is picked for the event's GIF at once. A frame that belongs to the event has a trash button: "Delete this GIF template? This event goes back to No frame if it was picked." Deleting it also takes it out of the event's video Overlays lists. Frames from Pix Design are deleted in Pix Design.
+
+#### Notes
+
+The **Notes** tab holds two things, both saved as you pick them:
+
+- **Note template.** The design guests write their note on. **Default** is a lined page with their photo on top.
+- **Text fonts.** Guests can type on their note as well as draw. Click a font to turn it on or off: up to 8 can be on, and at least one stays on. **Upload font** adds your own (WOFF2, WOFF, TTF or OTF, up to 4 MB); it is turned on straight away and saved for your other events too. An event where you change nothing offers four fonts: Caveat, Inter, Pacifico and Bebas Neue.
+
+Typing on a note needs Pixture Photobooth 1.2.39 or newer. An older computer shows the pens only.
 
 #### Slideshow
 
