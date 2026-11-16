@@ -53,7 +53,7 @@ A custom paper size made in the Mac or Windows print dialog belongs to that dial
 
 **Fix:**
 1. Set **Print format** to **2 inch cut** (2 prints per sheet) or **Triple strip** (3 per sheet). Use a template designed for the strip layout.
-2. On a dye-sub printer, turn on the 2-inch cut in the printer driver as well, as the printer's **default**, so the booth's prints use it. On a DNP DS620 or DS-RX1: on Windows, open the printer's **Printing preferences** and tick **2inch cut**; on a Mac, set **2-INCH CUT** to **On** in the booth's **Printer Settings** (app 1.2.22 or later), or see [My 2-inch cut template prints as one full 4x6](#my-2-inch-cut-template-prints-as-one-full-4x6).
+2. From app 1.2.43, give the template the **Media Type** **2 inch cut (4R)** in Pix Design: a DNP DS620 or DS-RX1 (Windows and Mac) or a Kodak 305 (Windows) then cuts that template's prints by itself, and other templates print whole. On other printers, or older app versions, turn on the 2-inch cut in the printer driver as the printer's **default**, so the booth's prints use it. On a DNP DS620 or DS-RX1: on Windows, open the printer's **Printing preferences** and tick **2inch cut**; on a Mac, set **2-INCH CUT** to **On** in the booth's **Printer Settings** (app 1.2.22 or later), or see [My 2-inch cut template prints as one full 4x6](#my-2-inch-cut-template-prints-as-one-full-4x6).
 3. Counts stay in sheets: **COPIES PER SESSION** and every price are per sheet of paper.
 
 **Still stuck:** See [Booth Pricing](../dashboard/booth-pricing.md).
@@ -65,7 +65,7 @@ A custom paper size made in the Mac or Windows print dialog belongs to that dial
 
 **Also described as:** "keluar 4R bukan 2 strip", "2 cut not cutting", "DS620 tidak memotong".
 
-**Check first:** The booth prints with the printer's **default** settings and never opens the print dialog, so the cut must be the printer's default. On a Mac, the DNP driver's 2-inch cut is not a paper size: it is the **Cut Operation** option (DNP Printer Features > Image), so it never shows under Print Size.
+**Check first:** From app 1.2.43, open the template in Pix Design and check its **Media Type** is **2 inch cut (4R)**: the booth then cuts it by itself on a DNP DS620 or DS-RX1 (Windows and Mac) or a Kodak 305 (Windows). On other printers or older app versions, the booth prints with the printer's **default** settings and never opens the print dialog, so the cut must be the printer's default. On a Mac, the DNP driver's 2-inch cut is not a paper size: it is the **Cut Operation** option (DNP Printer Features > Image), so it never shows under Print Size.
 
 **Fix (Mac, app 1.2.22 or later):** On the booth, open **Printer Settings**, pick the DNP printer and set **2-INCH CUT** to **On**, then press the test print. The switch only appears for printers that can cut 2-inch strips (DNP DS620, DS-RX1, DS820, DS40).
 
