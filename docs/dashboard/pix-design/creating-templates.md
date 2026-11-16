@@ -56,7 +56,7 @@ No transparency in your design? A JPG, or a PNG with solid white boxes where the
 2. Pick a **Print Size** card: **2x6"**, **4x6"**, **6x8"**, **A4**, **A3** or **Custom** (**Set pixels**).
 3. Pick a **Media Type** card. This tells the booth what the printed sheet becomes for the customer:
    - **Photo paper** (Standard prints): one print per sheet.
-   - **2 inch cut (4R)** (Cut in two): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips.
+   - **2 inch cut (4R)** (Cut in two): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips. From app 1.2.43 the booth cuts this template's prints by itself on a DNP DS620 or DS-RX1 (Windows and Mac) and a Kodak 305 (Windows), and leaves the printer's own setting as it was for other templates.
    - **Perforated** (Tear-off strips): perforated media the customer tears apart.
    - **Triple strip** (3-strip media): a sheet that becomes three strips.
    - **Sticker** (Adhesive media): sticker paper.

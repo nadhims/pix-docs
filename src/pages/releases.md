@@ -7,6 +7,10 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.43 (16 November 2026, Mac and Windows)
+
+- **2-inch cut per template**: a template with the Media Type **2 inch cut (4R)** now comes out as two 2x6 strips by itself, with no printer setting to change. It works on the DNP DS620 and DS-RX1 (Windows and Mac) and the Kodak 305 (Windows). Other templates keep printing whole, and the printer's own setting is the same after the print as before. See [Creating Templates](/docs/dashboard/pix-design/creating-templates).
+
 ## 1.2.42 (16 November 2026, Mac and Windows)
 
 - **Fujifilm**: an older body such as the X-S10 that refused every photo with "Fujifilm capture failed (4104)" now takes the shot. The booth hands control of the camera to the computer and tries again. If a Fujifilm still refuses a photo, the **CAMERA LOG** on the Camera Settings page says why. See [Fujifilm Setup](/docs/desktop-app/camera-setup/fujifilm#troubleshooting).
