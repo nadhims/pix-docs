@@ -52,6 +52,7 @@ With a Fujifilm connected, **CAMERA SETTINGS** on the Camera Settings page shows
 | The camera is not detected | Set the connection mode to **USB TETHER SHOOTING AUTO** (or **PC SHOOT AUTO**), close other tethering software, then replug |
 | A shot is taken but no photo appears | The body is set to HEIF. Switch the image format to JPEG |
 | The camera's buttons do nothing while connected | Expected on the older bodies listed above; the computer has control. Unplug to use the camera by hand |
+| Every photo fails with "Fujifilm capture failed (4104)" | The camera refused the shutter. Update the Pixture Photobooth app to 1.2.42 or newer: it hands the camera to the computer and takes the shot. If it still fails, copy the **CAMERA LOG**, which now says why the camera refused, and send it to us |
 
 The **CAMERA LOG** at the bottom of the Camera Settings page shows what the app sees. See [Troubleshooting](../troubleshooting.md) for more.
 
