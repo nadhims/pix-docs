@@ -29,6 +29,12 @@ A payment gateway lets customers pay for a photo session by scanning a QR code o
 
 QRIS is Indonesia's national QR payment standard. In India the booth shows a UPI QR through Razorpay, in Egypt a Kashier QR, in Malaysia a DuitNow QR through HitPay, in Singapore a PayNow QR through HitPay or Xendit, and in the Philippines and Thailand the local QR through Xendit. Everywhere else, Stripe shows a QR code that opens a card payment on the customer's phone. For a DuitNow QR terminal at the booth instead, see [Setup B4](../tutorials/connect-a-coin-or-card-reader.md#setup-b4-a-duitnow-qr-terminal-in-malaysia-transpire-qr).
 
+### Gateways only, not banks directly
+
+Pixture connects only to the payment gateways above, never directly to a bank. A bank's own QR (for example a QR BCA from the bank, or a static QRIS sticker) sends no payment confirmation to the booth, so the booth can't start the session from it. Customers can still pay with their bank app: in Indonesia the gateway's QR is QRIS, which BCA mobile, myBCA and any other banking or e-wallet app can scan. The money goes to your gateway account, and you withdraw it to your own bank account.
+
+**Also described as:** "QR BCA langsung", "bayar langsung ke rekening", "direct payment to my bank QR".
+
 ## Connecting a gateway
 
 1. Open **Settings > Payment Gateway** and tap **Add Payment Gateway**.

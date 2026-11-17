@@ -21,6 +21,18 @@ Everything in Pixture happens in one of three places:
 
 The dashboard and the booth stay in sync over the internet. Change a price or a design in the dashboard and the booth picks it up by itself; take a photo at the booth and it appears in the dashboard.
 
+## The Ground Rules
+
+The facts everything else in these docs builds on:
+
+- **One account holds everything.** Booths, computers, designs, events, payment gateways and photos all belong to your account. You can invite team members into it.
+- **One computer runs one booth.** Pix Pro is bought per computer.
+- **The dashboard is where you set things up; the booth runs them.** The booth downloads its designs, templates and prices from the dashboard and sends back photos, sessions and its status.
+- **The booth keeps working offline.** Capture and printing run on the computer. Photos wait in a queue and upload when the internet returns. QR payments are the one thing that needs internet. See [Offline Mode](../desktop-app/offline-mode.md).
+- **Photos live in the Pixture cloud.** Share pages, albums and the Gallery all show them from there.
+- **Customers pay you through your own payment gateway, never through Pixture.** Pixture connects only to payment gateways (Midtrans, Xendit, DOKU, Stripe, Razorpay, Kashier, HitPay), not directly to banks, so a bank's own QR such as QR BCA can't run a booth. The money goes to your gateway account and you withdraw it to your bank. Pixture takes no share. Coin acceptors and card readers plugged into the booth are the other option. See [Payment Gateway Reference](../guides/payment-gateway-setup.md).
+- **You pay Pixture separately, for Pix Pro.** That is your subscription or Event Pass, paid by card, Apple Pay or PayPal internationally, or by QRIS, virtual account or e-wallet in Indonesia. See [Plans & Pricing](../pricing/plans.md).
+
 ## At Your Venue
 
 **Booth.** The photobooth customers use: a computer with a touchscreen, a camera and usually a printer, in whatever cabinet, box or stand you built or bought, where customers take photos of themselves and walk away with prints and digital copies. Each booth also has its own page in the dashboard (below), so "booth" means the same thing in both places.
@@ -50,7 +62,7 @@ The dashboard and the booth stay in sync over the internet. Change a price or a 
 
 **Event.** A dated job, such as a wedding or a launch, with its own booths, templates, look and prices, and an album for your client. See [Events](../dashboard/events.md).
 
-**Payment gateway.** Your own merchant account (DOKU in Indonesia, Stripe elsewhere) that lets customers pay at the booth. Pixture never holds the money. See [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md).
+**Payment gateway.** Your own merchant account with a payment gateway (Midtrans, Xendit or DOKU in Indonesia, Stripe in most other countries) that lets customers pay at the booth. Pixture connects to gateways only, never directly to a bank, and never holds the money. See [Create a Payment Gateway](../tutorials/create-a-payment-gateway.md).
 
 **Computers.** The page where you put Pix Pro on your computers. See [Plans & Pricing](../pricing/plans.md).
 
