@@ -29,6 +29,8 @@ Pix Pro is per computer. A computer on an Event Pass has exactly the same featur
 | **Queue line** | No | Yes, in a Multi-Booth group, on booth 1.2.37 or newer |
 | **Website** | No | Yes. Publishing needs Pix Pro paid Monthly or Yearly; a trial or an Event Pass does not count |
 | **Share page and microsite** | Yes, watermarked photos | Yes, clean photos with your branding |
+| **Powered by Pixture footer** | Always shown | Shown by default; Pix Pro Yearly can switch it off in **Pix Design > Brand** |
+| **Own domain for share links** | No | On request: **Settings > Own domain > Contact us** |
 | **Gallery, Transactions and Health** | Yes | Yes |
 | **Team members and roles** | Yes | Yes |
 | **Pix AI** | Beta accounts, credits, any plan | Beta accounts, credits, any plan |
@@ -39,7 +41,7 @@ Both give the same Pix Pro on one computer. The difference is how long it lasts 
 
 An **Event Pass** ($5 or Rp 85.000) is 24 hours of Pix Pro that you buy ahead and use on the day, at the booth. It suits operators who work events and pass the cost on to the client. If its computer is unlinked, deactivated or signs out, the running Event Pass keeps its end time and the next event computer that starts its booth continues it.
 
-**Pix Pro Monthly** ($39.99 or Rp 850.000) pays off after about eight event days a month on the same computer. **Pix Pro Yearly** ($299.99 or Rp 6.500.000) is the cheapest way to run a fixed location all year. Both can be moved between computers by deactivating one on the Computers page.
+**Pix Pro Monthly** ($39.99 or Rp 850.000) pays off after about eight event days a month on the same computer. **Pix Pro Yearly** ($299.99 or Rp 6.500.000) is the cheapest way to run a fixed location all year, and the only plan that can hide the Powered by Pixture footer. Both can be moved between computers by deactivating one on the Computers page.
 
 ## Related
 

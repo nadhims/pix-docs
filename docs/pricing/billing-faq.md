@@ -108,6 +108,14 @@ Credits bought as a pack never expire. Credits from the monthly plan reset each 
 
 No. Customer payments at the booth go through your own payment gateway account or your own hardware. Pixture takes no share of them; your gateway's own fees apply.
 
+## Can I remove "Powered by Pixture"?
+
+Yes, on **Pix Pro Yearly**. Turn off **Show on guest pages** under **Pix Design > Brand > Pixture footer**. Your business name shows instead. On Monthly, an Event Pass, the trial or Pix Starter the footer stays. See [Pixture Footer](../dashboard/pix-design/brand.md#pixture-footer).
+
+## Can I use my own domain for share links?
+
+Yes, on request. Open **Settings > Own domain** and click **Contact us**. The price depends on the domain. See [Own Domain](../dashboard/settings.md#own-domain).
+
 ## Related
 
 - [Plans & Pricing](./plans.md)
