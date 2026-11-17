@@ -46,6 +46,22 @@ Every change saves on its own; the page shows "Saved".
 
 The preview beside the settings shows your brand on four screens: **Start screen**, **Capture**, **Share** and **Guest page** (the share page customers open on their phone).
 
+## Pixture Footer
+
+The pages and emails your customers get end with a **Powered by Pixture** footer. On **Pix Pro Yearly** you can switch it off, and your business name shows there instead.
+
+1. Open **Pix Design > Brand** and find **Pixture footer**.
+2. Turn **Show on guest pages** off. The **Guest page** preview shows your business name in the footer.
+3. To bring the footer back, turn it on again.
+
+The footer is on by default. It covers the share page and album, the AI photo page, your [Website](./website.md), the shop, the queue pages, Frame Lab, and the photo, order and Frame Lab code emails. Your Website can take up to a minute to show a change.
+
+On every other plan (Pix Pro Monthly, an Event Pass, the free trial or Pix Starter) the switch stays on and is locked, with "Yearly plan." and a **Go yearly** link to the Computers page. If your account stops having Pix Pro Yearly, the footer comes back on its own. Your choice is kept, so it hides again when you go back to yearly.
+
+:::info
+Want your share links on your own domain too, such as photos.yourbusiness.com? See [Own Domain](../settings.md#own-domain).
+:::
+
 ## Where Your Brand Shows Up
 
 - **Events**: the booth screens of your events.
@@ -60,3 +76,4 @@ Your brand is the default. For one client with its own look, change that event, 
 - [Branding your booth](../../guides/branding-your-booth.md)
 - [UI Editor](./ui-editor.md)
 - [Microsite (Share Page)](./microsite.md)
+- [Plans](../../pricing/plans.md)

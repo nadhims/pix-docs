@@ -82,6 +82,20 @@ Titled **Billing & Payment**, in three blocks: the subscription state ("Subscrip
 | **Menu Access PIN** | 4 to 8 digits that lock the operator menu on every booth: **Set PIN** or **Disable PIN**. A single booth can override it on its Settings tab |
 | **Session** | **Sign Out** |
 
+## Own Domain
+
+**Settings > Own domain** shows the **Pixture Address** your share links use. It is free on every plan.
+
+To put your share links on your own domain, such as photos.yourbusiness.com, click **Contact us**. The price depends on the domain, so we set it up with you. Once your account is unlocked, the same card shows a box for your domain:
+
+1. Enter your domain and click **Save Domain**.
+2. At your domain provider, create a **CNAME** record pointing to `pixapp.id`. The card shows the exact name and target.
+3. Click **Verify DNS**. DNS changes can take up to 48 hours. Once it shows **Verified**, new share links use your domain.
+
+**Remove** goes back to the Pixture Address.
+
+To also hide the **Powered by Pixture** footer, see [Pixture Footer](./pix-design/brand.md#pixture-footer).
+
 ## Data
 
 ![Settings > Data: Import Templates, Reset Booth Data](/img/docs/settings-data.webp)

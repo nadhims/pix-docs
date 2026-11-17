@@ -48,6 +48,8 @@ Weddings, markets, brand activations and school events, where you pass the cost 
 
 **$299.99 per computer per year**, about $25 per month. In Indonesia **Rp 6.500.000 per year**. The checkout marks it **Best value**.
 
+Yearly also lets you switch off the **Powered by Pixture** footer on your guest pages and emails. See [Pixture Footer](../dashboard/pix-design/brand.md#pixture-footer).
+
 ## Several computers at once
 
 Adding several computers in one purchase gives a volume discount on Pix Pro. Open **Computers > Add computer > Pix Pro**, set **How many computers?** and open **Volume pricing** to see the price per computer before you pay.
