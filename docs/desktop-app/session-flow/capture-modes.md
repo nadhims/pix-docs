@@ -49,7 +49,7 @@ One session makes up to four outputs. Which ones are made is set per booth under
 | GIF | **GIF Upload** | An animation that cycles through the shots, with the event's GIF overlay when one is set |
 | Live photo | **Live Photo Upload** | A short clip built from the live view around each shot, laid into the template |
 
-The number of shots is the template's slot count. The chosen filter is applied to the composite, the GIF and the live photo alike, and any per-photo adjust (zoom, pan, mirror) carries into all of them, so every output matches the print.
+The number of shots is the template's slot count, minus any slot set to **Copy of** another slot: a 2-up strip with 6 slots and 3 copies takes 3 shots. The chosen filter is applied to the composite, the GIF and the live photo alike, and any per-photo adjust (zoom, pan, mirror) carries into all of them, so every output matches the print.
 
 ## Camera Frame Ratio
 

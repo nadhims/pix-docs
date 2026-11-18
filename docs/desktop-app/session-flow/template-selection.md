@@ -27,7 +27,7 @@ Only templates assigned to the booth appear:
 1. In the dashboard, open **Booths**, pick the booth and open its **Templates** tab.
 2. Click **Manage Templates**, tick the designs you want and click **Save Templates**. You can also assign a design to several booths at once from Pix Design with **Assign to booths**.
 
-The booth's Templates tab marks one of the assigned designs with a **Default** badge. Changes reach the booth on its next check-in, usually within seconds. Templates are made in the Pix Design template editor; see [Pix Design](../../dashboard/pix-design/overview.md). The number of shots in the session is the number of photo slots in the chosen design.
+The booth's Templates tab marks one of the assigned designs with a **Default** badge. Changes reach the booth on its next check-in, usually within seconds. Templates are made in the Pix Design template editor; see [Pix Design](../../dashboard/pix-design/overview.md). The number of shots in the session is the number of photo slots in the chosen design, minus any slot set to **Copy of** another slot (see [Photo Slot Options](../../dashboard/pix-design/creating-templates.md#photo-slot-options)).
 
 ## Plan Limits
 
