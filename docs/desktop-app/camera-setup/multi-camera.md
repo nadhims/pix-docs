@@ -40,16 +40,32 @@ The first row is the booth's default camera: the one that is on at the Home scre
 
 A row marked **not connected** means its camera is unplugged or switched off. The booth's startup check shows a line for each camera too, for example "Angle 1: Front".
 
+### Two Cameras of the Same Model
+
+Two bodies of the same model, such as two Canon EOS R50s, show the same name in every row. They are still two cameras: the booth tells Canon bodies apart by the USB port each one is plugged into, and a camera already on one row is not offered on another ("That camera is on another angle.").
+
+- Tap each row and check the preview shows the right body.
+- Keep each camera on its own USB port. Swapping the cables swaps the angles, so label the cables or the ports.
+
 ## What the Customer Sees
 
 Before every photo, **Choose your angle** appears at the bottom of the capture screen with one card per camera. The customer taps a card, the live view changes to that camera, and they start the photo.
 
 - The choice stays for the next photo, so a customer who never touches it takes every photo on the same camera.
 - With Multi camera on, each photo waits for the customer to start it. Photos do not count down by themselves.
+- There is no fixed camera per photo. A template cannot take photos 1 and 2 on one camera and 3 and 4 on another: the customer taps the angle before each photo.
 - The cards use your [Brand](/docs/dashboard/pix-design/brand) colour and font.
 - If a camera does not open, the booth says "That camera is not ready. Pick another." and goes back to the camera before.
 
 Only cameras that have a row, a camera chosen and are connected are offered. With fewer than two, the booth shows no choice and takes the session on the camera it has.
+
+## If a Camera Stops After One Photo
+
+If the booth shows "Hmm, the camera didn't respond" when the customer moves to another camera, it could not wake that camera again.
+
+1. Check the camera's own screen. A camera on a dummy battery (DC coupler) can stop on a battery message that waits for **OK**, and the booth cannot get past it. Use the camera's own battery, or the maker's own DC coupler, and test again.
+2. Set the camera's auto power off to **Disable**.
+3. Plug each camera straight into the computer, not a hub, and close EOS Utility or any other camera software.
 
 ## Where It Does Not Show
 
