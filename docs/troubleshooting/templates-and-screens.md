@@ -101,6 +101,19 @@ In **Kiosk mode** these steps come from the booth's UI project instead: the Adju
 
 **Still stuck:** Send support the booth name and the event name.
 
+### The guest should take fewer photos than the template has slots
+
+**On screen:** The template has more photo slots than photos you want, for example 6 slots on a two-strip design where each photo prints twice, but the booth asks for 6 photos. There is no number to change for how many photos the guest takes.
+
+**Also described as:** "gabisa diubah angkanya, maunya 3x take foto bukan 6", "I want 3 shots but the template has 6 slots".
+
+**Fix:**
+1. Keep the slots. Don't delete them, or the print loses its second strip.
+2. In the template editor, select a slot that should repeat a photo, then in the side panel set **Copy of** to the slot whose photo it shows. Do this for each repeat, then **Save**.
+3. The guest now takes one photo per slot that is not a copy. See [Photo Slot Options](../dashboard/pix-design/creating-templates.md#photo-slot-options).
+
+**Still stuck:** Send support the booth name and the template name.
+
 ### The booth shows more photo slots than it takes
 
 **On screen:** The template has copies of its photo slots (for example 8 boxes for 4 photos, two strips side by side). The template preview shows 4, but while shooting and on retake the strip shows 8 boxes, some empty or with the wrong photo. The printed result is correct.
