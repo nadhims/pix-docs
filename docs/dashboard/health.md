@@ -25,7 +25,7 @@ Search by booth name, and filter by **All**, **Critical**, **Warning**, **Health
 | Status | Healthy, Warning, Critical or Offline |
 | Issues | What the booth is reporting, in plain words |
 | Today | Sessions so far today |
-| Paper | Prints left, where the printer driver reports them (today: DNP printers on a Mac booth with DNP's driver, from app 1.2.41). Empty while the booth is offline |
+| Paper | Prints left, marked **printer** when the printer driver reports it (DNP printers on a Mac booth with DNP's driver) or **counted** when the booth counts it (app 1.2.44 or newer, after **New roll loaded**). Empty while the booth is offline |
 | Last seen | When the computer last checked in |
 
 ## Online or Offline
@@ -40,7 +40,7 @@ Offline does not always mean something is wrong. A booth switched off outside op
 |---|---|---|
 | Camera | The booth cannot see or talk to the camera | Cable and power, then the setup page for your camera in [Supported Cameras](../reference/supported-cameras.md) |
 | Printer | The printer is out of paper, jammed, has its cover open, is off, paused, in error or missing, or the last print failed (app 1.2.41 or newer) | The printer itself, then [Printer Setup](../desktop-app/printer-setup.md) |
-| Paper | Media is low or out | Reload; the count comes from the printer driver and updates after the next print |
+| Paper | Media is low or out | Reload, then press **New roll loaded** (below) or **New roll** on the booth. The count updates after the next print |
 | Uploads | Photo sessions are waiting to upload, usually on slow venue Wi-Fi | Nothing is lost; customers' QR links open once the queue clears. See [Offline Mode](../desktop-app/offline-mode.md) |
 | Disk | The computer is running out of space | Clear old files on the booth PC |
 | Memory | The computer is short of memory | Restart the Pixture Photobooth app |
@@ -50,6 +50,10 @@ Offline does not always mean something is wrong. A booth switched off outside op
 Click a booth row to open its detail panel: the signals above with their last values, today's sessions and prints, and the recent errors from this booth.
 
 ![Health booth detail panel](/img/docs/health-booth-detail.webp)
+
+### New Roll Loaded
+
+For a booth computer, the panel's paper section shows "About N of N left, counted", the roll and when it was loaded, or "Not counted yet". After you load a new roll, click **New roll loaded**, pick the roll size or a **Custom amount**, and click **Start counting**. The booth picks it up at its next check-in, within 5 minutes, and starts counting from the full roll. Needs Pixture Photobooth 1.2.44 or newer. See [Paper Counter](../desktop-app/printer-setup.md#paper-counter).
 
 ## Error Records
 

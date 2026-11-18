@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3.5
 title: Event Start Screen
-description: Pick the modes guests can choose at your event and design the first screen they see, with background, text, logo, gallery and lock, colours, countdown and session timer, plus where print settings live.
+description: Pick the modes guests can choose at your event and design the look of every guest screen, with the Darkroom default look, Start layouts, background, text, logo, gallery and lock, colours, countdown and session timer, plus where print settings live.
 tags: [dashboard, events, start-screen, booth-modes]
 ---
 
 # Event Start Screen
 
-Every new event gets a **start screen**. It is the first screen guests see on the booth, and the only one you design: every other screen uses the Pixture event design in your colours. Your own custom UI projects, set on a booth, still work as before.
+Every new event gets a **start screen**. It is the first screen guests see on the booth. What you set in **Edit appearance** styles it and every other guest screen of the event, from the camera to Share (Pixture Photobooth 1.2.44 or newer). Your own custom UI projects, set on a booth, still work as before.
 
 ## Where to Set It Up
 
@@ -19,6 +19,14 @@ Events created before the start screen keep working as they are, with one booth 
 
 **Edit appearance** opens the editor: a live preview of the booth with **Landscape** and **Portrait** switches, and a rail of settings on the side: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown**, **Timer** and **Steps**. Click a part of the preview, like the title or the logo, to open its settings. **Preview** at the top tries the whole event full screen with your changes, saved or not. **Save** saves it. Booths pick it up for their next session: a booth waiting on its start screen right away, a booth in the middle of a session when that session ends.
 
+## The Default Look
+
+An event you never styled shows **Darkroom**: a warm red-brown gradient, prints on cream paper, the Bricolage Grotesque and Instrument Sans fonts, and a big number countdown. It is also a theme under **Colours**.
+
+With your [Brand](./pix-design/brand.md) set up, an unstyled event takes your Brand colours instead. A dark Brand gets a soft **Gradient** background made from your Brand colour; a light Brand keeps its light background.
+
+Your first change in **Edit appearance** keeps the rest of the look as it is. Booths on 1.2.43 or older show the older event look.
+
 ## Modes
 
 The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes**, **Photographer** and **Mingle**, plus **AI** for accounts in the Pix AI beta. Each one you turn on becomes a round button, and guests pick one every session, except **Photographer** and **Mingle**. They do not show as buttons to guests: a Photographer computer skips the start screen and opens straight into shooting, and a Mingle computer goes straight into Mingle (see [Photographer](./events.md#photographer) and [Mingle](./events.md#mingle)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
@@ -27,14 +35,22 @@ The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes**, **Ph
 
 In the editor's **Modes** group:
 
+- **Start shows**: **Mode buttons** (the default), a round button per mode, or **Templates**, where guests see the event's templates, filled with a sample photo, and tap **Start**. With two or more modes, guests pick the mode on the same screen.
 - **Hint line** turns the small "Tap a mode to start" line above the buttons on or off.
-- **Pictures** sets the style of the pictures on the buttons: **Illustration**, **Mono** or **Icon**. Click a mode's picture to use your own.
+- **Button style** sets the pictures on the mode buttons: **Illustration**, **Mono** or **Icon**, on both Start layouts. Click a mode's picture to use your own.
+- **Button names** shows or hides the name under each mode button, on both Start layouts.
+
+**Templates** needs Pixture Photobooth 1.2.44 or newer; an older booth shows the mode buttons.
 
 ## Look
 
 ### Background
 
-Pick **Photo or video** (upload a JPG, PNG or WebP photo, or an MP4 or WebM video), **Colour**, or **Live view**, where guests see themselves behind the buttons like a mirror. **Darken** (0 to 80%) keeps the words easy to read, and **Blur** (0 to 100%) softens the picture. New events start on Live view, 70% darker with 80% blur.
+Pick **Photo or video** (upload a JPG, PNG or WebP photo, or an MP4 or WebM video), **Colour**, **Gradient**, or **Live view**, where guests see themselves behind the buttons like a mirror.
+
+- **Colour** is one flat colour.
+- **Gradient** is a soft glow from a **Top** colour into a **Bottom** colour. The bottom one is also the Background colour under **Colours**. A booth on 1.2.43 or older shows the bottom colour on its own.
+- With a photo, video or Live view, **Darken** (0 to 80%) keeps the words easy to read, and **Blur** (0 to 100%) softens the picture.
 
 ### Text
 
@@ -49,12 +65,13 @@ Upload a PNG, SVG or WebP; a see-through background looks best. **Position** is 
 ### Gallery & Lock
 
 - **Gallery button**: guests can reopen photos taken on this booth during this event, to scan or print again.
-- **Lock button**: "Always on". It opens the admin menu on the booth, behind the PIN. Pick its **Corner** and **Opacity** (20 to 100%).
-- **Tags**: the words under the buttons. Switch **Gallery**, **Mode names**, **Filter names** and **Scan QR and Print** off for a picture-only look.
+- **Lock button**: "Always on". It opens the admin menu on the booth, behind the PIN. Pick its **Corner on the Start screen** and **Opacity** (20 to 100%).
+- **During a session**: where the lock sits while guests take photos. **In the timer** (the default) puts it inside the time-left chip; **In its corner** keeps a separate lock button in its corner. With In the timer, **Timer** places the chip **Top right** or **Top centre**. Needs Pixture Photobooth 1.2.44 or newer.
+- **Tags**: the words under the buttons. Switch **Gallery**, **Filter names** and **Scan QR and Print** off for a picture-only look. Mode names are **Button names** in the **Modes** group.
 
 ### Colours
 
-Pick a theme: **Your brand** (when your brand is set up), **Pixture**, **Forest**, **Ink blue**, **Plum** or **Cream**. Or set your own **Primary**, **Secondary**, **Background** and **Mode circles** colours. Primary buttons can be **Gradient** or **Flat**.
+Pick a theme: **Your brand** (when your brand is set up), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** or **Darkroom** (which also sets its fonts and Gradient background). Or set your own **Primary**, **Secondary**, **Background** and **Mode circles** colours. Primary buttons can be **Gradient** or **Flat**.
 
 ### Countdown
 
@@ -86,7 +103,7 @@ When the event takes payment, guests pay after tapping a mode, and turning payme
 
 ## Booths and Versions
 
-Booths in the event pick up your changes for their next session. A booth needs Pixture Photobooth 1.2.1 or newer to show the start screen as designed, and 1.2.2 or newer to charge each mode its own price (an older one sells every mode at the event price). The event page names each booth that needs an update, for example "Booth 1 runs an older Pixture Photobooth. Update it to show this start screen as designed." A booth older than 1.2.0 keeps running Photo strip from the event's default UI project. Update the app on any booth that should show the mode buttons.
+Booths in the event pick up your changes for their next session. A booth needs Pixture Photobooth 1.2.1 or newer to show the start screen as designed, 1.2.2 or newer to charge each mode its own price (an older one sells every mode at the event price), and 1.2.44 or newer for the Darkroom look, a Gradient background, the Templates Start and the lock in the timer. The event page names each booth that needs an update, for example "Booth 1 runs an older Pixture Photobooth. Update it to show this start screen as designed." A booth older than 1.2.0 keeps running Photo strip from the event's default UI project. Update the app on any booth that should show the mode buttons.
 
 ## Related
 

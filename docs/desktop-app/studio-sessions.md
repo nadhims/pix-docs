@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Studio Sessions
-description: How a Studio mode photo session runs on the booth, from the timed pool of shots to assigning photos to the template and sharing every shot.
+description: How a Studio mode photo session runs on the booth, from the timed pool of shots to assigning photos to the template and sharing every shot, at a booth and at an event.
 tags: [desktop-app, studio-mode, photo-session]
 ---
 
@@ -19,7 +19,7 @@ The session order is **Templates > Capture (timed pool) > Assign photos > Filter
 
 1. **Templates.** The customer picks a design as usual.
 2. **Capture.** The live view shows a ring-and-disc **shutter button**, a **Last Shot** card, a **Photo Counter** ("3 of 6") and, if the design has one, the pool timer. Every press takes a shot; after each shot the per-shot Review offers **Next** (keep) and **Retake** (drop). A remote clicker or foot switch plugged into the booth takes the shot too. Tapping the **Last Shot** card opens a gallery of the whole pool with a large preview and a **Remove** button on each photo.
-3. **Assign photos.** The design appears with its slots, and the pool of kept shots beside it. The customer taps a slot, then a photo. Used photos dim and show the number of the slot they sit in. Tapping a placed photo lets the customer scale, mirror and move it in the slot, or **Replace** it with another shot. **Take more** returns to Capture with the pool and the remaining time intact.
+3. **Assign photos.** The design appears with its slots, and the pool of kept shots beside it. The customer taps a slot, then a photo. Used photos dim and show the number of the slot they sit in. From 1.2.44 the same photo can fill more than one slot. Tapping a placed photo lets the customer scale, mirror and move it in the slot, or **Replace** it with another shot. **Take more** returns to Capture with the pool and the remaining time intact.
 4. **Filter** and **Sharing** run as in a normal session.
 
 ## How a Session Ends
@@ -40,6 +40,17 @@ Session length and Max photos are page settings on the Capture page of the Studi
 ## Remote Shutters and Keys
 
 The shutter button on screen is the default trigger, and the Capture page's **Camera trigger** can also be **Shutter button** or **Camera shutter** (the Canon body's own button, for a photographer-run studio). Keys follow the same session triggers as the Home screen: Space, S, Page Up and Page Down when the navigation key trigger is on, F13 when the F13 trigger is on. Keys are ignored while the pool gallery popup is open.
+
+## Studio at an Event
+
+At an event, Studio runs on the event's own screens (Pixture Photobooth 1.2.44 or newer):
+
+- The photos taken so far sit in a row along the bottom of the camera screen. Each empty slot is a coloured, numbered tile.
+- Tap the **x** on a photo to delete it, then shoot again. There is no confirm.
+- When there are more photos than fit, swipe the row sideways.
+- There is no start over button: guests delete the photos they do not want instead.
+
+Guests then place their photos as in **Assign photos** above, with **Take more** and **Next**.
 
 ## What the Customer Gets {#what-the-guest-gets}
 

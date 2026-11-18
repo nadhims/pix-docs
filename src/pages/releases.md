@@ -7,6 +7,24 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.44 (18 November 2026, Mac and Windows)
+
+Events:
+
+- **A new default look, Darkroom**: a warm gradient, prints on cream paper, new fonts and a big number countdown. An event you never styled shows it on its own. With your Brand set up, a dark Brand gets a soft gradient from your Brand colour instead. See [Event Start Screen](/docs/dashboard/event-start-screen#the-default-look).
+- **One design for every event**: every event runs the new guest screens, from start to share, styled by your **Edit appearance** settings.
+- **Start shows** (**Edit appearance** › **Modes**): **Mode buttons** (the default) or **Templates**, where guests see the event's templates before they start. **Button style** (**Illustration**, **Mono** or **Icon**) and **Button names** work on both.
+- New **Gradient** background, from a **Top** colour into a **Bottom** colour, next to **Photo or video**, **Colour** and **Live view**. A booth on 1.2.43 or older shows the bottom colour.
+- **The lock sits in the timer** during a session. Change it in **Edit appearance** › **Gallery & lock**: **During a session** is **In the timer** or **In its corner**, and the timer goes **Top right** or **Top centre**.
+- Studio at an event: tap the **x** on a photo to delete it and shoot again. The photo row scrolls when there are more photos than fit. There is no start over button any more.
+
+Every booth:
+
+- A full-screen flash on every shot, and the photo flies to its slot at once.
+- Empty photo slots are coloured and numbered, as on the dashboard.
+- Studio: the same photo can fill more than one slot.
+- **Paper counter**: for printers that never say how much paper is left. Tap **New roll** in the operator menu, pick the roll size or type your own, and the booth counts down every print. You can also press **New roll loaded** on the dashboard's **Health** page. See [Printer Setup](/docs/desktop-app/printer-setup#paper-counter).
+
 ## 1.2.43 (16 November 2026, Mac and Windows)
 
 - **2-inch cut per template**: a template with the Media Type **2 inch cut (4R)** now comes out as two 2x6 strips by itself, with no printer setting to change. It works on the DNP DS620 and DS-RX1 (Windows and Mac) and the Kodak 305 (Windows). Other templates keep printing whole, and the printer's own setting is the same after the print as before. See [Creating Templates](/docs/dashboard/pix-design/creating-templates).

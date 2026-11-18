@@ -42,6 +42,7 @@ The card names the booth, with "Kiosk mode" under it, and is headed "Ready to st
 |---|---|
 | **Camera** | "… connected", or "Not connected" with a **Camera Settings** link |
 | **Printer** | The selected printer, or "Not selected, so sessions won't print." with **Choose printer**. Only when the booth prints |
+| **Paper** | "About N of N left" with **New roll**, or "Not counted yet". **Paper running low**, **Paper is probably out**, or "Printer ran out of paper" with a **Yes** button for a new roll. Only when the booth prints, app 1.2.44 or newer. See [Paper Counter](./printer-setup.md#paper-counter) |
 | **Session price** | "No price set, so sessions run free." |
 | **Payments** | "No payment gateway is connected, so paid sessions cannot charge." |
 | **Storage running low** / **Storage almost full** | "N GB free. Photos and printing can fail when the disk is full.", with **Free Up Space**. Shows below 3 GB free, and turns red below 1 GB |
