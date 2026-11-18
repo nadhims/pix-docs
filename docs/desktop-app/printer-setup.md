@@ -42,6 +42,23 @@ To reprint:
 2. Scroll to **PRINT HISTORY**.
 3. Tap **Print** next to the session.
 
+## Paper Counter
+
+Most printers never tell the computer how much paper is left. From app 1.2.44 the booth counts it for you.
+
+1. Load a new roll.
+2. In the operator menu, tap **New roll** on the **Paper** row. Or open **Printer Settings** and tap **New roll loaded** on the **PAPER** card.
+3. Pick the roll size for your printer, or type a **Custom amount** (1 to 5,000 prints). The number is on the box.
+4. Tap **Start counting**.
+
+Every print, one per sheet, takes one off the count. The booth remembers the size for next time, keeps counting offline and never stops a print because of the count.
+
+- The **Paper** row reads "About 120 of 400 left". It turns to **Paper running low** at 20% and **Paper is probably out** at 0.
+- When the printer reports it is out of paper, the row asks "New roll loaded?" with a **Yes** button for the last roll size.
+- Count wrong? On the **PAPER** card, tap **Fix the count** and type how many prints are really left.
+- From the dashboard: on **Health**, open the booth and click **New roll loaded**. The booth picks it up within 5 minutes. See [Health](../dashboard/health.md).
+- A DNP printer on a Mac with DNP's own driver reports its paper itself. The booth shows that number and does not count.
+
 ## Print Counts Are Sheets
 
 Everything the booth counts, and everything Booth Pricing prices, is a sheet of paper. If Booth Pricing's **Print format** is set to **2 inch cut** (2 per sheet) or **Triple strip** (3 per sheet), the Payment screen shows the number of strips the customer takes home, but the printer still receives one sheet per print. Set **COPIES PER SESSION** in sheets. See [Booth Pricing](../dashboard/booth-pricing.md).
@@ -56,3 +73,4 @@ Keep spare media and ribbon at the booth. A dye-sub printer can run out at any p
 - [Shared Printer](../guides/shared-printer.md)
 - [Booth Pricing](../dashboard/booth-pricing.md)
 - [Operator Menu](./admin-panel.md)
+- [Health](../dashboard/health.md)

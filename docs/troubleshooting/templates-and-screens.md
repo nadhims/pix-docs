@@ -34,7 +34,7 @@ Start here when the booth shows the wrong design, the wrong screens, or photos t
 
 **Fix:**
 1. Tap the lock corner twice within three seconds. A faint padlock marks it; the padlock is hidden when part of your design covers that corner, but the double tap still works there.
-2. On an event's Start screen the lock is a visible button: tap it. Its corner is the **Lock button** setting on the event's start screen. The other event screens keep it in the top right.
+2. On an event's Start screen the lock is a visible button: tap it. Its corner is the **Lock button** setting on the event's start screen. During a session (app 1.2.44 or newer) the lock sits inside the time-left chip, top right or top centre, unless **Edit appearance** > **Gallery & lock** > **During a session** is set to **In its corner**.
 3. There is no keyboard shortcut. The Esc key does not open the menu.
 4. A PIN is set: type it on the **Enter Admin PIN** pad. Forgotten it? In the dashboard open **Booths > booth > Settings > Menu PIN** and change or disable it.
 
