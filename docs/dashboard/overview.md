@@ -28,7 +28,7 @@ If your account has events, a switcher at the bottom of the sidebar picks a **wo
 | [Vouchers](./vouchers.md) | Free, fixed-amount or percentage codes, one at a time or in batches |
 | [Marketing Studio](./marketing-studio.md) | Consent photos, audience, Promo, Frame Lab, campaigns and performance. Pix Pro only |
 | [Gallery](./gallery.md) | Browse, download and delete what your booths captured |
-| [Health](./health.md) | Which booths are online, their camera, printer, paper and error records |
+| [Health](./health.md) | Which booths are online, their camera, printer and paper, 60 days of history and incidents |
 | [Computers](./billing.md) | The computers running Pix Pro, your subscription, Event Passes and **Add computer** |
 | [Pix Design](./pix-design/overview.md) | Brand, Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | Help | Opens a chat with Lucy, the dashboard assistant |
