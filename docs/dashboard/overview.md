@@ -25,6 +25,7 @@ If your account has events, a switcher at the bottom of the sidebar picks a **wo
 | [Events](./events.md) | A booking pointed at your booths for a set of dates, with its own pricing, templates and a public album |
 | [Booths](./booth-management.md) | One page per booth: templates, filters, screen design, pricing, activity log, device and settings |
 | [Transactions](./transactions.md) | Every payment, searchable, filterable and exportable to Excel |
+| [Finance](./finance.md) | Profit and loss, costs, paper and tax, and partners who share revenue or profit |
 | [Vouchers](./vouchers.md) | Free, fixed-amount or percentage codes, one at a time or in batches |
 | [Marketing Studio](./marketing-studio.md) | Consent photos, audience, Promo, Frame Lab, campaigns and performance. Pix Pro only |
 | [Gallery](./gallery.md) | Browse, download and delete what your booths captured |

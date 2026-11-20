@@ -153,6 +153,10 @@ Photos and session records waiting on the booth to upload. Shown as **Uploads: N
 
 The booth's staff menu, opened by tapping the top-right corner of the screen twice. It holds Start Booth, Camera Settings, Printer Settings, Capture Settings, Hardware API, Admin Panel, Use an Event Pass on this computer, Logout, Exit App and Check for Updates, with the booth name, plan badge and upload status in the footer.
 
+### Owner's share, owner's net
+
+On the [Finance](../dashboard/finance.md) page, what is left for you after partners' profit shares. **Owner's net** is that amount after a capital repayment paid from your share.
+
 ### Package
 
 What a customer buys at the Payment screen: **Single**, **Double** or **Group** (four sessions), each with its prints included, priced on the booth's Pricing tab.
@@ -160,6 +164,10 @@ What a customer buys at the Payment screen: **Single**, **Double** or **Group** 
 ### Pairing code
 
 A 6-digit code generated on a booth's **Computer** tab in the dashboard and typed into the Pixture Photobooth app, which connects that computer to that booth. It lasts 10 minutes.
+
+### Partner
+
+On the [Finance](../dashboard/finance.md) page, a venue, investor, staff member or other person who gets part of the money through one or more terms: a revenue share, a profit share, a fixed monthly amount, a capital repayment or a minimum guarantee. Part of paid Pix Pro.
 
 ### Payment gateway
 
