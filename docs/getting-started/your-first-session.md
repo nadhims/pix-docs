@@ -40,9 +40,9 @@ Studio mode and event video modes change the middle of this flow; see [Studio Se
 
    ![The Transactions page with search, booth filter, period pills, and the Total Transactions, Total Revenue, Payment Success and Session Completion cards](/img/docs/steps/getting-started-your-first-session--transactions.webp)
 
-3. Open **Health**. Your booth's row shows its status, any issues, today's session count, the paper level and when it was last seen. Errors from the booth land under **Error records**.
+3. Open **Health**. Your booth's row shows its status, what it reports now, today's session count and when it was last seen. Click the row for its readings, paper and history. Anything that goes wrong lands under **Incidents**.
 
-   ![The Health page with booth rows showing Status, Issues, Today, Paper and Last seen, and the Error records section](/img/docs/steps/getting-started-your-first-session--health.webp)
+   ![The Health page with booth rows showing Status, Now, Today and Last seen, and the Incidents tab](/img/docs/steps/getting-started-your-first-session--health.webp)
 
 The dashboard home also shows a "Your booth is live" banner with a **View gallery** button after the first session, and the setup banner goes away.
 

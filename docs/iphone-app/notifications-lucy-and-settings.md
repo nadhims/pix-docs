@@ -22,6 +22,8 @@ Open **Notification Settings** to choose which alerts you get:
 | **Pix Pro Ending** | A computer's Pix Pro is about to end |
 | **Event Pass Started** / **Event Pass Ended** | An Event Pass starts or ends on a computer |
 
+A booth with [opening hours](../dashboard/health.md#opening-hours) stays quiet when it is switched off outside them, and sends **Not Open Yet** when it is not online in time.
+
 **Pause All Notifications** turns every alert off until you switch it back on.
 
 Every alert also lands in the inbox behind the bell at the top of the side menu. **Mark All Read** clears the dots.

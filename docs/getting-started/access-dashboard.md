@@ -35,7 +35,7 @@ If your account has events, the bottom of the sidebar has a switcher between **P
 | **Vouchers** | Free, percentage or fixed-amount codes, single or in batches, plus the **Online shop link** |
 | **Marketing Studio** | Pix Pro only: consent photos, audience, Promo, Frame Lab, campaigns and performance |
 | **Gallery** | Browse, download and delete the photos your booths produced |
-| **Health** | Live booth status, issues, today's sessions, paper level, last seen, and error records to download |
+| **Health** | Live booth status, what each booth reports now, today's sessions, last seen, 60 days of history per booth, and incidents to download |
 | **Computers** | Your computers, Pix Pro and Event Passes. **Add computer** and **Deactivate** (in each row's **Manage** menu) live here |
 | **Pix Design** | Template Editor, UI Editor, Photo Filters, GIF/Video overlay, Microsite and Pix AI (beta) |
 | **Help** | Opens a chat with Lucy, the in-dashboard assistant |
