@@ -248,6 +248,8 @@ Per-computer health for the event, with an Online or Offline badge and the app v
 
 ![Event Report tab](/img/docs/event-report.webp)
 
+If your role can see Finance, the tab starts with the **Money** card: the event's booking fee, guest sales, costs and net profit. See [Booking Fees](./finance.md#booking-fees).
+
 ## Editing and Deleting
 
 **Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. On a paid event with a start screen, **Price per mode** gives each mode its own price: **Single**, **Double** and **Group** for Photo, Studio and Notes, and **Single only** for Video, 360/Slow-mo and AI. "Leave empty to use the event price." A booth needs Pixture Photobooth 1.2.2 or newer for these prices; the event page warns about an older one, which sells every mode at the event price until you update it. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab, which stays editable after the event ends, until you archive it. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers leave it (an Event Pass or Pix Pro stays on them; an Event mode computer goes back to its event list) and the photos stay in your Gallery; only the event and its album go away.

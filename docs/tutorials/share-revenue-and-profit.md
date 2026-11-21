@@ -19,7 +19,7 @@ In this tutorial you will record your monthly costs and paper price, then add th
 
 Every month, in this order:
 
-1. Revenue: kiosk sales, event bookings and paid invoices.
+1. Revenue: kiosk sales, event sales and booking fees.
 2. Revenue shares come off first, as a cost.
 3. Your other costs and the paper.
 4. Tax.
@@ -70,6 +70,14 @@ The venue's share now appears under **Variable costs** on the Profit & Loss, mar
 3. On **Profit & Loss**, **Profit distribution** shows each share, **Retained by owner**, the capital repayment and **Owner's net**.
 
 ![Partners for October 2026: the venue gets Rp 2.150.000, the investor Rp 9.571.850 (profit share plus instalment), staff Rp 883.981, and the owner keeps Rp 7.223.794 after the repayment](/img/docs/finance-partners.webp)
+
+## Step 6: Download their statement
+
+1. Keep the month picked at the top, or choose **All months** for the year so far.
+2. On the **Partners** tab, click **Statement** on the partner's row. A PDF downloads.
+3. Send it to the partner. It shows only their own figures, never another partner's or yours.
+
+Statements are part of paid Pix Pro. See [Statements as PDF](../dashboard/finance.md#statements-as-pdf).
 
 ## When a Deal Changes
 

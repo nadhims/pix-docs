@@ -33,6 +33,10 @@ A computer on a Pix Pro account that has no place on the subscription and no Eve
 
 A free second photo session offered right after a paid one, optionally in exchange for a phone number or email. It is now a Pay 1 get 1 promo, set up in **Marketing Studio > Promo**. Transactions still label these sessions Bonus.
 
+### Booking fee
+
+What a client pays you for an event, entered on the event's **Money** card on its **Report** tab. It counts on the [Finance](../dashboard/finance.md#booking-fees) page in the month of the event date.
+
 ### Booth
 
 The photobooth people use at your venue: a computer running the Pixture Photobooth app, with a touchscreen, a camera and usually a printer. Each booth has its own page in the dashboard, under **Booths**, with its templates, screen design, pricing, settings and history, connected to its computer once with a **pairing code**. Booths are free, so create one for every photobooth you run. See [How Pixture Works](../getting-started/how-pixture-works.md).

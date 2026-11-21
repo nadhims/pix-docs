@@ -37,6 +37,8 @@ A new event is **Free for guests**: computers on it skip the Payment screen. If 
 
 With **Link Sharing** on, every guest gets their photos by QR code, and the event's **Album** collects every photo for your client to share. After the event, the **Report** tab shows how many sessions ran. See [Run an Event](../tutorials/run-an-event.md#step-6-share-the-album).
 
+Enter the client's fee on the **Report** tab's **Money** card, with the event's costs, to see what the event made. Finance counts the fee in the month of the event date. See [Booking Fees](../dashboard/finance.md#booking-fees).
+
 ## On the Day
 
 - Test the booth the day before with a free voucher, so you know payment, printing and sharing all work. See [Vouchers](../dashboard/vouchers.md).

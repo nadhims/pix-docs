@@ -11,7 +11,7 @@ tags: [dashboard, finance, profit, costs, partners, tax]
 
 ![Finance, Profit & Loss tab for October 2026: Total revenue, Total costs, Net profit and Owner's net, the profit and loss statement, Profit distribution and Performance by unit](/img/docs/finance-profit-and-loss.webp)
 
-Profit & Loss, Costs, paper and tax are free on every plan. **Partners** is part of paid Pix Pro (monthly or yearly). An Event Pass or the free trial does not unlock it.
+Profit & Loss, Costs, paper, tax and booking fees are free on every plan. **Partners** and the PDF statements are part of paid Pix Pro (monthly or yearly). An Event Pass or the free trial does not unlock them.
 
 ## Profit & Loss
 
@@ -21,7 +21,7 @@ The statement below follows the usual order of a profit and loss report:
 
 | Line | What it is |
 |---|---|
-| Revenue | **Kiosk sales**, **Event bookings** and paid **Invoices**, each on its own line. Sales are the same numbers as the Dashboard |
+| Revenue | **Kiosk sales**, **Event sales** and **Booking fees**, each on its own line. Sales are the same numbers as the Dashboard |
 | Variable costs | Costs that move with sales: venue revenue shares, **Paper and consumables**, and one-time costs such as event crew |
 | Contribution margin | Revenue minus variable costs |
 | Fixed costs | Costs that repeat every month: salaries, internet, rent, the Pix Pro subscription, depreciation |
@@ -38,6 +38,19 @@ The statement below follows the usual order of a profit and loss report:
 The **View** picker at the top shows **All kiosks and events** or one kiosk. Choose one, or click a row in Performance by unit. A single kiosk or event shows its own revenue, its own costs and the partners set on that kiosk. Whole-business partners and costs on the whole business are left out, so the numbers add up to the business only in **All kiosks and events**.
 
 ![Finance for one kiosk: Mall Kota's revenue, venue revenue share, paper, internet and camera depreciation, and its contribution margin](/img/docs/finance-one-kiosk.webp)
+
+## Booking Fees
+
+What a client pays you for an event is its **booking fee**. Enter it on the event: open the event in **Events**, then the **Report** tab. The **Money** card comes first.
+
+![Money card of an event: a booking fee and guest sales under Revenue, paper and crew under Costs, and the event's net profit](/img/docs/finance-event-money.webp)
+
+- **Add booking fee** sets the amount, **Edit** changes it and **Remove fee** takes it off. The amount must be above 0.
+- The fee needs the event date and counts in that month. Until then, the card shows "Counts in" and the month.
+- The card also shows **Guest sales**, what guests paid at the booth, the event's costs and its **Net profit**, over the whole event.
+- **Add cost** adds a one-time cost to the event. **Edit costs in Finance** opens the Costs tab.
+
+On Finance, booking fees have their own revenue line, **Booking fees**, and count in the event's numbers. Setting a fee needs **Manage finance**. With only **View finance**, the card shows the figures and an empty fee reads "Not set".
 
 ## Costs
 
@@ -106,7 +119,36 @@ Adding or editing a partner asks **Changes apply from**: this month, an earlier 
 
 ### Event Money
 
-A session at an event counts under the event, not under the kiosk it ran on. A share set on a kiosk sees only that kiosk's own sales. If you share event income with a partner, set their terms on the **Whole business**.
+A session at an event counts under the event, not under the kiosk it ran on. A share set on a kiosk sees only that kiosk's own sales. If you share event income with a partner, set their terms on the **Whole business**. Booking fees count there too.
+
+## Statements as PDF
+
+Two PDFs, for your records or to send to a partner. Both cover the period chosen at the top.
+
+- **Export PDF** on the **Profit & Loss** tab downloads the **Profit and Loss Statement**: the statement, the profit distribution and performance by unit. It is for the whole business, so the button is hidden while **View** shows one kiosk or event.
+- **Statement** on a partner's row on the **Partners** tab downloads that partner's statement. It shows only their own figures: what they are due and how it is worked out. It never shows another partner's name or your share. A revenue share adds gross sales by week, a profit share the net profit it comes from, and a capital repayment the capital account.
+
+<div className="row">
+<div className="col col--6">
+
+![Profit and Loss Statement PDF for October 2026, number PL-2026-10: revenue, costs, net profit, profit distribution and performance by unit](/img/docs/finance-pl-pdf.webp)
+
+</div>
+<div className="col col--6">
+
+![Revenue share statement PDF for a venue, number RS-2026-10-001: amount due, the 20% revenue share and gross sales by week](/img/docs/finance-partner-statement-pdf.webp)
+
+</div>
+</div>
+
+Each PDF has:
+
+- Your logo from **Pix Design > Brand**, or the first letter of your business name on your accent colour, with the business name and the account owner's email.
+- A number: **PL** for Profit and Loss, then **IS** (Investor), **PS** (Profit share), **RS** (Revenue share) or **ST** (Partner statement) for partners. October 2026 is PL-2026-10, and IS-2026-10-003 is partner number 003. Any other period, such as **All months**, gives the year only: PL-2026.
+- Your dashboard language, English or Bahasa Indonesia.
+- "Management report, unaudited" at the foot, and "Made with Pixture" unless you switched off the [Pixture footer](./pix-design/brand.md#pixture-footer).
+
+The PDFs are part of paid Pix Pro. Without it, **Export PDF** carries a **Pix Pro** tag and opens the Computers page.
 
 ## Who Can See Finance
 
@@ -114,9 +156,9 @@ Owners and admins see Finance. For other members, a role needs **View finance** 
 
 ## Common Questions
 
-**Why is my revenue different from the Dashboard?** Kiosk sales and Event bookings use the same rules as the Dashboard. Finance adds paid invoices, so Total revenue is the Dashboard's revenue plus paid invoices for the same period.
+**Why is my revenue different from the Dashboard?** Kiosk sales and Event sales use the same rules as the Dashboard. Finance adds booking fees, so Total revenue is the Dashboard's revenue plus the booking fees of events dated in the same period.
 
-**Where did Expenses, Venues, Reports, Capital and Tax Summary go?** They are part of Finance now. Their old addresses open the matching tab: Expenses and Tax Summary open **Costs**, Venues and Capital open **Partners**, and Reports opens **Profit & Loss**.
+**Where did Expenses, Venues, Reports, Capital, Tax Summary, Invoices and Clients go?** They are part of Finance now. Their old addresses open the matching tab: Expenses and Tax Summary open **Costs**, Venues and Capital open **Partners**, and Reports opens **Profit & Loss**. Invoices and Clients open Finance: enter what a client pays as the event's [booking fee](#booking-fees).
 
 **Can I record a cost that is shared by several kiosks?** Put it on the **Whole business**, or enter a separate cost on each kiosk.
 

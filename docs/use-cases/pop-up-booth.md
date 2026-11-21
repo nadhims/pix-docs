@@ -27,7 +27,7 @@ Bring a 4G router or a phone hotspot. If the line drops, the booth keeps taking 
 
 ### 4. Build your following
 
-Keep **Link Sharing** on and brand the share page, so every customer leaves with your name on their photos. The following you build at pop-ups is what sells event bookings later. See [Microsite (Share Page)](../dashboard/pix-design/microsite.md).
+Keep **Link Sharing** on and brand the share page, so every customer leaves with your name on their photos. The following you build at pop-ups is what sells event rentals later. See [Microsite (Share Page)](../dashboard/pix-design/microsite.md).
 
 ### 5. Learn from each weekend
 
