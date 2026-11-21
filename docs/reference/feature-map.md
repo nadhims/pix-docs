@@ -72,7 +72,8 @@ Pixture is photobooth software in two parts: the **Pixture Photobooth** app runs
 - **Kiosk and event money apart.** Pixture Kiosk, Pixture Event and an Overview of both. See [Pixture Event, Pixture Kiosk and Overview](../dashboard/views.md).
 - **Booth health.** Online status, camera, printer faults, paper and errors for every booth, with alerts. See [Health](../dashboard/health.md).
 - **Gallery and transactions.** Every photo and every payment, searchable and exportable. See [Gallery](../dashboard/gallery.md) and [Transactions](../dashboard/transactions.md).
-- **Profit and loss.** Revenue, costs, paper per sheet, depreciation and tax for a month or the year, per kiosk, per event or for the whole business. See [Finance](../dashboard/finance.md).
+- **Profit and loss.** Revenue, booking fees, costs, paper per sheet, depreciation and tax for a month or the year, per kiosk, per event or for the whole business. See [Finance](../dashboard/finance.md).
+- **PDF statements.** A Profit and Loss Statement for the business and a statement for each partner (Pix Pro). See [Statements as PDF](../dashboard/finance.md#statements-as-pdf).
 - **Partners.** A venue, an investor or staff on a revenue share, a profit share, a fixed monthly amount, a capital repayment or a minimum guarantee (Pix Pro). See [Share Revenue and Profit with Partners](../tutorials/share-revenue-and-profit.md).
 - **Your team.** Members and roles, down to which booths each person can reach. See [Settings](../dashboard/settings.md).
 - **Any country, any currency.** Any timezone and ISO currency, a different currency per booth if you need it. The dashboard is in English and Bahasa Indonesia, and the booth's customer language is your choice. See [Settings](../dashboard/settings.md).

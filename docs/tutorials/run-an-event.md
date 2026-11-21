@@ -96,7 +96,8 @@ An event's template set is exclusive. While the event runs, the booth offers onl
 
    ![Event Report tab with per-booth health and incidents](/img/docs/steps/tutorials-run-an-event--event-report.webp)
 
-4. **Edit** changes the dates, prices or gateway at any time until the event ends, even while it is live. **Delete Event** in the toolbar removes it. At 06:00 the morning after the last date the event ends by itself. Older computers paired before Event mode are released then; Event mode computers keep the event until you archive it.
+4. On the same tab, the **Money** card takes what the client paid you: click **Add booking fee**. It counts on Finance in the month of the event date. See [Booking Fees](../dashboard/finance.md#booking-fees).
+5. **Edit** changes the dates, prices or gateway at any time until the event ends, even while it is live. **Delete Event** in the toolbar removes it. At 06:00 the morning after the last date the event ends by itself. Older computers paired before Event mode are released then; Event mode computers keep the event until you archive it.
 
 ## Check It Worked
 
