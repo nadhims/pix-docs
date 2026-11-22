@@ -108,7 +108,7 @@ The shooting screen, and the page whose settings change the booth's behaviour mo
 - **Session Time**: the length of the session from the first capture, and what happens when it runs out. It runs whether or not you place a **Session Timer** block; the block only displays it. A **Photo Counter** block shows "n of N".
 - **Preview Cards**: one square card per template slot, numbered while empty, filled as shots land, the current slot ringed; the row scrolls on templates with many slots.
 
-A remote plugged into the booth follows the Start Screen's session triggers: Space, S, Page Up, Page Down or F13 take the shot.
+A remote plugged into the booth follows the Start Screen's session triggers: Space, S, Page Up, Page Down or F13 take the shot. To set your own keys for Capture, Retake and Keep, see [Button keys](./button-keys.md).
 
 ### Review
 

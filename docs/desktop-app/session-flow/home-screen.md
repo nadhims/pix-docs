@@ -22,7 +22,7 @@ A session leaves the Home screen only through one of these:
 - **Touch anywhere** on the screen, when that trigger is on in the Start Screen's session triggers.
 - **A Start Button block**, or any button or click area in your design whose action is to start the session. These work regardless of the touch-anywhere setting.
 - **The F13 key**, when the F13 trigger is on. Coin systems press this key when the customer has paid. See [Hardware Payments](../hardware-payments.md).
-- **Navigation keys** (Space, S, Page Up, Page Down), when the navigation key trigger is on. Useful for a wired remote or foot switch.
+- **Navigation keys** (Space, S, Page Up, Page Down), when the navigation key trigger is on. Useful for a wired remote or foot switch. To use a button box on the Capture screen, see [Button keys](../../dashboard/pix-design/button-keys.md).
 - **The local Hardware API** `/start` call from a bridge box.
 
 The triggers are checkboxes on the Start Screen page in the UI Editor. Tap-to-start works from the very first launch after installation.
