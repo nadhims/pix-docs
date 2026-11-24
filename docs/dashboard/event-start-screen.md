@@ -11,7 +11,7 @@ Every new event gets a **start screen**. It is the first screen guests see on th
 
 ## Where to Set It Up
 
-Create the event first. The create form asks which modes to offer; its **Screens** step only says "You set up the start screen on the event page, after you create the event." Then open the event page and, on the **Appearance** tab under Booth mode, click **Edit appearance**. **Try it full screen** previews the whole event.
+Create the event first. The create form asks which modes to offer; its **Screens** step only says "You set up the start screen on the event page, after you create the event." Then open the event page and, on the **Appearance** tab under Booth mode, click **Edit appearance**. **Try it full screen** previews the whole event. Step by step: [Design an Event Start Screen](../tutorials/event-start-screen.md).
 
 Events created before the start screen keep working as they are, with one booth mode and a screen design.
 

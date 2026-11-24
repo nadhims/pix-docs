@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Customise the Booth Screens
-description: Build your own screen design in the Pix Design UI Editor, from the Start Screen to Sharing, then assign it to a booth.
+description: Build your own booth screen design in the Pix Design UI Editor, from the Start Screen to Sharing, then assign it to a booth.
 tags: [tutorials, pix-design, ui-editor, booth]
 ---
 
@@ -9,11 +9,29 @@ tags: [tutorials, pix-design, ui-editor, booth]
 
 In this tutorial you will create a UI project in Pix Design, design the Start, Payment, Templates, Capture, Review, Filter and Sharing screens, preview and save the design, and assign it to a booth. Allow about 45 minutes for a first design.
 
+This is for a booth's own screen design (a Kiosk booth). Screens for an event are designed on the event page instead: see [Design an Event Start Screen](./event-start-screen.md).
+
+## When to Use It
+
+- **Self-service mall booth:** customers walk up alone, so the screens do the selling. Put your price, your best template and a big start button on the Start Screen, and a clear QR payment screen after it.
+- **Multi-booth studio:** one design for every branch keeps the look the same everywhere. **Duplicate** it for a branch that needs a small change.
+- **Pop-up box for a brand:** the sponsor's colours, logo and a looping video on the Start Screen. Make a copy of your usual design for each client.
+- **Coin or card payments:** the Payment Screen and its coin and card sub-screens tell customers what to do with the machine.
+
+Just want your colours and logo everywhere without designing each screen? Set up [your Brand](./set-up-your-brand.md) first: new designs start in your colours.
+
 ## Before You Start
 
-- Pix Pro or the free trial. Pix Starter can open the UI Editor and try everything, but creating a project or saving needs Pix Pro.
-- Your artwork ready: a background image (or a video for the Start Screen) in the orientation of your booth screen, plus a logo if you want one.
-- Know your booth screen's orientation: Landscape (1920 x 1080) or Portrait (1080 x 1920).
+- **Plan:** Pix Pro or the free trial. Pix Starter can open the UI Editor and try everything, but creating a project or saving needs Pix Pro.
+- **Your booth screen's orientation:** Landscape (1920 x 1080) or Portrait (1080 x 1920). It is fixed once the project is created.
+- **A booth** paired with the Pixture Photobooth app, to test the design. See [Set Up a Booth From Scratch](./set-up-a-booth.md).
+
+## Prepare
+
+- **Backgrounds at screen size:** 1920 x 1080 px for landscape, 1080 x 1920 px for portrait, one per screen you want to dress up. Keep the middle calm: buttons, the live view and the template cards sit on top.
+- **A short looping video** (optional) for the Start Screen. It catches the eye of people walking past.
+- **Your logo** as a PNG with a transparent background.
+- **Big tap targets.** Customers tap with a finger, often in a hurry. Leave room for buttons that are easy to hit, and keep the top-right corner free: the hidden operator menu opens there (you can move it, see [Tips](#tips)).
 
 ## Step 1: Create the UI project
 
@@ -34,8 +52,9 @@ Each mode sets the flow its sessions follow:
 | Studio | Start, Pay, Template, Timed shoot, Pick photos, Filter, Share |
 | Notes | Start, Pay, Template, Shoot, Filter, Draw, Share |
 | Simple | Start, Pay, B&W or colour, Shoot, Share |
+| Newspaper | Start, Pay, Newspaper, Shoot, Share |
 
-"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
+"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
 
 ## Step 2: Find your way around the editor
 
@@ -109,9 +128,17 @@ If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** 
 - The booth's **UI Project** tab shows the project and its **Booth mode**.
 - On the booth, run a test session and walk through every screen you designed.
 
+## Tips
+
+- **Duplicate before you experiment.** **Duplicate** in the card menu copies a working design, so a test never breaks a booth that is earning.
+- **Move the hidden lock** if your design puts a button in the top-right corner: on the Start Screen, set **Lock button** to another corner.
+- **Turn off screens you do not need.** Every page has **Enabled in session flow**. Fewer screens means shorter sessions and more customers per hour.
+- **Preview on the booth, not only in the browser.** Text that looks fine on a laptop can be too small on a booth screen across the room. Run one full test session after every change.
+- **Free sessions skip the Payment Screen.** No need to design it for a booth that does not charge.
+
 ## Troubleshooting
 
-| Symptom | Cause | Fix |
+| Problem | Why | Fix |
 |---|---|---|
 | **Save** opens the Pix Pro modal | The account is on Pix Starter | Start the free trial or buy Pix Pro |
 | A screen never appears on the booth | **Enabled in session flow** is off for that page; for the Payment Screen, **Payment on this booth** is off or the computer is on Pix Starter | Turn the page on; check the booth's Pricing tab |
@@ -125,3 +152,5 @@ If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** 
 - [Photo Session Flow Overview](../desktop-app/session-flow/overview.md)
 - [Branding Your Booth](../guides/branding-your-booth.md)
 - [Set Up a Booth From Scratch](./set-up-a-booth.md)
+- [Set Up Your Brand](./set-up-your-brand.md)
+- [Design an Event Start Screen](./event-start-screen.md)

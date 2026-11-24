@@ -7,13 +7,13 @@ tags: [dashboard, pix-design, brand, booth]
 
 # Brand
 
-**Pix Design > Brand** holds your business's look in one place: your logo, three colours, a button style and two fonts. The page reads "Used as the default for your events, microsites and UI projects." Set it once and every new design starts in your colours instead of Pixture's. By the end of this page you will have your brand set and know where it shows up.
+**Pix Design > Brand** holds your business's look in one place: your logo, three colours, a button style and two fonts. The page reads "Used as the default for your events, microsites and UI projects." Set it once and every new design starts in your colours instead of Pixture's. By the end of this page you will know every setting and where it shows up. Step by step: [Set Up Your Brand](../../tutorials/set-up-your-brand.md).
 
 ![Brand page with the Logo on light and on dark, the Brand palette (Accent, Dark, Light), Gradient and Flat buttons, Heading and Body fonts, and a live preview of the booth start screen, booth buttons and guest page](/img/docs/pix-design-brand.webp)
 
 ## Pix Starter and Pix Pro
 
-You can set your brand on any plan. It turns on once your account has Pix Pro or an Event Pass running. Until then the page reads "Turns on with Pix Pro or an Event Pass." with a **Get Pix Pro** button that opens the Computers page. See [Choose a plan](../../getting-started/choose-plan.md).
+Saving your brand needs Pix Pro or the free trial: on Pix Starter you can try the page, but saving opens the "Pix Pro keeps your work" window. Your brand is in use while the account has Pix Pro or an Event Pass running. Until then the page reads "Turns on with Pix Pro or an Event Pass." with a **Get Pix Pro** button that opens the Computers page. See [Choose a plan](../../getting-started/choose-plan.md).
 
 ## Logo
 
