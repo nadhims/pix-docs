@@ -57,10 +57,7 @@ Put the camera in **M** mode and set exposure on the booth's [Camera Settings](.
 
 ## Live view looks dark with flash
 
-At flash settings (low ISO, fast shutter) the scene is dark until the flash fires, and many cameras show that darkness in live view, so customers see a dark preview. Two fixes:
-
-- Add a **modelling light** or a small continuous light so the preview is bright. Many studio strobes have a built-in modelling lamp.
-- Or turn off exposure preview in the camera's menu, so live view stays bright regardless of the settings: **Exposure simulation** off on a Canon, **Live View Display: Setting Effect OFF** on a Sony, **Apply settings to live view** off on a Nikon Z, **Preview Exp./WB in Manual Mode** off on a Fujifilm.
+At flash settings (low ISO, fast shutter) the scene is dark until the flash fires, and many cameras show that darkness in live view. Add a modelling light, or turn off the camera's exposure preview. Step by step, with the setting for each camera brand: [Get a Bright Live View with Flash](../../tutorials/bright-live-view-with-flash.md).
 
 ## Placing the light
 
@@ -70,6 +67,7 @@ At flash settings (low ISO, fast shutter) the scene is dark until the flash fire
 
 ## Related
 
+- [Get a Bright Live View with Flash](../../tutorials/bright-live-view-with-flash.md)
 - [Camera Settings](./camera-settings.md)
 - [Webcam Fallback](./webcam-fallback.md)
 - [Supported Cameras](../../reference/supported-cameras.md)

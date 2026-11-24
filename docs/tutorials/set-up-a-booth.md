@@ -9,11 +9,28 @@ tags: [tutorials, booths, setup, pairing]
 
 In this tutorial you will create a booth in the Pixture dashboard, assign print templates, choose the booth's screen design and filters, set a price or make photo sessions free, check the outputs, pair the booth PC and run a test session. Allow about 30 minutes, plus the time to install the Pixture Photobooth app.
 
+## When to Use It
+
+- **Your first booth.** Start here after creating your Pixture account.
+- **A new place or a new client.** A mall kiosk, a second studio room or a partner's venue gets its own booth, with its own prices, templates and screen design.
+- **A booth that moved.** Rebuild its settings for the new venue instead of copying the old ones by hand.
+
+Not the right page when you only add a second computer to Pix Pro: see [Add a Second Computer or Move Pix Pro](./add-or-move-a-computer.md). For a one-off event, see [Run an Event](./run-an-event.md).
+
 ## Before You Start
 
 - A Pixture account, with the dashboard open at pixture.io.
 - The [Pixture Photobooth app](../getting-started/download-desktop-app.md) installed on the booth PC, with the camera and printer connected.
 - On Pix Starter, one computer can be paired and every photo, print and GIF carries the Pixture watermark. Pix Pro removes the watermark and unlocks payments at the booth. See [Plans & Pricing](../pricing/plans.md).
+
+## Prepare
+
+Get the booth computer ready before you pair it, so the booth runs on its own once customers arrive:
+
+- [Make the Booth Start by Itself After a Power Cut](./start-after-a-power-cut.md): the computer powers on, signs in and opens the booth with nobody there.
+- [Lock the Screen to the Booth](./lock-the-screen.md): no taskbar, notifications or swipes on a touchscreen.
+- [Get a Bright Live View with Flash](./bright-live-view-with-flash.md): only if you light with a flash.
+- [Lock the Booth and Use the Operator Menu](./operator-menu.md): a PIN, and the pages you will use during a day of work.
 
 ## Step 1: Create the booth
 
@@ -72,7 +89,7 @@ Taking payments at the booth needs a payment gateway under **Settings > Payment 
 
 1. Open the **Settings** tab.
 2. Under **Output Settings**, switch on what the booth should produce: **Singles Upload**, **GIF Upload**, **Live Photo Upload** and **Print Output**. Click **Save Output Settings**.
-3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so customers cannot open the operator menu on the booth.
+3. Under **Menu PIN**, enter a PIN of 4 to 8 digits and click **Set PIN**, so customers cannot open the operator menu on the booth. One PIN for every booth goes in **Settings > Security** instead: see [Lock the Booth and Use the Operator Menu](./operator-menu.md).
 
 ![Booth Settings tab with Output Settings switches, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/steps/tutorials-set-up-a-booth--booth-settings-tab.webp)
 
@@ -109,9 +126,16 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 
 ![Booth page of a paired booth showing Online, the Pix Pro badge, the property grid and the tab bar](/img/docs/booth-overview.webp)
 
+## Tips
+
+- **Set up the booth in the dashboard before you go to the venue.** Templates, screen design and prices are all online; at the venue you only pair the computer and run a test.
+- **Name booths after the place**, for example "Sunny Side Mall Kiosk 1". Reports, Health and partner statements use the name.
+- **Keep one test voucher** (a staff pass) for checking a booth with payment on, so you never pay for your own test.
+- **Run the test session with the real paper loaded.** It is the only way to see that the print size and alignment are right.
+
 ## Troubleshooting
 
-| Symptom | Cause | Fix |
+| Problem | Why | Fix |
 |---|---|---|
 | The pairing code is refused | Codes expire after 10 minutes | Click **New code** and enter the new code |
 | "Device limit reached" instead of a code | Every place on your subscription is active, or this is a second computer on Pix Starter | Deactivate a computer on the Computers page, add a computer, or use an Event Pass. Pix Starter runs one computer |
