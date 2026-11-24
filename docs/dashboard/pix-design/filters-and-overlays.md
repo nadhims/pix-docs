@@ -17,30 +17,15 @@ Pixture ships 14 built-in filters. You can add up to 50 of your own as .cube LUT
 
 ### Upload a filter
 
-1. Open **Pix Design > Photo Filters**.
-2. Click **Upload Filter**.
+**Upload Filter** takes a **Filter Name** (the label under the card on the booth) and a **.cube File**: a 3D LUT with a `LUT_3D_SIZE` of 2 to 256, up to 50 MB. The filter appears under **Custom Filters** with a preview on a sample photo; **Delete Filter** removes it. Uploading needs Pix Pro.
 
-   ![Upload Filter modal with Filter Name and .cube File](/img/docs/pix-design-upload-filter-modal.webp)
-
-3. Enter a **Filter Name**. This is the label under the filter card on the booth, so keep it short.
-4. Choose the **.cube File** and confirm.
-
-The filter appears next to the built-in ones with a preview on a sample photo. **Delete Filter** removes a custom filter; the built-in ones stay.
+![Upload Filter modal with Filter Name and .cube File](/img/docs/pix-design-upload-filter-modal.webp)
 
 ### Choose which filters a booth offers
 
-By default a booth offers every filter, built-in and custom. To narrow it:
+A booth with no filters chosen offers every filter, built-in and custom. **Booths** > booth > **Filters** > **Manage Filters** picks a shorter list; **Save Filter Assignments** keeps it. Once a booth has a list, filters you upload later are not added to it.
 
-1. Open **Booths**, click the booth, then the **Filters** tab. The **Booth Filters** card shows the current set; with no explicit assignment it notes that all filters are available by default.
-
-   ![Booth Filters tab with Booth Filters and Manage Filters](/img/docs/booth-filters-tab.webp)
-
-2. Click **Manage Filters**.
-
-   ![Manage Filters modal with Select all, Assigned and Not Assigned, All Types and Custom](/img/docs/booth-manage-filters-modal.webp)
-
-3. Tick the filters this booth should show. **Select all** ticks everything; **Assigned** / **Not Assigned** and **All Types** / **Custom** narrow the list.
-4. Click **Save Filter Assignments**.
+Step by step, with how to make a .cube that works at a booth: [Add Filters to Your Booth](../../tutorials/add-filters.md).
 
 ### What the customer sees {#what-the-guest-sees}
 
@@ -58,10 +43,7 @@ An overlay is a transparent PNG drawn over every frame of a session's animated G
 
 ### Add an overlay
 
-1. Open **Pix Design > GIF/Video overlay**.
-2. Click **+ Add overlay**.
-3. Choose the **Transparent PNG**, give it a **Name**, and pick the **Orientation**: **Landscape** (1280 x 720) or **Portrait** (720 x 1280). Make the PNG that exact size; the transparent area is where the photos show through.
-4. Confirm. **Delete** removes an overlay you no longer need.
+**+ Add overlay** takes a **Transparent PNG** (Landscape 1280×720 or Portrait 720×1280, up to 10 MB), a **Name** (from the file name if left empty) and an **Orientation**, set from the file. **Delete** removes an overlay. Step by step, with design know-how: [Add GIF and Video Overlays](../../tutorials/gif-and-video-overlays.md).
 
 ![Add overlay window with Transparent PNG, Name, Orientation and the Add overlay button](/img/docs/steps/dashboard-pix-design-filters-and-overlays--pix-design-add-overlay-modal.webp)
 
