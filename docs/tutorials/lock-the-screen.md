@@ -36,7 +36,7 @@ Not needed on a booth without a touchscreen where only you touch the keyboard, t
 <Tabs groupId="os">
 <TabItem value="windows" label="Windows">
 
-**On Windows 11, all editions:**
+**On Windows 11, all editions** (this stops swipes from the left and right edges, not the swipe up from the bottom):
 
 1. Open **Settings > Bluetooth & devices > Touch**.
 2. Turn off **Three and four-finger touch gestures**.
@@ -52,6 +52,8 @@ Not needed on a booth without a touchscreen where only you touch the keyboard, t
 4. Restart the computer.
 
 Microsoft: with this policy disabled, "users won't be able to invoke any system UI by swiping in from any screen edge".
+
+**On Windows Home**, Microsoft offers no setting that stops the swipe up from the bottom, and Windows 10 Home has no touch gesture switches either. For a touchscreen booth that customers use alone, run Windows Pro (on Windows 11, upgrade in **Settings > System > Activation**).
 
 <!-- SHOT-NEEDED: windows: Group Policy Editor with Allow edge swipe set to Disabled -->
 
@@ -144,7 +146,7 @@ Windows has no hot corners. The sleep and screen settings are in [Make the Booth
 | Problem | Why | Fix |
 |---|---|---|
 | A swipe up shows the taskbar | Windows answers edge swipes even over a full-screen app | Step 1 (touch gestures off; **Allow edge swipe** Disabled on Pro) |
-| `gpedit.msc` does not open | Windows Home has no Group Policy Editor | Use the touch settings in Step 1 |
+| `gpedit.msc` does not open | Windows Home has no Group Policy Editor | Windows Home cannot block the swipe up; upgrade to Windows Pro for a touchscreen booth |
 | The notification panel slides in from the right | Right-edge swipe is on | Step 1, **Swipe from the right edge of the screen** off |
 | A pop-up appears over the Start screen | Notifications are on | Step 3 |
 | The Mac shows the screen saver or locks | A hot corner or the screen saver timer | Step 4 |

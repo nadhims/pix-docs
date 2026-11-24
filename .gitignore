@@ -22,3 +22,5 @@ yarn-error.log*
 
 # Subagent-driven-development scratch
 .superpowers/
+__pycache__/
+*.pyc

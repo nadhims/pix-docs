@@ -18,6 +18,7 @@ Each tutorial takes one job from start to finish, with numbered steps and dashbo
 - [Get a Bright Live View with Flash](./bright-live-view-with-flash.md). For booths lit with a flash: camera settings, a bright preview, and a flash that fires on every photo.
 
 ## Set Up
+
 - [Design a Print Template](./design-a-print-template.md). Turn a PNG with transparent photo slots into a print template and put it on your booths.
 - [Customise Booth Screens](./customise-kiosk-screens.md). Use the UI Editor to change what customers see on every screen, from the start button to sharing.
 
