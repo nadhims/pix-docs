@@ -72,8 +72,7 @@ Pick a ready-made theme (**Your Brand** uses your logo and colours from [Brand](
 
 ## Publish
 
-1. In the address box at the top, type the handle you want. Pixture suggests one from your business name. It shows **Available** or the reason it cannot be used.
-2. Tap **Publish**.
+Type your handle in the address box at the top (it shows **Available** or the reason it cannot be used) and tap **Publish**. The step-by-step, from the header to sharing the link, is in [Publish Your Website](../../tutorials/publish-your-website.md).
 
 ![Website editor with the handle box ending in .pixture.io, the publish button, the Content panel and the phone preview](/img/docs/steps/dashboard-pix-design-website--pix-design-website.webp)
 
