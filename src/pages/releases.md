@@ -7,6 +7,12 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.53 (24 November 2026, Mac and Windows)
+
+Every booth:
+
+- **Cashier codes last until the end of the next local day**: a Central Cashier code now works until the end of the day after the sale in the booth's own time zone (or your account's), not until midnight UTC. In Jakarta that is up to 17 hours longer for codes sold early in the morning. The sale email and the dashboard's **Tickets** list show the last day as "Valid until". See [Queue Line](/docs/guides/queue-line).
+
 ## 1.2.51 (24 November 2026, Mac and Windows)
 
 Every booth:

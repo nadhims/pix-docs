@@ -27,8 +27,8 @@ A customer gets a number in one of three ways. In each case they pick the booth 
 
 A code works at every booth in the group, even when its number belongs to one booth's line.
 
-:::note Central Cashier codes expire
-A Central Cashier code expires at the end of the day after it is bought (UTC time). Sell codes for use the same day.
+:::note How long a Central Cashier code works
+A code works until the end of the day after the sale, in the booth's local time (its own time zone, or your account's when the booth has none), on booths with Pixture Photobooth 1.2.53 or newer. Older booths stop at the end of that day in UTC time. The email and the **Tickets** list show the last day it works, as "Valid until".
 :::
 
 ## What the customer sees
@@ -63,7 +63,7 @@ Open **Staff page** on the Queue tab. Each booth has a card with its line. For e
 ## Limits
 
 - The queue line needs Pix Pro and Pixture Photobooth 1.2.37 or newer. An older booth is listed in the Queue tab warning.
-- Central Cashier codes expire at the end of the day after purchase (UTC time).
+- Central Cashier codes work until the end of the day after purchase, in the booth's local time (booth app 1.2.53 or newer; older booths count in UTC time).
 - A booth without a letter never calls a number. It shows as not in line.
 - Letters run A to Z without I and O. A group with more booths than letters cannot give every booth a line.
 
