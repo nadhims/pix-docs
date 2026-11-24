@@ -26,12 +26,14 @@ Completed items are pruned after 7 days, failed items after 30. Photos that have
 
 ## Watching the Queue
 
-The operator menu footer shows a status line: "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date". For detail, open **Admin Panel** and scroll to **UPLOAD QUEUE**:
+The operator menu's top bar shows a status line: "Internet: Online/Offline · API: Nms · Uploads: N waiting / up to date". For detail, open **Admin Panel** and look at **Uploads**:
 
-- The filter pills **Queued**, **Uploading**, **Done**, **Failed** and **Retrying** narrow the list.
-- **Process Now** runs the queue immediately instead of waiting for the next retry.
-- **Retry Failed** puts every Failed item back in the queue; **Clear Failed** discards them. Both appear only when something has failed.
-- **Clean Storage** removes local copies of items that have already uploaded.
+- The tabs **Today**, **Yesterday**, **Last 7 days** and **All** pick the period; the pills **Uploaded**, **Uploading**, **Waiting** and **Failed** count the sessions in it.
+- **Upload now** sends what is waiting immediately instead of waiting for the next retry.
+- **Retry failed** puts every failed item back in the line; **Clear failed** discards them. Both appear only when something has failed.
+- **Clean storage** removes the photo files kept on this computer. **Print again** no longer works for the sessions you clean.
+
+Step by step: [Keep the Booth Running Offline](../tutorials/keep-running-offline.md).
 
 A cache and disk line underneath shows how much space the booth is using. See [Operator Menu](./admin-panel.md).
 
