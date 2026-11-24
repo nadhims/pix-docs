@@ -11,7 +11,7 @@ A print template is the layout a customer's photos land in: the 4x6" print, the 
 
 ## Before You Start
 
-- A PNG of your design at the print size you want (see [Preparing the PNG](#preparing-the-png)). The file can be up to 15 MB.
+- A PNG of your design at the print size you want (see [Preparing the PNG](#preparing-the-png)). The file can be up to 30 MB.
 - Pix Pro on your account. On Pix Starter the editor opens and you can try everything, but creating a new project needs Pix Pro; see [Pix Design Overview](./overview.md).
 
 ## The Template Projects List
@@ -45,25 +45,23 @@ Three rules make a PNG work as a template:
 2. **Keep everything else opaque.** Frames, logos and text print over the photos. Transparent areas outside the photo slots print white.
 3. **Match the size.** A file at another size is auto-resized to fit the chosen print size, so keep the same aspect ratio to avoid stretching.
 
-No transparency in your design? A JPG, or a PNG with solid white boxes where the photos go, still works: upload it and use **Remove BG** in the editor to turn those boxes transparent, or draw slots over the artwork and let **Cut out artwork** clear them. Both are described under [The Editor](#the-editor).
+No transparency in your design? A PNG with solid boxes where the photos go still works (save a JPG as PNG first: the create window takes PNG only; **Re-upload** in the editor also takes a JPG). Fill the boxes with one loud colour used nowhere else in the design, such as bright green, then use **Remove BG** in the editor to turn them transparent, or draw slots over the artwork and let **Cut out artwork** clear them. Both are described under [The Editor](#the-editor).
 
 ## Creating a Template Project
 
-1. Click **New Project**. The **Create Template Project** modal opens.
+**New Project** opens **Create Template Project**: pick a **Media Type**, a **Print Size** (2x6" to A2, or **Custom** with **Set pixels**), drop a PNG (up to 30 MB) on **Template PNG** and click **Create Project**. The canvas follows the PNG's orientation. Step by step, with how to prepare the photo boxes: [Design a Print Template](../../tutorials/design-a-print-template.md).
 
-   ![Create Template Project modal with Print Size, Media Type and Template PNG](/img/docs/pix-design-create-template-modal.webp)
+![Create Template Project modal with Media Type, Print Size and Template PNG](/img/docs/pix-design-create-template-modal.webp)
 
-2. Pick a **Print Size** card: **2x6"**, **4x6"**, **6x8"**, **A4**, **A3** or **Custom** (**Set pixels**).
-3. Pick a **Media Type** card. This tells the booth what the printed sheet becomes for the customer:
-   - **Photo paper** (Standard prints): one print per sheet.
-   - **2 inch cut (4R)** (Cut in two): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips. From app 1.2.43 the booth cuts this template's prints by itself on a DNP DS620 or DS-RX1 (Windows and Mac) and a Kodak 305 (Windows), and leaves the printer's own setting as it was for other templates.
-   - **Perforated** (Tear-off strips): perforated media the customer tears apart.
-   - **Triple strip** (3-strip media): a sheet that becomes three strips.
-   - **Sticker** (Adhesive media): sticker paper.
-   - **Newspaper** (Newspaper booths): a newspaper page for a [Newspaper mode](./ui-editor.md) booth. It "Shows only on Newspaper booths. A3 recommended, any size works." Picking it pre-picks A3.
-   - **Custom** (**Set name**): any other stock, named by you.
-4. Drop your PNG or JPG on the **Template PNG** zone or click it to browse. A JPG is stored as PNG.
-5. Click **Create Project**. The button enables once a size and a file are chosen.
+What each **Media Type** means for the customer:
+
+- **Photo paper** (Standard prints): one print per sheet.
+- **2 inch cut (4R)** (Cut in two): a 4x6" sheet the printer cuts into two 2x6" strips, so the customer gets two strips. From app 1.2.43 the booth cuts this template's prints by itself on a DNP DS620 or DS-RX1 (Windows and Mac) and a Kodak 305 (Windows), and leaves the printer's own setting as it was for other templates.
+- **Perforated** (Tear-off strips): perforated media the customer tears apart.
+- **Triple strip** (3-strip media): a sheet that becomes three strips.
+- **Sticker** (Adhesive media): sticker paper.
+- **Newspaper** (Newspaper booths): a newspaper page for a [Newspaper mode](./ui-editor.md) booth. It "Shows only on Newspaper booths. A3 recommended, any size works." Picking it pre-picks A3.
+- **Custom** (**Set name**): any other stock, named by you.
 
 ## The Editor
 
@@ -80,7 +78,7 @@ The project opens in the editor. If no PNG is loaded yet, the canvas reads "Drop
 
 ### Remove Background
 
-**Remove BG** makes a colour in your artwork transparent, so the photos show through it. Use it on a JPG, or on a PNG exported with white or coloured boxes where the photos go.
+**Remove BG** makes a colour in your artwork transparent, so the photos show through it. Use it on a PNG exported with coloured boxes where the photos go. The fastest way (one loud green used only in the boxes, **Connected area only** unticked, one click) is in [Design a Print Template](../../tutorials/design-a-print-template.md#step-3-clear-the-green-boxes-with-remove-bg).
 
 ![Template editor with Remove BG on: the Remove background panel with Tolerance, Smooth edge, Expand, Connected area only and a picked colour](/img/docs/pix-design-template-remove-bg.webp)
 
