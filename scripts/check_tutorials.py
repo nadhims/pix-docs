@@ -35,8 +35,13 @@ def _lines(path):
     return out
 
 
+# Indonesian pages (i18n/id/...) use these H2s for the same sections.
+ID_H2 = {"Kapan Dipakai": "When to Use It", "Sebelum Mulai": "Before You Start", "Persiapan": "Prepare",
+         "Cek Hasilnya": "Check It Worked", "Kalau Ada Masalah": "Troubleshooting", "Terkait": "Related"}
+
+
 def _key(h2):
-    return "Step" if re.match(r"Step \d+", h2) else h2
+    return "Step" if re.match(r"(Step|Langkah) \d+", h2) else ID_H2.get(h2, h2)
 
 
 def check(path):
@@ -89,6 +94,7 @@ if __name__ == "__main__" and sys.argv[1:] == ["--self-test"]:
     for want in ["missing H2: When to Use It", "H2 order", "em dash", "seat", "bare Pix", "image not found", "empty alt"]:
         assert want in problems, f"{want!r} not reported:\n{problems}"
     assert placeholders(good) == [("windows", "BIOS power menu")], placeholders(good)
+    assert check("scripts/fixtures/i18n/id/good-tutorial.md") == [], check("scripts/fixtures/i18n/id/good-tutorial.md")
     print("self-test OK")
 elif __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
