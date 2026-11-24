@@ -23,15 +23,6 @@ Not the right page when you only add a second computer to Pix Pro: see [Add a Se
 - The [Pixture Photobooth app](../getting-started/download-desktop-app.md) installed on the booth PC, with the camera and printer connected.
 - On Pix Starter, one computer can be paired and every photo, print and GIF carries the Pixture watermark. Pix Pro removes the watermark and unlocks payments at the booth. See [Plans & Pricing](../pricing/plans.md).
 
-## Prepare
-
-Get the booth computer ready before you pair it, so the booth runs on its own once customers arrive:
-
-- [Make the Booth Start by Itself After a Power Cut](./start-after-a-power-cut.md): the computer powers on, signs in and opens the booth with nobody there.
-- [Lock the Screen to the Booth](./lock-the-screen.md): no taskbar, notifications or swipes on a touchscreen.
-- [Get a Bright Live View with Flash](./bright-live-view-with-flash.md): only if you light with a flash.
-- [Lock the Booth and Use the Operator Menu](./operator-menu.md): a PIN, and the pages you will use during a day of work.
-
 ## Step 1: Create the booth
 
 1. In the sidebar click **Booths**, then **+ New Booth**.
@@ -128,6 +119,11 @@ If **Payment on this booth** is on, either switch it off for the test or create 
 
 ## Tips
 
+- **Next, get the booth computer ready** so the booth runs on its own once customers arrive:
+  - [Make the Booth Start by Itself After a Power Cut](./start-after-a-power-cut.md): the computer powers on, signs in and opens the booth with nobody there.
+  - [Lock the Screen to the Booth](./lock-the-screen.md): no taskbar, notifications or swipes on a touchscreen.
+  - [Lock the Booth and Use the Operator Menu](./operator-menu.md): a PIN, and the pages you will use during a day of work.
+  - [Get a Bright Live View with Flash](./bright-live-view-with-flash.md): only if you light with a flash.
 - **Set up the booth in the dashboard before you go to the venue.** Templates, screen design and prices are all online; at the venue you only pair the computer and run a test.
 - **Name booths after the place**, for example "Sunny Side Mall Kiosk 1". Reports, Health and partner statements use the name.
 - **Keep one test voucher** (a staff pass) for checking a booth with payment on, so you never pay for your own test.

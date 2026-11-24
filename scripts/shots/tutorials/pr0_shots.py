@@ -79,6 +79,9 @@ def power_cut():
 JOBS = {"operator-menu": operator_menu, "flash": flash, "power-cut": power_cut}
 
 if __name__ == "__main__":
+    missing = [v for v in ("BOOTH_SRC", "BOOTH_NM") if not os.environ.get(v)]
+    if missing:
+        sys.exit(f"Set {' and '.join(missing)} first: see scripts/shots/booth/README.md")
     STEPS.mkdir(parents=True, exist_ok=True)
     for name in sys.argv[1:] or JOBS:
         JOBS[name]()

@@ -37,8 +37,8 @@ Not needed for an event rental where you switch the booth on yourself, though th
 ## Prepare
 
 - **Use a computer account only for the booth.** Automatic sign-in skips the password, so anyone who switches the computer on is signed in. Do not use the account that holds your email or banking.
-- **A Mac with FileVault cannot sign in by itself.** FileVault encrypts the disk and asks for a password every time the Mac starts, so after a power cut the Mac waits at the password screen. Apple also turns off automatic login while FileVault is on. For an unattended booth, turn FileVault off in **System Settings > Privacy & Security > FileVault**, and keep the Mac where it cannot be carried away.
-- **MacBooks do not have the power-failure setting.** It is on desktop Macs (Mac mini, iMac, Mac Studio). A MacBook on its charger keeps running on its battery through a short cut, but it will not switch itself back on after the battery runs out.
+- **A Mac with FileVault cannot sign in by itself.** FileVault encrypts the disk and asks for a password every time the Mac starts, so after a power cut the Mac waits at the password screen. Apple also turns off automatic login while FileVault is on. You have two choices. Turn FileVault off in **System Settings > Privacy & Security > FileVault**, so the Mac starts by itself; the cost is that anyone who takes the Mac can read its disk, photos included, so keep it where it cannot be carried away. Or keep FileVault on, and have someone type the password after every power cut.
+- **MacBooks do not have the power-failure setting.** It is on desktop Macs (Mac mini, iMac, Mac Studio, Mac Pro). A MacBook on its charger keeps running on its battery through a short cut. A MacBook with Apple silicon on macOS 15 or later starts up by itself when you connect it to power.
 
 ## Step 1: Make the computer power on when electricity returns
 
@@ -66,7 +66,6 @@ This setting lives in the computer's own setup screen (the BIOS or UEFI), not in
 | Dell | F2 | Power Management | **AC Recovery** > Power On |
 | HP | F10 | Advanced > Boot Options | **After Power Loss** > Power on |
 | Lenovo ThinkCentre (older) | F1 | Power | **After Power Loss** > Power On |
-| Lenovo ThinkCentre (newer, e.g. M70q Gen 3) | F1 | Power | **Automatic Power On** |
 | ASUS motherboard | Delete | Advanced Mode > Advanced > APM Configuration | **Restore AC Power Loss** > Power On |
 | Intel NUC | F2 | Power > Secondary Power Settings | **After Power Failure** > Power On |
 
@@ -111,7 +110,7 @@ Autologon stores the password encrypted on the computer. To skip automatic sign-
 <TabItem value="mac" label="Mac">
 
 1. In **System Settings > Energy**, turn on **Prevent automatic sleeping when the display is off**.
-2. In **System Settings > Lock Screen**, set **Turn display off on power adapter when inactive** to **Never**.
+2. In **System Settings > Lock Screen**, set the **Turn display off ... when inactive** option to **Never** (on a MacBook: **Turn display off on power adapter when inactive**).
 3. In **System Settings > General > Software Update**, click the info button next to **Automatic Updates** and turn off **Install macOS updates**. Install updates yourself on a day without customers.
 
 <!-- SHOT-NEEDED: mac: Software Update automatic updates options -->
