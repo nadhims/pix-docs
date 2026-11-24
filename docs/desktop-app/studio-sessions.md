@@ -32,7 +32,7 @@ Capture ends when any of these happens first:
 
 Two rules sit on top:
 
-- **Minimum**: the pool cannot be closed below the number of slots in the chosen design. Done only appears once that minimum is reached; before that it reads "Take N more", and the timer waits rather than ending the session short.
+- **Minimum**: the pool cannot be closed below the number of slots in the chosen design. Done only appears once that minimum is reached, and the timer waits rather than ending the session short.
 - **Hard cap**: no pool holds more than 40 shots, whatever Max photos says.
 
 Session length and Max photos are page settings on the Capture page of the Studio UI project.
