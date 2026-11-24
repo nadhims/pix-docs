@@ -21,11 +21,13 @@ The **Organization** card: the name with **Save**, the logo (**Upload Logo** or 
 
 | Setting | What it does |
 |---|---|
-| Dashboard language | English or Bahasa Indonesia, for you only |
+| **Language** | English or Bahasa Indonesia for the dashboard and website, for you only, in this browser |
 | **Booth language** | The language of the customer-facing prompts on every booth, such as the consent question. One setting for the whole organization |
 | **Timezone** | Any timezone. Reports, daily limits and event dates follow it |
 | **Default currency** | Any currency. Booths inherit it unless they set their own |
-| **Tour & Onboarding** | **Replay Tour** and **Show Checklist** bring back the first-run guidance |
+
+How to set each one, and give a booth its own currency: [Set Your Country, Currency and Language](../tutorials/country-currency-language.md).
+| **Tour & Onboarding** | **Replay Tour** walks you through the dashboard again |
 
 ## Members
 
@@ -33,11 +35,7 @@ The **Organization** card: the name with **Save**, the logo (**Upload Logo** or 
 
 Three sub-tabs: **Active Members**, **Pending** invitations and **Activity**. The table shows Member, Role, Booth Access, Status and Last Active; a row's menu has **Change Role**, **Suspend**, **Reactivate** and **Remove**. Pending rows have **Resend** and **Revoke**.
 
-To invite someone:
-
-1. Click **+ Invite**.
-2. Enter the **Email Address** and pick a **Role**.
-3. Click **Send Invitation**.
+To invite someone, click **+ Invite**, enter the **Email Address**, pick a **Role** and click **Send Invitation**. Step by step, with roles for some booths only: [Add Your Team and Set Roles](../tutorials/team-and-roles.md).
 
 ![Invite Team Member modal: Email Address, Role, Send Invitation](/img/docs/settings-invite-modal.webp)
 
