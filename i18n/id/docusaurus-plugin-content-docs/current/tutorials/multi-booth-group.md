@@ -75,7 +75,7 @@ Buka grup dari daftar Booths. Ada enam tab:
 
 ![Tab Cashier dengan Central cashier dipilih, dua produk di tabel Products dan Add product ditandai](/img/docs/steps/tutorials-multi-booth-group--group-cashier.webp)
 
-Tiap penjualan kasir pusat ngasih kode 8 karakter (tampil sebagai empat karakter, tanda strip, dan empat lagi) yang jalan di booth mana saja di grup. Booth membuka layar Payment langsung di langkah kode. Jual kode untuk dipakai hari itu juga: kode kedaluwarsa di akhir hari setelah penjualan, dihitung dalam waktu UTC.
+Tiap penjualan kasir pusat ngasih kode 8 karakter (tampil sebagai empat karakter, tanda strip, dan empat lagi) yang jalan di booth mana saja di grup. Booth membuka layar Payment langsung di langkah kode. Kode berlaku sampai akhir hari setelah penjualan, menurut jam lokal booth (zona waktu booth itu sendiri, atau zona waktu akun kamu kalau booth belum punya), di booth dengan Pixture Photobooth 1.2.53 atau lebih baru. Booth yang lebih lama berhenti di akhir hari itu menurut waktu UTC. Email dan daftar **Tickets** nampilin hari terakhir kode bisa dipakai, sebagai "Valid until".
 
 ## Langkah 5: Pairing Satu Komputer per Booth {#step-5-pair-one-computer-per-booth}
 

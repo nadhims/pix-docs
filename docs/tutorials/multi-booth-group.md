@@ -75,7 +75,7 @@ Open the group from the Booths list. It has six tabs:
 
 ![Cashier tab with Central cashier picked, two products in the Products table and Add product marked](/img/docs/steps/tutorials-multi-booth-group--group-cashier.webp)
 
-Each central cashier sale gives an 8-character code (shown as four characters, a dash and four more) that works at any booth in the group. The booth opens its Payment screen straight on the code step. Sell codes for use the same day: a code expires at the end of the day after the sale, counted in UTC time.
+Each central cashier sale gives an 8-character code (shown as four characters, a dash and four more) that works at any booth in the group. The booth opens its Payment screen straight on the code step. A code works until the end of the day after the sale, in the booth's local time (its own time zone, or your account's when the booth has none), on booths with Pixture Photobooth 1.2.53 or newer. Older booths stop at the end of that day in UTC time. The email and the **Tickets** list show the last day it works, as "Valid until".
 
 ## Step 5: Pair One Computer per Booth
 
