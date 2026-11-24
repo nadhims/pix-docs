@@ -21,7 +21,13 @@ BOXES_JS = """() => { const out = {};
     if (!own || own.length > 80) continue;
     const r = el.getBoundingClientRect(); const cs = getComputedStyle(el);
     if (r.width === 0 || r.height === 0 || cs.visibility === 'hidden' || cs.display === 'none') continue;
-    if (!(own in out)) out[own] = [r.x, r.y, r.width, r.height];
+    if (!(own in out)) {
+      out[own] = [r.x, r.y, r.width, r.height];
+      // "^text": the element around the label (label + its control); "^^text": one level further (the whole row).
+      const p = el.parentElement, g = p && p.parentElement;
+      if (p) { const b = p.getBoundingClientRect(); out['^' + own] = [b.x, b.y, b.width, b.height]; }
+      if (g) { const b = g.getBoundingClientRect(); out['^^' + own] = [b.x, b.y, b.width, b.height]; }
+    }
   } return out; }"""
 
 

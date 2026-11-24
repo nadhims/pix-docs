@@ -29,14 +29,16 @@ def _mark(n, box, side=None):
     return {"n": n, "box": box, **({"side": side} if side else {})}
 
 
-def booth(page, name, screen, labels, focus=None):
-    """Render booth `screen`, mark `labels` (visible text, or (text, side), in step order), save as the page's step image."""
+def booth(page, name, screen, labels, focus=None, pad=10):
+    """Render booth `screen`, mark `labels` (visible text, or (text, side), in step order), save as the page's step image.
+    A label "^Text" marks the element around Text (label + its control), "^^Text" its whole row. Boxes grow by `pad` px."""
     png = str(TMP / f"{screen}.png")
     boxes = render(screen, (1920, 1080), png, focus=focus)
     labels = [l if isinstance(l, tuple) else (l, None) for l in labels]
     missing = [t for t, _ in labels if t not in boxes]
     assert not missing, f"{screen}: labels not on screen: {missing}"
-    draw_markers(png, out(page, name), [_mark(i + 1, boxes[t], side) for i, (t, side) in enumerate(labels)])
+    grow = lambda b: [b[0] - pad, b[1] - pad, b[2] + 2 * pad, b[3] + 2 * pad]
+    draw_markers(png, out(page, name), [_mark(i + 1, grow(boxes[t]), side) for i, (t, side) in enumerate(labels)])
 
 
 def dashboard(page, name, src, boxes, crop=None):
@@ -64,7 +66,13 @@ def operator_menu():
     booth(p, "admin-panel", "admin", [("Start on boot", "right"), ("Upload now", "below"), "Print history", ("Clean storage", "right")])
 
 
-JOBS = {"operator-menu": operator_menu}
+def flash():
+    p = "bright-live-view-with-flash"
+    booth(p, "camera-exposure", "camera", ["^ISO", "^SHUTTER", "^APERTURE", "^WHITE BALANCE", ("Save Camera Settings", "above")])
+    booth(p, "external-flash", "camera", [("^^EXTERNAL FLASH", "above"), ("Save Camera Settings", "above")], focus="EXTERNAL FLASH")
+
+
+JOBS = {"operator-menu": operator_menu, "flash": flash}
 
 if __name__ == "__main__":
     STEPS.mkdir(parents=True, exist_ok=True)
