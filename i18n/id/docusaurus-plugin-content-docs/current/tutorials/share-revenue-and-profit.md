@@ -1,13 +1,13 @@
 ---
 sidebar_position: 5
 title: Bagi Omzet dan Profit dengan Partner
-description: Atur venue dengan bagi omzet, investor dengan bagi profit plus cicilan modal, dan crew dengan bagi profit, baca bagian masing-masing, dan download laporan untuk tiap partner.
+description: Atur venue dengan bagi omzet, investor dengan bagi profit plus cicilan modal, dan crew dengan bagi profit, baca bagian masing-masing, dan kirim laporan tiap partner, sebagai PDF atau lewat email tiap bulan.
 tags: [tutorials, finance, partners, venue, investor]
 ---
 
 # Bagi Omzet dan Profit dengan Partner
 
-"Bulan ini venue dapat berapa, investor dapat berapa, saya sisa berapa?" Di tutorial ini kamu nambah tiga partner: venue yang dapat bagian dari omzet satu kiosk, investor yang dapat bagian dari profit dan modalnya dicicil balik, dan crew yang dapat bagian dari profit. Di akhir kamu baca bagian masing-masing untuk satu bulan dan download laporan untuk tiap partner. Siapkan waktu sekitar 15 menit, setelah biaya kamu sudah masuk.
+"Bulan ini venue dapat berapa, investor dapat berapa, saya sisa berapa?" Di tutorial ini kamu nambah tiga partner: venue yang dapat bagian dari omzet satu kiosk, investor yang dapat bagian dari profit dan modalnya dicicil balik, dan crew yang dapat bagian dari profit. Di akhir kamu baca bagian masing-masing untuk satu bulan, download laporan untuk tiap partner, dan biarkan Finance mengirim laporannya lewat email tiap bulan. Siapkan waktu sekitar 15 menit, setelah biaya kamu sudah masuk.
 
 ## Kapan Dipakai {#when-to-use-it}
 
@@ -51,7 +51,7 @@ Tulis perjanjiannya bareng partner sebelum dimasukkan: persentase, cakupannya (s
 ## Langkah 1: Tambah venue {#step-1-add-the-venue}
 
 1. Klik **Finance** di sidebar, buka tab **Partners** dan klik **Add partner** di kanan baris tab.
-2. Ketik **Name** venue dan pilih **Role** **Venue**. **Email** cuma untuk catatan kamu.
+2. Ketik **Name** venue dan pilih **Role** **Venue**. **Email** adalah tujuan laporannya kalau kamu kirim laporan lewat email (Langkah 6).
 3. Di **Add a term**, klik **+ Revenue share** dan ketik **Rate (%)**, misalnya 20.
 4. Atur **Scope** ke **Selected kiosks** dan centang kiosk venue itu.
 5. Biarkan **Changes apply from** di bulan ini, atau pilih bulan sebelumnya atau **The start** kalau perjanjiannya sudah jalan.
@@ -96,7 +96,7 @@ Di **Profit & Loss**, **Profit distribution** nampilin pembagian yang sama denga
 
 1. Biarkan bulan yang dipilih di atas, atau pilih **All months** untuk tahun berjalan.
 2. Di tab **Partners**, klik **Statement** di baris partner. PDF ter-download.
-3. Kirim sendiri ke partner, lewat email atau chat.
+3. Kirim sendiri ke partner, lewat email atau chat. Atau biarkan Finance mengirimnya lewat email tiap bulan (Langkah 6).
 
 <!-- SHOT-NEEDED: dashboard: the Partners tab with the Statement button on a partner's row marked -->
 
@@ -104,17 +104,29 @@ Di **Profit & Loss**, **Profit distribution** nampilin pembagian yang sama denga
 
 Laporannya cuma nampilin angka partner itu sendiri: berapa haknya dan cara ngitungnya. Gak pernah nampilin nama partner lain atau bagian kamu. Revenue share ditambah penjualan kotor per minggu, profit share ditambah net profit asalnya, dan capital repayment ditambah catatan modalnya. Nomornya diawali **RS** (revenue share), **PS** (profit share), **IS** (investor) atau **ST**.
 
+## Langkah 6: Kirim laporan lewat email tiap bulan {#step-6-email-statements-every-month}
+
+1. Di tab **Partners**, buka tiap partner, cek **Email**-nya dan nyalakan **Email statement**. Klik **Save partner**.
+2. Buka tab **Statements**. Set **Frequency** ke **Monthly** dan **Send on** ke tanggal yang kamu mau, misalnya tanggal 5.
+3. Untuk menambah akuntan kamu, klik **Add recipient**, ketik nama dan email-nya, lalu simpan.
+4. Klik **Send test**. Profit and Loss Statement masuk ke inbox kamu sendiri, ditandai "Test", jadi kamu bisa lihat email-nya dulu.
+
+![Dialog edit partner: venue dengan email-nya dan Email statement menyala](/img/docs/finance-partner-email.webp)
+
+Di tanggal kirim, tiap partner dapat laporannya sendiri dengan PDF terlampir, dan kamu dapat salinannya. Kamu dan akuntan kamu dapat Profit and Loss Statement. Setelah kamu bayar partner, klik **Mark as paid** di laporannya pada **Statement history**. Semua pilihannya ada di [Statements by Email](../dashboard/finance.md#statements-by-email).
+
 ## Cek Hasilnya {#check-it-worked}
 
 - Tab **Partners** nampilin tiap partner dengan term-nya sebagai chip, dan jumlah untuk bulan itu.
 - Baris **Owner** adalah sisanya, dikurangi cicilan modal dari bagian kamu.
 - Di **Profit & Loss**, bagian venue ada di **Variable costs**, dan **Profit distribution** nampilin investor dan crew.
 - PDF laporan terbuka dengan nama partner dan cuma angka miliknya.
+- Di **Statements**, **Next delivery** nampilin tanggal kirim dan jumlah penerima, dan email test-nya ada di inbox kamu.
 
 ## Tips {#tips}
 
 - **Perjanjian berubah? Jangan bikin partner baru.** Edit partnernya, ubah term-nya, dan pilih **Changes apply from**. Bulan-bulan sebelumnya tetap pakai angka lama. Pilih **The start** cuma untuk benerin salah ketik atau perjanjian yang memang berlaku dari awal.
-- **Mengakhiri perjanjian:** **Remove** mengakhiri partner mulai bulan ini dan menjaga bulan-bulan sebelumnya. Partner yang salah ditambahkan bulan ini langsung terhapus total.
+- **Mengakhiri perjanjian:** **Remove** mengakhiri partner mulai bulan ini dan menjaga bulan-bulan sebelumnya. Kalau kamu kirim laporan lewat email, laporan bulan terakhirnya tetap dikirim di tanggal kirim berikutnya. Partner yang salah ditambahkan bulan ini langsung terhapus total.
 - **Venue cuma dapat dari kiosk-nya sendiri.** Bagian yang diatur di satu kiosk cuma ngitung penjualan kiosk itu sendiri. Sesi di event dihitung di event-nya, jadi untuk bagi pemasukan event, taruh term-nya di **Whole business**.
 - **Total bagian gak bisa lewat 100%.** Revenue share di satu kiosk, atau di seluruh bisnis, gak bisa lebih dari 100% kalau dijumlah. Sama untuk profit share.
 - **Cek sebelum bayar.** Dialognya nampilin **Estimated,** untuk bulan itu selagi kamu ngetik, jadi bisa kamu bandingkan dengan angka di kontrak.
@@ -129,6 +141,8 @@ Laporannya cuma nampilin angka partner itu sendiri: berapa haknya dan cara ngitu
 | Venue gak dapat apa-apa dari event yang diadakan di kiosk-nya | Sesi event dihitung di event, bukan di kiosk | Taruh bagian venue di **Whole business**, atau sepakati jumlah tetap untuk event |
 | Investor gak dapat apa-apa bulan ini | Profit share nol di bulan rugi | Memang begitu; **Capital repayment** tetap jatuh tempo. Tambah **Minimum guarantee** kalau perjanjiannya menjanjikan minimum |
 | **Statement** gak ada di satu baris | Partner itu gak punya term bulan ini dan gak ada yang harus dibayar | Pilih bulan saat perjanjiannya berjalan |
+| Partner nampil **Add an email** di tab Statements | Partner itu belum punya email | Tambah email-nya di tab **Partners** dan nyalakan **Email statement** |
+| Laporan di **Statement history** bertuliskan **Not sent** | Alamat email partner menolaknya | Perbaiki email-nya di tab **Partners**, lalu klik **Send now** |
 
 ## Terkait {#related}
 
