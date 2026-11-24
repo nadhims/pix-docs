@@ -42,7 +42,7 @@ Layar ini milik satu event. Untuk booth yang jalan sendiri tiap hari (booth Kios
 
 ## Langkah 2: Buka editornya {#step-2-open-the-editor}
 
-Di kartu **Booth mode**:
+Masih di tab **Setup**, nomornya lanjut dari Step 1 (sama dengan tanda di gambar). Di kartu **Booth mode**:
 
 3. Buka tab **Appearance**. Tab ini nampilin layar start yang sekarang dengan "Make it yours: your names, a photo and your colours."
 4. Klik **Edit appearance**.

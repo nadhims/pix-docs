@@ -21,7 +21,7 @@ Pix AI, the AI portrait shop and AI credits are open to beta accounts only. If y
 
 The portrait is sold after the session, on the customer's phone. It adds to what a session earns, it does not replace your price.
 
-### What the Customer Sees {#what-the-guest-sees}
+### What the Customer Sees
 
 1. After a photo session, the customer opens their share page and finds a banner above their photos: "One shot, a new look".
 2. The banner opens the shop page. The customer picks one of their photos and one look, taps **Generate**, chooses digital or digital + print when the booth offers a print, and pays through your payment gateway (QRIS in Indonesia, card elsewhere).
@@ -66,13 +66,11 @@ The portrait is sold after the session, on the customer's phone. It adds to what
 
 1. Open **Booths**, click **Configure** on the booth, then the **Pricing** tab and scroll down. Beta accounts see a card called **AI portrait on the share page**.
 
-   ![Booth Pricing tab, full page, with the Sell sessions online card, the Payment on this booth switch and the pricing sub-tabs](/img/docs/steps/tutorials-sell-ai-portraits--booth-pricing-full.webp)
+   ![Booth Pricing tab with the AI portrait on the share page card, the Sell AI portraits on the share page and Offer a print at this booth switches, and Save marked](/img/docs/steps/tutorials-sell-ai-portraits--booth-pricing-full.webp)
 
 2. Turn on **Sell AI portraits on the share page** and enter the **Price per portrait**.
 3. To sell prints, turn on **Offer a print at this booth** and enter the **Digital + print price** (the portrait and the print together).
 4. Click **Save** on the card.
-
-<!-- SHOT-NEEDED: dashboard: the AI portrait on the share page card on a beta account's booth Pricing tab, with its switches and prices -->
 
 ## Step 4: Check the Gateway and the Payment Switch
 
@@ -81,7 +79,7 @@ The portrait is sold after the session, on the customer's phone. It adds to what
 
 ![Booth Settings tab with Payment Gateway and Active Gateway, Booth Info and Currency](/img/docs/steps/tutorials-sell-ai-portraits--booth-settings-tab.webp)
 
-## Step 5: Try It as a Customer {#step-5-try-it-as-a-guest}
+## Step 5: Try It as a Customer
 
 1. Run a session on the booth and scan the share QR with your phone. The banner sits above the photos.
 2. Pick a photo and a look, tap **Generate**, pay, and wait while the page says "Warming up" and "Almost there". The portrait appears on your share page.

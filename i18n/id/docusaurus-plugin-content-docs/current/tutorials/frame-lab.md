@@ -57,7 +57,7 @@ Di **Studio assets** di tab yang sama, pilih **Texture** atau **Graphic** lalu k
 
 ## Langkah 3: Bagikan Link Pelanggan {#step-3-share-the-customer-link}
 
-1. Masih di tab Frame Lab, scroll ke **Guest upload page**. QR code dan link-nya membuka Frame Lab untuk booth yang kamu pilih, dengan bentuk `pixture.io/m/your-organisation?booth=…`.
+1. Masih di tab Frame Lab, scroll ke **Guest upload page**. Ini satu halaman bersama, sama untuk semua booth. Link-nya berbentuk `pixture.io/m/your-organisation?booth=…`; ujungnya cuma nyebut booth yang kamu pilih, biar halamannya tahu format cetak booth itu.
 2. Klik **Open link** untuk tes di HP kamu sendiri, atau cetak QR-nya dan taruh di booth.
 
 ![Halaman Frame Lab booth dengan link pelanggan, Download QR dan kartu konfigurasi](/img/docs/booth-frame-lab.webp)
@@ -147,6 +147,7 @@ Aturan yang perlu diketahui crew:
 
 ## Tips {#tips}
 
+- **Penjualan online selalu masuk ke gateway Active di akun.** Booth yang milih gateway sendiri di tab **Settings** tetap ngirim penjualan Frame Lab ke gateway yang bertanda **Active**. Venue yang harus nerima penjualan ini langsung butuh akun Pixture sendiri. Lihat [Bikin Payment Gateway](./create-a-payment-gateway.md).
 - **Taruh QR di tempat orang nunggu,** di booth dan di awal antrean: desain frame butuh beberapa menit, jadi waktu nunggu berubah jadi waktu desain.
 - **Pajang dua atau tiga contoh frame** yang dibuat dengan tekstur kamu di sebelah QR. Orang niru apa yang mereka lihat.
 - **Atur Voucher expiry cukup panjang** sesuai cara orang pakai: 24 sampai 48 jam untuk pelanggan yang lewat, sampai 168 jam (7 hari) kalau tuan rumah desain frame sebelum pesta.

@@ -114,7 +114,7 @@ Only one program can control a camera over USB. If EOS Utility, Lightroom, Imagi
 <TabItem value="mac" label="Mac">
 
 1. Quit EOS Utility and every other camera app: click its window and press Command-Q. Closing the window is not enough.
-2. Stop it opening by itself: **System Settings > General > Login Items & Extensions** (**Login Items** before macOS 15), select EOS Utility and click the minus (–) button.
+2. Stop it opening by itself: **System Settings > General > Login Items & Extensions** (**Login Items** before macOS 15), select EOS Utility and click the minus (-) button.
 3. Plug the camera into a port on the Mac and turn it on.
 
 </TabItem>

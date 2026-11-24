@@ -143,7 +143,7 @@ If a coin acceptor or card reader starts sessions by pressing F13, tick **F13** 
 | **Save** opens the Pix Pro modal | The account is on Pix Starter | Start the free trial or buy Pix Pro |
 | A screen never appears on the booth | **Enabled in session flow** is off for that page; for the Payment Screen, **Payment on this booth** is off or the computer is on Pix Starter | Turn the page on; check the booth's Pricing tab |
 | The booth still shows the old design | The project is not assigned to that booth | Booth > **UI Project** tab, pick the project, **Save** |
-| A Studio project cannot be chosen for a booth | The booth's Pixture Photobooth app is older than 1.1.98 | Update the app from the operator menu (**Check for Updates**) |
+| A booth with a Studio project still runs the normal photo session | The booth's Pixture Photobooth app is older than 1.1.98; the booth's page shows a warning to update it. An older booth runs the normal photo session until it updates | Update the app from the operator menu (**Check for Updates**) |
 | Customers cannot start a session | No session trigger ticked and no Start Button on the canvas | Tick **Touch Screen** or add a **Start Button** |
 
 ## Related

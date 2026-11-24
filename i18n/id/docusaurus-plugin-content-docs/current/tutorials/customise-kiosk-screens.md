@@ -143,7 +143,7 @@ Kalau coin acceptor atau card reader memulai sesi dengan menekan F13, centang **
 | **Save** membuka modal Pix Pro | Akunnya di Pix Starter | Mulai free trial atau beli Pix Pro |
 | Satu layar gak pernah muncul di booth | **Enabled in session flow** mati untuk halaman itu; untuk Payment Screen, **Payment on this booth** mati atau komputernya di Pix Starter | Nyalakan halamannya; cek tab Pricing di booth |
 | Booth masih nampilin desain lama | Project-nya belum dipasang ke booth itu | Booth > tab **UI Project**, pilih project, **Save** |
-| Project Studio gak bisa dipilih untuk booth | Aplikasi Pixture Photobooth di booth lebih lama dari 1.1.98 | Update aplikasinya dari menu operator (**Check for Updates**) |
+| Booth dengan project Studio masih jalanin sesi foto biasa | Aplikasi Pixture Photobooth di booth lebih lama dari 1.1.98; halaman booth-nya nampilin peringatan untuk update. Booth yang lebih lama tetap jalanin sesi foto biasa sampai di-update | Update aplikasinya dari menu operator (**Check for Updates**) |
 | Pelanggan gak bisa mulai sesi | Gak ada session trigger yang dicentang dan gak ada Start Button di kanvas | Centang **Touch Screen** atau tambahkan **Start Button** |
 
 ## Terkait {#related}

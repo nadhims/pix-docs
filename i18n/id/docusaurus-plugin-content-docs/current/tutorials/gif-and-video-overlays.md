@@ -30,7 +30,7 @@ Lewati overlay kalau GIF-nya harus bersih, misalnya klien galeri seni yang gak m
 
 - **Ukuran:** persis **1280 x 720 px** untuk landscape atau **720 x 1280 px** untuk portrait. Orientasi PNG menentukan bentuk GIF-nya, jadi sesuaikan dengan cara booth kamu membingkai orang: booth landscape butuh overlay landscape.
 - **Bagian tengah transparan:** wajah ada di tengah. Biarkan bagian itu tembus pandang penuh, dan taruh logo, nama dan tanggal di satu pita di salah satu tepi atau di pojok.
-- **Sisakan margin aman.** Booth menarik overlay sampai menutupi seluruh frame GIF. Kalau bentuk frame beda dengan PNG kamu, overlay terpotong rata di dua tepi yang berseberangan, jadi jauhkan teks dan logo dari tepi dan cek di GIF tes.
+- **Sisakan margin aman.** Booth memperbesar overlay secara rata sampai menutupi seluruh frame GIF. Kalau bentuk frame beda dengan PNG kamu, overlay terpotong rata di dua tepi yang berseberangan, jadi jauhkan teks dan logo dari tepi dan cek di GIF tes.
 - **Kebaca di foto apa pun:** teks putih dengan bayangan gelap yang lembut, atau teks di atas pita solid, tetap kebaca di background terang maupun gelap.
 - **File:** PNG transparan, maksimal 10 MB.
 
@@ -101,8 +101,7 @@ Kalau ada lebih dari satu overlay di daftar, tamu dapat bergiliran, satu per vid
 |---|---|---|
 | "Please choose a transparent PNG." | Filenya bukan PNG (misalnya JPG yang diganti namanya jadi .png) | Export PNG asli dengan transparansi |
 | "File too large. Maximum 10 MB." | PNG-nya lebih dari 10 MB | Export persis 1280 x 720 atau 720 x 1280; frame seukuran itu jauh di bawah batas |
-| Logo atau teks terpotong di tepi GIF | Overlay ditarik menutupi frame dan sisanya dipotong | Jauhkan teks dan logo dari tepi |
-| Frame kelihatan melar atau gepeng | PNG-nya bukan 1280 x 720 atau 720 x 1280 | Export ulang di ukuran persis dan tambahkan lagi |
+| Logo atau teks terpotong di tepi GIF | Overlay diperbesar rata sampai menutupi frame (gak pernah ditarik melar), dan kalau bentuk PNG beda dengan frame, sisanya dipotong | Jauhkan teks dan logo dari tepi, atau export ulang PNG di 1280 x 720 atau 720 x 1280 |
 | GIF-nya gak punya frame | Belum ada overlay yang dipilih, atau setelan event atau booth belum disimpan | Pilih di **GIF overlay** dan klik **Save**, atau pilih di tab **GIF template** event |
 | Overlay-nya gak ada di daftar **GIF overlay** booth | Overlay itu ditambahkan di event lewat **Add GIF template**, yang cuma untuk event itu | Tambahkan di **Pix Design > GIF/Video overlay** |
 

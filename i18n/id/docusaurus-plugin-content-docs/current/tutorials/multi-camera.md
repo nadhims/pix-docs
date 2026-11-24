@@ -75,7 +75,7 @@ Baris bertanda **not connected** artinya kameranya kecabut atau mati. **Prefligh
 - **Pilihannya nempel.** Pelanggan yang gak pernah tap kartu bakal motret semua foto di kamera yang sama, jadi taruh angle terbaikmu paling atas.
 - **Tiap foto nunggu pelanggan.** Dengan Multi camera nyala, foto gak countdown sendiri: pelanggan mulai tiap foto setelah milih angle. Kasih waktu sesi sedikit lebih panjang kalau desainmu pakai session timer.
 - **Gak ada kamera tetap per foto.** Template gak bisa ngatur "foto 1 di Front, foto 2 di High angle": pelanggan milih setiap kali.
-- **Di mana gak muncul:** booth event, sesi Video, GIF dan live photo, mode AI, Studio dan Scratch. Semuanya pakai kamera utama.
+- **Di mana gak muncul:** booth event, sesi Video, GIF dan live photo, mode AI, Studio dan **Notes**. Semuanya pakai kamera utama.
 - **Terangi setiap angle.** Kamera dari atas lihat ubun-ubun dan lantai. Cek tiap angle dengan orang berdiri di posisi pelanggan.
 
 ## Kalau Ada Masalah {#troubleshooting}

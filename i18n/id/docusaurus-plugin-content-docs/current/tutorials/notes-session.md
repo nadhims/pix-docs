@@ -100,7 +100,7 @@ Kedua pilihan **After Photo** butuh **Photo** tercentang di event, atau **Photo*
 
 Bawaannya, pesan ditulis di cetakan itu sendiri:
 
-1. Buka **Pix Design > Templates** dan buka template yang dicetak booth.
+1. Buka **Pix Design > Template Editor** dan buka template yang dicetak booth.
 2. Di **Note area**, klik **+ Add note area**. Geser dan ubah ukuran kotaknya di atas ruang kosong yang sudah kamu siapkan. Satu per template.
 3. Simpan template-nya.
 

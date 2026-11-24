@@ -102,7 +102,8 @@ Rules that only apply to Event Passes:
 
 - An Event Pass is used at the booth, never from the dashboard.
 - A running Event Pass is never lost. If its computer is unlinked, deactivated, removed or logged out, the Event Pass is set aside with the same end time, and the next event computer that starts its booth continues it. A computer in Kiosk mode cannot pick it up, and the 24 hours keep counting while it waits.
-- A computer paired while you hold unused Event Passes stays Blocked (an event computer reads **Needs a pass**) until one is used on it. Pixture never starts an Event Pass for you, since that would start the 24 hours without asking.
+- A computer paired while you hold unused Event Passes stays Blocked (an event computer reads **Needs a pass**) until one is used on it. Pixture never starts the first Event Pass on a newly paired computer for you, since that would start the 24 hours without asking.
+- Once an event computer has had a pass, it is different: if that pass runs out mid-event, the next session start puts a spare Pix Pro on it or starts a spare Event Pass, with no confirm. See [Run an Event](./run-an-event.md).
 
 ## Step 6: On Pix Starter
 

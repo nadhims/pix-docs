@@ -101,5 +101,5 @@ Booths that are online get the new keys on their own, without a restart. A booth
 
 - [Button keys](../dashboard/pix-design/button-keys.md)
 - [UI Editor](../dashboard/pix-design/ui-editor.md)
-- [Customise the Kiosk Screens](./customise-kiosk-screens.md)
+- [Customise the Booth Screens](./customise-kiosk-screens.md)
 - [Connect a Coin or Card Reader](./connect-a-coin-or-card-reader.md)

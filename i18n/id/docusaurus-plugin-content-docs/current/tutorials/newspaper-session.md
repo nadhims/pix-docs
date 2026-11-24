@@ -12,10 +12,10 @@ Di tutorial ini kamu bikin template koran, bikin desain layar Newspaper, pasang 
 ## Kapan Dipakai {#when-to-use-it}
 
 - **Booth self-service di mall atau museum.** Halaman depan yang live itu daya tariknya: orang berhenti begitu lihat wajahnya sendiri di koran.
-- **Brand activation atau launching.** Korannya bawa headline brand dan tanggal acara, dan tiap tamu pulang bawa suvenir cetak.
-- **Wedding atau ulang tahun.** "Edisi spesial" dengan cerita pasangan atau headline ulang tahun.
+- **Booth kiosk yang dipasang di brand activation atau launching.** Korannya bawa headline brand dan tanggalnya, dan tiap pelanggan pulang bawa suvenir cetak.
+- **Booth kiosk yang dipasang di pesta wedding atau ulang tahun.** "Edisi spesial" dengan cerita pasangan atau headline ulang tahun, selama booth-nya jalan sebagai kiosk dan bukan sebagai event Pixture.
 
-Newspaper adalah mode booth untuk booth kiosk, dengan template khusus. Mode ini gak jalan di event: untuk event, pakai [Run an Event](./run-an-event.md) dengan mode Photo dan template bergaya koran.
+Newspaper adalah mode booth untuk booth kiosk, dengan template khusus. Mode ini gak jalan di dalam event Pixture: untuk event, pakai [Jalankan Event](./run-an-event.md) dengan mode Photo dan template bergaya koran.
 
 ## Sebelum Mulai {#before-you-start}
 
@@ -33,7 +33,7 @@ Newspaper adalah mode booth untuk booth kiosk, dengan template khusus. Mode ini 
 
 ## Langkah 1: Bikin template koran {#step-1-make-a-newspaper-template}
 
-1. Buka **Pix Design > Templates** dan klik **New Project**.
+1. Buka **Pix Design > Template Editor** dan klik **New Project**.
 2. Di **Media Type**, pilih **Newspaper** ("Newspaper booths"). Petunjuknya bilang "Shows only on Newspaper booths. A3 recommended, any size works." dan **A3** langsung terpilih.
 3. Ganti **Print Size** kalau printer kamu butuh ukuran lain.
 4. Upload PNG kamu di **Template PNG** dan klik **Create Project**.
