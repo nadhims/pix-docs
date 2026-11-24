@@ -69,30 +69,32 @@ Pick one of the two fixes.
 <Tabs groupId="camera-brand">
 <TabItem value="canon" label="Canon">
 
-Set **Exposure simulation** to off.
+- **DSLRs** (for example EOS 90D): in the shooting menu, set **Expo. simulation** to **Disable**. Canon: "The image is displayed at standard brightness, so it is easy to see."
+- **Newer EOS R mirrorless** (for example EOS R7, R10): in the shooting menu, set **Display simulation** to **Disable**.
 
-<!-- SHOT-NEEDED: hardware: Canon menu with Exposure simulation -->
+<!-- SHOT-NEEDED: hardware: Canon menu with Expo. simulation set to Disable -->
 
 </TabItem>
 <TabItem value="sony" label="Sony">
 
-Set **Live View Display** to **Setting Effect OFF**.
+- **Newer bodies** (for example a7 IV): **MENU > Shooting > Shooting Display > Live View Display Set.**, then set **Live View Display** to **Setting Effect OFF**. Sony's manual names studio flash as the case where live view goes dark.
+- **Older bodies** (for example a6000): **MENU > Custom Settings > Live View Display > Setting Effect OFF**.
 
-<!-- SHOT-NEEDED: hardware: Sony menu with Live View Display: Setting Effect OFF -->
+<!-- SHOT-NEEDED: hardware: Sony menu with Live View Display set to Setting Effect OFF -->
 
 </TabItem>
 <TabItem value="nikon" label="Nikon Z">
 
-Set **Apply settings to live view** to off.
+In the **Custom Settings menu**, set **Apply settings to live view** to **Off**. Its number differs by model (d6 on the Z30, d7 on the Zfc).
 
-<!-- SHOT-NEEDED: hardware: Nikon Z menu with Apply settings to live view -->
+<!-- SHOT-NEEDED: hardware: Nikon Z Custom Settings menu with Apply settings to live view set to Off -->
 
 </TabItem>
 <TabItem value="fujifilm" label="Fujifilm">
 
-Set **Preview Exp./WB in Manual Mode** to off.
+In **SET UP > SCREEN SET-UP**, set **PREVIEW EXP./WB IN MANUAL MODE** to **OFF**. Fujifilm's manual recommends **OFF** "when using a flash".
 
-<!-- SHOT-NEEDED: hardware: Fujifilm menu with Preview Exp./WB in Manual Mode -->
+<!-- SHOT-NEEDED: hardware: Fujifilm SCREEN SET-UP menu with PREVIEW EXP./WB IN MANUAL MODE set to OFF -->
 
 </TabItem>
 </Tabs>
@@ -101,7 +103,7 @@ With exposure preview off, the live view no longer shows how bright the photo wi
 
 ## Step 4: Canon DSLR only: turn on EXTERNAL FLASH
 
-Many Canon DSLRs do not fire a non-Canon flash or a wireless trigger while live view runs. Canon's EOS 600D manual says: "A non-Canon flash will not fire during Live View shooting." The booth can pause live view for each photo so the flash fires.
+Some Canon DSLRs do not fire a non-Canon flash or a wireless trigger while live view runs. Canon's EOS 600D manual says: "A non-Canon flash will not fire during Live View shooting." The booth can pause live view for each photo so the flash fires.
 
 1. In **Camera Settings**, scroll down to **CAPTURE** and turn on **EXTERNAL FLASH**.
 2. Tap **Save Camera Settings**.
