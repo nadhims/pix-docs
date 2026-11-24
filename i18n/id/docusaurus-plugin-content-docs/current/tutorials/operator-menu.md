@@ -13,7 +13,7 @@ Menu operator adalah tempat kamu ngubah setelan kamera, printer dan capture, cet
 
 Menu operator ada di **komputer booth**: Mac atau PC Windows yang tersambung ke kamera dan printer, yang jalanin aplikasi Pixture Photobooth. Menu ini gak ada di dashboard Pixture di pixture.io, yang bisa kamu buka dari komputer atau HP mana pun.
 
-## Kapan Dipakai
+## Kapan Dipakai {#when-to-use-it}
 
 - **Booth self-service di mall atau venue.** Gak ada yang jagain booth seharian. Tanpa PIN, pelanggan iseng yang tap sudut layar dua kali bisa nyasar ke setelan kamera dan printer kamu.
 - **Event dengan crew.** Crew kamu perlu ganti kertas, cetak ulang foto atau benerin kamera tanpa login dashboard kamu. Kasih mereka PIN, bukan password kamu.
@@ -21,13 +21,13 @@ Menu operator ada di **komputer booth**: Mac atau PC Windows yang tersambung ke 
 
 Pasang PIN di setiap booth di tempat umum. Satu-satunya booth yang boleh tanpa PIN adalah komputer yang cuma kamu sendiri yang pegang.
 
-## Sebelum Mulai
+## Sebelum Mulai {#before-you-start}
 
 - Booth yang sudah di-pairing dengan aplikasi Pixture Photobooth. Lihat [Bikin Booth dari Nol](./set-up-a-booth.md).
 - Akses ke **Settings** di dashboard Pixture (pemilik akun punya akses ini).
 - Paket apa saja: PIN menu jalan di Pix Starter dan Pix Pro.
 
-## Langkah 1: Pasang PIN menu untuk semua booth kamu
+## Langkah 1: Pasang PIN menu untuk semua booth kamu {#step-1-set-a-menu-pin-for-all-your-booths}
 
 1. Di dashboard, klik **Settings** di sidebar.
 2. Klik **Security**.
@@ -39,7 +39,7 @@ Pasang PIN di setiap booth di tempat umum. Satu-satunya booth yang boleh tanpa P
 
 Sekarang setiap booth di akun ini minta PIN tersebut. Booth yang online langsung ngecek PIN ke Pixture. Booth yang offline pakai PIN terakhir yang di-download, jadi tetap terkunci.
 
-## Langkah 2: Kasih satu booth PIN sendiri (opsional)
+## Langkah 2: Kasih satu booth PIN sendiri (opsional) {#step-2-give-one-booth-its-own-pin-optional}
 
 1. Klik **Booths** di sidebar dan buka booth-nya.
 2. Buka tab **Settings**.
@@ -54,7 +54,7 @@ Booth ini sekarang minta PIN-nya sendiri, bukan PIN akun. Selama booth masih pak
 **Disable** matiin PIN menu untuk booth ini, walaupun akunnya punya PIN. Setelah itu siapa pun yang tap sudut layar dua kali bisa buka menunya. Untuk ngunci lagi, pasang PIN di booth ini.
 :::
 
-## Langkah 3: Buka menu di booth
+## Langkah 3: Buka menu di booth {#step-3-open-the-menu-at-the-booth}
 
 Membuka menu bakal mengakhiri sesi foto yang lagi tampil, jadi buka di sela-sela pelanggan, jangan pernah saat ada yang lagi berpose.
 
@@ -66,7 +66,7 @@ Membuka menu bakal mengakhiri sesi foto yang lagi tampil, jadi buka di sela-sela
 
 PIN yang salah nampilin "Incorrect PIN". Setelah sekitar 20 percobaan dalam satu menit, booth menolak semua PIN untuk sementara, jadi nebak-nebak gak bakal berhasil.
 
-## Langkah 4: Kenali isi menu
+## Langkah 4: Kenali isi menu {#step-4-find-your-way-around-the-menu}
 
 Menu terbuka dengan cek kesiapan di kiri ("Ready to start" kalau kamera dan printer aman) dan setelan di kanan.
 
@@ -81,7 +81,7 @@ Menu terbuka dengan cek kesiapan di kiri ("Ready to start" kalau kamera dan prin
 
 Bar di atas nampilin **Internet**, **API** (server Pixture) dan **Uploads**. Hijau artinya aman. Merah nunjukin bagian mana yang perlu kamu cek sebelum pelanggan datang.
 
-## Langkah 5: Pakai Admin Panel
+## Langkah 5: Pakai Admin Panel {#step-5-use-the-admin-panel}
 
 1. **Start on boot**: biarkan nyala, biar booth terbuka sendiri saat komputer nyala. Lihat [Bikin Booth Nyala Sendiri Setelah Listrik Padam](./start-after-a-power-cut.md).
 2. **Upload now**: ngirim foto yang masih antre, misalnya setelah internet balik.
@@ -90,23 +90,23 @@ Bar di atas nampilin **Internet**, **API** (server Pixture) dan **Uploads**. Hij
 
 ![Admin Settings dengan Start on boot, Upload now, Print history dan Clean storage ditandai](/img/docs/steps/tutorials-operator-menu--admin-panel.webp)
 
-## Langkah 6: Balikin booth ke pelanggan
+## Langkah 6: Balikin booth ke pelanggan {#step-6-hand-the-booth-back-to-customers}
 
 Tap **Start Booth** di menu (atau **Back to Menu**, terus **Start Booth**). Booth balik ke layar Start, dan setelan yang kamu ubah berlaku mulai sesi berikutnya.
 
-### Keluar dari aplikasi booth
+### Keluar dari aplikasi booth {#leave-the-booth-app}
 
 Untuk masuk ke desktop komputer, misalnya buat install driver printer, tap **Exit** di menu, terus **Exit App**. Aplikasinya tertutup. Buka lagi dari desktop atau Dock kalau sudah selesai.
 
 **Logout** di kartu yang sama memutus komputer dari booth (double-tap, terus masukkan PIN). Pakai ini cuma kalau komputer ini gak lagi jadi booth tersebut.
 
-## Cek Hasilnya
+## Cek Hasilnya {#check-it-worked}
 
 - Tap sudut kanan atas dua kali: pad **Enter Admin PIN** muncul.
 - PIN yang salah nampilin "Incorrect PIN" dan menu tetap tertutup.
 - PIN yang benar membuka menu, dan **Start Booth** balikin layar pelanggan.
 
-## Tips
+## Tips {#tips}
 
 - **Cara tercepat cetak ulang saat event:** dua tap di sudut, PIN, **Admin Panel**, **Print history**, terus **Print again**. Ajarin ke siapa pun yang jaga booth.
 - **Pindahkan ikon gembok** kalau desain kamu naruh tombol di sudut kanan atas: di **Pix Design**, buka desain layar booth di UI Editor, terus di layar Start ubah **Lock button** ke sudut lain (**Top left**, **Bottom right** atau **Bottom left**) dan atur opacity-nya.
@@ -114,7 +114,7 @@ Untuk masuk ke desktop komputer, misalnya buat install driver printer, tap **Exi
 - **Ganti PIN kalau ada crew yang keluar.** Pasang PIN baru di **Settings > Security**. Booth yang online langsung pakai PIN baru.
 - Hindari PIN kayak 1234, 0000 atau angka tahun. Pelanggan nyoba itu duluan.
 
-## Kalau Ada Masalah
+## Kalau Ada Masalah {#troubleshooting}
 
 | Masalah | Kenapa | Solusinya |
 |---|---|---|
@@ -125,7 +125,7 @@ Untuk masuk ke desktop komputer, misalnya buat install driver printer, tap **Exi
 | PIN baru gak jalan di satu booth | Booth itu offline dan masih pakai PIN terakhir yang di-download | Pakai PIN lama sampai booth online lagi |
 | Semua PIN ditolak untuk sementara | Terlalu banyak percobaan dalam satu menit | Tunggu satu menit dan ketik sekali dengan hati-hati |
 
-## Terkait
+## Terkait {#related}
 
 - [Referensi Menu Operator](../desktop-app/admin-panel.md)
 - [Bikin Booth Nyala Sendiri Setelah Listrik Padam](./start-after-a-power-cut.md)

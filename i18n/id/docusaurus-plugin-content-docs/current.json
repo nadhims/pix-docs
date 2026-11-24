@@ -2,5 +2,29 @@
   "sidebar.docsSidebar.category.Get the Booth Computer Ready": {
     "message": "Siapkan Komputer Booth",
     "description": "The label for category Get the Booth Computer Ready in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Design": {
+    "message": "Desain",
+    "description": "The label for category Design in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.The Booth": {
+    "message": "Booth",
+    "description": "The label for category The Booth in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Photo Sessions and Sharing": {
+    "message": "Sesi Foto dan Sharing",
+    "description": "The label for category Photo Sessions and Sharing in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Payments": {
+    "message": "Pembayaran",
+    "description": "The label for category Payments in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Events and Self-Service": {
+    "message": "Event dan Self-Service",
+    "description": "The label for category Events and Self-Service in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Running the Business": {
+    "message": "Jalankan Bisnis",
+    "description": "The label for category Running the Business in sidebar docsSidebar"
   }
 }

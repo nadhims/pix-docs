@@ -17,7 +17,7 @@ Aplikasi Pixture Photobooth sudah jalan dalam layar penuh dan tetap di atas jend
 - **Di Mac**, kiosk mode aplikasi nyembunyiin Dock dan menu bar, dan matiin perpindahan antar-aplikasi. Yang tersisa tinggal notifikasi, hot corner dan screen saver.
 - **Di Windows**, aplikasi tampil layar penuh, tapi Windows tetap merespons swipe dari tepi layar di layar sentuh: swipe ke atas nampilin taskbar, dari kanan notification centre, dari kiri widget. Nyembunyiin taskbar saja gak cukup, soalnya swipe tetap bisa munculin lagi.
 
-## Kapan Dipakai
+## Kapan Dipakai {#when-to-use-it}
 
 - **Booth layar sentuh yang dipakai pelanggan sendiri**: kiosk di mall, studio self-service, box pop-up.
 - **Booth yang layarnya dipakai anak-anak.** Mereka swipe ke mana-mana.
@@ -25,13 +25,13 @@ Aplikasi Pixture Photobooth sudah jalan dalam layar penuh dan tetap di atas jend
 
 Gak perlu di booth tanpa layar sentuh yang keyboard-nya cuma kamu yang pegang, tapi langkah notifikasinya tetap berguna.
 
-## Sebelum Mulai
+## Sebelum Mulai {#before-you-start}
 
 - Akun administrator di komputer booth.
 - Di Windows, edisinya: **Settings > System > About** nampilin Windows 11 Home, Pro atau edisi lain. Langkah 1 tergantung edisi ini.
 - Pixture Photobooth sudah terpasang dan di-pairing. Lihat [Bikin Booth dari Nol](./set-up-a-booth.md).
 
-## Langkah 1: Matiin swipe dari tepi layar
+## Langkah 1: Matiin swipe dari tepi layar {#step-1-turn-off-edge-swipes}
 
 <Tabs groupId="os">
 <TabItem value="windows" label="Windows">
@@ -65,7 +65,7 @@ Gak ada yang perlu dilakukan: macOS gak punya swipe dari tepi layar sentuh, dan 
 </TabItem>
 </Tabs>
 
-## Langkah 2: Sembunyikan taskbar atau Dock
+## Langkah 2: Sembunyikan taskbar atau Dock {#step-2-hide-the-taskbar-or-dock}
 
 <Tabs groupId="os">
 <TabItem value="windows" label="Windows">
@@ -85,7 +85,7 @@ Gak ada yang perlu dilakukan: aplikasi booth nyembunyiin Dock dan menu bar selam
 </TabItem>
 </Tabs>
 
-## Langkah 3: Bungkam notifikasi
+## Langkah 3: Bungkam notifikasi {#step-3-silence-notifications}
 
 <Tabs groupId="os">
 <TabItem value="windows" label="Windows">
@@ -109,7 +109,7 @@ Di Windows 10, setelan yang sama namanya **Focus assist** di **Settings > System
 </TabItem>
 </Tabs>
 
-## Langkah 4: Matiin hot corner dan screen saver (Mac)
+## Langkah 4: Matiin hot corner dan screen saver (Mac) {#step-4-turn-off-hot-corners-and-the-screen-saver-mac}
 
 <Tabs groupId="os">
 <TabItem value="mac" label="Mac">
@@ -128,20 +128,20 @@ Windows gak punya hot corner. Setelan sleep dan layar ada di [Bikin Booth Nyala 
 </TabItem>
 </Tabs>
 
-## Cek Hasilnya
+## Cek Hasilnya {#check-it-worked}
 
 1. Buka booth di layar Start.
 2. Swipe dari keempat tepi layar, dan swipe ke atas dari bawah, persis kayak pelanggan.
 3. Gerakkan mouse (kalau ada) ke setiap sudut dan tunggu 10 detik.
 4. Gak ada apa pun selain booth yang muncul, dan gak ada notifikasi selama sesi tes.
 
-## Tips
+## Tips {#tips}
 
 - **Hapus aplikasi yang gak dibutuhkan booth.** Setiap aplikasi chat, cloud atau updater berarti satu hal lagi yang bisa muncul tiba-tiba. Komputer booth cukup jalanin Pixture Photobooth plus driver printer dan kamera.
 - **Setelan sleep dan layar mati** ada di [Bikin Booth Nyala Sendiri Setelah Listrik Padam](./start-after-a-power-cut.md): layar yang mati sendiri kelihatan kayak booth rusak.
 - **Perlu pakai komputernya di tengah hari?** Buka menu operator, tap **Exit**, terus **Exit App**. Lihat [Kunci Booth dan Pakai Menu Operator](./operator-menu.md).
 
-## Kalau Ada Masalah
+## Kalau Ada Masalah {#troubleshooting}
 
 | Masalah | Kenapa | Solusinya |
 |---|---|---|
@@ -152,7 +152,7 @@ Windows gak punya hot corner. Setelan sleep dan layar ada di [Bikin Booth Nyala 
 | Mac nampilin screen saver atau ngunci layar | Hot corner atau timer screen saver | Langkah 4 |
 | Taskbar atau Dock kelihatan dan booth tampil di jendela | Aplikasi booth tertutup atau belum di-pairing | Buka Pixture Photobooth. Booth yang sudah di-pairing terbuka dalam layar penuh |
 
-## Terkait
+## Terkait {#related}
 
 - [Bikin Booth Nyala Sendiri Setelah Listrik Padam](./start-after-a-power-cut.md)
 - [Kunci Booth dan Pakai Menu Operator](./operator-menu.md)

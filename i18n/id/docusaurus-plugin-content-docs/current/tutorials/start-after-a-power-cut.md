@@ -19,7 +19,7 @@ Ada empat hal yang harus beres, dan masing-masing setelannya beda:
 3. Komputer **gak sleep** dan **gak restart untuk update** selama jam buka.
 4. Aplikasi Pixture Photobooth **terbuka saat login**. Yang ini sudah nyala dari awal.
 
-## Kapan Dipakai
+## Kapan Dipakai {#when-to-use-it}
 
 - **Booth self-service di mall atau venue**, yang gak dijaga siapa-siapa saat gedung nyalain listrik lagi di pagi hari.
 - **Venue yang matiin listrik di malam hari**, atau ikut matiin colokan booth bareng lampu.
@@ -28,19 +28,19 @@ Ada empat hal yang harus beres, dan masing-masing setelannya beda:
 
 Gak perlu untuk sewa event yang booth-nya kamu nyalain sendiri, tapi langkah sleep dan update tetap berguna di sana.
 
-## Sebelum Mulai
+## Sebelum Mulai {#before-you-start}
 
 - Akses ke komputer booth dengan akun administrator.
 - Untuk Windows: merek komputernya (Dell, HP, Lenovo, ASUS, merek mini PC), biar kamu tahu tombol mana yang membuka layar setup-nya.
 - Pixture Photobooth sudah terpasang dan di-pairing. Lihat [Bikin Booth dari Nol](./set-up-a-booth.md).
 
-## Persiapan
+## Persiapan {#prepare}
 
 - **Pakai akun komputer khusus untuk booth.** Login otomatis melewati password, jadi siapa pun yang nyalain komputer langsung masuk. Jangan pakai akun yang nyimpen email atau rekening bank kamu.
 - **Mac dengan FileVault gak bisa login sendiri.** FileVault mengenkripsi disk dan minta password setiap kali Mac nyala, jadi setelah listrik padam Mac nunggu di layar password. Apple juga matiin login otomatis selama FileVault nyala. Pilihannya ada dua. Matiin FileVault di **System Settings > Privacy & Security > FileVault**, biar Mac nyala sendiri. Risikonya, siapa pun yang bawa kabur Mac itu bisa baca isi disk-nya, termasuk foto, jadi taruh Mac di tempat yang gak bisa dibawa pergi. Atau biarkan FileVault nyala, dan harus ada orang yang ngetik password setiap habis listrik padam.
 - **MacBook gak punya setelan power failure.** Setelan ini ada di Mac desktop (Mac mini, iMac, Mac Studio, Mac Pro). MacBook yang dicolok charger tetap jalan pakai baterai saat listrik padam sebentar. MacBook dengan Apple silicon di macOS 15 atau lebih baru nyala sendiri saat kamu sambungkan ke listrik.
 
-## Langkah 1: Bikin komputer nyala saat listrik balik
+## Langkah 1: Bikin komputer nyala saat listrik balik {#step-1-make-the-computer-power-on-when-electricity-returns}
 
 <Tabs groupId="os">
 <TabItem value="mac" label="Mac">
@@ -76,7 +76,7 @@ Merek lain, atau mini PC? Cek di **Power**, **Advanced** atau **Chipset**, cari 
 </TabItem>
 </Tabs>
 
-## Langkah 2: Login tanpa password
+## Langkah 2: Login tanpa password {#step-2-sign-in-without-a-password}
 
 <Tabs groupId="os">
 <TabItem value="mac" label="Mac">
@@ -104,7 +104,7 @@ Autologon nyimpen password dalam bentuk terenkripsi di komputer. Kalau mau melew
 </TabItem>
 </Tabs>
 
-## Langkah 3: Matiin sleep dan restart karena update
+## Langkah 3: Matiin sleep dan restart karena update {#step-3-stop-sleep-and-update-restarts}
 
 <Tabs groupId="os">
 <TabItem value="mac" label="Mac">
@@ -127,7 +127,7 @@ Autologon nyimpen password dalam bentuk terenkripsi di komputer. Kalau mau melew
 </TabItem>
 </Tabs>
 
-## Langkah 4: Cek aplikasi booth terbuka sendiri
+## Langkah 4: Cek aplikasi booth terbuka sendiri {#step-4-check-that-the-booth-app-opens-by-itself}
 
 **Start on boot** sudah nyala dari awal. Untuk ngecek, buka menu operator, tap **Admin Panel**, dan pastikan **Start on boot** ("Launch automatically when computer starts") nyala.
 
@@ -135,7 +135,7 @@ Autologon nyimpen password dalam bentuk terenkripsi di komputer. Kalau mau melew
 
 Setelah komputer di-pairing, aplikasi langsung terbuka ke booth dalam layar penuh.
 
-## Cek Hasilnya
+## Cek Hasilnya {#check-it-worked}
 
 1. Matiin booth **dari colokan di dinding**, bukan dari tombol power. Tunggu 30 detik.
 2. Nyalain lagi dari colokan dan tinggalkan.
@@ -143,14 +143,14 @@ Setelah komputer di-pairing, aplikasi langsung terbuka ke booth dalam layar penu
 
 Kalau prosesnya berhenti di tengah jalan, tabel di bawah nunjukin langkah mana yang perlu dicek.
 
-## Tips
+## Tips {#tips}
 
 - **Kalau mau booth gak terbuka saat komputer nyala, matiin Start on boot.** Menghapus aplikasi dari Startup apps di Windows atau Login Items di macOS gak bertahan, soalnya aplikasi nambahin dirinya lagi setiap kali dibuka.
 - **UPS kecil** (baterai cadangan) bikin booth tetap jalan saat listrik turun sebentar tanpa restart, dan ngasih waktu untuk shutdown dengan rapi saat padam lama.
 - **Tes pakai colokan aslinya.** Venue sering matiin satu stop kontak sekaligus, jadi pastikan colokan booth ada di jalur listrik yang nyala duluan.
 - Setelah listrik padam, buka **Admin Panel** dan cek **Uploads**: foto yang diambil saat internet mati akan ter-upload begitu booth online lagi.
 
-## Kalau Ada Masalah
+## Kalau Ada Masalah {#troubleshooting}
 
 | Masalah | Kenapa | Solusinya |
 |---|---|---|
@@ -162,7 +162,7 @@ Kalau prosesnya berhenti di tengah jalan, tabel di bawah nunjukin langkah mana y
 | Booth jadi hitam di sore hari | Komputer sleep atau matiin layar | Langkah 3 |
 | Komputer restart di tengah event | Update Windows atau macOS | Active hours dan Pause updates (Windows), automatic updates dimatikan (Mac) |
 
-## Terkait
+## Terkait {#related}
 
 - [Kunci Layar ke Booth](./lock-the-screen.md)
 - [Kunci Booth dan Pakai Menu Operator](./operator-menu.md)
