@@ -1,17 +1,17 @@
 ---
 sidebar_position: 7.5
 title: Finance
-description: Profit and loss for your photobooth business, costs, paper and tax, and partners who share revenue or profit, such as a venue, an investor or staff.
-tags: [dashboard, finance, profit, costs, partners, tax]
+description: Profit and loss for your photobooth business, costs, paper and tax, partners who share revenue or profit, such as a venue, an investor or staff, and their statements by email.
+tags: [dashboard, finance, profit, costs, partners, tax, statements]
 ---
 
 # Finance
 
-**Finance** shows what your business earned, what it cost and who gets what. It has three tabs: **Profit & Loss**, **Costs** and **Partners**. Pick the period at the top: a month and a year, or **All months** for the year so far.
+**Finance** shows what your business earned, what it cost and who gets what. It has four tabs: **Profit & Loss**, **Costs**, **Partners** and **Statements**. Pick the period at the top: a month and a year, or **All months** for the year so far.
 
 ![Finance, Profit & Loss tab for October 2026: Total revenue, Total costs, Net profit and Owner's net, the profit and loss statement, Profit distribution and Performance by unit](/img/docs/finance-profit-and-loss.webp)
 
-Profit & Loss, Costs, paper, tax and booking fees are free on every plan. **Partners** and the PDF statements are part of paid Pix Pro (monthly or yearly). An Event Pass or the free trial does not unlock them.
+Profit & Loss, Costs, paper, tax and booking fees are free on every plan. **Partners**, the PDF statements and the **Statements** tab are part of paid Pix Pro (monthly or yearly). An Event Pass or the free trial does not unlock them.
 
 ## Profit & Loss
 
@@ -102,6 +102,8 @@ Each term has a **Scope**: the **Whole business** or chosen kiosks. A share on c
 
 ![Edit partner dialog: an investor with a 40% profit share on the whole business and a capital repayment of Rp 60.000.000 over 24 months, paid from the owner's share](/img/docs/finance-partner-dialog.webp)
 
+A partner's **Email** is where their statement goes when you [email statements](#statements-by-email). **Email statement**, next to it, turns that on or off for the partner. It needs an email.
+
 ### Capital Repayment
 
 Enter the capital, the number of months and the first month. The instalment is the capital divided by the months, and the last one takes any rounding. **Paid from** decides where it comes from:
@@ -115,7 +117,7 @@ An instalment is due every month of the schedule, also in a month with a loss.
 
 Adding or editing a partner asks **Changes apply from**: this month, an earlier month, or **The start**. Months before the chosen month keep their numbers. Choose **The start** to fix a typo or a deal that always applied. A change cannot start in a future month: make it when that month comes.
 
-**Remove** ends a partner from this month. Earlier months keep their numbers. A partner added this month by mistake is deleted completely.
+**Remove** ends a partner from this month. Earlier months keep their numbers, and if you email statements, their statement for the last month still goes out on the next send date. A partner added this month by mistake is deleted completely.
 
 ### Event Money
 
@@ -150,9 +152,69 @@ Each PDF has:
 
 The PDFs are part of paid Pix Pro. Without it, **Export PDF** carries a **Pix Pro** tag and opens the Computers page.
 
+## Statements by Email
+
+The **Statements** tab emails each partner their own statement, with the PDF attached, every month or every week. You get the Profit and Loss Statement. Nobody needs a Pixture account to receive one.
+
+![Statements tab: next delivery 5 Dec 2026 to 5 recipients, outstanding to partners, paid for October 2026, the delivery schedule set to the 5th of each month, the recipients with their switches, and the statement history](/img/docs/finance-statements.webp)
+
+The three figures at the top:
+
+- **Next delivery**: the next send date, the period it covers and how many people get an email. **Off** when the schedule is off.
+- **Outstanding to partners**: what partners are still due on their statements, and how many statements that is.
+- **Paid**: how much of the last period's partner statements you marked as paid.
+
+### Delivery Schedule
+
+| Setting | What it does |
+|---|---|
+| **Frequency** | **Off**, **Monthly** or **Weekly** |
+| **Send on** | For Monthly, a day from the 1st to the 28th. The 5th is the default |
+| **Period covered** | Monthly sends the previous calendar month. Weekly sends the previous Monday to Sunday, every Monday |
+| **Replies go to** | Your email. A partner who replies writes to you |
+
+Send dates follow your account's time zone. Turning the schedule on never sends an earlier period: the first emails go on the next send date. A weekly statement has a week number, such as PL-2026-W45.
+
+The emails and PDFs are in the language of whoever last saved the schedule. An account with sales in two currencies gets a statement for each currency.
+
+### Recipients
+
+- **You** get the Profit and Loss Statement for every period, and a copy of every partner's email. You are always on the list.
+- **Each partner** gets only their own statement. A partner needs an email and their **Send** switch on. A partner without an email shows **Add an email**.
+- **Add recipient** adds someone else, such as your accountant. They get the Profit and Loss Statement. Their switch pauses them, and **Remove** takes them off.
+
+An account can send to 20 email addresses, you included.
+
+The email comes from your business name "via Pixture", or only your business name when the [Pixture footer](./pix-design/brand.md#pixture-footer) is off. It shows the statement number, the period and the amount, with the PDF attached.
+
+### Send Test and Send Now
+
+- **Send test** emails you the Profit and Loss Statement of the last full period, marked "Test". Nobody else gets it and it is not saved.
+- **Send now** sends the last full period's statements to everyone on the list. They join the queue and go out within a few minutes. Use it to send before the send date, or again after you fixed an email address.
+
+If the figures have not changed, **Send now** sends the same statement again. If they changed, for example a cost added after the statement went out, it sends a new one marked **Corrected**. The first stays in the history as it was.
+
+**Send now** works once every 10 minutes, **Send test** once a minute. A period with no sales and no costs has nothing to send.
+
+### Statement History
+
+Every statement sent, newest first. **Period** filters by month. **PDF** downloads the statement exactly as it was sent.
+
+| Status | Meaning |
+|---|---|
+| **Sending** | In the queue |
+| **Due** | Sent. The partner's amount is not marked paid yet |
+| **Paid** and a date | You marked it paid |
+| **Sent** | The Profit and Loss Statement, or a partner statement of 0 |
+| **Not sent** | It could not be delivered, for example the address does not exist. Fix the email, then **Send now** |
+
+**Mark as paid** records the day you paid the partner. It does not move any money. **Undo** clears it.
+
+A partner with no terms in a period gets no statement for it.
+
 ## Who Can See Finance
 
-Owners and admins see Finance. For other members, a role needs **View finance** to open the page, and **Manage finance** to add or change costs, paper, tax and partners. Set them under **Settings > Members > Manage Roles**.
+Owners and admins see Finance. For other members, a role needs **View finance** to open the page and see statements, and **Manage finance** to add or change costs, paper, tax and partners, change the statement schedule and recipients, mark statements paid and send them. Set them under **Settings > Members > Manage Roles**.
 
 ## Common Questions
 
@@ -163,6 +225,12 @@ Owners and admins see Finance. For other members, a role needs **View finance** 
 **Can I record a cost that is shared by several kiosks?** Put it on the **Whole business**, or enter a separate cost on each kiosk.
 
 **Can I see next month?** No. The year view and the month picker stop at the current month.
+
+**A partner says they did not get their statement.** Find it in **Statement history**. **Sending** means it is on its way. **Not sent** means the address did not accept it: check the partner's email on the **Partners** tab, then click **Send now**. Ask them to look in spam too; the email comes from noreply@pixture.io.
+
+**I removed a partner. Do they still get a statement?** Yes, once more: the statement for their last month goes out on the next send date. After that they get none.
+
+**Does Mark as paid pay the partner?** No. It only records that you paid them, so **Outstanding to partners** stays right.
 
 ## Related
 

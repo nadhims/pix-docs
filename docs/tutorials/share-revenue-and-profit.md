@@ -1,13 +1,13 @@
 ---
 sidebar_position: 5
 title: Share Revenue and Profit with Partners
-description: Set up a venue on a revenue share, an investor on a profit share with a capital repayment, and staff on a profit share, read what each one gets, and download each partner's own statement.
+description: Set up a venue on a revenue share, an investor on a profit share with a capital repayment, and staff on a profit share, read what each one gets, and send each partner their own statement, as a PDF or by email every month.
 tags: [tutorials, finance, partners, venue, investor]
 ---
 
 # Share Revenue and Profit with Partners
 
-In this tutorial you will add three partners: a venue that takes a share of one kiosk's revenue, an investor who takes a share of profit and gets their money back in instalments, and a staff member on a share of profit. At the end you will read what each one gets for a month and download a statement for each of them. Allow about 15 minutes, once your costs are in.
+In this tutorial you will add three partners: a venue that takes a share of one kiosk's revenue, an investor who takes a share of profit and gets their money back in instalments, and a staff member on a share of profit. At the end you will read what each one gets for a month, download a statement for each of them, and have Finance email the statements every month. Allow about 15 minutes, once your costs are in.
 
 ## When to Use It
 
@@ -51,7 +51,7 @@ Write the deal down with the partner before you enter it: the percentage, the sc
 ## Step 1: Add the venue
 
 1. Click **Finance** in the sidebar, open the **Partners** tab and click **Add partner** at the right of the tab row.
-2. Type the venue's **Name** and choose the **Role** **Venue**. The **Email** is for your own reference.
+2. Type the venue's **Name** and choose the **Role** **Venue**. The **Email** is where their statement goes if you email statements (Step 6).
 3. Under **Add a term**, click **+ Revenue share** and type the **Rate (%)**, for example 20.
 4. Set **Scope** to **Selected kiosks** and tick the venue's kiosk.
 5. Leave **Changes apply from** on this month, or choose an earlier month or **The start** if the deal already ran.
@@ -96,7 +96,7 @@ On **Profit & Loss**, **Profit distribution** shows the same split with **Retain
 
 1. Keep the month picked at the top, or choose **All months** for the year so far.
 2. On the **Partners** tab, click **Statement** on the partner's row. A PDF downloads.
-3. Send it to the partner yourself, by email or chat.
+3. Send it to the partner yourself, by email or chat. Or let Finance email it every month (Step 6).
 
 <!-- SHOT-NEEDED: dashboard: the Partners tab with the Statement button on a partner's row marked -->
 
@@ -104,17 +104,29 @@ On **Profit & Loss**, **Profit distribution** shows the same split with **Retain
 
 The statement shows only that partner's own figures: what they are due and how it is worked out. It never shows another partner's name or your share. A revenue share adds gross sales by week, a profit share the net profit it comes from, and a capital repayment the capital account. Its number starts with **RS** (revenue share), **PS** (profit share), **IS** (investor) or **ST**.
 
+## Step 6: Email statements every month
+
+1. On the **Partners** tab, open each partner, check their **Email** and turn on **Email statement**. Click **Save partner**.
+2. Open the **Statements** tab. Set **Frequency** to **Monthly** and **Send on** to the day you want, for example the 5th.
+3. To add your accountant, click **Add recipient**, type their name and email, and save.
+4. Click **Send test**. The Profit and Loss Statement arrives in your own inbox, marked "Test", so you can see the email first.
+
+![Edit partner dialog: a venue with its email and Email statement turned on](/img/docs/finance-partner-email.webp)
+
+On the send date, each partner gets their own statement with the PDF attached, and you get a copy. You and your accountant get the Profit and Loss Statement. When you pay a partner, click **Mark as paid** on their statement in **Statement history**. See [Statements by Email](../dashboard/finance.md#statements-by-email) for every option.
+
 ## Check It Worked
 
 - The **Partners** tab lists each partner with their terms as chips, and an amount for the month.
 - The **Owner** row is the remainder, less any capital repayment from your share.
 - On **Profit & Loss**, the venue's share is under **Variable costs**, and **Profit distribution** lists the investor and staff.
 - The statement PDF opens with the partner's name and only their figures.
+- On **Statements**, **Next delivery** shows the send date and the number of recipients, and the test email is in your inbox.
 
 ## Tips
 
 - **When a deal changes, do not make a new partner.** Edit the partner, change the term, and pick **Changes apply from**. Months before it keep their old numbers. Choose **The start** only to fix a typo or a deal that always applied.
-- **Ending a deal:** **Remove** ends a partner from this month and keeps earlier months as they were. A partner added this month by mistake is deleted completely.
+- **Ending a deal:** **Remove** ends a partner from this month and keeps earlier months as they were. If you email statements, their statement for the last month still goes out on the next send date. A partner added this month by mistake is deleted completely.
 - **Venues share only their own kiosk.** A share set on a kiosk sees only that kiosk's own sales. Sessions at an event count under the event, so to share event income, put the term on the **Whole business**.
 - **Shares cannot pass 100%.** Revenue shares on one kiosk, or on the whole business, cannot add up to more than 100%, and the same goes for profit shares.
 - **Check before you pay.** The dialog shows **Estimated,** for the month as you type, so you can compare it with the amount in the contract.
@@ -129,6 +141,8 @@ The statement shows only that partner's own figures: what they are due and how i
 | A venue gets nothing from an event held at its kiosk | Event sessions count under the event, not the kiosk | Put the venue's share on the **Whole business**, or agree a fixed amount for events |
 | The investor gets nothing this month | A profit share is 0 in a month with a loss | Expected; the **Capital repayment** is still due. Add a **Minimum guarantee** if the deal promises a floor |
 | **Statement** is missing on a row | The partner has no term this month and nothing due | Pick a month in which the deal ran |
+| A partner shows **Add an email** on the Statements tab | The partner has no email | Add their email on the **Partners** tab and turn on **Email statement** |
+| A statement in **Statement history** reads **Not sent** | The partner's email address did not accept it | Fix the email on the **Partners** tab, then click **Send now** |
 
 ## Related
 
