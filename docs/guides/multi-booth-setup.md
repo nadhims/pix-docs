@@ -15,46 +15,16 @@ One Pixture account can run any number of booths. Each booth is a free profile w
 - Pix Pro is per computer. Each computer in the group needs its own place on your subscription or an Event Pass. See [Plans & Pricing](../pricing/plans.md).
 - Group codes for a central cashier need the Pixture Photobooth 1.1.102 or newer on every booth.
 
-## Step 1: Create the group
+## Set it up
 
-1. Open **Booths** in the Pixture dashboard and tap **+ New Booth**.
-2. Switch to the **Multi-Booth** tab.
-3. Enter a **Name** for the group and set **How many photo booths?**.
-4. Create the group. It appears in the Booths list with the type Multi-Booth, and each booth inside it is a normal booth.
+Create the group from **Booths > + New Booth > Multi-Booth**, give every booth one set of templates (**Templates > Manage Templates**) and one screen design (**UI Project > Save for all booths**), choose how customers pay on the **Cashier** tab, then pair one computer per booth. The group page has six tabs: **Photo Booths**, **Templates**, **UI Project**, **Queue**, **Cashier** and **Settings** (the group's name and **Delete Multi-Booth**). The step-by-step is in [Set Up a Multi-Booth Group](../tutorials/multi-booth-group.md).
 
-![Create Booth window on the Multi-Booth tab with Name, How many photo booths? and Create](/img/docs/steps/guides-multi-booth-setup--booths-create-multibooth.webp)
-
-To add booths later, open the group and tap **+ Add booths**. **Rename** changes the group name.
-
-## Step 2: Set up the group once
-
-Open the group from the Booths list. It has six tabs.
-
-1. **Photo Booths**: the booths in the group and their status.
-2. **Templates**: pick the templates every booth in the group offers.
-3. **UI Project**: pick the booth's screen design for the group.
-4. **Queue**: run a queue line with a number for each customer, and a display for a TV. See [Queue Line](./queue-line.md).
-5. **Cashier**: see the next step.
-6. **Settings**: the pricing form, the same as a single booth's Pricing tab.
-
-![A Multi-Booth group page with the Photo Booths, Templates, UI Project, Queue, Cashier and Settings tabs and its two booths](/img/docs/steps/guides-multi-booth-setup--booth-group.webp)
-
-Tap **Save for all booths** to push the tabs' settings to every booth in the group.
-
-## Step 3: Choose how customers pay {#step-3-choose-how-guests-pay}
+## How customers pay {#step-3-choose-how-guests-pay}
 
 On the **Cashier** tab, **How guests pay** has two options.
 
-- **Pay at the booth**: each booth shows its own Payment screen, as a single booth does.
+- **Pay at the booth**: each booth shows its own Payment screen. The pricing form below it saves the same prices to every booth in the group.
 - **Central cashier**: customers pay one person at a counter and receive a code. Add what the cashier sells under **Products** with **Add product**. Each sale produces an 8-character group code that works at any booth in the group. On a Central Cashier booth the booth opens the Payment screen straight on the code step, and the code box accepts codes of 6 to 8 characters.
-
-## Step 4: Pair one computer per booth
-
-1. Open each booth from the group's **Photo Booths** tab and go to its **Computer** tab.
-2. Tap **Generate code**, then enter the code in the Pixture Photobooth app on that booth PC.
-3. Check the plan badge in the booth's operator menu. It should read **Pix Pro** or **Event Pass until** a time. A computer past your subscription's limit is **Blocked**: add computers under **Computers > Add computer**, or use an Event Pass on it.
-
-![A booth Computer tab before pairing, with Generate code under Pairing & access](/img/docs/steps/guides-multi-booth-setup--booth-device-tab-unpaired.webp)
 
 ## Regions for many locations
 
@@ -68,7 +38,7 @@ The Booths list, the Dashboard and Health pages filter by region with **All Regi
 ## Tips
 
 - Name booths and groups by venue or position ("Hall A left"). Labels on the computers themselves save confusion when you set up several before shipping them out.
-- Get one booth fully working, then copy its settings to the others with **Save for all booths**.
+- Get one booth fully working, then copy its pricing to the others with **Apply pricing to all booths** on its row.
 - Each location needs its own reliable internet. Two booths at one venue can share a connection; two venues cannot.
 
 ## Related
