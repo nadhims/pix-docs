@@ -36,7 +36,18 @@ const sidebars: SidebarsConfig = {
       label: 'Tutorials',
       link: {type: 'doc', id: 'tutorials/overview'},
       items: [
-        'tutorials/set-up-a-booth',
+        {
+          type: 'category',
+          label: 'Get the Booth Computer Ready',
+          collapsed: false,
+          items: [
+            'tutorials/set-up-a-booth',
+            'tutorials/start-after-a-power-cut',
+            'tutorials/lock-the-screen',
+            'tutorials/operator-menu',
+            'tutorials/bright-live-view-with-flash',
+          ],
+        },
         'tutorials/design-a-print-template',
         'tutorials/customise-kiosk-screens',
         'tutorials/create-a-payment-gateway',

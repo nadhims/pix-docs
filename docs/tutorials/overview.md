@@ -9,9 +9,15 @@ tags: [tutorials, overview]
 
 Each tutorial takes one job from start to finish, with numbered steps and dashboard screenshots. Finish [Getting Started](../getting-started/overview.md) first so you have a paired booth to work on. If a word is unfamiliar, see [How Pixture Works](../getting-started/how-pixture-works.md) or the [Glossary](../reference/glossary.md).
 
-## Set Up
+## Get the Booth Computer Ready
 
-- [Set Up a Booth](./set-up-a-booth.md). Create a booth, assign its templates, filters and screen design, and set what it outputs.
+- [Set Up a Booth From Scratch](./set-up-a-booth.md). Create a booth, assign its templates, filters and screen design, set what it outputs, pair the computer and run a test.
+- [Make the Booth Start by Itself After a Power Cut](./start-after-a-power-cut.md). For booths nobody watches: the computer powers on, signs in and opens the booth by itself.
+- [Lock the Screen to the Booth](./lock-the-screen.md). For touchscreens in public: no taskbar, notifications or swipes over the booth, on Mac and Windows.
+- [Lock the Booth and Use the Operator Menu](./operator-menu.md). For every booth in a public place: a menu PIN, and the pages staff use during a day of work.
+- [Get a Bright Live View with Flash](./bright-live-view-with-flash.md). For booths lit with a flash: camera settings, a bright preview, and a flash that fires on every photo.
+
+## Set Up
 - [Design a Print Template](./design-a-print-template.md). Turn a PNG with transparent photo slots into a print template and put it on your booths.
 - [Customise Booth Screens](./customise-kiosk-screens.md). Use the UI Editor to change what customers see on every screen, from the start button to sharing.
 
