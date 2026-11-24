@@ -104,10 +104,10 @@ Stripe shows a secret key only once. If yours is gone, click **Create secret key
 
 ## Step 5: Activate It
 
-A new gateway is saved switched off. Booths only charge through the gateway marked **Active**.
+When no gateway on the account is active, a new live gateway is switched on as soon as you save it. Otherwise it is saved switched off, with "Saved. Click Activate to take payments with this gateway." Booths on **Organization Default**, your online shop and Frame Lab charge through the gateway marked **Active**.
 
-1. On the new gateway card, click **Activate**. The card now shows an **Active** badge.
-2. With two gateways, only one is active at a time: activating one switches the other off. A booth that picks the inactive one by name on its **Settings** tab still charges through it (Step 9). An event cannot: see the caution in Step 9.
+1. If the new card has no **Active** badge, click **Activate**. A gateway in test (sandbox) mode always waits for you to click it.
+2. Only one gateway is active at a time: activating one switches the other off. A booth or an event that picks a gateway by name charges through it whether or not it is active (Step 9).
 
 ![Payment Gateway section with a connected gateway card and its Edit and Test buttons](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-card.webp)
 
@@ -147,15 +147,11 @@ More on readers, coin boxes and cash in [Take Card, Coin and Cash Payments](./co
 
 ![Booth Settings tab with Output Settings, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/booth-settings-tab.webp)
 
-- **One event on a different gateway** (a client who must receive the event's money): set the gateway on the event booth itself, as above, and leave the event's own **Payment gateway** empty.
-
-:::caution Do not activate a client's gateway for an event
-An event that picks a gateway under **Payment gateway** only takes payment while that gateway is the account's **Active** one. Activating it switches your usual gateway off, and every booth on **Organization Default** then charges into the client's account too. Set the gateway on the event booth instead.
-:::
+- **One event on a different gateway** (a client who must receive the event's money): in **Events**, open the event, click **Edit**, and pick the gateway under **Payment gateway**. It does not need to be **Active**: leave your usual gateway active for your other booths.
 
 - **Online shop and Frame Lab:** sales on your online shop link and in Frame Lab always charge the account's **Active** gateway, whatever a booth picks on its **Settings** tab. A venue that must receive its online sales directly needs its own Pixture account.
 
-Keep one gateway **Active** at all times, even when every booth picks its own: the booth checks for an active gateway before it shows the Pay button.
+Keep one gateway **Active** at all times: booths on **Organization Default**, your online shop and Frame Lab all charge through it.
 
 The gateway only decides where the money goes. What a session costs is set per booth on the **Pricing** tab; see [Set Prices, Packages and Extra Prints](./prices-and-packages.md).
 
@@ -176,7 +172,7 @@ The gateway only decides where the money goes. What a session costs is set per b
 
 | Problem | Why | Fix |
 |---|---|---|
-| The booth says "Payment isn't available right now. Please ask the booth staff for help." | No gateway on the account is marked **Active** (it was connected but never activated), or the event picks a gateway under **Payment gateway** that is not the active one | Click **Activate** on the gateway card (Step 5); for an event, clear the event's **Payment gateway** and set the gateway on the event booth instead (Step 9) |
+| The booth says "Payment isn't available right now. Please ask the booth staff for help." | The booth uses **Organization Default** and no gateway on the account is marked **Active** (it was connected but never activated) | Click **Activate** on the gateway card (Step 5), or pick a gateway for this booth on its **Settings** tab (Step 9) |
 | "Connection failed" with HTTP 401 or 403 | A key is wrong, or from the other mode | Re-copy each key from the provider's dashboard and match **Sandbox Mode** to the keys you pasted |
 | Stripe refuses the key when you save | You pasted a publishable key (`pk_`), an API key ID (`mk_`) or a cut-off key | Create a new secret key in Stripe and paste the whole `sk_live_...` string |
 | The DOKU test says the signature is invalid | The public key in the DOKU Dashboard does not match the private key in Pixture | Click **Generate for me** again, paste the new public key into **Edit Merchant Public Key**, save both sides, and test |
