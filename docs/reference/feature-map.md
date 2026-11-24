@@ -15,11 +15,12 @@ Pixture is photobooth software in two parts: the **Pixture Photobooth** app runs
 - **Real cameras.** Canon EOS, Sony Alpha, Nikon Z and Fujifilm over USB, with live view and exposure control from the booth. See [Supported Cameras](./supported-cameras.md) and [Camera Settings](../desktop-app/camera-setup/camera-settings.md).
 - **Webcams too.** A built-in camera, a USB webcam or a virtual camera. See [Webcam Fallback](../desktop-app/camera-setup/webcam-fallback.md).
 - **Multi camera.** Two or more cameras on one booth, and the customer picks one before every photo (Kiosk, Pix Pro). See [Multi Camera](../desktop-app/camera-setup/multi-camera.md).
-- **Flash and lighting.** Built-in flash, speedlites and studio strobes on a wireless trigger. See [Lighting & Flash](../desktop-app/camera-setup/lighting-and-flash.md).
+- **Flash and lighting.** Built-in flash, speedlites and studio strobes on a wireless trigger. See [Lighting & Flash](../desktop-app/camera-setup/lighting-and-flash.md) and the tutorial [Get a Bright Live View with Flash](../tutorials/bright-live-view-with-flash.md).
 - **Any printer your computer can print to.** Dye-sub and inkjet, with the paper size read from the driver and the DNP 2-inch cut. See [Supported Printers](./supported-printers.md) and [Printer Setup](../desktop-app/printer-setup.md).
 - **One printer for several booths.** Share a printer between booths with your computer's printer sharing. The computer holding the printer does not need Pixture. See [Sharing One Printer Between Booths](../guides/shared-printer.md).
 - **Keeps working offline.** Sessions, prints and payment codes carry on when the venue internet drops, and photos upload when it comes back. See [Offline Mode](../desktop-app/offline-mode.md).
-- **Locked to customers, open to you.** A hidden operator menu behind a PIN. See [Operator Menu](../desktop-app/admin-panel.md).
+- **Locked to customers, open to you.** A hidden operator menu behind a PIN. See [Operator Menu](../desktop-app/admin-panel.md) and the tutorials [Lock the Booth and Use the Operator Menu](../tutorials/operator-menu.md) and [Lock the Screen to the Booth](../tutorials/lock-the-screen.md).
+- **Starts by itself.** The booth app opens when the computer starts, so a booth comes back on its own after a power cut. See [Make the Booth Start by Itself After a Power Cut](../tutorials/start-after-a-power-cut.md).
 
 ## Photo Sessions
 

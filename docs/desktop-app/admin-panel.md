@@ -11,7 +11,7 @@ Every booth-side setting sits behind a hidden operator menu so customers never s
 
 ## Opening the Menu
 
-1. Tap the top-right corner of the screen twice within three seconds. The zone is 120 by 120 pixels and carries a faint lock icon. It works on Home, Tutorial, Payment, Template Selection, Capture, Pool Assignment, AI, Filter and Sharing.
+1. Tap the top-right corner of the screen twice within three seconds. The zone is 120 by 120 pixels and carries a faint lock icon. To move it to another corner, set **Lock button** on the Start screen in the Pix Design UI Editor. It works on Home, Tutorial, Payment, Template Selection, Capture, Pool Assignment, AI, Filter and Sharing.
 2. If the booth has a PIN, the **Enter Admin PIN** pad appears. Type the PIN. A wrong one shows "Incorrect PIN".
 
 Set the PIN in the dashboard under **Booths > booth > Settings > Menu PIN** (4 to 8 digits, **Set PIN**, **Change**, **Disable**). A booth without one shows the notice "Your admin menu is not PIN-protected. Set a PIN in Dashboard > Booths > Settings…". Set a PIN on every booth in a public place.
@@ -110,3 +110,4 @@ Two taps top-right, PIN, **Admin Panel**, **Print** is the fastest reprint. Teac
 - [Booth Management](../dashboard/booth-management.md)
 - [Software Updates](./software-updates.md)
 - [Event Mode](./event-mode.md)
+- [Lock the Booth and Use the Operator Menu](../tutorials/operator-menu.md)
