@@ -35,7 +35,8 @@ def bundle():
     """esbuild entry.tsx against the booth source; writes BUILD/bundle.js + bundle.css + index.html."""
     src, nm = os.environ["BOOTH_SRC"], os.environ["BOOTH_NM"]
     BUILD.mkdir(parents=True, exist_ok=True)
-    subprocess.run(["node", str(HERE / "build.mjs"), src, str(BUILD)], check=True, env={**os.environ, "NODE_PATH": nm})
+    entry = os.environ.get("BOOTH_ENTRY", "")  # optional: your own entry.tsx (import "<this folder>/fake-api" first)
+    subprocess.run(["node", str(HERE / "build.mjs"), src, str(BUILD), *([entry] if entry else [])], check=True, env={**os.environ, "NODE_PATH": nm})
     css = '<link rel="stylesheet" href="bundle.css">' if (BUILD / "bundle.css").exists() else ""
     (BUILD / "index.html").write_text(f'<!doctype html><html><head><meta charset="utf-8">{css}</head>'
                                       f'<body style="margin:0"><div id="root"></div><script type="module" src="bundle.js"></script></body></html>')

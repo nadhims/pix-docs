@@ -14,3 +14,5 @@ python3 scripts/shots/booth/render.py camera out.png "EXTERNAL FLASH"   # page, 
 Pages: `admin`, `camera`, `menu`, `pin` (add more in `entry.tsx`). `render()` returns `{label: [x, y, w, h]}` in
 image pixels for `markers.py`. Everything shown is made up: "Sunny Side Mall Kiosk 1", a Canon EOS 250D,
 a DNP printer. Set `window.__SAMPLE` to a data URL of a sample picture for the live view (never a customer's photo).
+
+Your own pages: copy entry.tsx to your own folder, import `../fake-api` (or the absolute path) first, and set `BOOTH_ENTRY=<path to your entry.tsx>` plus your own `BOOTH_BUILD` dir. The shared entry.tsx and fake-api.ts stay as they are; ask before changing them.
