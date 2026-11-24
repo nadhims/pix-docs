@@ -104,7 +104,7 @@ Tap **ADVANCED SETTINGS > Open Printer Properties** on **Printer Settings**. The
 </TabItem>
 </Tabs>
 
-**Only for some templates:** in the dashboard, click **Pix Design**, open **Template Editor** and click **New Project**. In **Create Template Project**, pick the Media Type **2 inch cut (4R)**, the Print Size **4x6"**, upload the design and click **Create Project**. Prints of that template are cut, whatever the printer's own setting, on Mac and Windows. Other templates print as whole sheets. A reprint with **Admin Panel > Print history > Print again** is the exception: it is cut only if the printer's own 2-inch cut is on, and it prints **COPIES PER SESSION** sheets.
+**Only for some templates:** in the dashboard, click **Pix Design**, open **Template Editor** and click **New Project**. In **Create Template Project**, pick the Media Type **2 inch cut (4R)**, the Print Size **4x6"**, upload the design and click **Create Project**. Prints of that template are cut, whatever the printer's own setting, on Mac and Windows. Other templates print as whole sheets. From booth 1.2.51, a reprint with **Admin Panel > Print history > Print again** is cut the same way and prints one sheet.
 
 ![Create Template Project with the 2 inch cut (4R) media type, the 4x6 print size and Create Project marked](/img/docs/steps/tutorials-set-up-a-printer--template-media.webp)
 
@@ -137,7 +137,7 @@ Every printed sheet takes one off the count. The booth keeps counting offline, r
 
 ## Tips
 
-- **Reprint fast at an event:** operator menu, **Admin Panel**, **Print history**, **Print again**. When a print fails, the customer reads "Print issue, photo saved. Staff: reprint from Admin Panel → Print History". A reprint does not use the template's 2 inch cut (only the printer's own cut setting) and prints **COPIES PER SESSION** sheets.
+- **Reprint fast at an event:** operator menu, **Admin Panel**, **Print history**, **Print again**. When a print fails, the customer reads "Print issue, photo saved. Staff: reprint from Admin Panel → Print History". From booth 1.2.51 a reprint is cut like the original print and comes out as one sheet.
 - **The count wrong?** On the **PAPER** card, tap **Fix the count** and type how many prints are really left.
 - **Load paper from the dashboard:** on **Health**, open the booth and click **New roll loaded**. The booth picks it up on its next check-in. Handy when staff at the venue change the roll and tell you by chat.
 - **Paper running low** shows at 20% left, and **Paper is probably out** at 0. When the printer itself reports it is out of paper, the menu asks "New roll loaded?" with a **Yes** button for the last roll size.

@@ -114,7 +114,7 @@ Repeat on every booth that prints on this printer.
 - **Set the 2-inch cut on the host.** Paper size and cut are driver settings of the printer, so set them on the host once. If you use 2-inch cut templates, print one from every booth before the event.
 - **Do not trust the paper counter on a shared printer.** Each booth counts only its own prints, so every booth's count is too high. Watch the printer, or start the counter on one booth and fix it by hand with **Fix the count**.
 - **Keep the host's print queue window open,** so a paper jam or an empty roll is seen at once. Nobody else is watching the host.
-- **Reprint from the booth that took the photo:** **Admin Panel > Print history > Print again** on that booth. A reprint does not use the template's 2 inch cut (only the printer's own cut setting) and prints **COPIES PER SESSION** sheets.
+- **Reprint from the booth that took the photo:** **Admin Panel > Print history > Print again** on that booth. From booth 1.2.51 a reprint is cut like the original print and comes out as one sheet.
 
 ## Troubleshooting
 

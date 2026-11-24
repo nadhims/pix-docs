@@ -29,7 +29,7 @@ An older Sharing design that only has a **QR Code** block, with no Share buttons
 
 1. After the session, the guest taps **Email**.
 2. They type their address on the booth keyboard and tap **Send**.
-3. The booth shows "Sent to a•••@gmail.com".
+3. The booth shows "Sent to a•••@gmail.com". From booth 1.2.51, a send that Pixture refuses (a daily or per-session limit) shows "We couldn't send that email. Try again or scan the QR." instead.
 
 A guest can email up to 3 different addresses per session, for example themselves and a friend.
 

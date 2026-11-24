@@ -7,6 +7,15 @@ description: What changed in recent versions of the Pixture Photobooth app.
 
 The Pixture Photobooth app updates itself in the background and asks to restart when the booth is idle. See [Software Updates](/docs/desktop-app/software-updates). The version a booth is running is shown at the bottom of its operator menu and on the dashboard's Health page.
 
+## 1.2.51 (24 November 2026, Mac and Windows)
+
+Every booth:
+
+- **Print again keeps the cut**: a reprint from **Admin Panel** › **Print history** (and from an event's Gallery) is cut like the original print, including templates tagged **2 inch cut**, and comes out as one sheet instead of **Copies per session** sheets. See [Set Up a Printer](/docs/tutorials/set-up-a-printer).
+- **Email my photos says when an email can't be sent**: if Pixture refuses the email (the day's 500 emails or the session's 3 addresses are used up), the customer sees "We couldn't send that email. Try again or scan the QR." with **Try again**, instead of "Sent to". See [Let Customers Email Their Photos](/docs/tutorials/email-my-photos).
+- **Free booths stay free offline**: a booth whose sessions are free no longer shows the Payment screen when its internet drops.
+- **Camera status reaches the dashboard at once**: when the camera is unplugged, fails or comes back, the booth tells Pixture within seconds, so **Health** never shows a camera as ready while the booth says Camera Disconnected.
+
 ## 1.2.44 (18 November 2026, Mac and Windows)
 
 Events:

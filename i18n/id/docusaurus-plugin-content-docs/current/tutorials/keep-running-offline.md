@@ -81,6 +81,7 @@ Foto yang nunggu cuma ada di komputer itu. Sebelum ada yang reset Windows, insta
 
 ## Tips {#tips}
 
+- **Booth gratis tetap gratis saat offline.** Mulai booth 1.2.51, booth yang sesinya gratis tetap melewati layar Payment saat offline, sama seperti saat online. Harga yang kamu pasang selama booth offline baru berlaku begitu booth online lagi.
 - **Jangan pernah tap Clear failed buat "beres-beres".** Itu ngehapus foto-foto itu dari komputer selamanya, padahal belum pernah ter-upload. Coba **Retry failed** dulu.
 - **Clean storage cuma aman untuk foto yang sudah ter-upload.** Ini ngehapus file foto yang disimpan di komputer; foto yang masih nunggu tetap disimpan, tapi **Print again** gak bisa dipakai lagi untuk sesi yang dibersihkan.
 - **Booth bikin ruang sendiri** saat sisa disk di bawah 1 GB, dengan ngehapus file yang sudah ter-upload duluan, dan ngasih peringatan di menu dengan **Free Up Space** saat di bawah 3 GB.

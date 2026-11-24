@@ -41,7 +41,7 @@ Health shows what the booth reports. It does not fix the camera or printer for y
 
 ![Health Live tab with the status pills, Now, Hours today, Last 14 days and Last seen marked](/img/docs/steps/tutorials-booth-health-alerts--live.webp)
 
-The booth checks in every 5 minutes while it runs. It is **Online** when its last check-in is less than 12 minutes old, **Offline** after that. The list refreshes itself every 30 seconds. A version marked **outdated** means a newer Pixture Photobooth app is out.
+The booth checks in every 5 minutes while it runs. From booth 1.2.51 it also checks in a few seconds after its camera is unplugged, fails or comes back, so the camera status on Health is never minutes old. It is **Online** when its last check-in is less than 12 minutes old, **Offline** after that. The list refreshes itself every 30 seconds. A version marked **outdated** means a newer Pixture Photobooth app is out.
 
 On an account with events, Health follows your workspace: **Pixture Kiosk** lists self-service booths, **Pixture Event** shows **Event health** (event booths, only while their event is running or still to come), the **Overview** lists every booth.
 

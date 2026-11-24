@@ -104,7 +104,7 @@ Tap **ADVANCED SETTINGS > Open Printer Properties** di **Printer Settings**. Pri
 </TabItem>
 </Tabs>
 
-**Cuma untuk template tertentu:** di dashboard, klik **Pix Design**, buka **Template Editor** dan klik **New Project**. Di **Create Template Project**, pilih Media Type **2 inch cut (4R)**, Print Size **4x6"**, upload desainnya dan klik **Create Project**. Cetakan template itu dipotong, apa pun setelan printernya, di Mac maupun Windows. Template lain tetap dicetak satu lembar utuh. Cetak ulang lewat **Admin Panel > Print history > Print again** pengecualiannya: cuma dipotong kalau potong 2 inch di setelan printernya sendiri nyala, dan dicetak sebanyak **COPIES PER SESSION** lembar.
+**Cuma untuk template tertentu:** di dashboard, klik **Pix Design**, buka **Template Editor** dan klik **New Project**. Di **Create Template Project**, pilih Media Type **2 inch cut (4R)**, Print Size **4x6"**, upload desainnya dan klik **Create Project**. Cetakan template itu dipotong, apa pun setelan printernya, di Mac maupun Windows. Template lain tetap dicetak satu lembar utuh. Mulai booth 1.2.51, cetak ulang dipotong sama seperti cetakan aslinya dan keluar satu lembar.
 
 ![Create Template Project dengan media type 2 inch cut (4R), ukuran 4x6 dan Create Project ditandai](/img/docs/steps/tutorials-set-up-a-printer--template-media.webp)
 
@@ -137,7 +137,7 @@ Setiap lembar yang dicetak ngurangin satu dari hitungan. Booth tetap ngitung saa
 
 ## Tips {#tips}
 
-- **Cetak ulang cepat saat event:** menu operator, **Admin Panel**, **Print history**, **Print again**. Kalau cetak gagal, pelanggan baca "Print issue, photo saved. Staff: reprint from Admin Panel → Print History". Cetak ulang gak pakai potong 2 inch dari template (cuma setelan potong printernya sendiri) dan dicetak sebanyak **COPIES PER SESSION** lembar.
+- **Cetak ulang cepat saat event:** menu operator, **Admin Panel**, **Print history**, **Print again**. Kalau cetak gagal, pelanggan baca "Print issue, photo saved. Staff: reprint from Admin Panel → Print History". Mulai booth 1.2.51, cetak ulang dipotong sama seperti cetakan aslinya dan keluar satu lembar.
 - **Hitungannya salah?** Di kartu **PAPER**, tap **Fix the count** dan ketik sisa cetak yang sebenarnya.
 - **Catat roll baru dari dashboard:** di **Health**, buka booth-nya dan klik **New roll loaded**. Booth ngambil info itu waktu check-in berikutnya. Praktis kalau crew di venue ganti roll dan ngabarin kamu lewat chat.
 - **Paper running low** muncul saat sisa 20%, dan **Paper is probably out** di angka 0. Kalau printer sendiri ngelaporin kertas habis, menu nanya "New roll loaded?" dengan tombol **Yes** untuk ukuran roll terakhir.

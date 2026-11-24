@@ -57,7 +57,7 @@ Run a session at the booth to the end, then:
 
 2. The **Email my photos** popup opens with the booth keyboard. Type the address in the box. The **.com** and **@** keys sit on the letters page.
 3. Leave or change the tick box under it, "Send me news and offers from Pixture" (see Tips).
-4. Tap **Send**. It lights up once the address looks complete. The booth shows "Sent to" with the address hidden after its first letter, for example "Sent to a•••@gmail.com", and closes the popup.
+4. Tap **Send**. It lights up once the address looks complete. The booth shows "Sent to" with the address hidden after its first letter, for example "Sent to a•••@gmail.com", and closes the popup. From booth 1.2.51, if Pixture refuses the email (for example the day's or the session's limit is reached), the booth says "We couldn't send that email. Try again or scan the QR." with a **Try again** button.
 
 ![The Email my photos popup with the address box, the news tick box and Send marked, above the booth keyboard](/img/docs/steps/tutorials-email-my-photos--email-popup.webp)
 
@@ -95,7 +95,8 @@ Open the inbox you sent to. The email:
 |---|---|---|
 | No **Email** button | The computer is on Pix Starter, the app is older than 1.2.31, **Scan QR** is off, or the Sharing page has only a **QR Code** block | Check each in order: [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md), update the app, tick **Scan QR**, add the **Share buttons** row (Step 1) |
 | The button is missing right after an upgrade to Pix Pro | The booth learns its plan on its regular check-in with Pixture | Wait a few minutes, or restart the app |
-| "Sent to ..." but no email | The address has a typo, the email is in spam, the booth is still offline, or the day's 500 emails or the session's 3 addresses are used up | Check the spam folder; check the booth's internet; send the customer the share link another way |
+| "We couldn't send that email." | The day's 500 emails or the session's 3 addresses are used up, or Pixture could not be reached | Tap **Try again**, or let the customer scan the QR instead |
+| "Sent to ..." but no email | The address has a typo, the email is in spam, or the booth was offline when the customer tapped **Send** (a send refused later cannot warn them) | Check the spam folder; check the booth's internet; send the customer the share link another way |
 | **Send** stays grey | The address is not complete yet | Type the full address, with **@** and the ending, such as **.com** |
 | The email is in English for an Indonesian customer | The booth's customer language is not Bahasa Indonesia | Change the booth's language |
 
