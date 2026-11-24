@@ -114,7 +114,7 @@ Cuma satu program yang bisa ngontrol kamera lewat USB. Kalau EOS Utility, Lightr
 <TabItem value="mac" label="Mac">
 
 1. Keluar dari EOS Utility dan aplikasi kamera lain: klik jendelanya, terus tekan Command-Q. Nutup jendela aja gak cukup.
-2. Biar gak kebuka sendiri: **System Settings > General > Login Items & Extensions** (**Login Items** sebelum macOS 15), pilih EOS Utility dan klik tombol minus (–).
+2. Biar gak kebuka sendiri: **System Settings > General > Login Items & Extensions** (**Login Items** sebelum macOS 15), pilih EOS Utility dan klik tombol minus (-).
 3. Colok kamera ke port di Mac dan nyalakan.
 
 </TabItem>

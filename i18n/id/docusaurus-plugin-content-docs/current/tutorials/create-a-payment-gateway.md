@@ -107,7 +107,7 @@ Stripe cuma nampilin secret key sekali. Kalau sudah hilang, klik **Create secret
 Gateway baru disimpan dalam keadaan mati. Booth cuma narik bayaran lewat gateway yang bertanda **Active**.
 
 1. Di kartu gateway yang baru, klik **Activate**. Kartunya sekarang punya badge **Active**.
-2. Kalau ada dua gateway, cuma satu yang aktif: mengaktifkan satu otomatis mematikan yang lain. Yang gak aktif tetap bisa dipakai satu booth atau satu event yang memilihnya langsung (Langkah 9).
+2. Kalau ada dua gateway, cuma satu yang aktif: mengaktifkan satu otomatis mematikan yang lain. Booth yang milih gateway yang gak aktif itu di tab **Settings**-nya tetap narik bayaran lewat gateway itu (Langkah 9). Event gak bisa: lihat peringatan di Langkah 9.
 
 ![Bagian Payment Gateway dengan kartu gateway tersambung serta tombol Edit dan Test](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-card.webp)
 
@@ -147,7 +147,13 @@ Selengkapnya soal reader, kotak koin dan uang tunai ada di [Terima Bayaran Kartu
 
 ![Tab Settings booth dengan Output Settings, Payment Gateway, Booth Info, Currency dan Menu PIN](/img/docs/booth-settings-tab.webp)
 
-- **Satu event di gateway lain:** di **Events**, buka event-nya, klik **Edit**, dan pilih gateway di **Payment gateway**. Sesi selama event narik bayaran lewat gateway itu. Biarkan gateway itu **Active** selama event jalan, kalau gak booth bakal bilang pembayaran gak tersedia.
+- **Satu event di gateway lain** (klien yang harus nerima uang event-nya langsung): pasang gateway-nya di booth event itu sendiri, seperti di atas, dan biarkan **Payment gateway** milik event kosong.
+
+:::caution Jangan aktifkan gateway klien untuk event
+Event yang milih gateway di **Payment gateway** cuma bisa narik bayaran selama gateway itu jadi gateway **Active** di akun. Kalau kamu aktifkan, gateway yang biasa kamu pakai jadi mati, dan semua booth yang pakai **Organization Default** ikut narik bayaran ke akun klien. Pasang gateway-nya di booth event aja.
+:::
+
+- **Online shop dan Frame Lab:** penjualan lewat link online shop dan di Frame Lab selalu narik bayaran ke gateway **Active** di akun, apa pun gateway yang dipilih booth di tab **Settings**. Venue yang harus nerima penjualan online-nya langsung butuh akun Pixture sendiri.
 
 Selalu biarkan satu gateway **Active**, walaupun setiap booth milih gateway sendiri: booth ngecek ada gateway aktif sebelum nampilin tombol Pay.
 
@@ -170,7 +176,7 @@ Gateway cuma nentuin uangnya masuk ke mana. Harga sesi diatur per booth di tab *
 
 | Masalah | Kenapa | Solusinya |
 |---|---|---|
-| Booth bilang "Payment isn't available right now. Please ask the booth staff for help." | Gak ada gateway di akun yang bertanda **Active** (sudah disambung tapi belum diaktifkan), atau gateway khusus event bukan yang aktif | Klik **Activate** di kartu gateway (Langkah 5); untuk event, aktifkan gateway yang dipakai event |
+| Booth bilang "Payment isn't available right now. Please ask the booth staff for help." | Gak ada gateway di akun yang bertanda **Active** (sudah disambung tapi belum diaktifkan), atau event milih gateway di **Payment gateway** yang bukan gateway aktif | Klik **Activate** di kartu gateway (Langkah 5); untuk event, kosongkan **Payment gateway** milik event dan pasang gateway-nya di booth event (Langkah 9) |
 | "Connection failed" dengan HTTP 401 atau 403 | Ada key yang salah, atau dari mode lain | Salin ulang setiap key dari dashboard penyedia dan cocokkan **Sandbox Mode** dengan key yang kamu tempel |
 | Stripe nolak key waktu disimpan | Yang ketempel publishable key (`pk_`), API key ID (`mk_`) atau key yang kepotong | Bikin secret key baru di Stripe dan tempel string `sk_live_...` lengkap |
 | Tes DOKU bilang signature gak valid | Public key di DOKU Dashboard gak cocok dengan private key di Pixture | Klik **Generate for me** lagi, tempel public key baru di **Edit Merchant Public Key**, simpan di dua sisi, lalu tes |

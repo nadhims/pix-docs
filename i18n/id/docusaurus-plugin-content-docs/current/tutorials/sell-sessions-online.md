@@ -80,6 +80,7 @@ Jualan tunai di kasir? Pakai satu batch tiket sesi: lihat [Jual dan Bagikan Vouc
 
 ## Tips {#tips}
 
+- **Penjualan online selalu masuk ke gateway Active di akun.** Booth yang milih gateway sendiri di tab **Settings** tetap ngirim penjualan online shop ke gateway yang bertanda **Active**. Venue yang harus nerima penjualan ini langsung butuh akun Pixture sendiri. Lihat [Bikin Payment Gateway](./create-a-payment-gateway.md).
 - **Satu QR per booth** kalau harga booth beda-beda; link akun kalau harganya sama semua.
 - **Kasih tahu crew bahwa kode itu tiketnya.** Pelanggan yang bawa kode melewati layar Payment, jadi antrean lebih cepat kalau crew mempersilakan pemegang kode maju.
 - **Cek email-nya sampai** di pembelian tes kamu sendiri; email itu cadangan pelanggan kalau mereka nutup halamannya.

@@ -30,7 +30,7 @@ Bukan untuk tamu yang pengin motret sendiri: pakai Photo atau Studio di start sc
 ## Persiapan {#prepare}
 
 - **Pilih template sambil mikirin fotografernya.** Setiap slot = satu kali pencet shutter. Tiga atau empat slot bikin antrean grup tetap jalan; delapan slot bikin tamu nunggu lama.
-- **Samain bentuk slot dengan cara fotografer megang kamera.** Layar **Check it** nampilin tiap foto ter-crop persis seperti slotnya. Slot landscape cocok untuk kamera yang dipegang mendatar; slot tinggi cocok untuk kamera yang diputar ke samping.
+- **Samain bentuk slot dengan cara fotografer megang kamera.** Layar cek nampilin tiap foto ter-crop persis seperti slotnya. Slot landscape cocok untuk kamera yang dipegang mendatar; slot tinggi cocok untuk kamera yang diputar ke samping.
 - **Pakai kabel USB yang panjang dan bagus**, terus lakban di bagian yang dilewati orang. Kamera harus tetap tersambung sepanjang event.
 - **Atur kamera untuk flash** kalau kamu pakai flash, dan fokus sekali di awal. Lihat [Bikin Live View Tetap Terang Pakai Flash](./bright-live-view-with-flash.md) untuk setelan kameranya.
 
@@ -79,14 +79,14 @@ Dengan kamera beneran, booth gak nampilin live view. Kamu framing lewat viewfind
 
 ## Langkah 5: Cek tiap foto {#step-5-check-each-photo}
 
-Setelah tiap jepretan, layar **Check it** nampilin fotonya ter-crop persis seperti nanti di slotnya. Layar ini gak punya timer dan nungguin kamu.
+Setelah tiap jepretan, layar cek nampilin fotonya ter-crop persis seperti nanti di slotnya. Layar ini gak punya timer dan nungguin kamu.
 
 1. **Retake** membuang fotonya. Gak ada yang disimpan, dan slot yang sama difoto lagi.
 2. **Use photo** menyimpan foto dan lanjut ke slot berikutnya.
 
-![Check it dengan Retake dan Use photo ditandai](/img/docs/steps/tutorials-photographer-mode--check-it.webp)
+![Layar cek dengan Retake dan Use photo ditandai](/img/docs/steps/tutorials-photographer-mode--check-it.webp)
 
-Kamu gak harus nyentuh layar. Mencet shutter kamera di **Check it** dihitung sebagai **Use photo**, dan foto barunya masuk ke slot berikutnya. Fotografer yang sudah puas dengan tiap jepretan tinggal terus motret.
+Kamu gak harus nyentuh layar. Mencet shutter kamera di layar cek dihitung sebagai **Use photo**, dan foto barunya masuk ke slot berikutnya. Fotografer yang sudah puas dengan tiap jepretan tinggal terus motret.
 
 ## Langkah 6: Serahkan cetakan dan QR {#step-6-hand-over-the-print-and-qr}
 
@@ -101,12 +101,12 @@ Setiap grup disimpan sebagai satu sesi, gratis untuk tamu: gak ada layar pembaya
 ## Cek Hasilnya {#check-it-worked}
 
 - Komputer Photographer terbuka di template dengan "Photo 1 of 3", bukan di start screen.
-- Shutter kamera ngambil foto, dan **Check it** nampilin fotonya ter-crop sesuai slot.
+- Shutter kamera ngambil foto, dan layar cek nampilin fotonya ter-crop sesuai slot.
 - Setelah slot terakhir, layar share nampilin cetakan yang sudah tersusun dengan **Scan QR**, dan grupnya muncul di tab **Album** event sebagai satu sesi.
 
 ## Tips {#tips}
 
-- **Motret sesuai ritme fotografer.** Foto yang diambil saat grup lagi disimpan atau di layar share gak hilang: foto itu jadi foto pertama grup berikutnya, masing-masing dengan **Check it** sendiri.
+- **Motret sesuai ritme fotografer.** Foto yang diambil saat grup lagi disimpan atau di layar share gak hilang: foto itu jadi foto pertama grup berikutnya, masing-masing dengan layar cek sendiri.
 - **Restart gak bikin grup hilang.** Setiap foto yang kamu simpan ditaruh di komputer dulu. Setelah aplikasi restart, grupnya balik lagi di slot berikutnya.
 - **File kamera yang besar aman, kok.** Booth nyimpan tiap foto maksimal 3600 piksel di sisi panjangnya, cukup untuk cetak 4x6, jadi upload tetap cepat.
 - **Pakai Skip kalau antrean ramai.** Dengan **QR time** di **Skip**, fotografer gak pernah nunggu; kasih tamu link album sebagai gantinya. Lihat [Bagikan Album dan Slideshow Event](./event-album-and-slideshow.md).

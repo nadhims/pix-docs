@@ -55,16 +55,16 @@ The switch refuses to turn on until the booth has a template ("Assign at least o
 
 Under **Studio assets** in the same tab, choose **Texture** or **Graphic** and click **Upload asset** (PNG, JPG or WebP, up to 5 MB, up to 60 assets per account). Textures appear as background patterns in the customer studio; graphics appear as stickers the customer can place, resize and rotate. They are shared by every booth. They do not affect customers who upload their own finished PNG.
 
-## Step 3: Share the Customer Link {#step-3-share-the-guest-link}
+## Step 3: Share the Customer Link
 
-1. Still on the Frame Lab tab, scroll to **Guest upload page**. The QR code and link open Frame Lab for the booth you picked, in the form `pixture.io/m/your-organisation?booth=…`.
+1. Still on the Frame Lab tab, scroll to **Guest upload page**. It is one shared page, the same for every booth. The link is in the form `pixture.io/m/your-organisation?booth=…`; the end of it only names the booth you picked, so the page knows that booth's print format.
 2. Click **Open link** to test it on your own phone, or print the QR and put it on the booth.
 
 ![Booth Frame Lab page with the customer link, Download QR and the configuration card](/img/docs/booth-frame-lab.webp)
 
 The booth's own Frame Lab page has the same link with **Download QR**. Customers also find a **Frame Lab** link on the share page of any photo session from that booth while Frame Lab is on.
 
-## Step 4: What the Customer Does, Building a Frame in the Studio {#step-4-what-the-guest-does-building-a-frame-in-the-studio}
+## Step 4: What the Customer Does, Building a Frame in the Studio
 
 The page opens with **Make your own frame** and a **Start Crafting** button. Tapping it asks **How do you want to start?** with two choices: **Create new** (the studio) or **Upload your own** (a finished PNG, covered in Step 5).
 
@@ -94,7 +94,7 @@ When the frame is ready the customer taps **Use →**:
   <figure><img src="/img/docs/framelab-voucher.webp" alt="Your voucher is ready screen with the six-character code, Copy code, Save voucher and Valid until" /><figcaption>After payment the customer gets a single-use code.</figcaption></figure>
 </div>
 
-## Step 5: What the Customer Does, Uploading a Finished PNG {#step-5-what-the-guest-does-uploading-a-finished-png}
+## Step 5: What the Customer Does, Uploading a Finished PNG
 
 Customers who already have a design choose **Upload your own**.
 
@@ -147,6 +147,7 @@ Rules to tell your staff:
 
 ## Tips
 
+- **Online sales always go to the account's Active gateway.** A booth that picks its own gateway on its **Settings** tab still sends Frame Lab sales to the gateway marked **Active**. A venue that must receive these sales directly needs its own Pixture account. See [Create a Payment Gateway](./create-a-payment-gateway.md).
 - **Put the QR where people wait,** on the booth and at the start of the queue: a frame takes a few minutes to design, so the waiting time becomes design time.
 - **Show two or three example frames** made with your own textures next to the QR. People copy what they see.
 - **Keep the Voucher expiry long enough** for the way people use it: 24 to 48 hours for walk-ins, up to 168 hours (7 days) when a host designs a frame before a party.

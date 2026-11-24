@@ -42,7 +42,7 @@ This screen belongs to one event. For a booth that runs on its own day after day
 
 ## Step 2: Open the editor
 
-On the **Booth mode** card:
+Still on the **Setup** tab, the numbers carry on from Step 1 (they match the marks in the picture). On the **Booth mode** card:
 
 3. Open the **Appearance** tab. It shows the current start screen with "Make it yours: your names, a photo and your colours."
 4. Click **Edit appearance**.

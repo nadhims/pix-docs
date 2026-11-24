@@ -107,7 +107,7 @@ Stripe shows a secret key only once. If yours is gone, click **Create secret key
 A new gateway is saved switched off. Booths only charge through the gateway marked **Active**.
 
 1. On the new gateway card, click **Activate**. The card now shows an **Active** badge.
-2. With two gateways, only one is active at a time: activating one switches the other off. The inactive one can still serve one booth or one event that picks it by name (Step 9).
+2. With two gateways, only one is active at a time: activating one switches the other off. A booth that picks the inactive one by name on its **Settings** tab still charges through it (Step 9). An event cannot: see the caution in Step 9.
 
 ![Payment Gateway section with a connected gateway card and its Edit and Test buttons](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-card.webp)
 
@@ -147,7 +147,13 @@ More on readers, coin boxes and cash in [Take Card, Coin and Cash Payments](./co
 
 ![Booth Settings tab with Output Settings, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/booth-settings-tab.webp)
 
-- **One event on a different gateway:** in **Events**, open the event, click **Edit**, and pick the gateway under **Payment gateway**. Sessions during the event charge through it. Keep that gateway **Active** while the event runs, or the booth reports payment as unavailable.
+- **One event on a different gateway** (a client who must receive the event's money): set the gateway on the event booth itself, as above, and leave the event's own **Payment gateway** empty.
+
+:::caution Do not activate a client's gateway for an event
+An event that picks a gateway under **Payment gateway** only takes payment while that gateway is the account's **Active** one. Activating it switches your usual gateway off, and every booth on **Organization Default** then charges into the client's account too. Set the gateway on the event booth instead.
+:::
+
+- **Online shop and Frame Lab:** sales on your online shop link and in Frame Lab always charge the account's **Active** gateway, whatever a booth picks on its **Settings** tab. A venue that must receive its online sales directly needs its own Pixture account.
 
 Keep one gateway **Active** at all times, even when every booth picks its own: the booth checks for an active gateway before it shows the Pay button.
 
@@ -170,7 +176,7 @@ The gateway only decides where the money goes. What a session costs is set per b
 
 | Problem | Why | Fix |
 |---|---|---|
-| The booth says "Payment isn't available right now. Please ask the booth staff for help." | No gateway on the account is marked **Active** (it was connected but never activated), or the event's own gateway is not the active one | Click **Activate** on the gateway card (Step 5); for an event, activate the gateway the event uses |
+| The booth says "Payment isn't available right now. Please ask the booth staff for help." | No gateway on the account is marked **Active** (it was connected but never activated), or the event picks a gateway under **Payment gateway** that is not the active one | Click **Activate** on the gateway card (Step 5); for an event, clear the event's **Payment gateway** and set the gateway on the event booth instead (Step 9) |
 | "Connection failed" with HTTP 401 or 403 | A key is wrong, or from the other mode | Re-copy each key from the provider's dashboard and match **Sandbox Mode** to the keys you pasted |
 | Stripe refuses the key when you save | You pasted a publishable key (`pk_`), an API key ID (`mk_`) or a cut-off key | Create a new secret key in Stripe and paste the whole `sk_live_...` string |
 | The DOKU test says the signature is invalid | The public key in the DOKU Dashboard does not match the private key in Pixture | Click **Generate for me** again, paste the new public key into **Edit Merchant Public Key**, save both sides, and test |

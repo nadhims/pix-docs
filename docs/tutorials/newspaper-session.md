@@ -12,10 +12,10 @@ In this tutorial you will make newspaper templates, build a Newspaper screen des
 ## When to Use It
 
 - **A self-service booth in a mall or a museum.** The live front page is the hook: people stop when they see their own face on a newspaper.
-- **A brand activation or a launch.** The newspaper carries the brand's headline and the event date, and every guest walks away with a printed souvenir.
-- **A wedding or a birthday.** A "special edition" with the couple's story or the birthday headline.
+- **A kiosk booth placed at a brand activation or a launch.** The newspaper carries the brand's headline and the date, and every customer walks away with a printed souvenir.
+- **A kiosk booth placed at a wedding or a birthday party.** A "special edition" with the couple's story or the birthday headline, as long as the booth runs as a kiosk and not as a Pixture event.
 
-Newspaper is a booth mode for a kiosk booth, with its own templates. It does not run at an event: for an event, use [Run an Event](./run-an-event.md) with the Photo mode and a newspaper-style template.
+Newspaper is a booth mode for a kiosk booth, with its own templates. It does not run inside a Pixture event: for an event, use [Run an Event](./run-an-event.md) with the Photo mode and a newspaper-style template.
 
 ## Before You Start
 
@@ -33,7 +33,7 @@ Newspaper is a booth mode for a kiosk booth, with its own templates. It does not
 
 ## Step 1: Make a newspaper template
 
-1. Go to **Pix Design > Templates** and click **New Project**.
+1. Go to **Pix Design > Template Editor** and click **New Project**.
 2. Under **Media Type**, pick **Newspaper** ("Newspaper booths"). The hint reads "Shows only on Newspaper booths. A3 recommended, any size works." and **A3** is picked for you.
 3. Change the **Print Size** if your printer needs another one.
 4. Upload your PNG under **Template PNG** and click **Create Project**.
