@@ -11,6 +11,8 @@ In this tutorial you will lock the booth's operator menu with a PIN, open the me
 
 The operator menu is where you change the camera, printer and capture settings, reprint a photo, upload waiting photos and free up space. Customers never see it: it sits behind a hidden corner and, once you set one, a PIN.
 
+The operator menu is on the **booth computer**: the Mac or Windows PC with the camera and printer, running the Pixture Photobooth app. It is not in the Pixture dashboard at pixture.io, which you open on any computer or phone.
+
 ## When to Use It
 
 - **A self-service booth in a mall or a venue.** Nobody watches the booth all day. Without a PIN, a curious customer who taps the corner twice lands in your camera and printer settings.
@@ -86,6 +88,12 @@ The bar at the top shows **Internet**, **API** (Pixture's servers) and **Uploads
 
 Tap **Start Booth** in the menu (or **Back to Menu**, then **Start Booth**). The booth goes back to its Start screen. A photo session that was running when you opened the menu is not affected; settings you changed apply from the next session.
 
+### Leave the booth app
+
+To reach the computer's desktop, for example to install a printer driver, tap **Exit** in the menu, then **Exit App**. The app closes; open it again from the desktop or the Dock when you are done.
+
+**Logout** on the same card unlinks the computer from the booth (double-tap it, then enter the PIN). Use it only when this computer stops being this booth.
+
 ## Check It Worked
 
 - Tap the top-right corner twice: the **Enter Admin PIN** pad appears.
@@ -96,6 +104,7 @@ Tap **Start Booth** in the menu (or **Back to Menu**, then **Start Booth**). The
 
 - **Fastest reprint during an event:** two taps in the corner, PIN, **Admin Panel**, **Print history**, then **Print again**. Teach it to whoever staffs the booth.
 - **Move the padlock** when your design puts a button in the top-right corner: in **Pix Design**, open the booth's screen design in the UI Editor, and on the Start screen set **Lock button** to another corner (**Top left**, **Bottom right** or **Bottom left**) and its opacity.
+- **Before you reset, reinstall or swap a booth computer**, open **Admin Panel** and check that **Uploads** shows nothing **Waiting** or **Failed**. Tap **Upload now** and wait. Photos that have not uploaded live only on that computer.
 - **Change the PIN when staff leave.** Set a new one in **Settings > Security**; online booths use it straight away.
 - Avoid PINs like 1234, 0000 or the year. Customers try those first.
 
