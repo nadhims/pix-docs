@@ -13,6 +13,12 @@ Every booth:
 
 - **Cashier codes last until the end of the next local day**: a Central Cashier code now works until the end of the day after the sale in the booth's own time zone (or your account's), not until midnight UTC. In Jakarta that is up to 17 hours longer for codes sold early in the morning. The sale email and the dashboard's **Tickets** list show the last day as "Valid until". See [Queue Line](/docs/guides/queue-line).
 
+## 1.2.52 (24 November 2026, Mac and Windows)
+
+Every booth:
+
+- **Extra prints show up sooner on Windows**: the button to buy extra prints on the Share screen now appears as soon as the print reaches the printer, instead of up to about 40 seconds later. If the printer then gets stuck, the button goes away again and an unpaid extra prints payment is cancelled. Mac booths already worked this way. See [Sharing](/docs/desktop-app/session-flow/sharing).
+
 ## 1.2.51 (24 November 2026, Mac and Windows)
 
 Every booth:
@@ -21,6 +27,55 @@ Every booth:
 - **Email my photos says when an email can't be sent**: if Pixture refuses the email (the day's 500 emails or the session's 3 addresses are used up), the customer sees "We couldn't send that email. Try again or scan the QR." with **Try again**, instead of "Sent to". See [Let Customers Email Their Photos](/docs/tutorials/email-my-photos).
 - **Free booths stay free offline**: a booth whose sessions are free no longer shows the Payment screen when its internet drops.
 - **Camera status reaches the dashboard at once**: when the camera is unplugged, fails or comes back, the booth tells Pixture within seconds, so **Health** never shows a camera as ready while the booth says Camera Disconnected.
+
+## 1.2.50 (24 November 2026, Mac and Windows)
+
+Every booth:
+
+- **Click areas that start one mode**: on the Home page of a design in the UI Editor, a click area can now start one mode, with the action **Start Photo**, **Start Studio**, **Start Notes** or **Start AI**. When AI can't run (no styles or no AI credits), a **Start AI** area shows "AI photos are not available right now." instead of doing nothing. An area for a mode the design no longer offers starts a normal session. See [UI Editor](/docs/dashboard/pix-design/ui-editor).
+
+Events:
+
+- **Templates start without the slideshow by default**: with **Start shows** set to **Templates**, the start screen now shows the round mode buttons, the same as **Mode buttons**. Turn on **Template slideshow** to show the templates and one Start button again. See [Event Start Screen](/docs/dashboard/event-start-screen).
+- **One mode, one Start**: an event on the Darkroom look with only one mode shows the mode's name, the event title and date, and one Start button, instead of a single round mode button.
+
+## 1.2.49 (22 November 2026, Mac and Windows)
+
+Every booth:
+
+- **Button keys**: set your own keys for **Capture**, **Retake** and **Keep** once, and a USB button box, clicker or foot switch works them on the Capture screen of every booth on your account. A held button fires once, and a key set here never triggers a menu shortcut such as full screen. Computers only, not phones or tablets. See [Button keys](/docs/dashboard/pix-design/button-keys).
+
+## 1.2.48 (22 November 2026, Mac and Windows)
+
+Every booth and events:
+
+- **Move drawing**: a new tool with four arrows on the note screen. Drag anywhere on the note to slide the whole drawing, pens and texts together. It can't be pushed off the note.
+- **Turn text**: tap a text with the Text tool, then drag the round handle under it to turn it. Close to level or upright, it snaps straight. The print matches the screen. See [Run a Notes Session](/docs/tutorials/notes-session).
+
+## 1.2.47 (21 November 2026, Mac and Windows)
+
+Every booth and events:
+
+- **Filter's Next works once**: tapping Next on the Filter screen many times while the filter was being applied could later jump the booth to the Share screen, even during the next customer's payment. Now only the first tap counts, and the booth only moves on while it is still on Filter. This also covers the event Looks screen.
+- **Filter shows it is working**: while Next applies the filter, the screen dims and shows a spinner, so customers stop tapping. A customer who leaves while the filter is applied no longer leaves their photos in the next session. See [Filters](/docs/desktop-app/session-flow/filters).
+
+## 1.2.46 (21 November 2026, Mac and Windows)
+
+Every booth and events:
+
+- **Printed notes really print**: with **Notes button, printed** and a note design (the event's Note template or a booth's Notes template), the booth now prints the note picture instead of the plain photo strip. Before, the note only reached the soft file. A reprint from the Share screen or the event Gallery prints the note too.
+- **After Photo, printed**: a new Note booth choice for booth designs and events. There is no Notes button on the start screen; after Photo (or Studio on a booth), customers and guests write a note and the print has it. See [Run a Notes Session](/docs/tutorials/notes-session).
+
+## 1.2.45 (21 November 2026, Mac and Windows)
+
+Every booth:
+
+- **Notes like events**: a booth's design in the UI Editor now has the **Note booth** choice, as events do. Pick **After Photo, not printed** to add the note after Photo or Studio with no Notes button, or **Notes button, not printed** for notes that never print and go to the soft file only.
+- **Notes template**: turn on **Notes template** for a template in the Template Editor and assign it to the booth, and the note is written on it as a separate picture. It is never offered as a photo layout. See [Run a Notes Session](/docs/tutorials/notes-session).
+
+Every booth and events:
+
+- **Done says Skip**: on the note screen, Done reads **Skip** until something is drawn or typed, because the session goes on without a note.
 
 ## 1.2.44 (18 November 2026, Mac and Windows)
 
