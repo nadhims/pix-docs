@@ -1,6 +1,27 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {existsSync, readFileSync} from 'node:fs';
+import path from 'node:path';
+
+// Partly translated site: a page translated in i18n/id links to English-only pages by file
+// (../dashboard/settings.md), and English pages link to translated ones. Docusaurus resolves such
+// a link only inside one locale's files, so it reports it as broken. This hook turns the link into
+// the target doc's URL path (/docs/...), which the router prefixes with the locale (/id/docs/...).
+// A link whose target file does not exist in docs/ stays broken, so onBrokenLinks still fails the build.
+// ponytail: reads only `slug:` from frontmatter; a doc with a custom `id:` would need it added here.
+function linkAcrossLocales({sourceFilePath, url}: {sourceFilePath: string; url: string}): string | undefined {
+  const [, file, rest] = url.match(/^([^?#]*)(.*)$/)!;
+  const source = sourceFilePath.replace(/^i18n\/[^/]+\/docusaurus-plugin-content-docs\/current\//, 'docs/');
+  const target = path.posix.normalize(path.posix.join(path.posix.dirname(source), file));
+  if (!target.startsWith('docs/') || !existsSync(target)) {
+    console.warn(`[link] ${url} in ${sourceFilePath} has no file at ${target}`);
+    return undefined;
+  }
+  const slug = readFileSync(target, 'utf8').match(/^---[\s\S]*?^slug:\s*(\S+)\s*$[\s\S]*?^---/m)?.[1];
+  const docPath = slug?.startsWith('/') ? slug.slice(1) : target.slice('docs/'.length).replace(/\.mdx?$/, '').replace(/(^|\/)index$/, '');
+  return `/docs/${docPath}${rest}`;
+}
 
 const config: Config = {
   title: 'Pix Docs by Pixture',
@@ -26,7 +47,7 @@ const config: Config = {
 
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownLinks: linkAcrossLocales,
       onBrokenMarkdownImages: 'warn',
     },
   },
