@@ -89,7 +89,7 @@ Embed-nya nampilin halaman album publik, jadi butuh **Link Sharing** nyala.
    - **On screen**: **Event name** dan **QR to the album**, dua-duanya nyala di awal.
 3. Klik **Save slideshow**.
 
-<!-- SHOT-NEEDED: dashboard: the Slideshow window with the Live preview and the Screen, Background, Caption, Show, Timing and On screen settings -->
+![Jendela Slideshow dengan Live preview di kiri, pengaturan di kanan dan Save slideshow ditandai](/img/docs/steps/tutorials-event-album-and-slideshow--slideshow-window.webp)
 
 ## Langkah 5: Putar slideshow di venue {#step-5-play-the-slideshow-at-the-venue}
 
@@ -97,7 +97,7 @@ Embed-nya nampilin halaman album publik, jadi butuh **Link Sharing** nyala.
 2. Jadikan browser layar penuh. Di Google Chrome: tekan F11 di Windows, atau Control-Command-F di Mac.
 3. Biarkan jalan. Setelah tiap putaran penuh, slideshow memuat ulang dan ikut nampilin foto yang diambil sejak itu.
 
-<!-- SHOT-NEEDED: dashboard: the slideshow playing full screen with the caption and the QR to the album -->
+![Slideshow yang diputar layar penuh dengan caption dan QR ke album](/img/docs/steps/tutorials-event-album-and-slideshow--slideshow-full.webp)
 
 Klik, tap atau tombol Esc menghentikan slideshow dan nampilin grid album. Jauhkan mouse dan keyboard dari tamu, atau buka slideshow lagi kalau ada yang menghentikannya.
 

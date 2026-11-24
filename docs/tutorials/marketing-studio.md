@@ -57,7 +57,7 @@ The title and buttons are fixed and follow the booth's language; your text repla
 2. Switch booths with the **Booth** picker to see each booth's photos. **Load more** shows older ones.
 3. Click a photo to open that session's share page in a new tab, where you can download the photo, GIF or Live photo.
 
-<!-- SHOT-NEEDED: dashboard: the Consent photos gallery with several made-up consent photos, GIF and Live badges -->
+![Consent photos gallery with made-up photos, each with its booth, date and GIF or Live badge](/img/docs/steps/tutorials-marketing-studio--consent-photos.webp)
 
 ## Step 4: Collect Contacts with Pay 1 Get 1
 
@@ -67,7 +67,7 @@ The **Audience** tab lists the customers who left an email or a phone number, wi
 2. On each booth's **Pricing** tab, set **Ask for contact after Pay 1 get 1** to **Email**, **Phone** or **Email + phone** (the default is **Don't ask**).
 3. Customers who claim the free session and leave their contact appear on **Audience**. **Remove** deletes a contact who asks to be forgotten.
 
-<!-- SHOT-NEEDED: dashboard: the Audience tab with a few made-up contacts -->
+![Audience tab with made-up contacts, their Visits and Last seen, and Remove marked](/img/docs/steps/tutorials-marketing-studio--audience.webp)
 
 ## Step 5: Roll an Offer Out with a Campaign
 

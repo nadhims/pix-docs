@@ -89,7 +89,7 @@ The embed shows the public album page, so it needs **Link Sharing** on.
    - **On screen**: **Event name** and **QR to the album**, both on at first.
 3. Click **Save slideshow**.
 
-<!-- SHOT-NEEDED: dashboard: the Slideshow window with the Live preview and the Screen, Background, Caption, Show, Timing and On screen settings -->
+![Slideshow window with the Live preview on the left, the settings on the right and Save slideshow marked](/img/docs/steps/tutorials-event-album-and-slideshow--slideshow-window.webp)
 
 ## Step 5: Play the slideshow at the venue
 
@@ -97,7 +97,7 @@ The embed shows the public album page, so it needs **Link Sharing** on.
 2. Put the browser in full screen. In Google Chrome: press F11 on Windows, or Control-Command-F on a Mac.
 3. Leave it running. After each full round, the slideshow reloads and picks up the photos taken since.
 
-<!-- SHOT-NEEDED: dashboard: the slideshow playing full screen with the caption and the QR to the album -->
+![The slideshow playing full screen with the caption and the QR to the album](/img/docs/steps/tutorials-event-album-and-slideshow--slideshow-full.webp)
 
 A click, a tap or the Esc key stops the slideshow and shows the album grid. Keep the mouse and keyboard away from guests, or open the slideshow again if someone stops it.
 

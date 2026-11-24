@@ -71,7 +71,7 @@ Klik kartu **Video**. Perubahan langsung tersimpan.
 8. **Overlays**: **Add overlay** buat menaruh frame atau efek di atas klip.
 9. **Intro & outro**: taruh **Intro video** dan **Outro video** (MP4 atau MOV, maksimal 30 MB).
 
-<!-- SHOT-NEEDED: dashboard: the event Video tab with General (Countdown, Video length, Quality, Size, Orientation, Display text before recording, Mirror captured videos, Keep original clip), Overlays and Intro & outro -->
+![Tab Video event dengan tiap pengaturan dari Countdown sampai Intro & outro ditandai](/img/docs/steps/tutorials-video-and-360-sessions--video-tab.webp)
 
 Dengan dua overlay atau lebih, setiap tamu dapat overlay berikutnya secara bergiliran. Lihat [Tambah Overlay GIF dan Video](./gif-and-video-overlays.md).
 
@@ -86,7 +86,7 @@ Klik kartu **360/Slow-mo**.
 5. **Soundtrack**: taruh MP3, M4A, AAC atau WAV, maksimal 15 MB. "Music the booth plays under each 360 clip."
 6. **Overlays** dan **Intro & outro**, sama seperti Video.
 
-<!-- SHOT-NEEDED: dashboard: the event 360/Slow-mo tab with Timeline (Preset, Reverse, Clips), Soundtrack, Overlays and Intro & outro -->
+![Tab 360/Slow-mo event dengan General, Timeline (Preset, Reverse, Clips), Soundtrack, Overlays dan Intro & outro ditandai](/img/docs/steps/tutorials-video-and-360-sessions--slowmo-tab.webp)
 
 :::tip Bikin klip akhirnya pendek
 Rekaman 4 detik di setengah kecepatan sudah jadi 8 detik; dengan **Reverse** jadi 16. Klip 10 sampai 20 detik ditonton sampai habis dan lebih cepat ter-upload.
@@ -118,7 +118,9 @@ Menu operator booth punya halaman **Capture Settings** dengan setelan yang sama,
 
 Di sesi Video pertama, Mac minta izin buat pakai mikrofon. Izinkan, kalau gak, semua videonya tanpa suara.
 
-<!-- SHOT-NEEDED: booth: the event video capture screen (Get ready, We record for 10 seconds, Start) and the event Share screen with the video playing beside Scan QR and Complete -->
+![Layar capture video dengan Get Ready, We record for 10 seconds dan Start ditandai](/img/docs/steps/tutorials-video-and-360-sessions--video-ready.webp)
+
+![Layar Share dengan video yang diputar di samping Scan QR dan Complete ditandai](/img/docs/steps/tutorials-video-and-360-sessions--video-share.webp)
 
 ## Cek Hasilnya {#check-it-worked}
 

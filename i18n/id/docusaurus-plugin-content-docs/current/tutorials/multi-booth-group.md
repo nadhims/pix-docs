@@ -62,7 +62,7 @@ Buka grup dari daftar Booths. Ada enam tab:
 1. Di **Templates**, klik **Manage Templates**, centang template-nya dan simpan. Setelah disimpan, semua booth dapat set ini persis; template yang tadinya cuma ada di sebagian booth ikut diganti.
 2. Di **UI Project**, pilih desain layar di daftar dan klik **Save for all booths**. Biarkan default untuk pakai layar standar Pixture.
 
-<!-- SHOT-NEEDED: dashboard: the group's UI Project tab with the design picker and Save for all booths -->
+![Tab UI Project Multi-Booth dengan pilihan desain dan Save for all booths ditandai](/img/docs/steps/tutorials-multi-booth-group--group-ui-project.webp)
 
 ## Langkah 4: Pilih Cara Pelanggan Bayar {#step-4-choose-how-customers-pay}
 
@@ -73,7 +73,7 @@ Buka grup dari daftar Booths. Ada enam tab:
 3. **Dengan Central cashier**, klik **Add product** dan isi **Name**, **Description**, **Price** dan **Photo** (opsional). Di **Booth sessions** pilih **Single** (1 sesi), **Double** (2), **Group** (4) atau **No booth sessions** untuk merchandise saja, tambahkan **Extra sessions** kalau mau, dan isi **Items handed over at the counter**. Simpan.
 4. Di **Sell sessions online** (atau **Sell products online** kalau pakai kasir pusat), **Copy** link-nya atau cetak QR-nya. Pelanggan membukanya, bayar, dan dapat kode.
 
-<!-- SHOT-NEEDED: dashboard: the Cashier tab with Central cashier selected and two products (Single session, Double + magnet) in the Products table -->
+![Tab Cashier dengan Central cashier dipilih, dua produk di tabel Products dan Add product ditandai](/img/docs/steps/tutorials-multi-booth-group--group-cashier.webp)
 
 Tiap penjualan kasir pusat ngasih kode 8 karakter (tampil sebagai empat karakter, tanda strip, dan empat lagi) yang jalan di booth mana saja di grup. Booth membuka layar Payment langsung di langkah kode. Jual kode untuk dipakai hari itu juga: kode kedaluwarsa di akhir hari setelah penjualan, dihitung dalam waktu UTC.
 

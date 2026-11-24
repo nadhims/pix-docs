@@ -63,7 +63,7 @@ Booth menggambar layar Start dan Capture sendiri, dengan koran kamu di tengah da
 1. Buka **Booths**, buka booth-nya, lalu tab **UI Project**.
 2. Pilih project kamu di bawah **Newspaper mode** dan klik **Save**. Tab-nya bertuliskan "Booth mode: Newspaper".
 
-<!-- SHOT-NEEDED: dashboard: booth UI Project tab with the dropdown on Newspaper mode, Save, and the "Booth mode: Newspaper" line -->
+![Tab UI Project booth dengan project Newspaper dipilih, Save dan baris "Booth mode: Newspaper" ditandai](/img/docs/steps/tutorials-newspaper-session--booth-ui-project.webp)
 
 Kalau tab-nya bilang "No Newspaper templates yet", balik ke Langkah 1: booth butuh minimal satu template dengan **Media Type** **Newspaper**. Kalau bilang "Update this booth to app 1.2.19 or newer to run Newspaper mode", update aplikasi booth.
 
@@ -75,7 +75,7 @@ Kalau tab-nya bilang "No Newspaper templates yet", balik ke Langkah 1: booth but
 4. Tap layar (atau **Capture**). Hitung mundur jalan di atas slot foto, lalu muncul **Retake** dan **Next**. Tiap foto ngisi slotnya dan kamera pindah ke slot berikutnya.
 5. Sesi lanjut ke layar Adjust dan Filter kalau desain kamu nyalakan, lalu Sharing dengan cetakan dan QR code.
 
-<!-- SHOT-NEEDED: booth: the Newspaper Start screen in portrait with the live camera in the front-page photo, the dots and Start -->
+![Layar Start Newspaper dengan kamera live di foto halaman depan, titik-titik dan Start ditandai](/img/docs/steps/tutorials-newspaper-session--newspaper-start.webp)
 
 ## Cek Hasilnya {#check-it-worked}
 

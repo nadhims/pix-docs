@@ -70,19 +70,19 @@ On **Header**, set the header's **Background** and **Text** colours. **Header im
 2. Open **Promo banner** and drop your 4:5 image into **Banner image**. Add a **Banner link (optional)**, for example your online shop.
 3. In the preview, tap the × on the promo the way a customer would. **Show promo popup again** brings it back so you can check it after a change.
 
-<!-- SHOT-NEEDED: dashboard: Pix Design > Microsite on the Menu links tab with + Add link, and the Promo banner tab with Banner image and Banner link -->
+![Microsite Menu links tab with + Add link, and the Promo banner tab with Banner image and Banner link marked](/img/docs/steps/tutorials-share-page--microsite-links-banner.webp)
 
 ## Step 4: Save the design to your booths
 
 The share page design is held per booth, so you choose which booths get it.
 
 1. Click **Save changes**. With more than one booth, the **Save to booths** window opens: "This microsite design applies to the booths you pick." Every booth starts ticked.
-2. Untick the booths that should keep their own design, for example a client's booth at an event.
+2. Click **Choose**, untick the booths that should keep their own design, for example a client's booth at an event, and click **Apply**.
 3. Click **Save**. The message reads "Saved to N booths."
 
 A booth whose computer is not on Pix Pro is skipped, and the message says how many were skipped. With only one booth, **Save changes** saves straight away.
 
-<!-- SHOT-NEEDED: dashboard: the Save to booths window with the booth list and Save -->
+![Save to booths window with Choose and Save, and the booth list with Apply](/img/docs/steps/tutorials-share-page--save-to-booths.webp)
 
 ## Step 5: Hide the Powered by Pixture footer (Pix Pro Yearly)
 
@@ -93,7 +93,7 @@ The share page, the event album and the photo emails end with a **Powered by Pix
 
 On any other plan the switch stays on and locked, with "Yearly plan." and a **Go yearly** link. If the account stops having Pix Pro Yearly, the footer comes back by itself, and hides again when you go back to yearly.
 
-<!-- SHOT-NEEDED: dashboard: Pix Design > Brand with the Pixture footer section and the Show on guest pages switch -->
+![Brand page with the Pixture footer card and the Show on guest pages switch marked](/img/docs/steps/tutorials-share-page--brand-footer.webp)
 
 ## Step 6: Put the links on your own domain (optional)
 
@@ -103,7 +103,7 @@ Share links use the Pixture address by default, free on every plan. Your own add
 2. On the **Own domain** card ("Use your own domain for guest links."), click **Contact us**. Pixture sets it up with you.
 3. Once your account is unlocked, the same card asks for your domain and shows the DNS record to add at your domain provider. Add it, then click **Verify DNS**.
 
-<!-- SHOT-NEEDED: dashboard: Settings > Own domain with the Pixture Address card and the Own domain card's Contact us -->
+![Settings Own domain with the Pixture Address card and the Own domain card's Contact us marked](/img/docs/steps/tutorials-share-page--own-domain.webp)
 
 ## Step 7: Test it on your phone
 

@@ -39,7 +39,7 @@ Not needed if you only want customers to buy a session online: the booth's own s
 2. The editor has the sections on the left (**Home**, **Links**, **Header**, **Booths**, **Frame Lab**, **Theme**), the settings in the middle and a phone preview on the right that updates as you type.
 3. Changes save by themselves. The status next to the title reads **Saving**, **Saved**, **Draft** (not published yet) or **Live**.
 
-<!-- SHOT-NEEDED: dashboard: the Website editor with the section rail (Home, Links, Header, Booths, Frame Lab, Theme) and the Draft status marked -->
+![Website editor with the section rail and the Draft status marked](/img/docs/steps/tutorials-publish-your-website--editor.webp)
 
 ## Step 2: Fill In Your Header
 
@@ -48,7 +48,7 @@ Not needed if you only want customers to buy a session online: the booth's own s
 3. Check the profile picture (your logo by default), the **Title** (your business name) and write a short **Bio**: what you do and where.
 4. Click **Add a social icon** for Instagram, TikTok, YouTube, Facebook, X, WhatsApp or Email.
 
-<!-- SHOT-NEEDED: dashboard: the Header section with layout choices, Title, Bio and Add a social icon -->
+![Header section with the layouts, profile image, Title, Bio and Add a social icon marked](/img/docs/steps/tutorials-publish-your-website--header.webp)
 
 ## Step 3: Add Your Buttons
 

@@ -39,7 +39,7 @@ Gak perlu kalau kamu cuma mau pelanggan beli sesi online: link shop dan QR milik
 2. Editornya punya bagian-bagian di kiri (**Home**, **Links**, **Header**, **Booths**, **Frame Lab**, **Theme**), setelan di tengah dan preview HP di kanan yang langsung berubah waktu kamu mengetik.
 3. Perubahan tersimpan sendiri. Status di sebelah judul bertuliskan **Saving**, **Saved**, **Draft** (belum dipublikasikan) atau **Live**.
 
-<!-- SHOT-NEEDED: dashboard: the Website editor with the section rail (Home, Links, Header, Booths, Frame Lab, Theme) and the Draft status marked -->
+![Editor Website dengan deretan bagian dan status Draft ditandai](/img/docs/steps/tutorials-publish-your-website--editor.webp)
 
 ## Langkah 2: Isi Header {#step-2-fill-in-your-header}
 
@@ -48,7 +48,7 @@ Gak perlu kalau kamu cuma mau pelanggan beli sesi online: link shop dan QR milik
 3. Cek foto profil (logo kamu secara default), **Title** (nama bisnis kamu) dan tulis **Bio** singkat: apa yang kamu kerjakan dan di mana.
 4. Klik **Add a social icon** untuk Instagram, TikTok, YouTube, Facebook, X, WhatsApp atau Email.
 
-<!-- SHOT-NEEDED: dashboard: the Header section with layout choices, Title, Bio and Add a social icon -->
+![Bagian Header dengan pilihan layout, profile image, Title, Bio dan Add a social icon ditandai](/img/docs/steps/tutorials-publish-your-website--header.webp)
 
 ## Langkah 3: Tambah Tombol {#step-3-add-your-buttons}
 

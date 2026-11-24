@@ -49,7 +49,7 @@ Not the right fit for a busy party booth with a queue: free shooting takes longe
 3. Set **Max photos**. 0 means no limit, and 40 is the most a session can hold.
 4. Under **Camera trigger**, pick the **Trigger**: **Tap to start** (customers tap the live view), **Shutter button** (an on-screen button) or **Camera shutter** (the camera's own shutter button takes the photo, with no countdown; this needs a Canon camera).
 
-<!-- SHOT-NEEDED: dashboard: UI Editor Capture tab of a Studio project with the Studio session section (Session length, Max photos) and Camera trigger marked -->
+![UI Editor Capture tab with Session length, Max photos and the camera Trigger marked](/img/docs/steps/tutorials-studio-mode--ui-editor-studio-session.webp)
 
 The time starts when the Capture screen opens. Customers can never end with fewer photos than the template has slots: a lower **Max photos** is raised to the slot count on the booth, and when the time runs out before that, the booth keeps shooting until the slots can be filled.
 
@@ -79,10 +79,10 @@ The booth picks up the design at its next idle moment, usually within seconds.
 ## Step 5: Shoot a test session
 
 1. On the booth, start a session and pay (a free booth skips payment), then pick a template.
-2. On the Capture screen, tap (or press the remote) for each shot. After each shot the photo shows with **Next** (keep it) and **Retake** (drop it and shoot again).
+2. On the Capture screen, tap (or press the remote) for each shot. After each shot the photo shows with **Next** (keep it) and **Retake** (drop it and shoot again). Each photo you keep lands in the card in the corner; tap the card to see every photo of the session and remove one.
 3. Keep shooting until the time runs out, **Max photos** is reached, or you tap **Done**.
 
-<!-- SHOT-NEEDED: booth: the Studio Capture screen with the live view, the Last Shot card, the Photo Counter, the Session Timer and Done -->
+![The Studio Capture screen with the last photo card, the photo count, the timer and Done marked](/img/docs/steps/tutorials-studio-mode--studio-capture.webp)
 
 ## Step 6: Place the photos
 

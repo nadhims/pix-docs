@@ -46,7 +46,7 @@ Bukan untuk event yang tamunya pakai booth gratis: komputer event gak pernah iku
 | **Hybrid** | Walk-in boleh. Kalau ada yang antre, booth menunggu nomor mereka. |
 | **Online only** | Semua pelanggan butuh nomor. Booth cuma mulai untuk nomor yang dipanggil. |
 
-<!-- SHOT-NEEDED: dashboard: the group's Queue tab with the line on (Hybrid), showing the Queue line modes, Any time / Set hours and the Booth letters card with two booths -->
+![Tab Queue Multi-Booth dengan antrean di Hybrid, Any time / Set hours dan kartu Booth letters](/img/docs/steps/tutorials-queue-line--queue-tab.webp)
 
 Pilih **Hybrid** untuk kebanyakan tempat: kalau gak ada yang antre, pelanggan walk-in bayar di booth seperti biasa; begitu ada yang pegang nomor, booth menunggu mereka. Pilih **Online only** kalau ramainya sampai tiap pelanggan sebaiknya ambil nomor.
 
@@ -108,12 +108,12 @@ HP pelanggan lalu nampilin tiket live: nomor mereka, booth-nya, berapa orang di 
 
 1. Tap **Staff page** di tab Queue. Bagian atas nampilin **Open** atau **Closed**, berapa yang menunggu dan berapa booth yang kosong.
 2. Tiap booth punya kartu dengan hurufnya, chip (**Free**, **Calling**, **In session** atau **Offline**) dan antreannya. Di booth yang kosong, **Call A4** memanggil nomor berikutnya sekarang; antrean juga memanggil nomor berikutnya sendiri tiap ada booth yang kosong.
-3. Buka menu tiket (tiga titik) untuk **Call now**, **Skip** (pelanggan terlewat), **Put back** (ke belakang antrean) atau **Move to** booth lain. Tiket yang dipindah tetap pegang nomor dan urutan waktunya: A12 yang dipindah ke Booth B tetap A12.
+3. Buka menu tiket (tiga titik). Isinya menyesuaikan tiketnya: **Call now** (booth-nya lagi kosong), **Skip** (pelanggan terlewat), **Put back** (tiket yang sudah dipanggil atau terlewat pindah ke belakang antrean) atau **Move to** booth lain. Tiket yang dipindah tetap pegang nomor dan urutan waktunya: A12 yang dipindah ke Booth B tetap A12.
 4. **Close line** menghentikan panggilan untuk seluruh grup, misalnya saat istirahat; **Open line** memulainya lagi. Orang yang antre tetap pegang tempatnya.
 5. **Sell at the counter** membuka shop untuk pelanggan yang berdiri di depan kamu; mereka bayar dan dapat nomor.
 6. **Open display** membuka halaman TV.
 
-<!-- SHOT-NEEDED: dashboard: the Staff page with two booth cards (A Calling A3, B Free with Call B2), the ticket menu open showing Call now, Skip, Put back, Move to -->
+![Halaman Staff dengan booth A memanggil A3, booth B bebas dengan Call B2, menu tiket terbuka serta Close line, Sell at the counter dan Open display ditandai](/img/docs/steps/tutorials-queue-line--staff-page.webp)
 
 ## Cek Hasilnya {#check-it-worked}
 

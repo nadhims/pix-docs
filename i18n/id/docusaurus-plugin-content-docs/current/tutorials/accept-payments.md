@@ -101,7 +101,9 @@ Satu desain layar bisa dipakai beberapa booth. **Enabled in session flow** yang 
 3. Dengan Stripe, QR-nya membuka halaman checkout Stripe di HP pelanggan, tempat mereka bayar pakai kartu.
 4. Begitu gateway konfirmasi, booth otomatis lanjut ke pilihan template. (Kalau **Advanced mode** nyala dan halaman **Payment Success** sudah didesain, halaman itu tampil dulu sesuai waktu yang kamu atur.)
 
-<!-- SHOT-NEEDED: booth: the Payment screen with the Single, Double and Group package cards and the QR code with its countdown -->
+![Layar Payment dengan kartu paket Single, Double dan Group ditandai](/img/docs/steps/tutorials-accept-payments--package-picker.webp)
+
+![Kode QR dengan nominal dan hitung mundur Expires in ditandai](/img/docs/steps/tutorials-accept-payments--qr-countdown.webp)
 
 ## Langkah 7: Temukan Uangnya {#step-7-find-the-money}
 

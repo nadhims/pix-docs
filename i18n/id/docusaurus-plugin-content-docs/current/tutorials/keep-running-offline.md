@@ -52,7 +52,7 @@ Saat internet putus, booth tetap jalan:
 - **Coin acceptor dan note acceptor** ngobrol langsung dengan booth dan tetap jalan. Card reader butuh koneksinya sendiri ke bank.
 - **PIN menu** jalan dengan PIN terakhir yang di-download booth.
 
-<!-- SHOT-NEEDED: booth: Payment screen showing No internet at this booth with the QR and Enter Code (needs a rendered payment page with the offline QR) -->
+![No internet at this booth dengan QR pembayaran dan Enter Code ditandai](/img/docs/steps/tutorials-keep-running-offline--offline-payment.webp)
 
 ## Langkah 3: Pantau foto yang nunggu di-upload {#step-3-watch-the-photos-waiting-to-upload}
 

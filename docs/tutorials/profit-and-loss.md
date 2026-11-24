@@ -100,7 +100,7 @@ The card shows the fee, **Guest sales** (what guests paid at the booth), the eve
 
 The **Profit & Loss** tab reads top to bottom like any profit and loss statement: **Revenue** (**Kiosk sales**, **Event sales** and **Booking fees**), **Variable costs** (costs that move with sales, such as paper and venue revenue shares), **Contribution margin**, **Fixed costs**, **Profit before tax**, **Tax** and **Net profit**.
 
-<!-- SHOT-NEEDED: dashboard: the Profit and loss statement card of the whole business with the Kiosk sales, Event sales and Booking fees lines (the existing finance-profit-and-loss.webp shows an older "Event bookings" line) -->
+![Profit and loss card of the whole business with the Kiosk sales, Event sales and Booking fees lines marked](/img/docs/steps/tutorials-profit-and-loss--statement.webp)
 
 On the right:
 
@@ -127,7 +127,7 @@ A kiosk with a healthy contribution margin pays its way, even if its net profit 
 1. Set **View** back to **All kiosks and events**. The button is hidden for one kiosk or event.
 2. On the **Profit & Loss** tab, click **Export PDF**. The **Profit and Loss Statement** downloads, numbered by period: October 2026 is PL-2026-10, and **All months** gives PL-2026.
 
-<!-- SHOT-NEEDED: dashboard: the Profit & Loss tab row with the Export PDF button marked -->
+![Finance header with View on All kiosks and events and the Export PDF button marked](/img/docs/steps/tutorials-profit-and-loss--export-pdf.webp)
 
 ![Profit and Loss Statement PDF for October 2026, number PL-2026-10: revenue, costs, net profit, profit distribution and performance by unit](/img/docs/finance-pl-pdf.webp)
 

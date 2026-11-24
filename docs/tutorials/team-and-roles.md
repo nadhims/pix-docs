@@ -90,7 +90,7 @@ The invitation appears under the **Pending** tab with the role, who invited them
    - **Already have a Pixture account** with that email: they click **Join Organization**.
 3. They land in your dashboard, on the first page their role allows.
 
-<!-- SHOT-NEEDED: dashboard: the Accept Invitation page (Join <organization>, Display Name, Password, Accept Invitation) for a made-up invitee -->
+![Accept Invitation page for a made-up invitee with "Join Lantern Lane Booths", the fields and Accept Invitation marked](/img/docs/steps/tutorials-team-and-roles--accept-invitation.webp)
 
 Someone who belongs to more than one organization switches between them with the organization switcher at the top of the sidebar.
 
@@ -102,7 +102,7 @@ On **Settings > Members**, open the menu at the end of the person's row:
 2. **Suspend** blocks their access to this account. Their row shows **Suspended**. **Reactivate** lets them back in with the same role.
 3. **Remove** takes them off the account for good. To work with them again, invite them again.
 
-<!-- SHOT-NEEDED: dashboard: Settings > Members row menu open on a made-up member, showing Change Role, Suspend and Remove -->
+![Members row menu of a made-up member with Change Role, Suspend and Remove marked](/img/docs/steps/tutorials-team-and-roles--member-menu.webp)
 
 The owner's row has no menu: nobody can change, suspend or remove the owner, and nobody can change, suspend or remove themselves.
 

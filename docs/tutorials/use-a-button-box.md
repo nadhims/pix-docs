@@ -46,7 +46,7 @@ Plug the box into the booth computer, open any text editor, and press each butto
 3. Open the **Capture** page, and click an empty part of the canvas so no block is selected.
 4. In the panel on the right, find **Button keys** ("All designs and booths"). It has three rows: **Capture**, **Retake** and **Keep**.
 
-<!-- SHOT-NEEDED: dashboard: UI Editor Capture page with the Button keys section (Capture, Retake, Keep) marked; the existing pix-design-ui-editor-capture shot predates Button keys -->
+![UI Editor Capture page with the Button keys section (Capture, Retake, Keep) marked](/img/docs/steps/tutorials-use-a-button-box--ui-editor-button-keys.webp)
 
 ## Step 2: Press each button to set its key
 

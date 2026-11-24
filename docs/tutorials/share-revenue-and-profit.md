@@ -98,7 +98,7 @@ On **Profit & Loss**, **Profit distribution** shows the same split with **Retain
 2. On the **Partners** tab, click **Statement** on the partner's row. A PDF downloads.
 3. Send it to the partner yourself, by email or chat. Or let Finance email it every month (Step 6).
 
-<!-- SHOT-NEEDED: dashboard: the Partners tab with the Statement button on a partner's row marked -->
+![Partners tab with the month picker and the Statement button on a made-up partner's row marked](/img/docs/steps/tutorials-share-revenue-and-profit--partners-statement.webp)
 
 ![Revenue share statement PDF for a venue, number RS-2026-10-001: amount due, the 20% revenue share and gross sales by week](/img/docs/finance-partner-statement-pdf.webp)
 

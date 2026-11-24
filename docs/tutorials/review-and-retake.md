@@ -40,7 +40,7 @@ Retake does not apply to Studio sessions in the same way: there customers keep o
 
 ![UI Editor tab bar with the Review tab marked](/img/docs/steps/tutorials-review-and-retake--review-tab.webp)
 
-<!-- SHOT-NEEDED: dashboard: UI Editor Review tab right rail with Review Settings (Advanced mode, Retake button, Photo counter, Auto-advance after review, Duration) marked -->
+![Review Settings in the UI Editor with Auto-advance after review, Duration, Retake button, Photo counter and Save marked](/img/docs/steps/tutorials-review-and-retake--ui-editor-review-settings.webp)
 
 When the Capture page's **Session Time** runs out, Retake disappears by itself, so a customer cannot keep the booth forever.
 
@@ -73,7 +73,7 @@ After the last shot of a Photo or Notes session, customers see the print with al
    - **Choose a filter**: off keeps the photos as taken.
 4. Click **Save**. The editor says "Saved. Booths update now."
 
-<!-- SHOT-NEEDED: dashboard: event Edit appearance with the Timer group (Photo review) and the Steps group (Adjust your photos, Choose a filter, Retake) marked -->
+![Edit appearance with the Timer group (Photo review) and the Steps group (Adjust your photos, Choose a filter, Retake) marked](/img/docs/steps/tutorials-review-and-retake--event-timer-steps.webp)
 
 Photo review shows for events with Photo, Notes or Mingle; at an event, Adjust your photos moves on by itself after 60 seconds and has a retake button on each photo while Retake is on.
 
@@ -84,7 +84,7 @@ Photo review shows for events with Photo, Notes or Mingle; at an event, Adjust y
 3. On the next shot, tap **Retake** and check the countdown runs again for the same slot.
 4. After the last shot, on **Adjust your photos**, drag one photo onto another to swap them, then tap **Next**.
 
-<!-- SHOT-NEEDED: booth: the per-shot Review screen with a photo selected, the zoom control and Mirror, Retake and "Next (8s)" -->
+![The Review screen with the photo selected, the zoom control and Mirror, Next (8s) and Retake marked](/img/docs/steps/tutorials-review-and-retake--review-screen.webp)
 
 ## Check It Worked
 

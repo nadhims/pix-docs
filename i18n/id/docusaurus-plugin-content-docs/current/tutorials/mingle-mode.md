@@ -43,7 +43,7 @@ Kalau fotografer harus motret grup lewat kamera tanpa live view untuk tamu, paka
 
 ![Tab Setup event dengan Edit modes ditandai di kartu Booth mode](/img/docs/steps/tutorials-mingle-mode--edit-modes.webp)
 
-<!-- SHOT-NEEDED: dashboard: the Edit modes popup with Mingle ticked and Save -->
+![Popup Edit modes dengan Mingle dicentang dan Save ditandai](/img/docs/steps/tutorials-mingle-mode--modes-popup.webp)
 
 Kartu **Mingle** muncul di kartu Booth mode. Mingle gak pernah jadi tombol di start screen tamu: cuma komputer yang kamu bawa yang menjalankannya.
 
@@ -58,7 +58,7 @@ Kartu **Mingle** muncul di kartu Booth mode. Mingle gak pernah jadi tombol di st
 2. **Remote clicker**: pilih fungsi tombol clicker. **Shoots right away** (bawaan) langsung motret. **Starts the countdown** menjalankan hitung mundur, sama seperti tap di layar. Tab-nya ngingetin: "Your camera's shutter always shoots right away. Tapping the screen always counts down."
 3. **Mingle computers**: centang komputer yang kamu bawa. Kalau Mingle satu-satunya mode tamu di event, gak ada yang perlu dicentang: "Every computer mingles. Turn on another mode to pick."
 
-<!-- SHOT-NEEDED: dashboard: the Mingle tab with Remote clicker and Mingle computers -->
+![Kartu Mingle dan tab-nya dengan Remote clicker dan Mingle computers ditandai](/img/docs/steps/tutorials-mingle-mode--mingle-tab.webp)
 
 Perubahan tersimpan sendiri. Selama mode tamu lain nyala dan belum ada komputer yang dicentang, tab-nya nampilin "!" dengan "Pick which computers mingle", dan gak ada komputer yang keliling. Komputer Mingle punya badge **Mingle** di kartu **Computers**. Satu komputer cuma bisa jadi Mingle atau Photographer, gak bisa dua-duanya: mencentang di satu tab otomatis nyabut dari tab satunya.
 
@@ -68,7 +68,7 @@ Perubahan tersimpan sendiri. Selama mode tamu lain nyala dan belum ada komputer 
 2. Dengan **Pay Per Session** nyala, cari **Price per mode** dan isi baris **Mingle**: **Single**, **Double** dan **Group**.
 3. Klik **Save Changes**.
 
-<!-- SHOT-NEEDED: dashboard: the Edit Event popup with the Price per mode grid and the Mingle row -->
+![Popup Edit Event dengan baris Mingle di Price per mode dan Save Changes ditandai](/img/docs/steps/tutorials-mingle-mode--price-per-mode.webp)
 
 "Leave empty to use the event price." Paket yang kamu kosongkan di baris Mingle dijual dengan harga Photo untuk paket itu, atau harga event kalau Photo juga kosong. Pasang harga Mingle lebih tinggi kalau waktu operator termasuk dalam layanannya.
 
@@ -82,7 +82,7 @@ Perubahan tersimpan sendiri. Selama mode tamu lain nyala dan belum ada komputer 
    - **Pencet clicker**: sesuai pilihan kamu di **Remote clicker**.
 4. Setelah tiap foto, tamu lihat hasilnya, lalu slot berikutnya mulai hitung mundur sendiri kalau gak ada yang mencet apa-apa. Setelah itu filter, cetak dan QR, sama seperti sesi Photo.
 
-<!-- SHOT-NEEDED: booth: a Mingle session on the capture screen with the live view and countdown -->
+![Foto Mingle di layar capture dengan hitung mundur di atas live view ditandai](/img/docs/steps/tutorials-mingle-mode--mingle-countdown.webp)
 
 Shutter kamera gak berfungsi selama foto lagi ditampilkan untuk dicek, jadi pencetan dobel karena grogi gak bakal ngelewatin cek tamu.
 

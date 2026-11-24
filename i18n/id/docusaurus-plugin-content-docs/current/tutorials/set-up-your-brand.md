@@ -59,7 +59,7 @@ Halaman dan email yang diterima pelanggan kamu diakhiri footer **Powered by Pixt
 1. Di halaman Brand, cari **Pixture footer**.
 2. Matikan **Show on guest pages**. Preview **Guest page** nampilin nama bisnis kamu di footer.
 
-<!-- SHOT-NEEDED: dashboard: Pix Design > Brand on a Pix Pro Yearly account, the Pixture footer card with the Show on guest pages switch, marked -->
+![Halaman Brand di akun Pix Pro Yearly dengan kartu Pixture footer dan tombol Show on guest pages ditandai](/img/docs/steps/tutorials-set-up-your-brand--brand-footer.webp)
 
 Di paket lain, switch-nya tetap nyala dan terkunci, dengan "Yearly plan." dan link **Go yearly** ke halaman Computers. Kalau akun kamu gak lagi punya Pix Pro Yearly, footernya muncul lagi sendiri; pilihan kamu tetap tersimpan, jadi footernya sembunyi lagi begitu kamu balik ke paket tahunan.
 

@@ -38,7 +38,7 @@ Want to give sessions away completely (tests, staff, VIPs)? Use a staff pass in 
 1. Click **Marketing Studio** in the sidebar, then the **Promo** tab.
 2. Click **+ New promo**. The editor opens with a **Booth preview · Payment** on the right that shows what customers will see.
 
-<!-- SHOT-NEEDED: dashboard: Marketing Studio > Promo with the promo list and + New promo marked -->
+![Marketing Studio Promo tab with the promo list and + New promo marked](/img/docs/steps/tutorials-run-a-promo--promo-list.webp)
 
 ## Step 2: Choose the Deal
 
@@ -51,7 +51,7 @@ Want to give sessions away completely (tests, staff, VIPs)? Use a staff pass in 
 
 If the deal would make a session free at one of the booths, the editor warns "This makes the session free at" that booth. Lower the discount, unless free is what you want.
 
-<!-- SHOT-NEEDED: dashboard: the New promo editor with Name, Promo type and the Booth preview · Payment marked -->
+![New promo editor with Name, Promo type and the Booth preview · Payment marked](/img/docs/steps/tutorials-run-a-promo--promo-editor-deal.webp)
 
 ## Step 3: Choose How It Applies
 
@@ -71,7 +71,7 @@ Customers type a promo code in the same voucher box on the Payment screen as any
 5. **Start screen**: switch on **Show the promo to people walking past** to put a line like "Happy Hour −30% · ends in 01:42" on the booth's Start screen.
 6. Click **Save promo**.
 
-<!-- SHOT-NEEDED: dashboard: the New promo editor's Days & hours, Dates, Booths, Limit and Start screen rows with Save promo marked -->
+![New promo editor with Days & hours, Dates, Booths, Limit, Start screen and Save promo marked](/img/docs/steps/tutorials-run-a-promo--promo-editor-when.webp)
 
 ## Step 5: Ask for Contacts After Pay 1 get 1 (Optional)
 
@@ -89,7 +89,7 @@ Contacts go to **Marketing Studio > Audience**.
 - For a code: type it on the Payment screen; the price drops and the booth says the promo was applied.
 - For Pay 1 get 1: after a paid session, the Sharing screen says "You got 1 free session!" with **Start free session**.
 
-<!-- SHOT-NEEDED: booth: the Payment screen with a live promo, the struck-through price and the promo badge on the package cards -->
+![The Payment screen with the promo badge and the struck-through price on the package cards marked](/img/docs/steps/tutorials-run-a-promo--promo-payment.webp)
 
 ## Tips
 

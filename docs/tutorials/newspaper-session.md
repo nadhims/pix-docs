@@ -63,7 +63,7 @@ The booth draws the Start and Capture screens itself, with your newspapers in th
 1. Open **Booths**, open the booth, then the **UI Project** tab.
 2. Pick your project under **Newspaper mode** and click **Save**. The tab reads "Booth mode: Newspaper".
 
-<!-- SHOT-NEEDED: dashboard: booth UI Project tab with the dropdown on Newspaper mode, Save, and the "Booth mode: Newspaper" line -->
+![Booth UI Project tab with a Newspaper project picked, Save and the "Booth mode: Newspaper" line marked](/img/docs/steps/tutorials-newspaper-session--booth-ui-project.webp)
 
 If the tab says "No Newspaper templates yet", go back to Step 1: the booth needs at least one template with **Media Type** set to **Newspaper**. If it says "Update this booth to app 1.2.19 or newer to run Newspaper mode", update the booth app.
 
@@ -75,7 +75,7 @@ If the tab says "No Newspaper templates yet", go back to Step 1: the booth needs
 4. Tap the screen (or **Capture**). A countdown runs over the photo slot, then **Retake** and **Next** show. Each photo fills its slot and the camera moves to the next one.
 5. The session goes on to the Adjust and Filter screens when your design has them on, then Sharing with the print and the QR code.
 
-<!-- SHOT-NEEDED: booth: the Newspaper Start screen in portrait with the live camera in the front-page photo, the dots and Start -->
+![The Newspaper Start screen with the live camera in the front-page photo, the dots and Start marked](/img/docs/steps/tutorials-newspaper-session--newspaper-start.webp)
 
 ## Check It Worked
 

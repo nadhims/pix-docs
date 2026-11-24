@@ -43,7 +43,7 @@ Halaman Sharing yang cuma pakai blok **QR Code**, tanpa baris **Share buttons**,
 4. Di setelan bloknya, biarkan **Scan QR** tercentang. Centang **Show the QR code** kalau kamu mau QR-nya langsung tampil di layar, tanpa perlu tap dulu.
 5. Klik **Save**. Booth yang pakai project ini ngambil desain barunya di sela-sela sesi.
 
-<!-- SHOT-NEEDED: dashboard: UI Editor on the Sharing tab with a Share buttons block selected and its Scan QR and Show the QR code settings -->
+![Tab Sharing di UI Editor dengan blok Share buttons yang ditambahkan dari bilah blok serta pengaturan Scan QR dan Show the QR code ditandai](/img/docs/steps/tutorials-email-my-photos--ui-editor-share-buttons.webp)
 
 Lihat [Atur Layar Booth](./customise-kiosk-screens.md) untuk cara kerja di UI Editor.
 

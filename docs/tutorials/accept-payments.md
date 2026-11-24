@@ -101,7 +101,9 @@ A screen design can be used by several booths. **Enabled in session flow** off m
 3. With Stripe, the QR opens a Stripe checkout page on the customer's phone, where they pay by card.
 4. Once the gateway confirms, the booth moves on to template selection by itself. (With **Advanced mode** on and a **Payment Success** page designed, that page shows first, for the time you set.)
 
-<!-- SHOT-NEEDED: booth: the Payment screen with the Single, Double and Group package cards and the QR code with its countdown -->
+![The Payment screen with the Single, Double and Group package cards marked](/img/docs/steps/tutorials-accept-payments--package-picker.webp)
+
+![The QR code with the amount and its Expires in countdown marked](/img/docs/steps/tutorials-accept-payments--qr-countdown.webp)
 
 ## Step 7: Find the Money
 

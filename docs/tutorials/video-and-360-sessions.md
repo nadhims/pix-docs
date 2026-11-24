@@ -71,7 +71,7 @@ Click the **Video** card. Changes save as you go.
 8. **Overlays**: **Add overlay** to lay a frame or an effect over the clip.
 9. **Intro & outro**: drop an **Intro video** and an **Outro video** (MP4 or MOV, up to 30 MB).
 
-<!-- SHOT-NEEDED: dashboard: the event Video tab with General (Countdown, Video length, Quality, Size, Orientation, Display text before recording, Mirror captured videos, Keep original clip), Overlays and Intro & outro -->
+![Event Video tab with each setting from Countdown to Intro & outro marked](/img/docs/steps/tutorials-video-and-360-sessions--video-tab.webp)
 
 With two or more overlays, each guest gets the next one in turn. See [Add GIF and Video Overlays](./gif-and-video-overlays.md).
 
@@ -86,7 +86,7 @@ Click the **360/Slow-mo** card.
 5. **Soundtrack**: drop an MP3, M4A, AAC or WAV, up to 15 MB. "Music the booth plays under each 360 clip."
 6. **Overlays** and **Intro & outro**, as for Video.
 
-<!-- SHOT-NEEDED: dashboard: the event 360/Slow-mo tab with Timeline (Preset, Reverse, Clips), Soundtrack, Overlays and Intro & outro -->
+![Event 360/Slow-mo tab with General, Timeline (Preset, Reverse, Clips), Soundtrack, Overlays and Intro & outro marked](/img/docs/steps/tutorials-video-and-360-sessions--slowmo-tab.webp)
 
 :::tip Keep the final clip short
 A 4-second take at half speed is already 8 seconds; with **Reverse** it is 16. Clips of 10 to 20 seconds get watched to the end and upload faster.
@@ -118,7 +118,9 @@ The booth's operator menu has a **Capture Settings** page with the same settings
 
 On the first Video session a Mac asks for permission to use the microphone. Allow it, or every video is silent.
 
-<!-- SHOT-NEEDED: booth: the event video capture screen (Get ready, We record for 10 seconds, Start) and the event Share screen with the video playing beside Scan QR and Complete -->
+![The video capture screen with Get Ready, We record for 10 seconds and Start marked](/img/docs/steps/tutorials-video-and-360-sessions--video-ready.webp)
+
+![The Share screen with the video playing beside Scan QR and Complete marked](/img/docs/steps/tutorials-video-and-360-sessions--video-share.webp)
 
 ## Check It Worked
 

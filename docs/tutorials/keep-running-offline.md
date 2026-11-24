@@ -52,7 +52,7 @@ When the internet drops, the booth carries on:
 - **Coin and note acceptors** talk to the booth directly and keep working. A card reader needs its own connection to the bank.
 - **The menu PIN** works with the last PIN the booth downloaded.
 
-<!-- SHOT-NEEDED: booth: Payment screen showing No internet at this booth with the QR and Enter Code (needs a rendered payment page with the offline QR) -->
+![No internet at this booth with the payment QR and Enter Code marked](/img/docs/steps/tutorials-keep-running-offline--offline-payment.webp)
 
 ## Step 3: Watch the photos waiting to upload
 

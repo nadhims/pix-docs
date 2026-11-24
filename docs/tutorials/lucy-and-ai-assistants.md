@@ -37,7 +37,7 @@ Not for emergencies at a live event: tap **Chat with our team on WhatsApp** in L
 3. On pages that have one, the **Tour this page** chip walks you through the page.
 4. Stuck on something you can see? Attach a screenshot (PNG, JPG or WebP) with the picture button next to the text box, so Lucy sees what you see.
 
-<!-- SHOT-NEEDED: dashboard: Lucy's chat panel open on the Dashboard page with the Ask Lucy button, the text box, a suggested question chip, Tour this page and the screenshot button marked -->
+![Lucy's chat panel open on the Dashboard with the Ask Lucy button, the text box, a suggested question, Tour this page and the screenshot button marked](/img/docs/steps/tutorials-lucy-and-ai-assistants--lucy-panel.webp)
 
 Good questions to start with: "What did I make this week?", "Which booth earned most last month?", "Is my Kiosk 2 booth OK?", "Which templates do customers pick?", "How do I set up QRIS?".
 
@@ -130,7 +130,7 @@ Claude and ChatGPT rename their menus from time to time. If a menu above has mov
 2. Read **Connect ... to Pixture?**: it names your business and lists what the assistant will be able to do. On Pix Starter it adds a note that analytics and action tools unlock with Pix Pro.
 3. Click **Approve**. **Deny** cancels and nothing is connected.
 
-<!-- SHOT-NEEDED: dashboard: the Pixture consent page "Connect Claude to Pixture?" with Approve and Deny marked, for a made-up business -->
+![The Pixture page "Connect Claude to Pixture?" for a made-up business, with the title, Approve and Deny marked](/img/docs/steps/tutorials-lucy-and-ai-assistants--consent.webp)
 
 4. Back in the assistant, ask something: "What did my booths make this month?" On a new account, paste the setup prompt from Step 5 and the assistant walks you through install, pairing and a first test session. The dashboard says typing `/pix-onboarding` in Claude does the same.
 
