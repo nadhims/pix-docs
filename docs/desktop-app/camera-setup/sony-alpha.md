@@ -35,7 +35,7 @@ These are the Sony bodies the app supports:
 2. Set the mode dial to **M**, **A** or **S**. The app can only drive exposure in one of these modes; the Camera Settings page reminds you with "Set camera to M / A / S mode for manual control".
 3. Connect the camera to the computer with the USB cable and turn it on.
 4. Open the Pixture Photobooth app. The camera is detected within a few seconds and its live view appears.
-5. Open the operator menu (two taps on the top-right corner), tap **Camera Settings**, and check the **STATUS** block: **Camera** and **Live View** should both read as connected. If more than one camera is plugged in, pick the Sony under **CAMERA DEVICE** and tap **Set as Default**.
+5. Open the operator menu (two taps on the top-right corner), tap **Camera Settings**, and check the **STATUS** block: **Camera** should read **Connected** and **Live View** **Active**. If more than one camera is plugged in, pick the Sony under **CAMERA DEVICE** and tap **Set as Default**.
 
 ### Windows: install the Sony driver
 

@@ -30,7 +30,7 @@ If your model is not listed it will most likely still work. Connect it and the a
 2. Set focus on the camera body. Focus mode is not controlled from the app, so switch the lens to manual focus (MF) if the shooting distance is fixed.
 3. Connect the camera to the computer with the USB cable.
 4. Open the Pixture Photobooth app. The camera is detected automatically and the live view appears on the Start screen preview or the Capture screen.
-5. Open the operator menu (two taps on the top-right corner) and tap **Camera Settings** to check the **STATUS** block: **Camera** and **Live View** should both read as connected.
+5. Open the operator menu (two taps on the top-right corner) and tap **Camera Settings** to check the **STATUS** block: **Camera** should read **Connected** and **Live View** **Active**.
 
 If the camera drops out during the day the app reconnects on its own. See [Camera Settings](./camera-settings.md) for the exposure controls and live view aids.
 

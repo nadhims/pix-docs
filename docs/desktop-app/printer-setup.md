@@ -40,7 +40,7 @@ To reprint:
 
 1. Open the operator menu and tap **Admin Panel**.
 2. Scroll to **PRINT HISTORY**.
-3. Tap **Print** next to the session.
+3. Tap **Print again** next to the session.
 
 ## Paper Counter
 
