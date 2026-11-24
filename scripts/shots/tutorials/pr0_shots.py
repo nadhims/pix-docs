@@ -72,7 +72,11 @@ def flash():
     booth(p, "external-flash", "camera", [("^^EXTERNAL FLASH", "above"), ("Save Camera Settings", "above")], focus="EXTERNAL FLASH")
 
 
-JOBS = {"operator-menu": operator_menu, "flash": flash}
+def power_cut():
+    booth("start-after-a-power-cut", "start-on-boot", "admin", [("^^Start on boot", "above")])
+
+
+JOBS = {"operator-menu": operator_menu, "flash": flash, "power-cut": power_cut}
 
 if __name__ == "__main__":
     STEPS.mkdir(parents=True, exist_ok=True)
