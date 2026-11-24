@@ -13,71 +13,25 @@ The Pixture Photobooth app prints through your operating system, not directly to
 The computer the printer is plugged into only needs the printer driver and sharing switched on. It can be a spare laptop or a PC running something else entirely.
 :::
 
-## How it works
+## Step by step
 
-1. **Host**: the computer physically connected to the printer shares it over the network.
-2. **Booths**: each booth adds that shared printer as a network printer and selects it in the Pixture Photobooth app.
-3. Every booth sends its print jobs to the host, whose print queue prints them in the order they arrive.
+The full setup, with screenshots and the Mac and Windows steps side by side, is in the tutorial [Share One Printer Between Booths](../tutorials/share-a-printer.md). In short:
 
-## Step 1: Share the printer on the host
-
-**Windows**
-
-1. Install the printer driver (DNP, HiTi, Mitsubishi, etc.) and confirm a test page prints.
-2. Open **Settings > Bluetooth & devices > Printers & scanners**, select the printer, then **Printer properties > Sharing**.
-3. Tick **Share this printer** and note the share name (for example `DNP-DS-RX1`).
-4. Make sure **Network discovery** and **File and printer sharing** are on for your network (Private profile).
-
-**macOS**
-
-1. Install the driver and confirm a test page prints.
-2. Open **System Settings > General > Sharing** and switch on **Printer Sharing**.
-3. Select the printer and allow **Everyone** (or the users you want).
-
-## Step 2: Add the shared printer on each booth
-
-1. Install the **same printer driver** on the booth. Windows needs the driver locally even for a shared printer, and it is where paper size and cut mode are read from.
-2. Add the printer:
-   - **Windows**: **Printers & scanners > Add device**, or type the share path directly, e.g. `\\HOST-PC\DNP-DS-RX1`.
-   - **macOS**: **Printers & Scanners > Add Printer**; the shared printer appears under the host's name.
-3. Print a test page from the booth's operating system before opening the Pixture Photobooth app.
-
-## Step 3: Select it in the Pixture Photobooth app
-
-1. On the booth, open the operator menu (tap the top-right corner twice) and tap **Printer Settings**.
-2. Under **PRINTER DEVICE**, pick the shared printer. It appears with the same name as any local printer.
-3. Set **MEDIA SIZE (LOADED PAPER)** to match the media in the host's printer. For a dye-sub such as a DNP, set **ORIENTATION** to **Landscape**.
-4. Press the test print button and check the sheet.
-
-Repeat on every booth that should print to the same printer. The **STATUS** section confirms the printer is available; guest printing is disabled until a printer is selected.
+1. **Host:** share the printer from the computer it is plugged into (Windows: **Printer properties > Sharing > Share this printer**; macOS: **System Settings > General > Sharing > Printer Sharing**).
+2. **Booths:** install the same driver, add the shared printer, and print a test page from the computer.
+3. **Booth app:** in **Printer Settings**, pick it under **PRINTER DEVICE**, match **MEDIA SIZE (LOADED PAPER)** to the host's paper, and save.
 
 ## What to expect
 
-- **Jobs print in arrival order.** If two booths finish sessions at the same time, the second customer waits one print cycle (roughly 10 to 20 seconds on a dye-sub).
-- **Each booth only knows about its own job.** The booth shows "printing" while the job is sent; it cannot see how many jobs from other booths are queued ahead.
-- **Paper size and cut mode** (for example a 2-inch cut on 4x6 media) are driver settings on the host. Set them there once; every booth inherits them.
-- **Media counts and printer status** shown in the booth and on the Health page come from the booth's own driver, so they may be blank or approximate for a shared printer. Watch the physical printer.
-
-## Keep the host reliable
-
-The booth retries a failed print up to 3 times, 5 seconds apart. It does not retry a job that the host's queue accepted and then left stuck. When that happens the customer sees a print issue notice, the photo is saved, and staff can reprint it from the operator menu under **Admin Panel > PRINT HISTORY**. To avoid silent misses on a busy day:
-
-- Use **wired Ethernet** between the host and the booths. Wi-Fi drops are the most common cause of lost prints.
-- Disable **sleep** and **automatic restarts** on the host for the day.
-- Keep the host's print queue window open so a jam or empty media is spotted quickly. Nobody on the host is otherwise watching it.
-- If the host is a Windows laptop, plug it into power. On battery, Windows may power down the USB port the printer is on.
-
-## Troubleshooting
-
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| Printer not in the booth's list | Not added at the OS level, or driver missing | Add the shared printer in the booth's OS printer settings and install the driver, then reopen **Printer Settings** |
-| STATUS shows the printer as not available | Host offline, asleep, or the share was removed | Wake the host and confirm the booth can print a test page from its OS |
-| Prints come out the wrong size | Paper size set differently on host and booth | Match **MEDIA SIZE (LOADED PAPER)** to the media in the host's driver settings |
-| Jobs stuck in the queue | Printer error on the host (jam, media out) | Clear the error on the host; queued jobs resume. Reprint anything missing from **Admin Panel > PRINT HISTORY** |
+- **Jobs print in arrival order.** If two booths finish at the same time, the second customer waits one print.
+- **Each booth only knows about its own job.** It cannot see prints from other booths queued ahead.
+- **Paper size and cut mode** (for example a 2-inch cut on 4x6 media) are driver settings on the host. Set them there once.
+- **The paper counter counts each booth's own prints only,** so on a shared printer it reads high. Watch the physical printer.
+- **Use wired Ethernet and keep the host awake.** Wi-Fi drops and a sleeping host are the most common causes of lost prints. Staff can reprint from **Admin Panel > Print history**.
 
 ## Related
 
+- [Share One Printer Between Booths (tutorial)](../tutorials/share-a-printer.md)
 - [Printer Setup](../desktop-app/printer-setup.md)
 - [Multi-Booth Setup](./multi-booth-setup.md)
 - [Supported Printers](../reference/supported-printers.md)
