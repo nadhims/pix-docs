@@ -166,6 +166,7 @@ Owners and admins see Finance. For other members, a role needs **View finance** 
 
 ## Related
 
+- [Track Profit and Loss](../tutorials/profit-and-loss.md)
 - [Share Revenue and Profit with Partners](../tutorials/share-revenue-and-profit.md)
 - [Dashboard Home](./dashboard-home.md)
 - [Transactions](./transactions.md)

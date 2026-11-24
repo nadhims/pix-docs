@@ -70,7 +70,7 @@ Your booths ranked by revenue in the period. Useful when you run several venues 
 
 ## Booth Details Drawer
 
-Open a booth from the Dashboard, for example from the Top Booth Revenue list or the Health card, to see that booth at a glance in a side panel.
+Click a booth on the Health card to see that booth at a glance in **Booth Details**. A walkthrough of every card: [Read Your Dashboard](../tutorials/read-your-dashboard.md).
 
 | Field | What it shows |
 |---|---|
