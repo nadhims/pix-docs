@@ -41,6 +41,7 @@ ID_H2 = {"Kapan Dipakai": "When to Use It", "Sebelum Mulai": "Before You Start",
 
 
 def _key(h2):
+    h2 = re.sub(r"\s*\{#[^}]+\}$", "", h2)  # explicit heading id (Indonesian pages carry the English anchor)
     return "Step" if re.match(r"(Step|Langkah) \d+", h2) else ID_H2.get(h2, h2)
 
 
