@@ -36,9 +36,7 @@ Opening a photo session shows its composite and each single capture, with the bo
 
 ## Bulk Actions
 
-1. Click **Select**.
-2. Tick the photos you want, or click **Select All** for everything in the current filter.
-3. Click **Download Selected** to save them as one zip file, or **Delete Selected** to delete them.
+Click **Select**, tick photos (or **Select All**), then **Download Selected** for one zip or **Delete Selected**. Step by step: [Find a Photo or a Payment](../tutorials/gallery-and-transactions.md).
 
 ![Gallery in Select mode with three photos ticked and the bar with Select All, Download Selected and Delete Selected](/img/docs/steps/dashboard-gallery--gallery-select.webp)
 
