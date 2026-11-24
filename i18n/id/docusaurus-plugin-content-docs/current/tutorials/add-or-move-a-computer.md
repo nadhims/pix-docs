@@ -102,7 +102,8 @@ Aturan yang cuma berlaku untuk Event Pass:
 
 - Event Pass dipakai di booth, gak pernah dari dashboard.
 - Event Pass yang sedang jalan gak pernah hilang. Kalau komputernya di-unlink, di-deactivate, dihapus atau logout, Event Pass-nya disimpan dengan jam habis yang sama, dan komputer event berikutnya yang memulai booth-nya melanjutkannya. Komputer dalam mode Kiosk gak bisa ngambil, dan 24 jamnya tetap jalan selama menunggu.
-- Komputer yang di-pairing saat kamu punya Event Pass yang belum dipakai tetap Blocked (komputer event bertuliskan **Needs a pass**) sampai ada yang dipakai di situ. Pixture gak pernah memulai Event Pass untuk kamu, soalnya itu bakal memulai 24 jam tanpa tanya.
+- Komputer yang di-pairing saat kamu punya Event Pass yang belum dipakai tetap Blocked (komputer event bertuliskan **Needs a pass**) sampai ada yang dipakai di situ. Pixture gak pernah memulai Event Pass pertama di komputer yang baru di-pairing untuk kamu, soalnya itu bakal memulai 24 jam tanpa tanya.
+- Komputer event yang sudah pernah pakai pass beda ceritanya: kalau pass-nya habis di tengah event, sesi berikutnya yang dimulai langsung masang Pix Pro yang nganggur atau memulai Event Pass cadangan, tanpa konfirmasi. Lihat [Jalankan Event](./run-an-event.md).
 
 ## Langkah 6: Di Pix Starter {#step-6-on-pix-starter}
 

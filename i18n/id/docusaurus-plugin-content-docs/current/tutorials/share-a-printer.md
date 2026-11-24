@@ -114,7 +114,7 @@ Ulangi di setiap booth yang nyetak di printer ini.
 - **Atur potong 2 inch di host.** Ukuran kertas dan potong adalah setelan driver printer, jadi atur sekali di host. Kalau pakai template 2 inch cut, coba cetak satu dari tiap booth sebelum event.
 - **Jangan percaya penghitung kertas di printer yang di-share.** Tiap booth cuma ngitung cetakannya sendiri, jadi angka di tiap booth kelebihan. Pantau printernya langsung, atau nyalakan penghitung di satu booth dan koreksi manual dengan **Fix the count**.
 - **Biarkan jendela antrean cetak di host terbuka,** biar kertas nyangkut atau roll habis langsung kelihatan. Gak ada orang lain yang mantau host.
-- **Cetak ulang dari booth yang ngambil fotonya:** **Admin Panel > Print history > Print again** di booth itu.
+- **Cetak ulang dari booth yang ngambil fotonya:** **Admin Panel > Print history > Print again** di booth itu. Cetak ulang gak pakai potong 2 inch dari template (cuma setelan potong printernya sendiri) dan dicetak sebanyak **COPIES PER SESSION** lembar.
 
 ## Kalau Ada Masalah {#troubleshooting}
 

@@ -100,7 +100,7 @@ Both **After Photo** choices need **Photo** ticked, at an event, or **Photo** or
 
 By default the note is written on the print itself:
 
-1. Go to **Pix Design > Templates** and open the template the booth prints.
+1. Go to **Pix Design > Template Editor** and open the template the booth prints.
 2. Under **Note area**, click **+ Add note area**. Drag and resize the box over the blank space you planned. One per template.
 3. Save the template.
 

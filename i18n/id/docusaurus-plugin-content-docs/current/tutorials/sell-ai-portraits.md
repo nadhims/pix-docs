@@ -66,13 +66,11 @@ Potretnya dijual setelah sesi, di HP pelanggan. Ini nambah pendapatan per sesi, 
 
 1. Buka **Booths**, klik **Configure** di booth, lalu tab **Pricing** dan scroll ke bawah. Akun beta melihat kartu **AI portrait on the share page**.
 
-   ![Tab Pricing booth, satu halaman penuh, dengan kartu Sell sessions online, switch Payment on this booth dan sub-tab harga](/img/docs/steps/tutorials-sell-ai-portraits--booth-pricing-full.webp)
+   ![Tab Pricing booth dengan kartu AI portrait on the share page, switch Sell AI portraits on the share page dan Offer a print at this booth, dan Save ditandai](/img/docs/steps/tutorials-sell-ai-portraits--booth-pricing-full.webp)
 
 2. Nyalakan **Sell AI portraits on the share page** dan isi **Price per portrait**.
 3. Untuk jual cetak, nyalakan **Offer a print at this booth** dan isi **Digital + print price** (potret dan cetaknya sekaligus).
 4. Klik **Save** di kartu itu.
-
-<!-- SHOT-NEEDED: dashboard: the AI portrait on the share page card on a beta account's booth Pricing tab, with its switches and prices -->
 
 ## Langkah 4: Cek Gateway dan Switch Pembayaran {#step-4-check-the-gateway-and-the-payment-switch}
 

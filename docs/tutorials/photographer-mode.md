@@ -30,7 +30,7 @@ Not for guests who want to take their own photos: use Photo or Studio on the sta
 ## Prepare
 
 - **Pick the template with the photographer in mind.** Every slot is one press of the shutter. Three or four slots keep a group moving; eight slots make guests wait.
-- **Match the slot shape to how the photographer holds the camera.** The **Check it** screen shows each photo cropped the way its slot crops it. Landscape slots suit a camera held level; tall slots suit a camera turned on its side.
+- **Match the slot shape to how the photographer holds the camera.** The check screen shows each photo cropped the way its slot crops it. Landscape slots suit a camera held level; tall slots suit a camera turned on its side.
 - **Use a long, good USB cable** and tape it down where people walk. The camera has to stay connected for the whole event.
 - **Set the camera up for flash** if you use one, and focus once. See [Get a Bright Live View with Flash](./bright-live-view-with-flash.md) for the camera settings.
 
@@ -79,14 +79,14 @@ With a real camera the booth shows no live view. You frame through the camera's 
 
 ## Step 5: Check each photo
 
-After every shot, the **Check it** screen shows the photo cropped exactly as its slot will show it. It has no timer and waits for you.
+After every shot, the check screen shows the photo cropped exactly as its slot will show it. It has no timer and waits for you.
 
 1. **Retake** drops the photo. Nothing is saved, and the same slot is shot again.
 2. **Use photo** keeps it and moves on to the next slot.
 
-![Check it with Retake and Use photo marked](/img/docs/steps/tutorials-photographer-mode--check-it.webp)
+![The check screen with Retake and Use photo marked](/img/docs/steps/tutorials-photographer-mode--check-it.webp)
 
-You do not have to touch the screen. Pressing the camera's shutter on **Check it** counts as **Use photo**, and the new photo goes into the next slot. A photographer who is happy with each shot can simply keep shooting.
+You do not have to touch the screen. Pressing the camera's shutter on the check screen counts as **Use photo**, and the new photo goes into the next slot. A photographer who is happy with each shot can simply keep shooting.
 
 ## Step 6: Hand over the print and QR
 
@@ -101,12 +101,12 @@ Each group is saved as one session, free for the guests: no payment screen, no p
 ## Check It Worked
 
 - The Photographer computer opens on the template with "Photo 1 of 3", not on the start screen.
-- The camera's shutter takes a photo, and **Check it** shows it cropped to its slot.
+- The camera's shutter takes a photo, and the check screen shows it cropped to its slot.
 - After the last slot, the share screen shows the composed print with **Scan QR**, and the group appears in the event's **Album** tab as one session.
 
 ## Tips
 
-- **Shoot at the photographer's pace.** Photos taken while a group is saving or on the share screen are not lost: they become the next group's first photos, each with its own **Check it**.
+- **Shoot at the photographer's pace.** Photos taken while a group is saving or on the share screen are not lost: they become the next group's first photos, each with its own check screen.
 - **A restart does not lose a group.** Every photo you keep is saved on the computer first. After an app restart the group comes back at the next slot.
 - **Big camera files are fine.** The booth saves each photo at most 3600 pixels on its long side, enough for a 4x6 print, so uploads stay quick.
 - **Use Skip for a busy line.** With **QR time** on **Skip**, the photographer never waits; give guests the album link instead. See [Share an Event Album and Slideshow](./event-album-and-slideshow.md).

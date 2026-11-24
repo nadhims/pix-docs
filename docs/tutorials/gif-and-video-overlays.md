@@ -30,7 +30,7 @@ Skip the overlay when the GIF should stay clean, for example an art-gallery clie
 
 - **Size:** exactly **1280 x 720 px** for landscape or **720 x 1280 px** for portrait. The orientation of the PNG sets the shape of the GIF, so match it to how your booth frames people: a landscape booth needs a landscape overlay.
 - **Transparent middle:** faces are in the middle. Keep it fully see-through and put your logo, names and date in a band along one edge or in a corner.
-- **Leave a safe margin.** The booth stretches the overlay to cover the whole GIF frame. When a frame has a different shape from your PNG, the overlay is cropped evenly on two opposite edges, so keep text and logos well away from the edges and check a test GIF.
+- **Leave a safe margin.** The booth scales the overlay evenly to cover the whole GIF frame. When a frame has a different shape from your PNG, the overlay is cropped evenly on two opposite edges, so keep text and logos well away from the edges and check a test GIF.
 - **Readable on any photo:** white text with a soft dark shadow, or text on a solid band, stays readable on both bright and dark backgrounds.
 - **File:** PNG with transparency, up to 10 MB.
 
@@ -101,8 +101,7 @@ With more than one overlay in the list, guests get them in turn, one per video. 
 |---|---|---|
 | "Please choose a transparent PNG." | The file is not a PNG (for example a JPG renamed to .png) | Export a real PNG with transparency |
 | "File too large. Maximum 10 MB." | The PNG is bigger than 10 MB | Export at exactly 1280 x 720 or 720 x 1280; a frame that size is far below the limit |
-| The logo or text is cut off at the edge of the GIF | The overlay is stretched to cover the frame and the extra is cropped | Move text and logos further from the edges |
-| The frame looks stretched or squashed | The PNG is not 1280 x 720 or 720 x 1280 | Re-export at the exact size and add it again |
+| The logo or text is cut off at the edge of the GIF | The overlay is scaled evenly to cover the frame (never stretched), and when the PNG's shape differs from the frame the extra is cropped | Move text and logos further from the edges, or re-export the PNG at 1280 x 720 or 720 x 1280 |
 | The GIF has no frame | No overlay picked, or the event or booth setting was not saved | Pick it under **GIF overlay** and click **Save**, or pick it on the event's **GIF template** tab |
 | The overlay is not in the booth's **GIF overlay** list | It was added on an event with **Add GIF template**, which is for that event only | Add it in **Pix Design > GIF/Video overlay** |
 

@@ -94,7 +94,7 @@ A screen design can be used by several booths. **Enabled in session flow** off m
 
    ![Booth Settings tab with Output Settings, Payment Gateway, Booth Info, Currency and Menu PIN](/img/docs/steps/tutorials-accept-payments--booth-settings-tab.webp)
 
-## Step 6: What the Customer Sees {#step-5-what-the-guest-sees}
+## Step 6: What the Customer Sees
 
 1. After the Start screen (and the Custom Screen, if you turned it on), the booth shows the **Payment** screen with the price and, if you sell packages, a package picker with the print counts, subtotal, fees and tax.
 2. With a QRIS gateway, a QR code appears with the amount and a countdown. The customer scans it with any wallet app and pays on their phone.

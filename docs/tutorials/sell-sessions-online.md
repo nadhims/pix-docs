@@ -80,6 +80,7 @@ Selling for cash at a counter instead? Use a batch of session tickets: see [Sell
 
 ## Tips
 
+- **Online sales always go to the account's Active gateway.** A booth that picks its own gateway on its **Settings** tab still sends online shop sales to the gateway marked **Active**. A venue that must receive these sales directly needs its own Pixture account. See [Create a Payment Gateway](./create-a-payment-gateway.md).
 - **One QR per booth** when booths have different prices; the account link when they are all the same.
 - **Tell staff the code is the ticket.** A customer with a code skips the Payment screen, so the queue moves faster when staff wave code holders forward.
 - **Check the email arrived** on your own test purchase; it is the customer's backup when they close the page.
