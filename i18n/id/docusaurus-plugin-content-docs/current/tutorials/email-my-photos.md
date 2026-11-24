@@ -57,7 +57,7 @@ Jalankan satu sesi di booth sampai selesai, terus:
 
 2. Popup **Email my photos** terbuka bareng keyboard booth. Ketik alamatnya di kotak. Tombol **.com** dan **@** ada di halaman huruf.
 3. Biarkan atau ubah kotak centang di bawahnya, "Send me news and offers from Pixture" (lihat Tips).
-4. Tap **Send**. Tombolnya aktif begitu alamatnya kelihatan lengkap. Booth nampilin "Sent to" dengan alamat yang disamarkan setelah huruf pertama, misalnya "Sent to a•••@gmail.com", terus popup-nya tertutup.
+4. Tap **Send**. Tombolnya aktif begitu alamatnya kelihatan lengkap. Booth nampilin "Sent to" dengan alamat yang disamarkan setelah huruf pertama, misalnya "Sent to a•••@gmail.com", terus popup-nya tertutup. Mulai booth 1.2.51, kalau Pixture menolak email-nya (misalnya jatah harian atau jatah per sesi sudah habis), booth bilang "Email gagal dikirim. Coba lagi atau scan QR-nya." dengan tombol **Coba lagi** (kalau bahasa pelanggan di booth Bahasa Indonesia; dalam bahasa Inggris: "We couldn't send that email. Try again or scan the QR." dengan **Try again**).
 
 ![Popup Email my photos dengan kotak alamat, kotak centang news dan Send ditandai, di atas keyboard booth](/img/docs/steps/tutorials-email-my-photos--email-popup.webp)
 
@@ -95,7 +95,8 @@ Buka inbox yang tadi kamu pakai. Email-nya:
 |---|---|---|
 | Gak ada tombol **Email** | Komputernya pakai Pix Starter, aplikasinya lebih lama dari 1.2.31, **Scan QR** mati, atau halaman Sharing cuma punya blok **QR Code** | Cek satu per satu: [Pix Pro di Booth](../desktop-app/licence-on-the-booth.md), update aplikasinya, centang **Scan QR**, tambahkan baris **Share buttons** (Langkah 1) |
 | Tombolnya belum muncul padahal baru upgrade ke Pix Pro | Booth baru tahu paketnya saat check-in rutin ke Pixture | Tunggu beberapa menit, atau restart aplikasinya |
-| "Sent to ..." tapi email gak datang | Alamatnya salah ketik, email masuk spam, booth masih offline, atau jatah 500 email sehari atau 3 alamat per sesi sudah habis | Cek folder spam, cek internet booth, kirim link share ke pelanggan lewat cara lain |
+| "Email gagal dikirim." / "We couldn't send that email." | Jatah 500 email sehari atau 3 alamat per sesi sudah habis, atau Pixture gak bisa dihubungi | Tap **Coba lagi** / **Try again**, atau minta pelanggan scan QR-nya |
+| "Sent to ..." tapi email gak datang | Alamatnya salah ketik, email masuk spam, atau booth lagi offline waktu pelanggan tap **Send** (penolakan yang datang belakangan gak bisa ngasih tahu pelanggan) | Cek folder spam, cek internet booth, kirim link share ke pelanggan lewat cara lain |
 | **Send** tetap abu-abu | Alamatnya belum lengkap | Ketik alamat lengkap, dengan **@** dan akhiran seperti **.com** |
 | Email-nya Bahasa Inggris untuk pelanggan Indonesia | Bahasa pelanggan di booth bukan Bahasa Indonesia | Ganti bahasa booth-nya |
 

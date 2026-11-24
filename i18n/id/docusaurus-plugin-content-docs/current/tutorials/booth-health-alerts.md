@@ -41,7 +41,7 @@ Health nampilin apa yang dilaporkan booth. Health gak benerin kamera atau printe
 
 ![Tab Live di Health dengan pil status, Now, Hours today, Last 14 days dan Last seen ditandai](/img/docs/steps/tutorials-booth-health-alerts--live.webp)
 
-Booth lapor masuk tiap 5 menit selama jalan. Booth dianggap **Online** kalau laporan terakhirnya kurang dari 12 menit lalu, dan **Offline** setelah itu. Daftarnya refresh sendiri tiap 30 detik. Versi bertanda **outdated** artinya ada aplikasi Pixture Photobooth yang lebih baru.
+Booth lapor masuk tiap 5 menit selama jalan. Mulai booth 1.2.51, booth juga langsung lapor beberapa detik setelah kameranya dicabut, error atau nyambung lagi, jadi status kamera di Health gak pernah ketinggalan sampai hitungan menit. Booth dianggap **Online** kalau laporan terakhirnya kurang dari 12 menit lalu, dan **Offline** setelah itu. Daftarnya refresh sendiri tiap 30 detik. Versi bertanda **outdated** artinya ada aplikasi Pixture Photobooth yang lebih baru.
 
 Di akun yang punya event, Health ngikutin workspace kamu: **Pixture Kiosk** nampilin booth self-service, **Pixture Event** nampilin **Event health** (booth event, cuma selama event-nya jalan atau belum mulai), dan **Overview** nampilin semua booth.
 

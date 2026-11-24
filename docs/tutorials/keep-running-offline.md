@@ -81,6 +81,7 @@ Waiting photos exist only on that computer. Before anyone resets Windows, reinst
 
 ## Tips
 
+- **Free booths stay free offline.** From booth 1.2.51, a booth whose sessions are free skips the Payment screen while offline too, as it does online. A price you set while it is offline takes effect once it reconnects.
 - **Never tap Clear failed to "tidy up".** It deletes those photos from the computer for good; they were never uploaded. Try **Retry failed** first.
 - **Clean storage is safe for uploaded photos only.** It deletes the photo files kept on the computer; waiting photos are kept, but **Print again** stops working for the cleaned sessions.
 - **The booth makes room by itself** when free disk space drops below 1 GB, deleting already-uploaded files first, and warns you in the menu with **Free Up Space** below 3 GB.
