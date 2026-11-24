@@ -24,7 +24,7 @@ Ask customers whether you may feature their photos. Pick a **Booth** at the top,
 | **Apply to all booths** | Copies this booth's consent settings to every booth |
 | **Save changes** | Saves the selected booth |
 
-Photos from customers who agreed appear in the gallery below these settings, so you can find them for social media.
+Photos from customers who agreed appear in the gallery below these settings, so you can find them for social media. Step by step, with what customers see at the booth: [Collect Consent Photos and Run a Campaign](../tutorials/marketing-studio.md).
 
 ## Audience
 
@@ -83,7 +83,7 @@ A campaign switches a set of promotions on across booths for a period, so a scho
 | **Promos to include** | **Frame Lab**, **Marketing Consent**, **Promo Banner / Microsite** |
 | **Starts (optional)**, **Ends (optional)** | The campaign's dates. It turns on and off on those dates by itself |
 
-Click **Save campaign**. Each campaign row has **Activate now**, **Deactivate** and **Delete**.
+Click **Save campaign**. Each campaign row has **Activate now**, **Deactivate** and **Delete**. When a campaign ends, its booths go back to how they were before it. Step by step: [Collect Consent Photos and Run a Campaign](../tutorials/marketing-studio.md#step-5-roll-an-offer-out-with-a-campaign).
 
 ## Performance
 

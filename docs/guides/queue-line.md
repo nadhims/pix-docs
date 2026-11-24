@@ -11,51 +11,11 @@ A queue line lets customers get a number on their phone, walk away, and come bac
 
 The queue line is a **Pix Pro** feature. It lives inside a **Multi-Booth** group, and every booth in the group needs the Pixture Photobooth **1.2.37** or newer.
 
-## Before you start
+## Set it up
 
-- A Multi-Booth group with your booths in it. See [Multi-Booth Setup](./multi-booth-setup.md).
-- Pix Pro on your account.
-- Pixture Photobooth 1.2.37 or newer on each booth. Booths on an older version are listed in a warning at the top of the Queue tab ("1 booth needs app 1.2.37 or newer"). Tap **Show** to see which ones, and update them.
+Turn the line on in your group's **Queue** tab (**Off**, **Hybrid** or **Online only**), check each booth's letter (A to Z without I and O; numbers count per booth, per day), set opening hours if you want them, then put the display on a TV and the poster next to the booths. The step-by-step, with what to prepare and what goes wrong, is in [Run a Queue Line](../tutorials/queue-line.md).
 
-## Step 1: Turn the line on
-
-1. Open **Booths** and open your Multi-Booth group.
-2. Go to the **Queue** tab.
-3. Under **Queue line**, pick a mode.
-
-![The group's Queue tab with the Queue line modes Off, Hybrid and Online only, and the Queue display card](/img/docs/steps/guides-queue-line--booth-group-queue.webp)
-
-| Mode | What happens |
-|---|---|
-| **Off** | No line. Booths work as usual. |
-| **Hybrid** | Walk-ins are welcome. When someone is in line, the booth waits for their number. |
-| **Online only** | Every customer needs a number. The booth starts only for a called number. |
-
-Your choice saves as soon as you tap it.
-
-## Step 2: Check the booth letters
-
-Each booth gets its own line, named by a letter: A, B, C and so on. The letters **I** and **O** are skipped, so they are never mixed up with 1 and 0.
-
-Numbers count per booth, per day. Booth A hands out A1, A2, A3. Booth B hands out B1, B2, B3. Tomorrow each line starts again at 1.
-
-Once the line is on, the **Booth letters** section shows each booth with its letter and how many people are in line. To change a letter, tap it, then tap a new one. Letters already used by another booth are greyed out. **Take out of line** removes the booth from the queue. Waiting numbers carry over.
-
-## Step 3: Set opening hours (optional)
-
-The Queue tab shows **Any time** by default: the line takes numbers all day. Tap **Set hours**, choose **Opens** and **Closes**, and tap **Save**. The line then takes numbers only between those hours. **Clear** goes back to **Any time**.
-
-If someone has a number when the line closes, they keep their place. Their ticket stays valid, and they are first in line when it opens again.
-
-## Step 4: Show the display and the poster
-
-The Queue tab has three buttons.
-
-- **Open display** opens the queue display, the page you put on a TV. See [Queue Display](../dashboard/pix-design/queue-display.md).
-- **Print poster** opens a ready-to-print A4 sign with a QR code and the steps, in English and Indonesian.
-- **Staff page** opens the page your staff use to run the line.
-
-Put the display where customers can see it and the poster next to the booths. The QR on both leads to the join page, where customers pick a booth and get a number.
+Booths that skip the line are listed in warnings at the top of the Queue tab: an app older than 1.2.37, a computer on Pix Starter, or a booth whose Payment screen is off.
 
 ## How customers get a number
 
@@ -68,7 +28,7 @@ A customer gets a number in one of three ways. In each case they pick the booth 
 A code works at every booth in the group, even when its number belongs to one booth's line.
 
 :::note Central Cashier codes expire
-A Central Cashier code expires 2 days after it is bought. A customer who has a number for it keeps their place until then.
+A Central Cashier code expires at the end of the day after it is bought (UTC time). Sell codes for use the same day.
 :::
 
 ## What the customer sees
@@ -97,13 +57,13 @@ Open **Staff page** on the Queue tab. Each booth has a card with its line. For e
 - **Skip** a number. The customer sees that they missed their turn.
 - **Put back** a missed number into the line.
 - **Move to** another booth. The ticket keeps its number and its place in time. A12 moved to Booth B is still A12.
-- **Close line** or **Open line** for a booth, for example during a break.
+- **Close line** or **Open line** for the whole group, for example during a break.
 - **Sell at the counter** to sell a session to a customer standing in front of you. It uses your Central Cashier products and prices, and the customer gets a number.
 
 ## Limits
 
 - The queue line needs Pix Pro and Pixture Photobooth 1.2.37 or newer. An older booth is listed in the Queue tab warning.
-- Central Cashier codes expire 2 days after purchase.
+- Central Cashier codes expire at the end of the day after purchase (UTC time).
 - A booth without a letter never calls a number. It shows as not in line.
 - Letters run A to Z without I and O. A group with more booths than letters cannot give every booth a line.
 
