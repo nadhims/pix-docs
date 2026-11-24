@@ -100,7 +100,7 @@ Kartunya nampilin fee, **Guest sales** (yang dibayar tamu di booth), biaya event
 
 Tab **Profit & Loss** dibaca dari atas ke bawah seperti laporan laba rugi pada umumnya: **Revenue** (**Kiosk sales**, **Event sales** dan **Booking fees**), **Variable costs** (biaya yang naik turun ikut penjualan, seperti kertas dan bagi hasil venue), **Contribution margin**, **Fixed costs**, **Profit before tax**, **Tax** dan **Net profit**.
 
-<!-- SHOT-NEEDED: dashboard: the Profit and loss statement card of the whole business with the Kiosk sales, Event sales and Booking fees lines (the existing finance-profit-and-loss.webp shows an older "Event bookings" line) -->
+![Kartu Profit and loss seluruh bisnis dengan baris Kiosk sales, Event sales dan Booking fees ditandai](/img/docs/steps/tutorials-profit-and-loss--statement.webp)
 
 Di sebelah kanan:
 
@@ -127,7 +127,7 @@ Kiosk dengan contribution margin yang sehat itu membiayai dirinya sendiri, walau
 1. Balikin **View** ke **All kiosks and events**. Tombolnya disembunyikan untuk satu kiosk atau event.
 2. Di tab **Profit & Loss**, klik **Export PDF**. **Profit and Loss Statement** ter-download, bernomor sesuai periode: Oktober 2026 jadi PL-2026-10, dan **All months** jadi PL-2026.
 
-<!-- SHOT-NEEDED: dashboard: the Profit & Loss tab row with the Export PDF button marked -->
+![Header Finance dengan View di All kiosks and events dan tombol Export PDF ditandai](/img/docs/steps/tutorials-profit-and-loss--export-pdf.webp)
 
 ![PDF Profit and Loss Statement Oktober 2026, nomor PL-2026-10: omzet, biaya, net profit, profit distribution dan performance by unit](/img/docs/finance-pl-pdf.webp)
 

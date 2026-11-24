@@ -42,7 +42,7 @@ Bukan untuk tamu yang pengin motret sendiri: pakai Photo atau Studio di start sc
 
 ![Tab Setup event dengan Edit modes ditandai di kartu Booth mode](/img/docs/steps/tutorials-photographer-mode--edit-modes.webp)
 
-<!-- SHOT-NEEDED: dashboard: the Edit modes popup with the Photographer mode ticked and Save -->
+![Popup Edit modes dengan Photographer dicentang dan Save ditandai](/img/docs/steps/tutorials-photographer-mode--modes-popup.webp)
 
 Kartu **Photographer** muncul di kartu Booth mode, dan tab **Photographer** terbuka di bawahnya. Tab itu nampilin tanda "!" sampai semua yang dibutuhkan sudah diisi.
 
@@ -54,7 +54,7 @@ Kartu **Photographer** muncul di kartu Booth mode, dan tab **Photographer** terb
 4. **Template**: pilih satu template cetak yang didapat setiap grup. Daftarnya berisi template cetak di event ini yang punya slot foto. Kalau belum ada, klik **+ Manage Templates** dan tambahkan satu ke event.
 5. **Photographer computers**: centang komputer yang dipakai fotografer. Daftar ini cuma muncul kalau event juga punya mode untuk tamu, misalnya Photo. Kalau Photographer satu-satunya mode, tab-nya bilang "Photographer is this event's only mode, so every computer shoots."
 
-<!-- SHOT-NEEDED: dashboard: the Photographer tab with QR time, Auto print, Template and Photographer computers -->
+![Kartu Photographer dan tab-nya dengan QR time, Auto print, Template dan Photographer computers ditandai](/img/docs/steps/tutorials-photographer-mode--photographer-tab.webp)
 
 Setiap perubahan tersimpan sendiri. Tanda "!" di tab ngasih tahu apa yang kurang: "Pick the template", atau "Pick which computers shoot" kalau mode tamu nyala dan belum ada komputer yang dicentang. Komputer Photographer punya badge **Photographer** di kartu **Computers**.
 
@@ -94,7 +94,7 @@ Kamu gak harus nyentuh layar. Mencet shutter kamera di layar cek dihitung sebaga
 2. Layar share nampilin cetakannya selama **QR time** yang kamu pilih. Tamu tap **Scan QR** dan scan kodenya untuk ambil foto mereka. Kalau **Auto print** nyala, cetakannya sudah jalan.
 3. Tap **Complete**, atau pencet shutter kamera, untuk balik motret lebih cepat.
 
-<!-- SHOT-NEEDED: booth: the event share screen after a Photographer group, with the print, Scan QR and Complete -->
+![Layar share setelah grup Photographer dengan Scan QR dan Complete ditandai](/img/docs/steps/tutorials-photographer-mode--group-share.webp)
 
 Setiap grup disimpan sebagai satu sesi, gratis untuk tamu: gak ada layar pembayaran, gak ada harga. Kalau event kamu nampilin tombol **Print** di layar share-nya (tab **Output** > **Show a Print button on Share**), tamu bisa cetak salinan tambahan di situ, sampai batas **Max prints per session** event.
 

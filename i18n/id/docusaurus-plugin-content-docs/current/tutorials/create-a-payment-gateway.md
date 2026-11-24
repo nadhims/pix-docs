@@ -109,9 +109,7 @@ Kalau belum ada gateway yang aktif di akun, gateway live yang baru langsung nyal
 1. Kalau kartu yang baru belum punya badge **Active**, klik **Activate**. Gateway mode test (sandbox) selalu nunggu kamu klik sendiri.
 2. Cuma satu gateway yang aktif: mengaktifkan satu otomatis mematikan yang lain. Booth atau event yang milih gateway langsung tetap narik bayaran lewat gateway itu, aktif atau gak (Langkah 9).
 
-![Bagian Payment Gateway dengan kartu gateway tersambung serta tombol Edit dan Test](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-card.webp)
-
-<!-- SHOT-NEEDED: dashboard: Settings > Payment Gateway with a freshly connected, inactive gateway card showing the Activate button next to Edit and Test -->
+![Bagian Payment Gateway dengan kartu gateway yang belum aktif dan tombol Activate di samping Edit dan Test, serta badge Active di gateway lainnya](/img/docs/steps/tutorials-create-a-payment-gateway--activate.webp)
 
 ## Langkah 6: Jalankan Tes Pembayaran {#step-6-run-the-test-charge}
 

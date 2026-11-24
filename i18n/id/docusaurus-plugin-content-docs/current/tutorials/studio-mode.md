@@ -49,7 +49,7 @@ Kurang cocok untuk booth pesta yang ramai dan antre: foto bebas makan waktu lebi
 3. Isi **Max photos**. 0 artinya tanpa batas, dan 40 adalah jumlah paling banyak yang bisa ditampung satu sesi.
 4. Di **Camera trigger**, pilih **Trigger**: **Tap to start** (pelanggan tap live view), **Shutter button** (tombol di layar) atau **Camera shutter** (tombol shutter kamera sendiri yang ngambil foto, tanpa hitung mundur; ini butuh kamera Canon).
 
-<!-- SHOT-NEEDED: dashboard: UI Editor Capture tab of a Studio project with the Studio session section (Session length, Max photos) and Camera trigger marked -->
+![Tab Capture di UI Editor dengan Session length, Max photos dan Trigger kamera ditandai](/img/docs/steps/tutorials-studio-mode--ui-editor-studio-session.webp)
 
 Waktunya mulai jalan begitu layar Capture terbuka. Pelanggan gak pernah bisa selesai dengan foto lebih sedikit dari jumlah slot template: **Max photos** yang lebih kecil dinaikkan ke jumlah slot di booth, dan kalau waktunya habis sebelum itu, booth tetap lanjut foto sampai semua slot bisa terisi.
 
@@ -79,10 +79,10 @@ Booth ngambil desain baru saat lagi idle berikutnya, biasanya dalam hitungan det
 ## Langkah 5: Foto di sesi uji coba {#step-5-shoot-a-test-session}
 
 1. Di booth, mulai sesi dan bayar (booth gratis langsung lewat pembayaran), lalu pilih template.
-2. Di layar Capture, tap (atau pencet remote) untuk tiap foto. Setelah tiap foto, fotonya tampil dengan **Next** (simpan) dan **Retake** (buang dan foto ulang).
+2. Di layar Capture, tap (atau pencet remote) untuk tiap foto. Setelah tiap foto, fotonya tampil dengan **Next** (simpan) dan **Retake** (buang dan foto ulang). Tiap foto yang kamu simpan masuk ke kartu di pojok; tap kartunya untuk lihat semua foto sesi ini dan hapus salah satunya.
 3. Terus foto sampai waktunya habis, **Max photos** tercapai, atau kamu tap **Done**.
 
-<!-- SHOT-NEEDED: booth: the Studio Capture screen with the live view, the Last Shot card, the Photo Counter, the Session Timer and Done -->
+![Layar Capture Studio dengan kartu foto terakhir, jumlah foto, timer dan Done ditandai](/img/docs/steps/tutorials-studio-mode--studio-capture.webp)
 
 ## Langkah 6: Taruh fotonya di slot {#step-6-place-the-photos}
 

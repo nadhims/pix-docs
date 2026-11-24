@@ -90,7 +90,7 @@ Undangannya muncul di tab **Pending** lengkap dengan role, siapa yang mengundang
    - **Sudah punya akun Pixture** dengan email itu: mereka klik **Join Organization**.
 3. Mereka masuk ke dashboard kamu, di halaman pertama yang diizinkan role-nya.
 
-<!-- SHOT-NEEDED: dashboard: the Accept Invitation page (Join <organization>, Display Name, Password, Accept Invitation) for a made-up invitee -->
+![Halaman Accept Invitation untuk orang undangan contoh dengan "Join Lantern Lane Booths", isian dan Accept Invitation ditandai](/img/docs/steps/tutorials-team-and-roles--accept-invitation.webp)
 
 Orang yang tergabung di lebih dari satu organisasi pindah antar-organisasi lewat pemilih organisasi di bagian atas sidebar.
 
@@ -102,7 +102,7 @@ Di **Settings > Members**, buka menu di ujung baris orang itu:
 2. **Suspend** memblokir akses mereka ke akun ini. Barisnya nampilin **Suspended**. **Reactivate** membuka aksesnya lagi dengan role yang sama.
 3. **Remove** mengeluarkan mereka dari akun untuk seterusnya. Kalau mau kerja bareng lagi, undang ulang.
 
-<!-- SHOT-NEEDED: dashboard: Settings > Members row menu open on a made-up member, showing Change Role, Suspend and Remove -->
+![Menu baris Members untuk anggota contoh dengan Change Role, Suspend dan Remove ditandai](/img/docs/steps/tutorials-team-and-roles--member-menu.webp)
 
 Baris pemilik akun gak punya menu: gak ada yang bisa ngubah, suspend atau ngeluarin pemilik, dan gak ada yang bisa ngubah, suspend atau ngeluarin dirinya sendiri.
 

@@ -91,7 +91,7 @@ Kedua pilihan **After Photo** butuh **Photo** tercentang di event, atau **Photo*
 **After Photo, not printed** itu buku tamu pernikahan klasik: satu antrean, satu sesi, cetakan bersih buat tamu, dan semua ucapan buat pengantin. **Notes button, printed** pas buat pesta yang serunya justru di tulisan tangan di cetakan.
 :::
 
-<!-- SHOT-NEEDED: dashboard: the Edit modes popup with Notes ticked and the four Notes choices (Notes button, printed / not printed, After Photo, printed / not printed) -->
+![Popup Edit modes dengan Notes dicentang, empat pilihan Notes dan Save ditandai](/img/docs/steps/tutorials-notes-session--modes-popup.webp)
 
 ## Langkah 3: Pilih desain tempat pesan ditulis {#step-3-pick-the-design-the-note-is-written-on}
 
@@ -112,7 +112,7 @@ Kalau pesannya mau punya desain sendiri (Pixture Photobooth 1.2.45 atau lebih ba
 
 Booth pakai Notes template pertama di tab **Templates**-nya, dan cuma kalau desain layarnya punya Notes.
 
-<!-- SHOT-NEEDED: dashboard: the template editor sidebar with Note area (+ Add note area) and the Notes template switch -->
+![Sidebar template editor dengan Note area (+ Add note area), tombol Notes template dan Save ditandai](/img/docs/steps/tutorials-notes-session--template-editor-note-area.webp)
 
 </TabItem>
 <TabItem value="event" label="Event">
@@ -122,7 +122,7 @@ Booth pakai Notes template pertama di tab **Templates**-nya, dan cuma kalau desa
 
 Di event, pesan selalu jadi gambar sendiri. Dengan pilihan yang dicetak dari Langkah 2, gambar pesan itulah yang dicetak.
 
-<!-- SHOT-NEEDED: dashboard: the event Notes tab with Note template (Default and a template) and the Text fonts row with Change -->
+![Kartu Notes dan tab-nya dengan Note template dan baris Text fonts ditandai](/img/docs/steps/tutorials-notes-session--event-notes-tab.webp)
 
 </TabItem>
 </Tabs>

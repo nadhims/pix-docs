@@ -51,7 +51,7 @@ Still on the **Setup** tab, the numbers carry on from Step 1 (they match the mar
 
 The editor shows a live preview of the booth, with **Landscape** and **Portrait** switches, and a rail of settings groups: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown**, **Timer** and **Steps**. Click a part of the preview, such as the title or the logo, to open its settings.
 
-<!-- SHOT-NEEDED: dashboard: the Edit appearance editor of a made-up event, with the preview, the Landscape/Portrait switch, the settings rail and Save marked -->
+![Edit appearance editor with the live preview, the Landscape and Portrait switch, the settings rail and Save marked](/img/docs/steps/tutorials-event-start-screen--editor.webp)
 
 ## Step 3: Set the background and the words
 

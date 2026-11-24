@@ -91,7 +91,7 @@ Both **After Photo** choices need **Photo** ticked, at an event, or **Photo** or
 **After Photo, not printed** is the classic wedding guest book: one queue, one session, a clean print for the guest and every message for the couple. **Notes button, printed** suits a party where the handwriting is the fun of the print.
 :::
 
-<!-- SHOT-NEEDED: dashboard: the Edit modes popup with Notes ticked and the four Notes choices (Notes button, printed / not printed, After Photo, printed / not printed) -->
+![Edit modes popup with Notes ticked, the four Notes choices and Save marked](/img/docs/steps/tutorials-notes-session--modes-popup.webp)
 
 ## Step 3: Pick the design the note is written on
 
@@ -112,7 +112,7 @@ To give the note its own design instead (Pixture Photobooth 1.2.45 or newer):
 
 The booth uses the first Notes template on its **Templates** tab, and only when its screen design has Notes.
 
-<!-- SHOT-NEEDED: dashboard: the template editor sidebar with Note area (+ Add note area) and the Notes template switch -->
+![Template editor sidebar with Note area (+ Add note area), the Notes template switch and Save marked](/img/docs/steps/tutorials-notes-session--template-editor-note-area.webp)
 
 </TabItem>
 <TabItem value="event" label="Event">
@@ -122,7 +122,7 @@ The booth uses the first Notes template on its **Templates** tab, and only when 
 
 The note is always its own picture at an event. With a printed choice from Step 2, that note picture is what prints.
 
-<!-- SHOT-NEEDED: dashboard: the event Notes tab with Note template (Default and a template) and the Text fonts row with Change -->
+![The Notes card and its tab with Note template and the Text fonts row marked](/img/docs/steps/tutorials-notes-session--event-notes-tab.webp)
 
 </TabItem>
 </Tabs>

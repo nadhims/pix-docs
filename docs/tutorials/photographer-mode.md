@@ -42,7 +42,7 @@ Not for guests who want to take their own photos: use Photo or Studio on the sta
 
 ![The event Setup tab with Edit modes marked on the Booth mode card](/img/docs/steps/tutorials-photographer-mode--edit-modes.webp)
 
-<!-- SHOT-NEEDED: dashboard: the Edit modes popup with the Photographer mode ticked and Save -->
+![Edit modes popup with Photographer ticked and Save marked](/img/docs/steps/tutorials-photographer-mode--modes-popup.webp)
 
 A **Photographer** card joins the Booth mode card, and a **Photographer** tab opens under it. The tab shows a "!" until it has what it needs.
 
@@ -54,7 +54,7 @@ A **Photographer** card joins the Booth mode card, and a **Photographer** tab op
 4. **Template**: pick the one print template every group gets. The list shows this event's print templates that have a photo slot. With none there, click **+ Manage Templates** and add one to the event.
 5. **Photographer computers**: tick the computers the photographer shoots with. This list shows only when the event also has modes for guests, such as Photo. When Photographer is the only mode, the tab says "Photographer is this event's only mode, so every computer shoots."
 
-<!-- SHOT-NEEDED: dashboard: the Photographer tab with QR time, Auto print, Template and Photographer computers -->
+![The Photographer card and its tab with QR time, Auto print, Template and Photographer computers marked](/img/docs/steps/tutorials-photographer-mode--photographer-tab.webp)
 
 Every change saves by itself. The "!" on the tab tells you what is missing: "Pick the template", or "Pick which computers shoot" when guest modes are on and no computer is ticked. A Photographer computer carries a **Photographer** badge in the **Computers** card.
 
@@ -94,7 +94,7 @@ You do not have to touch the screen. Pressing the camera's shutter on the check 
 2. The share screen shows the print for the **QR time** you picked. Guests tap **Scan QR** and scan the code to get their photos. With **Auto print** on, the print is already on its way.
 3. Tap **Complete**, or press the camera's shutter, to go back to shooting early.
 
-<!-- SHOT-NEEDED: booth: the event share screen after a Photographer group, with the print, Scan QR and Complete -->
+![The share screen after a Photographer group with Scan QR and Complete marked](/img/docs/steps/tutorials-photographer-mode--group-share.webp)
 
 Each group is saved as one session, free for the guests: no payment screen, no price. If your event shows a **Print** button on its share screen (**Output** tab > **Show a Print button on Share**), guests can print extra copies there, up to the event's **Max prints per session**.
 

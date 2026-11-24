@@ -62,7 +62,7 @@ A row marked **not connected** means its camera is unplugged or switched off. Th
 2. Before each photo, **Choose your angle** shows at the bottom of the capture screen, one card per camera. Tap a card: the live view switches to that camera. Then start the photo.
 3. Try every angle once, and check each photo on the review screen and on the print.
 
-<!-- SHOT-NEEDED: booth: Capture screen with the Choose your angle cards (needs a rendered capture page with two angles) -->
+![The capture screen with the Choose your angle cards Front and High angle marked](/img/docs/steps/tutorials-multi-camera--choose-angle.webp)
 
 ## Check It Worked
 

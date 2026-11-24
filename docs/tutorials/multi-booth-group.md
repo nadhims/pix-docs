@@ -62,7 +62,7 @@ Open the group from the Booths list. It has six tabs:
 1. On **Templates**, click **Manage Templates**, tick the templates and save. Saving gives every booth exactly this set; templates that were on some booths only are replaced.
 2. On **UI Project**, pick the screen design in the list and click **Save for all booths**. Leave the default to use the standard Pixture screens.
 
-<!-- SHOT-NEEDED: dashboard: the group's UI Project tab with the design picker and Save for all booths -->
+![Multi-Booth UI Project tab with the design picker and Save for all booths marked](/img/docs/steps/tutorials-multi-booth-group--group-ui-project.webp)
 
 ## Step 4: Choose How Customers Pay
 
@@ -73,7 +73,7 @@ Open the group from the Booths list. It has six tabs:
 3. **With Central cashier**, click **Add product** and fill in **Name**, **Description**, **Price** and an optional **Photo**. Under **Booth sessions** pick **Single** (1 session), **Double** (2), **Group** (4) or **No booth sessions** for merchandise only, add **Extra sessions** if you like, and list **Items handed over at the counter**. Save.
 4. Under **Sell sessions online** (or **Sell products online** with a central cashier), **Copy** the link or print the QR code. Customers open it, pay, and get a code.
 
-<!-- SHOT-NEEDED: dashboard: the Cashier tab with Central cashier selected and two products (Single session, Double + magnet) in the Products table -->
+![Cashier tab with Central cashier picked, two products in the Products table and Add product marked](/img/docs/steps/tutorials-multi-booth-group--group-cashier.webp)
 
 Each central cashier sale gives an 8-character code (shown as four characters, a dash and four more) that works at any booth in the group. The booth opens its Payment screen straight on the code step. Sell codes for use the same day: a code expires at the end of the day after the sale, counted in UTC time.
 

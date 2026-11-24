@@ -43,7 +43,7 @@ If a photographer should shoot groups through the camera with no live view for g
 
 ![The event Setup tab with Edit modes marked on the Booth mode card](/img/docs/steps/tutorials-mingle-mode--edit-modes.webp)
 
-<!-- SHOT-NEEDED: dashboard: the Edit modes popup with Mingle ticked and Save -->
+![Edit modes popup with Mingle ticked and Save marked](/img/docs/steps/tutorials-mingle-mode--modes-popup.webp)
 
 A **Mingle** card joins the Booth mode card. Mingle is never a button on the guest start screen: only the computers you carry run it.
 
@@ -58,7 +58,7 @@ A **Mingle** card joins the Booth mode card. Mingle is never a button on the gue
 2. **Remote clicker**: choose what a press on the clicker does. **Shoots right away** (the default) takes the photo at once. **Starts the countdown** runs the countdown, as a tap on the screen does. The tab reminds you: "Your camera's shutter always shoots right away. Tapping the screen always counts down."
 3. **Mingle computers**: tick the computers you carry. When Mingle is the event's only guest mode, there is nothing to tick: "Every computer mingles. Turn on another mode to pick."
 
-<!-- SHOT-NEEDED: dashboard: the Mingle tab with Remote clicker and Mingle computers -->
+![The Mingle card and its tab with Remote clicker and Mingle computers marked](/img/docs/steps/tutorials-mingle-mode--mingle-tab.webp)
 
 Changes save by themselves. While other guest modes are on and no computer is ticked, the tab shows "!" with "Pick which computers mingle", and no computer mingles. Mingle computers carry a **Mingle** badge in the **Computers** card. A computer is either Mingle or Photographer, never both: ticking it on one tab takes it off the other.
 
@@ -68,7 +68,7 @@ Changes save by themselves. While other guest modes are on and no computer is ti
 2. With **Pay Per Session** on, find **Price per mode** and fill in the **Mingle** row: **Single**, **Double** and **Group**.
 3. Click **Save Changes**.
 
-<!-- SHOT-NEEDED: dashboard: the Edit Event popup with the Price per mode grid and the Mingle row -->
+![Edit Event popup with the Mingle row of Price per mode and Save Changes marked](/img/docs/steps/tutorials-mingle-mode--price-per-mode.webp)
 
 "Leave empty to use the event price." A package you leave empty on the Mingle row sells at Photo's price for that package, or the event price when Photo has none. Charge more for Mingle when the operator's time is part of the service.
 
@@ -82,7 +82,7 @@ Changes save by themselves. While other guest modes are on and no computer is ti
    - **Press the clicker**: what you chose under **Remote clicker**.
 4. After each photo the guest sees it, then the next slot starts its countdown by itself if nobody presses anything. Then filter, print and QR follow, as in a Photo session.
 
-<!-- SHOT-NEEDED: booth: a Mingle session on the capture screen with the live view and countdown -->
+![A Mingle shot on the capture screen with the countdown over the live view marked](/img/docs/steps/tutorials-mingle-mode--mingle-countdown.webp)
 
 The camera's shutter does nothing while a photo is shown for review, so a nervous double press never skips a guest's check.
 

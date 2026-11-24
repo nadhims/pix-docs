@@ -98,7 +98,7 @@ Di **Profit & Loss**, **Profit distribution** nampilin pembagian yang sama denga
 2. Di tab **Partners**, klik **Statement** di baris partner. PDF ter-download.
 3. Kirim sendiri ke partner, lewat email atau chat. Atau biarkan Finance mengirimnya lewat email tiap bulan (Langkah 6).
 
-<!-- SHOT-NEEDED: dashboard: the Partners tab with the Statement button on a partner's row marked -->
+![Tab Partners dengan pilihan bulan dan tombol Statement di baris partner contoh ditandai](/img/docs/steps/tutorials-share-revenue-and-profit--partners-statement.webp)
 
 ![PDF laporan revenue share untuk venue, nomor RS-2026-10-001: jumlah yang harus dibayar, revenue share 20% dan penjualan kotor per minggu](/img/docs/finance-partner-statement-pdf.webp)
 

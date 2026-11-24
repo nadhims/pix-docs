@@ -51,7 +51,7 @@ Masih di tab **Setup**, nomornya lanjut dari Step 1 (sama dengan tanda di gambar
 
 Editornya nampilin preview langsung dari booth, dengan switch **Landscape** dan **Portrait**, plus deretan grup setelan: **Modes**, **Background**, **Text**, **Logo**, **Gallery & lock**, **Colours**, **Countdown**, **Timer** dan **Steps**. Klik satu bagian di preview, misalnya judul atau logo, untuk membuka setelannya.
 
-<!-- SHOT-NEEDED: dashboard: the Edit appearance editor of a made-up event, with the preview, the Landscape/Portrait switch, the settings rail and Save marked -->
+![Editor Edit appearance dengan live preview, tombol Landscape dan Portrait, deretan pengaturan dan Save ditandai](/img/docs/steps/tutorials-event-start-screen--editor.webp)
 
 ## Langkah 3: Atur background dan kata-katanya {#step-3-set-the-background-and-the-words}
 

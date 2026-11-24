@@ -62,7 +62,7 @@ Baris bertanda **not connected** artinya kameranya kecabut atau mati. **Prefligh
 2. Sebelum tiap foto, **Choose your angle** muncul di bawah layar capture, satu kartu per kamera. Tap satu kartu: live view pindah ke kamera itu. Lalu mulai fotonya.
 3. Coba tiap angle sekali, dan cek tiap foto di layar review dan di hasil cetak.
 
-<!-- SHOT-NEEDED: booth: Capture screen with the Choose your angle cards (needs a rendered capture page with two angles) -->
+![Layar capture dengan kartu Choose your angle, Front dan High angle, ditandai](/img/docs/steps/tutorials-multi-camera--choose-angle.webp)
 
 ## Cek Hasilnya {#check-it-worked}
 

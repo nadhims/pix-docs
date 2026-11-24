@@ -63,7 +63,7 @@ Kalau desain layar Pix Design booth punya dua mode atau lebih (misalnya Photo da
 2. Kosongkan kotak untuk pakai harga booth sendiri untuk paket itu.
 3. Klik **Save changes**.
 
-<!-- SHOT-NEEDED: dashboard: Pricing tab, Price & packages, the Price per mode grid for a booth whose design has two or more modes -->
+![Tabel Price per mode di Price & packages untuk booth yang desainnya punya empat mode, dengan Save changes ditandai](/img/docs/steps/tutorials-prices-and-packages--price-per-mode.webp)
 
 ## Langkah 4: Atur Berapa Lama Pelanggan Bisa Bayar {#step-4-set-how-long-customers-have-to-pay}
 

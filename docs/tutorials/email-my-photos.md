@@ -43,7 +43,7 @@ A Sharing page built only from a **QR Code** block, with no **Share buttons** ro
 4. In the block's settings, keep **Scan QR** ticked. Tick **Show the QR code** if you want the QR on the screen itself, with no tap first.
 5. Click **Save**. Booths running the project pick it up between sessions.
 
-<!-- SHOT-NEEDED: dashboard: UI Editor on the Sharing tab with a Share buttons block selected and its Scan QR and Show the QR code settings -->
+![UI Editor Sharing tab with the Share buttons block added from the block bar and its Scan QR and Show the QR code settings marked](/img/docs/steps/tutorials-email-my-photos--ui-editor-share-buttons.webp)
 
 See [Customise the Booth Screens](./customise-kiosk-screens.md) for working in the UI Editor.
 

@@ -40,7 +40,7 @@ Di sesi Studio, Retake jalan agak beda: pelanggan simpan atau buang tiap foto, l
 
 ![Tab bar UI Editor dengan tab Review ditandai](/img/docs/steps/tutorials-review-and-retake--review-tab.webp)
 
-<!-- SHOT-NEEDED: dashboard: UI Editor Review tab right rail with Review Settings (Advanced mode, Retake button, Photo counter, Auto-advance after review, Duration) marked -->
+![Review Settings di UI Editor dengan Auto-advance after review, Duration, Retake button, Photo counter dan Save ditandai](/img/docs/steps/tutorials-review-and-retake--ui-editor-review-settings.webp)
 
 Kalau **Session Time** di halaman Capture habis, Retake hilang sendiri, jadi pelanggan gak bisa nahan booth selamanya.
 
@@ -73,7 +73,7 @@ Setelah foto terakhir di sesi Photo atau Notes, pelanggan lihat cetakan dengan s
    - **Choose a filter**: kalau mati, foto tetap seperti aslinya.
 4. Klik **Save**. Editor bilang "Saved. Booths update now."
 
-<!-- SHOT-NEEDED: dashboard: event Edit appearance with the Timer group (Photo review) and the Steps group (Adjust your photos, Choose a filter, Retake) marked -->
+![Edit appearance dengan grup Timer (Photo review) dan grup Steps (Adjust your photos, Choose a filter, Retake) ditandai](/img/docs/steps/tutorials-review-and-retake--event-timer-steps.webp)
 
 Photo review muncul di event dengan Photo, Notes atau Mingle. Di event, Adjust your photos lanjut sendiri setelah 60 detik dan punya tombol foto ulang di tiap foto selama Retake nyala.
 
@@ -84,7 +84,7 @@ Photo review muncul di event dengan Photo, Notes atau Mingle. Di event, Adjust y
 3. Di foto berikutnya, tap **Retake** dan cek hitung mundurnya jalan lagi untuk slot yang sama.
 4. Setelah foto terakhir, di **Adjust your photos**, seret satu foto ke foto lain untuk menukarnya, lalu tap **Next**.
 
-<!-- SHOT-NEEDED: booth: the per-shot Review screen with a photo selected, the zoom control and Mirror, Retake and "Next (8s)" -->
+![Layar Review dengan foto terpilih, kontrol zoom dan Mirror, Next (8s) dan Retake ditandai](/img/docs/steps/tutorials-review-and-retake--review-screen.webp)
 
 ## Cek Hasilnya {#check-it-worked}
 

@@ -38,7 +38,7 @@ Mau ngasih sesi gratis total (tes, crew, VIP)? Pakai staff pass di [Jual dan Bag
 1. Klik **Marketing Studio** di sidebar, lalu tab **Promo**.
 2. Klik **+ New promo**. Editor terbuka dengan **Booth preview · Payment** di kanan yang nampilin apa yang dilihat pelanggan.
 
-<!-- SHOT-NEEDED: dashboard: Marketing Studio > Promo with the promo list and + New promo marked -->
+![Tab Promo di Marketing Studio dengan daftar promo dan + New promo ditandai](/img/docs/steps/tutorials-run-a-promo--promo-list.webp)
 
 ## Langkah 2: Pilih Jenis Promo {#step-2-choose-the-deal}
 
@@ -51,7 +51,7 @@ Mau ngasih sesi gratis total (tes, crew, VIP)? Pakai staff pass di [Jual dan Bag
 
 Kalau promonya bikin sesi jadi gratis di salah satu booth, editor ngasih peringatan "This makes the session free at" booth itu. Kecilkan potongannya, kecuali gratis memang yang kamu mau.
 
-<!-- SHOT-NEEDED: dashboard: the New promo editor with Name, Promo type and the Booth preview · Payment marked -->
+![Editor New promo dengan Name, Promo type dan Booth preview · Payment ditandai](/img/docs/steps/tutorials-run-a-promo--promo-editor-deal.webp)
 
 ## Langkah 3: Pilih Cara Berlakunya {#step-3-choose-how-it-applies}
 
@@ -71,7 +71,7 @@ Pelanggan ngetik kode promo di kotak voucher yang sama di layar Payment, seperti
 5. **Start screen**: nyalakan **Show the promo to people walking past** untuk nampilin baris seperti "Happy Hour −30% · ends in 01:42" di layar Start booth.
 6. Klik **Save promo**.
 
-<!-- SHOT-NEEDED: dashboard: the New promo editor's Days & hours, Dates, Booths, Limit and Start screen rows with Save promo marked -->
+![Editor New promo dengan Days & hours, Dates, Booths, Limit, Start screen dan Save promo ditandai](/img/docs/steps/tutorials-run-a-promo--promo-editor-when.webp)
 
 ## Langkah 5: Minta Kontak Setelah Pay 1 get 1 (Opsional) {#step-5-ask-for-contacts-after-pay-1-get-1-optional}
 
@@ -89,7 +89,7 @@ Kontaknya masuk ke **Marketing Studio > Audience**.
 - Untuk kode: ketik di layar Payment; harganya turun dan booth bilang promonya dipakai.
 - Untuk Pay 1 get 1: setelah sesi berbayar, layar Sharing bilang "You got 1 free session!" dengan tombol **Start free session**.
 
-<!-- SHOT-NEEDED: booth: the Payment screen with a live promo, the struck-through price and the promo badge on the package cards -->
+![Layar Payment dengan badge promo dan harga coret di kartu paket ditandai](/img/docs/steps/tutorials-run-a-promo--promo-payment.webp)
 
 ## Tips {#tips}
 

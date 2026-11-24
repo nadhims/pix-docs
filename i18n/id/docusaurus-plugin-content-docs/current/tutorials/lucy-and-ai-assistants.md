@@ -37,7 +37,7 @@ Bukan untuk keadaan darurat saat event lagi jalan: tap **Chat with our team on W
 3. Di halaman yang punya tur, chip **Tour this page** ngajak kamu keliling halaman itu.
 4. Mentok di sesuatu yang kelihatan di layar? Lampirkan screenshot (PNG, JPG atau WebP) pakai tombol gambar di sebelah kotak teks, biar Lucy lihat yang kamu lihat.
 
-<!-- SHOT-NEEDED: dashboard: Lucy's chat panel open on the Dashboard page with the Ask Lucy button, the text box, a suggested question chip, Tour this page and the screenshot button marked -->
+![Panel chat Lucy terbuka di Dashboard dengan tombol Ask Lucy, kotak teks, pertanyaan saran, Tour this page dan tombol screenshot ditandai](/img/docs/steps/tutorials-lucy-and-ai-assistants--lucy-panel.webp)
 
 Pertanyaan yang enak buat mulai: "Minggu ini aku dapat berapa?", "Booth mana yang paling laku bulan lalu?", "Booth Kiosk 2 aman gak?", "Template apa yang paling sering dipilih pelanggan?", "Gimana cara setup QRIS?".
 
@@ -130,7 +130,7 @@ Claude dan ChatGPT sesekali ganti nama menu. Kalau menu di atas sudah pindah, ca
 2. Baca **Connect ... to Pixture?**: halaman ini nyebut nama bisnis kamu dan daftar apa saja yang bisa dilakukan asisten. Di Pix Starter ada catatan bahwa tool analitik dan aksi terbuka dengan Pix Pro.
 3. Klik **Approve**. **Deny** membatalkan dan gak ada yang tersambung.
 
-<!-- SHOT-NEEDED: dashboard: the Pixture consent page "Connect Claude to Pixture?" with Approve and Deny marked, for a made-up business -->
+![Halaman Pixture "Connect Claude to Pixture?" untuk bisnis contoh, dengan judul, Approve dan Deny ditandai](/img/docs/steps/tutorials-lucy-and-ai-assistants--consent.webp)
 
 4. Balik ke asisten, tanya sesuatu: "Booth aku dapat berapa bulan ini?" Di akun baru, tempel setup prompt dari Langkah 5 dan asisten bakal nemenin kamu install, pairing dan sesi tes pertama. Menurut dashboard, ngetik `/pix-onboarding` di Claude hasilnya sama.
 

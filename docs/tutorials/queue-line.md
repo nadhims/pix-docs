@@ -46,7 +46,7 @@ Not for an event where guests use the booth for free: event computers never foll
 | **Hybrid** | Walk-ins welcome. When someone is in line, the booth waits for their number. |
 | **Online only** | Every customer needs a number. The booth starts only for a called number. |
 
-<!-- SHOT-NEEDED: dashboard: the group's Queue tab with the line on (Hybrid), showing the Queue line modes, Any time / Set hours and the Booth letters card with two booths -->
+![Multi-Booth Queue tab with the line on Hybrid, Any time / Set hours and the Booth letters card](/img/docs/steps/tutorials-queue-line--queue-tab.webp)
 
 Pick **Hybrid** for most places: when nobody is waiting, a walk-up customer pays at the booth as usual; as soon as someone has a number, the booth waits for them. Pick **Online only** when the crowd is so big that every customer should take a number.
 
@@ -108,12 +108,12 @@ The phone then shows a live ticket: their number, the booth, how many are ahead 
 
 1. Tap **Staff page** on the Queue tab. The top shows **Open** or **Closed**, how many are waiting and how many booths are free.
 2. Each booth has a card with its letter, a chip (**Free**, **Calling**, **In session** or **Offline**) and its line. On a free booth, **Call A4** calls the next number now; the line also calls the next number by itself whenever a booth frees up.
-3. Open a ticket's menu (the three dots) for **Call now**, **Skip** (the customer missed it), **Put back** (back of the line) or **Move to** another booth. A moved ticket keeps its number and its place in time: A12 moved to Booth B is still A12.
+3. Open a ticket's menu (the three dots). It shows the actions that fit that ticket: **Call now** (its booth is free), **Skip** (the customer missed it), **Put back** (a called or missed ticket goes to the back of the line) or **Move to** another booth. A moved ticket keeps its number and its place in time: A12 moved to Booth B is still A12.
 4. **Close line** stops calling for the whole group, for example during a break; **Open line** starts it again. People in line keep their place.
 5. **Sell at the counter** opens the shop for a customer standing in front of you; they pay and get a number.
 6. **Open display** opens the TV page.
 
-<!-- SHOT-NEEDED: dashboard: the Staff page with two booth cards (A Calling A3, B Free with Call B2), the ticket menu open showing Call now, Skip, Put back, Move to -->
+![Staff page with booth A calling A3, booth B free with Call B2, a ticket menu open and Close line, Sell at the counter and Open display marked](/img/docs/steps/tutorials-queue-line--staff-page.webp)
 
 ## Check It Worked
 

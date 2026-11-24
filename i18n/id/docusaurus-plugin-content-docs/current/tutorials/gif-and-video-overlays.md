@@ -78,7 +78,7 @@ Tab-nya nampilin "!" selama GIF jadi output dan belum ada frame yang dipilih.
    - **Moving effect**: kilauan, hati, confetti dan lainnya, buatan Pixture.
    - **Your own effect**: MOV (HEVC) atau WebM dengan bagian tembus pandang, atau GIF, maksimal 30 MB.
 
-<!-- SHOT-NEEDED: dashboard: an event's Booth mode card on the Video tab with the Overlays list and the Add overlay menu open (From Pix Design, Still frame, Moving effect, Your own effect), marked -->
+![Kartu Booth mode di tab Video dengan menu Add overlay terbuka: From Pix Design, Still frame, Moving effect dan Your own effect](/img/docs/steps/tutorials-gif-and-video-overlays--video-overlay-menu.webp)
 
 Kalau ada lebih dari satu overlay di daftar, tamu dapat bergiliran, satu per video. Lihat [Mode Video Event](../desktop-app/event-video-modes.md).
 

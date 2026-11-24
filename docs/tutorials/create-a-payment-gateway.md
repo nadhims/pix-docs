@@ -109,9 +109,7 @@ When no gateway on the account is active, a new live gateway is switched on as s
 1. If the new card has no **Active** badge, click **Activate**. A gateway in test (sandbox) mode always waits for you to click it.
 2. Only one gateway is active at a time: activating one switches the other off. A booth or an event that picks a gateway by name charges through it whether or not it is active (Step 9).
 
-![Payment Gateway section with a connected gateway card and its Edit and Test buttons](/img/docs/steps/tutorials-create-a-payment-gateway--settings-gateway-card.webp)
-
-<!-- SHOT-NEEDED: dashboard: Settings > Payment Gateway with a freshly connected, inactive gateway card showing the Activate button next to Edit and Test -->
+![Payment Gateway section with an inactive gateway card and its Activate button next to Edit and Test, and the Active badge on the other gateway](/img/docs/steps/tutorials-create-a-payment-gateway--activate.webp)
 
 ## Step 6: Run the Test Charge
 

@@ -57,7 +57,7 @@ Judul dan tombolnya tetap dan mengikuti bahasa booth; teks kamu cuma mengganti i
 2. Ganti booth lewat pemilih **Booth** untuk lihat foto tiap booth. **Load more** nampilin yang lebih lama.
 3. Klik satu foto untuk membuka halaman share sesi itu di tab baru, tempat kamu bisa download foto, GIF atau Live photo-nya.
 
-<!-- SHOT-NEEDED: dashboard: the Consent photos gallery with several made-up consent photos, GIF and Live badges -->
+![Galeri Consent photos berisi foto contoh, masing-masing dengan booth, tanggal dan badge GIF atau Live](/img/docs/steps/tutorials-marketing-studio--consent-photos.webp)
 
 ## Langkah 4: Kumpulkan Kontak lewat Pay 1 Get 1 {#step-4-collect-contacts-with-pay-1-get-1}
 
@@ -67,7 +67,7 @@ Tab **Audience** berisi pelanggan yang ninggalin email atau nomor HP, dengan **C
 2. Di tab **Pricing** tiap booth, atur **Ask for contact after Pay 1 get 1** ke **Email**, **Phone** atau **Email + phone** (default-nya **Don't ask**).
 3. Pelanggan yang klaim sesi gratis dan ninggalin kontaknya muncul di **Audience**. **Remove** menghapus kontak yang minta dilupakan.
 
-<!-- SHOT-NEEDED: dashboard: the Audience tab with a few made-up contacts -->
+![Tab Audience berisi kontak contoh, Visits dan Last seen, dengan Remove ditandai](/img/docs/steps/tutorials-marketing-studio--audience.webp)
 
 ## Langkah 5: Sebarkan Penawaran lewat Campaign {#step-5-roll-an-offer-out-with-a-campaign}
 

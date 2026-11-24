@@ -63,7 +63,7 @@ When the booth's Pix Design screen design offers two or more modes (Photo and AI
 2. Leave a box empty to use the booth's own price for that package.
 3. Click **Save changes**.
 
-<!-- SHOT-NEEDED: dashboard: Pricing tab, Price & packages, the Price per mode grid for a booth whose design has two or more modes -->
+![Price per mode grid on Price & packages for a booth whose design has four modes, with Save changes marked](/img/docs/steps/tutorials-prices-and-packages--price-per-mode.webp)
 
 ## Step 4: Set How Long Customers Have to Pay
 

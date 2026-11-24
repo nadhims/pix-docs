@@ -70,19 +70,19 @@ Di **Header**, atur warna **Background** dan **Text** header. **Header image (op
 2. Buka **Promo banner** dan taruh gambar 4:5 kamu di **Banner image**. Isi **Banner link (optional)**, misalnya ke toko online kamu.
 3. Di preview, tap tanda × di promo seperti pelanggan. **Show promo popup again** munculin lagi promonya biar kamu bisa cek setelah ngubah sesuatu.
 
-<!-- SHOT-NEEDED: dashboard: Pix Design > Microsite on the Menu links tab with + Add link, and the Promo banner tab with Banner image and Banner link -->
+![Tab Menu links di Microsite dengan + Add link, dan tab Promo banner dengan Banner image dan Banner link ditandai](/img/docs/steps/tutorials-share-page--microsite-links-banner.webp)
 
 ## Langkah 4: Simpan desain ke booth kamu {#step-4-save-the-design-to-your-booths}
 
 Desain halaman share disimpan per booth, jadi kamu yang pilih booth mana yang dapat.
 
 1. Klik **Save changes**. Kalau booth kamu lebih dari satu, jendela **Save to booths** terbuka: "This microsite design applies to the booths you pick." Semua booth sudah tercentang dari awal.
-2. Hapus centang booth yang mau tetap pakai desainnya sendiri, misalnya booth klien di event.
+2. Klik **Choose**, hapus centang booth yang mau tetap pakai desainnya sendiri, misalnya booth klien di event, lalu klik **Apply**.
 3. Klik **Save**. Pesannya bilang "Saved to N booths."
 
 Booth yang komputernya belum Pix Pro dilewati, dan pesannya nyebutin berapa yang dilewati. Kalau booth kamu cuma satu, **Save changes** langsung menyimpan.
 
-<!-- SHOT-NEEDED: dashboard: the Save to booths window with the booth list and Save -->
+![Jendela Save to booths dengan Choose dan Save, serta daftar booth dengan Apply](/img/docs/steps/tutorials-share-page--save-to-booths.webp)
 
 ## Langkah 5: Sembunyikan footer Powered by Pixture (Pix Pro Yearly) {#step-5-hide-the-powered-by-pixture-footer-pix-pro-yearly}
 
@@ -93,7 +93,7 @@ Halaman share, album event dan email foto diakhiri footer **Powered by Pixture**
 
 Di paket lain switch-nya tetap nyala dan terkunci, dengan tulisan "Yearly plan." dan link **Go yearly**. Kalau akun kamu gak lagi punya Pix Pro Yearly, footer-nya muncul lagi sendiri, dan hilang lagi begitu kamu balik ke paket tahunan.
 
-<!-- SHOT-NEEDED: dashboard: Pix Design > Brand with the Pixture footer section and the Show on guest pages switch -->
+![Halaman Brand dengan kartu Pixture footer dan tombol Show on guest pages ditandai](/img/docs/steps/tutorials-share-page--brand-footer.webp)
 
 ## Langkah 6: Pakai domain sendiri untuk link (opsional) {#step-6-put-the-links-on-your-own-domain-optional}
 
@@ -103,7 +103,7 @@ Link share pakai alamat Pixture secara bawaan, gratis di semua paket. Alamat sen
 2. Di kartu **Own domain** ("Use your own domain for guest links."), klik **Contact us**. Pixture yang bantu pasang bareng kamu.
 3. Setelah akun kamu dibuka aksesnya, kartu yang sama minta domain kamu dan nampilin record DNS yang perlu ditambahkan di penyedia domain kamu. Tambahkan, terus klik **Verify DNS**.
 
-<!-- SHOT-NEEDED: dashboard: Settings > Own domain with the Pixture Address card and the Own domain card's Contact us -->
+![Own domain di Settings dengan kartu Pixture Address dan Contact us di kartu Own domain ditandai](/img/docs/steps/tutorials-share-page--own-domain.webp)
 
 ## Langkah 7: Tes pakai HP kamu {#step-7-test-it-on-your-phone}
 

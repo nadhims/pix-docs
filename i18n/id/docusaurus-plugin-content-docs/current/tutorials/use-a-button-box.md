@@ -46,7 +46,7 @@ Colok box-nya ke komputer booth, buka text editor apa saja, lalu pencet tiap tom
 3. Buka halaman **Capture**, lalu klik bagian kanvas yang kosong biar gak ada block yang terpilih.
 4. Di panel kanan, cari **Button keys** ("All designs and booths"). Isinya tiga baris: **Capture**, **Retake** dan **Keep**.
 
-<!-- SHOT-NEEDED: dashboard: UI Editor Capture page with the Button keys section (Capture, Retake, Keep) marked; the existing pix-design-ui-editor-capture shot predates Button keys -->
+![Halaman Capture di UI Editor dengan bagian Button keys (Capture, Retake, Keep) ditandai](/img/docs/steps/tutorials-use-a-button-box--ui-editor-button-keys.webp)
 
 ## Langkah 2: Pencet tiap tombol untuk ngatur key-nya {#step-2-press-each-button-to-set-its-key}
 

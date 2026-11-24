@@ -43,7 +43,7 @@ The newest photos come first, each with its booth and time. Search matches booth
 3. The small camera icon under the photo, **Camera settings**, shows what the camera used for this shot, handy when one booth's photos look darker than another's.
 4. Hover and click **Delete** to remove the photo from the Gallery and the customer's share page.
 
-<!-- SHOT-NEEDED: dashboard: Gallery photo card on hover with the Download, Delete and Camera settings buttons marked -->
+![A Gallery photo card on hover with the photo, Download, Camera settings and Delete marked](/img/docs/steps/tutorials-gallery-and-transactions--photo-card.webp)
 
 :::caution Delete is final for you
 A deleted photo disappears at once, and "This photo will be permanently removed after 30 days." There is no restore button. If you deleted the wrong one, contact Pixture support within those 30 days with the booth and roughly when it was taken.

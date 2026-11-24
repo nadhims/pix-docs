@@ -59,7 +59,7 @@ The pages and emails your customers get end with a **Powered by Pixture** footer
 1. On the Brand page, find **Pixture footer**.
 2. Turn **Show on guest pages** off. The **Guest page** preview shows your business name in the footer.
 
-<!-- SHOT-NEEDED: dashboard: Pix Design > Brand on a Pix Pro Yearly account, the Pixture footer card with the Show on guest pages switch, marked -->
+![Brand page on a Pix Pro Yearly account with the Pixture footer card and the Show on guest pages switch marked](/img/docs/steps/tutorials-set-up-your-brand--brand-footer.webp)
 
 On every other plan the switch stays on and locked, with "Yearly plan." and a **Go yearly** link to the Computers page. If your account stops holding Pix Pro Yearly, the footer comes back by itself; your choice is kept, so it hides again when you go back to yearly.
 

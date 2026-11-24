@@ -78,7 +78,7 @@ The tab shows a "!" while GIF is an output and no frame is picked.
    - **Moving effect**: sparkles, hearts, confetti and more, made by Pixture.
    - **Your own effect**: a MOV (HEVC) or WebM with see-through parts, or a GIF, up to 30 MB.
 
-<!-- SHOT-NEEDED: dashboard: an event's Booth mode card on the Video tab with the Overlays list and the Add overlay menu open (From Pix Design, Still frame, Moving effect, Your own effect), marked -->
+![Booth mode card on the Video tab with the Add overlay menu open: From Pix Design, Still frame, Moving effect and Your own effect](/img/docs/steps/tutorials-gif-and-video-overlays--video-overlay-menu.webp)
 
 With more than one overlay in the list, guests get them in turn, one per video. See [Event Video Modes](../desktop-app/event-video-modes.md).
 

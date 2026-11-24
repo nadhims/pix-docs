@@ -43,7 +43,7 @@ Foto terbaru tampil duluan, masing-masing dengan booth dan jamnya. Pencarian cum
 3. Ikon kamera kecil di bawah foto, **Camera settings**, nampilin setelan kamera untuk foto ini. Berguna kalau foto satu booth lebih gelap dari booth lain.
 4. Arahkan kursor dan klik **Delete** untuk ngehapus foto dari Gallery dan dari halaman share pelanggan.
 
-<!-- SHOT-NEEDED: dashboard: Gallery photo card on hover with the Download, Delete and Camera settings buttons marked -->
+![Kartu foto di Gallery saat kursor di atasnya, dengan foto, Download, Camera settings dan Delete ditandai](/img/docs/steps/tutorials-gallery-and-transactions--photo-card.webp)
 
 :::caution Delete itu final buat kamu
 Foto yang dihapus langsung hilang, dan "This photo will be permanently removed after 30 days." Gak ada tombol restore. Kalau salah hapus, hubungi support Pixture dalam 30 hari itu dengan nama booth dan kira-kira kapan fotonya diambil.

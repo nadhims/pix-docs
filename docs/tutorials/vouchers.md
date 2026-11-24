@@ -75,7 +75,7 @@ The batch appears under the **Batches** tab.
 1. Open the **Batches** tab and click the batch's name. The page lists every code with its **Status**, **Redemptions** and **Last Redeemed**.
 2. Click **Export CSV** to download the codes, then print them on cards or give the file to whoever prints them.
 
-<!-- SHOT-NEEDED: dashboard: a voucher batch page with its code list and the Export CSV button -->
+![Voucher batch page with the code list and Export CSV marked](/img/docs/steps/tutorials-vouchers--batch-codes.webp)
 
 ## Step 5: Use a Code at the Booth
 
@@ -83,7 +83,7 @@ The batch appears under the **Batches** tab.
 2. The booth checks the code with Pixture. A good code pays for one Single session and the session continues to the templates, with no charge.
 3. A code that cannot be used shows why: "This voucher has expired.", "This voucher has been fully redeemed.", "This voucher is not valid for this booth." or "This voucher is no longer active."
 
-<!-- SHOT-NEEDED: booth: the Payment screen's voucher entry with a code typed in -->
+![The voucher window with a code typed in and Apply Voucher marked](/img/docs/steps/tutorials-vouchers--voucher-entry.webp)
 
 ## Step 6: Keep the List Tidy
 

@@ -75,7 +75,7 @@ Batch-nya muncul di tab **Batches**.
 1. Buka tab **Batches** dan klik nama batch-nya. Halamannya nampilin setiap kode dengan **Status**, **Redemptions** dan **Last Redeemed**.
 2. Klik **Export CSV** untuk download kodenya, lalu cetak di kartu atau kasih file-nya ke tukang cetak.
 
-<!-- SHOT-NEEDED: dashboard: a voucher batch page with its code list and the Export CSV button -->
+![Halaman batch voucher dengan daftar kode dan Export CSV ditandai](/img/docs/steps/tutorials-vouchers--batch-codes.webp)
 
 ## Langkah 5: Pakai Kode di Booth {#step-5-use-a-code-at-the-booth}
 
@@ -83,7 +83,7 @@ Batch-nya muncul di tab **Batches**.
 2. Booth ngecek kode ke Pixture. Kode yang valid membayar satu sesi Single dan sesi lanjut ke template, tanpa tagihan.
 3. Kode yang gak bisa dipakai nampilin alasannya: "This voucher has expired.", "This voucher has been fully redeemed.", "This voucher is not valid for this booth." atau "This voucher is no longer active."
 
-<!-- SHOT-NEEDED: booth: the Payment screen's voucher entry with a code typed in -->
+![Jendela voucher dengan kode yang sudah diketik dan Apply Voucher ditandai](/img/docs/steps/tutorials-vouchers--voucher-entry.webp)
 
 ## Langkah 6: Rapikan Daftarnya {#step-6-keep-the-list-tidy}
 
