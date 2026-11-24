@@ -63,7 +63,7 @@ def operator_menu():
               crop=[0, 0, 2880, 3180])
     booth(p, "pin-pad", "pin", ["Enter Admin PIN", ("✓", "right"), "Cancel"])
     booth(p, "menu", "menu", ["Camera Settings", "Printer Settings", "Capture Settings", "Hardware API", "Admin Panel", ("Start Booth", "below")])
-    booth(p, "admin-panel", "admin", [("Start on boot", "right"), ("Upload now", "below"), "Print history", ("Clean storage", "right")])
+    booth(p, "admin-panel", "admin", [("^^Start on boot", "above"), ("Upload now", "below"), "Print history", ("Clean storage", "right")])
 
 
 def flash():
