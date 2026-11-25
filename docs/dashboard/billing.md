@@ -73,6 +73,18 @@ Adding computers to a card subscription you already have shows **Confirm this ch
 Whether an event's computers are covered shows on the event itself: its **Computers** card says "All N computers have an Event Pass or Pix Pro." or how many still need one. See [Events](./events.md).
 :::
 
+## After You Pay
+
+1. Back on the Computers page, **Verifying payment...** shows ("This usually takes a few seconds.") until your purchase lands. If it takes more than a minute it says **Taking longer than expected**: your money is safe, the purchase shows up by itself within a few minutes, and you can close the window.
+2. **Payment successful** then opens with an order summary: **Plan** (for example **Pix Pro Monthly**), **Computers**, and **Renews on** for a card subscription or **Active until** for a rupiah purchase. An Event Pass shows **Passes** and **Starts**: "When you use it on the booth", or "After your free trial" while the trial runs (see [The Free Trial](#the-free-trial)).
+3. Click **Continue**. Lucy opens once with the next step for your account:
+   - **No computer paired yet:** install Pixture Photobooth on the booth computer and pair it with a code. Lucy's **Download the app** and **Show my pairing code** buttons take you there.
+   - **A paired computer that has not taken the new Pix Pro yet:** it switches by itself the next time it checks in, within about 5 minutes, or straight away when you close Pixture Photobooth on that computer and open it again.
+   - **The computer already runs it:** nothing to do. Photos print and share without the watermark.
+   - **An Event Pass:** it waits in your account until you start it on the booth. See [Use an Event Pass on This Computer](../desktop-app/licence-on-the-booth.md#use-an-event-pass-on-this-computer).
+
+A checkout opened from an event takes you back to the event instead.
+
 ## Before Pix Pro Ends
 
 - An Event Pass or the free trial warns on the booth's idle screen 60 and 15 minutes before it ends. When it has ended, a popup on the booth names what ended (for example "Your Event Pass has ended") and offers **Manage devices**, a QR code to this page.
@@ -86,6 +98,8 @@ Stop a card subscription from **Settings > Pixture billing > Manage subscription
 ## The Free Trial
 
 Every organization can start one free 3-day Pix Pro trial on one computer, with no card. Start it with **Start free trial** on the **You have a 3-day free trial** card in the **Pair a computer** popup, or from the Updates bell, and pick your booth: the trial goes on the computer paired to it. It starts when the booth computer connects. While it runs your account is Pix Pro on that computer. After 3 days that computer goes back to watermarked unless you buy Pix Pro.
+
+An Event Pass bought while the trial runs is saved for your next event: a computer on its trial cannot take a pass, because the trial already gives it clean output. The **Event Pass** option in **Add computer** says so while a trial runs, for example "Free trial runs until Nov 26. A pass bought now waits for your next event.". If the trial ends with a pass still unused, Lucy reminds you once on the dashboard and you get one email, "Your Event Pass is waiting".
 
 ## Pix Starter
 
