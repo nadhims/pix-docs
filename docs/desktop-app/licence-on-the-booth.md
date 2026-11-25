@@ -42,6 +42,8 @@ Only the dashboard moves Pix Pro between computers. There is nothing on the boot
 
 When the computer is watermarked or blocked, the operator menu shows **Use an Event Pass on this computer**. Tap it to start one of your unused Event Passes on this computer for the next 24 hours. The button sits behind the menu PIN, so a customer cannot use up your Event Passes; the prompt on the Home screen is information only.
 
+A computer on its free trial does not take an Event Pass: the trial already gives clean output, and your passes wait in your account for the next event.
+
 Event Passes are bought on the Computers page: **Add computer**, then **Event Pass**, or **Buy Event Passes** on the **Event Passes** card.
 
 ## On an Event

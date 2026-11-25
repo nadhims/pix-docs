@@ -70,7 +70,7 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 
 **On screen:** The menu badge reads **Watermarked**, and photos carry the Pixture watermark. Starting a pass on a computer that never paired shows "This device is not registered with Pixture yet. Pair it to a booth first, then try again."
 
-**Also described as:** "sudah bayar, cara klaimnya gimana", "event pass sudah dibeli tapi masih watermark", "how do I use my pass".
+**Also described as:** "sudah bayar, cara klaimnya gimana", "event pass sudah dibeli tapi masih watermark", "how do I use my pass", "pass belum terpakai", "I paid but nothing changed".
 
 **Check first:** You are standing at the booth computer, not the computer you use for the dashboard. The booth is paired and online.
 
@@ -78,6 +78,7 @@ Start here when a computer will not pair to a booth, or pairs but runs watermark
 1. An Event Pass never starts by itself. On the booth computer, open the operator menu and tap **Use an Event Pass on this computer**. Its 24 hours start now.
 2. On an event, the booth shows "Use an Event Pass for today?" instead: tap **Use Event Pass**.
 3. Check the badge now reads **Event Pass until HH:mm**.
+4. **Bought it during the free trial?** A computer on its trial cannot take a pass, so the pass is still waiting in your account. That is expected: start it at your next event, the same way.
 
 **Still stuck:** Send support the booth name and a photo of the operator menu with its badge. See [Pix Pro on the Booth](../desktop-app/licence-on-the-booth.md).
 
