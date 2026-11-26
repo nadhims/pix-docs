@@ -44,7 +44,42 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
 
    With two or more modes ticked, the Start Screen gets a **Mode buttons** block: one button per mode, and the customer's tap picks the mode and starts the session. A choice of modes needs Pixture Photobooth 1.2.4 or newer.
 
-5. Click **Create Project**. It opens in the editor.
+5. Pick the **Look**:
+
+   - **Light**: "Bright, clean, studio style." A white, Korean self photo studio look: a title made of letter tiles ("photobooth"), black pill buttons and a studio-paper backdrop on the capture screens.
+   - **Classic**: "Today's look." This is the default for now.
+
+   If you pick only Newspaper and/or Notes, Light is switched off with the line "Light isn't ready for this mode yet". Light works for landscape and portrait, and for Photo, Studio, Simple and several modes together.
+
+   <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
+
+6. Click **Create Project**. It opens in the editor.
+
+### The Light Look
+
+Every element of a Light project is a normal editor block. You can move it, resize it and recolour it, like any block you add yourself. Two blocks in the palette are new:
+
+- **Title tiles**: big letters on square tiles. Settings:
+  - **Lines**: type them split by "/", for example photo/booth.
+  - **Tile size**, **Gap** and **Tilt**.
+  - **Accent letters**: numbers, counted across all lines. A space counts too.
+  - **Accent colour**, **Dark letters** and **Dark letter colour**.
+  - The font and the colours.
+- **Shape**: a plain box with a fill, rounded corners, a border and a shadow. Light projects use it for the header band on the capture screens.
+
+<!-- SHOT-NEEDED: dashboard: UI Editor on a Light Start Screen with the Title tiles block selected and its settings open -->
+
+**Brand** applies to Light projects too (see [Set Up Your Brand](../../tutorials/set-up-your-brand.md)):
+
+- **Main colour** goes to the orange accents.
+- **Dark colour** goes to text, black buttons and dark tiles.
+- **Light colour** goes to the page background, but only if you set your own.
+- **Heading font** goes to titles, tiles and big numbers.
+- **Body font** goes to the rest.
+
+Removing Brand brings the Light look back.
+
+Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.54 or newer on: {booth names}".
 
 ## Editor Anatomy
 
@@ -69,6 +104,7 @@ The idle screen customers walk up to. Its settings:
 - **Show live view** under Capture Settings puts the camera feed on the idle screen.
 - **Session Trigger** checkboxes decide what starts a session: **Touch Screen**, **F13** (a coin or card system's paid signal), **Space, S, Page Up, Page Down Keys** (a clicker or foot switch) and **Start Button** (the on-screen button block).
 - **Enabled in session flow**, and **Idle Timeout**: the seconds before the booth returns to this screen.
+- **Lock button** settings: the corner of the hidden admin padlock and its opacity. **Padlock colour** (**Light** or **Dark**) sits next to them. Use **Dark** on light pages so staff can see the faint padlock.
 - **Modes** lists the project's modes. **Edit modes** opens the same mode tiles as the New Project modal: "With two or more, guests pick one on the start screen. A mode you add gets its screens; one you turn off keeps your designs." Simple projects have no Edit modes.
 
 With several modes the **Mode buttons** block starts the session instead of a single Start Button. Its settings choose the **Pictures** on each button (**Illustration**, **Black and white** or **Icon**, or your own picture), the **Disc size**, the **Gap** and the colours.
@@ -158,7 +194,7 @@ The last screen: QR code, print, and back to Start.
 
 - The composite preview has a **Showcase loop** switch. On, it loops through the session's outputs; off, it shows the composite and then the live photo once ready.
 - The **QR Code** block links to the customer's share page. See [Microsite (Share Page)](./microsite.md).
-- The **Share buttons (QR, AirDrop, Print)** block puts round buttons on the screen: **Scan QR** (opens a big QR code, or tick **Show the QR code** to show it right on the screen), **AirDrop or Share** (AirDrop on a Mac booth, the share sheet on a phone or tablet, left out on Windows) and **Print**, which reads **Extra print** when the page prints by itself. **Free extra prints** sets how many extra prints are free per session.
+- The **Share buttons (QR, AirDrop, Print)** block puts round buttons on the screen: **Scan QR** (opens a big QR code, or tick **Show the QR code** to show it right on the screen), **AirDrop or Share** (AirDrop on a Mac booth, the share sheet on a phone or tablet, left out on Windows), **Email** and **Print**, which reads **Extra print** when the page prints by itself. The **Email** switch is on by default and shows next to **Scan QR**. **Free extra prints** sets how many extra prints are free per session.
 - **Finish** ends the session; the page timer returns to Start if the customer walks away.
 - Extra prints are sold here when **Extra print price (sharing screen)** is on in Booth Pricing; the print mockup follows the booth's print format.
 - The GIF and live photo previews show the real files once encoded.
