@@ -31,6 +31,7 @@ You do not even need an account to try the booth: install the Pixture Photobooth
 - Use one at the booth: on an event, tap **Use Event Pass** when the booth asks "Use an Event Pass for today?". Any other time, open the operator menu and tap **Use an Event Pass on this computer**. A computer paired while you hold unused Event Passes stays blocked until you use one on it.
 - While it runs, the booth shows a badge "Event Pass until HH:mm".
 - If its computer is unlinked, deactivated, removed or signs out, a running Event Pass is set aside with the same end time, and the next event computer that starts its booth continues it. A computer in Kiosk mode cannot pick it up. Its 24 hours keep counting while it waits.
+- Once started, an Event Pass cannot be paused, saved for later or put back to unused. Deactivate, Unlink and signing out only move it; they never stop its clock. Started one by accident? Contact us.
 - Event Passes never renew.
 
 :::tip When an Event Pass fits

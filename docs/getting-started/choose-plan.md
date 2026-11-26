@@ -65,7 +65,7 @@ Buying is done on the **Computers** page. A computer that is paired and waiting 
 What happens next depends on what you bought:
 
 - **Monthly or Yearly:** the next computer to check in takes the place. If you already have a paired computer waiting, it activates itself within minutes.
-- **Event Pass:** unused Event Passes wait in your account. Use one at the booth: tap **Use Event Pass** on the event start screen, or open the operator menu and tap **Use an Event Pass on this computer**. It runs for 24 hours. If that computer is unlinked, deactivated or signs out, the Event Pass keeps its end time and the next event computer that starts its booth continues it.
+- **Event Pass:** unused Event Passes wait in your account. Use one at the booth: tap **Use Event Pass** on the event start screen, or open the operator menu and tap **Use an Event Pass on this computer**. It runs for 24 hours. If that computer is unlinked, deactivated or signs out, the Event Pass keeps its end time and the next event computer that starts its booth continues it. Its 24 hours keep counting: a started Event Pass cannot be paused or put back to unused.
 
 :::info
 The rule that matters most: one Pix Pro covers one computer. A computer past your subscription stays paired, but it will not start a session until you deactivate another computer or add one. Freeing a place takes one click: **Deactivate**, in the computer's **Manage** menu on the Computers page.

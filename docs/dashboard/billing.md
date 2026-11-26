@@ -40,7 +40,7 @@ A computer does not need activating by hand. When your subscription has a place 
 
 ![Deactivate this computer popup: a place on your subscription frees up, with Keep Pix Pro or Deactivate](/img/docs/licenses-deactivate-modal.webp)
 
-**Deactivate** (in the **Manage** menu) takes Pix Pro off a computer: "This computer stops running Pix Pro right away. It stays paired, and its place on the subscription is free for another computer." The next computer that checks in claims the place. An Event Pass on the computer is not lost: it keeps running with the same end time, and the next event computer that starts its booth continues it. A computer in Kiosk mode cannot pick it up. The modal offers **Keep Pix Pro** or **Deactivate**.
+**Deactivate** (in the **Manage** menu) takes Pix Pro off a computer: "This computer stops running Pix Pro right away. It stays paired, and its place on the subscription is free for another computer." The next computer that checks in claims the place. An Event Pass on the computer is not lost: it keeps running with the same end time, and the next event computer that starts its booth continues it. A computer in Kiosk mode cannot pick it up. Deactivate never pauses an Event Pass or puts it back to unused: its 24 hours keep counting. The modal offers **Keep Pix Pro** or **Deactivate**.
 
 ## Remove an Event Computer
 
