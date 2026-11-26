@@ -40,7 +40,7 @@ Cuma mau warna dan logo kamu ada di mana-mana tanpa mendesain setiap layar? Atur
 
 ![Daftar UI Projects dengan kartu project, Manage UI Project dan New Project](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-projects.webp)
 
-3. Ketik **Project Name**, pilih **Orientation** (**Landscape** 1920×1080 atau **Portrait** 1080×1920), centang satu atau beberapa **Modes**, terus klik **Create Project**.
+3. Ketik **Project Name**, pilih **Orientation** (**Landscape** 1920×1080 atau **Portrait** 1080×1920), centang satu atau beberapa **Modes**.
 
 ![Jendela New UI Project dengan Project Name, Orientation dan pilihan mode](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-new-ui-project-modal.webp)
 
@@ -55,6 +55,14 @@ Setiap mode menentukan alur sesinya:
 | Newspaper | Start, Pay, Newspaper, Shoot, Share |
 
 "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." Dengan dua mode atau lebih, pelanggan milih salah satunya pakai **Mode buttons** di Start Screen; ini butuh Pixture Photobooth 1.2.4 atau lebih baru. Mode Studio butuh 1.1.98 atau lebih baru. Lihat [Sesi Studio](../desktop-app/studio-sessions.md).
+
+4. Pilih **Look**: **Light** ("Bright, clean, studio style") atau **Classic** ("Today's look", default untuk sekarang). Light itu tampilan putih ala self photo studio Korea, dengan judul dari tile huruf, tombol pill hitam dan latar kertas studio. Semua bagiannya blok biasa yang bisa kamu geser, ubah ukurannya dan ganti warnanya. Kalau kamu cuma pilih Newspaper dan/atau Notes, Light dimatikan dengan tulisan "Light isn't ready for this mode yet". Terus klik **Create Project**.
+
+<!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
+
+:::tip Kapan pilih Light
+Pilih **Light** kalau mau kesan studio yang terang dan bersih, atau kalau [Brand](./set-up-your-brand.md) kamu terang dan simpel. Project Light butuh Pixture Photobooth 1.2.54 atau lebih baru supaya tile huruf dan header band tampil. Booth yang lebih lama menampilkan teks biasa dan kotak biasa. Di halaman yang terang, atur **Padlock colour** ke **Dark** supaya staf bisa lihat gembok yang samar.
+:::
 
 ## Langkah 2: Kenali editornya {#step-2-find-your-way-around-the-editor}
 

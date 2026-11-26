@@ -40,7 +40,7 @@ Just want your colours and logo everywhere without designing each screen? Set up
 
 ![UI Projects list with project cards, Manage UI Project and New Project](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-projects.webp)
 
-3. Type a **Project Name**, pick the **Orientation** (**Landscape 1920×1080** or **Portrait 1080×1920**), tick one or more **Modes** and click **Create Project**.
+3. Type a **Project Name**, pick the **Orientation** (**Landscape 1920×1080** or **Portrait 1080×1920**), tick one or more **Modes**.
 
 ![New UI Project modal with Project Name, Orientation and the mode tiles](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-new-ui-project-modal.webp)
 
@@ -55,6 +55,14 @@ Each mode sets the flow its sessions follow:
 | Newspaper | Start, Pay, Newspaper, Shoot, Share |
 
 "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
+
+4. Pick the **Look**: **Light** ("Bright, clean, studio style") or **Classic** ("Today's look", the default for now). Light is a white, Korean self photo studio look with a letter-tile title, black pill buttons and a studio-paper backdrop. Every part of it is a normal block you can move, resize and recolour. If you pick only Newspaper and/or Notes, Light is switched off with "Light isn't ready for this mode yet". Then click **Create Project**.
+
+<!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
+
+:::tip When to pick Light
+Pick **Light** for a bright, clean studio feel, or when your [Brand](./set-up-your-brand.md) is light and simple. Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. Older booths show plain text and a plain box. On a light page, set **Padlock colour** to **Dark** so staff can see the faint padlock.
+:::
 
 ## Step 2: Find your way around the editor
 
