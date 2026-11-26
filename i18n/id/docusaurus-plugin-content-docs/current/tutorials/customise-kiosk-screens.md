@@ -56,12 +56,14 @@ Setiap mode menentukan alur sesinya:
 
 "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." Dengan dua mode atau lebih, pelanggan milih salah satunya pakai **Mode buttons** di Start Screen; ini butuh Pixture Photobooth 1.2.4 atau lebih baru. Mode Studio butuh 1.1.98 atau lebih baru. Lihat [Sesi Studio](../desktop-app/studio-sessions.md).
 
-4. Pilih **Look**: **Light** ("Bright, clean, studio style") atau **Classic** ("Today's look", default untuk sekarang). Light itu tampilan putih ala self photo studio Korea, dengan judul dari tile huruf, tombol pill hitam dan latar kertas studio. Semua bagiannya blok biasa yang bisa kamu geser, ubah ukurannya dan ganti warnanya. Kalau kamu cuma pilih Newspaper dan/atau Notes, Light dimatikan dengan tulisan "Light isn't ready for this mode yet". Terus klik **Create Project**.
+4. Pilih **Look**: **Light** ("Bright, clean, studio style") atau **Classic** ("Today's look"). **Light** tercentang secara default. Light itu tampilan putih ala self photo studio Korea, dengan judul dari tile huruf, tombol pill hitam dan latar kertas studio. Semua bagiannya blok biasa yang bisa kamu geser, ubah ukurannya dan ganti warnanya. Kalau kamu cuma pilih Newspaper dan/atau Notes, Look pindah ke Classic dan Light dimatikan dengan tulisan "Light isn't ready for this mode yet". Terus klik **Create Project**.
 
 <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
 :::tip Kapan pilih Light
-Pilih **Light** kalau mau kesan studio yang terang dan bersih, atau kalau [Brand](./set-up-your-brand.md) kamu terang dan simpel. Project Light butuh Pixture Photobooth 1.2.54 atau lebih baru supaya tile huruf dan header band tampil. Booth yang lebih lama menampilkan teks biasa dan kotak biasa. Di halaman yang terang, atur **Padlock colour** ke **Dark** supaya staf bisa lihat gembok yang samar.
+Pilih **Light** kalau mau kesan studio yang terang dan bersih, atau kalau [Brand](./set-up-your-brand.md) kamu terang dan simpel. Project Light butuh Pixture Photobooth 1.2.54 atau lebih baru supaya tile huruf dan header band tampil. Booth yang lebih lama menampilkan teks biasa dan kotak biasa. Di halaman yang terang, atur **Padlock colour** ke **Dark** supaya staf bisa lihat gembok yang samar. Project pertama akun baru otomatis Light kalau semua booth-nya pakai 1.2.54 atau lebih baru.
+
+Dengan dua mode atau lebih, project Light menampilkan **Touch to start** di Start. Kalau diketuk, muncul popup **Pick a mode**. Untuk mengubahnya, pilih blok Mode buttons lalu ubah **Show as**. Untuk mengatur gaya popup pembayaran, PIN, consent dan lainnya di satu tempat, buka **Popups: Edit** di bawah pengaturan gembok.
 :::
 
 ## Langkah 2: Kenali editornya {#step-2-find-your-way-around-the-editor}

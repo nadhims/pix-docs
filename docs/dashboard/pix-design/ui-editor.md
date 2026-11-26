@@ -46,10 +46,10 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
 
 5. Pick the **Look**:
 
-   - **Light**: "Bright, clean, studio style." A white, Korean self photo studio look: a title made of letter tiles ("photobooth"), black pill buttons and a studio-paper backdrop on the capture screens.
-   - **Classic**: "Today's look." This is the default for now.
+   - **Light** (ticked by default): "Bright, clean, studio style." A white, Korean self photo studio look: a title made of letter tiles ("photobooth"), black pill buttons and a studio-paper backdrop on the capture screens.
+   - **Classic**: "Today's look."
 
-   If you pick only Newspaper and/or Notes, Light is switched off with the line "Light isn't ready for this mode yet". Light works for landscape and portrait, and for Photo, Studio, Simple and several modes together.
+   If you pick only Newspaper and/or Notes, the Look switches to Classic and Light is switched off with the line "Light isn't ready for this mode yet". Light works for landscape and portrait, and for Photo, Studio, Simple and several modes together.
 
    <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
@@ -77,7 +77,9 @@ Every element of a Light project is a normal editor block. You can move it, resi
 - **Heading** font goes to titles, tiles and big numbers.
 - **Body** font goes to the rest.
 
-Removing Brand brings the Light look back.
+Removing Brand brings the Light look back. Brand also follows the Light popups: titles take the **Heading** font, text takes the **Body** font and buttons take the **Dark** colour.
+
+A new account's first project is Light when all its booths run Pixture Photobooth 1.2.54 or newer, or when it has no booth yet.
 
 Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.54 or newer on: {booth names}".
 
@@ -105,9 +107,36 @@ The idle screen customers walk up to. Its settings:
 - **Session Trigger** checkboxes decide what starts a session: **Touch Screen**, **F13** (a coin or card system's paid signal), **Space, S, Page Up, Page Down Keys** (a clicker or foot switch) and **Start Button** (the on-screen button block).
 - **Enabled in session flow**, and **Idle Timeout**: the seconds before the booth returns to this screen.
 - **Lock button** settings: the corner of the hidden admin padlock and its opacity. **Padlock colour** (**Light** or **Dark**) sits next to them. Use **Dark** on light pages so staff can see the faint padlock.
+- **Popups** with **Edit** opens the [Popups panel](#popups).
 - **Modes** lists the project's modes. **Edit modes** opens the same mode tiles as the New Project modal: "With two or more, guests pick one on the start screen. A mode you add gets its screens; one you turn off keeps your designs." Simple projects have no Edit modes.
 
 With several modes the **Mode buttons** block starts the session instead of a single Start Button. Its settings choose the **Pictures** on each button (**Illustration**, **Black and white** or **Icon**, or your own picture), the **Disc size**, the **Gap** and the colours.
+
+**Show as** decides how guests pick a mode:
+
+- **Buttons**: the round mode buttons on Start.
+- **Popup after Touch to start**: Start shows **Touch to start**, and tapping it opens a **Pick a mode** popup. It needs a **Touch to start** button on the Start Screen.
+
+A Light project with more than one mode uses the popup. Booths older than 1.2.54 show the round mode buttons instead. A paid start from a cash or coin device (F13) must pick a mode: the popup can't be cancelled.
+
+#### Popups
+
+The **Popups** panel gives all the booth's popups one style: payment (QR, card, cash, voucher), extra prints, email, consent, staff PIN, pick a mode, timeout, use a pass and bonus session. Open it with **Popups: Edit** under the lock settings. A live preview has a chooser, so you can look at each popup.
+
+- **Colours**: card, text, title, subtitle, accent, price, error, and the background dim with its strength.
+- **Buttons**: for the main button, the fill, text, **Gradient** on or off, corner roundness and height. For the other button, the fill, text and border.
+- **Fonts**: body and titles.
+- **Card**: corner roundness.
+- **Drawings**: a picture for QR, Card, Cash, Voucher and Consent.
+- **Text**: change the words of each popup, in English and in Indonesian. Leave a field empty to keep the booth's own text.
+
+**Reset to Light** (Light projects) brings back the Light style. **Remove style** returns every popup to the booth's own look.
+
+Once a project has a popup style, the Payment QR popup settings say "This project uses the Popups style" with a button to open the panel. The print mockup choice stays in the Payment QR settings.
+
+<!-- SHOT-NEEDED: dashboard: UI Editor with the Popups panel open, the preview and its popup chooser -->
+
+Two popup details apply to every project, Light or not. **Consent** shows **No thanks** and **Yes, I agree** as two equal buttons side by side. On the staff PIN pad, the bottom-left key is now delete (it removes one digit) instead of clear.
 
 ### Custom Screen
 

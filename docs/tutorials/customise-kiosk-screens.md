@@ -56,12 +56,14 @@ Each mode sets the flow its sessions follow:
 
 "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
 
-4. Pick the **Look**: **Light** ("Bright, clean, studio style") or **Classic** ("Today's look", the default for now). Light is a white, Korean self photo studio look with a letter-tile title, black pill buttons and a studio-paper backdrop. Every part of it is a normal block you can move, resize and recolour. If you pick only Newspaper and/or Notes, Light is switched off with "Light isn't ready for this mode yet". Then click **Create Project**.
+4. Pick the **Look**: **Light** ("Bright, clean, studio style") or **Classic** ("Today's look"). **Light** is ticked by default. Light is a white, Korean self photo studio look with a letter-tile title, black pill buttons and a studio-paper backdrop. Every part of it is a normal block you can move, resize and recolour. If you pick only Newspaper and/or Notes, the Look switches to Classic and Light is switched off with "Light isn't ready for this mode yet". Then click **Create Project**.
 
 <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
 :::tip When to pick Light
-Pick **Light** for a bright, clean studio feel, or when your [Brand](./set-up-your-brand.md) is light and simple. Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. Older booths show plain text and a plain box. On a light page, set **Padlock colour** to **Dark** so staff can see the faint padlock.
+Pick **Light** for a bright, clean studio feel, or when your [Brand](./set-up-your-brand.md) is light and simple. Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. Older booths show plain text and a plain box. On a light page, set **Padlock colour** to **Dark** so staff can see the faint padlock. A new account's first project is Light when all its booths run 1.2.54 or newer.
+
+With two or more modes, a Light project shows **Touch to start** on Start. Tapping it opens a **Pick a mode** popup. To change that, select the Mode buttons block and change **Show as**. To restyle the payment, PIN, consent and other popups in one place, open **Popups: Edit** under the lock settings. See the [UI Editor](../dashboard/pix-design/ui-editor.md#popups).
 :::
 
 ## Step 2: Find your way around the editor
