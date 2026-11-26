@@ -71,11 +71,11 @@ Every element of a Light project is a normal editor block. You can move it, resi
 
 **Brand** applies to Light projects too (see [Set Up Your Brand](../../tutorials/set-up-your-brand.md)):
 
-- **Main colour** goes to the orange accents.
-- **Dark colour** goes to text, black buttons and dark tiles.
-- **Light colour** goes to the page background, but only if you set your own.
-- **Heading font** goes to titles, tiles and big numbers.
-- **Body font** goes to the rest.
+- **Accent** goes to the orange accents.
+- **Dark** goes to text, black buttons and dark tiles.
+- **Light** goes to the page background, but only if you set your own.
+- **Heading** font goes to titles, tiles and big numbers.
+- **Body** font goes to the rest.
 
 Removing Brand brings the Light look back.
 
@@ -194,7 +194,7 @@ The last screen: QR code, print, and back to Start.
 
 - The composite preview has a **Showcase loop** switch. On, it loops through the session's outputs; off, it shows the composite and then the live photo once ready.
 - The **QR Code** block links to the customer's share page. See [Microsite (Share Page)](./microsite.md).
-- The **Share buttons (QR, AirDrop, Print)** block puts round buttons on the screen: **Scan QR** (opens a big QR code, or tick **Show the QR code** to show it right on the screen), **AirDrop or Share** (AirDrop on a Mac booth, the share sheet on a phone or tablet, left out on Windows), **Email** and **Print**, which reads **Extra print** when the page prints by itself. The **Email** switch is on by default and shows next to **Scan QR**. **Free extra prints** sets how many extra prints are free per session.
+- The **Share buttons (QR, AirDrop, Print)** block puts round buttons on the screen: **Scan QR** (opens a big QR code, or tick **Show the QR code** to show it right on the screen), **AirDrop or Share** (AirDrop on a Mac booth, the share sheet on a phone or tablet, left out on Windows), **Email** and **Print**, which reads **Extra print** when the page prints by itself. The **Email** switch is on by default and shows next to **Scan QR**. The Email button only shows on a Pix Pro booth, on a booth that can share soft files, when email sharing is switched on for your account, and never on a phone. Turn **Email** off to hide the button. **Free extra prints** sets how many extra prints are free per session.
 - **Finish** ends the session; the page timer returns to Start if the customer walks away.
 - Extra prints are sold here when **Extra print price (sharing screen)** is on in Booth Pricing; the print mockup follows the booth's print format.
 - The GIF and live photo previews show the real files once encoded.
