@@ -112,6 +112,8 @@ Layar success juga muncul kalau voucher menutup seluruh harga; sesi gratis melew
 
 4. Di tab **Review**, taruh blok **Review Photo** plus **Retake Button** dan **Next Button**; tombol bawaannya menyesuaikan ukuran bloknya. Di **Review Settings**, nyalakan **Advanced mode** kalau pelanggan boleh mengatur setiap foto: tap satu slot di preview gabungan untuk memperbesar, menggeser dan membalik foto itu.
 
+Di project Light, tamu juga bisa tap satu foto di strip untuk foto ulang foto itu saja. Pilih **Preview Cards** untuk mengubahnya, dan centang **Countdown inside the button** di tombol Next kalau mau tombolnya mengosong, bukan menampilkan detik. Di layar Adjust, tamu dapat tombol **Beautify** di atas Mirror.
+
 ## Langkah 7: Desain layar Filter dan Sharing {#step-7-design-the-filter-and-sharing-screens}
 
 1. Di tab **Filter**, tambahkan blok **Filter Strip**, grid kartu filter, dan pilih rasio kartunya (16:9 sampai persegi; default persegi). Kartu filter ngambil sudut membulatnya dari strip. Tambahkan blok **Filter Preview** biar pelanggan lihat filter pilihannya di foto mereka.
