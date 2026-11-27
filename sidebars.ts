@@ -50,6 +50,16 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: 'Phone and Tablet Booths',
+          collapsed: true,
+          items: [
+            'tutorials/open-the-app-in',
+            'tutorials/single-app-mode',
+            'tutorials/android-dedicated-tablet',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Design',
           collapsed: true,
           items: [
