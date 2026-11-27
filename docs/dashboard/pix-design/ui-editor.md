@@ -138,6 +138,14 @@ Once a project has a popup style, the Payment QR popup settings say "This projec
 
 Two popup details apply to every project, Light or not. **Consent** shows **No thanks** and **Yes, I agree** as two equal buttons side by side. On the staff PIN pad, the bottom-left key is now delete (it removes one digit) instead of clear.
 
+#### AI screens
+
+AI projects on the Light look use four screens: **Pick a style**, **Look at the camera**, **Keep this photo?** and **Making your AI portrait**. The guest checks the photo on **Keep this photo?** before the AI portrait is made, with **Retake** and **Looks good**. A retake never costs a second AI portrait. Retake follows the project's Retake setting.
+
+In the Start Screen settings, the **AI screens** section shows the four screens as previews. **Keep this photo? timer** sets how long the guest has to decide: 5 to 60 seconds, 10 if empty.
+
+<!-- SHOT-NEEDED: dashboard: Start Screen settings with the AI screens section and the Keep this photo? timer -->
+
 ### Custom Screen
 
 An optional tutorial or intro screen between Start and Payment. Turn on **Enabled in session flow** to use it.
@@ -179,11 +187,21 @@ A remote plugged into the booth follows the Start Screen's session triggers: Spa
 
 After each shot the customer checks the photo with **Retake** and **Next**; with nothing tapped the booth advances by itself. Switches let you hide the Retake button and the photo counter, and Retake disappears once the session time is up.
 
+On a Light project the guest can also tap any photo in the strip to see it big. **Retake** then replaces that photo, and **Looks good** carries on with the next empty photo. A hint, "Tap a photo to retake it", shows under the strip while a photo can be retaken. Studio projects don't have this. To set it, select the **Preview Cards** block on the Review tab: the **Tap a photo to retake it** checkbox is on by default for Light projects, and a text field next to it changes the hint.
+
+When the review moves on by itself, the **Looks good** button can empty as the time runs out, instead of showing seconds. Select the button on the Review tab and tick **Countdown inside the button** under **Countdown**.
+
+<!-- SHOT-NEEDED: dashboard: UI Editor on the Review tab with the Preview Cards block selected and Tap a photo to retake it ticked -->
+
 **Review Settings > Advanced mode** turns the fixed layout into a full canvas of your own: a **Review Photo** block, Retake and Next buttons or click areas, a counter, images and text, on a background of its own.
 
 ### Adjust
 
 "Adjust your photos": after the last shot of a Photo or Notes session, the customer sees the strip with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them, and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer after 60 seconds. Studio sessions skip it (they arrange photos on Assign photos).
+
+**Beautify** is a guest button above **Mirror**. It is off by default. When a guest turns it on, the booth smooths and brightens skin on every photo of the session: the print, the soft file and every preview. There is no setting for it in the editor. It is not in Studio, AI or event sessions.
+
+<!-- SHOT-NEEDED: booth: Adjust your photos screen with the Beautify button above Mirror -->
 
 The page is on by default in new projects. A project that booths already run keeps it off until you turn on **Enabled in session flow** on the Adjust tab and save, so their sessions don't change without you. The booth shows this screen from Pixture Photobooth 1.2.6.
 

@@ -18,6 +18,8 @@ The Review screen shows the shot just taken with two controls:
 
 A **Photo Counter** shows which shot this is, for example "2 of 4". Both the Retake button and the counter can be hidden in the Review settings in Pix Design; a design that hides Retake gives customers a faster, no-decisions session. When the Session Time reaches zero, Retake disappears on its own.
 
+On a Light project the customer can also tap any photo in the strip to see it big. **Retake** replaces that photo, and **Looks good** moves on to the next empty photo. A hint, "Tap a photo to retake it", shows under the strip. Studio sessions don't have this. When the review moves on by itself, the **Looks good** button empties as the time runs out.
+
 ## Adjusting a Photo
 
 Customers can fix a crop on the spot instead of retaking:

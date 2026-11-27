@@ -112,6 +112,8 @@ The success screen also shows when a voucher covers the whole price; free sessio
 
 4. On the **Review** tab, place the **Review Photo** block and the **Retake Button** and **Next Button**; the built-in buttons size to their blocks. Under **Review Settings**, turn on **Advanced mode** if customers should adjust each photo: tapping a slot on the composed preview lets them scale, move and mirror that one photo.
 
+On a Light project, guests can also tap a photo in the strip to retake just that one. Select **Preview Cards** to change it, and tick **Countdown inside the button** on the Next button if you want the button to empty instead of showing seconds. On the Adjust screen, guests get a **Beautify** button above Mirror.
+
 ## Step 7: Design the Filter and Sharing screens
 
 1. On the **Filter** tab, add the **Filter Strip** block, a grid of filter cards, and choose its card ratio (16:9 to square; square is the default). Filter cards take their corner radius from the strip. Add a **Filter Preview** block so customers see the chosen filter on their photo.
