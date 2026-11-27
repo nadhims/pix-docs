@@ -97,7 +97,7 @@ Shutter kamera gak berfungsi selama foto lagi ditampilkan untuk dicek, jadi penc
 
 - **Shutter untuk grup, hitung mundur untuk selfie.** Pakai shutter kamera saat kamu lagi framing grup; biarkan tamu tap layar kalau mereka butuh waktu untuk pose.
 - **Live photo butuh hitung mundur.** Klip bergerak di live photo direkam selama hitung mundur. Slot yang langsung difoto pakai shutter kamera atau clicker tampil sebagai foto diam di live photo. Kalau klien pengin live photo, set **Remote clicker** ke **Starts the countdown**.
-- **Notes after Photo gak jalan di komputer Mingle.** Kalau event-nya pakai catatan setelah foto, tamu ngerjainnya di booth yang berdiri.
+- **Decor after Photo gak jalan di komputer Mingle.** Kalau event-nya pakai catatan setelah foto, tamu ngerjainnya di booth yang berdiri.
 - **Sisakan satu komputer yang berdiri.** Kalau Photo juga nyala, tamu yang nyari kamu tetap punya booth untuk didatangi.
 
 ## Kalau Ada Masalah {#troubleshooting}

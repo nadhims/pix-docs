@@ -38,7 +38,7 @@ Bukan untuk booth yang tiap hari jalan di satu tempat buat pelanggan walk-in: it
 
    ![Halaman Events dengan satu kartu event yang sedang berjalan dan tombol + Create Event](/img/docs/steps/tutorials-run-an-event--events-list.webp)
 
-2. Isi **Event Name** dan **Client**. Buka dropdown **Modes** dan pilih satu atau lebih. Mode dikelompokkan jadi "Guests pick" (**Photo** nyala dari awal, plus **Video**, **360/Slow-mo**, **Studio** dan **Notes**) dan "Carried to guests" (**Photographer** dan **Mingle**). Buka dropdown **Output** dan pilih apa yang tamu dapat: **Prints**, **GIF**, **Live photo** atau **Singles** (foto mentah). Terus isi **Event date**, **Start Time** dan **End Time** (opsional), dan **Venue**, lalu klik **Next**.
+2. Isi **Event Name** dan **Client**. Buka dropdown **Modes** dan pilih satu atau lebih. Mode dikelompokkan jadi "Guests pick" (**Photo** nyala dari awal, plus **Video**, **360/Slow-mo**, **Studio** dan **Decor**) dan "Carried to guests" (**Photographer** dan **Mingle**). Buka dropdown **Output** dan pilih apa yang tamu dapat: **Prints**, **GIF**, **Live photo** atau **Singles** (foto mentah). Terus isi **Event date**, **Start Time** dan **End Time** (opsional), dan **Venue**, lalu klik **Next**.
 
    ![Wizard Create Event, langkah Details dengan Event Name, Client, dropdown Modes dan Output, dan Event date](/img/docs/event-create-wizard.webp)
 

@@ -50,7 +50,7 @@ Open the link on your phone, as a guest would.
 
 1. The top reads "Photo album", the event's name, the venue and date, and "Photos are kept for 60 days after they are taken."
 2. The photos show newest first, 48 to a page, with **Previous** and **Next**.
-3. A menu switches between the kinds of files the album has, with a count for each: **Prints**, **Live photos**, **Notes** and **Singles**. It shows only when the album has more than one kind.
+3. A menu switches between the kinds of files the album has, with a count for each: **Prints**, **Live photos**, **Decor** and **Singles**. It shows only when the album has more than one kind.
 4. **Newest first** or **Oldest first** changes the order, and a time menu (**All times**, then each hour) helps guests find their photo by when they took it.
 5. Tapping a photo opens that guest's own share page, where they download their files.
 

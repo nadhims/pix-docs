@@ -75,7 +75,7 @@ A row marked **not connected** means its camera is unplugged or switched off. Th
 - **The choice sticks.** A customer who never taps a card takes every photo on the same camera, so put your best angle first.
 - **Each photo waits for the customer.** With Multi camera on, photos do not count down by themselves: the customer starts each one after choosing. Give the session a little more time if your design has a session timer.
 - **No fixed camera per photo.** A template cannot say "photo 1 on Front, photo 2 on High angle": the customer chooses every time.
-- **Where it does not show:** event booths, Video, GIF and live photo sessions, AI, Studio and **Notes** modes. Those use the default camera.
+- **Where it does not show:** event booths, Video, GIF and live photo sessions, AI, Studio and **Decor** modes. Those use the default camera.
 - **Light every angle.** A high camera sees the top of heads and the floor. Check each angle with the person standing where customers stand.
 
 ## Troubleshooting

@@ -38,7 +38,7 @@ Not for a booth that runs every day in one place for walk-in customers: that is 
 
    ![Events page with one ongoing event card and the + Create Event button](/img/docs/steps/tutorials-run-an-event--events-list.webp)
 
-2. Fill in **Event Name** and **Client**. Open the **Modes** dropdown and pick one or more. They are grouped as "Guests pick" (**Photo** is on by default, plus **Video**, **360/Slow-mo**, **Studio** and **Notes**) and "Carried to guests" (**Photographer** and **Mingle**). Open the **Output** dropdown and pick what guests get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
+2. Fill in **Event Name** and **Client**. Open the **Modes** dropdown and pick one or more. They are grouped as "Guests pick" (**Photo** is on by default, plus **Video**, **360/Slow-mo**, **Studio** and **Decor**) and "Carried to guests" (**Photographer** and **Mingle**). Open the **Output** dropdown and pick what guests get: **Prints**, **GIF**, **Live photo** or **Singles** (the raw photos). Then set the **Event date**, the optional **Start Time** and **End Time**, and the **Venue**, and click **Next**.
 
    ![Create Event wizard, Details step with Event Name, Client, the Modes and Output dropdowns and the Event date](/img/docs/event-create-wizard.webp)
 

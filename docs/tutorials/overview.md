@@ -39,7 +39,7 @@ Each tutorial takes one job from start to finish: when it is worth using, what t
 ## Photo Sessions and Sharing
 
 - [Run a Studio Mode Session](./studio-mode.md). Set up a Studio booth where customers shoot freely for a set time, then pick which shots go into the print, and run your first timed session.
-- [Run a Notes Session](./notes-session.md). Let customers and guests write, draw and type a note on their photos, at a self-service booth or at an event. Choose whether the note gets its own button or comes after Photo, whether it prints, which design it is written on and which fonts it can be typed in.
+- [Run a Decor Session](./notes-session.md). Let customers and guests write, draw and type a note on their photos, at a self-service booth or at an event. Choose whether the note gets its own button or comes after Photo, whether it prints, which design it is written on and which fonts it can be typed in.
 - [Run a Newspaper Session](./newspaper-session.md). Turn a portrait booth into a newspaper booth where customers see themselves live on the front page, swipe between your newspapers, pay and shoot, and take home their own newspaper print.
 - [Run Video and 360 Sessions](./video-and-360-sessions.md). Turn an event's booths into a video booth or a 360/Slow-mo booth. Set the clip length, the slow-motion timeline, overlays, an intro and outro and a soundtrack, keep the original clips, and adjust it all at the booth during the event.
 - [Shoot as a Roaming Photographer](./photographer-mode.md). Turn on Photographer mode for an event, pick the print template and the computers that shoot, then shoot each group with your camera's own shutter while the booth fills the template, saves the group and shows its QR.

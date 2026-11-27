@@ -24,8 +24,8 @@ The Pixture Photobooth app is the booth software that turns a Mac or Windows com
 The booth app updates itself. The main changes since 1.1.82:
 
 - **Studio mode.** A timed pool session: the customer takes as many shots as they like, then assigns their favourites to the template slots. See [Studio Sessions](./studio-sessions.md).
-- **Per-photo adjust.** Tap a photo on the Review screen to scale it, mirror it or move the crop before it goes into the layout. From 1.2.6, Photo and Notes sessions can also show an "Adjust your photos" screen after the last shot, where customers move, zoom and swap their photos. See [Review and Adjust](./session-flow/review-and-adjust.md).
-- **Several modes on one booth.** A UI project can offer Photo, Studio and Notes side by side; customers pick one on the Start screen (1.2.4 or newer). See [UI Editor](../dashboard/pix-design/ui-editor.md).
+- **Per-photo adjust.** Tap a photo on the Review screen to scale it, mirror it or move the crop before it goes into the layout. From 1.2.6, Photo and Decor sessions can also show an "Adjust your photos" screen after the last shot, where customers move, zoom and swap their photos. See [Review and Adjust](./session-flow/review-and-adjust.md).
+- **Several modes on one booth.** A UI project can offer Photo, Studio and Decor side by side; customers pick one on the Start screen (1.2.4 or newer). See [UI Editor](../dashboard/pix-design/ui-editor.md).
 - **Video and 360 slow-mo for events.** An event can switch every booth in it to video capture, with an intro, outro, soundtrack and overlay. See [Event Video Modes](./event-video-modes.md).
 - **Pix Pro per computer and "Try it without an account".** Pix Pro now lives on the computer, the operator menu shows a plan badge, and a fresh install can run watermarked with built-in frames before it is paired. See [Pix Pro on the Booth](./licence-on-the-booth.md).
 - **Every currency.** Prices show the way the dashboard shows them, in any currency, with a tax label that follows the currency.

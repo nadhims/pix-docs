@@ -39,7 +39,7 @@ Tiap tutorial ngerjain satu pekerjaan dari awal sampai selesai: kapan worth dipa
 ## Sesi Foto dan Sharing
 
 - [Jalankan Sesi Studio Mode](./studio-mode.md). Siapkan booth Studio di mana pelanggan bebas foto selama waktu tertentu, terus milih sendiri foto mana yang masuk ke cetakan, lalu jalankan sesi pertama kamu.
-- [Jalankan Sesi Notes](./notes-session.md). Biarkan pelanggan dan tamu menulis, menggambar dan mengetik pesan di foto mereka, di booth self-service atau di event. Pilih apakah Notes punya tombol sendiri atau muncul setelah Photo, apakah pesannya ikut dicetak, desain apa yang ditulisi, dan font apa yang bisa dipakai.
+- [Jalankan Sesi Decor](./notes-session.md). Biarkan pelanggan dan tamu menulis, menggambar dan mengetik pesan di foto mereka, di booth self-service atau di event. Pilih apakah Decor punya tombol sendiri atau muncul setelah Photo, apakah pesannya ikut dicetak, desain apa yang ditulisi, dan font apa yang bisa dipakai.
 - [Jalankan Sesi Newspaper](./newspaper-session.md). Ubah booth portrait jadi booth koran, di mana pelanggan lihat dirinya live di halaman depan, geser untuk milih koran, bayar, foto, dan bawa pulang cetakan koran mereka sendiri.
 - [Jalankan Sesi Video dan 360](./video-and-360-sessions.md). Ubah booth di sebuah event jadi booth video atau booth 360/Slow-mo. Atur durasi klip, timeline slow motion, overlay, intro dan outro, soundtrack, simpan klip aslinya, dan ubah semuanya langsung di booth saat event.
 - [Motret Keliling sebagai Fotografer](./photographer-mode.md). Nyalakan mode Photographer untuk event, pilih template cetak dan komputer yang dipakai motret, terus potret tiap grup pakai shutter kamera sendiri sementara booth ngisi template, nyimpan grupnya dan nampilin QR-nya.

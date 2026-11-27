@@ -72,7 +72,7 @@ The project opens in the editor. If no PNG is loaded yet, the canvas reads "Drop
 - The toolbar has **Undo**, **Redo**, zoom, **Preview** (the layout with sample photos), **Remove BG**, **Re-upload** (swap the artwork and keep the project) and **Save**.
 - The side panel lists **Photo Slots (n)**, detected from the transparent areas. Use **Add slot manually** for a slot the detection missed, or for a slot over an opaque area.
 - **Add QR code** places a QR block on the print. The booth fills it with the customer's share link, so a printed strip leads back to the digital copies.
-- **+ Add note area** places the **Note area** for Notes sessions: "where the guest's drawing from the Notes screen is printed." One per template; without it the customer draws on the whole print. Drag and resize it on the canvas; select it and press its **x** (or Delete) to remove it.
+- **+ Add decor area** places the **Decor area** for Decor sessions: "where the guest's drawing from the Decor screen is printed." One per template; without it the customer draws on the whole print. Drag and resize it on the canvas; select it and press its **x** (or Delete) to remove it.
 - **Media Type** can be changed here as well.
 - The canvas shows white under the artwork, because the booth prints on white. If the artwork takes a while to arrive, a **Loading artwork...** bar shows the progress; if it stalls, click **Retry**.
 

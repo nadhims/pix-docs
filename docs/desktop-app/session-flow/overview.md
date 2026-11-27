@@ -23,13 +23,13 @@ A photo session is the customer's whole journey through the booth, from the Star
 
 6. **Pool Assignment.** Studio sessions only. The customer takes a pool of shots first and then drops their favourites into the template slots. See [Studio Sessions](../studio-sessions.md).
 
-7. **Adjust your photos.** Photo and Notes sessions, when the UI project's Adjust page is on (on by default in new projects). The customer moves, zooms and swaps their photos and taps **Mirror** to flip them all. See [Review and Adjust](./review-and-adjust.md).
+7. **Adjust your photos.** Photo and Decor sessions, when the UI project's Adjust page is on (on by default in new projects). The customer moves, zooms and swaps their photos and taps **Mirror** to flip them all. See [Review and Adjust](./review-and-adjust.md).
 
 8. **AI.** Only on accounts with Pix AI (available to beta accounts). The customer picks an AI style for a portrait.
 
 9. **Filter.** Optional. A strip of filter previews; the chosen look goes onto the print, the GIF and the live photo. Turn it on with **Enabled in session flow** on the Filter page. See [Filters](./filters.md).
 
-10. **Notes.** Notes sessions only. The customer writes, draws or types on their photos before sharing. The pens draw. **Aa** is for typing: the customer taps the note, types on the booth's on-screen keyboard (a phone or tablet shows its own keyboard) and picks a font from the row above the note. The colours and the size slider work on the text too. Dragging a text moves it, tapping it again edits it, and its cross removes it. One text holds up to 80 characters on 3 lines, and a note can have several. Which fonts are offered is set in the UI Editor's [Text fonts](../../dashboard/pix-design/ui-editor.md#text-fonts); on an event, in the event's [Notes tab](../../dashboard/events.md#notes). Typing needs Pixture Photobooth 1.2.39 or newer.
+10. **Decor.** Decor sessions, and after Photo or Studio on a Light project. The customer decorates their print before sharing: draws, types or, on a Light project, adds stickers (24 to pick from, which they can move, turn and resize). On Light, the page has three tabs, **Draw**, **Aa** and **Stickers**, and the Decor page can be switched off. The pens draw. **Aa** is for typing: the customer taps the print, types on the booth's on-screen keyboard (a phone or tablet shows its own keyboard) and picks a font from the row above the note. The colours and the size slider work on the text too. Dragging a text moves it, tapping it again edits it, and its cross removes it. One text holds up to 80 characters on 3 lines, and a note can have several. Which fonts are offered is set in the UI Editor's [Text fonts](../../dashboard/pix-design/ui-editor.md#text-fonts); on an event, in the event's [Decor tab](../../dashboard/events.md#decor). Typing needs Pixture Photobooth 1.2.39 or newer.
 
 11. **Sharing.** The QR code to the share page, the print, the GIF and live photo previews, and extra prints. **Done** or the page timer returns the booth to Home. See [Sharing](./sharing.md).
 
@@ -45,9 +45,9 @@ There is no separate "Thank you" screen. Sharing is the last screen.
 | Template Selection | Always on for photo sessions | UI Editor, **Templates** tab |
 | Capture and Review | Always on | UI Editor, **Capture** and **Review** tabs |
 | Pool Assignment | Studio mode UI project | UI Editor, **Assign photos** tab |
-| Adjust your photos | **Enabled in session flow** on the page (Photo and Notes) | UI Editor, **Adjust** tab |
+| Adjust your photos | **Enabled in session flow** on the page (Photo and Decor) | UI Editor, **Adjust** tab |
 | Filter | **Enabled in session flow** on the page | UI Editor, **Filter** tab |
-| Notes | Notes mode UI project | UI Editor, **Notes** tab |
+| Decor | Decor mode UI project | UI Editor, **Decor** tab |
 | Sharing | Always on | UI Editor, **Sharing** tab |
 
 Page settings such as the Capture **Session Time**, the Payment **Timeout** values, the Review **Advanced mode** and each page's idle timer sit in the right-hand rail of the UI Editor, under the page background. Nothing about the flow is set on the booth itself; the booth's own pages cover only camera, printer, hardware payments and the upload queue. See [UI Editor](../../dashboard/pix-design/ui-editor.md).

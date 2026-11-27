@@ -27,7 +27,7 @@ Your brand becomes the default look of your events, share pages and UI projects,
 
 ## Step 2: Design the booth screens
 
-1. Open **Pix Design > UI Editor** and open a UI project, or tap **New Project** (name, **Orientation** and one or more **Modes**: **Photo**, **Studio**, **Notes** or **Simple**).
+1. Open **Pix Design > UI Editor** and open a UI project, or tap **New Project** (name, **Orientation** and one or more **Modes**: **Photo**, **Studio**, **Decor** or **Simple**).
 2. Pick a page tab: **Start Screen**, **Payment Screen**, **Templates**, **Capture**, **Review**, **Adjust**, **Filter** or **Sharing**.
 3. Set the **Page Background** to a **Solid Color**, **Image**, **Gradient** or, on the start screen, a **Video**.
 4. Add blocks such as **Text**, **Image**, **Start Button** and **Template Cards**, and set their fonts and colours.

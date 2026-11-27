@@ -50,13 +50,13 @@ Setiap mode menentukan alur sesinya:
 |---|---|
 | Photo | Start, Pay, Template, Shoot per slot, Filter, Share |
 | Studio | Start, Pay, Template, Timed shoot, Pick photos, Filter, Share |
-| Notes | Start, Pay, Template, Shoot, Filter, Draw, Share |
+| Decor | Start, Pay, Template, Shoot, Filter, Draw, Share |
 | Simple | Start, Pay, B&W or colour, Shoot, Share |
 | Newspaper | Start, Pay, Newspaper, Shoot, Share |
 
-"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." Dengan dua mode atau lebih, pelanggan milih salah satunya pakai **Mode buttons** di Start Screen; ini butuh Pixture Photobooth 1.2.4 atau lebih baru. Mode Studio butuh 1.1.98 atau lebih baru. Lihat [Sesi Studio](../desktop-app/studio-sessions.md).
+"Pick one or more. Photo, Studio and Decor can change later in the editor; Simple and Newspaper can't be combined." Dengan dua mode atau lebih, pelanggan milih salah satunya pakai **Mode buttons** di Start Screen; ini butuh Pixture Photobooth 1.2.4 atau lebih baru. Mode Studio butuh 1.1.98 atau lebih baru. Lihat [Sesi Studio](../desktop-app/studio-sessions.md).
 
-4. Pilih **Look**: **Light** ("Bright, clean, studio style") atau **Classic** ("Today's look"). **Light** tercentang secara default. Light itu tampilan putih ala self photo studio Korea, dengan judul dari tile huruf, tombol pill hitam dan latar kertas studio. Semua bagiannya blok biasa yang bisa kamu geser, ubah ukurannya dan ganti warnanya. Kalau kamu cuma pilih Newspaper dan/atau Notes, Look pindah ke Classic dan Light dimatikan dengan tulisan "Light isn't ready for this mode yet". Terus klik **Create Project**.
+4. Pilih **Look**: **Light** ("Bright, clean, studio style") atau **Classic** ("Today's look"). **Light** tercentang secara default. Light itu tampilan putih ala self photo studio Korea, dengan judul dari tile huruf, tombol pill hitam dan latar kertas studio. Semua bagiannya blok biasa yang bisa kamu geser, ubah ukurannya dan ganti warnanya. Kalau kamu cuma pilih Newspaper dan/atau Decor, Look pindah ke Classic dan Light dimatikan dengan tulisan "Light isn't ready for this mode yet". Terus klik **Create Project**.
 
 <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
@@ -68,7 +68,7 @@ Dengan dua mode atau lebih, project Light menampilkan **Touch to start** di Star
 
 ## Langkah 2: Kenali editornya {#step-2-find-your-way-around-the-editor}
 
-- **Tab halaman** di bagian atas: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter dan Sharing (project Studio nambah Assign photos, project Notes nambah Notes). Setiap tab adalah satu layar booth. Custom Screen adalah halaman tambahan opsional; masukkan ke alur pakai **Enabled in session flow**.
+- **Tab halaman** di bagian atas: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter dan Sharing (project Studio nambah Assign photos, project Decor nambah Decor). Setiap tab adalah satu layar booth. Custom Screen adalah halaman tambahan opsional; masukkan ke alur pakai **Enabled in session flow**.
 - **Kanvas** di tengah, dengan kontrol **Fit**, zoom dan **1:1**, **Snap** untuk perataan, undo dan redo.
 - **Palet mengambang** di bawah kanvas untuk menambah blok: Text, Image, Start Button, Next Button, Live View, Template Cards, Preview Cards, QR Code, Session Timer, Filter Strip dan lainnya.
 - **Panel kanan**: **PAGE BACKGROUND** paling atas (Type: **Solid Color**, **Image**, **Gradient**, atau **Video** di Start Screen), terus setelan halaman itu, terus setelan blok yang dipilih.

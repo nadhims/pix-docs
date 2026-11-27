@@ -7,7 +7,7 @@ tags: [dashboard, pix-design, microsite, sharing]
 
 # Microsite (Share Page)
 
-Every photo session gets its own page on pixture.io. The customer scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo (and, for a Notes session with a note template, the customer's **Note**), each with a download button and a **Download All** that counts every file, under your organization's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
+Every photo session gets its own page on pixture.io. The customer scans the QR code on the Sharing screen, the page opens on their phone, and there they find the finished composite, the single photos, the animated GIF and the live photo (and, for a Decor session with a note template, the customer's **Note**), each with a download button and a **Download All** that counts every file, under your organization's logo. The **Microsite** page in Pix Design is where you brand that page. By the end of this page you will have the share page in your colours and saved to your booths.
 
 ![Microsite page with the Page, Header, Buttons, Promo banner and Menu links tabs, the colour, font, background, photo and Show first settings, and the live preview of the customer download page](/img/docs/pix-design-microsite.webp)
 
@@ -15,7 +15,7 @@ Every photo session gets its own page on pixture.io. The customer scans the QR c
 
 The link looks like `pixture.io/s/…` and is unique per session. It shows:
 
-- The composite (the print layout with the customer's photos), the single photos, the GIF and the live photo, as far as the booth's [Output Settings](../booth-management.md) allow. A Notes session with a note template adds a **Note** button for the customer's note, and **Download All** includes it.
+- The composite (the print layout with the customer's photos), the single photos, the GIF and the live photo, as far as the booth's [Output Settings](../booth-management.md) allow. A Decor session with a note template adds a **Note** button for the customer's note, and **Download All** includes it.
 - Your logo from **Pix Design > Brand** (see [Brand](./brand.md)), and the header, colours, buttons and links you set here.
 - The promo popup, if you turned it on.
 - On beta accounts with an AI portrait price set, a banner that leads to the AI portrait shop. See [Pix AI (Beta)](./pix-ai.md).

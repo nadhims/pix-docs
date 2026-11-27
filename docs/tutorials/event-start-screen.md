@@ -23,7 +23,7 @@ This screen belongs to one event. For a booth that runs on its own day after day
 - **An event** created in **Events**, with its modes picked. See [Run an Event](./run-an-event.md).
 - **Plan:** you can design the start screen on any plan. To run the event, each computer needs Pix Pro or an Event Pass.
 - **Booth app:** Pixture Photobooth 1.2.44 or newer shows the full design, including the Darkroom look, a Gradient background, the **Templates** start and the lock in the timer. The event page names any booth that needs an update.
-- **Templates** on the event if you offer **Photo**, **Studio** or **Notes**: their buttons stay hidden until the event has a template.
+- **Templates** on the event if you offer **Photo**, **Studio** or **Decor**: their buttons stay hidden until the event has a template.
 
 ## Prepare
 
@@ -73,8 +73,8 @@ To add or remove a mode, use **Edit modes** on the event page (the editor's **Ch
 
 1. **Countdown:** the seconds before each photo, 1 to 10. 3 seconds suits most guests.
 2. **Timer > Session time:** **Booth's own**, **No limit**, **60 s**, **90 s**, **2 min** or **3 min**. When time is up, the booth moves on with the photos taken.
-3. **Timer > Photo review** (with Photo, Notes, AI or Mingle on): how long each photo stays on screen with Retake and Next, **3 s** to **30 s**.
-4. **Timer > Note time** (with Notes on): 30 seconds to 3 minutes for guests to write their note.
+3. **Timer > Photo review** (with Photo, Decor, AI or Mingle on): how long each photo stays on screen with Retake and Next, **3 s** to **30 s**.
+4. **Timer > Decor time** (with Decor on): 30 seconds to 3 minutes for guests to write their note.
 5. **Steps:** switch off **Adjust your photos**, **Choose a filter** or **Retake** for shorter sessions.
 
 ## Step 6: Preview and save
@@ -102,7 +102,7 @@ Booths on the event pick up the new look for their next session: a booth waiting
 
 | Problem | Why | Fix |
 |---|---|---|
-| The Photo, Studio or Notes button does not show | The event has no template yet | Add a template on the event's **Template** tab |
+| The Photo, Studio or Decor button does not show | The event has no template yet | Add a template on the event's **Template** tab |
 | A booth shows an older look | The booth runs Pixture Photobooth 1.2.43 or older | Update the app on that booth |
 | The changes do not show on a booth | The booth is in the middle of a session, or the design was not saved | Click **Save**; the booth picks it up when the session ends |
 | The words are hard to read on the photo | The background is too bright or busy | Raise **Darken** and **Blur**, or set the text colour to **Auto** |

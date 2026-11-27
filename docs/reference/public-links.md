@@ -35,7 +35,7 @@ Where it is turned on: open the booth, go to the **Pricing** tab and, under **AI
 
 **`pixture.io/album/{slug}`**, one per event.
 
-What the guest sees: every photo from the event, from all its booths, as a public album with a slideshow. It shows 48 files a page with **Previous** and **Next**. When the album holds more than one kind, a menu switches between **Prints** (the default), **Live photos**, **Notes** and **Singles**; **Newest first** or **Oldest first** sets the order, and a time menu narrows a long event to one hour.
+What the guest sees: every photo from the event, from all its booths, as a public album with a slideshow. It shows 48 files a page with **Previous** and **Next**. When the album holds more than one kind, a menu switches between **Prints** (the default), **Live photos**, **Decor** and **Singles**; **Newest first** or **Oldest first** sets the order, and a time menu narrows a long event to one hour.
 
 Where it is turned on: open the event in **Events** and switch **Link Sharing** on. **Copy** gives you the link, **Slideshow** opens the full-screen view for a venue screen, and **Embed** gives code for the client's website. Switch Link Sharing off to take the album down.
 

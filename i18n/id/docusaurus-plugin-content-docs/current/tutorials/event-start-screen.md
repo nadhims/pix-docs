@@ -23,7 +23,7 @@ Layar ini milik satu event. Untuk booth yang jalan sendiri tiap hari (booth Kios
 - **Event** yang sudah dibuat di **Events**, dengan mode yang sudah dipilih. Lihat [Jalankan Event](./run-an-event.md).
 - **Paket:** layar start bisa kamu desain di paket apa saja. Untuk menjalankan event, setiap komputer butuh Pix Pro atau Event Pass.
 - **Aplikasi booth:** Pixture Photobooth 1.2.44 atau lebih baru nampilin desainnya secara lengkap, termasuk look Darkroom, background Gradient, start **Templates** dan gembok di dalam timer. Halaman event menyebut booth mana yang perlu di-update.
-- **Template** di event kalau kamu nawarin **Photo**, **Studio** atau **Notes**: tombol mode itu tetap tersembunyi sampai event punya template.
+- **Template** di event kalau kamu nawarin **Photo**, **Studio** atau **Decor**: tombol mode itu tetap tersembunyi sampai event punya template.
 
 ## Persiapan {#prepare}
 
@@ -73,8 +73,8 @@ Untuk menambah atau menghapus mode, pakai **Edit modes** di halaman event (**Cha
 
 1. **Countdown:** jumlah detik sebelum setiap foto, 1 sampai 10. 3 detik cocok untuk kebanyakan tamu.
 2. **Timer > Session time:** **Booth's own**, **No limit**, **60 s**, **90 s**, **2 min** atau **3 min**. Kalau waktunya habis, booth lanjut dengan foto yang sudah diambil.
-3. **Timer > Photo review** (kalau Photo, Notes, AI atau Mingle nyala): berapa lama setiap foto tampil dengan Retake dan Next, **3 s** sampai **30 s**.
-4. **Timer > Note time** (kalau Notes nyala): 30 detik sampai 3 menit untuk tamu menulis catatannya.
+3. **Timer > Photo review** (kalau Photo, Decor, AI atau Mingle nyala): berapa lama setiap foto tampil dengan Retake dan Next, **3 s** sampai **30 s**.
+4. **Timer > Decor time** (kalau Decor nyala): 30 detik sampai 3 menit untuk tamu menulis catatannya.
 5. **Steps:** matikan **Adjust your photos**, **Choose a filter** atau **Retake** untuk sesi yang lebih singkat.
 
 ## Langkah 6: Preview dan simpan {#step-6-preview-and-save}
@@ -102,7 +102,7 @@ Booth di event ini ngambil tampilan baru untuk sesi berikutnya: booth yang lagi 
 
 | Masalah | Kenapa | Solusinya |
 |---|---|---|
-| Tombol Photo, Studio atau Notes gak muncul | Event belum punya template | Tambahkan template di tab **Template** event |
+| Tombol Photo, Studio atau Decor gak muncul | Event belum punya template | Tambahkan template di tab **Template** event |
 | Satu booth nampilin tampilan lama | Booth-nya jalan di Pixture Photobooth 1.2.43 atau lebih lama | Update aplikasinya di booth itu |
 | Perubahan gak muncul di booth | Booth lagi di tengah sesi, atau desainnya belum disimpan | Klik **Save**; booth ngambil desainnya begitu sesi selesai |
 | Tulisannya susah dibaca di atas foto | Background-nya terlalu terang atau ramai | Naikkan **Darken** dan **Blur**, atau atur warna teks ke **Auto** |

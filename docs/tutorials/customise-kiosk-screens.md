@@ -50,13 +50,13 @@ Each mode sets the flow its sessions follow:
 |---|---|
 | Photo | Start, Pay, Template, Shoot per slot, Filter, Share |
 | Studio | Start, Pay, Template, Timed shoot, Pick photos, Filter, Share |
-| Notes | Start, Pay, Template, Shoot, Filter, Draw, Share |
+| Decor | Start, Pay, Template, Shoot, Filter, Draw, Share |
 | Simple | Start, Pay, B&W or colour, Shoot, Share |
 | Newspaper | Start, Pay, Newspaper, Shoot, Share |
 
-"Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
+"Pick one or more. Photo, Studio and Decor can change later in the editor; Simple and Newspaper can't be combined." With two or more modes, customers pick one with the **Mode buttons** on the Start Screen; that needs Pixture Photobooth 1.2.4 or newer. Studio mode needs 1.1.98 or newer. See [Studio Sessions](../desktop-app/studio-sessions.md).
 
-4. Pick the **Look**: **Light** ("Bright, clean, studio style") or **Classic** ("Today's look"). **Light** is ticked by default. Light is a white, Korean self photo studio look with a letter-tile title, black pill buttons and a studio-paper backdrop. Every part of it is a normal block you can move, resize and recolour. If you pick only Newspaper and/or Notes, the Look switches to Classic and Light is switched off with "Light isn't ready for this mode yet". Then click **Create Project**.
+4. Pick the **Look**: **Light** ("Bright, clean, studio style") or **Classic** ("Today's look"). **Light** is ticked by default. Light is a white, Korean self photo studio look with a letter-tile title, black pill buttons and a studio-paper backdrop. Every part of it is a normal block you can move, resize and recolour. If you pick only Newspaper and/or Decor, the Look switches to Classic and Light is switched off with "Light isn't ready for this mode yet". Then click **Create Project**.
 
 <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
@@ -68,7 +68,7 @@ With two or more modes, a Light project shows **Touch to start** on Start. Tappi
 
 ## Step 2: Find your way around the editor
 
-- **Page tabs** across the top: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter and Sharing (a Studio project adds Assign photos, a Notes project adds Notes). Each tab is one booth screen. Custom Screen is an optional extra page; include it with **Enabled in session flow**.
+- **Page tabs** across the top: Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter and Sharing (a Studio project adds Assign photos, a Decor project adds Decor). Each tab is one booth screen. Custom Screen is an optional extra page; include it with **Enabled in session flow**.
 - **Canvas** in the middle, with **Fit**, zoom and **1:1** controls, **Snap** for alignment, undo and redo.
 - **Floating palette** at the bottom of the canvas adds blocks: Text, Image, Start Button, Next Button, Live View, Template Cards, Preview Cards, QR Code, Session Timer, Filter Strip and more.
 - **Right rail**: **PAGE BACKGROUND** first (Type: **Solid Color**, **Image**, **Gradient**, or **Video** on the Start Screen), then the page's own settings, then the settings of the selected block.
@@ -126,7 +126,7 @@ On a Light project, guests can also tap a photo in the strip to retake just that
 1. Click **Preview** to walk through the screens as a customer would, then **Save**.
 2. Assign the design: on **UI Projects**, open the card's menu and choose **Assign to booths**; or open the booth's **UI Project** tab, pick the project from the dropdown and click **Save**.
 
-![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
+![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Decor, and the Save button](/img/docs/steps/tutorials-customise-kiosk-screens--booth-ui-project-tab.webp)
 
 The card menu also offers **Duplicate** (start a variant for another client), **Rename**, **Add frame template to this project** and **Delete**.
 
