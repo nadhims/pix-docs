@@ -79,9 +79,9 @@ Every element of a Light project is a normal editor block. You can move it, resi
 
 Removing Brand brings the Light look back. Brand also follows the Light popups: titles take the **Heading** font, text takes the **Body** font and buttons take the **Dark** colour.
 
-A new account's first project is Light when all its booths run Pixture Photobooth 1.2.54 or newer, or when it has no booth yet.
+A new account's first project is Light when all its booths run Pixture Photobooth 1.2.56 or newer, or when it has no booth yet.
 
-Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.54 or newer on: \{booth names\}".
+Light projects need Pixture Photobooth 1.2.56 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.56 or newer on: \{booth names\}".
 
 ## Editor Anatomy
 
@@ -117,7 +117,7 @@ With several modes the **Mode buttons** block starts the session instead of a si
 - **Buttons**: the round mode buttons on Start.
 - **Popup after Touch to start**: Start shows **Touch to start**, and tapping it opens a **Pick a mode** popup. It needs a **Touch to start** button on the Start Screen.
 
-A Light project with more than one mode uses the popup. Booths older than 1.2.54 show the round mode buttons instead. A paid start from a cash or coin device (F13) must pick a mode: the popup can't be cancelled.
+A Light project with more than one mode uses the popup. Booths older than 1.2.56 show the round mode buttons instead. A paid start from a cash or coin device (F13) must pick a mode: the popup can't be cancelled.
 
 #### Popups
 
@@ -229,7 +229,7 @@ Where the customer decorates their print: they draw, type and add stickers. The 
 
 Both kinds have a page timer. Where the decor lands on the print is set in the template editor with **Decor area**; a template without one lets the customer decorate the whole strip. See [Template Editor](./creating-templates.md).
 
-Stickers and the three tabs need Pixture Photobooth 1.2.54 or newer. An older booth shows the pens and the text tool only.
+Stickers and the three tabs need Pixture Photobooth 1.2.56 or newer. An older booth shows the pens and the text tool only.
 
 #### Text fonts
 

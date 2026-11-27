@@ -90,7 +90,7 @@ Promo, voucher dan tiket:
 - Voucher dan tiket sesi menutup satu Single dari type yang dipilih tamu. Sisanya dibayar tamu. Tiket yang nilainya lebih kecil dari Single type itu, misalnya tiket harga 4R dipakai untuk strips, bayar selisihnya.
 
 :::note Booth versi lama
-Booth di app 1.2.54 atau lebih lama tetap menagih harga booth. Kartu Print types menulisnya di bawah daftar. Update app dari [pixture.io/download](https://pixture.io/download).
+Booth di app 1.2.55 atau lebih lama tetap menagih harga booth. Kartu Print types menulisnya di bawah daftar. Update app dari [pixture.io/download](https://pixture.io/download).
 :::
 
 ## Langkah 4: Atur Berapa Lama Pelanggan Bisa Bayar {#step-4-set-how-long-customers-have-to-pay}

@@ -197,7 +197,7 @@ Jalankan sesi seperti pelanggan: pilih **Decor** (atau **Photo**, kalau pakai pi
 2. **Baris font** di atas pesan: tap font buat mengganti font teks yang dipilih. Warna dan slider ukuran juga berlaku buat teks.
 3. **Turn text** (1.2.48): geser pegangan bulat di bawah teks yang dipilih buat memutarnya. Kalau sudah hampir datar atau tegak, teksnya langsung lurus.
 4. **Move drawing** (1.2.48, ikon empat panah): geser di atas pesan buat memindahkan seluruh gambar, pena dan teks sekaligus, misalnya kalau tulisannya kepepet di pinggir.
-5. **Stickers** (Light, 1.2.54): buka tab **Stickers** dan ketuk stiker buat menambahnya. Seret buat menggeser. Handle kanan atas memutar, handle kanan bawah mengubah ukuran, dan tanda silang menghapusnya.
+5. **Stickers** (Light, 1.2.56): buka tab **Stickers** dan ketuk stiker buat menambahnya. Seret buat menggeser. Handle kanan atas memutar, handle kanan bawah mengubah ukuran, dan tanda silang menghapusnya.
 6. **Done**: di event tulisannya **Skip** selama pesannya masih kosong. Kalau gak ada yang ditulis, sesi lanjut tanpa pesan. Kalau waktunya habis, booth lanjut sendiri.
 
 ![Layar pesan dengan Text tool, baris font, Turn text, Move drawing dan Done ditandai](/img/docs/steps/tutorials-notes-session--write-a-note.webp)

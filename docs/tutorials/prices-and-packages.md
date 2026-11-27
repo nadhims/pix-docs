@@ -75,7 +75,7 @@ When the booth's templates make two or more kinds of print (Photo 4R and Photo s
 
 <!-- SHOT-NEEDED: Print types card with Photo strips On at Rp 40.000 and copy prices Rp 15.000, Rp 13.000, Rp 12.000 -->
 
-Guests then pick **Choose your print**, then **How many?**, then **Pay with**, and Templates shows only that print. Booths on app 1.2.54 or older keep charging the booth price. More in [Booth Pricing](../dashboard/booth-pricing.md#print-types).
+Guests then pick **Choose your print**, then **How many?**, then **Pay with**, and Templates shows only that print. Booths on app 1.2.55 or older keep charging the booth price. More in [Booth Pricing](../dashboard/booth-pricing.md#print-types).
 
 ## Step 4: Set How Long Customers Have to Pay
 

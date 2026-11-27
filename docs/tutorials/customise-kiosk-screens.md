@@ -61,7 +61,7 @@ Each mode sets the flow its sessions follow:
 <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
 :::tip When to pick Light
-Pick **Light** for a bright, clean studio feel, or when your [Brand](./set-up-your-brand.md) is light and simple. Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. Older booths show plain text and a plain box. On a light page, set **Padlock colour** to **Dark** so staff can see the faint padlock. A new account's first project is Light when all its booths run 1.2.54 or newer.
+Pick **Light** for a bright, clean studio feel, or when your [Brand](./set-up-your-brand.md) is light and simple. Light projects need Pixture Photobooth 1.2.56 or newer to show the letter tiles and the header band. Older booths show plain text and a plain box. On a light page, set **Padlock colour** to **Dark** so staff can see the faint padlock. A new account's first project is Light when all its booths run 1.2.56 or newer.
 
 With two or more modes, a Light project shows **Touch to start** on Start. Tapping it opens a **Pick a mode** popup. To change that, select the Mode buttons block and change **Show as**. To restyle the payment, PIN, consent and other popups in one place, open **Popups: Edit** under the lock settings. See the [UI Editor](../dashboard/pix-design/ui-editor.md#popups).
 :::

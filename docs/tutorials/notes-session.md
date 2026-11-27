@@ -38,7 +38,7 @@ Not worth it when the queue is long and every second counts, for example a busy 
 - **A plan that runs the booth on Pix Pro.** On a Kiosk, saving a screen design in Pix Design needs Pix Pro. At an event, every computer needs Pix Pro or an Event Pass.
 - **Pixture Photobooth on the booth computer:**
   - 1.2.39 or newer to type (an older booth shows the pens only).
-  - 1.2.54 or newer for the **Draw**, **Aa** and **Stickers** tabs on a Light project.
+  - 1.2.56 or newer for the **Draw**, **Aa** and **Stickers** tabs on a Light project.
   - 1.2.45 or newer for a **Decor template** on a Kiosk (Step 3).
   - 1.2.48 or newer for **Move drawing** and **Turn text**.
 - **At least one print template** on the booth or the event: Decor takes the photos first, like Photo.
@@ -198,7 +198,7 @@ Run a session as a customer would: choose **Decor** (or **Photo**, with an After
 2. **The font row** at the top of the note: tap a font to change the picked text. The colours and the size slider work on text too.
 3. **Turn text** (1.2.48): drag the round handle under the picked text to turn it. Close to level or upright, it snaps straight.
 4. **Move drawing** (1.2.48, the four arrows): drag on the note to slide the whole drawing, pens and texts together, for example when it ended up too close to the edge.
-5. **Stickers** (Light, 1.2.54): open the **Stickers** tab and tap a sticker to add it. Drag it to move it. The top-right handle turns it, the bottom-right handle resizes it, and the cross removes it.
+5. **Stickers** (Light, 1.2.56): open the **Stickers** tab and tap a sticker to add it. Drag it to move it. The top-right handle turns it, the bottom-right handle resizes it, and the cross removes it.
 6. **Done**: at an event this reads **Skip** until something is on the note. With nothing written, the session goes on without a note. When the time runs out, the booth goes on by itself.
 
 ![The note screen with the Text tool, the font row, Turn text, Move drawing and Done marked](/img/docs/steps/tutorials-notes-session--write-a-note.webp)
