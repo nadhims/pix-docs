@@ -65,6 +65,34 @@ Kalau desain layar Pix Design booth punya dua mode atau lebih (misalnya Photo da
 
 ![Tabel Price per mode di Price & packages untuk booth yang desainnya punya empat mode, dengan Save changes ditandai](/img/docs/steps/tutorials-prices-and-packages--price-per-mode.webp)
 
+## Langkah 3b: Harga per Print Type (Opsional) {#step-3b-price-each-print-type-optional}
+
+Kalau template booth bikin dua jenis cetakan atau lebih (misalnya Photo 4R dan Photo strips), kartu **Print types** muncul di bawah **Price per mode**. Satu print type adalah satu jenis cetakan: **Photo 4R** (satu cetakan 4x6), **Photo strips** (dua strip 2x6), **Two halves** dan seterusnya.
+
+1. Nyalakan **On** untuk tiap type dan isi **Price**-nya, misalnya Rp 40.000. Harus lebih dari 0. Double dan Group dihitung otomatis dari rasio harga booth, jadi cuma bisa dibaca.
+2. Di **Extra copies**, isi sampai tiga harga untuk copy tambahan ke-1, ke-2 dan ke-3 di tiap sesi, misalnya Rp 15.000, Rp 13.000, Rp 12.000. **Baris terakhir berlaku terus** untuk copy berikutnya. Kalau kosong, copy tambahan pakai **Extra print price** booth; kalau dua-duanya kosong, tamu gak bisa nambah copy.
+3. Klik **Save changes**.
+
+<!-- SHOT-NEEDED: kartu Print types dengan Photo strips On Rp 40.000 dan harga copy Rp 15.000, Rp 13.000, Rp 12.000 -->
+
+Yang dilihat tamu di booth:
+
+- **Choose your print**, lalu **How many?**, lalu **Pay with**. Templates cuma nampilin frame untuk cetakan yang dipilih.
+- **Choose your print** dilewati kalau cuma ada satu type. **How many?** dilewati kalau gak ada yang bisa dipilih. **Pay with** nampilin total yang sama di tile QR.
+- Desain **Classic** nanya dua langkah itu di popup di atas layar Payment.
+- **AI** tetap pakai harga mode-nya dan gak nanya. **Event** tetap pakai harga event. **Extra prints** di layar Sharing tetap satu harga.
+
+Promo, voucher dan tiket:
+
+- Promo persen atau potongan nominal berlaku untuk seluruh total.
+- Promo harga tetap (misalnya "Single Rp 30.000") menurunkan harga paket di tiap type yang lebih mahal. Copy tambahan tetap harga normal.
+- Pay 1 get 1 jalan seperti biasa.
+- Voucher dan tiket sesi menutup satu Single dari type yang dipilih tamu. Sisanya dibayar tamu. Tiket yang nilainya lebih kecil dari Single type itu, misalnya tiket harga 4R dipakai untuk strips, bayar selisihnya.
+
+:::note Booth versi lama
+Booth di app 1.2.54 atau lebih lama tetap menagih harga booth. Kartu Print types menulisnya di bawah daftar. Update app dari [pixture.io/download](https://pixture.io/download).
+:::
+
 ## Langkah 4: Atur Berapa Lama Pelanggan Bisa Bayar {#step-4-set-how-long-customers-have-to-pay}
 
 1. Buka sub-tab **Time**.

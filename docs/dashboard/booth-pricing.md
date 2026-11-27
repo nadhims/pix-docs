@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Booth Pricing
-description: The Pricing tab of a booth, from the online shop link and the Payment on this booth switch to packages, prices per mode, print format, timeout, extra prints, tax and fees.
+description: The Pricing tab of a booth, from the online shop link and the Payment on this booth switch to packages, prices per mode, print types, print format, timeout, extra prints, tax and fees.
 tags: [dashboard, pricing, payments]
 ---
 
@@ -50,6 +50,35 @@ Packages need a payment method that can charge a variable amount. A QR gateway o
 When the booth's UI project has two or more modes (see [UI Editor](./pix-design/ui-editor.md)), a **Price per mode** grid appears: one row per mode, with **Single**, **Double** and **Group** columns. "Each mode of this booth's Pix Design project can have its own price. Leave a box empty to use the booth's price." An empty box shows the booth's own price as a hint ("Booth price" when none is set); an empty Double or Group box on a booth that doesn't sell that package reads "Not sold". A mode without packages shows "Single only".
 
 On a Multi-Booth, Price per mode shows when every booth in it runs the same Pix Design project with more than one mode; until then, set it on each booth's own Pricing tab.
+
+### Print Types
+
+A print type is a kind of print the booth makes, set by the template: **Photo 4R** (one 4x6 print), **Photo strips** (two 2x6 strips), **Two halves** (two 4x3 prints), **Three strips** and so on. When the booth's templates cover two or more kinds, a **Print types** card appears under Price per mode, with one row per kind the booth really offers. A kind with no template on the booth is not listed. Note templates never count.
+
+<!-- SHOT-NEEDED: Print types card on the Pricing tab with two types, the Price box, read-only Double and Group, three copy price boxes and the old app line -->
+
+| Field | What it sets |
+|---|---|
+| **On / Off** | Switch a type on to sell it. A type that is off, or has no price, is not offered to guests |
+| **Price** | What a Single session costs for this type, for example Rp 40.000 for Photo strips. Must be above 0 |
+| **Double** and **Group** | Read only. They follow the ratio of your booth prices: if the booth sells Double at 85% of two Singles, the type does too, rounded to the currency. A booth that does not sell Double or Group has only Single |
+| **Extra copies** | Up to three prices for the 1st, 2nd and 3rd extra copy of each session, for example Rp 15.000, Rp 13.000, Rp 12.000. **The last row repeats** for every copy after it. With no rows, extra copies cost the booth's **Extra print price**; with neither, the guest cannot add copies |
+
+A copy is one more print of the same session, so a Double with 2 copies adds the extra copy price for each of its 2 sessions. A package includes `prints included / sessions` copies per session (1 when no count is set), and a guest can take up to 10 copies per session.
+
+With a type On, the booth's **Price per mode** only prices AI. Photo and Studio use the print type prices. Events keep their own price and never show print types.
+
+:::note Older booths
+Print types need Pixture Photobooth 1.2.55 or newer. Booths on app 1.2.54 or older charge the booth price above, as before. The card says so under the list. Update the app from [pixture.io/download](https://pixture.io/download).
+:::
+
+#### Promos, Vouchers and Tickets with Print Types
+
+- **Percent off and amount off** promos apply to the whole total, the package and the extra copies.
+- A **fixed price** promo (for example "Single Rp 30.000") lowers the package price of every type that costs more. Extra copies stay at their normal price.
+- **Pay 1 get 1** works as before.
+- A **voucher** or **session ticket** covers one Single of the print type the guest chose. Everything above that (a Double, more copies) is paid as the remainder, like a part-paid voucher today. A ticket worth less than that type's Single, for example one sold at the 4R price and used for strips, pays the difference.
+- **Extra prints** on the Sharing screen are unchanged: one flat price.
 
 ## Time
 
