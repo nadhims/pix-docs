@@ -21,6 +21,27 @@ The Payment screen is where the customer pays for the photo session before choos
 
 Customers pick **Single**, **Double** (2 sessions) or **Group** (4 sessions) when you offer them, and can add **additional sessions** with a stepper. The card shows the prints included, using the **Print format** from Booth Pricing: a 2 inch cut shows two strips per sheet, a triple strip three. That number is what the customer takes home; the printer still prints one sheet per print. **Tax** and **fees** appear as their own lines under the subtotal, either added on top or shown as included, and the tax label follows the currency (IVA for Mexico and Chile, for example). Every currency displays the way the dashboard shows it.
 
+## Choose Your Print and How Many
+
+When the booth has **Print types** priced (see [Print Types](../../dashboard/booth-pricing.md#print-types)), the guest picks the print before paying. The order is **Choose your print**, then **How many?**, then **Pay with**.
+
+<!-- SHOT-NEEDED: Choose your print with two print type cards and Next -->
+
+- **Choose your print** shows one card per print type with its price. It is skipped when the booth sells only one type.
+- **How many?** shows the packages (Single, Double, Group), a copies stepper with the extra copy price and a Save badge, and the **Total**. It is skipped when there is nothing to choose: one type, no packages and no copy price.
+- **Pay with** shows the chosen total on the QR tile, so the guest pays the number they saw.
+- **Templates** then shows only frames of the chosen print type.
+- A voucher or session ticket covers one Single of the chosen type, and the guest pays the rest. A promo is applied to the total as in [Booth Pricing](../../dashboard/booth-pricing.md#promos-vouchers-and-tickets-with-print-types).
+- If you change a price while a guest is on How many?, the booth shows the new total with "Prices have changed. Please check your total." The guest is never charged an amount the screen did not show.
+
+<!-- SHOT-NEEDED: How many? with packages, copies stepper, Save badge and Total -->
+
+**Classic designs** have no Choose your print and How many? pages. The same two steps open in a popup over the Payment screen when the guest starts to pay, in the project's Popups look or the stock look.
+
+<!-- SHOT-NEEDED: Classic popup, Choose your print step, Light popup style -->
+
+**AI** keeps its own mode price and never asks. **Events** keep their own price and never show print types. **Extra prints** on the Sharing screen stay one flat price. The extra sessions stepper is hidden while print types are on, because How many? already has the packages.
+
 ## Steps
 
 The screen starts on the methods you have designed, then moves to a sub-step:

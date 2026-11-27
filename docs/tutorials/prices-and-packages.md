@@ -65,6 +65,18 @@ When the booth's Pix Design screen design offers two or more modes (Photo and AI
 
 ![Price per mode grid on Price & packages for a booth whose design has four modes, with Save changes marked](/img/docs/steps/tutorials-prices-and-packages--price-per-mode.webp)
 
+## Step 3b: Price Each Print Type (Optional)
+
+When the booth's templates make two or more kinds of print (Photo 4R and Photo strips, for example), a **Print types** card appears under **Price per mode**.
+
+1. Switch a type **On** and type its **Price**. Double and Group are worked out for you.
+2. Under **Extra copies**, type up to three prices. The last one repeats for every copy after it.
+3. Click **Save changes**.
+
+<!-- SHOT-NEEDED: Print types card with Photo strips On at Rp 40.000 and copy prices Rp 15.000, Rp 13.000, Rp 12.000 -->
+
+Guests then pick **Choose your print**, then **How many?**, then **Pay with**, and Templates shows only that print. Booths on app 1.2.54 or older keep charging the booth price. More in [Booth Pricing](../dashboard/booth-pricing.md#print-types).
+
 ## Step 4: Set How Long Customers Have to Pay
 
 1. Open the **Time** sub-tab.
