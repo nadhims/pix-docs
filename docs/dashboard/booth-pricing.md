@@ -69,7 +69,7 @@ A copy is one more print of the same session, so a Double with 2 copies adds the
 With a type On, the booth's **Price per mode** only prices AI. Photo and Studio use the print type prices. Events keep their own price and never show print types.
 
 :::note Older booths
-Print types need Pixture Photobooth 1.2.55 or newer. Booths on app 1.2.54 or older charge the booth price above, as before. The card says so under the list. Update the app from [pixture.io/download](https://pixture.io/download).
+Print types need Pixture Photobooth 1.2.56 or newer. Booths on app 1.2.55 or older charge the booth price above, as before. The card says so under the list. Update the app from [pixture.io/download](https://pixture.io/download).
 :::
 
 #### Promos, Vouchers and Tickets with Print Types

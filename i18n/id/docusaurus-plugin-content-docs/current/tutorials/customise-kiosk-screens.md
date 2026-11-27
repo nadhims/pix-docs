@@ -61,7 +61,7 @@ Setiap mode menentukan alur sesinya:
 <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
 :::tip Kapan pilih Light
-Pilih **Light** kalau mau kesan studio yang terang dan bersih, atau kalau [Brand](./set-up-your-brand.md) kamu terang dan simpel. Project Light butuh Pixture Photobooth 1.2.54 atau lebih baru supaya tile huruf dan header band tampil. Booth yang lebih lama menampilkan teks biasa dan kotak biasa. Di halaman yang terang, atur **Padlock colour** ke **Dark** supaya staf bisa lihat gembok yang samar. Project pertama akun baru otomatis Light kalau semua booth-nya pakai 1.2.54 atau lebih baru.
+Pilih **Light** kalau mau kesan studio yang terang dan bersih, atau kalau [Brand](./set-up-your-brand.md) kamu terang dan simpel. Project Light butuh Pixture Photobooth 1.2.56 atau lebih baru supaya tile huruf dan header band tampil. Booth yang lebih lama menampilkan teks biasa dan kotak biasa. Di halaman yang terang, atur **Padlock colour** ke **Dark** supaya staf bisa lihat gembok yang samar. Project pertama akun baru otomatis Light kalau semua booth-nya pakai 1.2.56 atau lebih baru.
 
 Dengan dua mode atau lebih, project Light menampilkan **Touch to start** di Start. Kalau diketuk, muncul popup **Pick a mode**. Untuk mengubahnya, pilih blok Mode buttons lalu ubah **Show as**. Untuk mengatur gaya popup pembayaran, PIN, consent dan lainnya di satu tempat, buka **Popups: Edit** di bawah pengaturan gembok.
 :::
