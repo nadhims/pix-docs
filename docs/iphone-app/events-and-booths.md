@@ -20,7 +20,7 @@ The **Events** tab lists live events first, then the ones coming up and the past
 **New event** walks you through one question per screen:
 
 1. **Name your event**
-2. **What can guests do?** Pick the booth modes: Photo, Video, 360/Slow-mo, Studio, Notes, Photographer or Mingle.
+2. **What can guests do?** Pick the booth modes: Photo, Video, 360/Slow-mo, Studio, Decor, Photographer or Mingle.
 3. **What do guests take home?** Prints, GIF, Live photo or Singles.
 4. **When and where?**
 5. **Which designs?** The templates for this event.

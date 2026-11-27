@@ -23,7 +23,7 @@ Retake does not apply to Studio sessions in the same way: there customers keep o
 ## Before You Start
 
 - **For a booth:** a UI project from Pix Design on the booth. Saving a project needs **Pix Pro**.
-- **For an event:** an event with a Photo, Notes or Mingle mode. Every computer on an event needs Pix Pro or an **Event Pass**.
+- **For an event:** an event with a Photo, Decor or Mingle mode. Every computer on an event needs Pix Pro or an **Event Pass**.
 - **Pixture Photobooth 1.2.6 or newer** for the Adjust your photos screen.
 
 ## Prepare
@@ -61,7 +61,7 @@ The booth draws a built-in review layout. To place everything yourself:
 
 ![UI Editor tab bar with the Adjust tab marked](/img/docs/steps/tutorials-review-and-retake--adjust-tab.webp)
 
-After the last shot of a Photo or Notes session, customers see the print with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer (60 seconds in a new project). Studio sessions skip this screen.
+After the last shot of a Photo or Decor session, customers see the print with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer (60 seconds in a new project). Studio sessions skip this screen.
 
 ## Step 4: Set the review time at an event
 
@@ -75,7 +75,7 @@ After the last shot of a Photo or Notes session, customers see the print with al
 
 ![Edit appearance with the Timer group (Photo review) and the Steps group (Adjust your photos, Choose a filter, Retake) marked](/img/docs/steps/tutorials-review-and-retake--event-timer-steps.webp)
 
-Photo review shows for events with Photo, Notes or Mingle; at an event, Adjust your photos moves on by itself after 60 seconds and has a retake button on each photo while Retake is on.
+Photo review shows for events with Photo, Decor or Mingle; at an event, Adjust your photos moves on by itself after 60 seconds and has a retake button on each photo while Retake is on.
 
 ## Step 5: Try it on the booth
 
@@ -107,7 +107,7 @@ Photo review shows for events with Photo, Notes or Mingle; at an event, Adjust y
 | Retake is missing | **Retake button** is off in Review Settings, Retake is off in the event's **Steps**, or the session time ran out | Turn it back on, or give the session more time |
 | The booth never moves on from the review | **Auto-advance after review** is off | Turn it on and set a **Duration** |
 | Adjust your photos never shows | **Enabled in session flow** is off on the Adjust tab, the booth app is older than 1.2.6, or it is a Studio session | Turn it on and save, update the booth |
-| The event review time is not used | The change was not saved, or the session is not Photo, Notes or Mingle | Click **Save** in Edit appearance; other modes have no photo review |
+| The event review time is not used | The change was not saved, or the session is not Photo, Decor or Mingle | Click **Save** in Edit appearance; other modes have no photo review |
 | After Advanced mode, customers cannot retake | No element on the Review page has the Retake action | Add a Retake button or set a click area to Retake |
 
 ## Related

@@ -38,7 +38,7 @@ These are approximate, point-in-time market prices. Treat them as a starting ref
 
 Dye-sub prints emerge dry in seconds with a protective overcoat, so they resist fading, smudging and water far better than inkjet.
 
-| Manufacturer | Model | Max print size | Notes |
+| Manufacturer | Model | Max print size | Decor |
 |---|---|---|---|
 | DNP | DS-RX1 | 6x8" | Industry standard, fast and reliable |
 | DNP | DS620 | 6x8" | Compact, popular for high-traffic locations |
@@ -70,7 +70,7 @@ Some operators run a "newspaper photobooth": the customer's photo is composited 
 
 **Printer type:** dye-sublimation does not scale to A4 or A3 at accessible pricing. Use an A3+ inkjet printer instead. A commonly used option in Indonesia:
 
-| Model | Max size | Approx. price (IDR) | Notes |
+| Model | Max size | Approx. price (IDR) | Decor |
 |---|---|---|---|
 | Epson EcoTank L18050 | A3+ | ~8.6 to 9.2 juta | 6-colour dye-based ink tank, borderless A3 photo printing |
 

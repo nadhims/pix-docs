@@ -12,7 +12,7 @@ After the filter step the booth composes the final image, sends it to the printe
 ## What the Customer Gets {#what-the-guest-gets}
 
 - **A print.** The composite goes to the printer as soon as the screen opens. Copies follow **COPIES PER SESSION** in the booth's Printer Settings and the prints included in the package. If the printer fails after 3 attempts the customer sees "Print issue — photo saved. Staff: reprint from Admin Panel → Print History". See [Printer Setup](../printer-setup.md).
-- **A QR code.** Scanning it opens the customer's own share page with everything the booth is set to make: the composite, the **singles**, the animated **GIF** and the **live photo** clip, plus the customer's **Note** after a Notes session with a note template. **Download All** saves every file, the note included. Which outputs are made is set under **Booths > booth > Settings > Output Settings**.
+- **A QR code.** Scanning it opens the customer's own share page with everything the booth is set to make: the composite, the **singles**, the animated **GIF** and the **live photo** clip, plus the customer's **Note** after a Decor session with a note template. **Download All** saves every file, the note included. Which outputs are made is set under **Booths > booth > Settings > Output Settings**.
 - **An email.** On Pix Pro the guest can tap **Email** next to **Scan QR** to send the photos to their inbox. See [Email My Photos](./email-my-photos.md).
 - **Extra prints.** If an **Extra print price** is set under Booth Pricing, a button lets the customer buy more copies on the spot, paid the same way as the session.
 

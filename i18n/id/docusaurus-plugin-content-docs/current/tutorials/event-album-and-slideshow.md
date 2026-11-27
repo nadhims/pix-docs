@@ -50,7 +50,7 @@ Buka link-nya di HP kamu, seperti tamu membukanya.
 
 1. Bagian atas bertuliskan "Photo album", nama event, venue dan tanggal, serta "Photos are kept for 60 days after they are taken."
 2. Foto tampil dari yang terbaru, 48 per halaman, dengan **Previous** dan **Next**.
-3. Ada menu untuk pindah antar jenis file di album, lengkap dengan jumlahnya: **Prints**, **Live photos**, **Notes** dan **Singles**. Menu ini cuma muncul kalau album punya lebih dari satu jenis.
+3. Ada menu untuk pindah antar jenis file di album, lengkap dengan jumlahnya: **Prints**, **Live photos**, **Decor** dan **Singles**. Menu ini cuma muncul kalau album punya lebih dari satu jenis.
 4. **Newest first** atau **Oldest first** ngubah urutan, dan menu waktu (**All times**, lalu tiap jam) bantu tamu nyari fotonya berdasarkan jam foto.
 5. Tap sebuah foto untuk membuka halaman share tamu itu sendiri, tempat mereka download file-nya.
 

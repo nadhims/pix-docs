@@ -97,7 +97,7 @@ The camera's shutter does nothing while a photo is shown for review, so a nervou
 
 - **Shutter for groups, countdown for selfies.** Use the camera's shutter when you are framing a group; let guests tap the screen when they want a moment to pose.
 - **Live photos need a countdown.** The live photo's moving clip is recorded during the countdown. A slot shot straight away with the camera's shutter or the clicker shows as a still photo in the live photo. If the client wants live photos, set **Remote clicker** to **Starts the countdown**.
-- **Notes after Photo does not run on Mingle computers.** If the event writes notes after the photos, guests do that at the standing booth.
+- **Decor after Photo does not run on Mingle computers.** If the event writes notes after the photos, guests do that at the standing booth.
 - **Keep one computer standing.** With Photo on as well, guests who find you still have a booth to come back to.
 
 ## Troubleshooting

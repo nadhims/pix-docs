@@ -10,7 +10,7 @@ tags: [dashboard, events, kiosk, overview, workspace]
 If your account has events, you have three workspaces: Overview, Pixture Kiosk and Pixture Event. Switch workspace with the switcher at the bottom of the sidebar. A workspace is not an organization: the organization switcher in your account menu is for people who belong to more than one.
 
 :::note This is not a booth mode
-The switcher only changes which workspace you are looking at. It does not change how a booth takes photos. **Booth modes** (Photo, 360/Slow-mo, Notes, Photographer, Mingle) are chosen for each event under **Setup > Booth mode > Edit modes**. See [Events](./events.md).
+The switcher only changes which workspace you are looking at. It does not change how a booth takes photos. **Booth modes** (Photo, 360/Slow-mo, Decor, Photographer, Mingle) are chosen for each event under **Setup > Booth mode > Edit modes**. See [Events](./events.md).
 :::
 
 ![The workspace switcher open at the bottom of the sidebar: Overview, Pixture Kiosk and Pixture Event, each with a short description](/img/docs/dashboard-views-switcher.webp)

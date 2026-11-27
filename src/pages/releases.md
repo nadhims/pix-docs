@@ -124,7 +124,7 @@ AI sessions, for accounts in the Pix AI beta:
 ## 1.2.39 (15 November 2026, Mac and Windows)
 
 - **Notes** sessions can now type on the note, not only draw. The customer taps **Aa**, taps the note and types on the booth's on-screen keyboard, then picks a font, colour and size. A text can be dragged, edited and removed. See [Session Flow](/docs/desktop-app/session-flow/overview).
-- You choose the fonts customers can type with, and can upload your own: in the UI Editor's **Note Palette** block (**Text fonts**), or on an event's **Notes** tab. Without a choice the booth offers Caveat, Inter, Pacifico and Bebas Neue. See [UI Editor](/docs/dashboard/pix-design/ui-editor#text-fonts) and [Events](/docs/dashboard/events#notes).
+- You choose the fonts customers can type with, and can upload your own: in the UI Editor's **Note Palette** block (**Text fonts**), or on an event's **Notes** tab. Without a choice the booth offers Caveat, Inter, Pacifico and Bebas Neue. See [UI Editor](/docs/dashboard/pix-design/ui-editor#text-fonts) and [Events](/docs/dashboard/events#decor).
 
 ## 1.2.38 (8 November 2026, Mac and Windows)
 

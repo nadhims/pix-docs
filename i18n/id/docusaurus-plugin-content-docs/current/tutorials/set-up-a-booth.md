@@ -49,10 +49,10 @@ Akun baru langsung dapat dua template 4x6 siap pakai, Classic Black dan Classic 
 ## Langkah 3: Pilih desain layar booth {#step-3-choose-the-booths-screen-design}
 
 1. Buka tab **UI Project**.
-2. Pilih desain dari dropdown. Pilihannya dikelompokkan jadi **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** dan **Notes**, dan tab ini nunjukin **Booth mode** yang dihasilkan.
+2. Pilih desain dari dropdown. Pilihannya dikelompokkan jadi **Several modes**, **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** dan **Decor**, dan tab ini nunjukin **Booth mode** yang dihasilkan.
 3. Klik **Save**.
 
-![Tab UI Project booth dengan dropdown project terbuka di grup Several modes, Photobooth mode, Studio mode dan Notes, plus tombol Save](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
+![Tab UI Project booth dengan dropdown project terbuka di grup Several modes, Photobooth mode, Studio mode dan Decor, plus tombol Save](/img/docs/steps/tutorials-set-up-a-booth--booth-ui-project-tab.webp)
 
 Setiap akun mulai dengan desain layar bawaan, jadi kamu bisa biarkan dulu dan balik lagi setelah bikin desain sendiri (lihat [Atur Tampilan Layar Booth](./customise-kiosk-screens.md)). Studio mode butuh Pixture Photobooth 1.1.98 atau lebih baru di komputer booth, dan project dengan beberapa mode butuh 1.2.4 atau lebih baru.
 

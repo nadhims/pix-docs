@@ -23,7 +23,7 @@ Di sesi Studio, Retake jalan agak beda: pelanggan simpan atau buang tiap foto, l
 ## Sebelum Mulai {#before-you-start}
 
 - **Untuk booth:** UI project dari Pix Design yang sudah dipasang di booth. Nyimpan project butuh **Pix Pro**.
-- **Untuk event:** event dengan mode Photo, Notes atau Mingle. Setiap komputer di event butuh Pix Pro atau **Event Pass**.
+- **Untuk event:** event dengan mode Photo, Decor atau Mingle. Setiap komputer di event butuh Pix Pro atau **Event Pass**.
 - **Pixture Photobooth 1.2.6 atau lebih baru** untuk layar Adjust your photos.
 
 ## Persiapan {#prepare}
@@ -61,7 +61,7 @@ Booth punya layout review bawaan. Untuk naruh semuanya sendiri:
 
 ![Tab bar UI Editor dengan tab Adjust ditandai](/img/docs/steps/tutorials-review-and-retake--adjust-tab.webp)
 
-Setelah foto terakhir di sesi Photo atau Notes, pelanggan lihat cetakan dengan semua fotonya. Mereka geser foto untuk mindahin, cubit untuk zoom, seret satu foto ke foto lain untuk menukarnya, dan tap **Mirror** untuk membalik semua foto. **Next** lanjut, begitu juga timer halamannya (60 detik di project baru). Sesi Studio melewati layar ini.
+Setelah foto terakhir di sesi Photo atau Decor, pelanggan lihat cetakan dengan semua fotonya. Mereka geser foto untuk mindahin, cubit untuk zoom, seret satu foto ke foto lain untuk menukarnya, dan tap **Mirror** untuk membalik semua foto. **Next** lanjut, begitu juga timer halamannya (60 detik di project baru). Sesi Studio melewati layar ini.
 
 ## Langkah 4: Atur waktu review di event {#step-4-set-the-review-time-at-an-event}
 
@@ -75,7 +75,7 @@ Setelah foto terakhir di sesi Photo atau Notes, pelanggan lihat cetakan dengan s
 
 ![Edit appearance dengan grup Timer (Photo review) dan grup Steps (Adjust your photos, Choose a filter, Retake) ditandai](/img/docs/steps/tutorials-review-and-retake--event-timer-steps.webp)
 
-Photo review muncul di event dengan Photo, Notes atau Mingle. Di event, Adjust your photos lanjut sendiri setelah 60 detik dan punya tombol foto ulang di tiap foto selama Retake nyala.
+Photo review muncul di event dengan Photo, Decor atau Mingle. Di event, Adjust your photos lanjut sendiri setelah 60 detik dan punya tombol foto ulang di tiap foto selama Retake nyala.
 
 ## Langkah 5: Coba di booth {#step-5-try-it-on-the-booth}
 
@@ -107,7 +107,7 @@ Photo review muncul di event dengan Photo, Notes atau Mingle. Di event, Adjust y
 | Retake gak ada | **Retake button** mati di Review Settings, Retake mati di **Steps** event, atau waktu sesi sudah habis | Nyalakan lagi, atau kasih waktu sesi lebih panjang |
 | Booth gak pernah lanjut dari review | **Auto-advance after review** mati | Nyalakan dan atur **Duration** |
 | Adjust your photos gak pernah muncul | **Enabled in session flow** mati di tab Adjust, aplikasi booth lebih lama dari 1.2.6, atau sesinya Studio | Nyalakan dan simpan, update booth |
-| Waktu review event gak kepakai | Perubahannya belum disimpan, atau sesinya bukan Photo, Notes atau Mingle | Klik **Save** di Edit appearance; mode lain gak punya photo review |
+| Waktu review event gak kepakai | Perubahannya belum disimpan, atau sesinya bukan Photo, Decor atau Mingle | Klik **Save** di Edit appearance; mode lain gak punya photo review |
 | Setelah Advanced mode, pelanggan gak bisa foto ulang | Gak ada elemen di halaman Review dengan action Retake | Tambah tombol Retake atau ubah click area jadi Retake |
 
 ## Terkait {#related}

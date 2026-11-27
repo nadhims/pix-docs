@@ -36,11 +36,11 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
    |---|---|---|
    | **Photo** | "Pick a layout, take the shots, get a print." | Start > Pay > Template > Shoot per slot > Filter > Share |
    | **Studio** | "Free shots, then pick the best for the layout." | Start > Pay > Template > Timed shoot > Pick photos > Filter > Share |
-   | **Notes** | "Guests write or draw on their photos." | Start > Pay > Template > Shoot > Filter > Draw > Share |
+   | **Decor** | "Guests decorate their print." | Start > Pay > Template > Shoot > Filter > Draw > Share |
    | **Simple** | "No layout. Guests pick black and white or colour." | Start > Pay > B&W or colour > Shoot > Share |
    | **Newspaper** | "Guests see themselves in the newspaper, pay, then shoot." | Start > Pay > Newspaper > Shoot > Share |
 
-   The modal reads "Pick one or more. Photo, Studio and Notes can change later in the editor; Simple and Newspaper can't be combined." Photo is the classic booth: one photo per template slot. Studio lets the customer take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Notes lets the customer draw on the print. Simple is a colour choice and a shot. Newspaper puts the customer's photo into a newspaper page: it is portrait only, so ticking it sets the project to portrait. It uses the templates whose **Media Type** is **Newspaper** (see [Creating Templates](./creating-templates.md)) and needs Pixture Photobooth 1.2.19 or newer; an older booth runs it as a normal photobooth.
+   The modal reads "Pick one or more. Photo, Studio and Decor can change later in the editor; Simple and Newspaper can't be combined." Photo is the classic booth: one photo per template slot. Studio lets the customer take free shots for a set time, then place the ones they like into the template; it needs Pixture Photobooth 1.1.98 or newer (see [Studio sessions](../../desktop-app/studio-sessions.md)). Decor lets the customer draw on the print. Simple is a colour choice and a shot. Newspaper puts the customer's photo into a newspaper page: it is portrait only, so ticking it sets the project to portrait. It uses the templates whose **Media Type** is **Newspaper** (see [Creating Templates](./creating-templates.md)) and needs Pixture Photobooth 1.2.19 or newer; an older booth runs it as a normal photobooth.
 
    With two or more modes ticked, the Start Screen gets a **Mode buttons** block: one button per mode, and the customer's tap picks the mode and starts the session. A choice of modes needs Pixture Photobooth 1.2.4 or newer.
 
@@ -49,7 +49,7 @@ On Pix Starter a banner explains that you can try the UI editor freely, but savi
    - **Light** (ticked by default): "Bright, clean, studio style." A white, Korean self photo studio look: a title made of letter tiles ("photobooth"), black pill buttons and a studio-paper backdrop on the capture screens.
    - **Classic**: "Today's look."
 
-   If you pick only Newspaper and/or Notes, the Look switches to Classic and Light is switched off with the line "Light isn't ready for this mode yet". Light works for landscape and portrait, and for Photo, Studio, Simple and several modes together.
+   If you pick only Newspaper, the Look switches to Classic and Light is switched off with the line "Light isn't ready for this mode yet". Light works for landscape and portrait, and for Photo, Studio, Simple and several modes together. Decor on Light runs after Photo or Studio.
 
    <!-- SHOT-NEEDED: dashboard: New UI Project modal with the Look choice, Light and Classic -->
 
@@ -81,14 +81,14 @@ Removing Brand brings the Light look back. Brand also follows the Light popups: 
 
 A new account's first project is Light when all its booths run Pixture Photobooth 1.2.54 or newer, or when it has no booth yet.
 
-Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.54 or newer on: {booth names}".
+Light projects need Pixture Photobooth 1.2.54 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.54 or newer on: \{booth names\}".
 
 ## Editor Anatomy
 
-![UI Editor on the Start Screen of a Photo and Notes project: page tabs, the canvas with the Mode buttons, Page Background, Modes with Edit modes, Session Trigger checkboxes and Home Page Settings](/img/docs/pix-design-ui-editor-start.webp)
+![UI Editor on the Start Screen of a Photo and Decor project: page tabs, the canvas with the Mode buttons, Page Background, Modes with Edit modes, Session Trigger checkboxes and Home Page Settings](/img/docs/pix-design-ui-editor-start.webp)
 
 - **Header.** The project name and where it is used ("Unused" or "N booths").
-- **Page tabs.** Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter, Sharing. Studio projects add Assign photos and Notes projects add Notes. Adjust is there for Photo and Notes projects; Simple projects have no Custom Screen, Templates or Adjust.
+- **Page tabs.** Start Screen, Custom Screen, Payment Screen, Templates, Capture, Review, Adjust, Filter, Sharing. Studio projects add Assign photos and Decor projects add Decor. Adjust is there for Photo and Decor projects; Simple projects have no Custom Screen, Templates or Adjust.
 - **Toolbar.** **Fit**, zoom and **1:1**; **Snap**; undo and redo; a "Saved" state; **Preview**; **Save**.
 - **Canvas.** The screen at booth resolution. Drag a block to move it, drag its corners to resize it.
 - **Block palette.** A floating bar at the bottom of the canvas adds blocks to the current page.
@@ -197,7 +197,7 @@ When the review moves on by itself, the **Looks good** button can empty as the t
 
 ### Adjust
 
-"Adjust your photos": after the last shot of a Photo or Notes session, the customer sees the strip with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them, and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer after 60 seconds. Studio sessions skip it (they arrange photos on Assign photos).
+"Adjust your photos": after the last shot of a Photo or Decor session, the customer sees the strip with all their photos. They drag a photo to move it, pinch to zoom, drag one photo onto another to swap them, and tap **Mirror** to flip every photo. **Next** moves on, and so does the page timer after 60 seconds. Studio sessions skip it (they arrange photos on Assign photos).
 
 **Beautify** is a guest button above **Mirror**. It is off by default. When a guest turns it on, the booth smooths and brightens skin on every photo of the session: the print, the soft file and every preview. There is no setting for it in the editor. It is not in Studio, AI or event sessions.
 
@@ -213,17 +213,31 @@ The screen where a Studio customer places pool shots into the template: a **Temp
 
 The **Filter Strip** block lists the booth's filters with the same grid options as Template Cards, plus a **card ratio** from 16:9 to 1:1 (square by default). The **Filter Preview** block shows the customer's photo with the chosen filter and has its own Camera Frame ratio. Which filters appear is set on the booth's Filters tab; see [Photo Filters and Overlays](./filters-and-overlays.md).
 
-### Notes (Notes only)
+### Decor
 
-Where the customer writes, draws or types on their photos. The **Note Canvas** block is the drawing area (it shows the template's note area) and the **Note Palette** block holds the pens and the text tool: the **Colors**, the **Min size** and **Max size** of the pen, a **Show colour disc** switch and a **Stabilizer** that smooths customers' lines. The page has a timer and no other settings. Where the note lands on the print is set in the template editor with **Note area**; a template without one lets the customer write over the whole strip. See [Template Editor](./creating-templates.md).
+Where the customer decorates their print: they draw, type and add stickers. The **Decor Canvas** block is the drawing area (it shows the whole print, or the template's decor area) and the **Decor Palette** block holds the tools.
+
+**Light projects.** Decor is a step after the photos, so it is not a mode you tick. It shows only when the project has Photo or Studio. On the Decor page:
+
+- **Enabled in session flow** is the page's on/off switch. When it is off, guests go from Filter straight to Sharing.
+- **Decor goes** sets where the decor ends up: **On the print** (the default) or **Soft file only**. With **Soft file only**, the print stays clean and the decor is on the customer's soft file.
+- The palette has three tabs. **Draw** has the pens, the 15 colours, the size and the eraser. **Aa** adds text, with 8 fonts. **Stickers** has 24 stickers to tap. Whatever the customer adds stays on the print when they change tab.
+- A sticker is picked with a tap. Drag it to move it. Use the top-right handle to turn it and the bottom-right handle to resize it, or use two fingers. The cross removes it. A sticker that goes past the edge of the print is cut off at the edge.
+- **Colors**, **Min size** and **Max size** of the pen are set in the **Decor Palette** block.
+
+**Classic projects.** They keep the Decor button choices from **Edit modes**: **Decor button, printed**, **Decor button, not printed**, **After Photo, printed** and **After Photo, not printed**. The page keeps its single palette with the pens and the text tool, and has no stickers. It also has the **Colors**, the **Min size** and **Max size** of the pen, a **Show colour disc** switch and a **Stabilizer** that smooths customers' lines.
+
+Both kinds have a page timer. Where the decor lands on the print is set in the template editor with **Decor area**; a template without one lets the customer decorate the whole strip. See [Template Editor](./creating-templates.md).
+
+Stickers and the three tabs need Pixture Photobooth 1.2.54 or newer. An older booth shows the pens and the text tool only.
 
 #### Text fonts
 
-Customers can type on the note as well as draw: they tap **Aa**, tap the note and type. How that looks on the booth is in [Session Flow](../../desktop-app/session-flow/overview.md).
+Customers can type as well as draw: they tap **Aa**, tap the print and type. How that looks on the booth is in [Session Flow](../../desktop-app/session-flow/overview.md).
 
 You choose the fonts they can type with:
 
-1. On the **Notes** tab, click the **Note Palette** block.
+1. On the **Decor** tab, click the **Decor Palette** block.
 2. In its settings, find **Text fonts**, under **Palette**.
 3. Click a font to turn it on or off. Up to 8 can be on, and at least one stays on. The first one that is on is the font a new text starts with.
 4. To use your own font, click **+ Upload font…** and pick a WOFF2, WOFF, TTF or OTF file, up to 4 MB. It is added to the list and turned on.
@@ -231,7 +245,7 @@ You choose the fonts they can type with:
 
 A project where you never open **Text fonts** offers four: Caveat, Inter, Pacifico and Bebas Neue. A font you upload here belongs to this UI project and can also be picked for its text blocks.
 
-Typing on a note needs Pixture Photobooth 1.2.39 or newer. An older booth shows the pens only.
+Typing needs Pixture Photobooth 1.2.39 or newer. An older booth shows the pens only.
 
 ### Sharing
 
@@ -263,9 +277,9 @@ Every block has a position and size, a corner radius (0 by default), and, where 
 Three places:
 
 1. **Assign to booths** on the project's card menu: tick booths or **All booths**, then **Apply**.
-2. **Booths > booth > UI Project** tab: the dropdown groups projects under **Several modes** (each with its modes after the name), **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** and **Notes**. Pick one and click **Save**. The tab warns when the booth's app is too old: Studio needs 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer."
+2. **Booths > booth > UI Project** tab: the dropdown groups projects under **Several modes** (each with its modes after the name), **Photobooth mode**, **Studio mode**, **Simple mode**, **Newspaper mode** and **Decor**. Pick one and click **Save**. The tab warns when the booth's app is too old: Studio needs 1.1.98 or newer, and "A choice of modes on the start screen needs Pixture Photobooth 1.2.4 or newer."
 
-   ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Notes, and Save](/img/docs/booth-ui-project-tab.webp)
+   ![Booth UI Project tab with the grouped project dropdown open on Several modes, Photobooth mode, Studio mode and Decor, and Save](/img/docs/booth-ui-project-tab.webp)
 
 3. **Events > event > Setup > Appearance > Change**: pin a UI project to the event. The list shows only projects made for the event's booth mode. While the event runs, its choice wins.
 

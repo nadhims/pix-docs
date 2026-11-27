@@ -7,7 +7,7 @@ tags: [desktop-app, photo-session, review, adjust]
 
 # Review and Adjust
 
-After every shot the booth shows the photo and asks the customer to keep it or take it again, and the customer can fix how the photo sits in its slot right there. After the last shot, Photo and Notes sessions can also show an **Adjust your photos** screen with every photo at once (Pixture Photobooth 1.2.6 or newer). This page explains the Review controls, the per-photo adjust, the Adjust screen, auto-advance, and how to design the Review screen yourself with Advanced mode.
+After every shot the booth shows the photo and asks the customer to keep it or take it again, and the customer can fix how the photo sits in its slot right there. After the last shot, Photo and Decor sessions can also show an **Adjust your photos** screen with every photo at once (Pixture Photobooth 1.2.6 or newer). This page explains the Review controls, the per-photo adjust, the Adjust screen, auto-advance, and how to design the Review screen yourself with Advanced mode.
 
 ## Next or Retake
 
@@ -34,7 +34,7 @@ The zoom, position and mirror are stored per slot and carried into every output:
 
 ## Adjust Your Photos
 
-After the last shot of a Photo or Notes session, the booth shows "Adjust your photos": the template with all the customer's photos in it. The customer can:
+After the last shot of a Photo or Decor session, the booth shows "Adjust your photos": the template with all the customer's photos in it. The customer can:
 
 - Drag a photo to move it, and pinch to zoom.
 - Drag one photo onto another to swap them.
@@ -43,7 +43,7 @@ After the last shot of a Photo or Notes session, the booth shows "Adjust your ph
 
 A short finger animation shows each move the first time. Studio sessions skip this screen; their customers arrange photos on Assign photos.
 
-The screen is the **Adjust** page of the UI project in Pix Design. It is on by default in new projects. A project your booths already run keeps it off until you turn on **Enabled in session flow** on the Adjust tab and save. Event Photo and Notes sessions always show the event's own version of it. See [UI Editor](../../dashboard/pix-design/ui-editor.md).
+The screen is the **Adjust** page of the UI project in Pix Design. It is on by default in new projects. A project your booths already run keeps it off until you turn on **Enabled in session flow** on the Adjust tab and save. Event Photo and Decor sessions always show the event's own version of it. See [UI Editor](../../dashboard/pix-design/ui-editor.md).
 
 ## Auto-advance
 

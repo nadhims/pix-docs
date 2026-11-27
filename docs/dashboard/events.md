@@ -40,7 +40,7 @@ Each event is a card with its cover photo, name, client, venue, dates, status, a
 That is a different thing. The switcher at the bottom of the sidebar changes which workspace you see (see [Pixture Event, Pixture Kiosk and Overview](./views.md)). The modes below are how the booth takes photos.
 :::
 
-Every new event gets the [event start screen](./event-start-screen.md): guests pick the mode on the booth every session. The wizard's **Modes** offers **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Notes**, **Photographer** and **Mingle**. The **Modes** dropdown lets you pick one or more, grouped as "Guests pick" and "Carried to guests". Each mode in "Guests pick" becomes a button on the start screen, and guests pick one every session. **Photographer** and **Mingle** are carried to guests and are not buttons (see [Photographer](#photographer) and [Mingle](#mingle)).
+Every new event gets the [event start screen](./event-start-screen.md): guests pick the mode on the booth every session. The wizard's **Modes** offers **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Decor**, **Photographer** and **Mingle**. The **Modes** dropdown lets you pick one or more, grouped as "Guests pick" and "Carried to guests". Each mode in "Guests pick" becomes a button on the start screen, and guests pick one every session. **Photographer** and **Mingle** are carried to guests and are not buttons (see [Photographer](#photographer) and [Mingle](#mingle)).
 
 ### Booth Mode (Older Events)
 
@@ -100,7 +100,7 @@ On the booth:
 - The camera's own shutter always shoots right away, and cuts a running countdown short.
 - A remote clicker (a Bluetooth or USB presenter key) follows the **Remote clicker** setting on the **Mingle** tab: **Shoots right away** (the default) or **Starts the countdown**. The tab's hint reads: "Your camera's shutter always shoots right away. Tapping the screen always counts down."
 - A photo taken by a camera-shutter or clicker press has no Live photo clip for that slot. The still photo is fine. Live photo clips come from shots taken at the end of a countdown.
-- **Notes after Photo** does not run on Mingle computers.
+- **Decor after Photo** does not run on Mingle computers.
 - Mingle works on phones and tablets too, with a tap and a countdown. The phone's volume key as a shutter is not supported yet.
 - Sessions are recorded as Mingle sessions.
 
@@ -129,7 +129,7 @@ The header shows the name, dates and times, the status chip (**ONGOING** from cr
 
 The overview cards count **Sessions**, **Prints**, **Revenue** (paid events only) and **Booths** (the event's computers), with an **Analytics** link to an activity chart and, when staff ran any, a "N staff sessions" chip ("Started by staff with the booth PIN. Not counted as a sale."); show the upload queue (**Uploaded**, **Uploading**, then "All photos uploaded"); and hold the **Link Sharing** switch with the album URL and **Copy**.
 
-Link Sharing is on by default. The public album lives at `pixture.io/album/<slug>`; share the link or the QR with the client and their guests. It shows 48 files a page, with **Previous** and **Next**, and a menu to switch between **Prints**, **Live photos**, **Notes** and **Singles** when the album has more than one kind. Switch it off to make the album private. The booth always shows the album's QR code on the share screen.
+Link Sharing is on by default. The public album lives at `pixture.io/album/<slug>`; share the link or the QR with the client and their guests. It shows 48 files a page, with **Previous** and **Next**, and a menu to switch between **Prints**, **Live photos**, **Decor** and **Singles** when the album has more than one kind. Switch it off to make the album private. The booth always shows the album's QR code on the share screen.
 
 The toolbar has **Download all** (every photo as one zip), **Embed** (an iframe snippet for the client's website), **Analytics** (sessions and prints by hour), **Slideshow** (a full-screen loop of the album, shown while sharing is on; see [Slideshow](#slideshow)), **Archive event** and **Delete Event**. **Archive event** is how you finish with an event: "Archived events leave every computer's list. Computers running it go back to their list."
 
@@ -142,7 +142,7 @@ Everything about an event is set on its event page: **Events**, then open the ev
 | To change | Go to |
 |---|---|
 | The modes guests can pick | **Setup** tab > **Booth mode** > **Edit modes** |
-| How Notes prints | **Edit modes**, under Notes |
+| How Decor prints | **Edit modes**, under Decor |
 | The start screen: background, text, logo, Gallery and lock buttons, colours | **Appearance** tab > **Edit appearance** |
 | The countdown before each photo (1 to 10 seconds) | **Edit appearance** > **Countdown** |
 | Session time, photo review time and note time | **Edit appearance** > **Timer** |
@@ -155,8 +155,8 @@ Everything about an event is set on its event page: **Events**, then open the ev
 | A photographer who shoots each group | **Photographer** tab |
 | Carrying the booth to guests | **Mingle** tab |
 | AI styles (Pix AI beta) | **AI** tab |
-| The note template | **Notes** tab |
-| The fonts guests can type their note with | **Notes** tab > **Text fonts** |
+| The note template | **Decor** tab |
+| The fonts guests can type their note with | **Decor** tab > **Text fonts** |
 | What guests get: prints, GIF, live photo, singles | **Output** tab > **Change** |
 | Auto print, max prints per session, the Print button on Share | The **Output** window, with **Prints** ticked |
 | The album slideshow | **Slideshow** tab |
@@ -198,7 +198,7 @@ Everything captured during the event, newest first, with a filter by computer, *
   ![Pair a computer popup saying "Get Pix Pro or an Event Pass first" with Add computer and Later](/img/docs/event-pair-needs-license.webp)
 
   A computer paired with an event's code goes into Event mode: it keeps a list of your events and runs whichever one you launch, until you archive it. See [Event Mode](../desktop-app/event-mode.md).
-- **Booth mode** (every new event). The event's modes are cards with their picture and name; hover one for its one-line description. Clicking a card opens its settings tab and brings the tab bar to the top: **Photo** and **Studio** open **Template**, **Video** opens **Video**, **360/Slow-mo** opens **360/Slow-mo**, and **Photographer**, **Mingle** and **Notes** open their own tabs. **Edit modes** opens the **Booth mode** popup ("The modes guests pick from on this event's start screen."), where you tick modes on or off, choose how Notes prints (**Print with the note**, **No print, QR only** or **Notes after Photo**) and **Save**. One mode always stays on. The tabs under the cards:
+- **Booth mode** (every new event). The event's modes are cards with their picture and name; hover one for its one-line description. Clicking a card opens its settings tab and brings the tab bar to the top: **Photo** and **Studio** open **Template**, **Video** opens **Video**, **360/Slow-mo** opens **360/Slow-mo**, and **Photographer**, **Mingle** and **Decor** open their own tabs. **Edit modes** opens the **Booth mode** popup ("The modes guests pick from on this event's start screen."), where you tick modes on or off, choose how Decor prints (**Print with the note**, **No print, QR only** or **Decor after Photo**) and **Save**. One mode always stays on. The tabs under the cards:
 
   | Tab | What it holds |
   |---|---|
@@ -208,7 +208,7 @@ Everything captured during the event, newest first, with a filter by computer, *
   | **Photographer** | See [Photographer](#photographer) |
   | **Mingle** | See [Mingle](#mingle) |
   | **AI** | The AI styles guests pick from (accounts in the Pix AI beta) |
-  | **Notes** | The **Note template** guests write on, and the **Text fonts** they can type with (below) |
+  | **Decor** | The **Decor template** guests write on, and the **Text fonts** they can type with (below) |
   | **Output** | The outputs, with **Change** when the event has a photo mode. With **Prints** ticked, the Output window also holds **Auto print**, **Max prints per session** (1 to 99 sheets, 2 by default; booths on app 1.2.37 or older stop at 10) and **Show a Print button on Share** |
   | **Slideshow** | How the album slideshow looks on a venue screen (while Link Sharing is on). See [Slideshow](#slideshow) |
 
@@ -217,11 +217,11 @@ Everything captured during the event, newest first, with a filter by computer, *
 - **Template**, **Mirror** and **GIF template** (photo modes; the countdown before each photo and the session and note timers are set in **Edit appearance**, and on an older event the countdown is the one on the Capture page of the event's screen design in the UI Editor). **Template** reads "Assign at least 1 template. Until you do, guests at this event have nothing to pick." **Add templates** and **+ Manage Templates** pick from your own templates; the Manage Templates popup's **Browse template packs** button opens Pixture's free template packs ("Choose a template"), when packs are available: each pack brings its print layouts, a GIF overlay and a matching booth look. The event's template set is exclusive: the booth's own templates are not offered while the event runs. Templates a pack adds from the event belong to that event: they are not in your library and are left out of template usage rankings. Video shows its own settings instead; see [Event Video Modes](../desktop-app/event-video-modes.md). **Template** opens with "Which designs guests can pick at this event. Assign at least one: booths on this event offer only these, not their own library." and a **Preview** card on the right. **Mirror** is "Mirror captured photos": it mirrors the live preview and the saved result, like a selfie. It shows on, like the booths. Until you change it, each booth keeps its own **Mirror live view** setting; once you change it, every booth on a new event follows it.
 - **GIF template.** The frame over every GIF guests get. With no GIF templates yet, the tab shows "No GIF templates yet" and **Add a GIF template**; otherwise it is a picker with **No frame**, your frames (a check marks the picked one) and an **Add GIF template** tile. **Add a GIF template** opens a popup ("For this event only"): choose a transparent PNG (1280×720 or 720×1280, up to 10 MB), whose shape sets the orientation and whose file name fills **Name**, then **Add**. The frame belongs to this event: Pix Design and your other events never list it, and it is picked for the event's GIF at once. A frame that belongs to the event has a trash button: "Delete this GIF template? This event goes back to No frame if it was picked." Deleting it also takes it out of the event's video Overlays lists. Frames from Pix Design are deleted in Pix Design.
 
-#### Notes
+#### Decor
 
-The **Notes** tab holds two things:
+The **Decor** tab holds two things:
 
-- **Note template.** The design guests write their note on. **Default** is a lined page with their photo on top. It saves as you pick it.
+- **Decor template.** The design guests write their note on. **Default** is a lined page with their photo on top. It saves as you pick it.
 - **Text fonts.** Guests can type on their note as well as draw. The row lists the fonts they get; click **Change** to pick them. The popup shows every font in its own typeface, built-in ones first, then **Your fonts**. Tick up to 8, and at least one. **+ Upload font** adds your own (WOFF2, WOFF, TTF or OTF, up to 4 MB) and ticks it. Click **Save** to keep the changes; **Cancel** leaves them as they were. A font you upload and save is kept for your other events too. An event where you change nothing offers four fonts: Caveat, Inter, Pacifico and Bebas Neue.
 
 Typing on a note needs Pixture Photobooth 1.2.39 or newer. An older computer shows the pens only.
@@ -252,7 +252,7 @@ If your role can see Finance, the tab starts with the **Money** card: the event'
 
 ## Editing and Deleting
 
-**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. On a paid event with a start screen, **Price per mode** gives each mode its own price: **Single**, **Double** and **Group** for Photo, Studio and Notes, and **Single only** for Video, 360/Slow-mo and AI. "Leave empty to use the event price." A booth needs Pixture Photobooth 1.2.2 or newer for these prices; the event page warns about an older one, which sells every mode at the event price until you update it. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab, which stays editable after the event ends, until you archive it. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers leave it (an Event Pass or Pix Pro stays on them; an Event mode computer goes back to its event list) and the photos stay in your Gallery; only the event and its album go away.
+**Edit** opens the Edit Event modal with the name, client, dates, times, venue, Pay Per Session prices and, once Pay Per Session is on, the payment gateway. On a paid event with a start screen, **Price per mode** gives each mode its own price: **Single**, **Double** and **Group** for Photo, Studio and Decor, and **Single only** for Video, 360/Slow-mo and AI. "Leave empty to use the event price." A booth needs Pixture Photobooth 1.2.2 or newer for these prices; the event page warns about an older one, which sells every mode at the event price until you update it. It is available until the event ends. Computers, booth mode, outputs, screen design and templates are changed on the Setup tab, which stays editable after the event ends, until you archive it. **Delete Event** on the event page, or **Select** then **Delete** on the list, works at any time, even while the event is live. Its computers leave it (an Event Pass or Pix Pro stays on them; an Event mode computer goes back to its event list) and the photos stay in your Gallery; only the event and its album go away.
 
 ## Licenses, Pricing and Transactions
 
