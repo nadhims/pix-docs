@@ -21,8 +21,8 @@ Langkah di bawah nunjukin keduanya, berdampingan di tab.
 
 ## Light dan Classic {#light-and-classic}
 
-- **Project Light** (tampilan bawaan project baru). Decor selalu jadi langkah setelah Photo atau Studio, bukan tombol sendiri. Kamu nyalain atau matiin lewat **Enabled in session flow** di halaman Decor, lalu pilih **Decor goes**: **On the print** atau **Soft file only**. Halaman tamu punya tiga tab: **Draw**, **Aa**, dan **Stickers**, dengan 24 stiker yang bisa digeser, diputar, dan diubah ukurannya. Langkah 1 dan 2 di bawah diganti bagian singkat [Decor di project Light](#decor-on-a-light-project).
-- **Project Classic** tetap punya empat pilihan tombol Decor di Langkah 2, dengan palet tunggal seperti sebelumnya. Tidak ada stiker.
+- **Project Light dan event Light** (tampilan bawaan untuk project baru dan event baru). Decor selalu jadi langkah setelah Filter di mode **Photo** maupun **Studio**, bukan tombol sendiri. Di project Light kamu nyalain atau matiin lewat **Enabled in session flow** di halaman Decor. Di event Light baru, **Event Decor** nyala dari awal di tab **Setup** event dengan dua pilihan sederhana: **Decorate** (**The print** atau **Its own template**) dan **Decor goes** (**On the print** atau **Soft file only**). Halaman tamu punya tiga tab: **Draw** (15 warna pena plus roda warna), **Aa** (8 font), dan **Stickers** (24 stiker yang bisa digeser, diputar, dan diubah ukurannya). Langkah 1 dan 2 di bawah diganti bagian singkat [Decor di project atau event Light](#decor-on-a-light-project).
+- **Project Classic dan event Darkroom** tetap punya empat pilihan tombol Decor di Langkah 2, dengan palet tunggal seperti sebelumnya. Tidak ada stiker.
 
 ## Kapan Dipakai {#when-to-use-it}
 
@@ -38,6 +38,8 @@ Kurang cocok kalau antrean panjang dan setiap detik berharga, misalnya Sabtu ram
 - **Booth yang jalan di Pix Pro.** Di Kiosk, menyimpan desain layar di Pix Design butuh Pix Pro. Di event, setiap komputer butuh Pix Pro atau Event Pass.
 - **Pixture Photobooth di komputer booth:**
   - 1.2.39 atau lebih baru buat mengetik di pesan (booth yang lebih lama cuma nampilin pena).
+  - 1.2.56 atau lebih baru buat tab **Draw**, **Aa**, dan **Stickers** di project Light.
+  - 1.2.57 atau lebih baru buat **Event Decor** di event Light (stiker, roda warna, dan alur setelah Filter di Photo dan Studio).
   - 1.2.45 atau lebih baru buat **Decor template** di Kiosk (Langkah 3).
   - 1.2.48 atau lebih baru buat **Move drawing** dan **Turn text**.
 - **Minimal satu template cetak** di booth atau event: Decor ngambil foto dulu, sama seperti Photo.
@@ -49,9 +51,12 @@ Kurang cocok kalau antrean panjang dan setiap detik berharga, misalnya Sabtu ram
 - **Atau bikin desain khusus pesan.** Template yang cuma buat pesan (kartu, kertas bergaris, kartu pos) ngasih ruang lebih luas dan bikin photo strip tetap bersih. Di event namanya **Decor template**; di Kiosk, template yang dinyalakan **Decor template**.
 - **Font.** Ada empat bawaan: Caveat, Inter, Pacifico dan Bebas Neue. Kalau mau pakai font sendiri, siapkan file WOFF2, WOFF, TTF atau OTF, maksimal 4 MB. Pilih font yang gampang dibaca dalam beberapa kata: satu font tulisan tangan dan satu font polos biasanya sudah cukup.
 
-## Decor di project Light {#decor-on-a-light-project}
+## Decor di project atau event Light {#decor-on-a-light-project}
 
-Lewati Langkah 1 dan 2 kalau project kamu Light.
+Lewati Langkah 1 dan 2 kalau project atau event kamu pakai tampilan Light.
+
+<Tabs groupId="where">
+<TabItem value="kiosk" label="Kiosk">
 
 1. Buka **Pix Design > UI Editor** dan project Light kamu. Project harus punya **Photo** atau **Studio** di modenya. Decor tidak dicentang sebagai mode.
 2. Buka tab halaman **Decor**.
@@ -59,7 +64,19 @@ Lewati Langkah 1 dan 2 kalau project kamu Light.
 4. Di **Decor goes**, pilih **On the print** (dekorasi ada di cetakan dan di soft file) atau **Soft file only** (cetakan tetap bersih, soft file ada dekorasinya).
 5. Pilih **Decor template** seperti di Langkah 3 kalau mau dekorasinya di desain sendiri. Lalu **Save**.
 
-Di booth, tamu mendekorasi lewat tiga tab. **Draw** punya pena, 15 warna, ukuran, dan penghapus. **Aa** nambah teks dengan 8 font. **Stickers** punya 24 stiker: ketuk buat nambah, seret buat geser, pakai handle kanan atas buat memutar dan handle kanan bawah buat mengubah ukuran, atau pakai dua jari. Stiker yang keluar dari tepi cetakan terpotong di tepi. Apa pun yang ditambah tetap ada waktu ganti tab.
+</TabItem>
+<TabItem value="event" label="Event">
+
+Event Light baru mulai dengan **Event Decor** menyala dari awal, jalan setelah Filter di mode **Photo** maupun **Studio** (Pixture Photobooth 1.2.57 atau lebih baru).
+
+1. Buka **Events**, buka event kamu, lalu ke tab **Setup**.
+2. Di **Decorate**, pilih **The print** (tamu mendekorasi langsung di cetakan fotonya) atau **Its own template** (template Decor tersendiri yang dipilih di Langkah 3).
+3. Di **Decor goes**, pilih **On the print** (dekorasi ada di cetakan dan di soft file) atau **Soft file only** (cetakan tetap bersih, soft file ada dekorasinya).
+
+</TabItem>
+</Tabs>
+
+Di booth, tamu mendekorasi lewat tiga tab. **Draw** punya pena, 15 warna pena plus roda warna, ukuran, dan penghapus. **Aa** nambah teks dengan 8 font. **Stickers** punya 24 stiker: ketuk buat nambah, seret buat geser, pakai handle kanan atas buat memutar dan handle kanan bawah buat mengubah ukuran, atau pakai dua jari. Stiker yang keluar dari tepi cetakan terpotong di tepi. Apa pun yang ditambah tetap ada waktu ganti tab.
 
 ## Langkah 1: Nyalakan Decor (Classic) {#step-1-turn-notes-on}
 
@@ -137,7 +154,7 @@ Booth pakai Decor template pertama di tab **Templates**-nya, dan cuma kalau desa
 1. Di tab **Setup** event, klik kartu **Decor** (atau tab **Decor**).
 2. Di **Decor template**, pilih desain. **Default** itu "A lined page with their photo on top." Template kamu yang mana pun juga bisa dipilih. Pilihannya langsung tersimpan.
 
-Di event, pesan selalu jadi gambar sendiri. Dengan pilihan yang dicetak dari Langkah 2, gambar pesan itulah yang dicetak.
+Di event Light, kamu cuma perlu Decor template kalau **Decorate** diatur ke **Its own template**; dengan **The print**, tamu mendekorasi langsung di cetakannya. Di event Darkroom, dekorasi selalu jadi gambar sendiri, dan dengan pilihan yang dicetak dari Langkah 2, gambar itulah yang dicetak.
 
 ![Kartu Decor dan tab-nya dengan Decor template dan baris Text fonts ditandai](/img/docs/steps/tutorials-notes-session--event-notes-tab.webp)
 
@@ -197,7 +214,7 @@ Jalankan sesi seperti pelanggan: pilih **Decor** (atau **Photo**, kalau pakai pi
 2. **Baris font** di atas pesan: tap font buat mengganti font teks yang dipilih. Warna dan slider ukuran juga berlaku buat teks.
 3. **Turn text** (1.2.48): geser pegangan bulat di bawah teks yang dipilih buat memutarnya. Kalau sudah hampir datar atau tegak, teksnya langsung lurus.
 4. **Move drawing** (1.2.48, ikon empat panah): geser di atas pesan buat memindahkan seluruh gambar, pena dan teks sekaligus, misalnya kalau tulisannya kepepet di pinggir.
-5. **Stickers** (Light, 1.2.56): buka tab **Stickers** dan ketuk stiker buat menambahnya. Seret buat menggeser. Handle kanan atas memutar, handle kanan bawah mengubah ukuran, dan tanda silang menghapusnya.
+5. **Stickers** (project Light 1.2.56+, event Light 1.2.57+): buka tab **Stickers** dan ketuk stiker buat menambahnya. Seret buat menggeser. Handle kanan atas memutar, handle kanan bawah mengubah ukuran, dan tanda silang menghapusnya.
 6. **Done**: di event tulisannya **Skip** selama pesannya masih kosong. Kalau gak ada yang ditulis, sesi lanjut tanpa pesan. Kalau waktunya habis, booth lanjut sendiri.
 
 ![Layar pesan dengan Text tool, baris font, Turn text, Move drawing dan Done ditandai](/img/docs/steps/tutorials-notes-session--write-a-note.webp)
@@ -232,6 +249,7 @@ Penanya ada **Pen**, **Marker**, **Pencil** dan **Highlighter**, di samping **Er
 | Orang menulis di atas foto mereka | Template Kiosk gak punya **Decor area** | Tambahkan pakai **+ Add decor area**, atau pakai **Decor template** |
 | Kiosk gak pakai Decor template | Aplikasi booth lebih lama dari 1.2.45, template-nya gak ada di tab **Templates** booth, atau desain booth gak punya Decor | Update booth, pasang template-nya, dan cek desainnya mencentang **Decor** |
 | Gak ada yang dicetak setelah sesi Decor | Pilihan **Decor button, not printed** yang aktif | Pilihan itu memang gak pernah mencetak. Pilih yang dicetak |
+| Gak ada **Stickers** atau Event Decor Light di booth event | Aplikasi booth lebih lama dari 1.2.57 (booth lama otomatis balik ke Darkroom) | Update booth ke 1.2.57 atau lebih baru |
 | Font sendiri gak muncul | File-nya terlalu besar atau bukan file font | Pakai WOFF2, WOFF, TTF atau OTF, maksimal 4 MB |
 
 ## Terkait {#related}

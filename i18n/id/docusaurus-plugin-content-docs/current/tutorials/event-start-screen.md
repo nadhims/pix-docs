@@ -22,7 +22,7 @@ Layar ini milik satu event. Untuk booth yang jalan sendiri tiap hari (booth Kios
 
 - **Event** yang sudah dibuat di **Events**, dengan mode yang sudah dipilih. Lihat [Jalankan Event](./run-an-event.md).
 - **Paket:** layar start bisa kamu desain di paket apa saja. Untuk menjalankan event, setiap komputer butuh Pix Pro atau Event Pass.
-- **Aplikasi booth:** Pixture Photobooth 1.2.44 atau lebih baru nampilin desainnya secara lengkap, termasuk look Darkroom, background Gradient, start **Templates** dan gembok di dalam timer. Halaman event menyebut booth mana yang perlu di-update.
+- **Aplikasi booth:** Pixture Photobooth 1.2.57 atau lebih baru nampilin tampilan bawaan **Light** (kertas studio cerah, font Outfit, foto bersudut tajam), Event Decor dengan stiker, dan konfirmasi foto AI. Booth di bawah 1.2.57 otomatis balik ke Darkroom supaya event yang sedang jalan gak pernah terganggu. Booth 1.2.44 atau lebih baru nampilin look Darkroom, background Gradient, start **Templates** dan gembok di dalam timer. Halaman event menyebut booth mana yang perlu di-update.
 - **Template** di event kalau kamu nawarin **Photo**, **Studio** atau **Decor**: tombol mode itu tetap tersembunyi sampai event punya template.
 
 ## Persiapan {#prepare}
@@ -31,7 +31,7 @@ Layar ini milik satu event. Untuk booth yang jalan sendiri tiap hari (booth Kios
 - **Kata-katanya:** pembuka pendek ("Wedding of", "Welcome to"), judul (nama atau nama event) dan baris tanggal. Baris pendek kebaca dari seberang ruangan.
 - **Logo:** PNG, SVG atau WebP dengan background transparan.
 - **Font** (opsional): file WOFF2, WOFF, TTF atau OTF, maksimal 4 MB per file.
-- **Brand kamu:** kalau kamu sudah atur [Brand kamu](./set-up-your-brand.md), event yang belum kamu atur langsung pakai warna dan font kamu, dan **Your brand** jadi salah satu tema.
+- **Brand kamu:** kalau kamu sudah atur [Brand kamu](./set-up-your-brand.md), event Light baru otomatis pakai logo Brand kamu (tampil di layar Start dan Sharing saja), warna aksen, dan tinta gelap, dan **Your brand** jadi salah satu tema.
 
 ## Langkah 1: Buka tab Setup event {#step-1-open-the-events-setup-tab}
 
@@ -62,19 +62,21 @@ Editornya nampilin preview langsung dari booth, dengan switch **Landscape** dan 
 
 ## Langkah 4: Atur warna dan tombol mode {#step-4-set-the-colours-and-the-mode-buttons}
 
-1. Di **Colours**, pilih tema: **Your brand** (kalau brand kamu sudah diatur), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** atau **Darkroom**. Atau atur sendiri **Primary**, **Secondary**, **Background** dan **Mode circles**. Tombol utama bisa **Gradient** atau **Flat**.
+Event baru mulai dengan tampilan **Light**. Event yang sudah ada tetap di **Darkroom** sampai kamu tap **Switch to Light** di **Edit appearance** (satu klik, dan kamu bisa balik ke **Darkroom** kapan saja).
+
+1. Di **Colours**, pilih tema: **Light**, **Your brand** (kalau brand kamu sudah diatur), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** atau **Darkroom**. Atau atur sendiri **Primary**, **Secondary**, **Background** dan **Mode circles**. Tombol utama bisa **Gradient** atau **Flat**.
 2. Di **Modes**, pilih apa yang ditampilkan **Start shows**: **Mode buttons** (satu tombol bulat per mode) atau **Templates** (tamu lihat template event dengan foto contoh dan tap **Start**).
 3. Atur **Button style** (**Illustration**, **Mono** atau **Icon**) dan apakah **Button names** tampil di bawah tombolnya. Klik gambar sebuah mode untuk pakai gambar kamu sendiri.
 4. Di **Gallery & lock**, pilih apakah tamu dapat **Gallery button** untuk membuka lagi foto event ini, dan di mana **Lock button** berada (tombol ini membuka menu operator di balik PIN). **During a session**, gemboknya ada **In the timer** atau **In its corner**.
 
-Untuk menambah atau menghapus mode, pakai **Edit modes** di halaman event (**Change modes on the event page** di editor mengarah ke sana). **Photographer** dan **Mingle** gak pernah tampil sebagai tombol: komputer dengan mode itu melewati layar start.
+Untuk menambah atau menghapus mode, pakai **Edit modes** di halaman event (**Change modes on the event page** di editor mengarah ke sana). **Photographer** dan **Mingle** gak pernah tampil sebagai tombol: komputer dengan mode itu melewati layar start. Di event Light, **Event Decor** nyala dari awal dan jalan setelah Filter di mode **Photo** maupun **Studio** (lihat [Jalankan Sesi Decor](./notes-session.md)).
 
 ## Langkah 5: Atur hitung mundur, timer dan langkah-langkahnya {#step-5-set-the-countdown-the-timers-and-the-steps}
 
 1. **Countdown:** jumlah detik sebelum setiap foto, 1 sampai 10. 3 detik cocok untuk kebanyakan tamu.
 2. **Timer > Session time:** **Booth's own**, **No limit**, **60 s**, **90 s**, **2 min** atau **3 min**. Kalau waktunya habis, booth lanjut dengan foto yang sudah diambil.
-3. **Timer > Photo review** (kalau Photo, Decor, AI atau Mingle nyala): berapa lama setiap foto tampil dengan Retake dan Next, **3 s** sampai **30 s**.
-4. **Timer > Decor time** (kalau Decor nyala): 30 detik sampai 3 menit untuk tamu menulis catatannya.
+3. **Timer > Photo review** (kalau Photo, Decor, AI atau Mingle nyala): berapa lama setiap foto tampil dengan Retake dan Next, **3 s** sampai **30 s**. Dengan **AI** di event Light (dan juga di HP serta tablet), tamu mengonfirmasi **"Keep this photo?"** sebelum AI mulai membuat gambar, jadi foto ulang gak pernah memakai kredit AI tambahan.
+4. **Timer > Decor time** (kalau Decor nyala): 30 detik sampai 3 menit untuk tamu mendekorasi fotonya.
 5. **Steps:** matikan **Adjust your photos**, **Choose a filter** atau **Retake** untuk sesi yang lebih singkat.
 
 ## Langkah 6: Preview dan simpan {#step-6-preview-and-save}
@@ -103,6 +105,7 @@ Booth di event ini ngambil tampilan baru untuk sesi berikutnya: booth yang lagi 
 | Masalah | Kenapa | Solusinya |
 |---|---|---|
 | Tombol Photo, Studio atau Decor gak muncul | Event belum punya template | Tambahkan template di tab **Template** event |
+| Event Light tampil Darkroom di booth | Booth jalan di Pixture Photobooth lebih lama dari 1.2.57 (otomatis balik ke Darkroom supaya event live gak terganggu) | Update aplikasinya ke 1.2.57 atau lebih baru |
 | Satu booth nampilin tampilan lama | Booth-nya jalan di Pixture Photobooth 1.2.43 atau lebih lama | Update aplikasinya di booth itu |
 | Perubahan gak muncul di booth | Booth lagi di tengah sesi, atau desainnya belum disimpan | Klik **Save**; booth ngambil desainnya begitu sesi selesai |
 | Tulisannya susah dibaca di atas foto | Background-nya terlalu terang atau ramai | Naikkan **Darken** dan **Blur**, atau atur warna teks ke **Auto** |

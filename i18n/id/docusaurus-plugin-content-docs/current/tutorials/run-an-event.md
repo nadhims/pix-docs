@@ -23,7 +23,7 @@ Bukan untuk booth yang tiap hari jalan di satu tempat buat pelanggan walk-in: it
 - **Lisensi untuk tiap komputer di event**: Pix Pro, atau **Event Pass**: 24 jam Pix Pro di satu komputer seharga Rp 85.000 ($5), mulai dihitung saat kamu pakai di booth, bukan saat dibeli. Beli pass duluan di halaman **Computers** (**Buy Event Passes**), atau dari halaman event waktu pairing.
 - **Template untuk event**, punya kamu sendiri di Pix Design atau salah satu template pack gratis dari Pixture (kalau pack-nya tersedia).
 - **Payment gateway yang sudah tersambung** (**Settings > Payment Gateway**), cuma kalau tamu bayar per sesi foto.
-- **Pixture Photobooth 1.2.1 atau lebih baru** di tiap komputer (1.2.2 atau lebih baru untuk harga per mode, 1.2.29 atau lebih baru untuk Photographer dengan template, atau untuk Mingle).
+- **Pixture Photobooth 1.2.1 atau lebih baru** di tiap komputer (1.2.2 atau lebih baru untuk harga per mode, 1.2.29 atau lebih baru untuk Photographer dengan template, atau untuk Mingle, dan 1.2.57 atau lebih baru untuk tampilan Light event, Event Decor dengan stiker, dan konfirmasi foto AI). Booth di bawah 1.2.57 otomatis balik ke Darkroom supaya event live gak pernah terganggu.
 
 ## Persiapan {#prepare}
 
@@ -88,13 +88,14 @@ Di dashboard, baris komputer itu sekarang nampilin **Event Pass** dengan hitung 
 ## Langkah 5: Mode, Output dan Layar Pembuka {#step-5-modes-output-and-start-screen}
 
 1. Di **Booth mode**, mode event tampil sebagai kartu. **Edit modes** nyalain atau matiin mode; semua komputer di event menawarkannya, dan tiap booth ngambil perubahan di layar Start berikutnya.
-2. Di tab **Appearance**, klik **Edit appearance** untuk mendesain layar pembuka: background, teks, logo, warna, hitung mundur dan timer sesi. **Save**, lalu **Try it full screen** untuk nyobain sebagai tamu. Lihat [Desain Layar Pembuka Event](./event-start-screen.md).
-3. Tab **Output** nampilin apa yang tamu dapat. **Change** membuka empat pilihan dengan gambar dan penjelasan singkat; centang yang kamu mau dan **Save**. Kalau **Prints** dicentang, jendela yang sama mengatur **Auto print**, **Max prints per session** dan **Show a Print button on Share**. Semua komputer di event ngikutin.
-4. Di event yang dibuat sebelum ada layar pembuka, tab Setup nampilin kotak **Booth mode**, **Output** dan **Appearance**, masing-masing dengan **Change**: satu booth mode untuk seluruh event, dan desain layar yang dibuat untuknya.
+2. Di tab **Appearance**, klik **Edit appearance** untuk mendesain layar pembuka: background, teks, logo, warna, hitung mundur dan timer sesi. Event baru mulai dengan tampilan **Light** (kertas studio cerah, font Outfit, foto bersudut tajam) dan otomatis pakai logo Brand kamu (di layar Start dan Sharing saja), warna aksen, dan tinta gelap. Event yang sudah ada tetap di **Darkroom** sampai kamu tap **Switch to Light** (satu klik, bisa balik ke **Darkroom** kapan saja). **Save**, lalu **Try it full screen** untuk nyobain sebagai tamu. Lihat [Desain Layar Pembuka Event](./event-start-screen.md).
+3. Di event Light baru, **Event Decor** menyala dari awal dan jalan setelah Filter di mode **Photo** maupun **Studio** (24 stiker, 15 warna pena plus roda warna, dan 8 font). Di tab **Setup** event, pilih **Decorate** (**The print** atau **Its own template**) dan **Decor goes** (**On the print** atau **Soft file only**). Dengan **AI** di event Light, tamu mengonfirmasi **"Keep this photo?"** sebelum AI mulai membuat gambar, jadi foto ulang gak pernah memakai kredit AI tambahan.
+4. Tab **Output** nampilin apa yang tamu dapat. **Change** membuka empat pilihan dengan gambar dan penjelasan singkat; centang yang kamu mau dan **Save**. Kalau **Prints** dicentang, jendela yang sama mengatur **Auto print**, **Max prints per session** dan **Show a Print button on Share**. Semua komputer di event ngikutin.
+5. Di event yang dibuat sebelum ada layar pembuka, tab Setup nampilin kotak **Booth mode**, **Output** dan **Appearance**, masing-masing dengan **Change**: satu booth mode untuk seluruh event, dan desain layar yang dibuat untuknya.
 
    ![Pemilih booth mode dengan grup Photo dan Video](/img/docs/event-booth-mode-picker.webp)
 
-5. Dengan **Video**, tab **Video** berisi setelan video: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, **Overlay** (atau orientasi kalau gak ada overlay) dan **Intro video** serta **Outro video** opsional. Semua tersimpan otomatis. Lihat [Mode Video Event](../desktop-app/event-video-modes.md).
+6. Dengan **Video**, tab **Video** berisi setelan video: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, **Overlay** (atau orientasi kalau gak ada overlay) dan **Intro video** serta **Outro video** opsional. Semua tersimpan otomatis. Lihat [Mode Video Event](../desktop-app/event-video-modes.md).
 
 ## Langkah 6: Pasang Template {#step-6-assign-templates}
 
@@ -163,6 +164,7 @@ Kartu ini menjumlahkan **Guest sales** dari sesi berbayar dengan fee jadi **Tota
 | Booth bilang event "needs an Event Pass or Pix Pro before it can start sessions" | Akun gak punya pass yang belum terpakai dan gak ada Pix Pro cadangan | Tap **Buy Event Passes**, bayar lewat HP dari QR-nya, lalu tap **Recheck** |
 | Tamu gak bisa mulai sesi di malam hari | Pass 24 jam habis dan gak ada pass cadangan, atau booth offline | Beli pass, lalu **Extend 24h** di baris komputer atau di menu operator; cek internetnya |
 | Booth masih nampilin template hariannya | Komputer gak ter-pairing ke event, atau tanggal event gak mencakup hari ini | Cek kartu **Computers** dan tanggal di **Edit** |
+| Event Light tampil Darkroom di booth | Booth jalan di Pixture Photobooth lebih lama dari 1.2.57 (otomatis balik ke Darkroom supaya event live gak terganggu) | Update aplikasinya ke 1.2.57 atau lebih baru |
 | Booth nampilin Photo strip, bukan tombol mode | Pixture Photobooth-nya versi lama | Update aplikasinya; halaman event nyebut nama komputernya |
 | Tamu gak lihat apa-apa di layar template | Belum ada template yang dipasang ke event | Tambahkan di tab **Setup** |
 | Link album gak kebuka | **Link Sharing** OFF | Nyalakan lagi |

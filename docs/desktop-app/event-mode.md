@@ -11,6 +11,15 @@ Pixture Photobooth runs a computer in one of two setups. A **Kiosk** is one self
 
 Event mode needs Pixture Photobooth 1.2.9 or later. This page describes 1.2.15 and later; update older computers first. See [Software Updates](./software-updates.md).
 
+## Event Look and Session Flow (1.2.57+)
+
+Starting with Pixture Photobooth 1.2.57, new events open in the **Light** look: bright studio paper, Outfit type, and sharp corners on photos. If your account has a [Brand](../dashboard/pix-design/brand.md), your Brand logo (shown on the Start and Sharing screens only), accent colour, and dark ink apply automatically.
+
+- **Existing events** stay on **Darkroom** until you tap **Switch to Light** in Event Appearance on the dashboard (one click, reversible by picking **Darkroom**).
+- **Older booth apps:** a computer running older than 1.2.57 automatically falls back to **Darkroom** so live events never break.
+- **Event Decor:** on by default for new Light events, running after Filter on both **Photo** and **Studio** modes, with 24 stickers, 15 pen colours plus a colour wheel, and 8 fonts. In event Setup, you choose **Decorate** (**The print** or **Its own template**) and **Decor goes** (**On the print** or **Soft file only**).
+- **AI photo review:** on Light events, phones, and tablets, guests confirm **"Keep this photo?"** before AI generation starts, so retaking a photo never uses an extra AI credit.
+
 | | Kiosk | Event computer |
 |---|---|---|
 | Set up from | A booth's pairing code on the **Booths** page, or email sign-in and a booth from the list | An event's **Pair a computer** code, or email sign-in and **Event mode** |
