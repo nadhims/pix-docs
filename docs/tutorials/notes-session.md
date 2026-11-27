@@ -21,8 +21,8 @@ The steps below show both, side by side in tabs.
 
 ## Light and Classic
 
-- **Light projects** (the default look for new projects). Decor is always a step after Photo or Studio, never a button of its own. You turn it on or off with **Enabled in session flow** on the Decor page, and choose **Decor goes**: **On the print** or **Soft file only**. The guest's page has three tabs: **Draw**, **Aa** and **Stickers**, with 24 stickers they can move, turn and resize. Steps 1 and 2 below are replaced by the short section [Decor on a Light project](#decor-on-a-light-project).
-- **Classic projects** keep the four Decor button choices in Step 2, with the single palette they had before. There are no stickers.
+- **Light projects and Light events** (the default look for new projects and new events). Decor is always a step after Filter on both **Photo** and **Studio** modes, never a separate button. On a Light project you turn it on or off with **Enabled in session flow** on the Decor page; on a new Light event, **Event Decor** is on by default in event **Setup** with two choices: **Decorate** (**The print** or **Its own template**) and **Decor goes** (**On the print** or **Soft file only**). The guest's page has three tabs: **Draw** (15 pen colours plus a colour wheel), **Aa** (8 fonts) and **Stickers** (24 stickers they can move, turn and resize). Steps 1 and 2 below are replaced by the short section [Decor on a Light project or event](#decor-on-a-light-project).
+- **Classic projects and Darkroom events** keep the four Decor button choices in Step 2, with the single palette they had before. There are no stickers.
 
 ## When to Use It
 
@@ -39,6 +39,7 @@ Not worth it when the queue is long and every second counts, for example a busy 
 - **Pixture Photobooth on the booth computer:**
   - 1.2.39 or newer to type (an older booth shows the pens only).
   - 1.2.56 or newer for the **Draw**, **Aa** and **Stickers** tabs on a Light project.
+  - 1.2.57 or newer for Light **Event Decor** (stickers, colour wheel, and Decor after Filter on Photo and Studio events).
   - 1.2.45 or newer for a **Decor template** on a Kiosk (Step 3).
   - 1.2.48 or newer for **Move drawing** and **Turn text**.
 - **At least one print template** on the booth or the event: Decor takes the photos first, like Photo.
@@ -50,9 +51,12 @@ Not worth it when the queue is long and every second counts, for example a busy 
 - **Or make a separate note design.** A template that is only for the note (a card, lined paper, a postcard) gives people more room and keeps the photo strip clean. On an event this is the **Decor template**; on a Kiosk it is a template switched to **Decor template**.
 - **Fonts.** Four come built in: Caveat, Inter, Pacifico and Bebas Neue. To use your own, have a WOFF2, WOFF, TTF or OTF file ready, up to 4 MB. Pick fonts that are easy to read in a few words: one handwriting font and one plain font is usually enough.
 
-## Decor on a Light project
+## Decor on a Light project or event {#decor-on-a-light-project}
 
-Skip Steps 1 and 2 if your project is Light.
+Skip Steps 1 and 2 if your project or event uses the Light look.
+
+<Tabs groupId="where">
+<TabItem value="kiosk" label="Kiosk">
 
 1. Open **Pix Design > UI Editor** and your Light project. It needs **Photo** or **Studio** among its modes. Decor is not ticked as a mode.
 2. Open the **Decor** page tab.
@@ -60,7 +64,19 @@ Skip Steps 1 and 2 if your project is Light.
 4. Under **Decor goes**, pick **On the print** (the decor is on the print and the soft file) or **Soft file only** (the print stays clean, the soft file has the decor).
 5. Pick a **Decor template** as in Step 3 if you want the decor on its own design. Then **Save**.
 
-On the booth, the guest decorates in three tabs. **Draw** has the pens, 15 colours, the size and the eraser. **Aa** adds text in one of 8 fonts. **Stickers** has 24 stickers: tap one to add it, drag it to move it, use the top-right handle to turn it and the bottom-right handle to resize it, or use two fingers. A sticker that goes past the edge of the print is cut off at the edge. Whatever they add stays when they change tab.
+</TabItem>
+<TabItem value="event" label="Event">
+
+New Light events start with **Event Decor** on by default, running after Filter on both **Photo** and **Studio** modes (Pixture Photobooth 1.2.57 or newer).
+
+1. Open **Events**, open your event, and go to the **Setup** tab.
+2. Under **Decorate**, pick **The print** (guests decorate their photo print) or **Its own template** (a separate Decor template picked in Step 3).
+3. Under **Decor goes**, pick **On the print** (the decor is on the print and the soft file) or **Soft file only** (the print stays clean, the soft file has the decor).
+
+</TabItem>
+</Tabs>
+
+On the booth, the guest decorates in three tabs. **Draw** has the pens, 15 pen colours plus a colour wheel, the size and the eraser. **Aa** adds text in one of 8 fonts. **Stickers** has 24 stickers: tap one to add it, drag it to move it, use the top-right handle to turn it and the bottom-right handle to resize it, or use two fingers. A sticker that goes past the edge of the print is cut off at the edge. Whatever they add stays when they change tab.
 
 ## Step 1: Turn Decor on (Classic)
 
@@ -138,7 +154,7 @@ The booth uses the first Decor template on its **Templates** tab, and only when 
 1. On the event's **Setup** tab, click the **Decor** card (or the **Decor** tab).
 2. Under **Decor template**, pick a design. **Default** is "A lined page with their photo on top." Any of your templates can be picked instead. The choice saves at once.
 
-The decor is always its own picture at an event. With a printed choice from Step 2, that picture is what prints.
+On a Light event, you only need a Decor template when **Decorate** is set to **Its own template**; with **The print**, guests decorate the print itself. On a Darkroom event, the decor is always its own picture, and with a printed choice from Step 2, that picture is what prints.
 
 ![The Decor card and its tab with Decor template and the Text fonts row marked](/img/docs/steps/tutorials-notes-session--event-notes-tab.webp)
 
@@ -198,7 +214,7 @@ Run a session as a customer would: choose **Decor** (or **Photo**, with an After
 2. **The font row** at the top of the note: tap a font to change the picked text. The colours and the size slider work on text too.
 3. **Turn text** (1.2.48): drag the round handle under the picked text to turn it. Close to level or upright, it snaps straight.
 4. **Move drawing** (1.2.48, the four arrows): drag on the note to slide the whole drawing, pens and texts together, for example when it ended up too close to the edge.
-5. **Stickers** (Light, 1.2.56): open the **Stickers** tab and tap a sticker to add it. Drag it to move it. The top-right handle turns it, the bottom-right handle resizes it, and the cross removes it.
+5. **Stickers** (Light project 1.2.56+, Light event 1.2.57+): open the **Stickers** tab and tap a sticker to add it. Drag it to move it. The top-right handle turns it, the bottom-right handle resizes it, and the cross removes it.
 6. **Done**: at an event this reads **Skip** until something is on the note. With nothing written, the session goes on without a note. When the time runs out, the booth goes on by itself.
 
 ![The note screen with the Text tool, the font row, Turn text, Move drawing and Done marked](/img/docs/steps/tutorials-notes-session--write-a-note.webp)
@@ -233,6 +249,7 @@ The pens are **Pen**, **Marker**, **Pencil** and **Highlighter**, next to the **
 | People write over their photos | The Kiosk template has no **Decor area** | Add one with **+ Add decor area**, or use a **Decor template** |
 | The Kiosk ignores the Decor template | The booth runs an app older than 1.2.45, the template is not on the booth's **Templates** tab, or the booth's design has no Decor | Update the booth, assign the template, and check the design has **Decor** ticked |
 | Nothing prints after a Decor session | **Decor button, not printed** is picked | That choice never prints. Pick a printed choice |
+| No **Stickers** or Light Event Decor on an event booth | The booth runs Pixture Photobooth older than 1.2.57 (older booths fall back to Darkroom automatically) | Update the booth to 1.2.57 or newer |
 | Your own font does not show | The file is too big or not a font file | Use WOFF2, WOFF, TTF or OTF, up to 4 MB |
 
 ## Related

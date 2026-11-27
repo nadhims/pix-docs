@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3.5
 title: Event Start Screen
-description: Pick the modes guests can choose at your event and design the look of every guest screen, with the Darkroom default look, Start layouts, background, text, logo, gallery and lock, colours, countdown and session timer, plus where print settings live.
+description: Pick the modes guests can choose at your event and design the look of every guest screen, with the Light default look, Darkroom, Start layouts, background, text, logo, gallery and lock, colours, countdown and session timer, plus where print settings live.
 tags: [dashboard, events, start-screen, booth-modes]
 ---
 
@@ -21,15 +21,21 @@ Events created before the start screen keep working as they are, with one booth 
 
 ## The Default Look
 
-An event you never styled shows **Darkroom**: a warm red-brown gradient, prints on cream paper, the Bricolage Grotesque and Instrument Sans fonts, and a big number countdown. It is also a theme under **Colours**.
+New events start on the **Light** look (Pixture Photobooth 1.2.57 or newer): bright studio paper, Outfit type, and sharp corners on photos. With your [Brand](./pix-design/brand.md) set up, a Light event picks up your Brand logo (shown on the Start and Sharing screens only), accent colour, and dark ink automatically.
 
-With your [Brand](./pix-design/brand.md) set up, an unstyled event takes your Brand colours instead. A dark Brand gets a soft **Gradient** background made from your Brand colour; a light Brand keeps its light background.
+Existing events stay on **Darkroom** (a warm red-brown gradient, prints on cream paper, the Bricolage Grotesque and Instrument Sans fonts, and a big number countdown) until you tap **Switch to Light** in **Edit appearance**. Switching is one click, and you can switch back any time by picking **Darkroom** under **Colours**. On Darkroom, an unstyled event with a Brand takes your Brand colours (a dark Brand gets a soft **Gradient** background; a light Brand keeps its light background).
 
-Your first change in **Edit appearance** keeps the rest of the look as it is. Booths on 1.2.43 or older show the older event look.
+Booths running Pixture Photobooth older than 1.2.57 automatically fall back to Darkroom so live events never break. Booths on 1.2.43 or older show the older event look.
+
+Your first change in **Edit appearance** keeps the rest of the look as it is.
 
 ## Modes
 
 The modes are **Photo**, **Video**, **360/Slow-mo**, **Studio**, **Decor**, **Photographer** and **Mingle**, plus **AI** for accounts in the Pix AI beta. Each one you turn on becomes a round button, and guests pick one every session, except **Photographer** and **Mingle**. They do not show as buttons to guests: a Photographer computer skips the start screen and opens straight into shooting, and a Mingle computer goes straight into Mingle (see [Photographer](./events.md#photographer) and [Mingle](./events.md#mingle)). The event page shows the modes you picked as cards under Booth mode; turn them on or off with **Edit modes** there (the editor's **Change modes on the event page** leads to it).
+
+On Light events, **Event Decor** is on by default and runs after Filter on both **Photo** and **Studio** modes rather than as a separate mode button. You set **Decorate** (**The print** or **Its own template**) and **Decor goes** (**On the print** or **Soft file only**) on the event's Setup tab. See [Run a Decor Session](../tutorials/notes-session.md).
+
+With **AI** on a Light event (as well as on phones and tablets), guests confirm **"Keep this photo?"** before AI generation starts, so retaking a photo never uses an extra AI credit.
 
 **Photo**, **Studio** and **Decor** need at least one template on the event.
 
@@ -60,7 +66,7 @@ Pick a built-in font or upload your own (WOFF2, WOFF, TTF or OTF, up to 4 MB). U
 
 ### Logo
 
-Upload a PNG, SVG or WebP; a see-through background looks best. **Position** is **Above**, **Instead** (of the title), **Corner**, **Bottom** or **Free**, where you drag it anywhere on the screen. **Size** goes from 60 to 320 px.
+Upload a PNG, SVG or WebP; a see-through background looks best. **Position** is **Above**, **Instead** (of the title), **Corner**, **Bottom** or **Free**, where you drag it anywhere on the screen. **Size** goes from 60 to 320 px. On Light events, your Brand logo appears on the Start and Sharing screens only.
 
 ### Gallery & Lock
 
@@ -71,7 +77,7 @@ Upload a PNG, SVG or WebP; a see-through background looks best. **Position** is 
 
 ### Colours
 
-Pick a theme: **Your brand** (when your brand is set up), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** or **Darkroom** (which also sets its fonts and Gradient background). Or set your own **Primary**, **Secondary**, **Background** and **Mode circles** colours. Primary buttons can be **Gradient** or **Flat**.
+Pick a theme: **Light**, **Your brand** (when your brand is set up), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** or **Darkroom** (which also sets its fonts and Gradient background). Or set your own **Primary**, **Secondary**, **Background** and **Mode circles** colours. Primary buttons can be **Gradient** or **Flat**.
 
 ### Countdown
 
@@ -103,7 +109,7 @@ When the event takes payment, guests pay after tapping a mode, and turning payme
 
 ## Booths and Versions
 
-Booths in the event pick up your changes for their next session. A booth needs Pixture Photobooth 1.2.1 or newer to show the start screen as designed, 1.2.2 or newer to charge each mode its own price (an older one sells every mode at the event price), and 1.2.44 or newer for the Darkroom look, a Gradient background, the Templates Start and the lock in the timer. The event page names each booth that needs an update, for example "Booth 1 runs an older Pixture Photobooth. Update it to show this start screen as designed." A booth older than 1.2.0 keeps running Photo strip from the event's default UI project. Update the app on any booth that should show the mode buttons.
+Booths in the event pick up your changes for their next session. A booth needs Pixture Photobooth 1.2.1 or newer to show the start screen as designed, 1.2.2 or newer to charge each mode its own price (an older one sells every mode at the event price), 1.2.44 or newer for the Darkroom look, a Gradient background, the Templates Start and the lock in the timer, and 1.2.57 or newer for the Light look, Light Event Decor with stickers, and AI photo review. Booths running older than 1.2.57 automatically fall back to Darkroom so live events never break. The event page names each booth that needs an update, for example "Booth 1 runs an older Pixture Photobooth. Update it to show this start screen as designed." A booth older than 1.2.0 keeps running Photo strip from the event's default UI project. Update the app on any booth that should show the mode buttons.
 
 ## Related
 

@@ -23,7 +23,7 @@ Not for a booth that runs every day in one place for walk-in customers: that is 
 - **A license for every computer on the event**: Pix Pro, or an **Event Pass**: 24 hours of Pix Pro on one computer for $5 (Rp 85.000), starting when you use it at the booth, not when you buy it. Buy passes ahead on the **Computers** page (**Buy Event Passes**), or from the event page when you pair.
 - **Templates for the event**, your own in Pix Design or one of Pixture's free template packs (when packs are available).
 - **A payment gateway connected** (**Settings > Payment Gateway**) only if guests pay per photo session.
-- **Pixture Photobooth 1.2.1 or newer** on each computer (1.2.2 or newer for a price per mode, 1.2.29 or newer for Photographer with a template, or for Mingle).
+- **Pixture Photobooth 1.2.1 or newer** on each computer (1.2.2 or newer for a price per mode, 1.2.29 or newer for Photographer with a template, or for Mingle, and 1.2.57 or newer for the Light event look, Event Decor with stickers, and AI photo review). Booths running older than 1.2.57 automatically fall back to Darkroom so live events never break.
 
 ## Prepare
 
@@ -88,13 +88,14 @@ In the dashboard, the computer's row now shows **Event Pass** with a countdown.
 ## Step 5: Modes, Output and Start Screen
 
 1. Under **Booth mode**, the event's modes are cards. **Edit modes** turns modes on or off; every computer on the event offers them, and each booth picks up a change on its next Start screen.
-2. On the **Appearance** tab, click **Edit appearance** to design the start screen: background, text, logo, colours, the countdown and the session timer. **Save**, then **Try it full screen** to try it as a guest. See [Design an Event Start Screen](./event-start-screen.md).
-3. The **Output** tab lists what guests get. **Change** opens the four options with a picture and a line each; tick the ones you want and **Save**. With **Prints** ticked, the same window sets **Auto print**, **Max prints per session** and **Show a Print button on Share**. Every computer on the event follows it.
-4. On an event created before the start screen, the Setup tab shows **Booth mode**, **Output** and **Appearance** boxes instead, each with **Change**: one booth mode for the whole event, and a screen design made for it.
+2. On the **Appearance** tab, click **Edit appearance** to design the start screen: background, text, logo, colours, the countdown and the session timer. New events start on the **Light** look (bright studio paper, Outfit type, sharp corners on photos) and pick up your Brand logo (Start and Sharing only), accent colour, and dark ink automatically. Existing events stay on **Darkroom** until you tap **Switch to Light** (one click, reversible by picking **Darkroom**). **Save**, then **Try it full screen** to try it as a guest. See [Design an Event Start Screen](./event-start-screen.md).
+3. For new Light events, **Event Decor** is on by default and runs after Filter on both **Photo** and **Studio** modes (24 stickers, 15 pen colours plus a colour wheel, and 8 fonts). In event **Setup**, choose **Decorate** (**The print** or **Its own template**) and **Decor goes** (**On the print** or **Soft file only**). With **AI** on Light events, guests confirm **"Keep this photo?"** before AI generation starts, so retaking a photo never uses an extra AI credit.
+4. The **Output** tab lists what guests get. **Change** opens the four options with a picture and a line each; tick the ones you want and **Save**. With **Prints** ticked, the same window sets **Auto print**, **Max prints per session** and **Show a Print button on Share**. Every computer on the event follows it.
+5. On an event created before the start screen, the Setup tab shows **Booth mode**, **Output** and **Appearance** boxes instead, each with **Change**: one booth mode for the whole event, and a screen design made for it.
 
    ![Booth mode picker with Photo and Video groups](/img/docs/event-booth-mode-picker.webp)
 
-5. With **Video**, the **Video** tab holds the video settings: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, an **Overlay** (or an orientation when there is none) and optional **Intro video** and **Outro video**. They save as you go. See [Event Video Modes](../desktop-app/event-video-modes.md).
+6. With **Video**, the **Video** tab holds the video settings: **Countdown**, **Video length**, **Quality**, **Size**, **Display text before recording**, **Mirror captured videos**, **Keep original clip**, an **Overlay** (or an orientation when there is none) and optional **Intro video** and **Outro video**. They save as you go. See [Event Video Modes](../desktop-app/event-video-modes.md).
 
 ## Step 6: Assign Templates
 
@@ -163,6 +164,7 @@ The card adds the **Guest sales** from paid sessions to the fee for **Total reve
 | The booth says the event "needs an Event Pass or Pix Pro before it can start sessions" | The account has no unused pass and no spare Pix Pro | Tap **Buy Event Passes**, pay on your phone from the QR, then tap **Recheck** |
 | Guests cannot start a session in the evening | The 24-hour pass ran out and there was no spare pass, or the booth was offline | Buy a pass, then **Extend 24h** on the row or in the operator menu; check the internet |
 | The booth still shows its everyday templates | The computer is not paired to the event, or the event's dates do not include today | Check the **Computers** card and the dates under **Edit** |
+| A Light event shows Darkroom on a booth | The booth runs Pixture Photobooth older than 1.2.57 (older booths fall back to Darkroom automatically so live events never break) | Update the app to 1.2.57 or newer |
 | The booth shows Photo strip instead of the mode buttons | It runs an older Pixture Photobooth | Update the app; the event page names the computer |
 | Guests see nothing on the template screen | No template is assigned to the event | Add one on the **Setup** tab |
 | The album link does not open | **Link Sharing** is OFF | Turn it on again |

@@ -22,7 +22,7 @@ This screen belongs to one event. For a booth that runs on its own day after day
 
 - **An event** created in **Events**, with its modes picked. See [Run an Event](./run-an-event.md).
 - **Plan:** you can design the start screen on any plan. To run the event, each computer needs Pix Pro or an Event Pass.
-- **Booth app:** Pixture Photobooth 1.2.44 or newer shows the full design, including the Darkroom look, a Gradient background, the **Templates** start and the lock in the timer. The event page names any booth that needs an update.
+- **Booth app:** Pixture Photobooth 1.2.57 or newer shows the **Light** default look (bright studio paper, Outfit type, sharp corners on photos), Event Decor with stickers, and AI photo review. Booths older than 1.2.57 automatically fall back to Darkroom so live events never break. Booths on 1.2.44 or newer show the Darkroom look, Gradient backgrounds, the **Templates** start and the lock in the timer. The event page names any booth that needs an update.
 - **Templates** on the event if you offer **Photo**, **Studio** or **Decor**: their buttons stay hidden until the event has a template.
 
 ## Prepare
@@ -31,7 +31,7 @@ This screen belongs to one event. For a booth that runs on its own day after day
 - **The words:** a short lead-in ("Wedding of", "Welcome to"), the title (names or event name) and the date line. Short lines read from across the room.
 - **Logo:** PNG, SVG or WebP with a transparent background.
 - **Fonts** (optional): WOFF2, WOFF, TTF or OTF files, up to 4 MB each.
-- **Your brand:** if you set up [your Brand](./set-up-your-brand.md), an event you have not styled starts in your colours and fonts, and **Your brand** is one of the themes.
+- **Your brand:** if you set up [your Brand](./set-up-your-brand.md), a new Light event applies your Brand logo (shown on the Start and Sharing screens only), accent colour, and dark ink automatically, and **Your brand** is one of the themes.
 
 ## Step 1: Open the event's Setup tab
 
@@ -62,19 +62,21 @@ The editor shows a live preview of the booth, with **Landscape** and **Portrait*
 
 ## Step 4: Set the colours and the mode buttons
 
-1. In **Colours**, pick a theme: **Your brand** (when your brand is set up), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** or **Darkroom**. Or set your own **Primary**, **Secondary**, **Background** and **Mode circles**. Primary buttons can be **Gradient** or **Flat**.
+New events start on the **Light** look. Existing events stay on **Darkroom** until you tap **Switch to Light** in **Edit appearance** (one click, and you can switch back to **Darkroom** any time).
+
+1. In **Colours**, pick a theme: **Light**, **Your brand** (when your brand is set up), **Pixture**, **Forest**, **Ink blue**, **Plum**, **Cream** or **Darkroom**. Or set your own **Primary**, **Secondary**, **Background** and **Mode circles**. Primary buttons can be **Gradient** or **Flat**.
 2. In **Modes**, choose what **Start shows**: **Mode buttons** (a round button per mode) or **Templates** (guests see the event's templates with a sample photo and tap **Start**).
 3. Set the **Button style** (**Illustration**, **Mono** or **Icon**) and whether **Button names** show under the buttons. Click a mode's picture to use your own.
 4. In **Gallery & lock**, choose whether guests get a **Gallery button** to reopen this event's photos, and where the **Lock button** sits (it opens the operator menu behind the PIN). **During a session**, the lock sits **In the timer** or **In its corner**.
 
-To add or remove a mode, use **Edit modes** on the event page (the editor's **Change modes on the event page** leads there). **Photographer** and **Mingle** never show as buttons: those computers skip the start screen.
+To add or remove a mode, use **Edit modes** on the event page (the editor's **Change modes on the event page** leads there). **Photographer** and **Mingle** never show as buttons: those computers skip the start screen. On Light events, **Event Decor** is on by default and runs after Filter on both **Photo** and **Studio** modes (see [Run a Decor Session](./notes-session.md)).
 
 ## Step 5: Set the countdown, the timers and the steps
 
 1. **Countdown:** the seconds before each photo, 1 to 10. 3 seconds suits most guests.
 2. **Timer > Session time:** **Booth's own**, **No limit**, **60 s**, **90 s**, **2 min** or **3 min**. When time is up, the booth moves on with the photos taken.
-3. **Timer > Photo review** (with Photo, Decor, AI or Mingle on): how long each photo stays on screen with Retake and Next, **3 s** to **30 s**.
-4. **Timer > Decor time** (with Decor on): 30 seconds to 3 minutes for guests to write their note.
+3. **Timer > Photo review** (with Photo, Decor, AI or Mingle on): how long each photo stays on screen with Retake and Next, **3 s** to **30 s**. With **AI** on Light events (and on phones and tablets), guests confirm **"Keep this photo?"** before AI generation starts, so retaking a photo never uses an extra AI credit.
+4. **Timer > Decor time** (with Decor on): 30 seconds to 3 minutes for guests to decorate their photo.
 5. **Steps:** switch off **Adjust your photos**, **Choose a filter** or **Retake** for shorter sessions.
 
 ## Step 6: Preview and save
@@ -103,6 +105,7 @@ Booths on the event pick up the new look for their next session: a booth waiting
 | Problem | Why | Fix |
 |---|---|---|
 | The Photo, Studio or Decor button does not show | The event has no template yet | Add a template on the event's **Template** tab |
+| A Light event shows Darkroom on a booth | The booth runs Pixture Photobooth older than 1.2.57 (it falls back to Darkroom automatically so live events never break) | Update the app on that booth to 1.2.57 or newer |
 | A booth shows an older look | The booth runs Pixture Photobooth 1.2.43 or older | Update the app on that booth |
 | The changes do not show on a booth | The booth is in the middle of a session, or the design was not saved | Click **Save**; the booth picks it up when the session ends |
 | The words are hard to read on the photo | The background is too bright or busy | Raise **Darken** and **Blur**, or set the text colour to **Auto** |

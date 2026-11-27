@@ -23,11 +23,21 @@ The **Organization** card: the name with **Save**, the logo (**Upload Logo** or 
 |---|---|
 | **Language** | English or Bahasa Indonesia for the dashboard and website, for you only, in this browser |
 | **Booth language** | The language of the customer-facing prompts on every booth, such as the consent question. One setting for the whole organization |
+| **Phone and tablet look** | **Light** or **Darkroom** for phones and tablets running Default Layout |
 | **Timezone** | Any timezone. Reports, daily limits and event dates follow it |
 | **Default currency** | Any currency. Booths inherit it unless they set their own |
-
-How to set each one, and give a booth its own currency: [Set Your Country, Currency and Language](../tutorials/country-currency-language.md).
 | **Tour & Onboarding** | **Replay Tour** walks you through the dashboard again |
+
+How to set language, timezone and currency, and give a booth its own currency: [Set Your Country, Currency and Language](../tutorials/country-currency-language.md).
+
+### Phone and Tablet Look
+
+Next to **Booth language**, **Phone and tablet look** sets the look for phones and tablets running Default Layout:
+
+- **New accounts** start on **Light** (bright studio paper, Outfit type, sharp corners on photos).
+- **Existing mobile accounts** stay on **Darkroom** until you tap **Switch to Light**. Switching is one click and reversible by picking **Darkroom** again.
+- **Portrait tablets** get their own dedicated layout tailored to portrait screens, alongside the phone and landscape tablet layouts.
+- On phones and tablets (and Light events), guests confirm **"Keep this photo?"** before AI generation starts, so retaking a photo never uses an extra AI credit.
 
 ## Members
 
