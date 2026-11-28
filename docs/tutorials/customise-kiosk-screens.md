@@ -87,11 +87,19 @@ With two or more modes, a Light project shows **Touch to start** on Start. Tappi
 
 ## Step 4: Design the Payment Screen
 
-1. Open the **Payment Screen** tab. Besides the main screen with the QR payment, it has sub-screens for **voucher**, **coins**, **card** and **success**. Design the ones your customers will meet; a sub-screen with only a background counts as designed.
+1. Open the **Payment Screen** tab. On a Light project it has sub-tabs: **Choose your print**, **How many?**, **Pay with** and **QR Pay**. **Advanced** adds **Voucher**, **Coin**, **Card** and **Payment Success**. Besides the main screen with the QR payment, it has sub-screens for **voucher**, **coins**, **card** and **success**. Design the ones your customers will meet; a sub-screen with only a background counts as designed.
 2. Add the blocks the screen needs: **Payment QR** shows the gateway's QR code; **Voucher Input** has an editable title, subtitle and button colours (an empty title hides the line), or use the plain **Voucher Field** code box for your own artwork; **Payment Status** shows where the payment stands.
 3. Under **Timeout**, keep or adjust the defaults: the screen returns to the start after 120 seconds idle (0 = never), a voucher, coin or card step returns to the methods after 60 seconds, and the success screen stays 3 seconds (0 = wait for a tap).
 
 ![UI Editor on the Payment Screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-payment.webp)
+
+On Light, running out of time on **Pay with** goes back to Start and nothing is charged. Templates continues with the highlighted frame, Filter with the current filter, and Choose your photos fills the empty slots. No timer runs while a payment is in progress.
+
+Prices show in your account's currency, for example Rp 35.000 or $35.00.
+
+**Older Light project?** Click **Update to the latest Light layout** in the editor. It rebuilds the pages to the newest Light design and keeps your colours, logo, texts and page settings. Nothing changes until you click it. The new look needs booth app 1.2.58 or newer.
+
+On Light projects a button can show an icon: select it and open **Properties > Icon**.
 
 The success screen also shows when a voucher covers the whole price; free sessions skip the Payment Screen entirely. The QR payment popup takes its colours, fonts and buttons from this design.
 

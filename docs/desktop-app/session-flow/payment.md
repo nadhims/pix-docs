@@ -30,6 +30,7 @@ When the booth has **Print types** priced (see [Print Types](../../dashboard/boo
 - **Choose your print** shows one card per print type with its price. It is skipped when the booth sells only one type.
 - **How many?** shows the packages (Single, Double, Group), a copies stepper with the extra copy price and a Save badge, and the **Total**. It is skipped when there is nothing to choose: one type, no packages and no copy price.
 - **Pay with** shows the chosen total on the QR tile, so the guest pays the number they saw.
+- Prices show in your account's currency, in that currency's usual format, for example Rp 35.000 or $35.00.
 - **Templates** then shows only frames of the chosen print type.
 - A voucher or session ticket covers one Single of the chosen type, and the guest pays the rest. A promo is applied to the total as in [Booth Pricing](../../dashboard/booth-pricing.md#promos-vouchers-and-tickets-with-print-types).
 - If you change a price while a guest is on How many?, the booth shows the new total with "Prices have changed. Please check your total." The guest is never charged an amount the screen did not show.
@@ -65,6 +66,8 @@ All three are page settings in the UI Editor under **Payment > Timeout**:
 | Idle on the Payment screen | 120 s (0 = never) | Back to Start |
 | Idle on the Voucher, Coin or Card step | 60 s | Back to the payment methods |
 | Success dwell | 3 s (0 = wait for a tap) | Continues to Template Selection |
+
+On a Light project, running out of time on **Pay with** goes back to the Start screen and nothing is charged. No timer runs while a payment is in progress.
 
 ## Pay 1 Get 1
 

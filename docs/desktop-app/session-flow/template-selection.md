@@ -44,7 +44,7 @@ If the event pins Video or 360 Slow-mo, this screen is skipped altogether and th
 
 ## Design
 
-The page background, the Template Cards block and any Next button, text or timer are arranged in the UI Editor. The page's idle timer sits in its page settings. A booth with two to four designs keeps the choice fast; more is fine, the rail and progressive loading are built for it.
+The page background, the Template Cards block and any Next button, text or timer are arranged in the UI Editor. The page's idle timer sits in its page settings. On a Light project, when it runs out the booth continues with the highlighted frame. A booth with two to four designs keeps the choice fast; more is fine, the rail and progressive loading are built for it.
 
 ## Related
 

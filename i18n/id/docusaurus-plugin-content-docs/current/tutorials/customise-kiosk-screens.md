@@ -87,11 +87,19 @@ Dengan dua mode atau lebih, project Light menampilkan **Touch to start** di Star
 
 ## Langkah 4: Desain Payment Screen {#step-4-design-the-payment-screen}
 
-1. Buka tab **Payment Screen**. Selain layar utama dengan pembayaran QR, ada sub-layar untuk **voucher**, **coins**, **card** dan **success**. Desain yang bakal ditemui pelanggan kamu; sub-layar yang cuma punya background dihitung sudah didesain.
+1. Buka tab **Payment Screen**. Di project Light ada sub-tab: **Choose your print**, **How many?**, **Pay with** dan **QR Pay**. **Advanced** menambah **Voucher**, **Coin**, **Card** dan **Payment Success**. Selain layar utama dengan pembayaran QR, ada sub-layar untuk **voucher**, **coins**, **card** dan **success**. Desain yang bakal ditemui pelanggan kamu; sub-layar yang cuma punya background dihitung sudah didesain.
 2. Tambahkan blok yang dibutuhkan: **Payment QR** nampilin QR code dari gateway; **Voucher Input** punya judul, subjudul dan warna tombol yang bisa diubah (judul kosong menyembunyikan barisnya), atau pakai kotak kode **Voucher Field** yang polos untuk artwork kamu sendiri; **Payment Status** nampilin posisi pembayaran.
 3. Di **Timeout**, pakai atau ubah default-nya: layar balik ke awal setelah 120 detik diam (0 = gak pernah), langkah voucher, koin atau kartu balik ke pilihan metode setelah 60 detik, dan layar success tampil 3 detik (0 = tunggu tap).
 
 ![UI Editor di Payment Screen](/img/docs/steps/tutorials-customise-kiosk-screens--pix-design-ui-editor-payment.webp)
+
+Di Light, kalau waktu **Pay with** habis, booth balik ke Start dan gak ada yang ditagih. Templates lanjut dengan frame yang disorot, Filter dengan filter yang sedang dipakai, dan Choose your photos mengisi slot kosong lalu lanjut. Gak ada timer yang jalan selama pembayaran berlangsung.
+
+Harga tampil dalam mata uang akun kamu, misalnya Rp 35.000 atau $35.00.
+
+**Project Light lama?** Klik **Update to the latest Light layout** di editor. Halaman dibangun ulang ke desain Light terbaru, dan warna, logo, teks dan setelan halaman kamu tetap. Gak ada yang berubah sebelum kamu klik. Tampilan baru butuh booth app 1.2.58 atau lebih baru.
+
+Di project Light, tombol bisa menampilkan ikon: pilih tombolnya lalu buka **Properties > Icon**.
 
 Layar success juga muncul kalau voucher menutup seluruh harga; sesi gratis melewati Payment Screen sama sekali. Popup pembayaran QR ngambil warna, font dan tombolnya dari desain ini.
 

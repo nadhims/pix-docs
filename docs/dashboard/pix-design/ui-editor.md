@@ -83,6 +83,29 @@ A new account's first project is Light when all its booths run Pixture Photoboot
 
 Light projects need Pixture Photobooth 1.2.56 or newer to show the letter tiles and the header band. An older booth shows the title as plain text ("photo booth") and the band as a plain box. When an assigned booth is older, the editor shows "Needs booth app 1.2.56 or newer on: \{booth names\}".
 
+### Update to the latest Light layout
+
+A Light project made before this update keeps its old pages until you ask. Click **Update to the latest Light layout** in the editor and the pages are rebuilt to the newest Light design. Your colours, logo, texts and page settings stay. Nothing changes until you click it.
+
+### Button icons
+
+On Light projects a button can show an icon. Select the button, then open **Properties > Icon**.
+
+- **Back arrow only**: just the arrow in a round button.
+- **Arrow after the text**: the text, then an arrow.
+- **Rotate before the text**: a rotate arrow, then the text. Retake uses it.
+
+### Light timers
+
+On a Light project these pages have a timer. None of them runs while a payment is in progress.
+
+- **Pay with**: when it runs out, the booth goes back to the Start screen. Nothing is charged.
+- **Templates**: continues with the highlighted frame.
+- **Filter**: continues with the current filter.
+- **Choose your photos** (Assign): fills the empty slots and continues.
+
+Light needs booth app 1.2.58 or newer for the new look. Older booths keep the previous Light look.
+
 ## Editor Anatomy
 
 ![UI Editor on the Start Screen of a Photo and Decor project: page tabs, the canvas with the Mode buttons, Page Background, Modes with Edit modes, Session Trigger checkboxes and Home Page Settings](/img/docs/pix-design-ui-editor-start.webp)
@@ -156,6 +179,8 @@ An optional tutorial or intro screen between Start and Payment. Turn on **Enable
 
 Where customers pay before choosing a template. Prices come from the booth's [Pricing](../booth-pricing.md) tab; the editor decides how the screen looks and behaves.
 
+- On a Light project the **Payment Screen** tab has a row of sub-tabs: **Choose your print**, **How many?**, **Pay with** and **QR Pay**. **Advanced** adds **Voucher**, **Coin**, **Card** and **Payment Success**. The canvas shows a real preview of each Light page.
+<!-- TODO screenshot: dashboard: UI Editor Payment Screen tab with the sub-tabs row on a Light project (replaces the old Payment Screen shot for Light) -->
 - The main page shows the packages and the payment methods. Each method has its own sub-screen: **voucher**, **coins**, **card** and **success**. Turn a method on and its sub-screen tab appears; a click area wired to a method counts as turning it on.
 - Payment blocks: **Payment method** (one tile per method: **QR / QRIS payment**, **Voucher code**, **Card**, **Cash** or **Staff access**; a method the booth can't take is hidden there and the tiles close up), **Payment QR** (the QR code the customer scans; its popup takes your colours, fonts and buttons), **Voucher Input** (a ready-made card with an editable title, subtitle and button), **Voucher Field** (only the code box, for your own artwork; Enter or your own button redeems) and **Payment Status**.
 - **Timeout**: after 120 s idle on Payment the booth returns to Start (0 = never); on the voucher, coin or card step it returns to the methods after 60 s; the success screen dwells 3 s (0 = wait for a tap), and tapping any empty area continues.
@@ -167,7 +192,7 @@ On a Pix Starter computer the Payment screen is forced off. Turning **Payment on
 
 ![UI Editor on the Templates screen](/img/docs/pix-design-ui-editor-templates.webp)
 
-The template picker. The **Template Cards** block is a grid you shape with a card scale, rows and columns, a scroll direction, and an optional scrollbar with its own width, padding and colours; dragging a corner of the block scales the cards. Category buttons above the grid come from your templates' categories (see [Folders and Categories](./folders-and-collections.md)), and each card shows the thumbnail rendered by the template editor. An **Arrow** block is a round button that picks the previous or next layout; set its **Direction** to **Previous** or **Next**. A page timer can send an undecided customer back to Start.
+The template picker. The **Template Cards** block is a grid you shape with a card scale, rows and columns, a scroll direction, and an optional scrollbar with its own width, padding and colours; dragging a corner of the block scales the cards. Category buttons above the grid come from your templates' categories (see [Folders and Categories](./folders-and-collections.md)), and each card shows the thumbnail rendered by the template editor. An **Arrow** block is a round button that picks the previous or next layout; set its **Direction** to **Previous** or **Next**. A page timer can send an undecided customer back to Start. On Light projects the timer continues with the highlighted frame instead.
 
 ### Capture
 
