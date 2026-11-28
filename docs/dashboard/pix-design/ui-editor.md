@@ -85,7 +85,7 @@ Light projects need Pixture Photobooth 1.2.56 or newer to show the letter tiles 
 
 ### Update to the latest Light layout
 
-A Light project made before this update keeps its old pages until you ask. Click **Update to the latest Light layout** in the editor and the pages are rebuilt to the newest Light design. Your colours, logo, texts and page settings stay. Nothing changes until you click it.
+A Light project made before this update keeps its old pages until you ask. Open the **Start Screen** settings and click **Update to the latest Light layout** under **Light layout**. The pages are rebuilt with the newest Light design: blocks move to the new design and blocks you deleted come back. Your colours, logo, texts and page settings stay. Nothing is kept until you click **Save**, and **Undo** takes it back.
 
 ### Button icons
 
